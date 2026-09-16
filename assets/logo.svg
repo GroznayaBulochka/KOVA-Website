@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.708 60.655" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">KOVA logo</title>
+  <defs>
+    <linearGradient id="kova-gold-right" x1="27.868" y1="61.263" x2="28.025" y2="0.201" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C18C40" />
+      <stop offset="1" stop-color="#F8DC95" />
+    </linearGradient>
+    <linearGradient id="kova-gold-left" x1="28.348" y1="58.286" x2="28.495" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C18C40" />
+      <stop offset="1" stop-color="#F8DC95" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#kova-gold-right)" d="M30.206.201v20.447l2.027 3.407 3.456 5.884.001.001.27.46c.129.21.256.425.379.645 1.824 3.379 2.832 7.757 2.832 12.296 0 8.54-4.727 15.351-9.729 17.314 15.869-1.325 29.266-13.983 29.266-29.907C58.708 14.659 46.256 1.314 30.206.201Z" />
+  <path fill="url(#kova-gold-left)" d="M26.577 0C11.611 1.063.001 13.801 0 29.158c0 15.2 13.103 28.22 27.899 29.485-4.665-1.874-9.682-9.313-9.682-17.465.009-4.339.96-8.519 2.672-11.737h-.03l.606-1.055.002-.003 3.386-5.614 1.491-2.331L26.577 0Z" />
+</svg>

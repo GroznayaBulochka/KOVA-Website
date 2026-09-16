@@ -1,0 +1,16 @@
+{
+  "name": "KOVA — Your finances. A brighter tomorrow.",
+  "short_name": "KOVA",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07100f",
+  "theme_color": "#07100f",
+  "description": "A private personal finance assistant for understanding your money and planning what comes next.",
+  "icons": [{
+    "src": "assets/logo.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "any maskable"
+  }]
+}
