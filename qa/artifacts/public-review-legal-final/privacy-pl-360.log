@@ -1,0 +1,141 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "title": "Polityka prywatności KOVA — KOVA",
+  "lang": "pl",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 360,
+    "scrollWidth": 360
+  },
+  "overflowElements": [
+    {
+      "tag": "TABLE",
+      "className": "",
+      "text": "DostawcaCelKategoria danychOpcjonalne?Polityka dostawcyGoogle Firebase Authentic",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    },
+    {
+      "tag": "THEAD",
+      "className": "",
+      "text": "DostawcaCelKategoria danychOpcjonalne?Polityka dostawcy",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    },
+    {
+      "tag": "TR",
+      "className": "",
+      "text": "DostawcaCelKategoria danychOpcjonalne?Polityka dostawcy",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Kategoria danych",
+      "left": 276,
+      "right": 377,
+      "scrollWidth": 102
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Opcjonalne?",
+      "left": 377,
+      "right": 497,
+      "scrollWidth": 120
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Polityka dostawcy",
+      "left": 497,
+      "right": 660,
+      "scrollWidth": 163
+    },
+    {
+      "tag": "TBODY",
+      "className": "",
+      "text": "Google Firebase Authenticationlogowanie i tożsamośćUID, email, profil, stan auth",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    },
+    {
+      "tag": "TR",
+      "className": "",
+      "text": "Google Firebase Authenticationlogowanie i tożsamośćUID, email, profil, stan auth",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "UID, email, profil, stan auth",
+      "left": 276,
+      "right": 377,
+      "scrollWidth": 102
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "tak, poza funkcjami wymagającymi logowania",
+      "left": 377,
+      "right": 497,
+      "scrollWidth": 120
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "https://policies.google.com/privacy",
+      "left": 497,
+      "right": 660,
+      "scrollWidth": 163
+    },
+    {
+      "tag": "TR",
+      "className": "",
+      "text": "Google Cloud FirestoreFamily Sharingdane rodziny, członkowie, zasobytakhttps://f",
+      "left": 40,
+      "right": 660,
+      "scrollWidth": 620
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 2,
+  "visiblePrimaryAction": true,
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review-legal-final/privacy-pl-360.png"
+}
+

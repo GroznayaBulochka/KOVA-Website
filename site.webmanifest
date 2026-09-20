@@ -1,12 +1,12 @@
 {
-  "name": "KOVA — Your finances. A brighter tomorrow.",
+  "name": "KOVA — oficjalna strona projektu",
   "short_name": "KOVA",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#07100f",
   "theme_color": "#07100f",
-  "description": "A private personal finance assistant for understanding your money and planning what comes next.",
+  "description": "Oficjalna strona aplikacji KOVA: funkcje, ekrany, status i dokumenty projektu.",
   "icons": [{
     "src": "assets/logo.svg",
     "sizes": "any",

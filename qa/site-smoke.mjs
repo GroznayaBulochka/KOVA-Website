@@ -1,0 +1,258 @@
+import { spawn } from 'node:child_process';
+import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+
+const edge = process.env.KOVA_EDGE || 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
+const origin = process.argv[2] || 'http://127.0.0.1:4173/';
+const output = process.argv[3] || join(tmpdir(), 'kova-website-mobile.png');
+const viewportWidth = Number(process.argv[4] || 390);
+const viewportHeight = Number(process.argv[5] || 844);
+const previewMode = process.argv[6] || '';
+const profile = await mkdtemp(join(tmpdir(), 'kova-site-cdp-'));
+
+const browser = spawn(edge, [
+  '--headless=new', '--disable-gpu', '--hide-scrollbars', '--remote-debugging-port=0',
+  `--user-data-dir=${profile}`, 'about:blank',
+], { stdio: 'ignore' });
+
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+let socket;
+try {
+  let port;
+  for (let attempt = 0; attempt < 50 && !port; attempt += 1) {
+    try { port = Number((await readFile(join(profile, 'DevToolsActivePort'), 'utf8')).split(/\r?\n/)[0]); }
+    catch { await delay(100); }
+  }
+  if (!port) throw new Error('Edge DevTools port was not created');
+  let targets;
+  for (let attempt = 0; attempt < 50 && !targets; attempt += 1) {
+    try { targets = await (await fetch(`http://127.0.0.1:${port}/json/list`)).json(); }
+    catch { await delay(100); }
+  }
+  if (!targets) throw new Error('Edge DevTools did not become ready');
+  const target = targets.find(item => item.type === 'page');
+  if (!target) throw new Error('No page target returned by Edge');
+
+  socket = new WebSocket(target.webSocketDebuggerUrl);
+  await new Promise((resolve, reject) => {
+    socket.addEventListener('open', resolve, { once: true });
+    socket.addEventListener('error', reject, { once: true });
+  });
+  let nextId = 1;
+  const waiting = new Map();
+  const runtimeErrors = [];
+  socket.addEventListener('message', event => {
+    const message = JSON.parse(event.data);
+    if (message.method === 'Runtime.exceptionThrown') runtimeErrors.push(message.params.exceptionDetails.text + ': ' + (message.params.exceptionDetails.exception?.description || ''));
+    if (message.id && waiting.has(message.id)) {
+      const { resolve, reject } = waiting.get(message.id);
+      waiting.delete(message.id);
+      message.error ? reject(new Error(message.error.message)) : resolve(message.result);
+    }
+  });
+  const send = (method, params = {}) => new Promise((resolve, reject) => {
+    const id = nextId++;
+    waiting.set(id, { resolve, reject });
+    socket.send(JSON.stringify({ id, method, params }));
+  });
+
+  await send('Page.enable');
+  await send('Runtime.enable');
+  await send('Emulation.setDeviceMetricsOverride', { width: viewportWidth, height: viewportHeight, deviceScaleFactor: 1, mobile: viewportWidth < 700 });
+  await send('Page.navigate', { url: origin });
+  await delay(5000);
+
+  const evaluation = await send('Runtime.evaluate', {
+    returnByValue: true,
+    awaitPromise: true,
+    expression: `(async () => {
+      const workspace = Boolean(document.querySelector('[data-task-dialog]'));
+      const landing = Boolean(document.querySelector('#site-language'));
+      const legal = Boolean(document.querySelector('[data-document-language], [data-legal-language]'));
+      const documentPage = Boolean(document.querySelector('.document-shell'));
+      const projectPage = Boolean(document.querySelector('[data-project-language]'));
+      const requestedLanguage = new URL(location.href).searchParams.get('lang') || 'pl';
+      let faqWorks = true;
+      let consentRevoked = true;
+      let publicNavigation = true;
+      let sharedFooter = true;
+      let languageRaceSafe = true;
+      let initialCards = 0;
+      let dialogOpened = true;
+      let taskCreated = true;
+      let menuOpened = true;
+      let lightboxOpened = true;
+      let videoOpened = true;
+      let languageChanged = true;
+      let legalContentLoaded = true;
+      let cookieShown = true;
+      let cookieDismissed = true;
+      let analyticsCookies = true;
+      let analyticsAbsentBeforeConsent = true;
+      let essentialOnlyWorks = true;
+      let homeButtonPresent = true;
+      if (workspace) {
+        homeButtonPresent = Boolean(document.querySelector('.workspace-home-button[href="index.html"]'));
+        const language = document.querySelector('#workspace-language');
+        language.value = 'ru';
+        language.dispatchEvent(new Event('change', { bubbles: true }));
+        languageChanged = document.documentElement.lang === 'ru';
+        localStorage.removeItem('kova_workspace_v1');
+        initialCards = document.querySelectorAll('.task-card').length;
+        document.querySelector('[data-open-task]').click();
+        const dialog = document.querySelector('[data-task-dialog]');
+        dialogOpened = dialog.open;
+        const form = document.querySelector('[data-task-form]');
+        form.elements.title.value = 'QA smoke task';
+        form.elements.details.value = 'Created by local browser smoke test';
+        form.requestSubmit();
+        taskCreated = [...document.querySelectorAll('.task-card h4')].some(node => node.textContent === 'QA smoke task');
+        localStorage.removeItem('kova_workspace_v1');
+      } else if (landing) {
+        const preview = ${JSON.stringify(previewMode)};
+        const language = document.querySelector('#site-language');
+        language.value = 'en';
+        language.dispatchEvent(new Event('change', { bubbles: true }));
+        languageChanged = document.documentElement.lang === 'en' && document.querySelector('[data-i18n="navFeatures"]').textContent === 'Features';
+        cookieShown = document.querySelector('[data-cookie-banner]')?.hidden === false;
+        analyticsAbsentBeforeConsent = !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=');
+        if (preview !== 'cookies') {
+          document.querySelector('[data-cookie-essential]').click();
+          essentialOnlyWorks = document.cookie.includes('kova_cookie_consent=essential') && !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=');
+          document.querySelector('[data-cookie-settings]').click();
+          document.querySelector('[data-cookie-analytics-toggle]').checked = true;
+          document.querySelector('[data-cookie-save]').click();
+          cookieDismissed = document.querySelector('[data-cookie-banner]')?.hidden === true && document.cookie.includes('kova_cookie_consent=analytics');
+          analyticsCookies = document.cookie.includes('kova_analytics_id=') && document.cookie.includes('kova_analytics_session=');
+          document.querySelector('[data-cookie-settings]').click();
+          document.querySelector('[data-cookie-analytics-toggle]').checked = false;
+          document.querySelector('[data-cookie-save]').click();
+          consentRevoked = document.cookie.includes('kova_cookie_consent=essential') && !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=') && !document.cookie.includes('kova_analytics_page_count=') && !window.KOVA_ANALYTICS.track('after_revoke');
+        }
+        const faq = document.querySelector('#faq details');
+        faq.querySelector('summary').click();
+        faqWorks = faq.open && faq.querySelector('p').getBoundingClientRect().height > 0;
+        faq.querySelector('summary').click();
+        document.querySelector('[data-video-open]').click();
+        const video = document.querySelector('[data-video-dialog]');
+        const firstVideoImage = video.querySelector('[data-video-image]').getAttribute('src');
+        video.querySelector('[data-video-next]').click();
+        videoOpened = video.open && video.querySelector('[data-video-image]').getAttribute('src') !== firstVideoImage;
+        video.querySelector('[data-video-close]').click();
+        const menu = document.querySelector('.menu-button');
+        menu.click();
+        menuOpened = document.querySelector('.main-nav').classList.contains('open') && menu.getAttribute('aria-expanded') === 'true';
+        menu.click();
+        document.querySelector('[data-lightbox]').click();
+        const lightbox = document.querySelector('.lightbox');
+        lightboxOpened = lightbox.open && Boolean(lightbox.querySelector('img').getAttribute('src'));
+        lightbox.close();
+        if (preview === 'video') document.querySelector('[data-video-open]').click();
+        language.value = requestedLanguage;
+        language.dispatchEvent(new Event('change', { bubbles: true }));
+      } else if (legal) {
+        legalContentLoaded = Boolean(document.querySelector('[data-legal-page-heading], [data-doc-lang]:not([hidden]) h1'));
+        const language = document.querySelector('[data-document-language], [data-legal-language]');
+        language.value = 'ru';
+        language.dispatchEvent(new Event('change', { bubbles: true }));
+        await new Promise(resolve => setTimeout(resolve, 900));
+        languageChanged = document.documentElement.lang === 'ru';
+        if (document.querySelector('[data-doc-lang="ru"]')) languageChanged = languageChanged && !document.querySelector('[data-doc-lang="ru"]').hidden && document.querySelector('[data-doc-lang="pl"]').hidden;
+        if (document.querySelector('[data-legal-content]')) legalContentLoaded = document.querySelector('[data-legal-content]').getAttribute('aria-busy') === 'false' && Boolean(document.querySelector('[data-legal-page-heading]'));
+        if (document.querySelector('[data-legal-content]')) {
+          const nativeFetch = window.fetch;
+          window.fetch = async (...args) => { if (String(args[0]).includes('-pl.md')) await new Promise(resolve => setTimeout(resolve, 700)); return nativeFetch(...args); };
+          language.value = 'pl'; language.dispatchEvent(new Event('change', { bubbles: true }));
+          language.value = 'ru'; language.dispatchEvent(new Event('change', { bubbles: true }));
+          await new Promise(resolve => setTimeout(resolve, 1300));
+          languageRaceSafe = /[А-Яа-я]/.test(document.querySelector('[data-legal-page-heading]')?.textContent || '') && document.documentElement.lang === 'ru';
+          window.fetch = nativeFetch;
+        }
+        language.value = requestedLanguage; language.dispatchEvent(new Event('change', { bubbles: true }));
+        await new Promise(resolve => setTimeout(resolve, 900));
+      } else if (projectPage) {
+        const language = document.querySelector('[data-project-language]');
+        for (const lang of ['en','ru','pl']) {
+          language.value = lang; language.dispatchEvent(new Event('change', { bubbles: true }));
+          await new Promise(resolve => setTimeout(resolve, 30));
+          languageChanged = languageChanged && document.documentElement.lang === lang && document.querySelector('h1').textContent === window.KOVA_PROJECT_PAGES[document.body.dataset.projectPage][lang].title;
+        }
+        language.value = requestedLanguage; language.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+      if (documentPage) {
+        const toggle = document.querySelector('.public-menu');
+        toggle.click();
+        publicNavigation = toggle.getAttribute('aria-expanded') === 'true' && document.querySelector('.public-nav').classList.contains('open');
+        document.dispatchEvent(new KeyboardEvent('keydown', { key:'Escape', bubbles:true }));
+        publicNavigation = publicNavigation && toggle.getAttribute('aria-expanded') === 'false';
+      }
+      if (!workspace) {
+        await new Promise(resolve => setTimeout(resolve, 60));
+        sharedFooter = Boolean(document.querySelector('.public-footer a[href^="contact.html"]')) && Boolean(document.querySelector('.public-footer a[href^="privacy.html"]'));
+        const languageLinks = [...document.querySelectorAll('.public-footer a[href]')].filter(link => link.getAttribute('href').includes('.html'));
+        languageChanged = languageChanged && languageLinks.every(link => new URL(link.href).searchParams.get('lang') === document.documentElement.lang);
+      }
+      // Load lazy screenshots before testing the final layout and producing visual evidence.
+      document.querySelectorAll('img[loading="lazy"]').forEach(image => { image.loading = 'eager'; });
+      await Promise.all([...document.images].filter(image => image.getAttribute('src')).map(image => image.decode().catch(() => {})));
+      if (${JSON.stringify(previewMode)} !== 'video') {
+        document.activeElement?.blur(); window.scrollTo({top:0, behavior:'instant'});
+      }
+      return {
+        workspace,
+        landing,
+        legal,
+        documentPage,
+        projectPage,
+        faqWorks,
+        consentRevoked,
+        publicNavigation,
+        sharedFooter,
+        languageRaceSafe,
+        settingsDeepLinkConsumed: !landing || new URL(location.href).searchParams.get('cookies') !== 'settings',
+        unnamedControls: [...document.querySelectorAll('a,button,summary')].filter(node => node.getBoundingClientRect().width > 0 && !node.getAttribute('aria-label') && !node.innerText.trim() && !node.querySelector('img[alt]:not([alt=""])')).map(node => node.outerHTML.slice(0,220)),
+        title: document.title,
+        lang: document.documentElement.lang,
+        viewport: { width: innerWidth, height: innerHeight },
+        scrollY: Math.round(window.scrollY),
+        layout: { clientWidth: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth },
+        overflowElements: [...document.querySelectorAll('body *')].filter(node => { const rect = node.getBoundingClientRect(); return rect.right > innerWidth + 1 || rect.left < -1; }).slice(0, 12).map(node => ({ tag:node.tagName, className:node.className || '', text:(node.textContent || '').trim().slice(0, 80), left:Math.round(node.getBoundingClientRect().left), right:Math.round(node.getBoundingClientRect().right), scrollWidth:node.scrollWidth })),
+        brokenImages: [...document.images].filter(image => image.getAttribute('src') && image.loading !== 'lazy' && image.complete && image.naturalWidth === 0).map(image => image.getAttribute('src')),
+        missingLocalLinks: [...document.querySelectorAll('a[href]')].filter(link => !link.href || link.getAttribute('href') === '#').length,
+        initialCards,
+        dialogOpened,
+        taskCreated,
+        menuOpened,
+        lightboxOpened,
+        videoOpened,
+        languageChanged,
+        legalContentLoaded,
+        cookieShown,
+        cookieDismissed,
+        analyticsCookies,
+        analyticsAbsentBeforeConsent,
+        essentialOnlyWorks,
+        homeButtonPresent,
+        renderedSvgIcons: [...document.querySelectorAll('svg use')].filter(node => node.parentElement.getBoundingClientRect().width > 0).length,
+        visiblePrimaryAction: legal || documentPage || Boolean(document.querySelector('.hero-actions .button-gold, [data-open-task]')?.getBoundingClientRect().width > 0)
+      };
+    })()`,
+  });
+  await delay(250);
+  const screenshot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: previewMode === 'full' });
+  await writeFile(output, Buffer.from(screenshot.data, 'base64'));
+  if (evaluation.exceptionDetails) throw new Error(evaluation.exceptionDetails.exception?.description || evaluation.exceptionDetails.text);
+  const result = evaluation.result.value;
+  if (runtimeErrors.length) throw new Error(runtimeErrors.join('\n'));
+  if (result.unnamedControls.length) throw new Error('Controls without an accessible name: ' + JSON.stringify(result.unnamedControls));
+  if (!result.settingsDeepLinkConsumed) throw new Error('Cookie settings link must not reopen on every reload');
+  if (!result.faqWorks || !result.consentRevoked || !result.publicNavigation || !result.sharedFooter || !result.languageRaceSafe) throw new Error('Public site regression: ' + JSON.stringify(result));
+  if (result.layout.scrollWidth !== result.layout.clientWidth) throw new Error(`Horizontal overflow: ${JSON.stringify({ layout:result.layout, elements:result.overflowElements })}`);
+  const minimumIcons = result.legal ? 2 : result.documentPage ? 0 : 5;
+  if (result.brokenImages.length || !result.dialogOpened || !result.taskCreated || !result.menuOpened || !result.lightboxOpened || !result.videoOpened || !result.languageChanged || !result.legalContentLoaded || !result.cookieShown || !result.cookieDismissed || !result.analyticsCookies || !result.analyticsAbsentBeforeConsent || !result.essentialOnlyWorks || !result.homeButtonPresent || result.renderedSvgIcons < minimumIcons || !result.visiblePrimaryAction) throw new Error(`Smoke assertion failed: ${JSON.stringify(result)}`);
+  console.log(JSON.stringify({ ...result, screenshot: output }, null, 2));
+} finally {
+  socket?.close();
+  browser.kill();
+}

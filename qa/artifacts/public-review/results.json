@@ -1,0 +1,362 @@
+[
+  {
+    "id": "index-pl-360",
+    "started": "2026-09-19T22:59:32.194Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-360.png"
+  },
+  {
+    "id": "index-en-768",
+    "started": "2026-09-19T22:59:39.417Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-en-768.png"
+  },
+  {
+    "id": "index-ru-1440",
+    "started": "2026-09-19T22:59:46.502Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-1440.png"
+  },
+  {
+    "id": "status-pl-360",
+    "started": "2026-09-19T22:59:53.754Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/status.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-pl-360.png"
+  },
+  {
+    "id": "status-en-768",
+    "started": "2026-09-19T23:00:00.748Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/status.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-en-768.png"
+  },
+  {
+    "id": "status-ru-1440",
+    "started": "2026-09-19T23:00:07.752Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/status.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/status-ru-1440.png"
+  },
+  {
+    "id": "roadmap-pl-360",
+    "started": "2026-09-19T23:00:14.669Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/roadmap.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-pl-360.png"
+  },
+  {
+    "id": "roadmap-en-768",
+    "started": "2026-09-19T23:00:21.540Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/roadmap.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-en-768.png"
+  },
+  {
+    "id": "roadmap-ru-1440",
+    "started": "2026-09-19T23:00:28.434Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/roadmap.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/roadmap-ru-1440.png"
+  },
+  {
+    "id": "updates-pl-360",
+    "started": "2026-09-19T23:00:35.375Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/updates.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-pl-360.png"
+  },
+  {
+    "id": "updates-en-768",
+    "started": "2026-09-19T23:00:42.213Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/updates.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-en-768.png"
+  },
+  {
+    "id": "updates-ru-1440",
+    "started": "2026-09-19T23:00:49.116Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/updates.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/updates-ru-1440.png"
+  },
+  {
+    "id": "security-pl-360",
+    "started": "2026-09-19T23:00:56.009Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/security.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-pl-360.png"
+  },
+  {
+    "id": "security-en-768",
+    "started": "2026-09-19T23:01:02.842Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/security.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-en-768.png"
+  },
+  {
+    "id": "security-ru-1440",
+    "started": "2026-09-19T23:01:09.763Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/security.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/security-ru-1440.png"
+  },
+  {
+    "id": "contact-pl-360",
+    "started": "2026-09-19T23:01:16.864Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/contact.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-pl-360.png"
+  },
+  {
+    "id": "contact-en-768",
+    "started": "2026-09-19T23:01:23.976Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/contact.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-en-768.png"
+  },
+  {
+    "id": "contact-ru-1440",
+    "started": "2026-09-19T23:01:31.046Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/contact.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/contact-ru-1440.png"
+  },
+  {
+    "id": "privacy-pl-360",
+    "started": "2026-09-19T23:01:38.055Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/privacy.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-pl-360.png"
+  },
+  {
+    "id": "privacy-en-768",
+    "started": "2026-09-19T23:01:48.117Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/privacy.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-en-768.png"
+  },
+  {
+    "id": "privacy-ru-1440",
+    "started": "2026-09-19T23:01:58.227Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/privacy.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/privacy-ru-1440.png"
+  },
+  {
+    "id": "terms-pl-360",
+    "started": "2026-09-19T23:02:08.420Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/terms.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-pl-360.png"
+  },
+  {
+    "id": "terms-en-768",
+    "started": "2026-09-19T23:02:18.480Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/terms.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-en-768.png"
+  },
+  {
+    "id": "terms-ru-1440",
+    "started": "2026-09-19T23:02:28.507Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/terms.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/terms-ru-1440.png"
+  },
+  {
+    "id": "cookies-pl-360",
+    "started": "2026-09-19T23:02:38.645Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/cookies.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-pl-360.png"
+  },
+  {
+    "id": "cookies-en-768",
+    "started": "2026-09-19T23:02:49.177Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/cookies.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-en-768.png"
+  },
+  {
+    "id": "cookies-ru-1440",
+    "started": "2026-09-19T23:03:04.724Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/cookies.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/cookies-ru-1440.png"
+  },
+  {
+    "id": "404-pl-360",
+    "started": "2026-09-19T23:03:13.530Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/404.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-pl-360.png"
+  },
+  {
+    "id": "404-en-768",
+    "started": "2026-09-19T23:03:20.764Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/404.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-en-768.png"
+  },
+  {
+    "id": "404-ru-1440",
+    "started": "2026-09-19T23:03:27.877Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/404.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-ru-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-ru-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/404-ru-1440.png"
+  },
+  {
+    "id": "index-ru-320",
+    "started": "2026-09-19T23:03:34.982Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-320.png 320 700 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-320.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-320.png"
+  },
+  {
+    "id": "index-pl-1440-full",
+    "started": "2026-09-19T23:03:42.355Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-1440-full.png 1440 1000 full",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-1440-full.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-1440-full.png"
+  },
+  {
+    "id": "index-pl-390-cookies",
+    "started": "2026-09-19T23:03:50.812Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-390-cookies.png 390 844 cookies",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-390-cookies.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-pl-390-cookies.png"
+  },
+  {
+    "id": "index-ru-360-video",
+    "started": "2026-09-19T23:03:58.372Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/index.html?lang=ru C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-360-video.png 360 640 video",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-360-video.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/index-ru-360-video.png"
+  },
+  {
+    "id": "workspace-pl-390",
+    "started": "2026-09-19T23:04:05.774Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/workspace.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-390.png 390 844 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-390.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-390.png"
+  },
+  {
+    "id": "workspace-pl-1440",
+    "started": "2026-09-19T23:04:13.001Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/workspace.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-1440.png 1440 900 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-1440.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\public-review/workspace-pl-1440.png"
+  }
+]

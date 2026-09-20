@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kova.app/</loc><lastmod>2026-09-15</lastmod><priority>1.0</priority></url>
-  <url><loc>https://kova.app/roadmap.html</loc><lastmod>2026-09-15</lastmod><priority>0.8</priority></url>
-  <url><loc>https://kova.app/privacy.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/terms.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/security.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/cookies.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/contact.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/updates.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
-  <url><loc>https://kova.app/status.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/</loc><lastmod>2026-09-20</lastmod><priority>1.0</priority></url>
+  <url><loc>https://kova.app/roadmap.html</loc><lastmod>2026-09-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://kova.app/privacy.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/terms.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/security.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/cookies.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/contact.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/updates.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
+  <url><loc>https://kova.app/status.html</loc><lastmod>2026-09-20</lastmod><priority>0.5</priority></url>
 </urlset>
