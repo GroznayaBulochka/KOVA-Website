@@ -1,0 +1,129 @@
+{
+  "capturedAt": "2026-10-21T21:41:38.241Z",
+  "data": "FICTIONAL_SYNTHETIC_ONLY",
+  "captureMethod": "adb screencap -p; unchanged PNG bytes",
+  "runtime": {
+    "packageName": "com.kova.budget.offlinequalification",
+    "avd": "KOVA_Demo",
+    "serial": "emulator-5560",
+    "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
+    "internetPermission": false,
+    "androidApi": 37,
+    "pageSize": 16384,
+    "airplaneMode": true,
+    "timezone": "Europe/Warsaw",
+    "resolution": "1080x2400",
+    "appVersion": "1.0.8 (10)",
+    "apk": "../KOVA-App/app/build/outputs/apk/debug/app-debug.apk",
+    "apkSha256": "c4a227d1193630db819b9f2df8acfa0cbcd6325ee3c5591cbc40215c3b0b2412",
+    "testApk": "../KOVA-App/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+    "testApkSha256": "de24bcde25e3230fb38e637a3946de8662657d4ff06abc5bb74f4a21e4d79809",
+    "profile": "Marta Nowak — fictional, isolated local profile",
+    "normalUiSetup": "Completed real onboarding; language Polish and dark theme selected through ordinary app settings. No UI replacement or screenshot editing.",
+    "scope": "Presentation screenshots, not complete Android release qualification"
+  },
+  "fixture": {
+    "verification": "PASS",
+    "testLog": "qa/artifacts/presentation-2026-10-21/fixture-test.log",
+    "countsLog": "qa/artifacts/presentation-2026-10-21/fixture-counts.log",
+    "afterUiTestLog": "qa/artifacts/presentation-2026-10-21/fixture-after-ui.log",
+    "uniqueTestCases": 1,
+    "successfulExecutions": 2,
+    "testSource": "../KOVA-App/app/src/androidTestPhoneFreeV1/java/com/kova/budget/qualification/OfflinePresentationDemoTest.kt",
+    "testSourceSha256": "759da8deaa1015cf383362a4fc10d8a2de9319ecbb9824ee289e41ba9bae9a91",
+    "scenario": "Marta Nowak — fictional Polish household; 3 accounts, six months through 2026-10-21, salary 6200 PLN/month, varied everyday expenses and own-account transfers",
+    "checks": "Independent exact balance reconciliation; persisted row count; positive amounts; owner binding; unique transaction IDs; six salaries; recurring settlement amounts/dates/links",
+    "source": "../KOVA-App/app/src/debug/java/com/kova/budget/demo/DemoDataset.kt",
+    "sha256": "7ddd2f671ce4295c197d3d21f5643a1f2d92358430186a21eefe9ae31fe72abc",
+    "statisticsClaim": false
+  },
+  "screenshots": [
+    {
+      "id": "home",
+      "asset": "assets/screenshots/offline-demo-home.png",
+      "original": "qa/artifacts/presentation-2026-10-21/home-ready.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/home-ready-ui.xml",
+      "uiSha256": "34a514e7f0d96e977d395f1d31a30c96952fe81f4e640c523683cd11cca405ac",
+      "bytes": 251592,
+      "sha256": "06790b00d6caa834128199bb964bcdf4603d092dbef715d52f5fec9c0b8b36c6",
+      "edited": false
+    },
+    {
+      "id": "accounts",
+      "asset": "assets/screenshots/offline-demo-accounts.png",
+      "original": "qa/artifacts/presentation-2026-10-21/accounts.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/accounts-ui.xml",
+      "uiSha256": "6c7de3d059bd4ade650b60b43cf2eedecd5ef87ce75320b26debf2588792c75b",
+      "bytes": 574527,
+      "sha256": "a2a0eec493f093c3016d629b6c80468718ec37758ce6b353f96178988ecc9c6a",
+      "edited": false
+    },
+    {
+      "id": "transactions",
+      "asset": "assets/screenshots/offline-demo-transactions.png",
+      "original": "qa/artifacts/presentation-2026-10-21/transactions.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/transactions-ui.xml",
+      "uiSha256": "5d16fc5b73e9ae3528db2bde0393234641d4161e8d8c40dab71934faa7826010",
+      "bytes": 248758,
+      "sha256": "e2c3503f7acea3a1273f1fd4be854d340d96ae3b8587dac97e101fcd85755a1c",
+      "edited": false
+    },
+    {
+      "id": "budgets",
+      "asset": "assets/screenshots/offline-demo-budgets.png",
+      "original": "qa/artifacts/presentation-2026-10-21/budgets.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/budgets-ui.xml",
+      "uiSha256": "2997f15e655305ef3a6452fa9dadcb28609bfdc59c1033e4641f504da7b57389",
+      "bytes": 623324,
+      "sha256": "92fea2f21ecf3ca52947970d0679821214031e186c7122e4b4d49c7b454b1db7",
+      "edited": false
+    },
+    {
+      "id": "recurring",
+      "asset": "assets/screenshots/offline-demo-recurring.png",
+      "original": "qa/artifacts/presentation-2026-10-21/recurring.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/recurring-ui.xml",
+      "uiSha256": "7b29c70c6abd59c31b2542c4fc09978814f6ce65e00c202778deb768e0085447",
+      "bytes": 572408,
+      "sha256": "d12320b5106253646e16b1a2121cb57474dcef43e92db26b685386f79099b2ed",
+      "edited": false
+    },
+    {
+      "id": "reports",
+      "asset": "assets/screenshots/offline-demo-reports.png",
+      "original": "qa/artifacts/presentation-2026-10-21/reports-ready.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/reports-ready-ui.xml",
+      "uiSha256": "70a66266ef2a5efd1e686af5eb1daeb49753d0c1bf1bece6fae409f16bcd87cb",
+      "bytes": 665664,
+      "sha256": "cc5a5d9c5540b15d6f996ec0ae051ff8c69c218e1b2b2e14159564fdd573e830",
+      "edited": false
+    },
+    {
+      "id": "calendar",
+      "asset": "assets/screenshots/offline-demo-calendar.png",
+      "original": "qa/artifacts/presentation-2026-10-21/calendar.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/calendar-ui.xml",
+      "uiSha256": "5c3ca7709da988a0784a95a214ae456ed2db6b2cd1f97efafac5ac65840305b1",
+      "bytes": 729890,
+      "sha256": "233f02bd8bca35636560e31cde1f08a04ae9d089b4d8ff0c434a35f46a8b8e73",
+      "edited": false
+    },
+    {
+      "id": "notes",
+      "asset": "assets/screenshots/offline-demo-notes.png",
+      "original": "qa/artifacts/presentation-2026-10-21/notes.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-21/notes-ui.xml",
+      "uiSha256": "2ec881750d5b454c5cfdb68d58d85e3d81c42d4ee52e7dcc0079298b3b7fc3b6",
+      "bytes": 656469,
+      "sha256": "2711a49d50a6fe8bf3a29f67a69ee2d6af0d18e7b991123f575e09bed93ebba2",
+      "edited": false
+    }
+  ],
+  "published": false,
+  "limitations": [
+    "Emulator captures, not physical phone photography",
+    "Polish app UI; website descriptions in PL/EN/RU",
+    "Debug-signed offline qualification package; not a signed production release",
+    "Not evidence of complete release qualification or human usability validation"
+  ]
+}

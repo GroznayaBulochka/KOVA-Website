@@ -18,6 +18,7 @@ const browser = spawn(edge, [
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 let socket;
+let closeBrowser;
 try {
   let port;
   for (let attempt = 0; attempt < 50 && !port; attempt += 1) {
@@ -42,8 +43,10 @@ try {
   let nextId = 1;
   const waiting = new Map();
   const runtimeErrors = [];
+  const unexpectedRequests = [];
   socket.addEventListener('message', event => {
     const message = JSON.parse(event.data);
+    if (message.method === 'Network.requestWillBeSent' && /^https?:/.test(message.params.request.url) && new URL(message.params.request.url).origin !== new URL(origin).origin) unexpectedRequests.push(message.params.request.url);
     if (message.method === 'Runtime.exceptionThrown') runtimeErrors.push(message.params.exceptionDetails.text + ': ' + (message.params.exceptionDetails.exception?.description || ''));
     if (message.id && waiting.has(message.id)) {
       const { resolve, reject } = waiting.get(message.id);
@@ -56,12 +59,56 @@ try {
     waiting.set(id, { resolve, reject });
     socket.send(JSON.stringify({ id, method, params }));
   });
+  closeBrowser = () => send('Browser.close');
 
   await send('Page.enable');
   await send('Runtime.enable');
+  await send('Network.enable');
+  await send('Page.addScriptToEvaluateOnNewDocument',{source:`
+    window.__languageWrites=[];
+    const descriptor=Object.getOwnPropertyDescriptor(HTMLElement.prototype,'lang');
+    Object.defineProperty(HTMLElement.prototype,'lang',{...descriptor,set(value){
+      if(this===document.documentElement) window.__languageWrites.push({value,at:performance.now(),stack:new Error().stack});
+      descriptor.set.call(this,value);
+    }});
+  `});
+  if (previewMode === 'resilience') {
+    await send('Network.enable');
+    await send('Network.setCookie',{name:'kova_cookie_consent',value:'%',url:origin});
+    await send('Page.addScriptToEvaluateOnNewDocument',{source:"Storage.prototype.getItem=function(){throw new Error('storage disabled')}; Storage.prototype.setItem=function(){throw new Error('storage disabled')};"});
+  }
   await send('Emulation.setDeviceMetricsOverride', { width: viewportWidth, height: viewportHeight, deviceScaleFactor: 1, mobile: viewportWidth < 700 });
   await send('Page.navigate', { url: origin });
   await delay(5000);
+
+  // Native browser keyboard events verify focus and activation, not just value assignment.
+  const key = async (key,code,vk) => {
+    await send('Input.dispatchKeyEvent',{type:'keyDown',key,code,windowsVirtualKeyCode:vk});
+    await send('Input.dispatchKeyEvent',{type:'keyUp',key,code,windowsVirtualKeyCode:vk});
+  };
+  const evaluate = async expression => {
+    const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});
+    if(r.exceptionDetails)throw new Error(r.exceptionDetails.text);
+    return r.result.value;
+  };
+  if (await evaluate('Boolean(document.querySelector(".language-trigger"))')) {
+    await evaluate('document.querySelector(".language-trigger").focus()');
+    await key('ArrowDown','ArrowDown',40);
+    if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "true" && document.activeElement.matches(".language-option")')) throw new Error('Language keyboard open/focus failed');
+    await key('Home','Home',36); await key('ArrowDown','ArrowDown',40); await key('Enter','Enter',13);
+    await delay(400);
+    if (!await evaluate('document.documentElement.lang === "en" && document.querySelector(".language-trigger").ariaExpanded === "false" && document.activeElement.matches(".language-trigger") && new URL(location.href).searchParams.get("lang") === "en"')) throw new Error('Language keyboard selection/focus/URL failed: '+JSON.stringify(await evaluate('({lang:document.documentElement.lang,expanded:document.querySelector(".language-trigger").ariaExpanded,focus:document.activeElement.outerHTML,url:location.href,writes:window.__languageWrites})')));
+    await key('ArrowDown','ArrowDown',40); await key('End','End',35); await key('Escape','Escape',27);
+    if (!await evaluate('document.documentElement.lang === "en" && document.querySelector(".language-trigger").ariaExpanded === "false" && document.activeElement.matches(".language-trigger")')) throw new Error('Language Escape changed selection or lost focus');
+    await key('ArrowDown','ArrowDown',40); await key(' ','Space',32);
+    if (!await evaluate('document.documentElement.lang === "en" && document.querySelector(".language-trigger").ariaExpanded === "false" && document.activeElement.matches(".language-trigger")')) throw new Error('Language Space activation/focus failed');
+    await key('ArrowDown','ArrowDown',40); await key('Tab','Tab',9);
+    if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "false" && !document.activeElement.matches(".language-option")')) throw new Error('Language Tab traps focus');
+    // Restore the case language using the actual custom option.
+    const initialLanguage = new URL(origin).searchParams.get('lang') || 'pl';
+    await evaluate(`document.querySelector('.language-trigger').click();document.querySelector('[data-language="${initialLanguage}"]').click()`);
+    await delay(500);
+  } else if (!origin.includes('workspace.html')) throw new Error('Custom language control missing');
 
   const evaluation = await send('Runtime.evaluate', {
     returnByValue: true,
@@ -78,12 +125,14 @@ try {
       let publicNavigation = true;
       let sharedFooter = true;
       let languageRaceSafe = true;
+      let languagePickerWorks = true;
       let initialCards = 0;
       let dialogOpened = true;
       let taskCreated = true;
       let menuOpened = true;
       let lightboxOpened = true;
       let videoOpened = true;
+        let tourNavigation = true;
       let languageChanged = true;
       let legalContentLoaded = true;
       let cookieShown = true;
@@ -137,8 +186,30 @@ try {
         document.querySelector('[data-video-open]').click();
         const video = document.querySelector('[data-video-dialog]');
         const firstVideoImage = video.querySelector('[data-video-image]').getAttribute('src');
+        const playIcon = video.querySelector('[data-video-play] use');
+        tourNavigation = playIcon.getAttribute('href').endsWith('#play');
         video.querySelector('[data-video-next]').click();
         videoOpened = video.open && video.querySelector('[data-video-image]').getAttribute('src') !== firstVideoImage;
+         const chapters = [...video.querySelectorAll('[data-video-chapter]')];
+         const gallery = [...document.querySelectorAll('[data-screen-index]')];
+         chapters.at(-1).click();
+         tourNavigation = tourNavigation && chapters.length === gallery.length && chapters.length === 8
+           && chapters.at(-1).getAttribute('aria-current') === 'step'
+           && video.querySelector('[data-video-counter]').textContent === (chapters.length + ' / ' + chapters.length)
+           && video.querySelector('[data-video-image]').getAttribute('src') === gallery.at(-1).querySelector('img').getAttribute('src');
+         video.dispatchEvent(new KeyboardEvent('keydown', {key:'Home', bubbles:true}));
+         tourNavigation = tourNavigation && video.querySelector('[data-video-image]').getAttribute('src') === firstVideoImage;
+         video.dispatchEvent(new KeyboardEvent('keydown', {key:'End', bubbles:true}));
+         tourNavigation = tourNavigation && chapters.at(-1).getAttribute('aria-current') === 'step';
+         video.querySelector('[data-video-play]').click();
+         tourNavigation = tourNavigation && video.querySelector('[data-video-image]').getAttribute('src') === firstVideoImage
+           && playIcon.getAttribute('href').endsWith('#pause');
+         if (preview === 'video' && innerWidth === 1440 && requestedLanguage === 'pl') {
+           await new Promise(resolve => setTimeout(resolve, 7300));
+           tourNavigation = tourNavigation && video.querySelector('[data-video-counter]').textContent === '2 / 8';
+         }
+         video.querySelector('[data-video-play]').click();
+         tourNavigation = tourNavigation && playIcon.getAttribute('href').endsWith('#play');
         video.querySelector('[data-video-close]').click();
         const menu = document.querySelector('.menu-button');
         menu.click();
@@ -159,7 +230,8 @@ try {
         await new Promise(resolve => setTimeout(resolve, 900));
         languageChanged = document.documentElement.lang === 'ru';
         if (document.querySelector('[data-doc-lang="ru"]')) languageChanged = languageChanged && !document.querySelector('[data-doc-lang="ru"]').hidden && document.querySelector('[data-doc-lang="pl"]').hidden;
-        if (document.querySelector('[data-legal-content]')) legalContentLoaded = document.querySelector('[data-legal-content]').getAttribute('aria-busy') === 'false' && Boolean(document.querySelector('[data-legal-page-heading]'));
+        // The canonical offline draft marks its H1, which the renderer moves to the page heading.
+        if (document.querySelector('[data-legal-content]')) legalContentLoaded = document.querySelector('[data-legal-content]').getAttribute('aria-busy') === 'false' && document.querySelectorAll('[data-legal-content] h2').length >= 10 && /DRAFT|SZKIC|ЧЕРНОВИК/i.test(document.querySelector('[data-legal-page-heading]').textContent);
         if (document.querySelector('[data-legal-content]')) {
           const nativeFetch = window.fetch;
           window.fetch = async (...args) => { if (String(args[0]).includes('-pl.md')) await new Promise(resolve => setTimeout(resolve, 700)); return nativeFetch(...args); };
@@ -171,6 +243,13 @@ try {
         }
         language.value = requestedLanguage; language.dispatchEvent(new Event('change', { bubbles: true }));
         await new Promise(resolve => setTimeout(resolve, 900));
+        const toc = document.querySelector('.legal-toc');
+        if (toc) {
+          toc.open = true;
+          legalContentLoaded = legalContentLoaded && [...toc.querySelectorAll('a')].every(link =>
+            link.innerText.trim() && document.getElementById(decodeURIComponent(link.hash.slice(1))));
+          toc.open = false;
+        }
       } else if (projectPage) {
         const language = document.querySelector('[data-project-language]');
         for (const lang of ['en','ru','pl']) {
@@ -189,6 +268,16 @@ try {
       }
       if (!workspace) {
         await new Promise(resolve => setTimeout(resolve, 60));
+        const picker = document.querySelector('.language-picker');
+        const trigger = picker.querySelector('.language-trigger');
+        trigger.click();
+        languagePickerWorks = trigger.getAttribute('aria-expanded') === 'true' && !picker.querySelector('.language-options').hidden && picker.querySelectorAll('[role="option"]').length === 3;
+        const bounds = picker.querySelector('.language-options').getBoundingClientRect();
+        languagePickerWorks = languagePickerWorks && bounds.left >= 0 && bounds.right <= innerWidth && bounds.bottom <= innerHeight;
+        languagePickerWorks = languagePickerWorks && picker.querySelector('[aria-selected="true"]').dataset.language === document.documentElement.lang;
+        document.body.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true}));
+        languagePickerWorks = languagePickerWorks && picker.querySelector('.language-options').hidden;
+        languagePickerWorks = languagePickerWorks && getComputedStyle(picker.querySelector('select')).display === 'none';
         sharedFooter = Boolean(document.querySelector('.public-footer a[href^="contact.html"]')) && Boolean(document.querySelector('.public-footer a[href^="privacy.html"]'));
         const languageLinks = [...document.querySelectorAll('.public-footer a[href]')].filter(link => link.getAttribute('href').includes('.html'));
         languageChanged = languageChanged && languageLinks.every(link => new URL(link.href).searchParams.get('lang') === document.documentElement.lang);
@@ -199,6 +288,7 @@ try {
       if (${JSON.stringify(previewMode)} !== 'video') {
         document.activeElement?.blur(); window.scrollTo({top:0, behavior:'instant'});
       }
+      if (${JSON.stringify(previewMode)} === 'language') document.querySelector('.language-trigger').click();
       return {
         workspace,
         landing,
@@ -210,8 +300,13 @@ try {
         publicNavigation,
         sharedFooter,
         languageRaceSafe,
+        languagePickerWorks,
+        languageWrites: (window.__languageWrites || []).map(({value,at}) => ({value,at})),
+        legalDiagnostics: [...document.querySelectorAll('.legal-toc a')].map(a => ({label:a.textContent,href:a.getAttribute('href'),target:Boolean(document.getElementById(decodeURIComponent(a.hash.slice(1))))})),
         settingsDeepLinkConsumed: !landing || new URL(location.href).searchParams.get('cookies') !== 'settings',
-        unnamedControls: [...document.querySelectorAll('a,button,summary')].filter(node => node.getBoundingClientRect().width > 0 && !node.getAttribute('aria-label') && !node.innerText.trim() && !node.querySelector('img[alt]:not([alt=""])')).map(node => node.outerHTML.slice(0,220)),
+        // Chromium may retain layout boxes for content inside closed details.
+        // TOC links are tested while expanded above; hidden links are not interactive.
+        unnamedControls: [...document.querySelectorAll('a,button,summary')].filter(node => (!node.closest('details:not([open])') || node.tagName === 'SUMMARY') && node.getBoundingClientRect().width > 0 && !node.getAttribute('aria-label') && !node.innerText.trim() && !node.querySelector('img[alt]:not([alt=""])')).map(node => node.outerHTML.slice(0,220)),
         title: document.title,
         lang: document.documentElement.lang,
         viewport: { width: innerWidth, height: innerHeight },
@@ -226,6 +321,11 @@ try {
         menuOpened,
         lightboxOpened,
         videoOpened,
+          tourNavigation,
+        tourControlsVisible: ${JSON.stringify(previewMode)} !== 'video' || [...document.querySelectorAll('.video-controls button')].every(button => {
+          const rect = button.getBoundingClientRect();
+          return rect.top >= 0 && rect.bottom <= innerHeight && rect.left >= 0 && rect.right <= innerWidth;
+        }),
         languageChanged,
         legalContentLoaded,
         cookieShown,
@@ -245,14 +345,23 @@ try {
   if (evaluation.exceptionDetails) throw new Error(evaluation.exceptionDetails.exception?.description || evaluation.exceptionDetails.text);
   const result = evaluation.result.value;
   if (runtimeErrors.length) throw new Error(runtimeErrors.join('\n'));
+  if (unexpectedRequests.length) throw new Error('Unexpected non-local website requests: '+JSON.stringify(unexpectedRequests));
+  if (!result.languagePickerWorks) throw new Error('Language picker regression: '+JSON.stringify(result));
+  if (!result.tourControlsVisible) throw new Error('Presentation controls clipped: '+JSON.stringify(result));
+  if (result.missingLocalLinks) throw new Error('Unresolved page links: '+JSON.stringify(result));
   if (result.unnamedControls.length) throw new Error('Controls without an accessible name: ' + JSON.stringify(result.unnamedControls));
   if (!result.settingsDeepLinkConsumed) throw new Error('Cookie settings link must not reopen on every reload');
-  if (!result.faqWorks || !result.consentRevoked || !result.publicNavigation || !result.sharedFooter || !result.languageRaceSafe) throw new Error('Public site regression: ' + JSON.stringify(result));
+    if (!result.faqWorks || !result.consentRevoked || !result.publicNavigation || !result.sharedFooter || !result.languageRaceSafe || !result.tourNavigation) throw new Error('Public site regression: ' + JSON.stringify(result));
   if (result.layout.scrollWidth !== result.layout.clientWidth) throw new Error(`Horizontal overflow: ${JSON.stringify({ layout:result.layout, elements:result.overflowElements })}`);
   const minimumIcons = result.legal ? 2 : result.documentPage ? 0 : 5;
   if (result.brokenImages.length || !result.dialogOpened || !result.taskCreated || !result.menuOpened || !result.lightboxOpened || !result.videoOpened || !result.languageChanged || !result.legalContentLoaded || !result.cookieShown || !result.cookieDismissed || !result.analyticsCookies || !result.analyticsAbsentBeforeConsent || !result.essentialOnlyWorks || !result.homeButtonPresent || result.renderedSvgIcons < minimumIcons || !result.visiblePrimaryAction) throw new Error(`Smoke assertion failed: ${JSON.stringify(result)}`);
-  console.log(JSON.stringify({ ...result, screenshot: output }, null, 2));
+  console.log(JSON.stringify({ ...result, keyboardSelection:'PASS', unexpectedPageRequests:unexpectedRequests, screenshot: output }, null, 2));
 } finally {
+  // Close the owned browser normally before killing its launcher. Otherwise an
+  // open DevTools socket can hold a successful Node process until the watchdog.
+  if (closeBrowser && socket?.readyState === WebSocket.OPEN) {
+    await Promise.race([closeBrowser().catch(() => {}), delay(2000)]);
+  }
   socket?.close();
-  browser.kill();
+  if (browser.exitCode === null) browser.kill();
 }

@@ -1,0 +1,10 @@
+{
+  "serial": "emulator-5560",
+  "exitCode": 0,
+  "atUtc": "2026-10-21T21:22:25.8477113Z",
+  "arguments": [
+    "shell",
+    "rm",
+    "/data/local/tmp/kova-qualification-268f1d500b374198a6adc6de3c51a8ab.xml"
+  ]
+}

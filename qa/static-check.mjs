@@ -28,7 +28,7 @@ for (const [file, source] of searchable) for (const pattern of forbidden) if (pa
 
 const home = await readFile(join(root, 'index.html'), 'utf8');
 if (!home.includes('href="workspace.html"')) failures.push('index.html: missing Workspace entry point');
-if (!home.includes('assets/screenshots/kova-home-device.png')) failures.push('index.html: missing real app screenshot');
+if (!home.includes('assets/screenshots/offline-demo-home.png')) failures.push('index.html: missing current Offline V1 demonstration screenshot');
 if (!home.includes('id="site-language"')) failures.push('index.html: missing main language selector');
 for (const legalPage of ['privacy.html', 'terms.html', 'cookies.html']) if (!home.includes(`href="${legalPage}"`)) failures.push(`index.html: missing visible ${legalPage} link`);
 

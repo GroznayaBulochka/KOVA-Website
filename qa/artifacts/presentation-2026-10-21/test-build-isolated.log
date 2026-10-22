@@ -1,0 +1,576 @@
+> Task :advisor:preBuild UP-TO-DATE
+> Task :advisor:preDebugBuild UP-TO-DATE
+> Task :advisor:generateDebugResources
+> Task :advisor:packageDebugResources
+> Task :advisor:processDebugNavigationResources UP-TO-DATE
+> Task :advisor:parseDebugLocalResources
+> Task :advisor:generateDebugRFile
+> Task :advisor:generateDebugBuildConfig UP-TO-DATE
+> Task :core-event:preBuild UP-TO-DATE
+> Task :core-event:preDebugBuild UP-TO-DATE
+> Task :core-event:generateDebugResources
+> Task :core-event:packageDebugResources
+> Task :core-event:processDebugNavigationResources UP-TO-DATE
+> Task :core-event:parseDebugLocalResources
+> Task :core-event:generateDebugRFile
+> Task :core-event:kspDebugKotlin UP-TO-DATE
+> Task :core-event:compileDebugKotlin
+> Task :core-event:javaPreCompileDebug
+> Task :core-event:compileDebugJavaWithJavac
+> Task :core-event:transformDebugClassesWithAsm
+> Task :core-event:bundleLibCompileToJarDebug
+> Task :advisor:kspDebugKotlin UP-TO-DATE
+> Task :advisor:compileDebugKotlin
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/advisor/src/main/java/com/kova/advisor/domain/controlled/LimitedAdvisorInterpreter.kt:90:109 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ControlledOutcome.Rejected'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/advisor/src/main/java/com/kova/advisor/domain/controlled/LimitedAdvisorInterpreter.kt:102:85 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ControlledOutcome'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/advisor/src/main/java/com/kova/advisor/domain/orchestration/AdvisorOrchestratorImpl.kt:647:23 Cast is redundant.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/advisor/src/main/java/com/kova/advisor/presentation/screen/AdvisorMessageItem.kt:109:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+
+> Task :advisor:javaPreCompileDebug
+> Task :advisor:compileDebugJavaWithJavac
+> Task :core-event:bundleLibRuntimeToJarDebug
+> Task :advisor:transformDebugClassesWithAsm
+> Task :advisor:bundleLibCompileToJarDebug
+> Task :app:generateThirdPartyLicenseCatalog UP-TO-DATE
+> Task :app:syncLegalDocuments UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:processDebugGoogleServices SKIPPED
+> Task :app:packageDebugResources
+> Task :automation:preBuild UP-TO-DATE
+> Task :automation:preDebugBuild UP-TO-DATE
+> Task :automation:processDebugNavigationResources UP-TO-DATE
+> Task :family:preBuild UP-TO-DATE
+> Task :family:preDebugBuild UP-TO-DATE
+> Task :family:processDebugNavigationResources UP-TO-DATE
+> Task :payroll-pl:preBuild UP-TO-DATE
+> Task :payroll-pl:preDebugBuild UP-TO-DATE
+> Task :payroll-pl:processDebugNavigationResources UP-TO-DATE
+> Task :work-income:preBuild UP-TO-DATE
+> Task :work-income:preDebugBuild UP-TO-DATE
+> Task :work-income:processDebugNavigationResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:registerDebugKspGeneratedJavaSources UP-TO-DATE
+> Task :automation:generateDebugResources
+> Task :automation:packageDebugResources
+> Task :automation:parseDebugLocalResources
+> Task :automation:generateDebugRFile
+> Task :automation:generateDebugBuildConfig UP-TO-DATE
+> Task :automation:kspDebugKotlin UP-TO-DATE
+> Task :automation:compileDebugKotlin
+> Task :automation:javaPreCompileDebug
+> Task :automation:compileDebugJavaWithJavac
+> Task :automation:transformDebugClassesWithAsm
+> Task :automation:bundleLibCompileToJarDebug
+> Task :family:generateDebugResources
+> Task :family:packageDebugResources
+> Task :family:parseDebugLocalResources
+> Task :family:generateDebugRFile
+> Task :family:generateDebugBuildConfig UP-TO-DATE
+> Task :family:kspDebugKotlin UP-TO-DATE
+
+> Task :family:compileDebugKotlin
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/family/src/main/java/com/kova/family/presentation/components/SharingBadges.kt:55:58 'val Icons.Filled.Comment: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Comment.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/family/src/main/java/com/kova/family/presentation/screen/FamilyHubScreen.kt:96:43 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+
+> Task :family:javaPreCompileDebug
+> Task :family:compileDebugJavaWithJavac
+> Task :family:transformDebugClassesWithAsm
+> Task :family:bundleLibCompileToJarDebug
+> Task :payroll-pl:generateDebugResources
+> Task :payroll-pl:packageDebugResources
+> Task :payroll-pl:parseDebugLocalResources
+> Task :payroll-pl:generateDebugRFile
+> Task :work-income:generateDebugResources
+> Task :work-income:packageDebugResources
+> Task :work-income:parseDebugLocalResources
+> Task :work-income:generateDebugRFile
+
+> Task :work-income:compileDebugKotlin
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/work-income/src/main/java/com/kova/workincome/domain/ScheduleValidator.kt:35:86 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+
+> Task :work-income:javaPreCompileDebug
+> Task :work-income:compileDebugJavaWithJavac NO-SOURCE
+> Task :work-income:bundleLibCompileToJarDebug
+> Task :payroll-pl:kspDebugKotlin UP-TO-DATE
+> Task :payroll-pl:compileDebugKotlin
+> Task :payroll-pl:javaPreCompileDebug
+> Task :payroll-pl:compileDebugJavaWithJavac
+> Task :work-income:bundleLibRuntimeToJarDebug
+> Task :payroll-pl:transformDebugClassesWithAsm
+> Task :payroll-pl:bundleLibCompileToJarDebug
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/BudgetWidget.kt:797:15 'fun setRemoteAdapter(p0: Int, p1: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/BudgetWidget.kt:829:26 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:398:15 'fun setRemoteAdapter(p0: Int, p1: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:455:26 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:537:15 'fun setRemoteAdapter(p0: Int, p1: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:593:26 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:670:15 'fun setRemoteAdapter(p0: Int, p1: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:722:26 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:834:17 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/NotebookWidgets.kt:929:17 'fun notifyAppWidgetViewDataChanged(p0: IntArray!, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/advisor/adapter/KovaLimitedAdvisorBridge.kt:121:67 Unnecessary safe call on a non-null receiver of type 'AppSettings'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/advisor/adapter/KovaLimitedAdvisorBridge.kt:121:113 Unnecessary safe call on a non-null receiver of type 'AppSettings'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/automation/integration/FamilyAutomationAdapter.kt:11:35 'typealias FamilyRepository = FamilyManagementRepository' is deprecated. Use FamilyManagementRepository for family lifecycle and membership data.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/CategoryAppIcons.kt:39:63 Unnecessary safe call on a non-null receiver of type 'CharSequence'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/LocalAiCallbackResult.kt:38:33 The corresponding parameter in the supertype 'LocalAiTextCallback' is named 'text'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/LocalAiManager.kt:371:42 'fun showCellularDataConfirmation(p0: Activity): Task<Int!>!' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/local/KovaMigrations.kt:78:25 Type argument for reified type parameter 'T' was inferred to the intersection of ['Comparable<*>' & 'Serializable']. Reification of an intersection type results in the common supertype being used. This may lead to subtle issues and an explicit type argument is encouraged. This will become an error in language version 2.6. See https://youtrack.jetbrains.com/issue/KTLC-399.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/local/KovaMigrations.kt:123:25 Type argument for reified type parameter 'T' was inferred to the intersection of ['Comparable<*>' & 'Serializable']. Reification of an intersection type results in the common supertype being used. This may lead to subtle issues and an explicit type argument is encouraged. This will become an error in language version 2.6. See https://youtrack.jetbrains.com/issue/KTLC-399.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/BudgetRepository.kt:213:111 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ClientOperationId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:70:44 Unchecked cast of 'Any?' to 'Set<AchievementId>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:73:42 Unchecked cast of 'Any?' to 'Pair<String?, List<FeatureUnlockEntity>>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:74:47 Unchecked cast of 'Any?' to 'Pair<String?, List<FeatureCapabilityUnlockEntity>>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:77:56 Unnecessary safe call on a non-null receiver of type 'LocalDataOwnerId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:77:94 Unnecessary safe call on a non-null receiver of type 'LocalDataOwnerId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/DefaultFeatureAccessRepository.kt:77:137 Unnecessary safe call on a non-null receiver of type 'LocalDataOwnerId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/NetWorthRepository.kt:250:50 Unnecessary safe call on a non-null receiver of type 'InvestmentSettingsEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/NoteConnectionAuthorization.kt:20:26 Unnecessary safe call on a non-null receiver of type 'Map<String, GoalEntity>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/NoteConnectionAuthorization.kt:24:32 Unnecessary safe call on a non-null receiver of type 'Map<String, ShoppingItemEntity>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/RoomAchievementRepository.kt:63:115 Unnecessary safe call on a non-null receiver of type 'LocalDataOwnerId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/RoomAchievementRepository.kt:83:120 Unnecessary safe call on a non-null receiver of type 'LocalDataOwnerId'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/RoomAchievementRepository.kt:276:65 Unnecessary safe call on a non-null receiver of type 'UserAchievementEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/repository/RoomAchievementRepository.kt:277:64 Unnecessary safe call on a non-null receiver of type 'UserAchievementEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/work/WorkIncomeAutomationRepositoryImpl.kt:48:67 Unnecessary safe call on a non-null receiver of type 'IncomeRecognitionCandidateEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/work/WorkIncomeAutomationRepositoryImpl.kt:49:74 Unnecessary safe call on a non-null receiver of type 'IncomeRecognitionCandidateEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/data/work/WorkIncomeForecastProvider.kt:58:14 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:132:34 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:142:34 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:282:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:366:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:382:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:456:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/achievements/AchievementRegistry.kt:466:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/calendar/FinancialCalendarLogic.kt:189:13 Expression is unused.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/features/KovaFeatureRegistry.kt:43:34 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/features/KovaFeatureRegistry.kt:114:34 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/features/KovaFeatureRegistry.kt:213:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/features/KovaFeatureRegistry.kt:281:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/features/UsageGoalRegistry.kt:110:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/lifeplanner/engine/MonteCarloSimulationEngineImpl.kt:70:13 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/lifeplanner/engine/SimulationCoordinator.kt:525:21 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/domain/lifeplanner/plan/PlanEngine.kt:26:116 Unnecessary non-null assertion (!!) on a non-null receiver of type 'LocalDate'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/notifications/investments/InvestmentMessagingService.kt:45:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/telemetry/AnalyticsPolicy.kt:9:34 Non-public primary constructor is exposed via the generated 'copy()' method of the 'data' class.
+
+The generated 'copy()' will change its visibility in future releases.
+
+To suppress the warning do one of the following:
+- Annotate the data class with the '@ConsistentCopyVisibility' annotation.
+- Use the '-Xconsistent-data-class-copy-visibility' compiler flag.
+- Annotate the data class with the '@ExposedCopyVisibility' annotation 
+  (Discouraged, but can be used to keep binary compatibility).
+
+To learn more, see the documentation of the '@ConsistentCopyVisibility' and '@ExposedCopyVisibility' annotations.
+
+This will become an error in language version 2.5. See https://youtrack.jetbrains.com/issue/KT-11914.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/telemetry/AnalyticsSession.kt:18:34 Non-public primary constructor is exposed via the generated 'copy()' method of the 'data' class.
+
+The generated 'copy()' will change its visibility in future releases.
+
+To suppress the warning do one of the following:
+- Annotate the data class with the '@ConsistentCopyVisibility' annotation.
+- Use the '-Xconsistent-data-class-copy-visibility' compiler flag.
+- Annotate the data class with the '@ExposedCopyVisibility' annotation 
+  (Discouraged, but can be used to keep binary compatibility).
+
+To learn more, see the documentation of the '@ConsistentCopyVisibility' and '@ExposedCopyVisibility' annotations.
+
+This will become an error in language version 2.5. See https://youtrack.jetbrains.com/issue/KT-11914.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/telemetry/UsageEvent.kt:46:30 Non-public primary constructor is exposed via the generated 'copy()' method of the 'data' class.
+
+The generated 'copy()' will change its visibility in future releases.
+
+To suppress the warning do one of the following:
+- Annotate the data class with the '@ConsistentCopyVisibility' annotation.
+- Use the '-Xconsistent-data-class-copy-visibility' compiler flag.
+- Annotate the data class with the '@ExposedCopyVisibility' annotation 
+  (Discouraged, but can be used to keep binary compatibility).
+
+To learn more, see the documentation of the '@ConsistentCopyVisibility' and '@ExposedCopyVisibility' annotations.
+
+This will become an error in language version 2.5. See https://youtrack.jetbrains.com/issue/KT-11914.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Accounts/AccountsReferenceControls.kt:39:75 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Accounts/EditAccountDialog.kt:291:57 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/AddTransaction/AddTransactionDialogs.kt:231:57 Unnecessary safe call on a non-null receiver of type 'SavedCategory'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/AddTransaction/AddTransactionScreen.kt:420:40 Unnecessary safe call on a non-null receiver of type 'BudgetAccount'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiControlComponents.kt:100:36 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiControlComponents.kt:245:48 'val Icons.Filled.Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiConversationComponents.kt:419:95 'val Icons.Filled.Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiConversationComponents.kt:455:34 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiDashboardSharedComponents.kt:361:34 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/Control/KovaAiDashboardSharedComponents.kt:375:34 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Ai/KovaIntelligenceScreen.kt:85:9 'fun LinearProgressIndicator(progress: Float, modifier: Modifier = ..., color: Color = ..., trackColor: Color = ..., strokeCap: StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BalanceTrendSection.kt:237:50 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BalanceTrendSection.kt:238:51 'val Icons.Filled.TrendingDown: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingDown.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BalanceTrendSection.kt:239:35 'val Icons.Filled.TrendingFlat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingFlat.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetFinancialMutationController.kt:152:21 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetFinancialMutationController.kt:160:21 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetNavigationComponents.kt:137:38 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetSpendingCategoryCards.kt:166:53 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetViewModel.kt:173:27 Unchecked cast of 'Any' to 'List<ExpenseCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetViewModel.kt:174:29 Unchecked cast of 'Any' to 'List<BudgetAccount>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetViewModel.kt:178:31 Unchecked cast of 'Any' to 'List<SavedCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetViewModel.kt:179:31 Unchecked cast of 'Any' to 'List<SavedCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetWorkFundingController.kt:65:33 Unchecked cast of 'Any' to 'List<ExpenseCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetWorkFundingController.kt:66:35 Unchecked cast of 'Any' to 'List<BudgetAccount>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetWorkFundingController.kt:67:38 Unchecked cast of 'Any' to 'List<BudgetGoal>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/BudgetWorkFundingController.kt:68:39 Unchecked cast of 'Any' to 'List<RegularPayment>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/CategoryHistoryDialog.kt:178:89 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/CategoryHistoryDialog.kt:327:59 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/EditTransactionDialog.kt:431:51 'val Icons.Filled.Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/EditTransactionDialog.kt:475:61 'val Icons.Filled.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Undo.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/HomeScreen.kt:414:50 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/MainMenuDialog.kt:262:46 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/MainMenuDialog.kt:280:50 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/MainMenuDialog.kt:299:46 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/MainMenuInvestmentCharts.kt:140:39 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/MainMenuInvestmentComponents.kt:159:31 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/ProfileSidebar.kt:351:50 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/ProfileSidebar.kt:359:21 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/ProfileSidebarRows.kt:195:41 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/ProfileSidebarRows.kt:344:81 'val Icons.Filled.Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/ProfileSidebarRows.kt:344:107 'val Icons.Filled.Login: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Login.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Budget/TransactionRowComponents.kt:192:57 'val Icons.Filled.Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Components.kt:176:53 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Donations/KovaSupportScreen.kt:146:9 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/ExpenseList.kt:100:53 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/ExpenseList.kt:207:25 Expression is unused.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Forecast/ForecastScreen.kt:276:13 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Forecast/ForecastViewModel.kt:50:10 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Goals/GoalsLimitsComponents.kt:183:215 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Help/HelpScreen.kt:461:50 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Help/HelpScreen.kt:464:50 'val Icons.Filled.Note: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Note.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Help/HelpScreen.kt:467:47 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Help/HelpShareActions.kt:21:21 'val LocalClipboardManager: ProvidableCompositionLocal<ClipboardManager>' is deprecated. Use LocalClipboard instead which supports suspend functions.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:21:27 'val Icons.Filled.DirectionsBike: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsBike.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:99:27 'val Icons.Filled.MenuBook: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.MenuBook.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:156:27 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:160:27 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:162:27 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:166:27 'val Icons.Filled.AssignmentReturn: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.AssignmentReturn.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:231:47 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/IconRegistry.kt:232:46 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/FinancialChart.kt:360:13 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentAccount.kt:52:23 This extension is shadowed by a member: 'fun withUpdatedHolding(holding: InvestmentHolding): InvestmentAccount' defined in 'com.kova.budget.domain.model.InvestmentAccount'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentAccount.kt:82:23 This extension is shadowed by a member: 'fun withIncludeInTotal(include: Boolean): InvestmentAccount' defined in 'com.kova.budget.domain.model.InvestmentAccount'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentAccount.kt:94:23 This extension is shadowed by a member: 'fun withVisibleInAccounts(visible: Boolean): InvestmentAccount' defined in 'com.kova.budget.domain.model.InvestmentAccount'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentAccount.kt:140:23 This extension is shadowed by a member: 'fun withoutTrackedTicker(ticker: String): InvestmentAccount' defined in 'com.kova.budget.domain.model.InvestmentAccount'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentDialogStockActions.kt:286:31 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentDialogStockChart.kt:268:39 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentMarketWatchlistRows.kt:54:24 'fun rememberSwipeToDismissBoxState(initialValue: SwipeToDismissBoxValue = ..., confirmValueChange: (SwipeToDismissBoxValue) -> Boolean = ..., positionalThreshold: (Float) -> Float = ...): SwipeToDismissBoxState' is deprecated. confirmValueChange is deprecated without replacement. Rather than relying on a callback to veto state changes, the anchor set should not include disallowed anchors. See androidx.compose.foundation.samples.AnchoredDraggableDynamicAnchorsSample for an example of using dynamic anchors over confirmValueChange.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentPortfolioComponents.kt:152:39 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/InvestmentWorkspaceViewModel.kt:459:53 'val token: Task<String!>' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Investing/MarketMetadata.kt:64:17 Duplicate branch condition in 'when'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Legal/LegalDocuments.kt:116:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/LifePlanner/PlanResults.kt:48:22 Condition is always 'false'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/LifePlanner/PlanResults.kt:51:13 Condition is always 'false'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/LifePlanner/PlanResults.kt:54:16 Condition is always 'false'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/LifePlanner/PlanWizard.kt:164:115 'val Icons.Filled.Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/NoteInsertSheet.kt:60:78 'val Icons.Filled.FormatListBulleted: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.FormatListBulleted.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/NoteTransactionPickerDialog.kt:124:134 'val Icons.Filled.Label: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Label.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/NoteTransactionPickerDialog.kt:127:130 'val Icons.Filled.Label: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Label.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/NoteTransactionPickerDialog.kt:140:109 'val Icons.Filled.ManageSearch: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ManageSearch.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/NoteTransactionPickerDialog.kt:229:78 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/RichNoteWritingScreen.kt:149:74 'static field SOFT_INPUT_ADJUST_RESIZE: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/RichNoteWritingScreen.kt:150:49 Unnecessary safe call on a non-null receiver of type 'Window'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Notebook/RichNoteWritingScreen.kt:509:56 'val Icons.Filled.Label: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Label.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/PeriodSelectionComponents.kt:192:35 'val Icons.Filled.KeyboardArrowLeft: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowLeft.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/PeriodSelectionComponents.kt:194:35 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/PeriodTabs.kt:208:39 'val Icons.Filled.KeyboardArrowLeft: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowLeft.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/PeriodTabs.kt:261:43 'val Icons.Filled.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.KeyboardArrowRight.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/QuickAction.kt:139:30 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/PriceHistoryScreen.kt:68:32 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ProductEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/PriceHistoryScreen.kt:81:124 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ProductEntity'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/PurchasesScreen.kt:61:40 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/PurchasesScreen.kt:103:5 'fun TabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., indicator: ComposableFunction1<List<TabPosition>, Unit> = ..., divider: ComposableFunction0<Unit> = ..., tabs: ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryTabRow and SecondaryTabRow.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptAiCleaner.kt:119:57 Unnecessary safe call on a non-null receiver of type 'LocalAiGeneration'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptComponents.kt:57:49 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptReadingOrder.kt:21:32 Condition is always 'true'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptReviewHeaderCards.kt:163:45 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptReviewItemEditor.kt:217:45 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptReviewItemEditor.kt:259:49 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptReviewItemEditor.kt:271:49 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptScannerStateComponents.kt:209:46 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptScannerStateComponents.kt:217:42 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Receipts/ReceiptScannerStateComponents.kt:358:42 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/RegularPayments/RecurringEmptyState.kt:82:91 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/RegularPayments/RecurringPaymentsContent.kt:228:44 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/RegularPayments/RegularPaymentDetailsScreen.kt:315:75 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/RegularPayments/RegularPaymentDetailsScreen.kt:316:76 'val Icons.Filled.TrendingDown: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingDown.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/RegularPayments/RegularPaymentEditorDialog.kt:459:33 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes ExposedDropdownMenuAnchorType and enabled parameters.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportSectionCard.kt:75:46 Unnecessary safe call on a non-null receiver of type 'Pair<String, () -> Unit>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsControls.kt:239:42 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsControls.kt:366:50 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsDetailComponents.kt:316:30 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsDetailComponents.kt:1071:57 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsReferenceAnalysis.kt:123:69 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsReferenceOverview.kt:107:147 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsReferenceWork.kt:99:101 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsScreen.kt:355:34 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsScreen.kt:479:103 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:193:38 Unchecked cast of 'Any?' to 'Set<ReportsAnalysisCardId>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:194:30 Unchecked cast of 'Any?' to 'List<ExpenseCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:195:33 Unchecked cast of 'Any?' to 'List<BudgetAccount>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:196:30 Unchecked cast of 'Any?' to 'List<BudgetGoal>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:197:36 Unchecked cast of 'Any?' to 'List<RegularPayment>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:198:32 Unchecked cast of 'Any?' to 'List<NetWorthItemEntity>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:199:34 Unchecked cast of 'Any?' to 'List<NetWorthSnapshotEntity>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:200:29 Unchecked cast of 'Any?' to 'List<VaultDocument>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Reports/ReportsViewModel.kt:209:45 Unchecked cast of 'Any?' to 'List<SavedCategory>'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/FamilyActivityScreen.kt:82:70 'val Icons.Filled.Note: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Note.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/FamilyUiComponents.kt:59:50 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/FamilyUiComponents.kt:64:49 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/FamilyUiComponents.kt:302:80 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/SettingsScreen.kt:167:34 'fun createConfirmDeviceCredentialIntent(p0: CharSequence!, p1: CharSequence!): Intent!' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Settings/ThirdPartyLicensesScreen.kt:148:57 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/TaxCenter/TaxReferenceContent.kt:146:80 Condition is always 'false'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/TaxCenter/TaxReferenceContent.kt:149:80 Condition is always 'false'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Timeline/TimelineScreen.kt:401:52 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Timeline/TimelineScreen.kt:402:94 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Vault/VaultDocumentDetailsScreen.kt:133:53 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Vault/VaultScreen.kt:86:48 'val Icons.Filled.Sort: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Sort.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Vault/VaultScreen.kt:440:52 'val Icons.Filled.ReceiptLong: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ReceiptLong.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Vault/VaultScreen.kt:446:65 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/Vault/VaultViewModel.kt:75:83 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/achievements/AchievementBadge.kt:49:31 'val Icons.Filled.Label: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Label.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/achievements/AchievementBrowserCards.kt:108:44 'val Icons.Filled.FormatListBulleted: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.FormatListBulleted.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/achievements/AchievementCatalogContent.kt:87:78 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/achievements/AchievementCatalogContent.kt:242:54 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/notifications/NotificationSettingsScreen.kt:78:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/theme/KovaSystemBars.kt:30:51 Unnecessary safe call on a non-null receiver of type 'WindowInsetsControllerCompat'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/theme/KovaSystemBars.kt:31:55 Unnecessary safe call on a non-null receiver of type 'WindowInsetsControllerCompat'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/ui/work/WorkProfileReferenceContent.kt:249:21 Condition is always 'true'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:18:34 'class MasterKey : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:31:49 'class MasterKey : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:35:32 'class MasterKey : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:35:42 'constructor(p0: Context, p1: String): MasterKey.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:36:31 'class MasterKey : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:36:41 'enum class KeyScheme : Enum<MasterKey.KeyScheme!>' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:74:34 'class EncryptedSharedPreferences : Any, SharedPreferences' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:78:17 'class EncryptedSharedPreferences : Any, SharedPreferences' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:78:44 'enum class PrefKeyEncryptionScheme : Enum<EncryptedSharedPreferences.PrefKeyEncryptionScheme!>' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:79:17 'class EncryptedSharedPreferences : Any, SharedPreferences' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/utils/SecurityUtils.kt:79:44 'enum class PrefValueEncryptionScheme : Enum<EncryptedSharedPreferences.PrefValueEncryptionScheme!>' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:28:29 'val amount: Double?' is deprecated. Use amountMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:82:61 'val currentBalance: Double?' is deprecated. Use currentBalanceMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:85:60 'val todayExpenses: Double?' is deprecated. Use todayExpensesMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:88:58 'val todayIncome: Double?' is deprecated. Use todayIncomeMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:91:60 'val monthExpenses: Double?' is deprecated. Use monthExpensesMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearPayloads.kt:94:57 'val budgetLeft: Double?' is deprecated. Use budgetLeftMinorUnits for transport.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/main/java/com/kova/budget/wear/WearTransactionCurrencyPolicy.kt:18:12 'val amount: Double?' is deprecated. Use amountMinorUnits for transport.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac
+> Task :advisor:bundleLibRuntimeToJarDebug
+> Task :automation:bundleLibRuntimeToJarDebug
+> Task :family:bundleLibRuntimeToJarDebug
+> Task :payroll-pl:bundleLibRuntimeToJarDebug
+> Task :app:hiltCollectClassesDebug
+> Task :app:hiltAggregateDepsDebug UP-TO-DATE
+> Task :app:hiltJavaCompileDebug
+> Task :advisor:mapDebugSourceSetPaths
+> Task :advisor:compileDebugLibraryResources
+> Task :advisor:writeDebugAarMetadata
+> Task :automation:writeDebugAarMetadata
+> Task :core-event:writeDebugAarMetadata
+> Task :family:writeDebugAarMetadata
+> Task :payroll-pl:writeDebugAarMetadata
+> Task :work-income:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :advisor:extractDeepLinksDebug
+> Task :advisor:processDebugManifest
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :automation:extractDeepLinksDebug
+> Task :automation:processDebugManifest
+> Task :core-event:extractDeepLinksDebug
+> Task :core-event:processDebugManifest
+> Task :family:extractDeepLinksDebug
+> Task :family:processDebugManifest
+> Task :payroll-pl:extractDeepLinksDebug
+> Task :payroll-pl:processDebugManifest
+> Task :work-income:extractDeepLinksDebug
+> Task :work-income:processDebugManifest
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :automation:mapDebugSourceSetPaths
+> Task :automation:compileDebugLibraryResources
+> Task :core-event:mapDebugSourceSetPaths
+> Task :core-event:compileDebugLibraryResources
+> Task :family:mapDebugSourceSetPaths
+> Task :family:compileDebugLibraryResources
+> Task :payroll-pl:mapDebugSourceSetPaths
+> Task :payroll-pl:compileDebugLibraryResources
+> Task :work-income:mapDebugSourceSetPaths
+> Task :work-income:compileDebugLibraryResources
+> Task :app:processDebugResources
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:mergeDebugAndroidTestManifest UP-TO-DATE
+> Task :app:processDebugAndroidTestManifest UP-TO-DATE
+> Task :app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateDebugAndroidTestResources UP-TO-DATE
+> Task :app:packageDebugAndroidTestResources
+> Task :app:processDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateDebugAndroidTestRFile UP-TO-DATE
+> Task :app:kspDebugAndroidTestKotlin
+> Task :app:compileDebugAndroidTestKotlin
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/AccountsReadinessDeviceTest.kt:42:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/AccountsVisualDeviceTest.kt:36:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/AdvancedNoteEditorDeviceTest.kt:54:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/CalendarReferenceDeviceTest.kt:36:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/GoalsLimitsDeviceTest.kt:44:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/KovaDesignSystemDeviceTest.kt:38:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/LifePlannerPlanDeviceTest.kt:44:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/NoteWindowChangesDeviceTest.kt:43:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/NotebookNavigationUiTest.kt:58:23 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/NotebookRedesignDeviceTest.kt:56:27 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/NotesLayoutAndLinksDeviceTest.kt:43:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/NotificationCenterAccessibilityTest.kt:26:23 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/ProSubscriptionDeviceTest.kt:32:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/QuickCategoryWidgetConfigureAccessibilityTest.kt:28:23 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/RecurringPaymentsDeviceTest.kt:46:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/ReleaseDeletionDisclosureDeviceTest.kt:26:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/ReleaseFinancialEntryUiDeviceTest.kt:43:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/ReportsReferenceDeviceTest.kt:41:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/StoreScreenshotsDeviceTest.kt:48:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/TaxReferenceDeviceTest.kt:32:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/WorkProfileDatePickerDeviceTest.kt:28:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/WorkProfileReferenceDeviceTest.kt:31:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/automation/PaymentExperienceDeviceTest.kt:34:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/categories/CategoryExperienceDeviceTest.kt:33:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/categories/GlobalBrandExperienceDeviceTest.kt:25:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/categories/StoreLogoDeviceTest.kt:20:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/data/KovaDataIntegrityTest.kt:150:27 'constructor(instrumentation: Instrumentation, assetsFolder: String, openFactory: SupportSQLiteOpenHelper.Factory = ...): MigrationTestHelper' is deprecated. Cannot be used to run migration tests involving auto migrations.
+        To test an auto migrations, you must use the constructors that receives the database
+        class as parameter.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/data/KovaDataIntegrityTest.kt:152:9 Java type mismatch: inferred type is 'String?', but 'String' was expected.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/designaudit/AllScreensDesignDeviceTest.kt:68:27 'fun createEmptyComposeRule(effectContext: CoroutineContext = ...): ComposeTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createEmptyComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/designaudit/AllScreensDesignDeviceTest.kt:155:9 Expression is unused.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/designaudit/AllScreensDesignDeviceTest.kt:632:9 Expression is unused.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiConfirmationDeviceTest.kt:32:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiControlledIntelligenceC1DeviceTest.kt:130:78 The corresponding parameter in the supertype 'ControlledSessionGuard' is named 'binding'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiDualHeadTypedWorkflowSelectionDeviceTest.kt:92:129 Unnecessary safe call on a non-null receiver of type 'NativeProbeTextDecode'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiDualHeadWorkflowSelectionDeviceTest.kt:92:129 Unnecessary safe call on a non-null receiver of type 'NativeProbeTextDecode'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiExplicitPeriodWorkflowSelectionDeviceTest.kt:92:129 Unnecessary safe call on a non-null receiver of type 'NativeProbeTextDecode'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiFinancialWorkflowDeviceTest.kt:83:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiForeignOwnerScopeDeviceTest.kt:77:27 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiModelSetupDeviceTest.kt:24:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiNativeReadWorkflowDeviceTest.kt:104:27 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiPeriodBoundaryDeviceTest.kt:79:27 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiSeparatedScopeWorkflowSelectionDeviceTest.kt:106:129 Unnecessary safe call on a non-null receiver of type 'NativeProbeTextDecode'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/AiSeparatedScopeWorkflowSelectionDeviceTest.kt:106:158 Unnecessary safe call on a non-null receiver of type 'NativeProbeTextDecode'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/Gemma4CandidateDeviceTest.kt:37:29 Unnecessary safe call on a non-null receiver of type 'ConnectivityManager'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/LocalAiNativeSelectionProbeTest.kt:486:87 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/deviceqa/ReceiptHeaderReviewDeviceTest.kt:27:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/goals/GoalsEditPersistenceDeviceTest.kt:31:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/goals/GoalsIntegrationDeviceTest.kt:25:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/goals/GoalsIntegrationDeviceTest.kt:165:112 Unnecessary safe call on a non-null receiver of type 'BudgetGoal'.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/progression/AchievementBrowserDeviceTest.kt:32:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/progression/ProfileCatalogDeviceTest.kt:30:29 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/progression/ProgressionMainNavigationDeviceTest.kt:51:27 'fun createEmptyComposeRule(effectContext: CoroutineContext = ...): ComposeTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createEmptyComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/progression/ProgressionMainNavigationDeviceTest.kt:352:9 Expression is unused.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTest/java/com/kova/budget/telemetry/AnalyticsDeferredStartupTest.kt:69:57 'val token: Task<String!>' is deprecated. Deprecated in Java.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTestPhoneFreeV1/java/com/kova/budget/OfflineLocalizedBackupDialogDeviceTest.kt:26:27 'fun <reified A : ComponentActivity> createAndroidComposeRule(effectContext: CoroutineContext = ...): AndroidComposeTestRule<ActivityScenarioRule<A>, A>' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createAndroidComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/app/src/androidTestPhoneFreeV1/java/com/kova/budget/OfflineLocalizedFinancialEntryDeviceTest.kt:48:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+
+> Task :app:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :app:compileDebugAndroidTestJavaWithJavac
+> Task :advisor:generateDebugAssets UP-TO-DATE
+> Task :advisor:mergeDebugAssets
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:stageAiBenchmarkCorpus UP-TO-DATE
+> Task :automation:generateDebugAssets UP-TO-DATE
+> Task :automation:mergeDebugAssets
+> Task :core-event:generateDebugAssets UP-TO-DATE
+> Task :core-event:mergeDebugAssets
+> Task :family:generateDebugAssets UP-TO-DATE
+> Task :family:mergeDebugAssets
+> Task :payroll-pl:generateDebugAssets UP-TO-DATE
+> Task :payroll-pl:mergeDebugAssets
+> Task :work-income:generateDebugAssets UP-TO-DATE
+> Task :work-income:mergeDebugAssets
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:compressDebugAndroidTestAssets
+> Task :app:generateDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :advisor:processDebugJavaRes
+> Task :app:processDebugAndroidTestJavaRes
+> Task :automation:processDebugJavaRes
+> Task :core-event:processDebugJavaRes
+> Task :family:processDebugJavaRes
+> Task :payroll-pl:processDebugJavaRes
+> Task :work-income:processDebugJavaRes
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebugAndroidTest
+WARNING: C:\Users\vlad2\.gradle\caches\9.7.1\transforms\be6100ccd25bfd7abf8bab2a31be90f9\transformed\asset-delivery-ktx-2.3.0-runtime.jar: D8: Invalid stack map table at instruction index 18: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.play.core.ktx.zzd, but was java.lang.Object.<init>().
+
+> Task :advisor:bundleLibRuntimeToDirDebug
+> Task :automation:bundleLibRuntimeToDirDebug
+> Task :family:bundleLibRuntimeToDirDebug
+> Task :payroll-pl:bundleLibRuntimeToDirDebug
+> Task :work-income:bundleLibRuntimeToDirDebug
+> Task :core-event:bundleLibRuntimeToDirDebug
+> Task :app:mergeLibDexDebugAndroidTest
+> Task :app:transformDebugClassesWithAsm
+> Task :app:hiltCollectClassesDebugAndroidTest
+> Task :app:hiltAggregateDepsDebugAndroidTest
+> Task :app:hiltJavaCompileDebugAndroidTest
+> Task :app:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:processDebugAndroidTestResources
+> Task :app:transformDebugAndroidTestClassesWithAsm
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :advisor:mergeDebugJniLibFolders
+> Task :advisor:mergeDebugNativeLibs NO-SOURCE
+> Task :advisor:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :automation:mergeDebugJniLibFolders
+> Task :automation:mergeDebugNativeLibs NO-SOURCE
+> Task :automation:copyDebugJniLibsProjectOnly
+> Task :core-event:mergeDebugJniLibFolders
+> Task :core-event:mergeDebugNativeLibs NO-SOURCE
+> Task :core-event:copyDebugJniLibsProjectOnly
+> Task :family:mergeDebugJniLibFolders
+> Task :family:mergeDebugNativeLibs NO-SOURCE
+> Task :family:copyDebugJniLibsProjectOnly
+> Task :payroll-pl:mergeDebugJniLibFolders
+> Task :payroll-pl:mergeDebugNativeLibs NO-SOURCE
+> Task :payroll-pl:copyDebugJniLibsProjectOnly
+> Task :work-income:mergeDebugJniLibFolders
+> Task :work-income:mergeDebugNativeLibs NO-SOURCE
+> Task :work-income:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeDebugAndroidTestNativeLibs
+
+> Task :app:stripDebugAndroidTestDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libjpeg.so, libleptonica.so, libmockkjvmtiagent.so, libonnxruntime.so, libonnxruntime4j_jni.so, libpngx.so, libtesseract.so. Run with --info option to learn more.
+
+> Task :app:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :app:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebugAndroidTest
+
+[Incubating] Problems report is available at: file:///C:/Users/vlad2/Desktop/KOVA/KOVA-App/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 17m 23s
+200 actionable tasks: 147 executed, 53 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.7.1/userguide/configuration_cache_enabling.html

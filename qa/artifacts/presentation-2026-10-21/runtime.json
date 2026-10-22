@@ -1,0 +1,20 @@
+{
+  "packageName": "com.kova.budget.offlinequalification",
+  "avd": "KOVA_Demo",
+  "serial": "emulator-5560",
+  "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
+  "internetPermission": false,
+  "androidApi": 37,
+  "pageSize": 16384,
+  "airplaneMode": true,
+  "timezone": "Europe/Warsaw",
+  "resolution": "1080x2400",
+  "appVersion": "1.0.8 (10)",
+  "apk": "../KOVA-App/app/build/outputs/apk/debug/app-debug.apk",
+  "apkSha256": "c4a227d1193630db819b9f2df8acfa0cbcd6325ee3c5591cbc40215c3b0b2412",
+  "testApk": "../KOVA-App/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+  "testApkSha256": "de24bcde25e3230fb38e637a3946de8662657d4ff06abc5bb74f4a21e4d79809",
+  "profile": "Marta Nowak — fictional, isolated local profile",
+  "normalUiSetup": "Completed real onboarding; language Polish and dark theme selected through ordinary app settings. No UI replacement or screenshot editing.",
+  "scope": "Presentation screenshots, not complete Android release qualification"
+}

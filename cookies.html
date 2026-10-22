@@ -12,6 +12,7 @@
     <script src="document-language.js" defer></script>
   <link rel="stylesheet" href="site-ui.css" />
     <script src="site-shell.js" defer></script>
+    <script src="language-picker.js" defer></script>
   </head>
   <body class="workspace-page">
     <header class="document-header">
@@ -21,32 +22,32 @@
     <main class="document-shell">
       <a class="document-back" href="index.html#legal" data-preserve-language><svg class="workspace-svg-icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg><span>Dokumenty</span></a>
       <section data-doc-lang="pl" data-document-title="Cookies — KOVA">
-        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Ty wybierasz analitykę.</h1><p>Niezbędne cookies zapamiętują język i ustawienia. Analityczne działają dopiero po zgodzie.</p><div class="document-meta"><span class="document-chip">Aktualizacja: 20 września 2026</span><span class="document-chip">Bez reklam</span></div></div>
+        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Ty wybierasz analitykę.</h1><p>Niezbędne cookies zapamiętują język i ustawienia. Analityczne działają dopiero po zgodzie.</p><div class="document-meta"><span class="document-chip">Aktualizacja: 21 października 2026</span><span class="document-chip">Bez reklam</span></div></div>
         <div class="document-grid-main">
           <article class="document-card"><h2>Niezbędne</h2><p><code>kova_site_language</code> zapamiętuje język, a <code>kova_cookie_consent</code> — Twój wybór. Maksymalnie 12 miesięcy.</p></article>
           <article class="document-card"><h2>Analityczne</h2><p>Po zgodzie strona tworzy <code>kova_analytics_id</code>, <code>kova_analytics_session</code> i <code>kova_analytics_page_count</code>. Identyfikator przeglądarki wygasa po 12 miesiącach, a sesja i licznik po 30 minutach od ostatniego zdarzenia. Nie zapisuje danych finansowych.</p></article>
           <article class="document-card"><h2>Pomiar</h2><p>Po zgodzie na stronie głównej zapisywane są identyfikatory i licznik zdarzeń. Obecna wersja strony nie ma podłączonego zewnętrznego odbiorcy analityki.</p></article>
-          <article class="document-card"><h2>Workspace</h2><p>Zadania, notatki i postęp pozostają w <code>localStorage</code> tej przeglądarki.</p></article>
+          <article class="document-card"><h2>Język strony</h2><p>Wybór języka jest również zapisywany w <code>localStorage</code> do czasu wyczyszczenia pamięci przeglądarki. Nie zapisujemy tutaj danych konta KOVA.</p></article>
           <article class="document-card wide"><h2>Zmiana wyboru</h2><p>Otwórz „Ustawienia” w stopce. Wyłączenie analityki usuwa jej identyfikatory i nie ogranicza strony ani aplikacji.</p></article>
         </div>
       </section>
       <section data-doc-lang="en" data-document-title="Cookies — KOVA" hidden>
-        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Analytics is your choice.</h1><p>Essential cookies remember language and settings. Analytics starts only after consent.</p><div class="document-meta"><span class="document-chip">Updated: 20 September 2026</span><span class="document-chip">No advertising</span></div></div>
+        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Analytics is your choice.</h1><p>Essential cookies remember language and settings. Analytics starts only after consent.</p><div class="document-meta"><span class="document-chip">Updated: 21 October 2026</span><span class="document-chip">No advertising</span></div></div>
         <div class="document-grid-main">
           <article class="document-card"><h2>Essential</h2><p><code>kova_site_language</code> remembers language and <code>kova_cookie_consent</code> remembers your choice. Up to 12 months.</p></article>
           <article class="document-card"><h2>Analytics</h2><p>After consent, the site creates <code>kova_analytics_id</code>, <code>kova_analytics_session</code>, and <code>kova_analytics_page_count</code>. The browser identifier expires after 12 months; the session and counter expire 30 minutes after the last event. It stores no financial data.</p></article>
           <article class="document-card"><h2>Measurement</h2><p>After consent, identifiers and an event counter are stored on the home page. The current website has no external analytics receiver connected.</p></article>
-          <article class="document-card"><h2>Workspace</h2><p>Tasks, notes, and progress remain in this browser's <code>localStorage</code>.</p></article>
+          <article class="document-card"><h2>Site language</h2><p>The language choice also remains in <code>localStorage</code> until browser storage is cleared. KOVA account data is not stored here.</p></article>
           <article class="document-card wide"><h2>Change your choice</h2><p>Open “Settings” in the footer. Disabling analytics removes its identifiers and does not limit the website or app.</p></article>
         </div>
       </section>
       <section data-doc-lang="ru" data-document-title="Cookies — KOVA" hidden>
-        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Аналитика — ваш выбор.</h1><p>Необходимые cookies запоминают язык и настройки. Аналитика включается только после согласия.</p><div class="document-meta"><span class="document-chip">Обновлено: 20 сентября 2026</span><span class="document-chip">Без рекламы</span></div></div>
+        <div class="document-hero"><p class="workspace-kicker">Cookies</p><h1>Аналитика — ваш выбор.</h1><p>Необходимые cookies запоминают язык и настройки. Аналитика включается только после согласия.</p><div class="document-meta"><span class="document-chip">Обновлено: 21 октября 2026</span><span class="document-chip">Без рекламы</span></div></div>
         <div class="document-grid-main">
           <article class="document-card"><h2>Необходимые</h2><p><code>kova_site_language</code> запоминает язык, а <code>kova_cookie_consent</code> — ваш выбор. До 12 месяцев.</p></article>
           <article class="document-card"><h2>Аналитические</h2><p>После согласия сайт создаёт <code>kova_analytics_id</code>, <code>kova_analytics_session</code> и <code>kova_analytics_page_count</code>. Идентификатор браузера действует 12 месяцев, сессия и счётчик — 30 минут после последнего события. Финансовые данные не сохраняются.</p></article>
           <article class="document-card"><h2>Измерение</h2><p>После согласия на главной странице сохраняются идентификаторы и счётчик событий. В текущей версии сайта внешний получатель аналитики не подключён.</p></article>
-          <article class="document-card"><h2>Workspace</h2><p>Задачи, заметки и прогресс остаются в <code>localStorage</code> этого браузера.</p></article>
+          <article class="document-card"><h2>Язык сайта</h2><p>Выбор языка также остаётся в <code>localStorage</code> до очистки хранилища браузера. Данные аккаунта KOVA здесь не сохраняются.</p></article>
           <article class="document-card wide"><h2>Изменение выбора</h2><p>Откройте «Настройки» внизу сайта. Отключение аналитики удаляет её идентификаторы и не ограничивает сайт или приложение.</p></article>
         </div>
       </section>

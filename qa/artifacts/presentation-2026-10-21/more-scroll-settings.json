@@ -1,0 +1,15 @@
+{
+  "exitCode": 0,
+  "atUtc": "2026-10-21T21:23:08.1682597Z",
+  "serial": "emulator-5560",
+  "arguments": [
+    "shell",
+    "input",
+    "swipe",
+    "540",
+    "1770",
+    "540",
+    "810",
+    "450"
+  ]
+}

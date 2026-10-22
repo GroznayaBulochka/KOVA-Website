@@ -10,9 +10,9 @@
 
   const documentKind = document.body.dataset.legalDocument;
   const websiteCopy = {
-    pl:['Prywatność na tej stronie','Strona nie ma dostępu do finansów w telefonie. Analityka jest opcjonalna: po zgodzie zapisywany jest identyfikator przeglądarki, sesja i licznik zdarzeń. Obecnie nie ma podłączonego zewnętrznego odbiorcy analityki. Zgodę możesz zmienić w ustawieniach cookies.'],
-    en:['Privacy on this website','The website cannot access finances on your phone. Analytics is optional: consent enables a browser identifier, session, and event counter. No external analytics receiver is currently connected. You can change consent in Cookie settings.'],
-    ru:['Приватность на этом сайте','Сайт не имеет доступа к финансам на телефоне. Аналитика необязательна: после согласия сохраняются идентификатор браузера, сессия и счётчик событий. Внешний получатель аналитики пока не подключён. Согласие можно изменить в настройках cookies.']
+    pl:['Prywatność na tej stronie','Wydawca: Vadyslav Konohrai, Polska; kontakt: contact@kovacompass.app. Strona nie ma dostępu do finansów w telefonie ani formularza zgłoszeń. Język i wybór cookies są zapisywane w przeglądarce. Po opcjonalnej zgodzie lokalnie zapisywany jest także identyfikator przeglądarki, sesja i licznik zdarzeń; nie ma zewnętrznego odbiorcy analityki. Zgodę zmienisz w ustawieniach cookies. Link e-mail otwiera Twoją pocztę; wysłana wiadomość i adres służą obsłudze zgłoszenia poza aplikacją. Nie wysyłaj finansów ani haseł. Przyszły hosting, zasady jego logów i okres przechowywania korespondencji wymagają zatwierdzenia przed publikacją. Dokument poniżej dotyczy aplikacji, nie zastępuje tych informacji o stronie.'],
+    en:['Privacy on this website','Publisher: Vadyslav Konohrai, Poland; contact: contact@kovacompass.app. This site cannot access finances on your phone and has no submission form. Language and cookie choices are stored in your browser. Optional consent also enables a locally stored browser identifier, session, and event counter; there is no external analytics receiver. Change consent in Cookie settings. Email links open your email app; a message you send and your address are used to handle your request outside KOVA. Do not send financial data or passwords. Future hosting, its logging practices, and correspondence retention require approval before publication. The document below concerns the app and does not replace this website information.'],
+    ru:['Приватность на этом сайте','Издатель: Vadyslav Konohrai, Польша; контакт: contact@kovacompass.app. Сайт не имеет доступа к финансам на телефоне и не содержит формы обращений. Язык и выбор cookies сохраняются в браузере. После необязательного согласия локально сохраняются идентификатор браузера, сессия и счётчик событий; внешнего получателя аналитики нет. Изменить согласие можно в настройках cookies. Почтовая ссылка открывает вашу почту; отправленное сообщение и адрес используются для обработки обращения вне KOVA. Не отправляйте финансовые данные и пароли. Будущий хостинг, его журналы и срок хранения переписки требуют утверждения перед публикацией. Документ ниже относится к приложению и не заменяет эту информацию о сайте.']
   };
   for (const [lang, [title, text]] of Object.entries(websiteCopy)) { copy[lang].analyticsTitle = title; copy[lang].analyticsCopy = text; }
   const params = new URLSearchParams(location.search);
@@ -30,7 +30,8 @@
       let html;
       if (code !== undefined) html = `<code>${escapeHtml(code)}</code>`;
       else if (label !== undefined) {
-        const safeHref = /^(?:https?:\/\/|#)/i.test(href) ? href : '#';
+        const appDocument = /^(privacy-policy|terms-of-service)-(pl|en|ru)\.md$/.exec(href);
+        const safeHref = appDocument ? `${appDocument[1] === 'privacy-policy' ? 'privacy' : 'terms'}.html?lang=${appDocument[2]}` : /^(?:https?:\/\/|#)/i.test(href) ? href : '#';
         const external = /^https?:\/\//i.test(safeHref) ? ' target="_blank" rel="noopener noreferrer"' : '';
         html = `<a href="${escapeHtml(safeHref)}"${external}>${escapeHtml(label)}</a>`;
       } else html = `<strong>${escapeHtml(bold)}</strong>`;
@@ -92,10 +93,12 @@
     let reviewNotice = document.querySelector('[data-legal-review]');
     if (!reviewNotice) { reviewNotice = document.createElement('p'); reviewNotice.className = 'document-notice'; reviewNotice.dataset.legalReview = ''; content.before(reviewNotice); }
     reviewNotice.textContent = {
-      pl:'Dokument pochodzi z aplikacji w rozwoju. Zawiera jeszcze pola robocze i przykładowe kontakty; wymaga uzupełnienia oraz zatwierdzenia przed publicznym wydaniem.',
-      en:'This document comes from the app in development. It still contains draft fields and example contacts; it needs completion and approval before public release.',
-      ru:'Документ взят из приложения в разработке. В нём остаются рабочие поля и примерные контакты; перед публичным выпуском его нужно дополнить и утвердить.'
+      pl:'Projekt dokumentu dla KOVA Offline Free V1, zgodny z plikiem aplikacji z 20.10.2026. Wydawca zatwierdził nazwisko, kontakt oraz domenę kovacompass.app. Kopia aplikacji poniżej zachowuje dotychczasowe pola robocze; jej aktualizacja, data obowiązywania i zatwierdzenie prawne pozostają przed publikacją. Hosting i dostępność dokumentu pod docelowym adresem nie zostały zweryfikowane.',
+      en:'Draft for KOVA Offline Free V1, matching the app file dated 20 October 2026. The publisher approved the name, contact, and kovacompass.app domain. The app copy below retains its draft fields; updating it, setting the effective date, and legal approval remain pending before publication. Hosting and availability at the intended address have not been verified.',
+      ru:'Проект для KOVA Offline Free V1, совпадающий с файлом приложения от 20.10.2026. Издатель утвердил имя, контакт и домен kovacompass.app. Копия приложения ниже сохраняет прежние рабочие поля; её обновление, дата действия и правовое утверждение ещё необходимы перед публикацией. Хостинг и доступность документа по целевому адресу не проверены.'
     }[language];
+    const publicUrl = reviewNotice.dataset.publicDocumentUrl;
+    if (publicUrl) reviewNotice.textContent += ' ' + {pl:'Docelowy adres: ',en:'Intended address: ',ru:'Целевой адрес: '}[language] + publicUrl;
     content.setAttribute('aria-busy', 'true');
     content.textContent = copy[language].loading;
     try {

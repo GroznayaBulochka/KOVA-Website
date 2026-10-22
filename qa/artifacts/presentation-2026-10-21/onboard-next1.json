@@ -1,0 +1,12 @@
+{
+  "exitCode": 0,
+  "serial": "emulator-5560",
+  "arguments": [
+    "shell",
+    "input",
+    "tap",
+    "540",
+    "2168"
+  ],
+  "atUtc": "2026-10-21T21:16:32.8319454Z"
+}

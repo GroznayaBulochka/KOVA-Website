@@ -1,0 +1,68 @@
+{
+  "recordedAt": "2026-10-16T07:11:00.714Z",
+  "result": "PASS",
+  "checks": 33,
+  "passed": [
+    "Publication and download remain unapproved",
+    "Release command fails closed with exact owner blockers",
+    "Private workspace, QA and obsolete imagery absent",
+    "404.html: preview noindex and no private entry",
+    "contact.html: preview noindex and no private entry",
+    "cookies.html: preview noindex and no private entry",
+    "delete-account.html: preview noindex and no private entry",
+    "index.html: preview noindex and no private entry",
+    "privacy.html: preview noindex and no private entry",
+    "roadmap.html: preview noindex and no private entry",
+    "security.html: preview noindex and no private entry",
+    "status.html: preview noindex and no private entry",
+    "terms.html: preview noindex and no private entry",
+    "updates.html: preview noindex and no private entry",
+    "No invented domain or security contact",
+    "free-v1-home-dark.png: authentic current screenshot bytes",
+    "free-v1-home-light.png: authentic current screenshot bytes",
+    "free-v1-intro.png: authentic current screenshot bytes",
+    "privacy-policy-pl.md: exact app draft bytes",
+    "privacy-policy-en.md: exact app draft bytes",
+    "privacy-policy-ru.md: exact app draft bytes",
+    "terms-of-service-pl.md: exact app draft bytes",
+    "terms-of-service-en.md: exact app draft bytes",
+    "terms-of-service-ru.md: exact app draft bytes",
+    "Private/obsolete URL returns 404: /workspace.html",
+    "Private/obsolete URL returns 404: /workspace.js",
+    "Private/obsolete URL returns 404: /workspace-access.js",
+    "Private/obsolete URL returns 404: /.git/config",
+    "Private/obsolete URL returns 404: /qa/public-contract-check.mjs",
+    "Private/obsolete URL returns 404: /scripts/build-site.mjs",
+    "Private/obsolete URL returns 404: /.well-known/security.txt",
+    "Private/obsolete URL returns 404: /assets/screenshots/kova-profile.png",
+    "Public preview has security headers"
+  ],
+  "negativeReleaseExitCode": 2,
+  "provenance": [
+    {
+      "file": "free-v1-home-dark.png",
+      "sha256": "6d89447d6638f9adc9a3da7fadcfa2d79b640de4f8b885dc1ac78f89a9ee5ae1",
+      "source": "docs/release/phone-free-v1-evidence/20261015/minified-smoke-final/33.png",
+      "capture": "Android emulator",
+      "data": "synthetic",
+      "captureDate": "2026-10-16"
+    },
+    {
+      "file": "free-v1-home-light.png",
+      "sha256": "7539e6a06cac24d8f238be9e4f28f49652ba0bd82467d724ce444bc3fd9ff5d6",
+      "source": "docs/release/phone-free-v1-evidence/20261015/minified-smoke-final/28.png",
+      "capture": "Android emulator",
+      "data": "synthetic",
+      "captureDate": "2026-10-16"
+    },
+    {
+      "file": "free-v1-intro.png",
+      "sha256": "4c2aa1d451cfe3777a99cf40ed6abaf56576bc4c158f85b0052b90cd7eb3cdcc",
+      "source": "docs/release/phone-free-v1-evidence/20261015/minified-smoke-final/02.png",
+      "capture": "Android emulator",
+      "data": "synthetic",
+      "captureDate": "2026-10-16"
+    }
+  ],
+  "published": false
+}

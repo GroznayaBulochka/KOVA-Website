@@ -1,11 +1,14 @@
 (() => {
   'use strict';
   const labels = {
-    pl: { home:'Strona główna', product:'Aplikacja', project:'Projekt', legal:'Informacje', features:'Funkcje', screens:'Ekrany aplikacji', faq:'Pytania i odpowiedzi', status:'Stan projektu', roadmap:'Plan rozwoju', updates:'Aktualności', security:'Bezpieczeństwo', contact:'Kontakt', privacy:'Polityka prywatności', terms:'Warunki korzystania', cookies:'Cookies', settings:'Ustawienia cookies', tagline:'Codzienne finanse. W jednym miejscu.', note:'KOVA na Androida · projekt w rozwoju', top:'Wróć na górę', skip:'Przejdź do treści', language:'Język strony', menu:'Menu', back:'Strona główna', official:'Oficjalna strona projektu' },
-    en: { home:'Home', product:'The app', project:'Project', legal:'Information', features:'Features', screens:'App screens', faq:'Questions and answers', status:'Project status', roadmap:'Roadmap', updates:'Updates', security:'Security', contact:'Contact', privacy:'Privacy Policy', terms:'Terms of Use', cookies:'Cookies', settings:'Cookie settings', tagline:'Everyday finances. In one place.', note:'KOVA for Android · in development', top:'Back to top', skip:'Skip to content', language:'Site language', menu:'Menu', back:'Home', official:'Official project website' },
-    ru: { home:'Главная', product:'Приложение', project:'Проект', legal:'Информация', features:'Функции', screens:'Экраны приложения', faq:'Вопросы и ответы', status:'Статус проекта', roadmap:'План развития', updates:'Обновления', security:'Безопасность', contact:'Контакты', privacy:'Конфиденциальность', terms:'Условия использования', cookies:'Cookies', settings:'Настройки cookies', tagline:'Повседневные финансы. В одном месте.', note:'KOVA для Android · в разработке', top:'Наверх', skip:'Перейти к содержимому', language:'Язык сайта', menu:'Меню', back:'Главная', official:'Официальный сайт проекта' }
+    pl: { home:'Strona główna', product:'Aplikacja', project:'Projekt', legal:'Informacje', features:'Funkcje', screens:'Ekrany aplikacji', faq:'Pytania i odpowiedzi', status:'Stan projektu', roadmap:'Plan rozwoju', updates:'Aktualności', security:'Bezpieczeństwo', contact:'Kontakt', deletion:'Usuwanie konta', privacy:'Polityka prywatności', terms:'Warunki korzystania', cookies:'Cookies', settings:'Ustawienia cookies', tagline:'Codzienne finanse. W jednym miejscu.', note:'KOVA Free V1 · przed premierą', top:'Wróć na górę', skip:'Przejdź do treści', language:'Język strony', menu:'Menu', back:'Strona główna', official:'Oficjalna strona projektu' },
+    en: { home:'Home', product:'The app', project:'Project', legal:'Information', features:'Features', screens:'App screens', faq:'Questions and answers', status:'Project status', roadmap:'Roadmap', updates:'Updates', security:'Security', contact:'Contact', deletion:'Account deletion', privacy:'Privacy Policy', terms:'Terms of Use', cookies:'Cookies', settings:'Cookie settings', tagline:'Everyday finances. In one place.', note:'KOVA Free V1 · before launch', top:'Back to top', skip:'Skip to content', language:'Site language', menu:'Menu', back:'Home', official:'Official project website' },
+    ru: { home:'Главная', product:'Приложение', project:'Проект', legal:'Информация', features:'Функции', screens:'Экраны приложения', faq:'Вопросы и ответы', status:'Статус проекта', roadmap:'План развития', updates:'Обновления', security:'Безопасность', contact:'Контакты', deletion:'Удаление аккаунта', privacy:'Конфиденциальность', terms:'Условия использования', cookies:'Cookies', settings:'Настройки cookies', tagline:'Повседневные финансы. В одном месте.', note:'KOVA Free V1 · до выпуска', top:'Наверх', skip:'Перейти к содержимому', language:'Язык сайта', menu:'Меню', back:'Главная', official:'Официальный сайт проекта' }
   };
   const icon = name => `<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#${name}"></use></svg>`;
+  Object.assign(labels.pl, {deletion:'Twoje dane',note:'KOVA Offline Free V1 · przed premierą'});
+  Object.assign(labels.en, {deletion:'Your data',note:'KOVA Offline Free V1 · before launch'});
+  Object.assign(labels.ru, {deletion:'Ваши данные',note:'KOVA Offline Free V1 · до выпуска'});
   const page = location.pathname.split('/').pop() || 'index.html';
   const documentHeader = document.querySelector('.document-header');
   const main = document.querySelector('main');
@@ -49,9 +52,12 @@
   footer.innerHTML = `<div class="footer-grid"><div class="footer-about"><a class="brand" href="index.html"><img src="assets/logo.svg" width="40" height="40" alt="KOVA"><b>KOVA</b></a><p data-shell-label="tagline"></p><span class="footer-status" data-shell-label="note"></span></div>${[
     ['product', [['features','index.html#features'],['screens','index.html#screens'],['faq','index.html#faq']]],
     ['project', [['status','status.html'],['roadmap','roadmap.html'],['updates','updates.html'],['contact','contact.html']]],
-    ['legal', [['security','security.html'],['privacy','privacy.html'],['terms','terms.html'],['cookies','cookies.html']]]
+    ['legal', [['security','security.html'],['privacy','privacy.html'],['terms','terms.html'],['cookies','cookies.html'],['deletion','delete-account.html']]]
   ].map(([heading, links]) => `<nav aria-label="${heading}"><h2 data-shell-label="${heading}"></h2>${links.map(([key,href])=>`<a href="${href}" data-shell-label="${key}"></a>`).join('')}</nav>`).join('')}</div><div class="footer-bottom"><span>© ${new Date().getFullYear()} KOVA</span><a href="index.html?cookies=settings" data-shell-settings data-shell-label="settings"></a><a href="#" data-back-top>${icon('chevron-left')}<span data-shell-label="top"></span></a></div>`;
   footer.querySelector('[data-back-top]').href = `#${main?.id || 'main'}`;
+  const publisher = document.createElement('p'); publisher.className = 'publisher-line';
+  publisher.innerHTML = 'Vadyslav Konohrai · <a href="mailto:contact@kovacompass.app">contact@kovacompass.app</a>';
+  footer.querySelector('.footer-about').append(publisher);
   footer.querySelector('[data-shell-settings]').setAttribute('data-cookie-settings', '');
   footer.querySelector('[data-shell-settings]').addEventListener('click', event => {
     if (document.querySelector('[data-cookie-banner]')) {

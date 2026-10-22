@@ -1,0 +1,11 @@
+{
+  "atUtc": "2026-10-21T21:32:07.0519795Z",
+  "exitCode": 0,
+  "arguments": [
+    "shell",
+    "uiautomator",
+    "dump",
+    "/data/local/tmp/kova-qualification-c13070b0a7a84995a1e222f2de1f1142.xml"
+  ],
+  "serial": "emulator-5560"
+}

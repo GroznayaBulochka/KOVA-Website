@@ -1,0 +1,204 @@
+{
+  "mode": "preview",
+  "published": false,
+  "generatedAt": "2026-10-16T06:59:18.993Z",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 17953,
+      "sha256": "38fb8c33aa9aadeed644ee3bb7123ec04d11ec8bf2c1b40a5cb557659b3244cc"
+    },
+    {
+      "file": "status.html",
+      "bytes": 3471,
+      "sha256": "a5ed6492c65123dad5a43d8aa786710d8d731156eef51b8ac6e5285e70cb208a"
+    },
+    {
+      "file": "roadmap.html",
+      "bytes": 3149,
+      "sha256": "7512e667dd166d73c4046777bfc5739ed74482f60842a02ef80c7b3a8ce4738b"
+    },
+    {
+      "file": "updates.html",
+      "bytes": 3235,
+      "sha256": "d98e73316cb31a2ea61e7e8cc89ceed80c563eae889764b5ca1252ea965bcbb0"
+    },
+    {
+      "file": "security.html",
+      "bytes": 3503,
+      "sha256": "a711cd2d4544f826d180ba144a3f5f0b9da773105340eb83830750e14b7ac22c"
+    },
+    {
+      "file": "contact.html",
+      "bytes": 3387,
+      "sha256": "3f5a7f1de39f46136cc534221dfd1f307d257e474a6a5d64fc1981fcee84fbf8"
+    },
+    {
+      "file": "delete-account.html",
+      "bytes": 3111,
+      "sha256": "431bb2aa78d84565c9d6c614d8cd222e9b95f390d92a2209af65b7e20320a6f1"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 3179,
+      "sha256": "f721be4e1b5eebf947b79abe2108294db3b06fa25c1634cc51b35f79b03d0bf5"
+    },
+    {
+      "file": "terms.html",
+      "bytes": 2899,
+      "sha256": "16bdcee64253f33524ec7546cb57263a0c867f8d07cdd13a92add06b278208b7"
+    },
+    {
+      "file": "cookies.html",
+      "bytes": 7708,
+      "sha256": "b58d954a1372c9e93f54d682c54bca11ddc4b91f661cfe7a6091c90d5f843f42"
+    },
+    {
+      "file": "404.html",
+      "bytes": 2108,
+      "sha256": "accc741aee0da44025a88996b6d5eb3dcf65e3c62569eac31d5ffec645a6e6bb"
+    },
+    {
+      "file": "landing.css",
+      "bytes": 16354,
+      "sha256": "7de7648ba05d0348910d0d4f6cd10278c8d2d0033175cd5ec85cebb9ad9ccf97"
+    },
+    {
+      "file": "site-ui.css",
+      "bytes": 9677,
+      "sha256": "1a67a7400ff626f58a4cf0ba660cfa55aa8b12def7ada5b7b70f8030f9e25164"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 395,
+      "sha256": "97d00f1f0b8c0367e734dd86d0d4fa0b9f3a8ca0ed6a17ff4b0d2917961137e6"
+    },
+    {
+      "file": "workspace.css",
+      "bytes": 31756,
+      "sha256": "9d800dc8abfde2416beee38c8fa6f3c385a542514d406f26fa8c2fee558bfb3c"
+    },
+    {
+      "file": "landing.js",
+      "bytes": 41412,
+      "sha256": "56db7c277dbb70c7c2f93ff7b7ffb8f72f0ce72e8187a6940c0e9c1d573030b5"
+    },
+    {
+      "file": "site-shell.js",
+      "bytes": 7810,
+      "sha256": "f018c9451a8f860ef751779bd17323c833adcfc439a9f064373ce394ffb4f4a9"
+    },
+    {
+      "file": "project-content.js",
+      "bytes": 30777,
+      "sha256": "c51cb4adcdc174d2746a4834232d50af5feefc503fbf6604fed75ab0104f5697"
+    },
+    {
+      "file": "project-pages.js",
+      "bytes": 2117,
+      "sha256": "8bef60ca0f6c75fe809a2a2d2b2e8c7bd1aed9c1f0bb31c58b0b77635440af2f"
+    },
+    {
+      "file": "legal-document.js",
+      "bytes": 11345,
+      "sha256": "b28d2140ee5e2df26a1c1fa26dfb1f33c345c4ce1ab4c6a792f850271cddc382"
+    },
+    {
+      "file": "document-language.js",
+      "bytes": 1996,
+      "sha256": "2f33f0943eb676eafd7993b3d0239176343ea9f6cce122a07233bba3b42ce5c7"
+    },
+    {
+      "file": "site.webmanifest",
+      "bytes": 437,
+      "sha256": "a2620166c8ac67c93c7f5f934da6f091fe67bdfcd6628b09355faf7b1f8be4da"
+    },
+    {
+      "file": "assets/logo.svg",
+      "bytes": 1168,
+      "sha256": "23a833f026e1952a94ce0a34dcf397dd655b76b494ff1d996a504ed5a11ca9d2"
+    },
+    {
+      "file": "assets/icons.svg",
+      "bytes": 3655,
+      "sha256": "c380fedae8b98d9b128040a47d8520e3456ad24fe84e16cb6f8bb397ac84a457"
+    },
+    {
+      "file": "assets/hero-visual.webp",
+      "bytes": 115418,
+      "sha256": "2a2a1c021e24352404101b22de798dd09b15fca2a3308a66e854d3284364c24b"
+    },
+    {
+      "file": "assets/screenshots/free-v1-home-dark.png",
+      "bytes": 213332,
+      "sha256": "6d89447d6638f9adc9a3da7fadcfa2d79b640de4f8b885dc1ac78f89a9ee5ae1"
+    },
+    {
+      "file": "assets/screenshots/free-v1-home-light.png",
+      "bytes": 227017,
+      "sha256": "7539e6a06cac24d8f238be9e4f28f49652ba0bd82467d724ce444bc3fd9ff5d6"
+    },
+    {
+      "file": "assets/screenshots/free-v1-intro.png",
+      "bytes": 191062,
+      "sha256": "4c2aa1d451cfe3777a99cf40ed6abaf56576bc4c158f85b0052b90cd7eb3cdcc"
+    },
+    {
+      "file": "legal/privacy-policy-pl.md",
+      "bytes": 53537,
+      "sha256": "52e65ae26a27df12dd91f2a5d433ec47b6818b61ef8c82c092325ff982d2d541"
+    },
+    {
+      "file": "legal/privacy-policy-en.md",
+      "bytes": 48561,
+      "sha256": "803cd3045f37af77d876231cb21a6feb682c9f198657c6872f0c0fd75fb49108"
+    },
+    {
+      "file": "legal/privacy-policy-ru.md",
+      "bytes": 83720,
+      "sha256": "5e1f8b4e29f16c1ac13517fd82f198eb24976f4eb4ad838a06d7cb2e7940c114"
+    },
+    {
+      "file": "legal/terms-of-service-pl.md",
+      "bytes": 31547,
+      "sha256": "958eb832f97bed7b03a06f442b3e558767867b913c2091fe2d2c9696a4444753"
+    },
+    {
+      "file": "legal/terms-of-service-en.md",
+      "bytes": 28236,
+      "sha256": "ed0a0a75ee79e4da44610eaf0ae2a07c19fc868ae585e5b71f4d6704ed2f15dd"
+    },
+    {
+      "file": "legal/terms-of-service-ru.md",
+      "bytes": 40592,
+      "sha256": "2978a6fa1f8d22bdaa0ffc4b17b8fbf0948d077237662d650397b6900e39e809"
+    }
+  ],
+  "excluded": [
+    "workspace.html",
+    "workspace.js",
+    "workspace-access.js",
+    "qa",
+    "scripts",
+    ".git",
+    ".well-known/security.txt",
+    "old screenshots"
+  ],
+  "blockers": {
+    "contract": "KOVA_PHONE_FREE_V1",
+    "verifiedOn": "2026-10-16",
+    "appVersionName": "1.0.8",
+    "appVersionCode": 10,
+    "publicDownloadAvailable": false,
+    "storeUrl": null,
+    "canonicalOrigin": null,
+    "operatorApproved": false,
+    "supportContactApproved": false,
+    "legalApproved": false,
+    "externalDeletionChannelVerified": false,
+    "publicationApproved": false,
+    "analyticsReceiver": null,
+    "legalState": "DRAFT_OWNER_INPUT_REQUIRED",
+    "appReadiness": "TECHNICALLY_PREPARED_OWNER_INPUT_REQUIRED"
+  }
+}

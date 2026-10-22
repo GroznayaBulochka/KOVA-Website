@@ -1,0 +1,11 @@
+{
+  "exitCode": 0,
+  "arguments": [
+    "shell",
+    "screencap",
+    "-p",
+    "/data/local/tmp/kova-presentation-c7d665c8c6ac4a35a0fb4d61f332c1db.png"
+  ],
+  "atUtc": "2026-10-21T21:34:30.2428037Z",
+  "serial": "emulator-5560"
+}

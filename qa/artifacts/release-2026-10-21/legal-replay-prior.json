@@ -1,0 +1,22 @@
+[
+  {
+    "id": "privacy-pl-360",
+    "started": "2026-10-21T20:20:16.388Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4174/privacy.html?lang=pl C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-pl-360.png 360 800 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-pl-360.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-pl-360.png"
+  },
+  {
+    "id": "privacy-en-768",
+    "started": "2026-10-21T20:20:29.220Z",
+    "command": "node qa/site-smoke.mjs http://127.0.0.1:4174/privacy.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-en-768.png 768 1024 ",
+    "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+    "exitCode": 0,
+    "passed": true,
+    "log": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-en-768.log",
+    "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix-legal/privacy-en-768.png"
+  }
+]

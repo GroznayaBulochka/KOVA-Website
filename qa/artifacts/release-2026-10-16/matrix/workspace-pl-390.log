@@ -1,0 +1,46 @@
+{
+  "workspace": true,
+  "landing": false,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA Workspace — postęp projektu",
+  "lang": "ru",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 7,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 16,
+  "visiblePrimaryAction": true,
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-16\\matrix/workspace-pl-390.png"
+}
+

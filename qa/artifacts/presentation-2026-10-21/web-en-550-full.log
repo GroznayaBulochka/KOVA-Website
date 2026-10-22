@@ -1,0 +1,175 @@
+{
+  "workspace": false,
+  "landing": true,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 89.30000001192093
+    },
+    {
+      "value": "en",
+      "at": 5054.300000011921
+    },
+    {
+      "value": "en",
+      "at": 5499.5
+    },
+    {
+      "value": "en",
+      "at": 5525.800000011921
+    },
+    {
+      "value": "en",
+      "at": 6051.5
+    },
+    {
+      "value": "en",
+      "at": 6103.200000017881
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — finances in one place",
+  "lang": "en",
+  "viewport": {
+    "width": 550,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 550,
+    "scrollWidth": 550
+  },
+  "overflowElements": [
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "AccountsCurrent account, savings and cash",
+      "left": 306,
+      "right": 556,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 306,
+      "right": 556,
+      "scrollWidth": 248
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "AccountsCurrent account, savings and cash",
+      "left": 306,
+      "right": 556,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Accounts",
+      "left": 306,
+      "right": 556,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Current account, savings and cash",
+      "left": 306,
+      "right": 556,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "TransactionsSix months of everyday records",
+      "left": 580,
+      "right": 830,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 580,
+      "right": 830,
+      "scrollWidth": 248
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 586,
+      "right": 824,
+      "scrollWidth": 238
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "TransactionsSix months of everyday records",
+      "left": 580,
+      "right": 830,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Transactions",
+      "left": 580,
+      "right": 830,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Six months of everyday records",
+      "left": 580,
+      "right": 830,
+      "scrollWidth": 250
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "Budgets and limitsSpending plans and current usage",
+      "left": 854,
+      "right": 1104,
+      "scrollWidth": 250
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 26,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-en-550-full.png"
+}
+

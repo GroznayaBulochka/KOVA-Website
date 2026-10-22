@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "basis": "Direct owner message: domena kovacompass.app",
+  "canonicalOrigin": "https://kovacompass.app",
+  "intendedPrivacyUrl": "https://kovacompass.app/privacy.html",
+  "intendedTermsUrl": "https://kovacompass.app/terms.html",
+  "supersedes": "Domain-unconfirmed blocker only in the preceding FINAL_REPORT.json",
+  "dnsVerified": false,
+  "hostingVerified": false,
+  "published": false,
+  "appFilesModified": false,
+  "legalDraftsApproved": false,
+  "checks": {
+    "staticGroups": {"pass": 14, "fail": 0},
+    "releaseBoundaryChecks": {"pass": 36, "fail": 0},
+    "releaseBuildExpectedBlockedExit": 2,
+    "documentUrlAndCanonicalSourceCheck": "PASS",
+    "privacyMobileBrowser": {"language": "pl", "width": 360, "height": 800, "exitCode": 0, "screenshot": "domain-privacy-pl.png", "horizontalOverflow": false, "unexpectedExternalPageRequests": []}
+  },
+  "remaining": "Actual hosting/HTTPS verification, legal approval and explicit publication authorization remain separate. App canonical legal drafts were preserved unchanged; the website notice records the newly approved intended URL."
+}

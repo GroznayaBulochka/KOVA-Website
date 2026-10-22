@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "pull",
+    "/data/local/tmp/kova-qualification-165b9c4bd308484e8c69efac5e940215.xml",
+    "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21\\dark-mode-on-fresh.xml"
+  ],
+  "exitCode": 0,
+  "atUtc": "2026-10-21T21:24:00.2121015Z",
+  "serial": "emulator-5560"
+}

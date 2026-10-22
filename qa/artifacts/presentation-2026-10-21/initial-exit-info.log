@@ -1,0 +1,10 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-09 23:44:12.050
+  package: com.kova.budget.offlinequalification
+    Historical Process Exit for uid=10231
+        ApplicationExitInfo #0:
+          timestamp=2026-10-21 21:05:48.320 pid=2595 realUid=10231 packageUid=10231 definingUid=10231 user=0
+          process=com.kova.budget.offlinequalification reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=9
+          importance=400 pss=0.00 rss=406MB state=empty trace=null
+          description=null
+          anrInfo=null

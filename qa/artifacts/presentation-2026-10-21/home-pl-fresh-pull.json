@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "pull",
+    "/data/local/tmp/kova-qualification-8e659b738f45452d9d663c2db51a73fd.xml",
+    "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21\\home-pl-fresh.xml"
+  ],
+  "atUtc": "2026-10-21T21:25:05.7321999Z",
+  "serial": "emulator-5560",
+  "exitCode": 0
+}

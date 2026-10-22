@@ -1,0 +1,10 @@
+{
+  "atUtc": "2026-10-21T21:21:42.0125047Z",
+  "arguments": [
+    "pull",
+    "/data/local/tmp/kova-qualification-2b27cc656d7943caaaea62be72e572ed.xml",
+    "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21\\enable-spending-fresh.xml"
+  ],
+  "serial": "emulator-5560",
+  "exitCode": 0
+}

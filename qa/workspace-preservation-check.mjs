@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import vm from 'node:vm';
+const source=await readFile(new URL('../workspace.js',import.meta.url),'utf8');
+const setup=source.slice(0,source.indexOf('  let language'));
+const readState=source.slice(source.indexOf('  function readState()'),source.indexOf('  function saveState()'));
+const evaluate=(stored,quota=false)=>{
+ let saved=stored;
+ const context={localStorage:{getItem:()=>saved,setItem:(_,value)=>{if(quota)throw Error('QuotaExceeded');saved=value;}},structuredClone,crypto:{getRandomValues:a=>a}};
+ vm.runInNewContext(setup+readState+'\nglobalThis.result=readState();})();',context);
+ return {result:context.result,saved};
+};
+const original={version:1,tasks:[{id:'owner-custom',title:'Keep my exact title',status:'active',progress:37,details:'Private note'}],notes:[{id:'n',text:'Keep this decision'}]};
+const first=evaluate(JSON.stringify(original));
+assert.deepEqual(JSON.parse(JSON.stringify(first.result.tasks[0])),original.tasks[0]);
+assert.deepEqual(JSON.parse(JSON.stringify(first.result.notes)),original.notes);
+assert.equal(first.result.tasks.length,8);
+const second=evaluate(first.saved);
+assert.equal(second.result.tasks.length,8);
+const quota=evaluate(JSON.stringify(original),true);
+assert.deepEqual(JSON.parse(JSON.stringify(quota.result.tasks[0])),original.tasks[0]);
+assert.deepEqual(JSON.parse(JSON.stringify(quota.result.notes)),original.notes);
+assert.equal(quota.saved,JSON.stringify(original));
+console.log(JSON.stringify({result:'PASS',cases:['existing tasks retained','notes retained','new release checklist added','no duplicate import','quota error preserves valid state']}));

@@ -1,0 +1,58 @@
+{
+  "recordedAt": "2026-10-21T20:00:39.549Z",
+  "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
+  "artifacts": [
+    {
+      "source": "docs/release/offline-legal/privacy-policy-pl.md",
+      "destination": "legal/privacy-policy-pl.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "ab8f9faefc5bd708bbcd9fea91e1c14a7b7f7782bc6e901c2912dc5bc01c3249"
+    },
+    {
+      "source": "docs/release/offline-legal/privacy-policy-en.md",
+      "destination": "legal/privacy-policy-en.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "c71e092fc8018de8ec6967f8c618854800d80930a3a888cfae3cdb5e72f82516"
+    },
+    {
+      "source": "docs/release/offline-legal/privacy-policy-ru.md",
+      "destination": "legal/privacy-policy-ru.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "85281d2dfe66b5d0bc8dd58f8a9ded9c082f0b989c042116822a5a765419894e"
+    },
+    {
+      "source": "docs/release/offline-legal/terms-of-service-pl.md",
+      "destination": "legal/terms-of-service-pl.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "60e7d4972a23508e00381262b8fe02fa4d489a6444f89ce21801022e098a726e"
+    },
+    {
+      "source": "docs/release/offline-legal/terms-of-service-en.md",
+      "destination": "legal/terms-of-service-en.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "be2af5fb17b18084aca88fd35c1ddd79dc8cf7c5bcfb1402edfae7f5afe16944"
+    },
+    {
+      "source": "docs/release/offline-legal/terms-of-service-ru.md",
+      "destination": "legal/terms-of-service-ru.md",
+      "kind": "UNAPPROVED_OFFLINE_LEGAL_DRAFT",
+      "sha256": "ac9f398177bb58a72422e47906b33a74793879dab8e13f52a575c24d6e415915"
+    },
+    {
+      "source": "docs/release/offline-free-v1-evidence/20261021-api37-normal-ui-notes-portability/notes046-screen.png",
+      "destination": "assets/screenshots/offline-v1-notes.png",
+      "kind": "SYNTHETIC_EMULATOR_SCREENSHOT_2026_10_21",
+      "sha256": "14b2256809e967c2bf16b0e880afe2e83229a4af5eb66c5f515a70fa502a0228"
+    },
+    {
+      "source": "docs/release/KOVA_OFFLINE_FREE_V1_READINESS.json",
+      "kind": "FACT_SOURCE_PIN_NOT_PUBLISHED",
+      "sha256": "cda6ab6e6b42e026bd2763acdc1d1758a846afe049cafa774a20bfc9f7607522"
+    },
+    {
+      "source": "docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
+      "kind": "FACT_SOURCE_PIN_NOT_PUBLISHED",
+      "sha256": "c296fba31ab8582a6dc99fbdf0a2f28563215d263c9f1b74ca64179f6ce9a552"
+    }
+  ]
+}

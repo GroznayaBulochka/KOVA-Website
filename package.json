@@ -1,0 +1,16 @@
+{
+  "name": "kova-project-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "screens:sync": "node scripts/sync-presentation.mjs && node qa/sync-public-copy.mjs",
+    "build": "node scripts/build-site.mjs",
+    "preview": "node scripts/preview.mjs",
+    "preview:workspace": "node scripts/preview.mjs --source",
+    "test": "node qa/run-checks.mjs",
+    "test:browser": "node qa/public-site-matrix.mjs",
+    "check:release": "node qa/release-check.mjs"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "recordedAt": "2026-10-21T21:44:19.471Z",
+  "sourceHashes": {
+    "index.html": "b077f230202ac5d239a940106382f57d0de0c46323ff4c091e50136dd2420508",
+    "landing.js": "d13001fc2c5c0d66c5fda6eff00e62f3a0dacf53c2ed93dcda6229ba371cb2f6",
+    "landing.css": "668af83a1421cb245a5360b21581e07222d13a28d3a923fd1304320522494523",
+    "qa/site-smoke.mjs": "658ccd050b61af547558387f3dbb545a91e28491408093a288670ffa1eb4aa7a"
+  },
+  "environment": "Isolated headless Edge; loopback preview; no owner browser data",
+  "results": [
+    {
+      "lang": "pl",
+      "width": 390,
+      "height": 844,
+      "mode": "video",
+      "id": "web-pl-390-video",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=pl",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-pl-390-video.png",
+        "390",
+        "844",
+        "video"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "pl",
+      "width": 1440,
+      "height": 1000,
+      "mode": "full",
+      "id": "web-pl-1440-full",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=pl",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-pl-1440-full.png",
+        "1440",
+        "1000",
+        "full"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "height": 844,
+      "mode": "video",
+      "id": "web-en-390-video",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=en",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-en-390-video.png",
+        "390",
+        "844",
+        "video"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "height": 1000,
+      "mode": "full",
+      "id": "web-en-1440-full",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=en",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-en-1440-full.png",
+        "1440",
+        "1000",
+        "full"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "height": 844,
+      "mode": "video",
+      "id": "web-ru-390-video",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=ru",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-ru-390-video.png",
+        "390",
+        "844",
+        "video"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "ru",
+      "width": 1440,
+      "height": 1000,
+      "mode": "full",
+      "id": "web-ru-1440-full",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=ru",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-ru-1440-full.png",
+        "1440",
+        "1000",
+        "full"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "ru",
+      "width": 320,
+      "height": 700,
+      "mode": "video",
+      "id": "web-ru-320-video",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=ru",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-ru-320-video.png",
+        "320",
+        "700",
+        "video"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "pl",
+      "width": 1440,
+      "height": 1000,
+      "mode": "video",
+      "id": "web-pl-1440-video",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=pl",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-pl-1440-video.png",
+        "1440",
+        "1000",
+        "video"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "lang": "en",
+      "width": 550,
+      "height": 900,
+      "mode": "full",
+      "id": "web-en-550-full",
+      "command": [
+        "node",
+        "qa/site-smoke.mjs",
+        "http://127.0.0.1:4174/index.html?lang=en",
+        "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21/web-en-550-full.png",
+        "550",
+        "900",
+        "full"
+      ],
+      "exitCode": 0,
+      "status": "PASS"
+    }
+  ]
+}

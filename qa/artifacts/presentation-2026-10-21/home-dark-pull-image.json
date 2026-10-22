@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "pull",
+    "/data/local/tmp/kova-presentation-15bff9c73f91449985090bc2f6f907fd.png",
+    "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21\\home-dark.png"
+  ],
+  "serial": "emulator-5560",
+  "atUtc": "2026-10-21T21:26:29.5258770Z",
+  "exitCode": 0
+}

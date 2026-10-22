@@ -1,588 +1,135 @@
-// Public project copy. Release status is deliberately separate from private task counts.
+// Public scope reconciled with KOVA_PHONE_OFFLINE_FREE_V1 and tracker34, 21 October 2026.
+// Pre-release information, not an approval to publish or a promise of availability.
 window.KOVA_PROJECT_PAGES = {
-  "404": {
-    "pl": {
-      "label": "404",
-      "title": "Tego adresu nie ma.",
-      "intro": "Link mógł się zmienić. Wróć na stronę główną albo sprawdź informacje o projekcie.",
-      "cards": [],
-      "actions": [
-        [
-          "Strona główna",
-          "index.html"
-        ],
-        [
-          "Stan projektu",
-          "status.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "404",
-      "title": "This page isn’t here.",
-      "intro": "The link may have changed. Return home or check the project information.",
-      "cards": [],
-      "actions": [
-        [
-          "Home",
-          "index.html"
-        ],
-        [
-          "Project status",
-          "status.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "404",
-      "title": "Такой страницы нет.",
-      "intro": "Возможно, ссылка изменилась. Вернитесь на главную или узнайте о проекте.",
-      "cards": [],
-      "actions": [
-        [
-          "Главная",
-          "index.html"
-        ],
-        [
-          "Статус проекта",
-          "status.html"
-        ]
-      ]
-    }
+  status: {
+    pl: { label:'Stan projektu', title:'Offline V1. Przed premierą.', intro:'Przygotowujemy bezpłatną KOVA na telefony z Androidem: bez rejestracji, reklam, subskrypcji i synchronizacji w chmurze. Wydanie nie jest jeszcze dostępne publicznie.', badge:'Aktualizacja: 21 października 2026 · 1.0.8 (10)', cards:[
+      ['Zakres pierwszego wydania','Konta, transakcje i kategorie, budżety, długi, cele, majątek netto, płatności cykliczne, profile i godziny pracy, raporty, kalendarz, notatki, lokalny OCR oraz ręczny szyfrowany eksport/import.'],
+      ['Co już sprawdzono','Zbudowano APK i AAB. Wykonano testy na Androidzie 7.0, 7.1 i rzeczywistym środowisku 16 KiB. Sprawdzono też przeniesienie zaszyfrowanego eksportu między izolowanymi instalacjami i ponowny import bez duplikatów. Są to ograniczone scenariusze, nie gwarancja działania na każdym telefonie.'],
+      ['Co pozostaje','Pełna macierz zwykłego interfejsu i dostępności, sprawdzenie bieżącego kandydata na fizycznym telefonie, zatwierdzenie dokumentów, podpisanie oraz formalności Google Play. Obecne artefakty wydania są niepodpisane.'],
+      ['Poza Offline V1','Konta Google/Firebase, chmura, udostępnianie rodzinne online, bankowe API, notowania na żywo, AI, Wear OS, Premium i zakupy nie są aktywne w tym wydaniu. Nie mają potwierdzonej daty udostępnienia.']
+    ], note:'Nie publikujemy daty premiery ani przycisku pobierania, dopóki wydanie i oficjalny adres sklepu nie zostaną zatwierdzone.', actions:[['Plan wydania','roadmap.html'],['Co się zmieniło','updates.html']] },
+    en: { label:'Project status', title:'Offline V1. Before launch.', intro:'We’re preparing free KOVA for Android phones: no registration, ads, subscriptions, or cloud sync. The release is not publicly available yet.', badge:'Updated: 21 October 2026 · 1.0.8 (10)', cards:[
+      ['First-release scope','Accounts, transactions and categories, budgets, debts, goals, net worth, recurring payments, work profiles and hours, reports, calendar, notes, on-device OCR, and manual encrypted export/import.'],
+      ['What has been checked','APK and AAB artifacts have been built. Tests ran on Android 7.0, 7.1, and an actual 16 KiB runtime. Encrypted export transfer between isolated installations and repeated import without duplicates were also checked. These are bounded scenarios, not a guarantee for every phone.'],
+      ['What remains','The full normal-interface and accessibility matrix, the current candidate on a physical phone, document approval, signing, and Google Play requirements. Current release artifacts are unsigned.'],
+      ['Outside Offline V1','Google/Firebase accounts, cloud services, online family sharing, banking APIs, live quotes, AI, Wear OS, Premium, and purchases are not active in this release. No availability date is confirmed.']
+    ], note:'We will publish a launch date or download button only after the release and official store address have been approved.', actions:[['Release plan','roadmap.html'],['Recent changes','updates.html']] },
+    ru: { label:'Статус проекта', title:'Offline V1. До выпуска.', intro:'Готовим бесплатную KOVA для телефонов Android: без регистрации, рекламы, подписок и облачной синхронизации. Публичный выпуск пока недоступен.', badge:'Обновлено: 21 октября 2026 · 1.0.8 (10)', cards:[
+      ['Состав первого выпуска','Счета, транзакции и категории, бюджеты, долги, цели, капитал, регулярные платежи, профили и часы работы, отчёты, календарь, заметки, локальное распознавание чеков и ручной зашифрованный экспорт/импорт.'],
+      ['Что проверено','Собраны APK и AAB. Выполнены тесты на Android 7.0, 7.1 и в настоящей среде 16 КиБ. Проверены перенос зашифрованного экспорта между изолированными установками и повторный импорт без дубликатов. Это ограниченные сценарии, не гарантия работы на каждом телефоне.'],
+      ['Что осталось','Полная матрица обычного интерфейса и доступности, текущий кандидат на физическом телефоне, утверждение документов, подпись и требования Google Play. Текущие релизные файлы не подписаны.'],
+      ['Не входит в Offline V1','Аккаунты Google/Firebase, облако, семейный онлайн-доступ, банковские API, котировки в реальном времени, AI, Wear OS, Premium и покупки не активны в этом выпуске. Сроки их появления не подтверждены.']
+    ], note:'Дата выпуска и кнопка скачивания появятся только после утверждения релиза и официального адреса магазина.', actions:[['План выпуска','roadmap.html'],['Последние изменения','updates.html']] }
   },
-  "status": {
-    "pl": {
-      "label": "Stan projektu",
-      "title": "KOVA jest w rozwoju.",
-      "intro": "Aplikacja na Androida jest rozwijana i testowana. Publiczne pobieranie nie jest jeszcze dostępne.",
-      "badge": "Przed publicznym wydaniem",
-      "cards": [
-        [
-          "Co znajdziesz w aplikacji",
-          "Transakcje, budżety, cele, raporty, kalendarz oraz pracę i dochód. Dostępność poszczególnych modułów zależy od ustawień aplikacji."
-        ],
-        [
-          "Kiedy będzie dostępna?",
-          "Nie ogłaszamy jeszcze daty premiery. Link do oficjalnego pobrania pojawi się tutaj, gdy wydanie będzie gotowe."
-        ],
-        [
-          "Co pozostało do sprawdzenia",
-          "Podpis i instalacja końcowego wydania, usługi Google i Firebase, subskrypcje, usuwanie konta oraz współpraca telefonu z Wear OS."
-        ],
-        [
-          "Informacje przed premierą",
-          "Dane kontaktowe i dokumenty wymagają końcowego zatwierdzenia. Testy lokalne nie oznaczają potwierdzenia wszystkich usług w środowisku produkcyjnym."
-        ]
-      ],
-      "note": "Ta strona opisuje stan projektu, nie obiecuje daty premiery ani pełnej gotowości produkcyjnej.",
-      "actions": [
-        [
-          "Plan rozwoju",
-          "roadmap.html"
-        ],
-        [
-          "Ostatnie zmiany",
-          "updates.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "Project status",
-      "title": "KOVA is in development.",
-      "intro": "The Android app is being developed and tested. Public download is not available yet.",
-      "badge": "Before public release",
-      "cards": [
-        [
-          "What’s in the app",
-          "Transactions, budgets, goals, reports, calendar, and work income. Individual modules depend on the app’s settings."
-        ],
-        [
-          "When will it be available?",
-          "We are not announcing a release date yet. An official download link will appear here once the release is ready."
-        ],
-        [
-          "What still needs checking",
-          "Signing and installing the final release, Google and Firebase services, subscriptions, account deletion, and phone–Wear OS integration."
-        ],
-        [
-          "Before launch",
-          "Contact information and documents need final approval. Local tests do not confirm every service in the production environment."
-        ]
-      ],
-      "note": "This page describes the project’s status, not a promised launch date or full production readiness.",
-      "actions": [
-        [
-          "Roadmap",
-          "roadmap.html"
-        ],
-        [
-          "Recent updates",
-          "updates.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "Статус проекта",
-      "title": "KOVA в разработке.",
-      "intro": "Приложение для Android разрабатывается и тестируется. Публичное скачивание пока недоступно.",
-      "badge": "До публичного выпуска",
-      "cards": [
-        [
-          "Что есть в приложении",
-          "Транзакции, бюджеты, цели, отчёты, календарь, работа и доход. Доступность отдельных модулей зависит от настроек приложения."
-        ],
-        [
-          "Когда можно будет скачать?",
-          "Дата выпуска пока не объявлена. Официальная ссылка появится здесь после подготовки выпуска."
-        ],
-        [
-          "Что ещё нужно проверить",
-          "Подпись и установка итоговой сборки, сервисы Google и Firebase, подписки, удаление аккаунта и взаимодействие телефона с Wear OS."
-        ],
-        [
-          "Перед запуском",
-          "Контактные данные и документы требуют окончательного утверждения. Локальные тесты не подтверждают работу всех сервисов в рабочей среде."
-        ]
-      ],
-      "note": "Эта страница описывает состояние проекта, а не обещает дату запуска или полную готовность к выпуску.",
-      "actions": [
-        [
-          "План развития",
-          "roadmap.html"
-        ],
-        [
-          "Последние изменения",
-          "updates.html"
-        ]
-      ]
-    }
+  roadmap: {
+    pl:{label:'Plan rozwoju',title:'Najpierw niezawodna wersja offline.',intro:'Kończymy kwalifikację istniejących funkcji. Ten plan nie jest obietnicą dat ani nowych usług.',badge:'Priorytet: Offline Free V1',cards:[
+      ['01 · Końcowe testy','Dokończenie brakujących scenariuszy zwykłego interfejsu, języków i dostępności oraz kontrola aktualnej wersji na telefonie. Zamkniętych testów nie zastępujemy marketingową deklaracją gotowości.'],
+      ['02 · Informacje i zasady','Dane wydawcy i kontakt są potwierdzone. Dokumenty offline pozostają projektami: wymagają zatwierdzenia warunków, zasad kontaktu, rynków i odbiorców oraz publicznych adresów.'],
+      ['03 · Kandydat do sklepu','Zatwierdzenie podpisu i konfiguracji Google Play, wymagane testy i deklaracje. Oficjalny link będzie dostępny dopiero po dopuszczeniu wydania.'],
+      ['Później · Osobna kwalifikacja','Przyszłe moduły zachowano w projekcie, ale nie uruchomiono. Chmura, AI, Wear OS i monetyzacja wymagają osobnych decyzji, testów i informacji dla użytkownika.']
+    ],actions:[['Aktualny status','status.html'],['Kontakt','contact.html']]},
+    en:{label:'Roadmap',title:'A reliable offline release first.',intro:'We’re finishing qualification of existing features. This plan does not promise dates or new services.',badge:'Priority: Offline Free V1',cards:[
+      ['01 · Final tests','Complete the remaining normal-interface, language, and accessibility scenarios, and check the current version on a phone. Completed checks are not a blanket claim of readiness.'],
+      ['02 · Information and policies','Publisher and contact details are confirmed. Offline documents remain drafts: terms, support practices, markets, audience, and public addresses still require approval.'],
+      ['03 · Store candidate','Approve signing and Google Play configuration, and complete required tests and declarations. The official link follows release approval.'],
+      ['Later · Separate qualification','Future modules remain in the project but are not enabled. Cloud services, AI, Wear OS, and monetization need separate decisions, testing, and user disclosures.']
+    ],actions:[['Current status','status.html'],['Contact','contact.html']]},
+    ru:{label:'План развития',title:'Сначала надёжная офлайн-версия.',intro:'Завершаем квалификацию существующих функций. План не обещает сроков или новых услуг.',badge:'Приоритет: Offline Free V1',cards:[
+      ['01 · Финальные проверки','Завершить оставшиеся сценарии обычного интерфейса, языков и доступности, проверить текущую версию на телефоне. Выполненные тесты не означают безусловную готовность всего продукта.'],
+      ['02 · Информация и правила','Данные издателя и контакт подтверждены. Офлайн-документы остаются проектами: условия, обработка обращений, рынки, аудитория и публичные адреса требуют утверждения.'],
+      ['03 · Кандидат для магазина','Утвердить подпись и настройки Google Play, выполнить необходимые тесты и декларации. Официальная ссылка появится после допуска выпуска.'],
+      ['Позже · Отдельная квалификация','Будущие модули сохранены в проекте, но не включены. Облако, AI, Wear OS и монетизация требуют отдельных решений, проверок и информации для пользователей.']
+    ],actions:[['Текущий статус','status.html'],['Контакты','contact.html']]}
   },
-  "roadmap": {
-    "pl": {
-      "label": "Plan rozwoju",
-      "title": "Kolejne kroki KOVA.",
-      "intro": "Plan pokazuje obszary prac, a nie gwarantowane terminy. Kolejność może się zmienić po testach.",
-      "badge": "Plan aktualizowany wraz z projektem",
-      "cards": [
-        [
-          "01 · Dopracowanie aplikacji",
-          "Wygodniejsza obsługa finansów i kreator profilu pracy. Sprawdzanie obliczeń, zapisu danych i działania na mniejszych ekranach."
-        ],
-        [
-          "02 · Weryfikacja usług online",
-          "Logowanie Google, dostęp rodzinny, subskrypcje i usuwanie konta w docelowym środowisku."
-        ],
-        [
-          "03 · Przygotowanie wydania",
-          "Podpis produkcyjny, dokumenty, dane kontaktowe i informacje w sklepie. Test instalacji i aktualizacji końcowej aplikacji."
-        ],
-        [
-          "04 · Telefon i zegarek",
-          "Pełne sprawdzenie parowania, szybkich wpisów i ponownego połączenia z Wear OS."
-        ]
-      ],
-      "note": "Plan nie określa daty premiery. Informację o dostępności aplikacji publikujemy na stronie statusu projektu.",
-      "actions": [
-        [
-          "Sprawdź dostępność",
-          "status.html"
-        ],
-        [
-          "Zobacz zmiany",
-          "updates.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "Roadmap",
-      "title": "What’s next for KOVA.",
-      "intro": "This plan outlines areas of work, not guaranteed dates. Priorities may change after testing.",
-      "badge": "Updated as the project develops",
-      "cards": [
-        [
-          "01 · Refining the app",
-          "Easier everyday finances and work profile setup. Checking calculations, data persistence, and usability on smaller screens."
-        ],
-        [
-          "02 · Checking online services",
-          "Google sign-in, family access, subscriptions, and account deletion in the target environment."
-        ],
-        [
-          "03 · Preparing the release",
-          "Production signing, documents, contact information, and store listing. Installation and upgrade checks for the final app."
-        ],
-        [
-          "04 · Phone and watch",
-          "Full checks of pairing, quick entries, and reconnection with Wear OS."
-        ]
-      ],
-      "note": "This plan does not set a release date. App availability is published on the project status page.",
-      "actions": [
-        [
-          "Check availability",
-          "status.html"
-        ],
-        [
-          "View updates",
-          "updates.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "План развития",
-      "title": "Следующие шаги KOVA.",
-      "intro": "План описывает направления работы, а не гарантированные сроки. Приоритеты могут измениться после тестирования.",
-      "badge": "Обновляется по мере развития проекта",
-      "cards": [
-        [
-          "01 · Доработка приложения",
-          "Удобное ведение финансов и настройка профиля работы. Проверка расчётов, сохранения данных и небольших экранов."
-        ],
-        [
-          "02 · Проверка онлайн-сервисов",
-          "Вход через Google, семейный доступ, подписки и удаление аккаунта в целевой среде."
-        ],
-        [
-          "03 · Подготовка выпуска",
-          "Рабочая подпись, документы, контакты и страница в магазине. Проверка установки и обновления итогового приложения."
-        ],
-        [
-          "04 · Телефон и часы",
-          "Полная проверка сопряжения, быстрых записей и повторного подключения к Wear OS."
-        ]
-      ],
-      "note": "План не устанавливает дату выпуска. Информация о доступности приложения публикуется на странице статуса проекта.",
-      "actions": [
-        [
-          "Доступность",
-          "status.html"
-        ],
-        [
-          "Обновления",
-          "updates.html"
-        ]
-      ]
-    }
+  security: {
+    pl:{label:'Prywatność i bezpieczeństwo',title:'Lokalnie. Z jasnymi ograniczeniami.',intro:'Offline V1 zapisuje finanse na telefonie. Nie tworzy konta online i nie synchronizuje danych z serwerem.',badge:'Szyfrowana baza · ręczny eksport',cards:[
+      ['Baza na urządzeniu','Dane finansowe korzystają z Room i SQLCipher oraz izolacji profili. Szyfrowanie nie chroni przed każdą możliwą utratą telefonu, hasła, klucza czy dostępu do urządzenia. Nie deklarujemy niezależnej certyfikacji bezpieczeństwa.'],
+      ['Bez automatycznego przesyłania','Sprawdzony manifest wydania nie ma uprawnienia INTERNET. Firebase, analityka aplikacji, Crashlytics, reklamy, Billing i usługi AI są wyłączone. Nie oznacza to braku ruchu sieciowego całego Androida lub innych aplikacji.'],
+      ['Eksport to Twoja decyzja','Ręczny eksport może być zaszyfrowany hasłem. Obejmuje wspierane dane, a nie pełny obraz instalacji: osadzone obrazy notatek są przenoszone, zewnętrzne odnośniki do plików nie kopiują ich zawartości. Hasło i plik przechowuj bezpiecznie. Nie ma automatycznej kopii w chmurze KOVA.'],
+      ['Zdjęcia i OCR','Rozpoznawanie używa modelu dołączonego do aplikacji. Zdjęcie można zrobić lub wybrać z galerii. Sprawdź kwotę, walutę i datę przed zapisem — OCR może się pomylić.'],
+      ['Strona WWW to osobna usługa','Strona nie czyta bazy telefonu. Opcjonalny pomiar zapisuje identyfikatory i licznik lokalnie po zgodzie; nie ma odbiorcy analityki. Po przyszłym hostingu dostawca strony może przetwarzać dane połączenia — jego konfiguracja i zasady wymagają zatwierdzenia.'],
+      ['Bezpieczne zgłoszenie','Problemy można opisać na contact@kovacompass.app. Nie przesyłaj haseł, kluczy, pełnych kopii bazy ani prawdziwych finansów. Do opisu wystarczą wersja aplikacji, Android i kroki odtworzenia z danymi przykładowymi.']
+    ],actions:[['Polityka aplikacji','privacy.html'],['Eksport i usuwanie danych','delete-account.html'],['Pamięć strony i cookies','cookies.html']]},
+    en:{label:'Privacy and security',title:'Local data. Clear limitations.',intro:'Offline V1 stores finances on your phone. It does not create an online account or sync records with a server.',badge:'Encrypted database · manual export',cards:[
+      ['Database on your device','Financial data uses Room and SQLCipher with profile isolation. Encryption cannot prevent every loss of a phone, password, key, or device access. We do not claim independent security certification.'],
+      ['No automatic uploads','The checked release manifest has no INTERNET permission. Firebase, app analytics, Crashlytics, ads, Billing, and AI services are disabled. This does not mean Android or other apps produce no network traffic.'],
+      ['Export is your choice','Manual export can be password-encrypted. It covers supported records, not a complete installation image: embedded note images travel with it; external file references do not copy the file itself. Store the password and file securely. There is no automatic KOVA cloud backup.'],
+      ['Photos and OCR','Recognition uses a model bundled with the app. You can take a photo or choose one from the gallery. Check the amount, currency, and date before saving — OCR can make mistakes.'],
+      ['The website is separate','This site cannot read the phone database. Optional measurement stores identifiers and a counter locally after consent; there is no analytics receiver. Future hosting may process connection data — its configuration and policies need approval.'],
+      ['Report safely','Describe issues at contact@kovacompass.app. Do not send passwords, keys, full database copies, or real financial records. Include the app version, Android version, and reproduction steps with example data.']
+    ],actions:[['App privacy policy','privacy.html'],['Export and data deletion','delete-account.html'],['Browser storage and cookies','cookies.html']]},
+    ru:{label:'Приватность и безопасность',title:'Локальные данные. Понятные ограничения.',intro:'Offline V1 хранит финансы на телефоне. Она не создаёт онлайн-аккаунт и не синхронизирует записи с сервером.',badge:'Зашифрованная база · ручной экспорт',cards:[
+      ['База на устройстве','Финансовые данные используют Room и SQLCipher с изоляцией профилей. Шифрование не исключает потерю телефона, пароля, ключа или доступа к устройству. Мы не заявляем независимую сертификацию безопасности.'],
+      ['Без автоматической отправки','В проверенном релизном манифесте нет разрешения INTERNET. Firebase, аналитика приложения, Crashlytics, реклама, Billing и AI отключены. Это не означает отсутствие сетевого трафика Android или других приложений.'],
+      ['Экспорт по вашему выбору','Ручной экспорт можно зашифровать паролем. Он включает поддерживаемые записи, но не полный образ установки: встроенные изображения заметок переносятся, внешние ссылки не копируют сам файл. Храните пароль и файл безопасно. Автоматической копии в облаке KOVA нет.'],
+      ['Фото и распознавание','OCR использует модель, включённую в приложение. Можно сделать фото или выбрать его из галереи. Проверяйте сумму, валюту и дату перед сохранением — распознавание может ошибаться.'],
+      ['Сайт — отдельная услуга','Сайт не читает базу телефона. Необязательные идентификаторы и счётчик сохраняются локально после согласия; получатель аналитики не подключён. Будущий хостинг может обрабатывать данные соединения — настройки и правила требуют утверждения.'],
+      ['Безопасное обращение','О проблемах можно написать на contact@kovacompass.app. Не отправляйте пароли, ключи, полную базу или реальные финансовые записи. Укажите версию приложения, Android и шаги воспроизведения с примерными данными.']
+    ],actions:[['Политика приложения','privacy.html'],['Экспорт и удаление данных','delete-account.html'],['Память браузера и cookies','cookies.html']]}
   },
-  "security": {
-    "pl": {
-      "label": "Prywatność i bezpieczeństwo",
-      "title": "Twoje dane. Jasne zasady.",
-      "intro": "KOVA rozdziela lokalne dane finansowe od funkcji wymagających internetu. Poniżej wyjaśniamy ten podział bez obietnic całkowitego bezpieczeństwa.",
-      "badge": "Lokalne finanse · oddzielne funkcje online",
-      "cards": [
-        [
-          "Finanse na urządzeniu",
-          "Główna historia finansowa korzysta z lokalnej, szyfrowanej bazy Room i SQLCipher. Dane są powiązane z tożsamością użytkownika."
-        ],
-        [
-          "Google i Rodzina",
-          "Tożsamość opiera się na identyfikatorze konta Google/Firebase, nie na nazwie wyświetlanej. Funkcje rodzinne wymagają internetu i kontroli uprawnień."
-        ],
-        [
-          "Ta strona",
-          "Strona nie odczytuje bazy finansowej z telefonu. Analityka jest opcjonalna i można ją wyłączyć w ustawieniach cookies."
-        ],
-        [
-          "Granice weryfikacji",
-          "Projekt jest w rozwoju. Końcowy podpis, usługi produkcyjne i integracja z zegarkiem wymagają dalszej weryfikacji. Nie deklarujemy certyfikacji ani niezależnego audytu bezpieczeństwa."
-        ]
-      ],
-      "note": "Przed udostępnieniem zrzutu ekranu usuń dane osobowe i finansowe. Nigdy nie publikuj haseł, tokenów ani kopii bazy.",
-      "actions": [
-        [
-          "Polityka prywatności",
-          "privacy.html"
-        ],
-        [
-          "Cookies i wybór analityki",
-          "cookies.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "Privacy and security",
-      "title": "Your data. Clear boundaries.",
-      "intro": "KOVA separates local financial data from features that need internet access. Here is what that means, without promises of absolute security.",
-      "badge": "Local finances · separate online features",
-      "cards": [
-        [
-          "Finances on your device",
-          "Core financial history uses a local encrypted Room and SQLCipher database. Data is associated with the user’s identity."
-        ],
-        [
-          "Google and Family",
-          "Identity relies on the Google/Firebase account identifier, not the display name. Family features need internet access and permission checks."
-        ],
-        [
-          "This website",
-          "The website does not read your phone’s financial database. Analytics is optional and can be disabled in Cookie settings."
-        ],
-        [
-          "Verification limits",
-          "The project is in development. Final signing, production services, and watch integration need further checks. We do not claim certification or an independent security audit."
-        ]
-      ],
-      "note": "Remove personal and financial details before sharing screenshots. Never publish passwords, tokens, or database copies.",
-      "actions": [
-        [
-          "Privacy Policy",
-          "privacy.html"
-        ],
-        [
-          "Cookies and analytics choice",
-          "cookies.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "Приватность и безопасность",
-      "title": "Ваши данные. Понятные границы.",
-      "intro": "KOVA разделяет локальные финансовые данные и функции, которым нужен интернет. Объясняем этот подход без обещаний абсолютной безопасности.",
-      "badge": "Локальные финансы · отдельные онлайн-функции",
-      "cards": [
-        [
-          "Финансы на устройстве",
-          "Основная финансовая история использует локальную зашифрованную базу Room и SQLCipher. Данные связаны с личностью пользователя."
-        ],
-        [
-          "Google и Семья",
-          "Личность определяется идентификатором аккаунта Google/Firebase, а не отображаемым именем. Семейным функциям нужны интернет и проверка прав."
-        ],
-        [
-          "Этот сайт",
-          "Сайт не читает финансовую базу телефона. Аналитика необязательна, её можно отключить в настройках cookies."
-        ],
-        [
-          "Границы проверки",
-          "Проект в разработке. Итоговая подпись, рабочие сервисы и интеграция с часами требуют дальнейшей проверки. Мы не заявляем о сертификации или независимом аудите безопасности."
-        ]
-      ],
-      "note": "Перед отправкой снимков экрана удалите личные и финансовые данные. Никогда не публикуйте пароли, токены или копии базы.",
-      "actions": [
-        [
-          "Конфиденциальность",
-          "privacy.html"
-        ],
-        [
-          "Cookies и аналитика",
-          "cookies.html"
-        ]
-      ]
-    }
+  updates: {
+    pl:{label:'Aktualności',title:'KOVA przechodzi na Offline Free V1.',intro:'Aktualizacja informacji o przygotowywanym wydaniu. To nie jest ogłoszenie premiery.',badge:'21 października 2026',cards:[
+      ['Bez obowiązkowego konta','Publiczne V1 ma działać bez rejestracji i internetu. Usługi online zachowano na przyszłość, ale wyłączono z wydania.'],
+      ['Notatki i przenoszenie danych','Poprawiono zgodność edytora z Androidem 7. Sprawdzono zapis po restarcie, osadzone obrazy, eksport oraz normalny import między izolowanymi instalacjami Androida 7.1 i 7.0. Aktualny edytor sprawdzono również na 16 KiB.'],
+      ['Wyniki, nie deklaracja gotowości','Pełna regresja z 21 października: 6745 PASS z 6746 przypadków, 1 FAIL związany z projektami dokumentów prawnych, 0 błędów wykonania i 0 pominiętych. Późniejszych testów celowanych nie doliczono do tej liczby. Nadal brakuje części kwalifikacji UI i bieżącego telefonu.'],
+      ['Dokumenty i kontakt','Strona używa aktualnych projektów dokumentów Offline V1 w PL/EN/RU oraz potwierdzonych danych wydawcy. To nie jest finalne zatwierdzenie prawne ani publikacja w sklepie.']
+    ],actions:[['Status wydania','status.html'],['Dane wydawcy','contact.html']]},
+    en:{label:'Updates',title:'KOVA moves to Offline Free V1.',intro:'An update on the upcoming release, not a launch announcement.',badge:'21 October 2026',cards:[
+      ['No mandatory account','Public V1 is designed to work without registration or internet. Online services are preserved for the future but disabled in this release.'],
+      ['Notes and data portability','The editor’s Android 7 compatibility was fixed. Checks covered persistence after restart, embedded images, export, and normal import between isolated Android 7.1 and 7.0 installations. The current editor was also checked on 16 KiB.'],
+      ['Results, not a readiness claim','Full regression on 21 October: 6745 PASS out of 6746 cases, 1 FAIL for draft legal documents, 0 execution errors, and 0 skipped. Later targeted tests are not added to this count. Some UI qualification and the current phone check remain.'],
+      ['Documents and contact','The site uses current Offline V1 document drafts in PL/EN/RU and confirmed publisher details. This is not final legal approval or a store publication.']
+    ],actions:[['Release status','status.html'],['Publisher details','contact.html']]},
+    ru:{label:'Обновления',title:'KOVA переходит на Offline Free V1.',intro:'Обновление информации о готовящемся выпуске, не объявление премьеры.',badge:'21 октября 2026',cards:[
+      ['Без обязательного аккаунта','Публичная V1 рассчитана на работу без регистрации и интернета. Онлайн-сервисы сохранены на будущее, но отключены в этом выпуске.'],
+      ['Заметки и перенос данных','Исправлена совместимость редактора с Android 7. Проверены сохранение после перезапуска, встроенные изображения, экспорт и обычный импорт между изолированными установками Android 7.1 и 7.0. Текущий редактор также проверен на 16 КиБ.'],
+      ['Результаты, не заявление о готовности','Полная регрессия 21 октября: 6745 PASS из 6746 случаев, 1 FAIL из-за черновиков правовых документов, 0 ошибок выполнения и 0 пропусков. Позднейшие целевые проверки не добавлены к этому числу. Часть квалификации UI и текущей версии на телефоне ещё впереди.'],
+      ['Документы и контакт','На сайте актуальные проекты документов Offline V1 на PL/EN/RU и подтверждённые данные издателя. Это не окончательное юридическое утверждение или публикация в магазине.']
+    ],actions:[['Статус выпуска','status.html'],['Данные издателя','contact.html']]}
   },
-  "updates": {
-    "pl": {
-      "label": "Aktualności",
-      "title": "Co zmienia się w KOVA.",
-      "intro": "Krótki zapis prac nad stroną i aplikacją. Zmiana w projekcie nie oznacza jeszcze publicznego wydania.",
-      "badge": "Aktualizacja: 20 września 2026",
-      "cards": [
-        [
-          "Strona projektu",
-          "Spójna nawigacja, bardziej czytelne treści, FAQ i wygodniejszy podgląd ekranów. Dokumenty i informacje o projekcie są dostępne w trzech językach."
-        ],
-        [
-          "Kreator profilu pracy",
-          "Konfiguracja została podzielona na sześć kroków: praca, wynagrodzenie, podatki, grafik, wypłata i podsumowanie. Trwa weryfikacja całego przepływu."
-        ],
-        [
-          "Praca i dochód",
-          "Ekran pierwszego uruchomienia wyjaśnia funkcję i prowadzi do utworzenia profilu pracy."
-        ],
-        [
-          "Google i funkcje rodzinne",
-          "Prace obejmują tożsamość konta i uprawnienia członków rodziny. Weryfikacja środowiska produkcyjnego pozostaje osobnym etapem."
-        ]
-      ],
-      "note": "Szczegóły gotowości do udostępnienia aplikacji znajdziesz na stronie statusu.",
-      "actions": [
-        [
-          "Stan projektu",
-          "status.html"
-        ],
-        [
-          "Plan rozwoju",
-          "roadmap.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "Updates",
-      "title": "What’s changing in KOVA.",
-      "intro": "A short record of website and app work. A project change does not yet mean a public release.",
-      "badge": "Updated: 20 September 2026",
-      "cards": [
-        [
-          "Project website",
-          "Consistent navigation, clearer content, FAQ, and easier screen previews. Documents and project information are available in three languages."
-        ],
-        [
-          "Work profile wizard",
-          "Setup is split into six steps: work, compensation, taxes, schedule, payday, and summary. End-to-end verification is in progress."
-        ],
-        [
-          "Work & Income",
-          "The first-use screen explains the feature and leads to creating a work profile."
-        ],
-        [
-          "Google and family features",
-          "Work covers account identity and family member permissions. Production environment verification remains a separate stage."
-        ]
-      ],
-      "note": "For app release readiness, see the project status page.",
-      "actions": [
-        [
-          "Project status",
-          "status.html"
-        ],
-        [
-          "Roadmap",
-          "roadmap.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "Обновления",
-      "title": "Что меняется в KOVA.",
-      "intro": "Краткая история работ над сайтом и приложением. Изменение в проекте ещё не означает публичный выпуск.",
-      "badge": "Обновлено: 20 сентября 2026",
-      "cards": [
-        [
-          "Сайт проекта",
-          "Единая навигация, понятные тексты, ответы на вопросы и удобный просмотр экранов. Документы и информация о проекте доступны на трёх языках."
-        ],
-        [
-          "Мастер профиля работы",
-          "Настройка разделена на шесть шагов: работа, доход, налоги, график, выплата и итог. Проверка полного сценария продолжается."
-        ],
-        [
-          "Работа и доход",
-          "Экран первого запуска объясняет функцию и ведёт к созданию профиля работы."
-        ],
-        [
-          "Google и семейные функции",
-          "Работа охватывает личность аккаунта и права участников семьи. Проверка рабочей среды остаётся отдельным этапом."
-        ]
-      ],
-      "note": "О готовности приложения к публикации читайте на странице статуса проекта.",
-      "actions": [
-        [
-          "Статус проекта",
-          "status.html"
-        ],
-        [
-          "План развития",
-          "roadmap.html"
-        ]
-      ]
-    }
+  contact: {
+    pl:{label:'Kontakt i wydawca',title:'Porozmawiajmy o KOVA.',intro:'Pytania o aplikację, problemy i sprawy prywatności możesz kierować na podany niżej adres. Nie wysyłaj danych swoich finansów.',badge:'Kontakt potwierdzony przez wydawcę',cards:[
+      ['Wydawca','Vadyslav Konohrai · Polska · osoba prywatna. Dane podane przez właściciela projektu; nie stanowią deklaracji ukończonej kwalifikacji prawnej dla wszystkich rynków.'],
+      ['Wsparcie i prywatność','contact@kovacompass.app — jeden adres do pytań, zgłoszeń problemów, reklamacji i spraw prywatności. Otwarcie linku uruchamia Twoją pocztę; strona sama nie wysyła zgłoszenia.'],
+      ['Jak opisać problem','Podaj wersję KOVA, model telefonu, wersję Androida, oczekiwane działanie i kroki odtworzenia. Użyj przykładowych kwot. Zamazać dane osobowe należy przed dołączeniem zrzutów.'],
+      ['Wydanie i odbiorcy','Planowane V1 jest bezpłatne, na Androida 7.0 lub nowszego, dla osób 13+. Planowana dostępność międzynarodowa zależy od dopuszczenia w sklepie i wymagań lokalnych; nie jest jeszcze potwierdzona.']
+    ],note:'Nie przesyłaj haseł, kluczy szyfrowania, pełnych backupów ani rzeczywistych danych finansowych. Retencja korespondencji i szczegóły publicznej obsługi wymagają zatwierdzenia w dokumentach.',actions:[['Napisz e-mail','mailto:contact@kovacompass.app'],['Prywatność','privacy.html'],['Dostępność aplikacji','status.html']]},
+    en:{label:'Contact and publisher',title:'Let’s talk about KOVA.',intro:'Use the address below for app questions, issues, and privacy matters. Do not send your financial records.',badge:'Contact confirmed by the publisher',cards:[
+      ['Publisher','Vadyslav Konohrai · Poland · private individual. These details were provided by the project owner; they are not a claim of completed legal qualification for all markets.'],
+      ['Support and privacy','contact@kovacompass.app — one address for questions, issues, complaints, and privacy matters. The link opens your email app; this website does not submit a request itself.'],
+      ['Describe an issue','Include the KOVA version, phone model, Android version, expected behavior, and reproduction steps. Use example amounts. Remove personal details before attaching screenshots.'],
+      ['Release and audience','Planned V1 is free, for Android 7.0 or later, and intended for ages 13+. International availability depends on store approval and local requirements; it is not confirmed yet.']
+    ],note:'Do not send passwords, encryption keys, complete backups, or real financial records. Correspondence retention and public support practices still require approval in the documents.',actions:[['Write an email','mailto:contact@kovacompass.app'],['Privacy','privacy.html'],['App availability','status.html']]},
+    ru:{label:'Контакты и издатель',title:'Свяжитесь с KOVA.',intro:'По адресу ниже можно задать вопрос о приложении, сообщить о проблеме или обратиться по вопросам приватности. Не отправляйте финансовые записи.',badge:'Контакт подтверждён издателем',cards:[
+      ['Издатель','Vadyslav Konohrai · Польша · частное лицо. Данные предоставлены владельцем проекта; это не заявление о завершённой правовой квалификации для всех рынков.'],
+      ['Поддержка и приватность','contact@kovacompass.app — единый адрес для вопросов, ошибок, жалоб и обращений о приватности. Ссылка открывает вашу почту; сам сайт не отправляет обращение.'],
+      ['Как описать проблему','Укажите версию KOVA, модель телефона, Android, ожидаемое поведение и шаги воспроизведения. Используйте примерные суммы. Удалите личные данные со снимков экрана перед отправкой.'],
+      ['Выпуск и аудитория','Планируемая V1 бесплатна, предназначена для Android 7.0 и новее и аудитории 13+. Международная доступность зависит от допуска магазина и местных требований; она пока не подтверждена.']
+    ],note:'Не отправляйте пароли, ключи шифрования, полные копии или реальные финансовые данные. Сроки хранения переписки и порядок публичной поддержки ещё требуют утверждения в документах.',actions:[['Написать письмо','mailto:contact@kovacompass.app'],['Приватность','privacy.html'],['Доступность','status.html']]}
   },
-  "contact": {
-    "pl": {
-      "label": "Kontakt i pomoc",
-      "title": "Potrzebujesz informacji o KOVA?",
-      "intro": "Na razie odpowiedzi o dostępności, działaniu i prywatności zebraliśmy na tej stronie. Publiczny kanał wsparcia jest w przygotowaniu.",
-      "badge": "Kontakt zostanie podany przed wydaniem",
-      "cards": [
-        [
-          "Pobieranie i premiera",
-          "Sprawdź status projektu. Nie ma jeszcze potwierdzonej daty ani publicznego linku do pobrania."
-        ],
-        [
-          "Prywatność i dane",
-          "Opis zasad znajdziesz w polityce prywatności, a podział danych lokalnych i online na stronie bezpieczeństwa."
-        ],
-        [
-          "Zgłoszenie problemu",
-          "Zapisz wersję aplikacji, model telefonu, wersję Androida i kroki prowadzące do problemu. Przed udostępnieniem usuń dane osobowe ze zrzutów."
-        ],
-        [
-          "Kanał kontaktu",
-          "Oficjalny adres wsparcia pojawi się tutaj po zatwierdzeniu. Strona nie przyjmuje jeszcze zgłoszeń."
-        ]
-      ],
-      "note": "Nie wysyłaj haseł, tokenów, informacji finansowych ani kopii bazy do niepotwierdzonych odbiorców.",
-      "actions": [
-        [
-          "Pytania i odpowiedzi",
-          "index.html#faq"
-        ],
-        [
-          "Stan projektu",
-          "status.html"
-        ]
-      ]
-    },
-    "en": {
-      "label": "Contact and help",
-      "title": "Looking for information about KOVA?",
-      "intro": "For now, this site brings together answers about availability, features, and privacy. A public support channel is being prepared.",
-      "badge": "Contact details will be provided before release",
-      "cards": [
-        [
-          "Downloads and launch",
-          "Check the project status. There is no confirmed date or public download link yet."
-        ],
-        [
-          "Privacy and data",
-          "Read the Privacy Policy for the rules and the security page for the distinction between local and online data."
-        ],
-        [
-          "Reporting a problem",
-          "Note the app version, phone model, Android version, and steps leading to the issue. Remove personal details from screenshots before sharing."
-        ],
-        [
-          "Contact channel",
-          "The official support address will appear here once approved. This website does not accept support requests yet."
-        ]
-      ],
-      "note": "Do not send passwords, tokens, financial information, or database copies to unverified recipients.",
-      "actions": [
-        [
-          "Questions and answers",
-          "index.html#faq"
-        ],
-        [
-          "Project status",
-          "status.html"
-        ]
-      ]
-    },
-    "ru": {
-      "label": "Контакты и помощь",
-      "title": "Нужна информация о KOVA?",
-      "intro": "Пока мы собрали на сайте ответы о доступности, функциях и приватности. Публичный канал поддержки готовится.",
-      "badge": "Контакты появятся до выпуска",
-      "cards": [
-        [
-          "Скачивание и запуск",
-          "Проверьте статус проекта. Подтверждённой даты и публичной ссылки пока нет."
-        ],
-        [
-          "Приватность и данные",
-          "Правила описаны в политике конфиденциальности, а разделение локальных и онлайн-данных — на странице безопасности."
-        ],
-        [
-          "Сообщение о проблеме",
-          "Запишите версию приложения, модель телефона, версию Android и шаги воспроизведения. Удалите личные данные со снимков перед отправкой."
-        ],
-        [
-          "Канал связи",
-          "Официальный адрес поддержки появится здесь после утверждения. Сайт пока не принимает обращения."
-        ]
-      ],
-      "note": "Не отправляйте пароли, токены, финансовые данные или копии базы непроверенным получателям.",
-      "actions": [
-        [
-          "Вопросы и ответы",
-          "index.html#faq"
-        ],
-        [
-          "Статус проекта",
-          "status.html"
-        ]
-      ]
-    }
+  'delete-account': {
+    pl:{label:'Twoje dane',title:'Eksport i usuwanie danych lokalnych.',intro:'Offline V1 nie tworzy konta w chmurze. Profil lokalny i konto finansowe w KOVA nie są kontem internetowym ani połączeniem z bankiem.',badge:'Bez konta online i synchronizacji',cards:[
+      ['Najpierw zabezpiecz potrzebne dane','W ustawieniach danych użyj ręcznego szyfrowanego eksportu wspieranych rekordów i wybierz miejsce zapisu. Zachowaj hasło. To częściowy eksport, nie kopia wszystkich ustawień, kluczy i plików instalacji.'],
+      ['Usuń lokalne dane','Aby usunąć dane całej instalacji, otwórz ustawienia Androida → Aplikacje → KOVA → Pamięć → Wyczyść dane albo odinstaluj KOVA. Nazwy zależą od systemu. Operacja jest nieodwracalna bez poprawnej kopii; może objąć wszystkie lokalne profile tej instalacji.'],
+      ['Pliki poza aplikacją','Wyeksportowane kopie, oryginalne zdjęcia i pliki u innych dostawców usuwa się osobno. Obraz osadzony w notatce może być w eksporcie; zewnętrzne URI jest tylko odnośnikiem. Wydawca nie ma zdalnego dostępu do Twojej lokalnej bazy.'],
+      ['Korespondencja z wydawcą','Sprawy danych przekazanych e-mailem kieruj na contact@kovacompass.app. Nie załączaj kopii finansów. Ta strona nie wykonuje usuwania danych i nie wysyła automatycznego żądania.']
+    ],actions:[['Kontakt w sprawie danych','mailto:contact@kovacompass.app'],['Pełna polityka','privacy.html']]},
+    en:{label:'Your data',title:'Export and delete local data.',intro:'Offline V1 does not create a cloud account. A local profile or financial account in KOVA is not an online account or a bank connection.',badge:'No online account or sync',cards:[
+      ['Save what you need first','In data settings, use manual encrypted export of supported records and select a destination. Keep the password. This is a partial export, not a copy of every setting, key, and installation file.'],
+      ['Delete local data','To remove data for the whole installation, open Android settings → Apps → KOVA → Storage → Clear data, or uninstall KOVA. Labels vary by system. Without a valid backup this is irreversible; it may affect every local profile in that installation.'],
+      ['Files outside the app','Delete exported copies, original photos, and files held by other providers separately. An image embedded in a note may be included in export; an external URI is only a reference. The publisher cannot remotely access your local database.'],
+      ['Messages to the publisher','For data shared by email, contact contact@kovacompass.app. Do not attach financial backups. This page neither deletes data nor sends an automatic request.']
+    ],actions:[['Contact about data','mailto:contact@kovacompass.app'],['Full privacy policy','privacy.html']]},
+    ru:{label:'Ваши данные',title:'Экспорт и удаление локальных данных.',intro:'Offline V1 не создаёт облачный аккаунт. Локальный профиль и финансовый счёт в KOVA — не онлайн-аккаунт и не подключение к банку.',badge:'Без онлайн-аккаунта и синхронизации',cards:[
+      ['Сначала сохраните нужное','В настройках данных используйте ручной зашифрованный экспорт поддерживаемых записей и выберите место сохранения. Сохраните пароль. Это частичный экспорт, не копия всех настроек, ключей и файлов установки.'],
+      ['Удалите локальные данные','Для удаления данных всей установки откройте настройки Android → Приложения → KOVA → Хранилище → Очистить данные либо удалите KOVA. Названия зависят от системы. Без корректной копии действие необратимо и может затронуть все локальные профили этой установки.'],
+      ['Файлы вне приложения','Экспортированные копии, исходные фото и файлы у других поставщиков удаляются отдельно. Встроенное изображение заметки может войти в экспорт; внешний URI остаётся лишь ссылкой. Издатель не имеет удалённого доступа к вашей локальной базе.'],
+      ['Переписка с издателем','По вопросам данных, переданных по почте, пишите на contact@kovacompass.app. Не прикладывайте финансовые копии. Эта страница не удаляет данные и не отправляет автоматический запрос.']
+    ],actions:[['Вопрос о данных','mailto:contact@kovacompass.app'],['Полная политика','privacy.html']]}
+  },
+  '404': {
+    pl:{label:'404',title:'Tego adresu nie ma.',intro:'Link mógł się zmienić. Wróć na stronę główną albo sprawdź informacje o projekcie.',cards:[],actions:[['Strona główna','index.html'],['Stan projektu','status.html']]},
+    en:{label:'404',title:'This page isn’t here.',intro:'The link may have changed. Return home or check the project information.',cards:[],actions:[['Home','index.html'],['Project status','status.html']]},
+    ru:{label:'404',title:'Такой страницы нет.',intro:'Возможно, ссылка изменилась. Вернитесь на главную или узнайте о проекте.',cards:[],actions:[['Главная','index.html'],['Статус проекта','status.html']]}
   }
 };

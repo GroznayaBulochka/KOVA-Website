@@ -1,0 +1,246 @@
+{
+  "mode": "preview",
+  "published": false,
+  "generatedAt": "2026-10-22T07:03:21.392Z",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 22442,
+      "sha256": "844fd955ce717ae7407e99d4f34c6158ec6dab95a419d24363ae1ae3d62cb5b6"
+    },
+    {
+      "file": "status.html",
+      "bytes": 3841,
+      "sha256": "fe38b00d263c38425e97c3af4f4bf9b125b63d2727192b738b01f6b292e39295"
+    },
+    {
+      "file": "roadmap.html",
+      "bytes": 3330,
+      "sha256": "efe3462e7ea40556e595b892242fe490f9c12f0f0317c114fe74e31aec65196f"
+    },
+    {
+      "file": "updates.html",
+      "bytes": 3414,
+      "sha256": "a2a7dd4dfcd1b2a2aa1ca7b9665d379919d5133128a493bd96737625b1b0d3c0"
+    },
+    {
+      "file": "security.html",
+      "bytes": 4428,
+      "sha256": "bb9fe75554c3e2736fa9a57a286cdd0c6ae335e6b273290acd89b822c605fb57"
+    },
+    {
+      "file": "contact.html",
+      "bytes": 3803,
+      "sha256": "cb950894ff10c8c9bd15db95bd40cbd7b6add277394520ce7798ccd3526d2cbd"
+    },
+    {
+      "file": "delete-account.html",
+      "bytes": 3655,
+      "sha256": "2beca7e022dcddcf177fb4b55dba33ee5cadbb94c4f3a5dee3241ce74e3086f5"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 3425,
+      "sha256": "93494d331078496ef8dc66dfe82818ad0e250e2aa4a508d6b36f17d1e7c3fd31"
+    },
+    {
+      "file": "terms.html",
+      "bytes": 3133,
+      "sha256": "19776d7bc824833c073051a9ac46978dee6432e409f2a57eefb2e0cba9a5e403"
+    },
+    {
+      "file": "cookies.html",
+      "bytes": 7761,
+      "sha256": "8f9a7f3ad2d05075012d511660690f75faeb91affc042d63d01c1bb2f434eb0c"
+    },
+    {
+      "file": "404.html",
+      "bytes": 2161,
+      "sha256": "4d4ea3999a37e2993d8930664d4a0812fed1cfe192dd3e6b0ad1929fb68c9d54"
+    },
+    {
+      "file": "landing.css",
+      "bytes": 17980,
+      "sha256": "668af83a1421cb245a5360b21581e07222d13a28d3a923fd1304320522494523"
+    },
+    {
+      "file": "site-ui.css",
+      "bytes": 12294,
+      "sha256": "5a26926e764f9821df62162ade447c106b2df811eb8e3a5f75f4159d2d480882"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 395,
+      "sha256": "97d00f1f0b8c0367e734dd86d0d4fa0b9f3a8ca0ed6a17ff4b0d2917961137e6"
+    },
+    {
+      "file": "workspace.css",
+      "bytes": 31756,
+      "sha256": "9d800dc8abfde2416beee38c8fa6f3c385a542514d406f26fa8c2fee558bfb3c"
+    },
+    {
+      "file": "landing.js",
+      "bytes": 53231,
+      "sha256": "95593da4dadf54476c316151d8d1d4b81813ef1daf715fe2717e819fb9a4934c"
+    },
+    {
+      "file": "site-shell.js",
+      "bytes": 8387,
+      "sha256": "11a3b68b51525551308945673a4dadcc36226f57405ede2a2bc134a55907b78c"
+    },
+    {
+      "file": "language-picker.js",
+      "bytes": 4594,
+      "sha256": "9c3f5133ddef18d131313ef69311a72cfa73e2a80beef0e1bb4f7178c11dd518"
+    },
+    {
+      "file": "project-content.js",
+      "bytes": 32564,
+      "sha256": "29c2e2590a78dcf15d7e4b25b2ecdf73067b57629cdd4eaf90e9d1f0a2f96fcf"
+    },
+    {
+      "file": "project-pages.js",
+      "bytes": 2117,
+      "sha256": "8bef60ca0f6c75fe809a2a2d2b2e8c7bd1aed9c1f0bb31c58b0b77635440af2f"
+    },
+    {
+      "file": "legal-document.js",
+      "bytes": 14256,
+      "sha256": "b389f9134dbf8826f443b0776d49edc72ea3fed08d8fc05134a4e0794baca331"
+    },
+    {
+      "file": "document-language.js",
+      "bytes": 1996,
+      "sha256": "2f33f0943eb676eafd7993b3d0239176343ea9f6cce122a07233bba3b42ce5c7"
+    },
+    {
+      "file": "site.webmanifest",
+      "bytes": 437,
+      "sha256": "a2620166c8ac67c93c7f5f934da6f091fe67bdfcd6628b09355faf7b1f8be4da"
+    },
+    {
+      "file": "assets/logo.svg",
+      "bytes": 1168,
+      "sha256": "23a833f026e1952a94ce0a34dcf397dd655b76b494ff1d996a504ed5a11ca9d2"
+    },
+    {
+      "file": "assets/icons.svg",
+      "bytes": 3737,
+      "sha256": "5e878e526868ed2ca8f51749f808003ec0c306af3de753869a4ec0a4521eccce"
+    },
+    {
+      "file": "assets/hero-visual.webp",
+      "bytes": 115418,
+      "sha256": "2a2a1c021e24352404101b22de798dd09b15fca2a3308a66e854d3284364c24b"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-home.png",
+      "bytes": 251592,
+      "sha256": "06790b00d6caa834128199bb964bcdf4603d092dbef715d52f5fec9c0b8b36c6"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-accounts.png",
+      "bytes": 574527,
+      "sha256": "a2a0eec493f093c3016d629b6c80468718ec37758ce6b353f96178988ecc9c6a"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-transactions.png",
+      "bytes": 248758,
+      "sha256": "e2c3503f7acea3a1273f1fd4be854d340d96ae3b8587dac97e101fcd85755a1c"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-budgets.png",
+      "bytes": 623324,
+      "sha256": "92fea2f21ecf3ca52947970d0679821214031e186c7122e4b4d49c7b454b1db7"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-recurring.png",
+      "bytes": 572408,
+      "sha256": "d12320b5106253646e16b1a2121cb57474dcef43e92db26b685386f79099b2ed"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-reports.png",
+      "bytes": 665664,
+      "sha256": "cc5a5d9c5540b15d6f996ec0ae051ff8c69c218e1b2b2e14159564fdd573e830"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-calendar.png",
+      "bytes": 729890,
+      "sha256": "233f02bd8bca35636560e31cde1f08a04ae9d089b4d8ff0c434a35f46a8b8e73"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-notes.png",
+      "bytes": 656469,
+      "sha256": "2711a49d50a6fe8bf3a29f67a69ee2d6af0d18e7b991123f575e09bed93ebba2"
+    },
+    {
+      "file": "legal/privacy-policy-pl.md",
+      "bytes": 10133,
+      "sha256": "be77a458616ece5288039225a0fa71da57c1f77e46597aa0d7f7d1ad2c810558"
+    },
+    {
+      "file": "legal/privacy-policy-en.md",
+      "bytes": 9307,
+      "sha256": "8168b0a1ba858c57ee8ca90f0a8df9affca3799ab0ed70f01851a91d4e0b4f2b"
+    },
+    {
+      "file": "legal/privacy-policy-ru.md",
+      "bytes": 16798,
+      "sha256": "c347c5969d7bfd7d7ed650402b20a4dec03ed57f0e3808df739d6fa6dbde38a9"
+    },
+    {
+      "file": "legal/terms-of-service-pl.md",
+      "bytes": 10185,
+      "sha256": "fabf50b66942e3342e5119c599b8ab74098245aeb735c2c8dff11a572a5562b8"
+    },
+    {
+      "file": "legal/terms-of-service-en.md",
+      "bytes": 8821,
+      "sha256": "bd114b0ad344f5e5254c8076ecd2411f88d107a793503fef38da6811dcfbd30f"
+    },
+    {
+      "file": "legal/terms-of-service-ru.md",
+      "bytes": 16537,
+      "sha256": "7d758c75f18356758dcd0b1b725f60f02d1cee0f467d253df7c34c137367282b"
+    }
+  ],
+  "excluded": [
+    "workspace.html",
+    "workspace.js",
+    "workspace-access.js",
+    "qa",
+    "scripts",
+    ".git",
+    ".well-known/security.txt",
+    "old intro and excluded-feature screenshots"
+  ],
+  "blockers": {
+    "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
+    "verifiedOn": "2026-10-21",
+    "appVersionName": "1.0.8",
+    "appVersionCode": 10,
+    "publicDownloadAvailable": false,
+    "storeUrl": null,
+    "canonicalOrigin": "https://kovacompass.app",
+    "domainApprovedByOwner": true,
+    "domainEvidence": "OWNER_DECLARATION_2026-10-21",
+    "hostingVerified": false,
+    "publicPolicyUrl": "https://kovacompass.app/privacy.html",
+    "publicTermsUrl": "https://kovacompass.app/terms.html",
+    "operatorApproved": true,
+    "operatorLegalQualified": false,
+    "publisher": "Vadyslav Konohrai",
+    "publisherCountry": "PL",
+    "publisherDeclaredStatus": "PRIVATE_INDIVIDUAL",
+    "supportContactApproved": true,
+    "supportEmail": "contact@kovacompass.app",
+    "supportContactOperationallyVerified": false,
+    "legalApproved": false,
+    "cloudAccountAvailable": false,
+    "externalAccountDeletionChannelRequired": false,
+    "publicationApproved": false,
+    "analyticsReceiver": null,
+    "legalState": "DRAFT_OWNER_INPUT_REQUIRED",
+    "appReadiness": "INCOMPLETE_REQUIRED_TEST_ENVIRONMENT_MISSING"
+  }
+}

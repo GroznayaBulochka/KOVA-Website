@@ -1,0 +1,146 @@
+{
+  "workspace": false,
+  "landing": true,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — финансы в одном месте",
+  "lang": "ru",
+  "viewport": {
+    "width": 320,
+    "height": 700
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 320,
+    "scrollWidth": 320
+  },
+  "overflowElements": [
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "Светлая темаТе же данные, другое оформление",
+      "left": 224,
+      "right": 411,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 224,
+      "right": 411,
+      "scrollWidth": 186
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 230,
+      "right": 405,
+      "scrollWidth": 176
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "Светлая темаТе же данные, другое оформление",
+      "left": 224,
+      "right": 411,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Светлая тема",
+      "left": 224,
+      "right": 411,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Те же данные, другое оформление",
+      "left": 224,
+      "right": 411,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "Локальные заметкиСохранение на устройстве · 21.10.2026",
+      "left": 427,
+      "right": 615,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 427,
+      "right": 615,
+      "scrollWidth": 186
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 433,
+      "right": 609,
+      "scrollWidth": 176
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "Локальные заметкиСохранение на устройстве · 21.10.2026",
+      "left": 427,
+      "right": 615,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Локальные заметки",
+      "left": 427,
+      "right": 615,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Сохранение на устройстве · 21.10.2026",
+      "left": 427,
+      "right": 615,
+      "scrollWidth": 188
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 26,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\release-2026-10-21\\matrix/index-ru-320.png"
+}
+

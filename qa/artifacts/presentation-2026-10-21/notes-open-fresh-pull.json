@@ -1,0 +1,10 @@
+{
+  "atUtc": "2026-10-21T21:32:00.4852495Z",
+  "exitCode": 0,
+  "arguments": [
+    "pull",
+    "/data/local/tmp/kova-qualification-7ce2d62126884431992734d4c88f5a0c.xml",
+    "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\presentation-2026-10-21\\notes-open-fresh.xml"
+  ],
+  "serial": "emulator-5560"
+}

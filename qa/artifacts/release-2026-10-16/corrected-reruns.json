@@ -1,0 +1,29 @@
+{
+  "evidenceType": "Terminal execution results observed during this task; original matrix logs retained.",
+  "runs": [
+    {
+      "id": "privacy-ru-1440",
+      "exitCode": 0,
+      "passed": true,
+      "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/privacy.html?lang=ru qa/artifacts/release-2026-10-16/privacy-ru-final.png 1440 900",
+      "screenshot": "privacy-ru-final.png",
+      "reason": "Decode Cyrillic fragment before comparing against heading ID; document and TOC assertions passed."
+    },
+    {
+      "id": "terms-ru-1440",
+      "exitCode": 0,
+      "passed": true,
+      "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/terms.html?lang=ru qa/artifacts/release-2026-10-16/terms-ru-final.png 1440 900",
+      "screenshot": "terms-ru-final.png",
+      "reason": "Same Cyrillic fragment test correction; document and TOC assertions passed."
+    },
+    {
+      "id": "404-en-768",
+      "exitCode": 0,
+      "passed": true,
+      "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/404.html?lang=en qa/artifacts/release-2026-10-16/404-en-final.png 768 1024",
+      "screenshot": "404-en-final.png",
+      "reason": "Original UI assertions passed but browser teardown hit watchdog; graceful Browser.close added. Bounded rerun exited 0."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "atUtc": "2026-10-21T21:26:50.0827324Z",
+  "serial": "emulator-5560",
+  "exitCode": 0,
+  "arguments": [
+    "shell",
+    "dumpsys",
+    "activity",
+    "activities"
+  ]
+}

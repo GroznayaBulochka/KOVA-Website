@@ -1,0 +1,138 @@
+{
+  "recordedAt": "2026-10-16T07:11:09.108Z",
+  "decision": "LOCAL_PRE_RELEASE_WEBSITE_PREPARATION_COMPLETE",
+  "productionReady": false,
+  "published": false,
+  "appModified": false,
+  "ownerInstruction": "Leave legal documents as drafts.",
+  "source": {
+    "repository": "KOVA-Website",
+    "head": "daea563ec3a0214cc71611e96e0ee49bf3738249",
+    "initialWorkingTree": "clean",
+    "committed": false
+  },
+  "scope": "Website aligned with KOVA_PHONE_FREE_V1. App qualification is not changed.",
+  "publicPages": 11,
+  "languages": [
+    "pl",
+    "en",
+    "ru"
+  ],
+  "faqAnswers": 6,
+  "staticChecks": {
+    "htmlFiles": 12,
+    "localReferences": 259,
+    "translatedProjectVariants": 21,
+    "appLegalCopies": 6,
+    "sourceCheckGroups": 12,
+    "result": "PASS"
+  },
+  "browser": {
+    "engine": "Headless Microsoft Edge, isolated profiles",
+    "physicalDevice": "NOT RUN",
+    "humanAccessibility": "NOT VALIDATED",
+    "firstMatrix": {
+      "total": 39,
+      "pass": 32,
+      "fail": 7,
+      "exitCode": 1
+    },
+    "legalRepeat": {
+      "total": 6,
+      "pass": 4,
+      "fail": 2,
+      "exitCode": 1
+    },
+    "correctedReruns": [
+      {
+        "id": "privacy-ru-1440",
+        "exitCode": 0,
+        "passed": true,
+        "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/privacy.html?lang=ru qa/artifacts/release-2026-10-16/privacy-ru-final.png 1440 900",
+        "screenshot": "privacy-ru-final.png",
+        "reason": "Decode Cyrillic fragment before comparing against heading ID; document and TOC assertions passed."
+      },
+      {
+        "id": "terms-ru-1440",
+        "exitCode": 0,
+        "passed": true,
+        "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/terms.html?lang=ru qa/artifacts/release-2026-10-16/terms-ru-final.png 1440 900",
+        "screenshot": "terms-ru-final.png",
+        "reason": "Same Cyrillic fragment test correction; document and TOC assertions passed."
+      },
+      {
+        "id": "404-en-768",
+        "exitCode": 0,
+        "passed": true,
+        "command": "node qa/site-smoke.mjs http://127.0.0.1:4173/404.html?lang=en qa/artifacts/release-2026-10-16/404-en-final.png 768 1024",
+        "screenshot": "404-en-final.png",
+        "reason": "Original UI assertions passed but browser teardown hit watchdog; graceful Browser.close added. Bounded rerun exited 0."
+      }
+    ],
+    "finalDistinct": {
+      "total": 39,
+      "pass": 39,
+      "fail": 0,
+      "kind": "Latest per-case aggregate, not a single fresh 39-case run"
+    },
+    "supplementary": [
+      {
+        "case": "Home RU 390px",
+        "exitCode": 0
+      },
+      {
+        "case": "Home PL 360px with disabled localStorage and malformed consent cookie",
+        "exitCode": 0
+      }
+    ],
+    "resolvedCauses": [
+      "Closed details retained layout boxes; inspect TOC expanded and exclude hidden controls from visible-name checks.",
+      "Cyrillic URL hashes are percent-encoded; decode before matching heading ID.",
+      "404 EN completed assertions but teardown timed out; close owned browser through CDP before process fallback."
+    ]
+  },
+  "output": {
+    "files": 36,
+    "privateWorkspaceIncluded": false,
+    "legalState": "DRAFT",
+    "releaseCommandExitCode": 2,
+    "networkAnalyticsReceiver": null
+  },
+  "securityBoundaryChecks": 33,
+  "finalPreviewOrigins": {
+    "public": "http://127.0.0.1:4174",
+    "workspace": "http://127.0.0.1:4173",
+    "ownerDataOriginPreserved": true,
+    "directPublicWorkspaceStatus": 404
+  },
+  "retainedOwnerData": "Existing tasks and notes are preserved; one-time versioned release checklist import. Unit regression covers quota failure and repeated loads.",
+  "blockers": [
+    "Approved operator and contacts",
+    "Confirmed domain and HTTPS hosting",
+    "Approved legal documents and retention facts",
+    "Working external account-deletion request channel",
+    "Android release admission and real Google Play link",
+    "Explicit publication approval"
+  ],
+  "removals": [
+    {
+      "file": ".well-known/security.txt",
+      "reason": "Unverified guessed contact",
+      "recoverable": "Git HEAD"
+    },
+    {
+      "file": "sitemap.xml",
+      "reason": "Unverified guessed domain",
+      "recoverable": "Git HEAD"
+    }
+  ],
+  "hosting": "Only dist/ may be deployed. _headers must be supported or translated by the chosen host. Hosting/HTTPS/production 404 behavior not verified.",
+  "artifacts": {
+    "build": "build.json",
+    "releaseChecks": "release-check.json",
+    "matrix": "matrix/results.json",
+    "legalReplay": "matrix-legal/results.json",
+    "finalCases": "final-browser-cases.json"
+  },
+  "publicationAllowed": false
+}

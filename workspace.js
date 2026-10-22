@@ -60,15 +60,176 @@
     docStorage:'Хранилище браузера', docStorageCopy:'Открытое описание ключей localStorage, используемых Workspace.', docContact:'Контакты', docContactCopy:'Текущее состояние каналов поддержки проекта.'
   });
 
+  const releaseCopy = {
+  "pl": {
+    "lede": "Stan Free V1: 16 października 2026. Wpisy z wcześniejszych etapów są historią prac, a ich procenty nie oznaczają gotowości wydania.",
+    "evidenceBuild": "Kompilacja wydania i R8",
+    "evidenceBuildCopy": "Przygotowane APK/AAB bez podpisu produkcyjnego. Wydanie nie jest dopuszczone do publikacji.",
+    "evidenceDb": "Room 56 · bieżące dane",
+    "evidenceDbCopy": "100/100 niezależnych testów finansowych PASS. Historyczne schematy 45/49 pozostają blokadą.",
+    "evidenceDevice": "Free V1 na emulatorze",
+    "evidenceDeviceCopy": "49/52 wybranych testów PASS; 3 historyczne migracje FAIL. Nowy telefon fizyczny: NOT RUN.",
+    "evidenceLimit": "Warunki publikacji pozostają otwarte",
+    "evidenceLimitCopy": "Legal, backend/usuwanie konta, historia aktualizacji, Git, podpis i Console. Wear/AI/Billing są poza V1.",
+    "screensTitle": "Archiwum ekranów — wrzesień 2026",
+    "screensCopy": "Starsze kompilacje mogą pokazywać funkcje wyłączone w Free V1. Aktualne zrzuty są na głównej stronie."
+  },
+  "en": {
+    "lede": "Free V1 snapshot: 16 October 2026. Earlier entries are historical work records; their percentages are not release readiness.",
+    "evidenceBuild": "Release build and R8",
+    "evidenceBuildCopy": "APK/AAB prepared without production signing. Publication is not approved.",
+    "evidenceDb": "Room 56 · current data",
+    "evidenceDbCopy": "100/100 independent financial checks PASS. Historical schemas 45/49 remain blocked.",
+    "evidenceDevice": "Free V1 on an emulator",
+    "evidenceDeviceCopy": "49/52 selected tests PASS; 3 historical migration FAILs. Fresh physical phone verification: NOT RUN.",
+    "evidenceLimit": "Publication requirements remain open",
+    "evidenceLimitCopy": "Legal, backend/deletion, upgrade history, Git, signing, and Console. Wear/AI/Billing are outside V1.",
+    "screensTitle": "Screen archive — September 2026",
+    "screensCopy": "Older builds may show features disabled in Free V1. Current screenshots are on the home page."
+  },
+  "ru": {
+    "lede": "Срез Free V1: 16 октября 2026. Старые записи — история работ; их проценты не означают готовность к выпуску.",
+    "evidenceBuild": "Релизная сборка и R8",
+    "evidenceBuildCopy": "APK/AAB подготовлены без production-подписи. Публикация не допущена.",
+    "evidenceDb": "Room 56 · текущие данные",
+    "evidenceDbCopy": "100/100 независимых финансовых проверок PASS. Исторические схемы 45/49 остаются блокировкой.",
+    "evidenceDevice": "Free V1 на эмуляторе",
+    "evidenceDeviceCopy": "49/52 выбранных тестов PASS; 3 исторические миграции FAIL. Новая физическая проверка: NOT RUN.",
+    "evidenceLimit": "Условия публикации ещё открыты",
+    "evidenceLimitCopy": "Legal, backend/удаление, история обновлений, Git, подпись и Console. Wear/AI/Billing не входят в V1.",
+    "screensTitle": "Архив экранов — сентябрь 2026",
+    "screensCopy": "Старые сборки могут показывать отключённые в Free V1 функции. Актуальные снимки — на главной странице."
+  }
+};
+  for(const lang of Object.keys(releaseCopy)) Object.assign(copy[lang], releaseCopy[lang]);
   const initialTasks = [
-    { id:'work-income-empty', title:{pl:'Nowy pusty ekran Praca i dochód',en:'New Work & Income empty state',ru:'Новый пустой экран «Работа и доход»'}, area:'Work & Income', priority:'P3', status:'done', progress:100, details:{pl:'Zweryfikowane w jasnym i ciemnym motywie. CTA, arkusz pomocy, prywatność i brak zduplikowanego przycisku +.',en:'Verified in light and dark themes. CTA, help sheet, privacy and no duplicate + action.',ru:'Проверено в светлой и тёмной теме: CTA, справка, конфиденциальность и отсутствие дублирующей кнопки +.'}, updated:'2026-09-14T11:17:26+02:00' },
-    { id:'work-profile-wizard', title:{pl:'Sześciostopniowy kreator profilu pracy',en:'Six-step Work Profile wizard',ru:'Шестишаговый мастер профиля работы'}, area:'Work & Income', priority:'P2', status:'active', progress:90, details:{pl:'Kod i testy logiki są gotowe. Trwa końcowa weryfikacja UI, buildów i urządzenia.',en:'Implementation and model tests are complete. Final UI, build and device verification is running.',ru:'Код и тесты логики готовы. Выполняется итоговая проверка UI, сборок и устройства.'}, updated:nowIso() },
-    { id:'family-google', title:{pl:'Utwardzenie Google Identity i Rodziny',en:'Google Identity and Family hardening',ru:'Усиление Google Identity и семьи'}, area:'Security', priority:'P1', status:'done', progress:100, details:{pl:'UID jest źródłem tożsamości, reguły Firestore ograniczają członkostwo, a opcjonalne odczyty rodziny nie wyłączają Home.',en:'UID is the identity source, Firestore rules constrain membership, and optional Family reads cannot take Home down.',ru:'UID является источником личности, правила Firestore ограничивают членство, а необязательные чтения семьи не ломают Home.'}, updated:'2026-09-14T09:45:00+02:00' },
-    { id:'physical-replay', title:{pl:'Powtórka końcowego APK na fizycznym urządzeniu',en:'Replay final APK on the physical device',ru:'Повторная проверка финального APK на устройстве'}, area:'QA', priority:'P1', status:'blocked', progress:70, details:{pl:'Poprawiony APK uruchomił się bez FATAL/ANR. Ostatnia wzmocniona wersja wymaga ponownego połączenia ADB.',en:'The corrected APK launched without FATAL/ANR. The final strengthened build still needs an ADB reconnect.',ru:'Исправленный APK запустился без FATAL/ANR. Для последней усиленной сборки нужно повторное подключение ADB.'}, updated:'2026-09-14T09:45:00+02:00' },
-    { id:'production-signing', title:{pl:'Produkcyjne podpisanie i publikacja',en:'Production signing and publication',ru:'Production-подпись и публикация'}, area:'Release', priority:'P0', status:'blocked', progress:35, details:{pl:'Lokalne release APK/AAB przechodzą, ale prawdziwe dane podpisujące i publiczny listing sklepu nie są dostępne w repozytorium.',en:'Local release APK/AAB builds pass, but real signing credentials and a public store listing are not available in the repository.',ru:'Локальные release APK/AAB собираются, но реальные ключи подписи и публичная страница магазина отсутствуют в репозитории.'}, updated:'2026-09-12T23:30:00+02:00' },
-    { id:'live-services', title:{pl:'Weryfikacja usług Firebase, billing i usuwania konta na żywo',en:'Live Firebase, billing and account-deletion verification',ru:'Проверка live Firebase, billing и удаления аккаунта'}, area:'Security', priority:'P1', status:'blocked', progress:55, details:{pl:'Lokalne reguły, emulatory i testy funkcji przechodzą. Potrzebne jest jednorazowe środowisko live bez danych użytkowników.',en:'Local rules, emulators and function tests pass. A disposable live environment with no user data is still required.',ru:'Локальные правила, эмуляторы и тесты функций проходят. Требуется одноразовое live-окружение без пользовательских данных.'}, updated:'2026-09-14T08:00:00+02:00' },
-    { id:'website-workspace', title:{pl:'Oficjalna strona KOVA i Workspace',en:'Official KOVA website and Workspace',ru:'Официальный сайт KOVA и Workspace'}, area:'Website', priority:'P2', status:'done', progress:100, details:{pl:'Oficjalna prezentacja produktu, prawdziwe ekrany i dokumenty są połączone z lokalnym rejestrem prac. Treść nie udaje publicznego wydania.',en:'The official product presentation, real screenshots, and documents are combined with a local work log. Copy does not pretend the app is publicly released.',ru:'Официальная презентация продукта, реальные экраны и документы объединены с локальным журналом работ. Сайт не изображает публичный релиз.'}, updated:nowIso() }
-  ];
+  {
+    "id": "free-v1-20261016-0",
+    "title": {
+      "pl": "Dane operatora i dokumenty",
+      "en": "Operator details and legal documents",
+      "ru": "Оператор и документы"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-1",
+    "title": {
+      "pl": "Backend i usuwanie konta",
+      "en": "Backend and account deletion",
+      "ru": "Backend и удаление аккаунта"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-2",
+    "title": {
+      "pl": "Historia dystrybucji i schematy 45/49",
+      "en": "Distribution history and schemas 45/49",
+      "ru": "История распространения и схемы 45/49"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-3",
+    "title": {
+      "pl": "Odzyskanie brakujących obiektów Git",
+      "en": "Missing Git object recovery",
+      "ru": "Восстановление отсутствующих объектов Git"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-4",
+    "title": {
+      "pl": "Podpis i Google Play Console",
+      "en": "Signing and Google Play Console",
+      "ru": "Подпись и Google Play Console"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-5",
+    "title": {
+      "pl": "Fizyczny test aktualnego Free V1",
+      "en": "Physical test of current Free V1",
+      "ru": "Физическая проверка текущей Free V1"
+    },
+    "area": "Release",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  },
+  {
+    "id": "free-v1-20261016-6",
+    "title": {
+      "pl": "Domena i publiczny kanał wsparcia",
+      "en": "Domain and public support channel",
+      "ru": "Домен и публичная поддержка"
+    },
+    "area": "Website",
+    "priority": "P1",
+    "status": "blocked",
+    "progress": 0,
+    "details": {
+      "pl": "Wymaga potwierdzonych danych właściciela lub środowiska. Zobacz raport KOVA_PHONE_FREE_V1_READINESS w repozytorium aplikacji.",
+      "en": "Requires verified owner information or an environment. See KOVA_PHONE_FREE_V1_READINESS in the app repository.",
+      "ru": "Нужны подтверждённые данные владельца или окружение. См. KOVA_PHONE_FREE_V1_READINESS в репозитории приложения."
+    },
+    "updated": "2026-10-16T03:02:33Z"
+  }
+];
 
   let language = localStorage.getItem(LANGUAGE_KEY) || (navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl');
   if (!copy[language]) language = 'pl';
@@ -82,9 +243,19 @@
   function readState() {
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY));
-      if (parsed && Array.isArray(parsed.tasks) && Array.isArray(parsed.notes)) return parsed;
+      if (parsed && Array.isArray(parsed.tasks) && Array.isArray(parsed.notes)) {
+        // Preserve every existing task and note. Import this release checklist only once.
+        if (parsed.releaseSnapshot !== '2026-10-16') {
+          const ids = new Set(parsed.tasks.map(task => task.id));
+          parsed.tasks.push(...structuredClone(initialTasks).filter(task => !ids.has(task.id)));
+          parsed.releaseSnapshot = '2026-10-16';
+          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed)); }
+          catch { /* A quota/storage error must not replace valid user data with seed data. */ }
+        }
+        return parsed;
+      }
     } catch (_) { /* invalid local data falls back to the documented initial state */ }
-    return { version:1, tasks:structuredClone(initialTasks), notes:[] };
+    return { version:1, releaseSnapshot:'2026-10-16', tasks:structuredClone(initialTasks), notes:[] };
   }
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
   function el(tag, className, value) { const node = document.createElement(tag); if (className) node.className = className; if (value !== undefined) node.textContent = value; return node; }
@@ -125,7 +296,7 @@
       return (!query || haystack.includes(query)) && (filter === 'all' || task.status === filter);
     });
     statusOrder.forEach(status => {
-      const tasks = filtered.filter(task => task.status === status).sort((a,b) => b.priority.localeCompare(a.priority) || new Date(b.updated) - new Date(a.updated));
+      const tasks = filtered.filter(task => task.status === status).sort((a,b) => a.priority.localeCompare(b.priority) || new Date(b.updated) - new Date(a.updated));
       const column = el('section','board-column'); column.dataset.status = status;
       const heading = el('div','board-column-heading'); heading.append(el('h3','',c(`status${status[0].toUpperCase()}${status.slice(1)}`)),el('span','',String(tasks.length))); column.append(heading);
       const stack = el('div','task-stack');
@@ -162,7 +333,7 @@
   q('[data-note-form]').addEventListener('submit',event=>{event.preventDefault();const field=event.currentTarget.elements.note;const value=field.value.trim();if(!value)return;state.notes.push({id:makeId(),text:value,created:nowIso()});field.value='';q('[data-note-count]').textContent='0 / 800';saveState();renderNotes();});
   q('#quick-note').addEventListener('input',event=>{q('[data-note-count]').textContent=`${event.target.value.length} / 800`;});
   q('[data-export]').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({...state,exportedAt:nowIso()},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download=`${c('exportName')}-${new Date().toISOString().slice(0,10)}.json`;anchor.click();setTimeout(()=>URL.revokeObjectURL(url),0);});
-  q('[data-reset]').addEventListener('click',()=>{if(confirm(c('resetConfirm'))){state={version:1,tasks:structuredClone(initialTasks),notes:[]};saveState();render();}});
+  q('[data-reset]').addEventListener('click',()=>{if(confirm(c('resetConfirm'))){state={version:1,releaseSnapshot:'2026-10-16',tasks:structuredClone(initialTasks),notes:[]};saveState();render();}});
   q('#workspace-language').addEventListener('change',event=>{language=event.target.value;localStorage.setItem(LANGUAGE_KEY,language);applyLanguage();});
 
   const imageDialog=q('[data-image-dialog]'), image=q('img',imageDialog);qa('[data-lightbox]').forEach(button=>button.addEventListener('click',()=>{image.src=button.dataset.lightbox;image.alt=q('img',button).alt;imageDialog.showModal();}));q('[data-close-image]').addEventListener('click',()=>imageDialog.close());imageDialog.addEventListener('click',event=>{if(event.target===imageDialog)imageDialog.close();});
