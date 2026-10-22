@@ -1,0 +1,86 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 171.19999998807907
+    },
+    {
+      "value": "en",
+      "at": 5072.5
+    },
+    {
+      "value": "en",
+      "at": 5563.199999988079
+    },
+    {
+      "value": "ru",
+      "at": 5620.199999988079
+    },
+    {
+      "value": "en",
+      "at": 6152.5
+    },
+    {
+      "value": "ru",
+      "at": 6193.699999988079
+    },
+    {
+      "value": "pl",
+      "at": 6235.4000000059605
+    },
+    {
+      "value": "ru",
+      "at": 6276.0999999940395
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Статус проекта — KOVA",
+  "lang": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/status-ru-1440.png"
+}
+

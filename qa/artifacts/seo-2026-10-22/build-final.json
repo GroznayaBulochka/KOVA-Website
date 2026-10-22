@@ -1,0 +1,383 @@
+{
+  "mode": "preview",
+  "published": false,
+  "generatedAt": "2026-10-22T08:24:17.321Z",
+  "files": [
+    {
+      "file": "index-en.html",
+      "bytes": 27710,
+      "sha256": "adbd1caa7b5169b2262628f1e0a8d58bf811d0a32c2327492e5c38d9f1eeba97"
+    },
+    {
+      "file": "index-ru.html",
+      "bytes": 32728,
+      "sha256": "8226f456c5f8fe3b485c36dd5ccbce8bc86b05fa8a1824ea805c277d3603d42e"
+    },
+    {
+      "file": "index.html",
+      "bytes": 28054,
+      "sha256": "8faaea65aa869a2db75fa2483798ee6d68d3ba23460b18e4c685192598aab2e0"
+    },
+    {
+      "file": "status-en.html",
+      "bytes": 10685,
+      "sha256": "64473c0d5db530f5334c33f3d1826e83481f91fbd9434a8d4d279a0667073b8b"
+    },
+    {
+      "file": "status-ru.html",
+      "bytes": 12183,
+      "sha256": "acf1949926de2ea28fe222afea2f096c89cac14e02a7816d40b318b7c5879067"
+    },
+    {
+      "file": "status.html",
+      "bytes": 10865,
+      "sha256": "81b14a6288c5a5a3353ab21a9b996170778abfdaf8ab0841e496adec4e08a651"
+    },
+    {
+      "file": "roadmap-en.html",
+      "bytes": 10216,
+      "sha256": "2b31f097ed34ae2991ea0a3ce8a81bfb70c277c07e9663fe444f2c2a49c800ab"
+    },
+    {
+      "file": "roadmap-ru.html",
+      "bytes": 11548,
+      "sha256": "4260b54f6ccd94437962915d6fb3c725ab34ed3327bffe6301595564b3a8318e"
+    },
+    {
+      "file": "roadmap.html",
+      "bytes": 10294,
+      "sha256": "19339ba55bbd084bbec3e1e352c8447b1d14c6eca728424bd208b9ca7e184ff6"
+    },
+    {
+      "file": "updates-en.html",
+      "bytes": 10352,
+      "sha256": "0937b635f3b25edf6eb017a480fce0ec0ad90c92999edf906a838e72f371b8cc"
+    },
+    {
+      "file": "updates-ru.html",
+      "bytes": 11766,
+      "sha256": "4bd965a5fed4a45b5a75882b03a8b5a32c62ff4df8707755a7c887b3a5e719d2"
+    },
+    {
+      "file": "updates.html",
+      "bytes": 10455,
+      "sha256": "f3a42ea66ea50607253b987b5e065eae845edf6af316898643270387d4bf0324"
+    },
+    {
+      "file": "security-en.html",
+      "bytes": 11518,
+      "sha256": "9376112512ae1ebb9eb8caa0b18c151070c262e19ecfce48b4b96205f96efad2"
+    },
+    {
+      "file": "security-ru.html",
+      "bytes": 13460,
+      "sha256": "c18ca6a4349473510cf187e0d200e38f825da6298cf3ac771a5d005eb14cdb0e"
+    },
+    {
+      "file": "security.html",
+      "bytes": 11703,
+      "sha256": "b0b56e9b9bc8767070de97f93f67ab434c29628479c4b330e893eca7ecb74f3e"
+    },
+    {
+      "file": "contact-en.html",
+      "bytes": 10705,
+      "sha256": "6b64108a8b77bcc006a2ba56ae923ae0ee21419409d7579420a9d661ba2d18db"
+    },
+    {
+      "file": "contact-ru.html",
+      "bytes": 12326,
+      "sha256": "bd219f58f3bdd8daca269a1b9e6d8142c42857477d10956f4dcefc3f4f489496"
+    },
+    {
+      "file": "contact.html",
+      "bytes": 10885,
+      "sha256": "9cc11b6f90916324f2380332883a8e3087cfd22a4b207478cd9dff40b2d7f7ef"
+    },
+    {
+      "file": "delete-account-en.html",
+      "bytes": 10650,
+      "sha256": "1038d8aa0ec68d82a3433a54094fb48241fe81cb08a4278fb3805e2e984114b3"
+    },
+    {
+      "file": "delete-account-ru.html",
+      "bytes": 12294,
+      "sha256": "04baefd17f93ddb37c8be1495bd1e6364c259d397da66f43c4fa0900bd529ecf"
+    },
+    {
+      "file": "delete-account.html",
+      "bytes": 10791,
+      "sha256": "83016dd7c03d8e70fa2555e4924243585f35e11e19730536afc5517ed235a866"
+    },
+    {
+      "file": "privacy-en.html",
+      "bytes": 21310,
+      "sha256": "91d16443391d50c6565c9feac71a67c5ba047fd492ab991d6fd3c6537e4c3818"
+    },
+    {
+      "file": "privacy-ru.html",
+      "bytes": 30766,
+      "sha256": "6836f2d32a7d0aeafb897bac5699465f4528226c23d7d6366895247f5b6e4ab3"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 22277,
+      "sha256": "4cb20e6a8f73c6fa62a714385a55c3eb375ac039466f1fb4a2d76a9731e2bfb0"
+    },
+    {
+      "file": "terms-en.html",
+      "bytes": 19279,
+      "sha256": "5fcd5a42a19215db6287cc1a37c589f133ad9bcacfa58e6b6a93dcf560384e4c"
+    },
+    {
+      "file": "terms-ru.html",
+      "bytes": 28193,
+      "sha256": "b353a20cf8a1dd74052df9d0421dec726a0cbc279c0b88f0cce801bcf06b8a90"
+    },
+    {
+      "file": "terms.html",
+      "bytes": 20775,
+      "sha256": "6235ad452bd4bcbbc0a7e2ef615aa6cfb6e95066a3291ac06627b8ab91df30a3"
+    },
+    {
+      "file": "cookies-en.html",
+      "bytes": 21346,
+      "sha256": "a51c32e1a57be341303c899293e92f0a47d6fad1299b9bab4c0df22b34e17c19"
+    },
+    {
+      "file": "cookies-ru.html",
+      "bytes": 21579,
+      "sha256": "add725087e5e517dc04b5c70f1ddd1bdfab2026970238ff7d6c01206b1602ecc"
+    },
+    {
+      "file": "cookies.html",
+      "bytes": 21282,
+      "sha256": "48e02ebc624b211552db0efc035af262d16935be83e7ce7b6fd8fcf992bedb78"
+    },
+    {
+      "file": "404-en.html",
+      "bytes": 6674,
+      "sha256": "d74f9e793b20e0f019805825eaadc6a03fa1f6eaa7ad543b4fadcc282430439d"
+    },
+    {
+      "file": "404-ru.html",
+      "bytes": 7145,
+      "sha256": "c443a8f84a8ba9a0ea7b1d6260309e1b33f1b6435faf6e31360524cbac9aa43f"
+    },
+    {
+      "file": "404.html",
+      "bytes": 6681,
+      "sha256": "b4e01f59fafc1801b69a92c4fb7a00a77beb28870ca264b59b2da6b299a0f11c"
+    },
+    {
+      "file": "landing.css",
+      "bytes": 17980,
+      "sha256": "668af83a1421cb245a5360b21581e07222d13a28d3a923fd1304320522494523"
+    },
+    {
+      "file": "site-ui.css",
+      "bytes": 16083,
+      "sha256": "a4b3a24746939700a4e35f4f01aa16c09f398acdcfeeb63b7b0808e39647791a"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 395,
+      "sha256": "97d00f1f0b8c0367e734dd86d0d4fa0b9f3a8ca0ed6a17ff4b0d2917961137e6"
+    },
+    {
+      "file": "workspace.css",
+      "bytes": 31756,
+      "sha256": "9d800dc8abfde2416beee38c8fa6f3c385a542514d406f26fa8c2fee558bfb3c"
+    },
+    {
+      "file": "landing.js",
+      "bytes": 46448,
+      "sha256": "a55a8c9f54b24615106d3a0ab05d283bbe57f3102a8fb57c0348402f685ccf6e"
+    },
+    {
+      "file": "site-shell.js",
+      "bytes": 8605,
+      "sha256": "19a6b2ae177d16a2296c2c2674c4278cb1f199f0e7ef9a646a66547ca3e60a48"
+    },
+    {
+      "file": "site-consent.js",
+      "bytes": 14190,
+      "sha256": "ef049afbded156fe35274f3560c7106483fe558424771bcbd69b66dbaa3df875"
+    },
+    {
+      "file": "site-seo.js",
+      "bytes": 3302,
+      "sha256": "e1bb3b335bdb6e432d2bd29fd096a3f0272215a964d38f53636069f2943b316b"
+    },
+    {
+      "file": "language-picker.js",
+      "bytes": 4594,
+      "sha256": "9c3f5133ddef18d131313ef69311a72cfa73e2a80beef0e1bb4f7178c11dd518"
+    },
+    {
+      "file": "project-content.js",
+      "bytes": 32729,
+      "sha256": "be3cdb5f0432e0f9685484b02c051b9b609963bbb98f07eb159c84fce0cac8ee"
+    },
+    {
+      "file": "project-pages.js",
+      "bytes": 2168,
+      "sha256": "5b6486a7130cdacd725da3a8f156278f182421467b362c0393935d3f966b6b5d"
+    },
+    {
+      "file": "legal-document.js",
+      "bytes": 14347,
+      "sha256": "ae2cd6eaf40550fa5a3d22a00e92dfa3dfdc609c7c82d07427a195701f1c1655"
+    },
+    {
+      "file": "document-language.js",
+      "bytes": 2047,
+      "sha256": "263afef0d24913150a9f8cc8284ace91da832af780d718df0f7be3fcc21fb404"
+    },
+    {
+      "file": "site.webmanifest",
+      "bytes": 437,
+      "sha256": "a2620166c8ac67c93c7f5f934da6f091fe67bdfcd6628b09355faf7b1f8be4da"
+    },
+    {
+      "file": "assets/logo.svg",
+      "bytes": 1168,
+      "sha256": "23a833f026e1952a94ce0a34dcf397dd655b76b494ff1d996a504ed5a11ca9d2"
+    },
+    {
+      "file": "assets/icons.svg",
+      "bytes": 3737,
+      "sha256": "5e878e526868ed2ca8f51749f808003ec0c306af3de753869a4ec0a4521eccce"
+    },
+    {
+      "file": "assets/hero-visual.webp",
+      "bytes": 115418,
+      "sha256": "2a2a1c021e24352404101b22de798dd09b15fca2a3308a66e854d3284364c24b"
+    },
+    {
+      "file": "assets/social/kova.png",
+      "bytes": 542775,
+      "sha256": "64c66fb4746852cbe3e03ed11b3d90a8bb54a4bd7f48edd81e275ee109eb7a6f"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-home.png",
+      "bytes": 251592,
+      "sha256": "06790b00d6caa834128199bb964bcdf4603d092dbef715d52f5fec9c0b8b36c6"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-accounts.png",
+      "bytes": 574527,
+      "sha256": "a2a0eec493f093c3016d629b6c80468718ec37758ce6b353f96178988ecc9c6a"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-transactions.png",
+      "bytes": 248758,
+      "sha256": "e2c3503f7acea3a1273f1fd4be854d340d96ae3b8587dac97e101fcd85755a1c"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-budgets.png",
+      "bytes": 623324,
+      "sha256": "92fea2f21ecf3ca52947970d0679821214031e186c7122e4b4d49c7b454b1db7"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-recurring.png",
+      "bytes": 572408,
+      "sha256": "d12320b5106253646e16b1a2121cb57474dcef43e92db26b685386f79099b2ed"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-reports.png",
+      "bytes": 665664,
+      "sha256": "cc5a5d9c5540b15d6f996ec0ae051ff8c69c218e1b2b2e14159564fdd573e830"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-calendar.png",
+      "bytes": 729890,
+      "sha256": "233f02bd8bca35636560e31cde1f08a04ae9d089b4d8ff0c434a35f46a8b8e73"
+    },
+    {
+      "file": "assets/screenshots/offline-demo-notes.png",
+      "bytes": 656469,
+      "sha256": "2711a49d50a6fe8bf3a29f67a69ee2d6af0d18e7b991123f575e09bed93ebba2"
+    },
+    {
+      "file": "legal/privacy-policy-pl.md",
+      "bytes": 10133,
+      "sha256": "be77a458616ece5288039225a0fa71da57c1f77e46597aa0d7f7d1ad2c810558"
+    },
+    {
+      "file": "legal/privacy-policy-en.md",
+      "bytes": 9307,
+      "sha256": "8168b0a1ba858c57ee8ca90f0a8df9affca3799ab0ed70f01851a91d4e0b4f2b"
+    },
+    {
+      "file": "legal/privacy-policy-ru.md",
+      "bytes": 16798,
+      "sha256": "c347c5969d7bfd7d7ed650402b20a4dec03ed57f0e3808df739d6fa6dbde38a9"
+    },
+    {
+      "file": "legal/terms-of-service-pl.md",
+      "bytes": 10185,
+      "sha256": "fabf50b66942e3342e5119c599b8ab74098245aeb735c2c8dff11a572a5562b8"
+    },
+    {
+      "file": "legal/terms-of-service-en.md",
+      "bytes": 8821,
+      "sha256": "bd114b0ad344f5e5254c8076ecd2411f88d107a793503fef38da6811dcfbd30f"
+    },
+    {
+      "file": "legal/terms-of-service-ru.md",
+      "bytes": 16537,
+      "sha256": "7d758c75f18356758dcd0b1b725f60f02d1cee0f467d253df7c34c137367282b"
+    }
+  ],
+  "excluded": [
+    "workspace.html",
+    "workspace.js",
+    "workspace-access.js",
+    "qa",
+    "scripts",
+    ".git",
+    ".well-known/security.txt",
+    "old intro and excluded-feature screenshots"
+  ],
+  "blockers": {
+    "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
+    "verifiedOn": "2026-10-21",
+    "appVersionName": "1.0.8",
+    "appVersionCode": 10,
+    "publicDownloadAvailable": false,
+    "storeUrl": null,
+    "canonicalOrigin": "https://kovacompass.app",
+    "domainApprovedByOwner": true,
+    "domainEvidence": "OWNER_DECLARATION_2026-10-21",
+    "hostingVerified": false,
+    "publicPolicyUrl": "https://kovacompass.app/privacy.html?lang=en",
+    "publicTermsUrl": "https://kovacompass.app/terms.html?lang=en",
+    "publicDocumentUrlsEvidence": "OWNER_DECLARATION_2026-10-22_HTTP_200_OBSERVED",
+    "operatorApproved": true,
+    "operatorLegalQualified": false,
+    "publisher": "Vadyslav Konohrai",
+    "publisherCountry": "PL",
+    "publisherDeclaredStatus": "PRIVATE_INDIVIDUAL",
+    "supportContactApproved": true,
+    "supportEmail": "contact@kovacompass.app",
+    "supportContactOperationallyVerified": false,
+    "legalApproved": false,
+    "cloudAccountAvailable": false,
+    "externalAccountDeletionChannelRequired": false,
+    "publicationApproved": false,
+    "analyticsReceiver": "Google Analytics 4",
+    "websiteAnalytics": {
+      "measurementId": "G-2LE3GWYDZM",
+      "consentMode": "BASIC_OPT_IN",
+      "cookieLifetimeDays": 180,
+      "productionHosts": [
+        "kovacompass.app",
+        "www.kovacompass.app"
+      ],
+      "accountConfigurationVerified": false,
+      "liveReceptionVerified": false
+    },
+    "legalState": "DRAFT_OWNER_INPUT_REQUIRED",
+    "appReadiness": "INCOMPLETE_REQUIRED_TEST_ENVIRONMENT_MISSING"
+  }
+}

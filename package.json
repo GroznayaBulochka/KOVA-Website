@@ -11,6 +11,8 @@
     "preview:workspace": "node scripts/preview.mjs --source",
     "test": "node qa/run-checks.mjs",
     "test:browser": "node qa/public-site-matrix.mjs",
+    "test:analytics": "node qa/analytics-browser.mjs",
+    "test:seo": "node qa/seo-check.mjs",
     "check:release": "node qa/release-check.mjs"
   }
 }

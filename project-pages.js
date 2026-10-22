@@ -7,7 +7,7 @@
   let stored;
   try { stored = localStorage.getItem('kova_site_language'); } catch { /* Language also travels in the URL. */ }
   const requested = new URLSearchParams(location.search).get('lang');
-  const initial = requested || stored || navigator.language?.slice(0,2);
+  const initial = requested || document.documentElement.dataset.staticLanguage || stored || navigator.language?.slice(0,2);
   function applyLanguage(next) {
     const language = supported.includes(next) ? next : 'pl';
     const data = pages[language];

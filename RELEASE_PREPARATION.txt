@@ -1,8 +1,11 @@
 KOVA Website — Offline Free V1 preparation
-Content checkpoint: 22 October 2026 (public contact address update only)
+Content checkpoint: 22 October 2026 (SEO and owner-provided public document URLs)
 
 STATE
-Prepared locally for the pre-release phase. Not published.
+Current changes prepared locally for the pre-release phase; not published by this task.
+The owner's existing public privacy/terms URLs returned HTTP 200 on 22 October 2026.
+Their English source text still contains DRAFT markers. Public availability is not
+legal approval, hosting qualification, or evidence that new local changes are deployed.
 Privacy Policy and Terms remain DRAFT by explicit owner instruction.
 This website does not establish that the Android application is approved for release.
 
@@ -80,15 +83,23 @@ hostname has a different store. No storage is migrated or reset automatically.
 Browser storage/export remains the owner's responsibility; no cloud sync was added.
 
 ANALYTICS
-Consent/essential-only/revocation are supported. Optional identifiers and counters
-stay in the browser. No receiver is connected and no financial data is accessed.
-No arbitrary runtime endpoint can silently start sending events.
-A future receiver requires reviewed configuration, disclosure and a fresh test.
+Website-only GA4: G-2LE3GWYDZM, basic opt-in consent, no Google requests before
+consent or after rejection. Only HTTPS kovacompass.app/www; never preview/Workspace.
+180-day versioned consent and GA cookie lifetime. Old local-counter consent is
+not reused. Withdraw via footer; accessible GA cookies removed and page reloaded.
+See GOOGLE_ANALYTICS_SETUP.txt for events, account checks and verification limits.
+Android remains offline with analytics disabled. No publication was performed.
 
 PUBLICATION BLOCKERS
 Owner confirmed kovacompass.app on 21 October 2026. Canonical origin:
-https://kovacompass.app. Intended documents: /privacy.html and /terms.html.
-This is an owner declaration, NOT DNS/HTTPS/domain-control or publication verification.
+https://kovacompass.app. Owner-provided public English documents:
+https://kovacompass.app/privacy.html?lang=en
+https://kovacompass.app/terms.html?lang=en
+Read-only HTTPS checks confirmed both HTML endpoints and English Markdown files
+return HTTP 200. This does not qualify DNS/domain control, the entire hosting setup,
+legal content, or publication of the newly prepared version.
+Evidence: qa/artifacts/seo-2026-10-22/public-documents.json.
+SEO configuration, canonical language URLs and Search Console steps: SEO_SETUP.txt.
 No DNS, hosting, cloud or app configuration changes were made by this domain update.
 The store URL remains unconfirmed. Name/email/domain are approved.
 Legal qualification/approval, effective date, document publication, hosting/logging,

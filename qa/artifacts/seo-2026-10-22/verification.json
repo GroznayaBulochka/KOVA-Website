@@ -1,0 +1,145 @@
+{
+  "recordedAt": "2026-10-22T08:27:33.018Z",
+  "result": "LOCAL_SEO_VERIFIED",
+  "commands": [
+    {
+      "command": "node qa/site-smoke.mjs http://127.0.0.1:4174/privacy.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\legacy-privacy-en.png 390 844",
+      "startedAt": "2026-10-22T08:26:54.321Z",
+      "exitCode": 0,
+      "log": "legacy-privacy-en.log"
+    },
+    {
+      "command": "node qa/site-smoke.mjs http://127.0.0.1:4174/terms.html?lang=en C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\legacy-terms-en.png 390 844",
+      "startedAt": "2026-10-22T08:27:07.630Z",
+      "exitCode": 0,
+      "log": "legacy-terms-en.log"
+    },
+    {
+      "command": "node qa/run-checks.mjs",
+      "startedAt": "2026-10-22T08:27:20.850Z",
+      "exitCode": 0,
+      "log": "checks.log"
+    },
+    {
+      "command": "node qa/release-check.mjs",
+      "startedAt": "2026-10-22T08:27:25.884Z",
+      "exitCode": 0,
+      "log": "release-check.log"
+    }
+  ],
+  "sourceInputs": {
+    "scripts/seo.mjs": "5535128c406b51d07451d4251ad1e191b450b9131840211c7a7be80e7e1095b8",
+    "scripts/build-site.mjs": "c5a6453c85a202d431b9f6cdd54550a47160fb69143ac53cdba4a5922c71d332",
+    "site-seo.js": "e1bb3b335bdb6e432d2bd29fd096a3f0272215a964d38f53636069f2943b316b",
+    "site-shell.js": "19a6b2ae177d16a2296c2c2674c4278cb1f199f0e7ef9a646a66547ca3e60a48",
+    "site-consent.js": "ef049afbded156fe35274f3560c7106483fe558424771bcbd69b66dbaa3df875",
+    "site-ui.css": "a4b3a24746939700a4e35f4f01aa16c09f398acdcfeeb63b7b0808e39647791a",
+    "landing.js": "a55a8c9f54b24615106d3a0ab05d283bbe57f3102a8fb57c0348402f685ccf6e",
+    "project-content.js": "be3cdb5f0432e0f9685484b02c051b9b609963bbb98f07eb159c84fce0cac8ee",
+    "project-pages.js": "5b6486a7130cdacd725da3a8f156278f182421467b362c0393935d3f966b6b5d",
+    "legal-document.js": "ae2cd6eaf40550fa5a3d22a00e92dfa3dfdc609c7c82d07427a195701f1c1655",
+    "document-language.js": "263afef0d24913150a9f8cc8284ace91da832af780d718df0f7be3fcc21fb404",
+    "release-config.json": "94dff6752191f707da2fb083906772861a237763b0150db804993c2cabac62ca",
+    "dist/_headers": "6b93074ec39b4bd89052c4ac6d66d344e0b5f8fb7b0e5dd70bd288e3577b6cb6",
+    "dist/robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+    "dist/sitemap.xml": "754f82fd998a29c518fcc5ff94d7acdef4e8010eb3852a39f479a019c749b78d",
+    "qa/seo-check.mjs": "a39027cb42c1498e75eb482e4030762f6600af52e45e02b5ea8f74ad463dab5f",
+    "qa/site-smoke.mjs": "ad89f0d17ab0897c4ebfbf2f498d3118e97434f892c81ee721d0cba1a0baaea0",
+    "qa/analytics-browser.mjs": "0c4746b6a02c4007f647b8d8649d6cee7079c5a85e64e849456e8d0a8d8f3332"
+  },
+  "staticSeo": {
+    "checks": 105,
+    "localReferences": 1002,
+    "evidence": "checks.json"
+  },
+  "browserMatrix": {
+    "uniqueCases": 40,
+    "passed": 40,
+    "firstRun": {
+      "passed": 37,
+      "failed": 3,
+      "evidence": "matrix/results.json"
+    },
+    "correction": "URL parser omitted numeric 404. Added digit support constrained by the exact public-page allowlist; all 33 routes and unknown/private paths covered by regression.",
+    "retest": {
+      "executions": 10,
+      "evidence": "retest/results.json",
+      "scope": "All 404 locales; all privacy/terms locales and legal language-picker probe after owner URL update."
+    },
+    "retained": "Other original PASS cases retained; new URL grammar explicitly checks every public locale, and static output is freshly verified."
+  },
+  "analyticsAndNoScript": {
+    "checks": 36,
+    "result": "PASS",
+    "evidence": "analytics/browser.json",
+    "googleRuntime": "MOCKED",
+    "googleNetworkRequestsDelivered": 0
+  },
+  "publicDocuments": {
+    "recordedAt": "2026-10-22T08:22:42.061Z",
+    "checks": [
+      {
+        "scope": "public HTML",
+        "url": "https://kovacompass.app/privacy.html?lang=en",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 3377,
+        "sha256": "db9e4d8faa9f108b3053ba470e325fea744a334b530f7c5e7c9647aaafc55153",
+        "title": "Polityka prywatności — KOVA",
+        "draftMarker": false,
+        "passed": true
+      },
+      {
+        "scope": "English document text",
+        "url": "https://kovacompass.app/legal/privacy-policy-en.md",
+        "status": 200,
+        "contentType": "text/markdown; charset=utf-8",
+        "bytes": 9307,
+        "sha256": "8168b0a1ba858c57ee8ca90f0a8df9affca3799ab0ed70f01851a91d4e0b4f2b",
+        "title": "KOVA Privacy Policy — OFFLINE V1 — DRAFT",
+        "draftMarker": true,
+        "passed": true
+      },
+      {
+        "scope": "public HTML",
+        "url": "https://kovacompass.app/terms.html?lang=en",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 3085,
+        "sha256": "a4d2cf01bb9640c1ca4375bf1febd5b5a7f92ed374c630dcd0f4ab94b1304623",
+        "title": "Warunki użycia — KOVA",
+        "draftMarker": false,
+        "passed": true
+      },
+      {
+        "scope": "English document text",
+        "url": "https://kovacompass.app/legal/terms-of-service-en.md",
+        "status": 200,
+        "contentType": "text/markdown; charset=utf-8",
+        "bytes": 8821,
+        "sha256": "bd114b0ad344f5e5254c8076ecd2411f88d107a793503fef38da6811dcfbd30f",
+        "title": "KOVA Terms — OFFLINE V1 — DRAFT",
+        "draftMarker": true,
+        "passed": true
+      }
+    ],
+    "result": "PUBLIC_ENDPOINTS_ACCESSIBLE",
+    "qualification": "HTTP/text availability only; not legal approval, full hosting qualification, English browser rendering or verification of the newly prepared local SEO deployment.",
+    "remoteMutations": 0,
+    "scriptsExecuted": false,
+    "credentialsUsed": false,
+    "publishedByThisTask": false
+  },
+  "counting": "Overlapping suites and reruns are not summed into independent cases.",
+  "finalBuild": "build-final.json",
+  "publishedByThisTask": false,
+  "appChanged": false,
+  "privateWorkspaceDataTouched": false,
+  "remaining": [
+    "Owner approval to publish prepared changes",
+    "Qualified hosting with correct headers/redirects/404",
+    "Search Console domain verification and sitemap submission",
+    "Live indexing and Core Web Vitals not verified",
+    "Legal drafts and GA4 account configuration still require their existing approvals"
+  ]
+}

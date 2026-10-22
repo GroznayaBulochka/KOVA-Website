@@ -17,7 +17,7 @@ const negative=spawnSync(process.execPath,['scripts/build-site.mjs','--release']
 check('Release command fails closed with exact owner blockers',()=>{assert.equal(negative.status,2);for(const key of ['operatorLegalQualified','legalApproved','hostingVerified','supportContactOperationallyVerified'])assert.ok(negative.stderr.includes(key));assert.ok(!negative.stderr.includes('canonicalOrigin'));});
 check('Owner domain does not imply verified hosting or publication',()=>{
  assert.equal(config.canonicalOrigin,'https://kovacompass.app');assert.equal(config.domainApprovedByOwner,true);assert.equal(config.hostingVerified,false);
- assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html');assert.equal(config.publicationApproved,false);
+ assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html?lang=en');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html?lang=en');assert.equal(config.publicationApproved,false);
 });
 check('Approved identity is distinct from legal qualification',()=>{assert.equal(config.contract,'KOVA_PHONE_OFFLINE_FREE_V1');assert.equal(config.publisher,'Vadyslav Konohrai');assert.equal(config.supportEmail,'contact@kovacompass.app');assert.equal(config.operatorApproved,true);assert.equal(config.operatorLegalQualified,false);assert.equal(config.cloudAccountAvailable,false);});
 const files=[];
@@ -28,9 +28,10 @@ check('Private workspace, QA and obsolete imagery absent',()=>{
 });
 for(const page of files.filter(p=>p.endsWith('.html'))){
  const html=await read('dist/'+page);
- check(page+': preview noindex and no private entry',()=>{assert.match(html,/content="noindex,nofollow"/);assert.ok(!/href="workspace.html"/.test(html));assert.ok(!/play\.google\.com\/store\/apps/.test(html));});
+ check(page+': preview noindex and no private entry',()=>{assert.match(html,/content="noindex,(?:no)?follow"/);assert.ok(!/href="workspace.html"/.test(html));assert.ok(!/play\.google\.com\/store\/apps/.test(html));});
 }
-check('No invented domain or security contact',()=>{assert.ok(!files.includes('sitemap.xml'));assert.ok(!files.includes('.well-known/security.txt'));});
+const sitemap=await read('dist/sitemap.xml');
+check('Preview sitemap advertises no draft URLs or invented security contact',()=>{assert.ok(!sitemap.includes('<loc>'));assert.ok(!files.includes('.well-known/security.txt'));});
 const app=resolve(root,'../KOVA-App');
 const capture=JSON.parse(await read('qa/artifacts/presentation-2026-10-21/provenance.json'));
 const hash=b=>createHash('sha256').update(b).digest('hex');

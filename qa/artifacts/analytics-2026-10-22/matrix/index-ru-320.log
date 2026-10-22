@@ -1,0 +1,175 @@
+{
+  "workspace": false,
+  "landing": true,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 210.5
+    },
+    {
+      "value": "en",
+      "at": 5087.9000000059605
+    },
+    {
+      "value": "en",
+      "at": 5583.199999988079
+    },
+    {
+      "value": "ru",
+      "at": 5640
+    },
+    {
+      "value": "en",
+      "at": 6180.799999982119
+    },
+    {
+      "value": "ru",
+      "at": 6298.299999982119
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — финансы в одном месте",
+  "lang": "ru",
+  "viewport": {
+    "width": 320,
+    "height": 700
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 320,
+    "scrollWidth": 320
+  },
+  "overflowElements": [
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "СчетаОсновной счёт, сбережения и наличные",
+      "left": 232,
+      "right": 419,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 232,
+      "right": 419,
+      "scrollWidth": 186
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 238,
+      "right": 413,
+      "scrollWidth": 176
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "СчетаОсновной счёт, сбережения и наличные",
+      "left": 232,
+      "right": 419,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Счета",
+      "left": 232,
+      "right": 419,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Основной счёт, сбережения и наличные",
+      "left": 232,
+      "right": 419,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "ТранзакцииПолгода повседневных записей",
+      "left": 443,
+      "right": 631,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 443,
+      "right": 631,
+      "scrollWidth": 186
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 449,
+      "right": 625,
+      "scrollWidth": 176
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "ТранзакцииПолгода повседневных записей",
+      "left": 443,
+      "right": 631,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Транзакции",
+      "left": 443,
+      "right": 631,
+      "scrollWidth": 188
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Полгода повседневных записей",
+      "left": 443,
+      "right": 631,
+      "scrollWidth": 188
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 26,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/index-ru-320.png"
+}
+

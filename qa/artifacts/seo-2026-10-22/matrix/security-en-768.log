@@ -1,0 +1,100 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 152.39999997615814
+    },
+    {
+      "value": "en",
+      "at": 5047.299999982119
+    },
+    {
+      "value": "en",
+      "at": 5492.0999999940395
+    },
+    {
+      "value": "en",
+      "at": 5541.899999976158
+    },
+    {
+      "value": "en",
+      "at": 6069.5999999940395
+    },
+    {
+      "value": "ru",
+      "at": 6104.5
+    },
+    {
+      "value": "pl",
+      "at": 6158.5999999940395
+    },
+    {
+      "value": "en",
+      "at": 6209.5
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — Privacy, Encryption & Offline Backups",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 7,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "security",
+    "valid": true,
+    "canonical": "https://kovacompass.app/security-en.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "security",
+    "valid": true,
+    "canonical": "https://kovacompass.app/security-en.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/security-en-768.png"
+}
+

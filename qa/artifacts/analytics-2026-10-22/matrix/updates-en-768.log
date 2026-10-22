@@ -1,0 +1,86 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 152.90000000596046
+    },
+    {
+      "value": "en",
+      "at": 5062
+    },
+    {
+      "value": "en",
+      "at": 5528.200000017881
+    },
+    {
+      "value": "en",
+      "at": 5578.200000017881
+    },
+    {
+      "value": "en",
+      "at": 6108.5
+    },
+    {
+      "value": "ru",
+      "at": 6148.4000000059605
+    },
+    {
+      "value": "pl",
+      "at": 6207.700000017881
+    },
+    {
+      "value": "en",
+      "at": 6247.300000011921
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Updates — KOVA",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/updates-en-768.png"
+}
+

@@ -1,0 +1,9 @@
+
+file:///C:/Users/vlad2/Desktop/KOVA/KOVA-Website/qa/site-smoke.mjs:110
+  if (initialSeo.present && (!initialSeo.valid || initialSeo.lang!==expectedLanguage)) throw new Error('Initial localized SEO mismatch: '+JSON.stringify(initialSeo));
+                                                                                             ^
+
+Error: Initial localized SEO mismatch: {"present":true,"lang":"ru","page":"404","valid":false}
+    at file:///C:/Users/vlad2/Desktop/KOVA/KOVA-Website/qa/site-smoke.mjs:110:94
+
+Node.js v22.20.0

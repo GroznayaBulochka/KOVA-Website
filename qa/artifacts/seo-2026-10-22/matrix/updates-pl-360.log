@@ -1,0 +1,100 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "pl",
+      "at": 151.60000002384186
+    },
+    {
+      "value": "en",
+      "at": 5050.200000017881
+    },
+    {
+      "value": "en",
+      "at": 5505.200000017881
+    },
+    {
+      "value": "pl",
+      "at": 5545.4000000059605
+    },
+    {
+      "value": "en",
+      "at": 6092.600000023842
+    },
+    {
+      "value": "ru",
+      "at": 6128.9000000059605
+    },
+    {
+      "value": "pl",
+      "at": 6180.700000017881
+    },
+    {
+      "value": "pl",
+      "at": 6218.800000011921
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — aktualności i rozwój aplikacji finansowej",
+  "lang": "pl",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 360,
+    "scrollWidth": 360
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "updates",
+    "valid": true,
+    "canonical": "https://kovacompass.app/updates.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "updates",
+    "valid": true,
+    "canonical": "https://kovacompass.app/updates.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/updates-pl-360.png"
+}
+

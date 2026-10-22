@@ -1,0 +1,94 @@
+KOVA — SEO i przygotowanie indeksowania
+Stan lokalny: 22.10.2026. Domena: https://kovacompass.app
+Właściciel wskazał publiczne dokumenty EN:
+https://kovacompass.app/privacy.html?lang=en
+https://kovacompass.app/terms.html?lang=en
+22.10.2026 sprawdzono HTTP 200 dla obu stron i ich angielskich plików treści.
+Pliki treści nadal noszą oznaczenie DRAFT. To nie jest prawne zatwierdzenie.
+Dowód: qa/artifacts/seo-2026-10-22/public-documents.json.
+Nowe zmiany SEO są wyłącznie lokalne; nie opublikowano ich na istniejącej domenie.
+
+CO ZOSTAŁO WDROŻONE
+- Unikalne tytuły i opisy PL/EN/RU, zgodne z aplikacją Offline Free V1 przed premierą.
+- Pełna treść główna renderowana do HTML podczas budowania: 33 strony w 3 językach.
+  Nie trzeba uruchamiać JavaScript, aby odczytać opisy, FAQ, status i dokumenty.
+- Osobne adresy językowe, canonical, wzajemne hreflang oraz x-default dla PL.
+- Linki językowe działające także bez JavaScript; zwykła nawigacja zachowuje język.
+- Dane JSON-LD WebSite, WebPage/ContactPage, MobileApplication i BreadcrumbList.
+  Brak zmyślonych opinii, ocen, liczby pobrań, daty premiery i linku Google Play.
+  Nie deklarujemy kwalifikacji do rozszerzonych wyników aplikacji: wymagają m.in.
+  danych, których KOVA przed premierą nie może rzetelnie podać.
+- Open Graph i Twitter Card, rzeczywisty obraz 1200 × 630: assets/social/kova.png.
+  Wykorzystuje autentyczny ekran z już istniejącymi fikcyjnymi danymi demonstracyjnymi.
+- Sitemap produkcyjny z 21 adresami, robots.txt oraz wykluczenie prywatnego Workspace.
+  robots.txt nie jest zabezpieczeniem dostępu: Workspace nie trafia do publicznego dist.
+
+ADRESY
+PL: / (strona główna), /status.html, /roadmap.html, /updates.html,
+    /security.html, /contact.html, /delete-account.html.
+EN: /index-en.html i analogiczne nazwy z -en.html.
+RU: /index-ru.html i analogiczne nazwy z -ru.html.
+Dokumenty privacy/terms/cookies i 404 mają odpowiednie wersje językowe, ale noindex.
+Pliki źródłowe /legal/* otrzymują X-Robots-Tag: noindex w konfiguracji hostingu.
+Dokumenty prywatności są dostępne; noindex nie zastępuje ich zatwierdzenia.
+Stare linki ?lang=pl/en/ru nadal działają w przeglądarce; preferowane nowe adresy
+nie zawierają parametrów. Canonical pomija parametry analityczne i fragmenty URL.
+
+ROZDZIELENIE PODGLĄDU I PUBLIKACJI
+Obecny dist to PODGLĄD: wszystkie strony mają noindex, dodatkowy nagłówek
+X-Robots-Tag, robots.txt blokujący crawl i pustą mapę strony. Nie jest przeznaczony
+do indeksowania. Google musi móc odczytać noindex, by usunąć już zaindeksowany URL;
+samo Disallow w robots.txt nie daje gwarancji usunięcia URL z wyszukiwarki.
+
+Zatwierdzony build release generuje mapę 21 adresów i pozwala indeksować publiczną
+treść marketingową. Wymaga wszystkich istniejących zgód z release-config.json,
+w tym faktycznej kwalifikacji dokumentów, hostingu i konfiguracji Analytics.
+Żadnej z tych zgód nie zmieniono na potrzeby SEO. Nie opublikowano tych zmian,
+nie skonfigurowano DNS i nie wykonywano zgłoszeń do Search Console.
+
+TESTY LOKALNE
+1. node scripts/build-site.mjs
+2. npm test
+3. npm run check:release
+4. npm run test:browser (włączony lokalny podgląd dist na 127.0.0.1:4174)
+5. npm run test:analytics (ruch przechwycony, testowy tag zamiast Google)
+
+qa/seo-check.mjs sprawdza treść bez JS, metadane, języki, JSON-LD, sitemap,
+obraz, adresy i separację release/preview. Polityka produkcyjna jest sprawdzana
+w pamięci, bez obchodzenia zgody na publikację. Przykładowa mapa produkcyjna
+znajduje się wyłącznie w qa/artifacts/seo-2026-10-22/.
+Testy przeglądarkowe sprawdzają także metadane po przełączaniu języka.
+To dowody lokalne, NIE potwierdzenie indeksowania ani działania publicznego hostingu.
+
+PO ZATWIERDZENIU PUBLIKACJI — CZYNNOŚCI WŁAŚCICIELA
+1. Wybrać i potwierdzić hosting, HTTPS i domenę kanoniczną kovacompass.app.
+   Publikować tylko zatwierdzony dist, nigdy katalog repozytorium.
+2. Skonfigurować przekierowania HTTP -> HTTPS, www -> domena bez www i
+   /index.html -> / (z zachowaniem zgodności starych linków językowych).
+   Polityka dla ?lang musi najpierw uwzględnić język; nie kierować EN/RU na PL.
+   To ustawienia właściwego hostingu, nie zdalnie wykonane operacje w tej iteracji.
+3. Zweryfikować rzeczywiste odpowiedzi: strony 200, zasoby 200, nieznane ścieżki
+   HTTP 404. Nie zamieniać nieznanych ścieżek na stronę główną z kodem 200.
+   Zweryfikować obsługę _headers przez wybranego dostawcę, CSP i brak noindex
+   na publicznych, zatwierdzonych stronach. Legal/404 zachowują noindex.
+4. W Google Search Console dodać właściwość domenową kovacompass.app i potwierdzić
+   ją prawdziwym rekordem DNS otrzymanym od Google. Nie ma tu fikcyjnego tokenu.
+5. Zgłosić https://kovacompass.app/sitemap.xml. Sprawdzić URL Inspection dla
+   /, /index-en.html i /index-ru.html, canonical, dostępność zasobów i renderowanie.
+6. Obserwować błędy indeksowania, wyniki wyszukiwania i wydajność mobilną.
+   Nie ma jeszcze pomiaru rzeczywistych Core Web Vitals ani danych ruchu publicznego.
+   Uzupełniać dostępność/Google Play i treść tylko po rzeczywistych zmianach produktu.
+
+Analytics to pomiar odwiedzin po zgodzie, a nie zgłoszenie do wyszukiwarki.
+Ustawienia GA4 są opisane osobno w GOOGLE_ANALYTICS_SETUP.txt.
+SEO nie gwarantuje pierwszego miejsca, indeksowania ani terminu pojawienia się
+w Google. Nie dodano ukrytych słów kluczowych, fałszywych recenzji ani stron-wydmuszek.
+
+OFICJALNE ŹRÓDŁA — SPRAWDZONE 22.10.2026
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+https://developers.google.com/search/docs/specialty/international/localized-versions
+https://developers.google.com/search/docs/crawling-indexing/block-indexing
+https://developers.google.com/search/docs/appearance/structured-data/software-app
+https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors
+https://support.google.com/webmasters/answer/9008080
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap

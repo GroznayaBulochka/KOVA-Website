@@ -1,0 +1,137 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 150.30000001192093
+    },
+    {
+      "value": "en",
+      "at": 5045.100000023842
+    },
+    {
+      "value": "en",
+      "at": 5506.600000023842
+    },
+    {
+      "value": "en",
+      "at": 5580.4000000059605
+    },
+    {
+      "value": "ru",
+      "at": 6123.9000000059605
+    },
+    {
+      "value": "pl",
+      "at": 7039.5
+    },
+    {
+      "value": "ru",
+      "at": 7042.300000011921
+    },
+    {
+      "value": "en",
+      "at": 8347
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Scope",
+      "href": "#1-scope",
+      "target": true
+    },
+    {
+      "label": "2. Local data and purposes",
+      "href": "#2-local-data-and-purposes",
+      "target": true
+    },
+    {
+      "label": "3. No cloud services in this edition",
+      "href": "#3-no-cloud-services-in-this-edition",
+      "target": true
+    },
+    {
+      "label": "4. Permissions, OCR and the device",
+      "href": "#4-permissions-ocr-and-the-device",
+      "target": true
+    },
+    {
+      "label": "5. Protection and its limits",
+      "href": "#5-protection-and-its-limits",
+      "target": true
+    },
+    {
+      "label": "6. Manual export and recovery",
+      "href": "#6-manual-export-and-recovery",
+      "target": true
+    },
+    {
+      "label": "7. Retention and deletion",
+      "href": "#7-retention-and-deletion",
+      "target": true
+    },
+    {
+      "label": "8. Contact, operator-held data and rights",
+      "href": "#8-contact-operator-held-data-and-rights",
+      "target": true
+    },
+    {
+      "label": "9. Former accounts and separate services",
+      "href": "#9-former-accounts-and-separate-services",
+      "target": true
+    },
+    {
+      "label": "10. Children, changes and other information",
+      "href": "#10-children-changes-and-other-information",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA Privacy Policy — OFFLINE V1 — DRAFT — KOVA",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/privacy-en-768.png"
+}
+

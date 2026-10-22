@@ -9,7 +9,7 @@
   Object.assign(labels.pl, {deletion:'Twoje dane',note:'KOVA Offline Free V1 · przed premierą'});
   Object.assign(labels.en, {deletion:'Your data',note:'KOVA Offline Free V1 · before launch'});
   Object.assign(labels.ru, {deletion:'Ваши данные',note:'KOVA Offline Free V1 · до выпуска'});
-  const page = location.pathname.split('/').pop() || 'index.html';
+  const page = window.KOVA_ROUTES ? window.KOVA_ROUTES.parse()?.page + '.html' : location.pathname.split('/').pop() || 'index.html';
   const documentHeader = document.querySelector('.document-header');
   const main = document.querySelector('main');
   document.querySelector('[data-local-workspace]')?.setAttribute('aria-label', 'Workspace');
@@ -77,6 +77,8 @@
       if (!raw || raw.startsWith('#') || !/\.html(?:[?#]|$)/.test(raw)) return;
       const url = new URL(raw, location.href);
       if (url.origin !== location.origin || url.pathname.endsWith('workspace.html')) return;
+      if (link.hasAttribute('data-language-link')) return;
+      if (window.KOVA_ROUTES) { link.href = window.KOVA_ROUTES.localize(raw,lang); return; }
       url.searchParams.set('lang', lang);
       link.href = `${url.pathname.split('/').pop()}${url.search}${url.hash}`;
     });

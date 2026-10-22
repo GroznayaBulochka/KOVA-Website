@@ -137,3 +137,35 @@ body.workspace-page:has(.document-shell) { color:var(--site-ink); background:var
 .publisher-line { display:flex; flex-wrap:wrap; gap:8px 20px; margin-top:28px; padding-top:20px; border-top:1px solid #ffffff1a; color:#b6beb0; font-size:13px; overflow-wrap:anywhere; }
 .publisher-line a { color:#e9d7ac; text-decoration:underline; text-underline-offset:3px; }
 @media(max-width:430px) { .language-trigger { min-width:122px; padding:10px; gap:6px; font-size:13px; } .language-options { width:210px; } }
+/* Shared, genuinely modal consent. Equal accept/reject hierarchy and mobile scroll. */
+.consent-dialog { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100% - 32px)); max-width:none; max-height:calc(100dvh - 32px); padding:34px; overflow:auto; overscroll-behavior:contain; border:1px solid #b28b46; border-radius:24px; background:#181713; color:#f5f0e5; font:400 16px/1.6 system-ui,sans-serif; box-shadow:0 24px 100px #0009; text-align:left; }
+.consent-dialog:not([open]) { display:none; }
+.consent-dialog::backdrop { background:rgb(7 9 8 / 76%); backdrop-filter:blur(5px); }
+.consent-dialog * { box-sizing:border-box; }
+.consent-dialog .consent-mark { width:48px; height:48px; padding:9px; border-radius:14px; color:#edc477; background:#edc47716; }
+.consent-mark svg { width:100%; height:100%; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.consent-dialog .consent-kicker { margin:16px 0 4px; font-size:11px; font-weight:700; letter-spacing:.16em; color:#edc477; }
+.consent-dialog h2 { margin:0 0 16px; font-size:clamp(24px,4vw,32px); line-height:1.2; letter-spacing:-.025em; color:#fff9ee; }
+.consent-dialog h2:focus { outline:none; }
+.consent-dialog p { margin:0 0 14px; }
+.consent-dialog #consent-body { color:#d7d2c7; font-size:15px; }
+.consent-dialog .consent-note { padding:12px 14px; background:#ffffff06; border:1px solid #ffffff15; border-radius:10px; font-size:13px; color:#e9e4da; }
+.consent-actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:22px 0 10px; }
+.consent-dialog .consent-actions button, .consent-dialog .consent-save { min-height:52px; padding:12px 16px; border:1px solid #edc477; border-radius:12px; color:#20190d; background:#edc477; font:700 15px/1.35 system-ui,sans-serif; cursor:pointer; }
+.consent-dialog .consent-actions button:hover,.consent-dialog .consent-save:hover { background:#ffe0a4; }
+.consent-dialog button:focus-visible,.consent-dialog a:focus-visible,.consent-dialog input:focus-visible { outline:3px solid #fff; outline-offset:4px; }
+.consent-dialog .consent-settings { display:block; margin:0 auto 12px; min-height:44px; padding:8px 14px; background:none; border:0; color:#e5c78f; text-decoration:underline; text-underline-offset:4px; font:600 14px system-ui,sans-serif; cursor:pointer; }
+.consent-dialog [hidden] { display:none!important; }
+.consent-option { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:16px 0; border-top:1px solid #ffffff1a; }
+.consent-option strong { display:block; font-size:15px; }
+.consent-option small { display:block; color:#bbb5a9; font-size:13px; line-height:1.5; }
+.consent-option input { width:22px; height:22px; flex-shrink:0; accent-color:#edc477; }
+.consent-dialog .consent-save { width:100%; margin:4px 0 18px; }
+.consent-links { display:flex; justify-content:center; flex-wrap:wrap; gap:12px 24px; }
+.consent-links a { color:#e5c78f; font-size:13px; text-decoration:underline; text-underline-offset:4px; min-height:32px; }
+.consent-dialog .consent-foot { font-size:11px; line-height:1.6; color:#a9a395; text-align:center; margin:8px 0 0; }
+html:has(.consent-dialog[open]) { overflow:hidden; }
+@media(max-width:480px) { .consent-dialog { width:calc(100% - 24px); max-height:calc(100dvh - 24px); padding:22px; border-radius:20px; } .consent-actions { grid-template-columns:1fr; gap:10px; } .consent-dialog #consent-body { font-size:14px; } }
+/* Visible language alternatives are ordinary crawlable links, even without JS. */
+.seo-language-links { text-align:center; padding:24px 16px; font:500 13px/1.6 system-ui,sans-serif; color:#656a60; background:#f7f5ef; }
+.seo-language-links a { color:#554013; text-underline-offset:4px; padding:8px; display:inline-block; }

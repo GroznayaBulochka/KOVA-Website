@@ -1,0 +1,100 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "pl",
+      "at": 158.90000000596046
+    },
+    {
+      "value": "en",
+      "at": 5065.600000023842
+    },
+    {
+      "value": "en",
+      "at": 5539.800000011921
+    },
+    {
+      "value": "pl",
+      "at": 5587.5
+    },
+    {
+      "value": "en",
+      "at": 6147.300000011921
+    },
+    {
+      "value": "ru",
+      "at": 6184.800000011921
+    },
+    {
+      "value": "pl",
+      "at": 6244
+    },
+    {
+      "value": "pl",
+      "at": 6279.800000011921
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Kontakt z KOVA — wsparcie i pytania o aplikację",
+  "lang": "pl",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 360,
+    "scrollWidth": 360
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 7,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "contact",
+    "valid": true,
+    "canonical": "https://kovacompass.app/contact.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "contact",
+    "valid": true,
+    "canonical": "https://kovacompass.app/contact.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/contact-pl-360.png"
+}
+

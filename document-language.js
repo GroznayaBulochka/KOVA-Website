@@ -6,7 +6,7 @@
   const browserLanguage = navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl';
   let storedLanguage;
   try { storedLanguage = localStorage.getItem('kova_site_language'); } catch { /* The document remains readable without storage. */ }
-  let language = params.get('lang') || storedLanguage || browserLanguage;
+  let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || browserLanguage;
   if (!supported.has(language)) language = 'pl';
 
   const applyLanguage = nextLanguage => {

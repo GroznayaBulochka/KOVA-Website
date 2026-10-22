@@ -1,0 +1,92 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 104.39999997615814
+    },
+    {
+      "value": "en",
+      "at": 5233
+    },
+    {
+      "value": "en",
+      "at": 5694.5
+    },
+    {
+      "value": "en",
+      "at": 5738
+    },
+    {
+      "value": "ru",
+      "at": 6275.5999999940395
+    },
+    {
+      "value": "en",
+      "at": 7187.899999976158
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA Website Cookies & Google Analytics",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "cookies",
+    "valid": true,
+    "canonical": "https://kovacompass.app/cookies-en.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "cookies",
+    "valid": true,
+    "canonical": "https://kovacompass.app/cookies-en.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/cookies-en-768.png"
+}
+

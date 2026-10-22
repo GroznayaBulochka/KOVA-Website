@@ -1,0 +1,175 @@
+{
+  "workspace": false,
+  "landing": true,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "pl",
+      "at": 239.90000000596046
+    },
+    {
+      "value": "en",
+      "at": 5057.0999999940395
+    },
+    {
+      "value": "en",
+      "at": 5515.200000017881
+    },
+    {
+      "value": "pl",
+      "at": 5546.300000011921
+    },
+    {
+      "value": "en",
+      "at": 6082.800000011921
+    },
+    {
+      "value": "pl",
+      "at": 6147.5
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — finanse w jednym miejscu",
+  "lang": "pl",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 360,
+    "scrollWidth": 360
+  },
+  "overflowElements": [
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "KontaKonto osobiste, oszczędności i gotówka",
+      "left": 259,
+      "right": 474,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 259,
+      "right": 474,
+      "scrollWidth": 213
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 265,
+      "right": 468,
+      "scrollWidth": 203
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "KontaKonto osobiste, oszczędności i gotówka",
+      "left": 259,
+      "right": 474,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Konta",
+      "left": 259,
+      "right": 474,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Konto osobiste, oszczędności i gotówka",
+      "left": 259,
+      "right": 474,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "TransakcjePół roku codziennych zapisów",
+      "left": 498,
+      "right": 713,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 498,
+      "right": 713,
+      "scrollWidth": 213
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 504,
+      "right": 707,
+      "scrollWidth": 203
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "TransakcjePół roku codziennych zapisów",
+      "left": 498,
+      "right": 713,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Transakcje",
+      "left": 498,
+      "right": 713,
+      "scrollWidth": 215
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Pół roku codziennych zapisów",
+      "left": 498,
+      "right": 713,
+      "scrollWidth": 215
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 26,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/index-pl-360.png"
+}
+

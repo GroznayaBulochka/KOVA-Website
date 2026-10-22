@@ -1,0 +1,100 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 173.89999997615814
+    },
+    {
+      "value": "en",
+      "at": 5051.0999999940395
+    },
+    {
+      "value": "en",
+      "at": 5508
+    },
+    {
+      "value": "ru",
+      "at": 5550
+    },
+    {
+      "value": "en",
+      "at": 6099.699999988079
+    },
+    {
+      "value": "ru",
+      "at": 6138
+    },
+    {
+      "value": "pl",
+      "at": 6174.0999999940395
+    },
+    {
+      "value": "ru",
+      "at": 6217
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — новости и развитие финансового приложения",
+  "lang": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "updates",
+    "valid": true,
+    "canonical": "https://kovacompass.app/updates-ru.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "updates",
+    "valid": true,
+    "canonical": "https://kovacompass.app/updates-ru.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/updates-ru-1440.png"
+}
+

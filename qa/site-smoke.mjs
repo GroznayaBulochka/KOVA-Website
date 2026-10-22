@@ -91,6 +91,26 @@ try {
     if(r.exceptionDetails)throw new Error(r.exceptionDetails.text);
     return r.result.value;
   };
+  const seoProbe = `(() => {
+    const node=document.getElementById('kova-seo-data');
+    if(!node)return {present:false};
+    const data=JSON.parse(node.textContent),lang=document.documentElement.lang,expected=data.locales[lang];
+    return {present:true,lang,page:data.page,
+      valid: window.KOVA_ROUTES.parse()?.language===lang
+        && document.title===expected.title
+        && document.querySelector('meta[name="description"]').content===expected.description
+        && document.querySelector('meta[property="og:url"]').content===expected.canonical
+        && document.querySelector('meta[name="twitter:title"]').content===expected.title
+        && (data.page==='404' ? !document.querySelector('link[rel="canonical"]') : document.querySelector('link[rel="canonical"]').href===expected.canonical)
+        && JSON.parse(document.getElementById('kova-structured-data').textContent)['@graph'].some(n=>n.inLanguage===lang&&n.url===expected.canonical),
+      canonical:document.querySelector('link[rel="canonical"]')?.href};
+  })()`;
+  const initialSeo = await evaluate(seoProbe);
+  const expectedLanguage = new URL(origin).searchParams.get('lang') || /-(en|ru)\.html$/.exec(new URL(origin).pathname)?.[1] || 'pl';
+  if (initialSeo.present && (!initialSeo.valid || initialSeo.lang!==expectedLanguage)) throw new Error('Initial localized SEO mismatch: '+JSON.stringify(initialSeo));
+  // The shared native modal must be dismissed before testing background navigation.
+  // Its focus trap, first-visit state and Google protocol are covered separately.
+  await evaluate('document.querySelector("[data-cookie-banner][open] [data-cookie-essential]")?.click()');
   if (await evaluate('Boolean(document.querySelector(".language-trigger"))')) {
     await evaluate('document.querySelector(".language-trigger").focus()');
     await key('ArrowDown','ArrowDown',40);
@@ -105,7 +125,7 @@ try {
     await key('ArrowDown','ArrowDown',40); await key('Tab','Tab',9);
     if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "false" && !document.activeElement.matches(".language-option")')) throw new Error('Language Tab traps focus');
     // Restore the case language using the actual custom option.
-    const initialLanguage = new URL(origin).searchParams.get('lang') || 'pl';
+    const initialLanguage = new URL(origin).searchParams.get('lang') || /-(en|ru)\.html$/.exec(new URL(origin).pathname)?.[1] || 'pl';
     await evaluate(`document.querySelector('.language-trigger').click();document.querySelector('[data-language="${initialLanguage}"]').click()`);
     await delay(500);
   } else if (!origin.includes('workspace.html')) throw new Error('Custom language control missing');
@@ -164,20 +184,22 @@ try {
         language.value = 'en';
         language.dispatchEvent(new Event('change', { bubbles: true }));
         languageChanged = document.documentElement.lang === 'en' && document.querySelector('[data-i18n="navFeatures"]').textContent === 'Features';
-        cookieShown = document.querySelector('[data-cookie-banner]')?.hidden === false;
+        document.querySelector('[data-cookie-settings]').click();
+        cookieShown = document.querySelector('[data-cookie-banner]')?.open === true;
         analyticsAbsentBeforeConsent = !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=');
-        if (preview !== 'cookies') {
+        {
           document.querySelector('[data-cookie-essential]').click();
-          essentialOnlyWorks = document.cookie.includes('kova_cookie_consent=essential') && !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=');
+          essentialOnlyWorks = document.cookie.includes('kova_cookie_consent_v2=essential') && !document.cookie.includes('_ga=') && !document.querySelector('[data-kova-google-tag]');
           document.querySelector('[data-cookie-settings]').click();
           document.querySelector('[data-cookie-analytics-toggle]').checked = true;
           document.querySelector('[data-cookie-save]').click();
-          cookieDismissed = document.querySelector('[data-cookie-banner]')?.hidden === true && document.cookie.includes('kova_cookie_consent=analytics');
-          analyticsCookies = document.cookie.includes('kova_analytics_id=') && document.cookie.includes('kova_analytics_session=');
+          cookieDismissed = document.querySelector('[data-cookie-banner]')?.open === false && document.cookie.includes('kova_cookie_consent_v2=analytics');
+          // Preview is intentionally excluded even when consent is granted.
+          analyticsCookies = !document.cookie.includes('_ga=') && !document.querySelector('[data-kova-google-tag]');
           document.querySelector('[data-cookie-settings]').click();
           document.querySelector('[data-cookie-analytics-toggle]').checked = false;
           document.querySelector('[data-cookie-save]').click();
-          consentRevoked = document.cookie.includes('kova_cookie_consent=essential') && !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=') && !document.cookie.includes('kova_analytics_page_count=') && !window.KOVA_ANALYTICS.track('after_revoke');
+          consentRevoked = document.cookie.includes('kova_cookie_consent_v2=essential') && !document.cookie.includes('_ga=') && !window.KOVA_ANALYTICS.track('contact_click');
         }
         const faq = document.querySelector('#faq details');
         faq.querySelector('summary').click();
@@ -278,9 +300,11 @@ try {
         document.body.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true}));
         languagePickerWorks = languagePickerWorks && picker.querySelector('.language-options').hidden;
         languagePickerWorks = languagePickerWorks && getComputedStyle(picker.querySelector('select')).display === 'none';
-        sharedFooter = Boolean(document.querySelector('.public-footer a[href^="contact.html"]')) && Boolean(document.querySelector('.public-footer a[href^="privacy.html"]'));
-        const languageLinks = [...document.querySelectorAll('.public-footer a[href]')].filter(link => link.getAttribute('href').includes('.html'));
-        languageChanged = languageChanged && languageLinks.every(link => new URL(link.href).searchParams.get('lang') === document.documentElement.lang);
+        const footerLinks = [...document.querySelectorAll('.public-footer a[href]')];
+        const route = link => window.KOVA_ROUTES?.parse(new URL(link.href).pathname);
+        sharedFooter = ['contact','privacy'].every(page => footerLinks.some(link => window.KOVA_ROUTES ? route(link)?.page === page : new URL(link.href).pathname.endsWith('/'+page+'.html')));
+        const languageLinks = footerLinks.filter(link => new URL(link.href).origin === location.origin && (route(link) || link.getAttribute('href').includes('.html')));
+        languageChanged = languageChanged && languageLinks.every(link => window.KOVA_ROUTES ? route(link)?.language === document.documentElement.lang : new URL(link.href).searchParams.get('lang') === document.documentElement.lang);
       }
       // Load lazy screenshots before testing the final layout and producing visual evidence.
       document.querySelectorAll('img[loading="lazy"]').forEach(image => { image.loading = 'eager'; });
@@ -344,6 +368,8 @@ try {
   await writeFile(output, Buffer.from(screenshot.data, 'base64'));
   if (evaluation.exceptionDetails) throw new Error(evaluation.exceptionDetails.exception?.description || evaluation.exceptionDetails.text);
   const result = evaluation.result.value;
+  const finalSeo = await evaluate(seoProbe);
+  if (finalSeo.present && (!finalSeo.valid || finalSeo.lang!==expectedLanguage)) throw new Error('SEO after language switches mismatch: '+JSON.stringify(finalSeo));
   if (runtimeErrors.length) throw new Error(runtimeErrors.join('\n'));
   if (unexpectedRequests.length) throw new Error('Unexpected non-local website requests: '+JSON.stringify(unexpectedRequests));
   if (!result.languagePickerWorks) throw new Error('Language picker regression: '+JSON.stringify(result));
@@ -355,7 +381,7 @@ try {
   if (result.layout.scrollWidth !== result.layout.clientWidth) throw new Error(`Horizontal overflow: ${JSON.stringify({ layout:result.layout, elements:result.overflowElements })}`);
   const minimumIcons = result.legal ? 2 : result.documentPage ? 0 : 5;
   if (result.brokenImages.length || !result.dialogOpened || !result.taskCreated || !result.menuOpened || !result.lightboxOpened || !result.videoOpened || !result.languageChanged || !result.legalContentLoaded || !result.cookieShown || !result.cookieDismissed || !result.analyticsCookies || !result.analyticsAbsentBeforeConsent || !result.essentialOnlyWorks || !result.homeButtonPresent || result.renderedSvgIcons < minimumIcons || !result.visiblePrimaryAction) throw new Error(`Smoke assertion failed: ${JSON.stringify(result)}`);
-  console.log(JSON.stringify({ ...result, keyboardSelection:'PASS', unexpectedPageRequests:unexpectedRequests, screenshot: output }, null, 2));
+  console.log(JSON.stringify({ ...result, initialSeo, finalSeo, keyboardSelection:'PASS', unexpectedPageRequests:unexpectedRequests, screenshot: output }, null, 2));
 } finally {
   // Close the owned browser normally before killing its launcher. Otherwise an
   // open DevTools socket can hold a successful Node process until the watchdog.

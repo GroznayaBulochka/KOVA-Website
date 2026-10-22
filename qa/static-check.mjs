@@ -45,9 +45,10 @@ for (const legalPage of ['privacy.html', 'terms.html']) {
 }
 const cookieDocument = await readFile(join(root, 'cookies.html'), 'utf8');
 for (const language of ['pl', 'en', 'ru']) if (!cookieDocument.includes(`data-doc-lang="${language}"`)) failures.push(`cookies.html: missing ${language} content`);
-if (!cookieDocument.includes('kova_analytics_id') || !cookieDocument.includes('kova_cookie_consent')) failures.push('cookies.html: missing analytics cookie inventory');
+if (!cookieDocument.includes('_ga_2LE3GWYDZM') || !cookieDocument.includes('kova_cookie_consent_v2')) failures.push('cookies.html: missing analytics cookie inventory');
 if (home.includes('workspaceTitle') || home.includes('Workspace jest dostępny tylko lokalnie')) failures.push('index.html: obsolete local Workspace banner remains');
-if (!home.includes('data-video-open') || !home.includes('data-cookie-accept-all')) failures.push('index.html: missing video or analytics consent controls');
+const consentScript = await readFile(join(root, 'site-consent.js'), 'utf8');
+if (!home.includes('data-video-open') || !home.includes('src="site-consent.js"') || !consentScript.includes('data-cookie-accept-all')) failures.push('index.html: missing video or analytics consent controls');
 for (const kind of ['privacy-policy', 'terms-of-service']) for (const language of ['pl', 'en', 'ru']) {
   try { await access(join(root, 'legal', `${kind}-${language}.md`)); }
   catch { failures.push(`legal/${kind}-${language}.md: missing app legal source`); }

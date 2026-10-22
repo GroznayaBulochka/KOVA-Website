@@ -1,0 +1,161 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 191.69999998807907
+    },
+    {
+      "value": "en",
+      "at": 5072.5999999940395
+    },
+    {
+      "value": "en",
+      "at": 5574.799999982119
+    },
+    {
+      "value": "en",
+      "at": 5674.5
+    },
+    {
+      "value": "ru",
+      "at": 6218.0999999940395
+    },
+    {
+      "value": "pl",
+      "at": 7123.399999976158
+    },
+    {
+      "value": "ru",
+      "at": 7125.299999982119
+    },
+    {
+      "value": "en",
+      "at": 8434.799999982119
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Product and price",
+      "href": "#1-product-and-price",
+      "target": true
+    },
+    {
+      "label": "2. Access, requirements and stopping use",
+      "href": "#2-access-requirements-and-stopping-use",
+      "target": true
+    },
+    {
+      "label": "3. Local feature scope",
+      "href": "#3-local-feature-scope",
+      "target": true
+    },
+    {
+      "label": "4. Financial information and OCR",
+      "href": "#4-financial-information-and-ocr",
+      "target": true
+    },
+    {
+      "label": "5. Your content and lawful use",
+      "href": "#5-your-content-and-lawful-use",
+      "target": true
+    },
+    {
+      "label": "6. Backup, data loss and restore",
+      "href": "#6-backup-data-loss-and-restore",
+      "target": true
+    },
+    {
+      "label": "7. Privacy and external programs",
+      "href": "#7-privacy-and-external-programs",
+      "target": true
+    },
+    {
+      "label": "8. App license and third-party rights",
+      "href": "#8-app-license-and-third-party-rights",
+      "target": true
+    },
+    {
+      "label": "9. Updates and availability",
+      "href": "#9-updates-and-availability",
+      "target": true
+    },
+    {
+      "label": "10. Support, complaints and remedies",
+      "href": "#10-support-complaints-and-remedies",
+      "target": true
+    },
+    {
+      "label": "11. Liability",
+      "href": "#11-liability",
+      "target": true
+    },
+    {
+      "label": "12. Changes, law and language",
+      "href": "#12-changes-law-and-language",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA Terms of Use — Draft Document",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "terms",
+    "valid": true,
+    "canonical": "https://kovacompass.app/terms-en.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "terms",
+    "valid": true,
+    "canonical": "https://kovacompass.app/terms-en.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/terms-en-768.png"
+}
+

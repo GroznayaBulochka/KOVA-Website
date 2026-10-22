@@ -1,0 +1,98 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 76.79999995231628
+    },
+    {
+      "value": "en",
+      "at": 5072
+    },
+    {
+      "value": "en",
+      "at": 5529.799999952316
+    },
+    {
+      "value": "en",
+      "at": 5592
+    },
+    {
+      "value": "en",
+      "at": 6128.199999988079
+    },
+    {
+      "value": "ru",
+      "at": 6162.699999988079
+    },
+    {
+      "value": "pl",
+      "at": 6217.5
+    },
+    {
+      "value": "en",
+      "at": 6262.599999964237
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Page Not Found — KOVA",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "404",
+    "valid": true
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "en",
+    "page": "404",
+    "valid": true
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\retest/404-en-768.png"
+}
+

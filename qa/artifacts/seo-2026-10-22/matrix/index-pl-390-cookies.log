@@ -1,0 +1,189 @@
+{
+  "workspace": false,
+  "landing": true,
+  "legal": false,
+  "documentPage": false,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "pl",
+      "at": 475
+    },
+    {
+      "value": "en",
+      "at": 5104.5
+    },
+    {
+      "value": "en",
+      "at": 5626.600000023842
+    },
+    {
+      "value": "pl",
+      "at": 5691.9000000059605
+    },
+    {
+      "value": "en",
+      "at": 6252.300000011921
+    },
+    {
+      "value": "pl",
+      "at": 6351.100000023842
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA — aplikacja do budżetu i finansów osobistych offline",
+  "lang": "pl",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "overflowElements": [
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "KontaKonto osobiste, oszczędności i gotówka",
+      "left": 279,
+      "right": 515,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 279,
+      "right": 515,
+      "scrollWidth": 233
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 285,
+      "right": 509,
+      "scrollWidth": 223
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "KontaKonto osobiste, oszczędności i gotówka",
+      "left": 279,
+      "right": 515,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Konta",
+      "left": 279,
+      "right": 515,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Konto osobiste, oszczędności i gotówka",
+      "left": 279,
+      "right": 515,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "FIGURE",
+      "className": "",
+      "text": "TransakcjePół roku codziennych zapisów",
+      "left": 539,
+      "right": 774,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "BUTTON",
+      "className": "",
+      "text": "",
+      "left": 539,
+      "right": 774,
+      "scrollWidth": 233
+    },
+    {
+      "tag": "IMG",
+      "className": "",
+      "text": "",
+      "left": 545,
+      "right": 768,
+      "scrollWidth": 223
+    },
+    {
+      "tag": "FIGCAPTION",
+      "className": "",
+      "text": "TransakcjePół roku codziennych zapisów",
+      "left": 539,
+      "right": 774,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "B",
+      "className": "",
+      "text": "Transakcje",
+      "left": 539,
+      "right": 774,
+      "scrollWidth": 235
+    },
+    {
+      "tag": "SPAN",
+      "className": "",
+      "text": "Pół roku codziennych zapisów",
+      "left": 539,
+      "right": 774,
+      "scrollWidth": 235
+    }
+  ],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 26,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "index",
+    "valid": true,
+    "canonical": "https://kovacompass.app/"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "pl",
+    "page": "index",
+    "valid": true,
+    "canonical": "https://kovacompass.app/"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/index-pl-390-cookies.png"
+}
+

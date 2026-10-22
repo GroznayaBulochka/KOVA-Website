@@ -1,0 +1,147 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "en",
+      "at": 158.59999999403954
+    },
+    {
+      "value": "en",
+      "at": 5100.4000000059605
+    },
+    {
+      "value": "en",
+      "at": 5578.0999999940395
+    },
+    {
+      "value": "en",
+      "at": 5653.800000011921
+    },
+    {
+      "value": "ru",
+      "at": 6179.700000017881
+    },
+    {
+      "value": "pl",
+      "at": 7091.5999999940395
+    },
+    {
+      "value": "ru",
+      "at": 7093.9000000059605
+    },
+    {
+      "value": "en",
+      "at": 8408.5
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Product and price",
+      "href": "#1-product-and-price",
+      "target": true
+    },
+    {
+      "label": "2. Access, requirements and stopping use",
+      "href": "#2-access-requirements-and-stopping-use",
+      "target": true
+    },
+    {
+      "label": "3. Local feature scope",
+      "href": "#3-local-feature-scope",
+      "target": true
+    },
+    {
+      "label": "4. Financial information and OCR",
+      "href": "#4-financial-information-and-ocr",
+      "target": true
+    },
+    {
+      "label": "5. Your content and lawful use",
+      "href": "#5-your-content-and-lawful-use",
+      "target": true
+    },
+    {
+      "label": "6. Backup, data loss and restore",
+      "href": "#6-backup-data-loss-and-restore",
+      "target": true
+    },
+    {
+      "label": "7. Privacy and external programs",
+      "href": "#7-privacy-and-external-programs",
+      "target": true
+    },
+    {
+      "label": "8. App license and third-party rights",
+      "href": "#8-app-license-and-third-party-rights",
+      "target": true
+    },
+    {
+      "label": "9. Updates and availability",
+      "href": "#9-updates-and-availability",
+      "target": true
+    },
+    {
+      "label": "10. Support, complaints and remedies",
+      "href": "#10-support-complaints-and-remedies",
+      "target": true
+    },
+    {
+      "label": "11. Liability",
+      "href": "#11-liability",
+      "target": true
+    },
+    {
+      "label": "12. Changes, law and language",
+      "href": "#12-changes-law-and-language",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "KOVA Terms — OFFLINE V1 — DRAFT — KOVA",
+  "lang": "en",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 768,
+    "scrollWidth": 768
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/terms-en-768.png"
+}
+

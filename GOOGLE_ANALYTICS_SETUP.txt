@@ -1,0 +1,101 @@
+KOVA WEBSITE — GOOGLE ANALYTICS 4
+Prepared: 2026-10-22. Local implementation, not a deployment/account audit.
+
+IDENTITY AND SCOPE
+Owner-supplied measurement ID: G-2LE3GWYDZM.
+Only HTTPS kovacompass.app and www.kovacompass.app, default HTTPS port, explicit
+public-page allowlist. Private Workspace, arbitrary paths, local previews and
+Android are excluded. No Firebase, GTM container, ads or cloud account added.
+Google's hosted gtag.js is loaded dynamically only after an affirmative choice.
+Do not paste the unconditional Google snippet into HTML as well: it would bypass
+consent and double count visits. No preconnect/DNS prefetch to Google is emitted.
+
+CONSENT AND WITHDRAWAL
+Basic Consent Mode, not advanced/cookieless measurement. No tag before consent
+or after rejection. analytics_storage granted only after opt-in; ad_storage,
+ad_user_data and ad_personalization remain denied. Google Signals and ad
+personalization disabled. Local counter consent is discarded, not migrated.
+Cookie kova_cookie_consent_v2: analytics/essential, 180 days, SameSite=Lax,
+Secure on HTTPS. It contains no unique visitor ID. No fingerprinting substitute.
+GA cookies: _ga and _ga_2LE3GWYDZM, configured 180 days, cookie_update=false.
+Browser restrictions can shorten retention. This is NOT GA server data retention.
+The large centered native modal makes background controls inert. Equal accept
+and reject buttons; Escape rejects. Settings uses unchecked optional analytics
+on first visit. Privacy/terms/cookies can be read without first making a choice.
+Footer settings opens on every public page. Withdrawal sets ga-disable before
+clearing pending commands/cookies and reloads to unload Google's running code.
+It cannot recall requests already transmitted or delete existing GA reports.
+Same-origin tabs reconcile through BroadcastChannel and on visibility/pageshow.
+Cookies unavailable: site remains usable, analytics fails closed.
+Script blocked/offline: site remains usable, no automatic retry loop.
+
+EVENT CONTRACT
+page_view: one per public document load after consent, send_page_view=false.
+presentation_open: user opens the app tour.
+presentation_play: user starts/resumes its slideshow.
+presentation_select: user selects a chapter (no chapter text is collected).
+screenshot_open: user enlarges an authentic screenshot.
+faq_open: user expands a question (no question text is collected).
+contact_click: user clicks an email link, NOT proof a message was sent.
+Custom event params: send_to, normalized public page_location, fixed page_title,
+site language. Query/fragment/referrer and user-provided text are not forwarded
+by our event adapter. No financial data, forms, account IDs or user_id.
+Google's runtime also handles standard session/device/engagement metadata.
+Do not describe pseudonymous analytics as anonymous or as local-only storage.
+
+GA ADMIN CHECKLIST — OWNER/ACCOUNT ADMIN REQUIRED BEFORE PUBLICATION
+These are requirements, NOT verified facts. No account settings were changed.
+1. Confirm this ID belongs to the intended WEB stream and publisher-controlled
+   property, URL https://kovacompass.app. Do not attach other Google destinations.
+2. Turn OFF Enhanced measurement (including history pageviews, site search,
+   forms, outbound clicks, downloads and video auto-events). Explicit events
+   above replace it. send_page_view=false alone does not disable these features.
+   This is essential to avoid duplicate views or automatic URL/form collection.
+3. Keep Google Signals, advertising personalization and user-provided data
+   collection OFF; no Google Ads links, no extra destination tags or custom
+   server-side event transformations. Review account data-sharing settings.
+4. Select/document GA event/user data retention (recommend minimum necessary,
+   e.g. 2 months if appropriate). Do not confuse this with cookie expiry.
+5. Confirm applicable Google processing terms, legal entity, international
+   transfer safeguards and privacy disclosures; finalize current DRAFTs.
+6. Confirm hosting honors dist/_headers or apply equivalent actual headers.
+   The preview server deliberately keeps a stricter local-only CSP.
+7. Set websiteAnalytics.accountConfigurationVerified=true only after evidence.
+   Existing publication, legal and hosting approval gates still apply.
+8. After separately authorized deployment, verify clean-browser rejection
+   makes no Google requests; accept then check exactly one page_view in GA
+   Realtime. Check explicit events, withdrawal/reload, another tab, return visit,
+   PL/EN/RU, mobile, browser blocking and all real CSP response headers.
+   Record evidence, then mark liveReceptionVerified=true. Test traffic should be
+   identified/excluded by an approved GA filter; local tests never hit production.
+9. Never set legal/publication approvals merely because the tag loads.
+
+IMPLEMENTATION / REPRODUCTION
+site-consent.js, site-ui.css, all 11 public HTML pages, build allowlist/headers.
+Website disclosures: cookies.html, legal-document.js, project-content.js.
+Canonical Android policy documents are unchanged by the website GA integration.
+npm run build
+npm test
+npm run test:analytics
+npm run check:release
+KOVA_QA_OUTPUT=qa/artifacts/analytics-2026-10-22/matrix (environment variable)
+npm run test:browser
+Browser analytics harness intercepts ALL page requests, serves local dist files
+under a simulated HTTPS domain, and provides a synthetic Google tag/collector.
+It tests real DOM, focus, CSP, event calls and state, not Google's live library,
+service-side retention, dashboard delivery, or a real account configuration.
+Reports and screenshots: qa/artifacts/analytics-2026-10-22/.
+
+OFFICIAL REFERENCES REVIEWED 2026-10-22
+https://developers.google.com/tag-platform/security/guides/consent?consentmode=basic
+https://developers.google.com/analytics/devguides/collection/ga4/reference/config
+https://developers.google.com/tag-platform/security/guides/privacy
+https://developers.google.com/tag-platform/security/guides/csp
+https://support.google.com/analytics/answer/12017362
+https://europa.eu/youreurope/business/growing/digitalising/online-privacy/index_en.htm
+https://www.edpb.europa.eu/system/files/2023-01/edpb_20230118_report_cookie_banner_taskforce_en.pdf
+
+NOT DONE
+No publication, DNS/hosting changes, GA account settings changes, real GA events,
+Firebase calls, Android changes, or private Workspace data access.
+Local implementation is not a guarantee of legal compliance in all jurisdictions.

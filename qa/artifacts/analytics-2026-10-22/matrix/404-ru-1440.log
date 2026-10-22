@@ -1,0 +1,86 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": false,
+  "documentPage": true,
+  "projectPage": true,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 133.19999998807907
+    },
+    {
+      "value": "en",
+      "at": 5073.199999988079
+    },
+    {
+      "value": "en",
+      "at": 5543.800000011921
+    },
+    {
+      "value": "ru",
+      "at": 5600.5999999940395
+    },
+    {
+      "value": "en",
+      "at": 6134.0999999940395
+    },
+    {
+      "value": "ru",
+      "at": 6172
+    },
+    {
+      "value": "pl",
+      "at": 6207.9000000059605
+    },
+    {
+      "value": "ru",
+      "at": 6247.9000000059605
+    }
+  ],
+  "legalDiagnostics": [],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "404 — KOVA",
+  "lang": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 6,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/404-ru-1440.png"
+}
+

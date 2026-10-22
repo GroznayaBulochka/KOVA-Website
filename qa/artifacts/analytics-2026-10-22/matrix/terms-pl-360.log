@@ -1,0 +1,147 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "pl",
+      "at": 76.39999997615814
+    },
+    {
+      "value": "en",
+      "at": 5073.899999976158
+    },
+    {
+      "value": "en",
+      "at": 5568.0999999940395
+    },
+    {
+      "value": "pl",
+      "at": 5619.5
+    },
+    {
+      "value": "ru",
+      "at": 6156.0999999940395
+    },
+    {
+      "value": "pl",
+      "at": 7064.699999988079
+    },
+    {
+      "value": "ru",
+      "at": 7067.199999988079
+    },
+    {
+      "value": "pl",
+      "at": 8380.799999982119
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Produkt i odpłatność",
+      "href": "#1-produkt-i-odp-atnosc",
+      "target": true
+    },
+    {
+      "label": "2. Dostęp, wymagania i zakończenie korzystania",
+      "href": "#2-dostep-wymagania-i-zakonczenie-korzystania",
+      "target": true
+    },
+    {
+      "label": "3. Zakres lokalnych funkcji",
+      "href": "#3-zakres-lokalnych-funkcji",
+      "target": true
+    },
+    {
+      "label": "4. Informacje finansowe i OCR",
+      "href": "#4-informacje-finansowe-i-ocr",
+      "target": true
+    },
+    {
+      "label": "5. Twoje dane i dozwolone korzystanie",
+      "href": "#5-twoje-dane-i-dozwolone-korzystanie",
+      "target": true
+    },
+    {
+      "label": "6. Backup, utrata danych i restore",
+      "href": "#6-backup-utrata-danych-i-restore",
+      "target": true
+    },
+    {
+      "label": "7. Prywatność i zewnętrzne programy",
+      "href": "#7-prywatnosc-i-zewnetrzne-programy",
+      "target": true
+    },
+    {
+      "label": "8. Licencja aplikacji i cudze prawa",
+      "href": "#8-licencja-aplikacji-i-cudze-prawa",
+      "target": true
+    },
+    {
+      "label": "9. Aktualizacje i dostępność",
+      "href": "#9-aktualizacje-i-dostepnosc",
+      "target": true
+    },
+    {
+      "label": "10. Zgłoszenia, reklamacje i uprawnienia",
+      "href": "#10-zg-oszenia-reklamacje-i-uprawnienia",
+      "target": true
+    },
+    {
+      "label": "11. Odpowiedzialność",
+      "href": "#11-odpowiedzialnosc",
+      "target": true
+    },
+    {
+      "label": "12. Zmiany, prawo i język",
+      "href": "#12-zmiany-prawo-i-jezyk",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Regulamin KOVA — OFFLINE V1 — DRAFT — KOVA",
+  "lang": "pl",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 360,
+    "scrollWidth": 360
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\analytics-2026-10-22\\matrix/terms-pl-360.png"
+}
+

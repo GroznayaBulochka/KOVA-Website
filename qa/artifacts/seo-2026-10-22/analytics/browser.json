@@ -1,0 +1,118 @@
+{
+  "recordedAt": "2026-10-22T08:25:19.771Z",
+  "result": "PASS",
+  "checks": 36,
+  "passed": [
+    "First visit: zero Google requests, no GA cookies",
+    "Centered accessible native modal with equal decision buttons",
+    "Background cannot take focus while dialog is open",
+    "Escape rejects; no request and remembered essential choice",
+    "Rejection remembered across public pages",
+    "Footer opens settings on a secondary page, analytics off",
+    "Exactly one tag and manual page_view after consent",
+    "Consent v2 defaults denied before analytics-only grant",
+    "No signals/ads, fixed 180-day cookies and no automatic page_view",
+    "Repeated grant does not double load or double count",
+    "Allowlisted engagement sent and arbitrary payload rejected",
+    "Remembered consent resumes, URL query/fragment/referrer excluded from our payload",
+    "Real presentation, screenshot and FAQ interactions reach event adapter",
+    "Withdrawal unloads tag, removes GA cookies and stops further requests",
+    "Withdrawal before delayed initialization cancels future callbacks",
+    "External consent change reconciled over real BroadcastChannel",
+    "Legacy local-counter consent cannot authorize Google",
+    "pl: narrow modal fits, scrolls and decisions have accessible labels",
+    "pl: preference off by default, save rejection works",
+    "en: narrow modal fits, scrolls and decisions have accessible labels",
+    "en: preference off by default, save rejection works",
+    "ru: narrow modal fits, scrolls and decisions have accessible labels",
+    "ru: preference off by default, save rejection works",
+    "Cookie disclosure readable without consent and links to Google",
+    "Settings also available on disclosure page",
+    "Blocked cookie/localStorage: usable site, analytics fail closed",
+    "Tag blocked: no retry loop, presentation still opens",
+    "Direct EN URL wins over stored PL; no Google request without consent",
+    "Rejection survives localized RU navigation",
+    "Localized route consent permits the adapter, preserving sanitized page and RU",
+    "Local preview never loads Google even after acceptance",
+    "Private path guarded even if consent script is injected",
+    "index-en.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
+    "index-ru.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
+    "privacy-en.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
+    "No unexpected external URL, no runtime errors"
+  ],
+  "requestsIntercepted": [
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=contact_click"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=presentation_open"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=presentation_play"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=presentation_select"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=screenshot_open"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=faq_open"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
+    }
+  ],
+  "errors": [],
+  "rejected": [],
+  "inputs": {
+    "site-consent.js": "ef049afbded156fe35274f3560c7106483fe558424771bcbd69b66dbaa3df875",
+    "site-ui.css": "a4b3a24746939700a4e35f4f01aa16c09f398acdcfeeb63b7b0808e39647791a",
+    "site-seo.js": "e1bb3b335bdb6e432d2bd29fd096a3f0272215a964d38f53636069f2943b316b",
+    "dist/_headers": "6b93074ec39b4bd89052c4ac6d66d344e0b5f8fb7b0e5dd70bd288e3577b6cb6"
+  },
+  "scope": "Real Edge DOM/CSP/consent; Google tag and collector mocked. No live GA/backend verification; no deployment."
+}

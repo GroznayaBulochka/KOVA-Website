@@ -1,0 +1,41 @@
+{
+  "recordedAt": "2026-10-22T07:52:22.214Z",
+  "result": "LOCAL_IMPLEMENTATION_VERIFIED",
+  "measurementId": "G-2LE3GWYDZM",
+  "commands": [
+    {
+      "command": "node qa/run-checks.mjs",
+      "exitCode": 0,
+      "log": "run-checks.mjs.log"
+    },
+    {
+      "command": "node qa/release-check.mjs",
+      "exitCode": 0,
+      "log": "release-check.mjs.log"
+    }
+  ],
+  "analyticsBrowser": {
+    "checks": 30,
+    "result": "PASS",
+    "evidence": "browser.json",
+    "googleRuntime": "MOCKED",
+    "googleNetworkRequestsDelivered": 0
+  },
+  "publicUi": {
+    "cases": 40,
+    "passed": 40,
+    "evidence": "matrix/results.json"
+  },
+  "counting": "Separate suites; overlapping assertions are not summed into unique test cases.",
+  "currentBuild": "build-final.json",
+  "published": false,
+  "androidChanged": false,
+  "workspaceDataTouched": false,
+  "remaining": [
+    "GA account configuration review including Enhanced measurement OFF",
+    "Approved public deployment and real CSP headers",
+    "Live GA Realtime reception check after authorized deployment",
+    "Existing legal/hosting publication approvals"
+  ],
+  "scope": "Local Edge browser DOM/CSP and intercepted GA adapter verified; no real Google runtime/backend/account qualification."
+}

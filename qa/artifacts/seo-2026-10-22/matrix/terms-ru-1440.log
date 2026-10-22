@@ -1,0 +1,161 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 224.5
+    },
+    {
+      "value": "en",
+      "at": 5186.100000023842
+    },
+    {
+      "value": "en",
+      "at": 5697.5
+    },
+    {
+      "value": "ru",
+      "at": 5775.600000023842
+    },
+    {
+      "value": "ru",
+      "at": 6320.700000017881
+    },
+    {
+      "value": "pl",
+      "at": 7237
+    },
+    {
+      "value": "ru",
+      "at": 7239.300000011921
+    },
+    {
+      "value": "ru",
+      "at": 8557.40000000596
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Продукт и стоимость",
+      "href": "#1-продукт-и-стоимость",
+      "target": true
+    },
+    {
+      "label": "2. Доступ, требования и прекращение использования",
+      "href": "#2-доступ-требования-и-прекращение-использования",
+      "target": true
+    },
+    {
+      "label": "3. Локальные функции",
+      "href": "#3-локальные-функции",
+      "target": true
+    },
+    {
+      "label": "4. Финансовая информация и OCR",
+      "href": "#4-финансовая-информация-и-ocr",
+      "target": true
+    },
+    {
+      "label": "5. Ваш контент и законное использование",
+      "href": "#5-ваш-контент-и-законное-использование",
+      "target": true
+    },
+    {
+      "label": "6. Копии, потеря данных и восстановление",
+      "href": "#6-копии-потеря-данных-и-восстановление",
+      "target": true
+    },
+    {
+      "label": "7. Приватность и внешние программы",
+      "href": "#7-приватность-и-внешние-программы",
+      "target": true
+    },
+    {
+      "label": "8. Лицензия и права третьих лиц",
+      "href": "#8-лицензия-и-права-третьих-лиц",
+      "target": true
+    },
+    {
+      "label": "9. Обновления и доступность",
+      "href": "#9-обновления-и-доступность",
+      "target": true
+    },
+    {
+      "label": "10. Поддержка, претензии и защита прав",
+      "href": "#10-поддержка-претензии-и-защита-прав",
+      "target": true
+    },
+    {
+      "label": "11. Ответственность",
+      "href": "#11-ответственность",
+      "target": true
+    },
+    {
+      "label": "12. Изменения, право и языки",
+      "href": "#12-изменения-право-и-языки",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Условия использования KOVA — проект документа",
+  "lang": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "terms",
+    "valid": true,
+    "canonical": "https://kovacompass.app/terms-ru.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "terms",
+    "valid": true,
+    "canonical": "https://kovacompass.app/terms-ru.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\matrix/terms-ru-1440.png"
+}
+

@@ -2,10 +2,6 @@
   'use strict';
 
   const LANGUAGE_KEY = 'kova_site_language';
-  const CONSENT_COOKIE = 'kova_cookie_consent';
-  const ANALYTICS_ID_COOKIE = 'kova_analytics_id';
-  const ANALYTICS_SESSION_COOKIE = 'kova_analytics_session';
-  const ANALYTICS_COUNT_COOKIE = 'kova_analytics_page_count';
   const dictionaries = {
   "pl": {
     "skip": "Przejdź do treści",
@@ -87,16 +83,6 @@
     "cookiesShort": "Cookies",
     "activeDevelopment": "Offline Free V1 · przed premierą.",
     "cookieSettings": "Ustawienia",
-    "cookieTitle": "Prywatność i cookies",
-    "cookieCopy": "Niezbędne cookies zapamiętują Twoje ustawienia. Możesz też zezwolić na analitykę korzystania ze strony. Odmowa nie ogranicza jej działania.",
-    "cookieDetails": "Szczegóły",
-    "cookieAcceptAll": "Akceptuj wszystkie",
-    "cookieEssential": "Tylko niezbędne",
-    "cookieSave": "Zapisz wybór",
-    "essentialTitle": "Niezbędne",
-    "essentialCopy": "Język i zapis wyboru cookies. Zawsze aktywne.",
-    "analyticsTitle": "Analityczne",
-    "analyticsCopy": "Opcjonalny identyfikator przeglądarki i licznik zdarzeń zapisują się lokalnie. Odbiorca analityki nie jest podłączony.",
     "navFaq": "FAQ",
     "navStatus": "Projekt",
     "galleryHint": "Dotknij ekranu, aby zobaczyć go w całości.",
@@ -222,16 +208,6 @@
     "cookiesShort": "Cookies",
     "activeDevelopment": "Offline Free V1 · before launch.",
     "cookieSettings": "Settings",
-    "cookieTitle": "Privacy and cookies",
-    "cookieCopy": "Essential cookies remember your settings. You can also allow analytics about how the website is used. Refusing does not limit the website.",
-    "cookieDetails": "Details",
-    "cookieAcceptAll": "Accept all",
-    "cookieEssential": "Essential only",
-    "cookieSave": "Save choice",
-    "essentialTitle": "Essential",
-    "essentialCopy": "Language and cookie-choice storage. Always active.",
-    "analyticsTitle": "Analytics",
-    "analyticsCopy": "An optional browser identifier and event counter are stored locally. No analytics receiver is connected.",
     "navFaq": "FAQ",
     "navStatus": "Project",
     "galleryHint": "Tap a screen to see the full image.",
@@ -357,16 +333,6 @@
     "cookiesShort": "Cookies",
     "activeDevelopment": "Offline Free V1 · до выпуска.",
     "cookieSettings": "Настройки",
-    "cookieTitle": "Приватность и cookies",
-    "cookieCopy": "Необходимые cookies запоминают настройки. Вы также можете разрешить аналитику использования сайта. Отказ не ограничивает его работу.",
-    "cookieDetails": "Подробнее",
-    "cookieAcceptAll": "Принять все",
-    "cookieEssential": "Только необходимые",
-    "cookieSave": "Сохранить выбор",
-    "essentialTitle": "Необходимые",
-    "essentialCopy": "Язык и сохранение выбора cookies. Всегда активны.",
-    "analyticsTitle": "Аналитические",
-    "analyticsCopy": "Необязательный идентификатор браузера и счётчик событий хранятся локально. Получатель аналитики не подключён.",
     "navFaq": "Вопросы",
     "navStatus": "Проект",
     "galleryHint": "Нажмите на экран, чтобы открыть его целиком.",
@@ -573,7 +539,7 @@
   const requested = new URLSearchParams(location.search).get('lang');
   let storedLanguage;
   try { storedLanguage = localStorage.getItem(LANGUAGE_KEY); } catch { /* Browsing still works with storage disabled. */ }
-  let language = supported.includes(requested) ? requested : storedLanguage;
+  let language = supported.includes(requested) ? requested : document.documentElement.dataset.staticLanguage || storedLanguage;
   if (!supported.includes(language)) language = navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl';
   const copy = () => dictionaries[language];
   const isLocalOwner = location.protocol === 'file:' || ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
@@ -595,7 +561,6 @@
     document.querySelector('.hero-showcase').setAttribute('aria-label', copy().navScreens);
     document.querySelector('.feature-strip').setAttribute('aria-label', copy().navFeatures);
     document.querySelector('.menu-button').setAttribute('aria-label', copy().openMenu);
-    document.querySelector('.cookie-option input[disabled]').setAttribute('aria-label', copy().essentialTitle);
     document.title = copy().pageTitle;
     document.querySelector('meta[name="description"]').content = copy().heroCopy;
     document.querySelector('meta[property="og:title"]').content = copy().pageTitle;
@@ -701,65 +666,5 @@
     else { videoIndex = event.key === 'Home' ? 0 : videoSlides.length - 1; videoPlaying = false; renderVideoSlide(); scheduleVideo(); }
   });
 
-  const readCookie = name => { const raw = document.cookie.split(';').map(value => value.trim()).find(value => value.startsWith(`${name}=`))?.slice(name.length + 1) || ''; try { return decodeURIComponent(raw); } catch { return ''; } };
-  const writeCookie = (name, value, maxAge) => { document.cookie = `${name}=${encodeURIComponent(value)}; Max-Age=${maxAge}; Path=/; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`; };
-  const removeCookie = name => { document.cookie = `${name}=; Max-Age=0; Path=/; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`; };
-  const makeBrowserId = () => crypto.randomUUID?.() || `${Date.now().toString(36)}-${crypto.getRandomValues(new Uint32Array(1))[0].toString(36)}`;
-  const analyticsAllowed = () => readCookie(CONSENT_COOKIE) === 'analytics';
-  const analyticsId = () => {
-    const current = readCookie(ANALYTICS_ID_COOKIE);
-    if (current) return current;
-    const created = makeBrowserId(); writeCookie(ANALYTICS_ID_COOKIE, created, 31536000); return created;
-  };
-  const analyticsSession = () => {
-    const current = readCookie(ANALYTICS_SESSION_COOKIE);
-    const session = current || makeBrowserId(); writeCookie(ANALYTICS_SESSION_COOKIE, session, 1800); return session;
-  };
-  function trackAnalytics(eventName) {
-    if (!analyticsAllowed()) return false;
-    const count = Number(readCookie(ANALYTICS_COUNT_COOKIE) || 0) + 1;
-    writeCookie(ANALYTICS_COUNT_COOKIE, String(count), 1800);
-    const event = { event:eventName, path:`${location.pathname}${location.hash}`, language, anonymousId:analyticsId(), sessionId:analyticsSession(), timestamp:new Date().toISOString() };
-    window.dispatchEvent(new CustomEvent('kova:analytics', { detail:event }));
-    // This pre-release website has no analytics receiver. A future integration
-    // requires an explicit disclosure/configuration update before sending data.
-    return true;
-  }
-  function disableAnalytics() {
-    [ANALYTICS_ID_COOKIE, ANALYTICS_SESSION_COOKIE, ANALYTICS_COUNT_COOKIE].forEach(removeCookie);
-  }
-
-  const cookieBanner = document.querySelector('[data-cookie-banner]');
-  const cookiePreferences = document.querySelector('[data-cookie-preferences]');
-  const analyticsToggle = document.querySelector('[data-cookie-analytics-toggle]');
-  const preferencesToggle = document.querySelector('[data-cookie-preferences-toggle]');
-  function openCookieSettings(showPreferences = false) {
-    cookieBanner.hidden = false;
-    cookiePreferences.hidden = !showPreferences;
-    preferencesToggle.setAttribute('aria-expanded', String(showPreferences));
-    analyticsToggle.checked = analyticsAllowed();
-  }
-  function saveConsent(analytics) {
-    writeCookie(CONSENT_COOKIE, analytics ? 'analytics' : 'essential', 31536000);
-    if (analytics) trackAnalytics('consent_accepted'); else disableAnalytics();
-    cookieBanner.hidden = true;
-  }
-  removeCookie('kova_cookie_notice');
-  document.querySelector('[data-cookie-accept-all]').addEventListener('click', () => saveConsent(true));
-  document.querySelector('[data-cookie-essential]').addEventListener('click', () => saveConsent(false));
-  preferencesToggle.addEventListener('click', () => openCookieSettings(cookiePreferences.hidden));
-  document.querySelector('[data-cookie-save]').addEventListener('click', () => saveConsent(analyticsToggle.checked));
-  document.querySelector('[data-cookie-settings]')?.addEventListener('click', () => openCookieSettings(true));
-  window.addEventListener('kova:cookie-settings', () => { openCookieSettings(true); analyticsToggle.focus(); });
-  document.querySelectorAll('[data-analytics-event]').forEach(node => node.addEventListener('click', () => trackAnalytics(node.dataset.analyticsEvent)));
-  window.KOVA_ANALYTICS = Object.freeze({ track:trackAnalytics, isEnabled:analyticsAllowed });
-
   applyLanguage();
-  const consent = readCookie(CONSENT_COOKIE);
-  if (!consent) openCookieSettings(false);
-  else { cookieBanner.hidden = true; if (consent === 'analytics') trackAnalytics('page_view'); else disableAnalytics(); }
-  if (new URLSearchParams(location.search).get('cookies') === 'settings') {
-    openCookieSettings(true);
-    const url = new URL(location.href); url.searchParams.delete('cookies'); history.replaceState(null, '', url);
-  }
 })();

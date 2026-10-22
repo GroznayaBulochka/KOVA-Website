@@ -1,0 +1,55 @@
+{
+  "recordedAt": "2026-10-22T08:22:42.061Z",
+  "checks": [
+    {
+      "scope": "public HTML",
+      "url": "https://kovacompass.app/privacy.html?lang=en",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 3377,
+      "sha256": "db9e4d8faa9f108b3053ba470e325fea744a334b530f7c5e7c9647aaafc55153",
+      "title": "Polityka prywatności — KOVA",
+      "draftMarker": false,
+      "passed": true
+    },
+    {
+      "scope": "English document text",
+      "url": "https://kovacompass.app/legal/privacy-policy-en.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 9307,
+      "sha256": "8168b0a1ba858c57ee8ca90f0a8df9affca3799ab0ed70f01851a91d4e0b4f2b",
+      "title": "KOVA Privacy Policy — OFFLINE V1 — DRAFT",
+      "draftMarker": true,
+      "passed": true
+    },
+    {
+      "scope": "public HTML",
+      "url": "https://kovacompass.app/terms.html?lang=en",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 3085,
+      "sha256": "a4d2cf01bb9640c1ca4375bf1febd5b5a7f92ed374c630dcd0f4ab94b1304623",
+      "title": "Warunki użycia — KOVA",
+      "draftMarker": false,
+      "passed": true
+    },
+    {
+      "scope": "English document text",
+      "url": "https://kovacompass.app/legal/terms-of-service-en.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 8821,
+      "sha256": "bd114b0ad344f5e5254c8076ecd2411f88d107a793503fef38da6811dcfbd30f",
+      "title": "KOVA Terms — OFFLINE V1 — DRAFT",
+      "draftMarker": true,
+      "passed": true
+    }
+  ],
+  "result": "PUBLIC_ENDPOINTS_ACCESSIBLE",
+  "qualification": "HTTP/text availability only; not legal approval, full hosting qualification, English browser rendering or verification of the newly prepared local SEO deployment.",
+  "remoteMutations": 0,
+  "scriptsExecuted": false,
+  "credentialsUsed": false,
+  "publishedByThisTask": false
+}

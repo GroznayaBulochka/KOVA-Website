@@ -9,8 +9,9 @@
   "domainApprovedByOwner": true,
   "domainEvidence": "OWNER_DECLARATION_2026-10-21",
   "hostingVerified": false,
-  "publicPolicyUrl": "https://kovacompass.app/privacy.html",
-  "publicTermsUrl": "https://kovacompass.app/terms.html",
+  "publicPolicyUrl": "https://kovacompass.app/privacy.html?lang=en",
+  "publicTermsUrl": "https://kovacompass.app/terms.html?lang=en",
+  "publicDocumentUrlsEvidence": "OWNER_DECLARATION_2026-10-22_HTTP_200_OBSERVED",
   "operatorApproved": true,
   "operatorLegalQualified": false,
   "publisher": "Vadyslav Konohrai",
@@ -23,7 +24,15 @@
   "cloudAccountAvailable": false,
   "externalAccountDeletionChannelRequired": false,
   "publicationApproved": false,
-  "analyticsReceiver": null,
+  "analyticsReceiver": "Google Analytics 4",
+  "websiteAnalytics": {
+    "measurementId": "G-2LE3GWYDZM",
+    "consentMode": "BASIC_OPT_IN",
+    "cookieLifetimeDays": 180,
+    "productionHosts": ["kovacompass.app", "www.kovacompass.app"],
+    "accountConfigurationVerified": false,
+    "liveReceptionVerified": false
+  },
   "legalState": "DRAFT_OWNER_INPUT_REQUIRED",
   "appReadiness": "INCOMPLETE_REQUIRED_TEST_ENVIRONMENT_MISSING"
 }

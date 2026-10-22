@@ -1,0 +1,151 @@
+{
+  "workspace": false,
+  "landing": false,
+  "legal": true,
+  "documentPage": true,
+  "projectPage": false,
+  "faqWorks": true,
+  "consentRevoked": true,
+  "publicNavigation": true,
+  "sharedFooter": true,
+  "languageRaceSafe": true,
+  "languagePickerWorks": true,
+  "languageWrites": [
+    {
+      "value": "ru",
+      "at": 400.4000000357628
+    },
+    {
+      "value": "en",
+      "at": 5185.800000011921
+    },
+    {
+      "value": "en",
+      "at": 5678.700000047684
+    },
+    {
+      "value": "ru",
+      "at": 5772.300000011921
+    },
+    {
+      "value": "ru",
+      "at": 6312.700000047684
+    },
+    {
+      "value": "pl",
+      "at": 7227.100000023842
+    },
+    {
+      "value": "ru",
+      "at": 7229.300000011921
+    },
+    {
+      "value": "ru",
+      "at": 8542
+    }
+  ],
+  "legalDiagnostics": [
+    {
+      "label": "1. Область действия",
+      "href": "#1-область-деиствия",
+      "target": true
+    },
+    {
+      "label": "2. Локальные данные и цели",
+      "href": "#2-локальные-данные-и-цели",
+      "target": true
+    },
+    {
+      "label": "3. Отсутствие облачных услуг в этой версии",
+      "href": "#3-отсутствие-облачных-услуг-в-этои-версии",
+      "target": true
+    },
+    {
+      "label": "4. Разрешения, OCR и устройство",
+      "href": "#4-разрешения-ocr-и-устроиство",
+      "target": true
+    },
+    {
+      "label": "5. Защита и её границы",
+      "href": "#5-защита-и-ее-границы",
+      "target": true
+    },
+    {
+      "label": "6. Ручной экспорт и восстановление",
+      "href": "#6-ручнои-экспорт-и-восстановление",
+      "target": true
+    },
+    {
+      "label": "7. Хранение и удаление",
+      "href": "#7-хранение-и-удаление",
+      "target": true
+    },
+    {
+      "label": "8. Обращения, данные у оператора и права",
+      "href": "#8-обращения-данные-у-оператора-и-права",
+      "target": true
+    },
+    {
+      "label": "9. Прежние аккаунты и отдельные услуги",
+      "href": "#9-прежние-аккаунты-и-отдельные-услуги",
+      "target": true
+    },
+    {
+      "label": "10. Дети, изменения и прочая информация",
+      "href": "#10-дети-изменения-и-прочая-информация",
+      "target": true
+    }
+  ],
+  "settingsDeepLinkConsumed": true,
+  "unnamedControls": [],
+  "title": "Политика конфиденциальности KOVA — приложение и сайт",
+  "lang": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "scrollY": 0,
+  "layout": {
+    "clientWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "overflowElements": [],
+  "brokenImages": [],
+  "missingLocalLinks": 0,
+  "initialCards": 0,
+  "dialogOpened": true,
+  "taskCreated": true,
+  "menuOpened": true,
+  "lightboxOpened": true,
+  "videoOpened": true,
+  "tourNavigation": true,
+  "tourControlsVisible": true,
+  "languageChanged": true,
+  "legalContentLoaded": true,
+  "cookieShown": true,
+  "cookieDismissed": true,
+  "analyticsCookies": true,
+  "analyticsAbsentBeforeConsent": true,
+  "essentialOnlyWorks": true,
+  "homeButtonPresent": true,
+  "renderedSvgIcons": 4,
+  "visiblePrimaryAction": true,
+  "initialSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "privacy",
+    "valid": true,
+    "canonical": "https://kovacompass.app/privacy-ru.html"
+  },
+  "finalSeo": {
+    "present": true,
+    "lang": "ru",
+    "page": "privacy",
+    "valid": true,
+    "canonical": "https://kovacompass.app/privacy-ru.html"
+  },
+  "keyboardSelection": "PASS",
+  "unexpectedPageRequests": [],
+  "screenshot": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\seo-2026-10-22\\retest/privacy-ru-1440.png"
+}
+
