@@ -1,8 +1,8 @@
 {
-  "recordedAt": "2026-10-22T08:27:23.400Z",
+  "recordedAt": "2026-10-22T08:52:24.995Z",
   "result": "PASS",
   "checks": 105,
-  "localReferences": 1002,
+  "localReferences": 1014,
   "passed": [
     "index.html: static localized HTML, metadata, reciprocal alternatives",
     "index.html: visible content exists without JS",
@@ -197,27 +197,27 @@
     },
     {
       "path": "dist/privacy.html",
-      "sha256": "4cb20e6a8f73c6fa62a714385a55c3eb375ac039466f1fb4a2d76a9731e2bfb0"
+      "sha256": "7dae855e1a61c1ddf5a9e9d6b258906199e56dc0550cb2749ae9082a7c3e8ff9"
     },
     {
       "path": "dist/privacy-en.html",
-      "sha256": "91d16443391d50c6565c9feac71a67c5ba047fd492ab991d6fd3c6537e4c3818"
+      "sha256": "d327b977e97e98562fc8c3078fa8eeaac1a83ae05da0210e20b466c4722d38f1"
     },
     {
       "path": "dist/privacy-ru.html",
-      "sha256": "6836f2d32a7d0aeafb897bac5699465f4528226c23d7d6366895247f5b6e4ab3"
+      "sha256": "f8403ce4e5fd57ad9930a52974fa360bdbce0ef767bc5ee55fc9344f4792e34e"
     },
     {
       "path": "dist/terms.html",
-      "sha256": "6235ad452bd4bcbbc0a7e2ef615aa6cfb6e95066a3291ac06627b8ab91df30a3"
+      "sha256": "e3f5870231d86613e721ef505013c67f3cbdcc60e65293fd1ffd6b4f449e1945"
     },
     {
       "path": "dist/terms-en.html",
-      "sha256": "5fcd5a42a19215db6287cc1a37c589f133ad9bcacfa58e6b6a93dcf560384e4c"
+      "sha256": "a230796ca027679d0098db32f500e4e5120d64deafb6958b1d70d9dcc8a92ef7"
     },
     {
       "path": "dist/terms-ru.html",
-      "sha256": "b353a20cf8a1dd74052df9d0421dec726a0cbc279c0b88f0cce801bcf06b8a90"
+      "sha256": "0e8a1ddc072a43569ec07e31acee3762c9da66eeea6581d6ee344461f44ea226"
     },
     {
       "path": "dist/cookies.html",

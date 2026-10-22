@@ -106,6 +106,15 @@ try {
       canonical:document.querySelector('link[rel="canonical"]')?.href};
   })()`;
   const initialSeo = await evaluate(seoProbe);
+  const publicDocumentProbe = `(() => {
+    if (!document.body.dataset.legalDocument) return {applicable:false, valid:true};
+    const page=document.body.dataset.legalDocument==='privacy-policy'?'privacy':'terms';
+    const expected='https://kovacompass.app/'+page+'.html?lang=en';
+    const links=['[data-legal-review]','[data-legal-content]'].map(selector=>document.querySelector(selector+' a[data-public-document-link]'));
+    return {applicable:true, expected, valid:links.every(link=>link && link.href===expected && link.textContent===expected && link.target==='_blank' && link.rel.includes('noopener') && link.getBoundingClientRect().width>0), hrefs:links.map(link=>link?.href)};
+  })()`;
+  const initialPublicLinks = await evaluate(publicDocumentProbe);
+  if (!initialPublicLinks.valid) throw new Error('Missing initial public legal links: '+JSON.stringify(initialPublicLinks));
   const expectedLanguage = new URL(origin).searchParams.get('lang') || /-(en|ru)\.html$/.exec(new URL(origin).pathname)?.[1] || 'pl';
   if (initialSeo.present && (!initialSeo.valid || initialSeo.lang!==expectedLanguage)) throw new Error('Initial localized SEO mismatch: '+JSON.stringify(initialSeo));
   // The shared native modal must be dismissed before testing background navigation.
@@ -369,6 +378,8 @@ try {
   if (evaluation.exceptionDetails) throw new Error(evaluation.exceptionDetails.exception?.description || evaluation.exceptionDetails.text);
   const result = evaluation.result.value;
   const finalSeo = await evaluate(seoProbe);
+  const finalPublicLinks = await evaluate(publicDocumentProbe);
+  if (!finalPublicLinks.valid) throw new Error('Public legal links lost after language changes: '+JSON.stringify(finalPublicLinks));
   if (finalSeo.present && (!finalSeo.valid || finalSeo.lang!==expectedLanguage)) throw new Error('SEO after language switches mismatch: '+JSON.stringify(finalSeo));
   if (runtimeErrors.length) throw new Error(runtimeErrors.join('\n'));
   if (unexpectedRequests.length) throw new Error('Unexpected non-local website requests: '+JSON.stringify(unexpectedRequests));
@@ -381,7 +392,7 @@ try {
   if (result.layout.scrollWidth !== result.layout.clientWidth) throw new Error(`Horizontal overflow: ${JSON.stringify({ layout:result.layout, elements:result.overflowElements })}`);
   const minimumIcons = result.legal ? 2 : result.documentPage ? 0 : 5;
   if (result.brokenImages.length || !result.dialogOpened || !result.taskCreated || !result.menuOpened || !result.lightboxOpened || !result.videoOpened || !result.languageChanged || !result.legalContentLoaded || !result.cookieShown || !result.cookieDismissed || !result.analyticsCookies || !result.analyticsAbsentBeforeConsent || !result.essentialOnlyWorks || !result.homeButtonPresent || result.renderedSvgIcons < minimumIcons || !result.visiblePrimaryAction) throw new Error(`Smoke assertion failed: ${JSON.stringify(result)}`);
-  console.log(JSON.stringify({ ...result, initialSeo, finalSeo, keyboardSelection:'PASS', unexpectedPageRequests:unexpectedRequests, screenshot: output }, null, 2));
+  console.log(JSON.stringify({ ...result, initialSeo, finalSeo, initialPublicLinks, finalPublicLinks, keyboardSelection:'PASS', unexpectedPageRequests:unexpectedRequests, screenshot: output }, null, 2));
 } finally {
   // Close the owned browser normally before killing its launcher. Otherwise an
   // open DevTools socket can hold a successful Node process until the watchdog.

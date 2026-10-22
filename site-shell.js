@@ -77,7 +77,7 @@
       if (!raw || raw.startsWith('#') || !/\.html(?:[?#]|$)/.test(raw)) return;
       const url = new URL(raw, location.href);
       if (url.origin !== location.origin || url.pathname.endsWith('workspace.html')) return;
-      if (link.hasAttribute('data-language-link')) return;
+      if (link.hasAttribute('data-language-link') || link.hasAttribute('data-public-document-link')) return;
       if (window.KOVA_ROUTES) { link.href = window.KOVA_ROUTES.localize(raw,lang); return; }
       url.searchParams.set('lang', lang);
       link.href = `${url.pathname.split('/').pop()}${url.search}${url.hash}`;

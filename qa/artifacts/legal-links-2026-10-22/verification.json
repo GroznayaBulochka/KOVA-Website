@@ -1,0 +1,184 @@
+{
+  "recordedAt": "2026-10-22T08:52:33.089Z",
+  "result": "PASS",
+  "environment": {
+    "node": "v22.20.0",
+    "platform": "win32"
+  },
+  "executions": [
+    {
+      "started": "2026-10-22T08:52:22.739Z",
+      "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-App",
+      "command": [
+        "node",
+        "--test",
+        "--test-reporter=junit",
+        "--test-reporter-destination=C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\qa\\artifacts\\legal-links-2026-10-22/documents.xml",
+        "scripts/verify-offline-legal.test.cjs",
+        "scripts/verify-v1-legal-pages.test.cjs"
+      ],
+      "exitCode": 0,
+      "error": null,
+      "log": "qa\\artifacts\\legal-links-2026-10-22\\documents.log",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "started": "2026-10-22T08:52:23.352Z",
+      "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+      "command": [
+        "node",
+        "qa/run-checks.mjs"
+      ],
+      "exitCode": 0,
+      "error": null,
+      "log": "qa\\artifacts\\legal-links-2026-10-22\\website-checks.log",
+      "sha256": "755784b8eb96c14b6c1c6ff5f489a39ea2f6ab6f5abe3735862ec78502fda3ae"
+    },
+    {
+      "started": "2026-10-22T08:52:26.600Z",
+      "cwd": "C:\\Users\\vlad2\\Desktop\\KOVA\\KOVA-Website\\",
+      "command": [
+        "node",
+        "qa/release-check.mjs"
+      ],
+      "exitCode": 0,
+      "error": null,
+      "log": "qa\\artifacts\\legal-links-2026-10-22\\release-check.log",
+      "sha256": "213ccafcde5b21b0eb603222494221a21d3017d9c5600497e578f0edeb3f4594"
+    }
+  ],
+  "documents": {
+    "tests": 27,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "sha256": "3d9cd7e9bc601ae6b020772d19843efb66f130146cdc8ab24188eb20a7c72c97"
+  },
+  "browser": {
+    "tests": 7,
+    "passed": 7,
+    "report": "matrix/results.json",
+    "sha256": "dffe7f553fc661e92237ba786444e2c3fd5749891c99baa3259ede8e37a60b3b",
+    "scope": "Local preview Edge at 360/768/1440px, PL/EN/RU, language changes, visible links, no unexpected external page requests. Completed before this recording step; not rerun."
+  },
+  "inputs": [
+    {
+      "path": "legal-document.js",
+      "sha256": "03b49eca0c61b1cb088582be4a5539613f9eb5ae36b98c6c189a4d362326ffa1"
+    },
+    {
+      "path": "site-seo.js",
+      "sha256": "e10d2f5376f91e01ca0d139861d8bf58822c29b9f588b465f87e1e0726613173"
+    },
+    {
+      "path": "site-shell.js",
+      "sha256": "53a1895fe1485e78dce5e8ce2369b81dc7125f65060f0ce2a6313c21c908d2fd"
+    },
+    {
+      "path": "site-ui.css",
+      "sha256": "e3ea855c53d3779634fbf704ced1faf6fd275c11a0492cb2544529ffdcf29abf"
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "7ead9af3ae0fc1520425c3b305d0459293359b425179b5860b06215b117c386c"
+    },
+    {
+      "path": "terms.html",
+      "sha256": "758413023dfc36fb1690e65b420ebd2c68a3c4aee18a6a2afdc72a46d426dcd6"
+    },
+    {
+      "path": "scripts/seo.mjs",
+      "sha256": "64fc479fb733fed2c799bb66b8b415f1603d3154da3cb300bab52339b834eb26"
+    },
+    {
+      "path": "qa/legal-links-check.mjs",
+      "sha256": "58ef461156c50b2ca64596d0b76fe48ef171ec5c959b3720e997c3b7514f5819"
+    },
+    {
+      "path": "qa/site-smoke.mjs",
+      "sha256": "335348bfd6b3ab888a85e07d16c1dee52cb215663f91f22be410ea9103e32ad7"
+    },
+    {
+      "path": "qa/record-legal-links.mjs",
+      "sha256": "51c7e9ae7f0318688d2a70be1d52587b79ccb9e3bc860135a8491ea9ce1b3efa"
+    },
+    {
+      "path": "legal/privacy-policy-pl.md",
+      "sha256": "addef192260da00759f6e8c28c1caf2be36a807559e3f111beb2cd0b926fc5e7"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/privacy-policy-pl.md",
+      "sha256": "addef192260da00759f6e8c28c1caf2be36a807559e3f111beb2cd0b926fc5e7"
+    },
+    {
+      "path": "legal/privacy-policy-en.md",
+      "sha256": "2e4c865aa4468ca4d1d19ba7ce3d3a1b00b9a617f22a386cec1ad08aa0133542"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/privacy-policy-en.md",
+      "sha256": "2e4c865aa4468ca4d1d19ba7ce3d3a1b00b9a617f22a386cec1ad08aa0133542"
+    },
+    {
+      "path": "legal/privacy-policy-ru.md",
+      "sha256": "58d5a2d7dab94a92adafdddbdd6f9430bba6a24d6195d1374d553c598fa9b1b7"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/privacy-policy-ru.md",
+      "sha256": "58d5a2d7dab94a92adafdddbdd6f9430bba6a24d6195d1374d553c598fa9b1b7"
+    },
+    {
+      "path": "legal/terms-of-service-pl.md",
+      "sha256": "601790ef671e8a254961d26a51b24b649bec10631eb52e6fd6467d0d77eb3cad"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/terms-of-service-pl.md",
+      "sha256": "601790ef671e8a254961d26a51b24b649bec10631eb52e6fd6467d0d77eb3cad"
+    },
+    {
+      "path": "legal/terms-of-service-en.md",
+      "sha256": "ae66be37fa77151f910eb68cba3ad7b092484ccba19283fd73ad2efc0ebce7c0"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/terms-of-service-en.md",
+      "sha256": "ae66be37fa77151f910eb68cba3ad7b092484ccba19283fd73ad2efc0ebce7c0"
+    },
+    {
+      "path": "legal/terms-of-service-ru.md",
+      "sha256": "f9a04d2df19a4c957ff781c4f356f6338cc029631bf2b4fec2a07732c1857e72"
+    },
+    {
+      "path": "../KOVA-App/docs/release/offline-legal/terms-of-service-ru.md",
+      "sha256": "f9a04d2df19a4c957ff781c4f356f6338cc029631bf2b4fec2a07732c1857e72"
+    },
+    {
+      "path": "../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
+      "sha256": "8f53678a80666adab55e05352e76a08b04efc1e0ade7ec3a3a702c2f92f43d17"
+    },
+    {
+      "path": "../KOVA-App/scripts/verify-offline-legal.cjs",
+      "sha256": "412ef6cfaec69d4f65c54dc414141b4a42bb86552358e386b8511db857e14c36"
+    },
+    {
+      "path": "../KOVA-App/scripts/verify-offline-legal.test.cjs",
+      "sha256": "b1a8c5c9365072222e25b2fbb6f8acc6b5534208c977062f685dc8a6a5312e2d"
+    }
+  ],
+  "releaseReview": {
+    "tracker": "../KOVA-App/docs/release/KOVA_OFFLINE_FREE_V1_READINESS.json",
+    "fullAndroidRegression": "NOT RUN THIS TURN",
+    "historicalRegressionDate": "2026-10-21",
+    "historicalRegression": {
+      "tests": 6746,
+      "pass": 6745,
+      "fail": 1,
+      "reason": "Legal documents still DRAFT"
+    },
+    "currentLegalAssetsInQualifiedApk": false
+  },
+  "limitations": [
+    "Local-only changes; no deployment or signed artifact",
+    "Document structure and navigation are not legal approval",
+    "Historical Android results are not new tests",
+    "Effective date, other legal approvals and unchanged release gates remain pending"
+  ]
+}

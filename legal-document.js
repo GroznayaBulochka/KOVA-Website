@@ -15,9 +15,9 @@
     ru:['Приватность на этом сайте','Издатель: Vadyslav Konohrai, Польша; контакт: contact@kovacompass.app. Сайт не имеет доступа к финансам на телефоне и не содержит формы обращений. Язык и выбор cookies сохраняются в браузере. После необязательного согласия публичный сайт использует Google Analytics 4 (G-2LE3GWYDZM): статистику посещений и действий, псевдонимные cookies, данные об устройстве и приблизительном местоположении. Основание — согласие; данные могут обрабатываться вне ЕЭЗ и не являются полностью анонимными. Получатель, cookies, права и ограничения описаны на странице Cookies. Сроки хранения в GA4 и условия обработки требуют подтверждения до публикации. Изменить согласие можно в настройках cookies. Почтовая ссылка открывает вашу почту; отправленное сообщение и адрес используются для обработки обращения вне KOVA. Не отправляйте финансовые данные и пароли. Будущий хостинг, его журналы и срок хранения переписки требуют утверждения перед публикацией. Документ ниже относится к приложению и не заменяет эту информацию о сайте.']
   };
   const reviewCopy = {
-    pl:'Projekt dokumentu dla KOVA Offline Free V1, zgodny z plikiem aplikacji z 20.10.2026. Wydawca zatwierdził nazwisko, kontakt i domenę. Publiczne adresy dokumentów wskazał 22.10.2026; w tym dniu potwierdzono odpowiedź HTTP 200. Nie oznacza to zatwierdzenia prawnego ani pełnej kwalifikacji hostingu. Kopia aplikacji poniżej zachowuje pola robocze; aktualizacja, data obowiązywania i zatwierdzenie treści pozostają do wykonania.',
-    en:'Draft for KOVA Offline Free V1, matching the app file dated 20 October 2026. The publisher approved the name, contact and domain, and supplied the public document URLs on 22 October 2026. An HTTP 200 response was verified that day. This is not legal approval or full hosting qualification. The app copy below retains draft fields; updates, an effective date and content approval remain pending.',
-    ru:'Проект для KOVA Offline Free V1, совпадающий с файлом приложения от 20.10.2026. Издатель утвердил имя, контакт и домен, а 22.10.2026 указал публичные адреса документов. В этот день подтверждён ответ HTTP 200. Это не правовое утверждение и не полная проверка хостинга. Копия приложения ниже сохраняет рабочие поля; обновление, дата действия и утверждение содержания ещё необходимы.'
+    pl:'Projekt dokumentu dla KOVA Offline Free V1, zgodny ze źródłowym dokumentem aplikacji z 22.10.2026 (nie jest to ponowna kwalifikacja APK). Wydawca zatwierdził nazwisko, kontakt i domenę. Publiczne adresy dokumentów wskazał 22.10.2026; w tym dniu potwierdzono odpowiedź HTTP 200. Nie oznacza to zatwierdzenia prawnego ani pełnej kwalifikacji hostingu. Dokument poniżej zawiera publiczny link. Data obowiązywania i zatwierdzenie treści nadal pozostają do uzupełnienia.',
+    en:'Draft for KOVA Offline Free V1, matching the app source document dated 22 October 2026 (not a new APK qualification). The publisher approved the name, contact and domain, and supplied the public document URLs on 22 October 2026. An HTTP 200 response was verified that day. This is not legal approval or full hosting qualification. The document below includes its public link. An effective date and content approval remain pending.',
+    ru:'Проект для KOVA Offline Free V1, совпадающий с исходным документом приложения от 22.10.2026 (это не повторная проверка APK). Издатель утвердил имя, контакт и домен, а 22.10.2026 указал публичные адреса документов. В этот день подтверждён ответ HTTP 200. Это не правовое утверждение и не полная проверка хостинга. Документ ниже содержит публичную ссылку. Дата действия и утверждение содержания ещё необходимы.'
   };
   for (const [lang, [title, text]] of Object.entries(websiteCopy)) { copy[lang].analyticsTitle = title; copy[lang].analyticsCopy = text; }
   const params = new URLSearchParams(location.search);
@@ -38,7 +38,8 @@
         const appDocument = /^(privacy-policy|terms-of-service)-(pl|en|ru)\.md$/.exec(href);
         const safeHref = appDocument ? `${appDocument[1] === 'privacy-policy' ? 'privacy' : 'terms'}.html?lang=${appDocument[2]}` : /^(?:https?:\/\/|#)/i.test(href) ? href : '#';
         const external = /^https?:\/\//i.test(safeHref) ? ' target="_blank" rel="noopener noreferrer"' : '';
-        html = `<a href="${escapeHtml(safeHref)}"${external}>${escapeHtml(label)}</a>`;
+        const publicDocument = /^https:\/\/kovacompass\.app\/(?:privacy|terms)\.html\?lang=en$/.test(safeHref) ? ' data-public-document-link' : '';
+        html = `<a href="${escapeHtml(safeHref)}"${external}${publicDocument}>${escapeHtml(label)}</a>`;
       } else html = `<strong>${escapeHtml(bold)}</strong>`;
       const index = tokens.push(html) - 1;
       return `\u0000${index}\u0000`;
@@ -99,7 +100,16 @@
     if (!reviewNotice) { reviewNotice = document.createElement('p'); reviewNotice.className = 'document-notice'; reviewNotice.dataset.legalReview = ''; content.before(reviewNotice); }
     reviewNotice.textContent = reviewCopy[language];
     const publicUrl = reviewNotice.dataset.publicDocumentUrl;
-    if (publicUrl) reviewNotice.textContent += ' ' + {pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[language] + publicUrl;
+    if (/^https:\/\/kovacompass\.app\/(?:privacy|terms)\.html\?lang=en$/.test(publicUrl)) {
+      reviewNotice.append(' ' + {pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[language]);
+      const link = document.createElement('a');
+      link.href = publicUrl;
+      link.textContent = publicUrl;
+      link.dataset.publicDocumentLink = '';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      reviewNotice.append(link);
+    }
     content.setAttribute('aria-busy', 'true');
     content.textContent = copy[language].loading;
     try {

@@ -9,6 +9,7 @@ const commands=[
  ['qa/presentation-check.mjs'],
  ['qa/analytics-contract.mjs'],
  ['qa/seo-check.mjs'],
+ ['qa/legal-links-check.mjs'],
  ['qa/workspace-access-check.mjs'],
  ['qa/workspace-preservation-check.mjs'],
  ...(await readdir(cwd)).filter(n=>n.endsWith('.js')).map(n=>['--check',n])

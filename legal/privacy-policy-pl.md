@@ -1,6 +1,8 @@
 # Polityka prywatności KOVA — OFFLINE V1 — DRAFT
 
-Wersja dokumentu: 2026-10-22. Projekt niezatwierdzony do publikacji; to nie jest data wejścia w życie. Operator/wydawca: Vadyslav Konohrai, osoba prywatna, Polska. Kontakt prywatności i wsparcia: contact@kovacompass.app. Data obowiązywania i publiczny adres polityki: [OWNER_INPUT_REQUIRED].
+Wersja dokumentu: 2026-10-22. Projekt niezatwierdzony do publikacji; to nie jest data wejścia w życie. Operator/wydawca: Vadyslav Konohrai, osoba prywatna, Polska. Kontakt prywatności i wsparcia: contact@kovacompass.app. Data obowiązywania: [OWNER_INPUT_REQUIRED].
+
+Publiczny adres polityki (wersja angielska): [https://kovacompass.app/privacy.html?lang=en](https://kovacompass.app/privacy.html?lang=en).
 
 ## 1. Zakres
 

@@ -47,7 +47,7 @@
       const schema = document.getElementById('kova-structured-data');
       if (schema) schema.textContent = JSON.stringify(selected.schema);
       document.querySelectorAll('a[href]').forEach(link => {
-        if (!link.getAttribute('href').startsWith('#') && !link.hasAttribute('data-language-link')) link.href = localize(link.getAttribute('href'), language);
+        if (!link.getAttribute('href').startsWith('#') && !link.hasAttribute('data-language-link') && !link.hasAttribute('data-public-document-link')) link.href = localize(link.getAttribute('href'), language);
       });
     }
     sync();

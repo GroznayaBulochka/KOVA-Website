@@ -1,6 +1,8 @@
 # KOVA Privacy Policy — OFFLINE V1 — DRAFT
 
-Document revision: 2026-10-22. Not approved for publication; this is not an effective date. Operator/publisher: Vadyslav Konohrai, private individual, Poland. Privacy/support contact: contact@kovacompass.app. Effective date and public policy URL: [OWNER_INPUT_REQUIRED].
+Document revision: 2026-10-22. Not approved for publication; this is not an effective date. Operator/publisher: Vadyslav Konohrai, private individual, Poland. Privacy/support contact: contact@kovacompass.app. Effective date: [OWNER_INPUT_REQUIRED].
+
+Public privacy policy URL (English version): [https://kovacompass.app/privacy.html?lang=en](https://kovacompass.app/privacy.html?lang=en).
 
 ## 1. Scope
 

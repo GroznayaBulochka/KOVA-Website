@@ -1,6 +1,8 @@
 # KOVA Terms — OFFLINE V1 — DRAFT
 
-Document revision: 2026-10-22. Not approved for publication; this is not an effective date. Operator/publisher: Vadyslav Konohrai, private individual, Poland. Support/complaints contact: contact@kovacompass.app. Effective date and public URL: [OWNER_INPUT_REQUIRED].
+Document revision: 2026-10-22. Not approved for publication; this is not an effective date. Operator/publisher: Vadyslav Konohrai, private individual, Poland. Support/complaints contact: contact@kovacompass.app. Effective date: [OWNER_INPUT_REQUIRED].
+
+Public terms of use URL (English version): [https://kovacompass.app/terms.html?lang=en](https://kovacompass.app/terms.html?lang=en).
 
 ## 1. Product and price
 

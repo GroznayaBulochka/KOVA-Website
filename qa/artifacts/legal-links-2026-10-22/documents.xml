@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="privacy-policy/en: current canonical draft structure and counterpart" time="0.008992" classname="test"/>
+	<testcase name="privacy-policy/en: local HTML, working mutual/language links, revision and no active content" time="0.002324" classname="test"/>
+	<testcase name="terms-of-service/en: current canonical draft structure and counterpart" time="0.002452" classname="test"/>
+	<testcase name="terms-of-service/en: local HTML, working mutual/language links, revision and no active content" time="0.001703" classname="test"/>
+	<testcase name="privacy-policy/pl: current canonical draft structure and counterpart" time="0.001949" classname="test"/>
+	<testcase name="privacy-policy/pl: local HTML, working mutual/language links, revision and no active content" time="0.001821" classname="test"/>
+	<testcase name="terms-of-service/pl: current canonical draft structure and counterpart" time="0.002529" classname="test"/>
+	<testcase name="terms-of-service/pl: local HTML, working mutual/language links, revision and no active content" time="0.001893" classname="test"/>
+	<testcase name="privacy-policy/ru: current canonical draft structure and counterpart" time="0.003762" classname="test"/>
+	<testcase name="privacy-policy/ru: local HTML, working mutual/language links, revision and no active content" time="0.003316" classname="test"/>
+	<testcase name="terms-of-service/ru: current canonical draft structure and counterpart" time="0.002702" classname="test"/>
+	<testcase name="terms-of-service/ru: local HTML, working mutual/language links, revision and no active content" time="0.002147" classname="test"/>
+	<testcase name="unapproved facts cannot become approval by deleting draft markers" time="0.002448" classname="test"/>
+	<testcase name="a missing section is detected rather than counted as complete" time="0.003242" classname="test"/>
+	<testcase name="invented publisher and absolute immunity are rejected" time="0.004969" classname="test"/>
+	<testcase name="external script is not allowed in prepared static legal pages" time="0.001389" classname="test"/>
+	<testcase name="privacy acknowledgement is distinct from upload/marketing permission in all shipped overlays" time="0.004391" classname="test"/>
+	<testcase name="release legal gate reads the same contract-selected documents as Gradle packaging" time="0.001214" classname="test"/>
+	<testcase name="successful structural verification is explicitly not publication or new artifact approval" time="0.066181" classname="test"/>
+	<testcase name="owner-approved name and public contact are present in all six current headers" time="0.008271" classname="test"/>
+	<testcase name="owner-provided URLs are clickable in each canonical header and date stays unapproved" time="0.015369" classname="test"/>
+	<testcase name="rendered public link and current source revision cannot silently disappear" time="0.001376" classname="test"/>
+	<testcase name="13+ and worldwide are owner intentions, not universal legal qualification or age-verification implementation" time="0.002610" classname="test"/>
+	<testcase name="private address is neither inferred nor marked approved and cloud-history declaration is not a remote audit" time="0.000827" classname="test"/>
+	<testcase name="historical cloud sources stay preserved while current website uses the offline policy" time="0.007095" classname="test"/>
+	<testcase name="every V1 legal HTML draft has its real language, canonical title and three working language links" time="0.024505" classname="test"/>
+	<testcase name="canonical and rendered drafts do not assert a fabricated operator, contact or controlling language" time="0.005487" classname="test"/>
+	<!-- tests 27 -->
+	<!-- suites 0 -->
+	<!-- pass 27 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 423.3786 -->
+</testsuites>

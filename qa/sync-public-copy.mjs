@@ -39,8 +39,9 @@ for (const page of ['index','status','roadmap','updates','security','contact','d
   let html = await readFile(path,'utf8');
   if (['privacy','terms'].includes(page)) {
     const publicUrl = page === 'privacy' ? release.publicPolicyUrl : release.publicTermsUrl;
+    if(publicUrl!==`https://kovacompass.app/${page}.html?lang=en`)throw new Error(`Unapproved public document URL: ${page}`);
     html = html.replaceAll('KOVA Free V1','KOVA Offline Free V1')
-      .replace(/<p class="document-notice" data-legal-review[^>]*>[\s\S]*?<\/p>/,`<p class="document-notice" data-legal-review data-public-document-url="${esc(publicUrl || '')}">Projekt Offline V1: nazwisko, e-mail i domena zatwierdzone przez wydawcę. Publiczny adres wskazany przez właściciela: ${esc(publicUrl || '')}. Dostępność HTTP potwierdzona 22.10.2026; pełna kwalifikacja hostingu, data obowiązywania i zatwierdzenie treści prawnej pozostają do wykonania.</p>`);
+      .replace(/<p class="document-notice" data-legal-review[^>]*>[\s\S]*?<\/p>/,`<p class="document-notice" data-legal-review data-public-document-url="${esc(publicUrl)}">Projekt Offline V1: nazwisko, e-mail i domena zatwierdzone przez wydawcę. Publiczny adres wskazany przez właściciela: <a data-public-document-link href="${esc(publicUrl)}" target="_blank" rel="noopener noreferrer">${esc(publicUrl)}</a>. Dostępność HTTP potwierdzona 22.10.2026; pełna kwalifikacja hostingu, data obowiązywania i zatwierdzenie treści prawnej pozostają do wykonania.</p>`);
   }
   if (page === 'cookies') html = html.replaceAll('16 października 2026','21 października 2026').replaceAll('16 October 2026','21 October 2026').replaceAll('16 октября 2026','21 октября 2026');
   if (!html.includes('src="language-picker.js"')) {

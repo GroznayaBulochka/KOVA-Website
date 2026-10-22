@@ -1,6 +1,8 @@
 # Regulamin KOVA — OFFLINE V1 — DRAFT
 
-Wersja dokumentu: 2026-10-22. Projekt niezatwierdzony do publikacji; to nie jest data wejścia w życie. Operator/wydawca: Vadyslav Konohrai, osoba prywatna, Polska. Kontakt wsparcia/reklamacji: contact@kovacompass.app. Data obowiązywania i publiczny adres: [OWNER_INPUT_REQUIRED].
+Wersja dokumentu: 2026-10-22. Projekt niezatwierdzony do publikacji; to nie jest data wejścia w życie. Operator/wydawca: Vadyslav Konohrai, osoba prywatna, Polska. Kontakt wsparcia/reklamacji: contact@kovacompass.app. Data obowiązywania: [OWNER_INPUT_REQUIRED].
+
+Publiczny adres regulaminu (wersja angielska): [https://kovacompass.app/terms.html?lang=en](https://kovacompass.app/terms.html?lang=en).
 
 ## 1. Produkt i odpłatność
 

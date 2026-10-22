@@ -124,7 +124,8 @@ export async function prepareRenderer(root){
    html=html.replace(/(<article[^>]*data-legal-content[^>]*>)[\s\S]*?<\/article>/,`$1${document.replace(/<h1[^>]*>[\s\S]*?<\/h1>/,'')}</article>`).replace('aria-busy="true"','aria-busy="false"');
    html=html.replace(/(<summary data-legal-copy="analyticsTitle">)[\s\S]*?<\/summary>/,`$1${escape(content.websiteCopy[lang][0])}</summary>`).replace(/(<p data-legal-copy="analyticsCopy">)[\s\S]*?<\/p>/,`$1${escape(content.websiteCopy[lang][1])}</p>`);
    const publicUrl=/data-public-document-url="([^"]+)"/.exec(html)?.[1]||'';
-   html=html.replace(/(<p[^>]*data-legal-review[^>]*>)[\s\S]*?<\/p>/,`$1${escape(content.reviewCopy[lang])} ${{pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[lang]}${escape(publicUrl)}</p>`);
+   if(publicUrl!==`https://kovacompass.app/${page}.html?lang=en`)throw new Error(`Unapproved public document URL: ${page}`);
+   html=html.replace(/(<p[^>]*data-legal-review[^>]*>)[\s\S]*?<\/p>/,`$1${escape(content.reviewCopy[lang])} ${{pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[lang]}<a data-public-document-link href="${escape(publicUrl)}" target="_blank" rel="noopener noreferrer">${escape(publicUrl)}</a></p>`);
    html=html.replace(/href="legal\/[^\"]+" data-legal-source/,`href="legal/${kind}-${lang}.md" data-legal-source`);
   }
   html=html.replace(/<option value="(pl|en|ru)"(?: selected)?>/g,(_,l)=>`<option value="${l}"${l===lang?' selected':''}>`);
