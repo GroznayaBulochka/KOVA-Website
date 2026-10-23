@@ -170,3 +170,14 @@ html:has(.consent-dialog[open]) { overflow:hidden; }
 /* Visible language alternatives are ordinary crawlable links, even without JS. */
 .seo-language-links { text-align:center; padding:24px 16px; font:500 13px/1.6 system-ui,sans-serif; color:#656a60; background:#f7f5ef; }
 .seo-language-links a { color:#554013; text-underline-offset:4px; padding:8px; display:inline-block; }
+
+/* Long language lists and right-to-left scripts. */
+.language-options { max-height:min(65dvh,480px); overflow-y:auto; overscroll-behavior:contain; max-width:calc(100vw - 32px); }
+.language-option { text-align:start; }
+.language-option span:first-child { unicode-bidi:plaintext; }
+html[dir="rtl"] .language-options { right:auto; left:0; }
+html[dir="rtl"] .consent-dialog { text-align:right; }
+html[dir="rtl"] .language-chevron { margin-left:0; margin-right:4px; }
+html[dir="rtl"] .document-back .icon { transform:rotate(180deg); }
+html[dir="rtl"] .consent-dialog input,html[dir="rtl"] .document-card { text-align:start; }
+html[dir="rtl"] [href^="mailto:"],html[dir="rtl"] code { unicode-bidi:isolate; direction:ltr; }

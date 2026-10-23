@@ -1,0 +1,40 @@
+KOVA website localization — 23 October 2026
+
+24 new machine-translated locale packs were added to the existing Polish,
+English and Russian versions. Total: 27 website languages, 297 static pages.
+Content covers the landing page, presentation captions, project information,
+cookie controls, cookie information, privacy/terms drafts and SEO metadata.
+App screenshots remain in Polish and use fictional demo records.
+
+New locales:
+zh (Mandarin, simplified Chinese), yue (Cantonese), es, ar, hi, bn, pt, ja,
+pnb (Western Punjabi/Lahnda, Shahmukhi), jv, ko, de, fr, te, mr, tr, ur,
+vi, ta, it, fa, sw, ms, uk (Ukrainian).
+
+PENDING: Wu Chinese (wuu). It is not represented by Mandarin or Cantonese
+and has not been added to the language selector. A reliable Wu translation
+is still required to complete the entire requested language list.
+
+Translation provenance: initial machine translation of existing public
+English website copy using Google Translate, stored locally, with corrections
+to protected identifiers, HTML tags and Markdown structure. No translation
+service is contacted when the website is viewed. Human language review has
+not been completed, including legal-text review. Existing PL/EN/RU legal
+source documents were preserved. No publication was performed.
+
+Editing: change locales/<code>.json for UI and legal/*-<code>.md for documents.
+Run npm run build to regenerate translations.js and dist. The shared browser
+language registry and language-registry.json must contain the same codes.
+The private Workspace is outside the public website localization scope.
+
+Verification:
+- qa/localization-check.mjs checks all 24 new packs and protected text tokens.
+- qa/seo-check.mjs checks all 297 static pages and internal references.
+- Browser smoke checks passed on mobile Arabic and German landing pages,
+  Cantonese cookies and Western Punjabi privacy, including keyboard selection.
+- The app-to-website legal text comparison in npm test fails against the
+  current sibling KOVA-App sources. The original website PL/EN/RU legal
+  documents were not edited in this task.
+
+Ukrainian SEO titles/descriptions were edited for natural phrasing. Search-language
+group mappings and Open Graph territories are recorded in seo-locales.json.

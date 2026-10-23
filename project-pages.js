@@ -1,13 +1,13 @@
 (() => {
   'use strict';
   const pages = window.KOVA_PROJECT_PAGES[document.body.dataset.projectPage];
-  const supported = ['pl','en','ru'];
+  const supported = window.KOVA_LANGUAGES.codes;
   const esc = value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const render = data=>`<section class="document-hero"><p class="workspace-kicker">${esc(data.label)}</p><h1>${esc(data.title)}</h1><p>${esc(data.intro)}</p>${data.badge?`<div class="document-meta"><span class="document-chip warning">${esc(data.badge)}</span></div>`:''}</section><div class="document-grid-main">${data.cards.map(([title,body])=>`<article class="document-card"><h2>${esc(title)}</h2><p>${esc(body)}</p></article>`).join('')}</div>${data.note?`<p class="document-notice">${esc(data.note)}</p>`:''}<div class="document-actions">${data.actions.map(([title,href])=>`<a href="${href}">${esc(title)}<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></a>`).join('')}</div>`;
   let stored;
   try { stored = localStorage.getItem('kova_site_language'); } catch { /* Language also travels in the URL. */ }
   const requested = new URLSearchParams(location.search).get('lang');
-  const initial = requested || document.documentElement.dataset.staticLanguage || stored || navigator.language?.slice(0,2);
+  const initial = requested || document.documentElement.dataset.staticLanguage || stored || window.KOVA_LANGUAGES.resolve(navigator.language);
   function applyLanguage(next) {
     const language = supported.includes(next) ? next : 'pl';
     const data = pages[language];

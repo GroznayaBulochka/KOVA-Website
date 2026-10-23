@@ -9,6 +9,7 @@
   Object.assign(labels.pl, {deletion:'Twoje dane',note:'KOVA Offline Free V1 · przed premierą'});
   Object.assign(labels.en, {deletion:'Your data',note:'KOVA Offline Free V1 · before launch'});
   Object.assign(labels.ru, {deletion:'Ваши данные',note:'KOVA Offline Free V1 · до выпуска'});
+  for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) labels[code]=data.shell;
   const page = window.KOVA_ROUTES ? window.KOVA_ROUTES.parse()?.page + '.html' : location.pathname.split('/').pop() || 'index.html';
   const documentHeader = document.querySelector('.document-header');
   const main = document.querySelector('main');

@@ -6,7 +6,7 @@ const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root));
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const script = (await read('landing.js')).toString();
-const context = {};
+const context = {window:{}};
 vm.runInNewContext(script.slice(script.indexOf('  const videoSlides'), script.indexOf('  const supported')) + ';this.slides=videoSlides;', context);
 const provenance = JSON.parse(await read('qa/artifacts/presentation-2026-10-21/provenance.json'));
 assert.equal(provenance.data, 'FICTIONAL_SYNTHETIC_ONLY');

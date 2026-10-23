@@ -1,10 +1,10 @@
 // Shared URL/metadata contract. Static HTML contains the same metadata before JS.
 (() => {
   'use strict';
-  const languages = ['pl','en','ru'];
+  const languages = window.KOVA_LANGUAGES.codes;
   const pages = ['index','status','roadmap','updates','security','contact','delete-account','privacy','terms','cookies','404'];
   function parse(path = location.pathname) {
-    const match = /^\/([a-z0-9-]+?)(?:-(en|ru))?\.html$/.exec(path);
+    const match = new RegExp('^/([a-z0-9-]+?)(?:-(' + languages.filter(l=>l!=='pl').join('|') + '))?\\.html$').exec(path);
     if (path === '/') return {page:'index',language:'pl'};
     return match && pages.includes(match[1]) ? {page:match[1],language:match[2] || 'pl'} : null;
   }
@@ -38,10 +38,14 @@
         'meta[property="og:title"]':selected.title,
         'meta[property="og:description"]':selected.description,
         'meta[property="og:url"]':selected.canonical,
-        'meta[property="og:locale"]':{pl:'pl_PL',en:'en_GB',ru:'ru_RU'}[language],
+        'meta[property="og:locale"]':selected.ogLocale,
         'meta[name="twitter:title"]':selected.title,
-        'meta[name="twitter:description"]':selected.description
+        'meta[name="twitter:description"]':selected.description,
+        'meta[property="og:image:alt"]':selected.imageAlt,
+        'meta[name="twitter:image:alt"]':selected.imageAlt
       })) { const node = document.querySelector(selector); if (node) node.content = value; }
+      const alternates=Object.entries(data.locales).filter(([code])=>code!==language).map(([,metadata])=>metadata.ogLocale);
+      document.querySelectorAll('meta[property="og:locale:alternate"]').forEach((tag,index)=>{tag.content=alternates[index];});
       const canonical = document.querySelector('link[rel="canonical"]');
       if (canonical) canonical.href = selected.canonical;
       const schema = document.getElementById('kova-structured-data');

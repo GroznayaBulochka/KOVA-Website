@@ -1,0 +1,502 @@
+{
+  "home": {
+    "skip": "Skip to content",
+    "tagline": "Finances in one place.",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "close": "Close",
+    "navFeatures": "Features",
+    "navScreens": "Screens",
+    "navSecurity": "Security",
+    "navLegal": "Documents",
+    "navRoadmap": "Roadmap",
+    "heroKicker": "KOVA Offline Free V1 · Android",
+    "heroTitle": "Finances<br><em>in one place.</em>",
+    "heroCopy": "Spending, budgets, goals, and work income — on your phone. We’re preparing a free offline release, without cloud accounts, ads, or subscriptions.",
+    "projectStatus": "Check project status",
+    "watchVideo": "View product tour",
+    "pauseVideo": "Pause",
+    "playVideo": "Play",
+    "releaseNote": "Before launch · public download is not available yet.",
+    "trustPrivacy": "Privacy first",
+    "trustPrivacyCopy": "Local database, no automatic uploads",
+    "trustReports": "Practical summaries",
+    "trustReportsCopy": "Reports based on recorded data",
+    "trustOffline": "Works offline",
+    "trustOfflineCopy": "Core finances remain available",
+    "trustLife": "Built for real life",
+    "trustLifeCopy": "Budgets, goals, work, and notes",
+    "featureExpenses": "Expenses",
+    "featureExpensesCopy": "Transactions and categories",
+    "featureBudgets": "Budgets",
+    "featureBudgetsCopy": "Limits and progress",
+    "featureWork": "Work & Income",
+    "featureWorkCopy": "Hours and paydays",
+    "featureCalendar": "Calendar",
+    "featureCalendarCopy": "Financial events",
+    "featureReports": "Reports",
+    "featureReportsCopy": "Trends and forecasts",
+    "featureGoals": "Goals",
+    "featureGoalsCopy": "Plans and progress",
+    "clarityKicker": "The app",
+    "clarityTitle": "A look inside KOVA.",
+    "clarityCopy": "One fictional user, three accounts and six months of everyday finances. These are new, unretouched screenshots from KOVA Offline V1 running on an Android emulator. Real features with realistic demo records, without anyone’s private finances. The app screens are in Polish.",
+    "clarityAccounts": "Accounts, transactions and categories",
+    "clarityReports": "Reports and forecasts",
+    "clarityWork": "Work & Income",
+    "clarityGoals": "Goals and net worth",
+    "clarityCurrency": "Multi-currency precision",
+    "clarityOffline": "Offline access to core data",
+    "exploreScreens": "Explore screens",
+    "screenOverview": "Dark theme",
+    "screenOverviewCopy": "Balance and a recorded expense",
+    "screenFeatures": "Light theme",
+    "screenFeaturesCopy": "The same data, a different look",
+    "screenWork": "Local notes",
+    "screenWorkCopy": "Saved on device · 21 Oct 2026",
+    "securityKicker": "Privacy",
+    "securityTitle": "How KOVA protects data.",
+    "securityCopy": "The main financial database uses SQLCipher. There is no automatic cloud sync. Protect your phone and export regularly — encryption does not replace a backup or careful handling.",
+    "securityModel": "Read about security",
+    "secureLocal": "Local encryption",
+    "secureOwner": "Data isolation",
+    "secureOwnerCopy": "Records are assigned to their owner",
+    "secureNoBank": "No bank passwords",
+    "secureNoBankCopy": "KOVA does not connect to your bank",
+    "secureOnline": "Manual export",
+    "secureOnlineCopy": "A partial, password-protected copy",
+    "legalKicker": "Documents",
+    "legalTitle": "KOVA policies.",
+    "legalCopy": "Current copies of the app documents. The Privacy Policy and Terms remain drafts requiring approval before publication.",
+    "privacyTitle": "Privacy Policy",
+    "privacyCopy": "Local data, exports, and support contact.",
+    "termsTitle": "Terms of Use",
+    "termsCopy": "Product scope and rules.",
+    "cookiesTitle": "Cookies",
+    "cookiesCopy": "Browser settings and storage.",
+    "privacyShort": "Privacy",
+    "termsShort": "Terms",
+    "cookiesShort": "Cookies",
+    "activeDevelopment": "Offline Free V1 · before launch.",
+    "cookieSettings": "Settings",
+    "navFaq": "FAQ",
+    "navStatus": "Project",
+    "galleryHint": "Tap a screen to see the full image.",
+    "secureLocalCopy": "Encrypted database on your device",
+    "projectKicker": "The first release",
+    "projectHeading": "Free. For your phone.",
+    "projectCopy": "Local accounts, transactions, budgets, recurring payments, debts, goals, net worth, work, reports, calendar, notes, and OCR. Cloud services, bank APIs, AI, Wear OS, online Family, and live quotes are not part of V1. Final qualification and documents are still in preparation.",
+    "availability": "App availability",
+    "roadmapLink": "What we’re working on",
+    "updatesLink": "Recent updates",
+    "faqKicker": "Good to know",
+    "faqTitle": "A few simple answers.",
+    "faqCopy": "Before you start using KOVA.",
+    "faqDownloadQ": "Can I download KOVA yet?",
+    "faqDownloadA": "Public download is not available yet. A verified store link will appear on the project status page when the release is ready. We will announce a date only once it is confirmed.",
+    "faqOfflineQ": "Does the app work without internet?",
+    "faqOfflineA": "Yes. V1 is being prepared as an offline app with a local profile. It does not offer Google sign-in, sync, or AI services. Your chosen file provider, browser, or email app may use the internet independently of KOVA.",
+    "faqBankQ": "Do I need to connect my bank account?",
+    "faqBankA": "No. KOVA does not ask for your bank passwords. Accounts in the app help organise the financial information you record.",
+    "faqEstimateQ": "Are forecasts and net pay amounts guaranteed?",
+    "faqEstimateA": "No. They are estimates based on recorded data and configuration. They may differ from actual payments and do not replace employer documents or individual advice.",
+    "faqWebsiteQ": "Can this website access my finances?",
+    "faqWebsiteA": "No. The website introduces the project and does not connect to the financial database on your phone. Optional website analytics depends on your consent.",
+    "altHome": "KOVA Offline V1: home screen with fictional financial history",
+    "altProfile": "KOVA Offline V1: three local demo accounts",
+    "altFeatures": "KOVA Free V1: light theme on an emulator",
+    "altWork": "KOVA Offline V1: a saved test note on an emulator",
+    "previous": "Previous screen",
+    "next": "Next screen",
+    "navigation": "Main navigation",
+    "pageTitle": "KOVA — finances in one place",
+    "faqFreeQ": "Will KOVA be free?",
+    "faqFreeA": "Yes. Offline Free V1 has no ads, purchases, subscriptions, or paywalls. Local features do not require registration or a paid backend service.",
+    "tourNote": "Real app screens · fictional demo data · not a video recording",
+    "tourChapters": "Choose a tour screen",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "Local finances",
+    "factAccount": "No online account",
+    "faqBackupQ": "How do I protect my data or change phones?",
+    "faqBackupA": "Create a password-protected manual export and store it safely outside your phone. Import requires confirmation and replaces the supported data of the selected profile. It is a partial copy, not a full app image: embedded note images are included, but external attachments and receipt photos need separate copies. The publisher cannot restore data from the cloud or recover your backup password.",
+    "faqOcrQ": "Does receipt scanning work offline?",
+    "faqOcrA": "OCR uses a model bundled with the app. Take a photo or choose one from your gallery through the Android picker. Recognition can be wrong — check the amount, currency, and date before saving. Denying camera access does not block file selection.",
+    "faqDeviceQ": "Which devices and audience is KOVA for?",
+    "faqDeviceA": "Android phones running Android 7.0 or later, with PL/EN/RU interfaces. Compatibility testing is ongoing. The intended audience is 13+, but this is not an approved Google Play rating or confirmation of availability in every country. No watch or iOS release is offered."
+  },
+  "slides": [
+    {
+      "title": "Your finances today",
+      "caption": "Balance, income and recent spending",
+      "copy": "KOVA’s real home screen with local records for Marta, a fictional user. The same financial history powers every screen in this tour."
+    },
+    {
+      "title": "Accounts",
+      "caption": "Current account, savings and cash",
+      "copy": "Three local accounts organise everyday finances. Balances include purchases, salary and transfers between your own accounts. No bank connection."
+    },
+    {
+      "title": "Transactions",
+      "caption": "Six months of everyday records",
+      "copy": "Groceries, coffee, transport, rent and salary. Varied amounts and dates create a realistic history, not a list of identical transactions."
+    },
+    {
+      "title": "Budgets and limits",
+      "caption": "Spending plans and current usage",
+      "copy": "Monthly limits for food, entertainment and transport compare plans with recorded spending. Amounts come from the same demo profile."
+    },
+    {
+      "title": "Recurring payments",
+      "caption": "Rent, internet, phone and subscriptions",
+      "copy": "Recurring bills have their own due dates and payment history. KOVA organises records; it does not transfer or collect money."
+    },
+    {
+      "title": "Reports",
+      "caption": "Summaries of recorded entries",
+      "copy": "Charts and summaries are calculated by KOVA from local transactions. The data is fictional, but the screen and calculations come from the running app."
+    },
+    {
+      "title": "Financial calendar",
+      "caption": "Events and due dates in one view",
+      "copy": "Recorded transactions and bill dates across the month. Select a day to see its events without searching the entire history."
+    },
+    {
+      "title": "Notes",
+      "caption": "Plans, lists and everyday details",
+      "copy": "An emergency-fund plan and weekend trip notes stored locally alongside finances. This is demo content, not another person’s private notes."
+    }
+  ],
+  "shell": {
+    "home": "Home",
+    "product": "The app",
+    "project": "Project",
+    "legal": "Information",
+    "features": "Features",
+    "screens": "App screens",
+    "faq": "Questions and answers",
+    "status": "Project status",
+    "roadmap": "Roadmap",
+    "updates": "Updates",
+    "security": "Security",
+    "contact": "Contact",
+    "deletion": "Your data",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookies",
+    "settings": "Cookie settings",
+    "tagline": "Everyday finances. In one place.",
+    "note": "KOVA Offline Free V1 · before launch",
+    "top": "Back to top",
+    "skip": "Skip to content",
+    "language": "Site language",
+    "menu": "Menu",
+    "back": "Home",
+    "official": "Official project website"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "This page isn’t here.",
+      "intro": "The link may have changed. Return home or check the project information.",
+      "cards": [],
+      "actions": [
+        [
+          "Home",
+          "index.html"
+        ],
+        [
+          "Project status",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Project status",
+      "title": "Offline V1. Before launch.",
+      "intro": "We’re preparing free KOVA for Android phones: no registration, ads, subscriptions, or cloud sync. The release is not publicly available yet.",
+      "badge": "Updated: 21 October 2026 · 1.0.8 (10)",
+      "cards": [
+        [
+          "First-release scope",
+          "Accounts, transactions and categories, budgets, debts, goals, net worth, recurring payments, work profiles and hours, reports, calendar, notes, on-device OCR, and manual encrypted export/import."
+        ],
+        [
+          "What has been checked",
+          "APK and AAB artifacts have been built. Tests ran on Android 7.0, 7.1, and an actual 16 KiB runtime. Encrypted export transfer between isolated installations and repeated import without duplicates were also checked. These are bounded scenarios, not a guarantee for every phone."
+        ],
+        [
+          "What remains",
+          "The full normal-interface and accessibility matrix, the current candidate on a physical phone, document approval, signing, and Google Play requirements. Current release artifacts are unsigned."
+        ],
+        [
+          "Outside Offline V1",
+          "Google/Firebase accounts, cloud services, online family sharing, banking APIs, live quotes, AI, Wear OS, Premium, and purchases are not active in this release. No availability date is confirmed."
+        ]
+      ],
+      "note": "We will publish a launch date or download button only after the release and official store address have been approved.",
+      "actions": [
+        [
+          "Release plan",
+          "roadmap.html"
+        ],
+        [
+          "Recent changes",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Roadmap",
+      "title": "A reliable offline release first.",
+      "intro": "We’re finishing qualification of existing features. This plan does not promise dates or new services.",
+      "badge": "Priority: Offline Free V1",
+      "cards": [
+        [
+          "01 · Final tests",
+          "Complete the remaining normal-interface, language, and accessibility scenarios, and check the current version on a phone. Completed checks are not a blanket claim of readiness."
+        ],
+        [
+          "02 · Information and policies",
+          "Publisher and contact details are confirmed. Offline documents remain drafts: terms, support practices, markets, audience, and public addresses still require approval."
+        ],
+        [
+          "03 · Store candidate",
+          "Approve signing and Google Play configuration, and complete required tests and declarations. The official link follows release approval."
+        ],
+        [
+          "Later · Separate qualification",
+          "Future modules remain in the project but are not enabled. Cloud services, AI, Wear OS, and monetization need separate decisions, testing, and user disclosures."
+        ]
+      ],
+      "actions": [
+        [
+          "Current status",
+          "status.html"
+        ],
+        [
+          "Contact",
+          "contact.html"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Privacy and security",
+      "title": "Local data. Clear limitations.",
+      "intro": "Offline V1 stores finances on your phone. It does not create an online account or sync records with a server.",
+      "badge": "Encrypted database · manual export",
+      "cards": [
+        [
+          "Database on your device",
+          "Financial data uses Room and SQLCipher with profile isolation. Encryption cannot prevent every loss of a phone, password, key, or device access. We do not claim independent security certification."
+        ],
+        [
+          "No automatic uploads",
+          "The checked release manifest has no INTERNET permission. Firebase, app analytics, Crashlytics, ads, Billing, and AI services are disabled. This does not mean Android or other apps produce no network traffic."
+        ],
+        [
+          "Export is your choice",
+          "Manual export can be password-encrypted. It covers supported records, not a complete installation image: embedded note images travel with it; external file references do not copy the file itself. Store the password and file securely. There is no automatic KOVA cloud backup."
+        ],
+        [
+          "Photos and OCR",
+          "Recognition uses a model bundled with the app. You can take a photo or choose one from the gallery. Check the amount, currency, and date before saving — OCR can make mistakes."
+        ],
+        [
+          "The website is separate",
+          "This site cannot read the phone database. Only after consent, Google Analytics measures visits and interactions on the public site. Consent can be withdrawn in the footer; see Cookies for details. Future hosting may process connection data — its configuration and policies need approval."
+        ],
+        [
+          "Report safely",
+          "Describe issues at contact@kovacompass.app. Do not send passwords, keys, full database copies, or real financial records. Include the app version, Android version, and reproduction steps with example data."
+        ]
+      ],
+      "actions": [
+        [
+          "App privacy policy",
+          "privacy.html"
+        ],
+        [
+          "Export and data deletion",
+          "delete-account.html"
+        ],
+        [
+          "Browser storage and cookies",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Updates",
+      "title": "KOVA moves to Offline Free V1.",
+      "intro": "An update on the upcoming release, not a launch announcement.",
+      "badge": "21 October 2026",
+      "cards": [
+        [
+          "No mandatory account",
+          "Public V1 is designed to work without registration or internet. Online services are preserved for the future but disabled in this release."
+        ],
+        [
+          "Notes and data portability",
+          "The editor’s Android 7 compatibility was fixed. Checks covered persistence after restart, embedded images, export, and normal import between isolated Android 7.1 and 7.0 installations. The current editor was also checked on 16 KiB."
+        ],
+        [
+          "Results, not a readiness claim",
+          "Full regression on 21 October: 6745 PASS out of 6746 cases, 1 FAIL for draft legal documents, 0 execution errors, and 0 skipped. Later targeted tests are not added to this count. Some UI qualification and the current phone check remain."
+        ],
+        [
+          "Documents and contact",
+          "The site uses current Offline V1 document drafts in PL/EN/RU and confirmed publisher details. This is not final legal approval or a store publication."
+        ]
+      ],
+      "actions": [
+        [
+          "Release status",
+          "status.html"
+        ],
+        [
+          "Publisher details",
+          "contact.html"
+        ]
+      ]
+    },
+    "contact": {
+      "label": "Contact and publisher",
+      "title": "Let’s talk about KOVA.",
+      "intro": "Use the address below for app questions, issues, and privacy matters. Do not send your financial records.",
+      "badge": "Contact confirmed by the publisher",
+      "cards": [
+        [
+          "Publisher",
+          "Vadyslav Konohrai · Poland · private individual. These details were provided by the project owner; they are not a claim of completed legal qualification for all markets."
+        ],
+        [
+          "Support and privacy",
+          "contact@kovacompass.app — one address for questions, issues, complaints, and privacy matters. The link opens your email app; this website does not submit a request itself."
+        ],
+        [
+          "Describe an issue",
+          "Include the KOVA version, phone model, Android version, expected behavior, and reproduction steps. Use example amounts. Remove personal details before attaching screenshots."
+        ],
+        [
+          "Release and audience",
+          "Planned V1 is free, for Android 7.0 or later, and intended for ages 13+. International availability depends on store approval and local requirements; it is not confirmed yet."
+        ]
+      ],
+      "note": "Do not send passwords, encryption keys, complete backups, or real financial records. Correspondence retention and public support practices still require approval in the documents.",
+      "actions": [
+        [
+          "Write an email",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Privacy",
+          "privacy.html"
+        ],
+        [
+          "App availability",
+          "status.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Your data",
+      "title": "Export and delete local data.",
+      "intro": "Offline V1 does not create a cloud account. A local profile or financial account in KOVA is not an online account or a bank connection.",
+      "badge": "No online account or sync",
+      "cards": [
+        [
+          "Save what you need first",
+          "In data settings, use manual encrypted export of supported records and select a destination. Keep the password. This is a partial export, not a copy of every setting, key, and installation file."
+        ],
+        [
+          "Delete local data",
+          "To remove data for the whole installation, open Android settings → Apps → KOVA → Storage → Clear data, or uninstall KOVA. Labels vary by system. Without a valid backup this is irreversible; it may affect every local profile in that installation."
+        ],
+        [
+          "Files outside the app",
+          "Delete exported copies, original photos, and files held by other providers separately. An image embedded in a note may be included in export; an external URI is only a reference. The publisher cannot remotely access your local database."
+        ],
+        [
+          "Messages to the publisher",
+          "For data shared by email, contact contact@kovacompass.app. Do not attach financial backups. This page neither deletes data nor sends an automatic request."
+        ]
+      ],
+      "actions": [
+        [
+          "Contact about data",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Full privacy policy",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "YOUR CHOICE",
+    "title": "Privacy on your terms",
+    "body": "May we measure website use with Google Analytics? It helps us learn which demonstrations and information are useful. Google receives visit, device and interaction data and cookie identifiers — not financial data from the app.",
+    "note": "Analytics is optional. Rejecting gives you the same access. We do not connect to Google Analytics without consent.",
+    "accept": "Accept analytics",
+    "reject": "Reject analytics",
+    "settings": "Customize choice",
+    "save": "Save choice",
+    "essential": "Essential settings",
+    "essentialBody": "Language and your privacy choice. Always active.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Visit and presentation usage statistics. No ads or ad personalization.",
+    "privacy": "Privacy",
+    "cookies": "Cookie details",
+    "foot": "We remember your choice for 180 days. Change it anytime using “Cookie settings” in the footer."
+  },
+  "legal": {
+    "language": "Language",
+    "back": "Home",
+    "source": "Content used by the KOVA app",
+    "loading": "Loading document…",
+    "error": "The document could not be loaded.",
+    "privacy": "Privacy",
+    "terms": "Terms of Use",
+    "cookies": "Cookies",
+    "analyticsTitle": "Privacy on this website",
+    "analyticsCopy": "Publisher: Vadyslav Konohrai, Poland; contact: contact@kovacompass.app. This site cannot access finances on your phone and has no submission form. Language and cookie choices are stored in your browser. After optional consent the public site uses Google Analytics 4 (G-2LE3GWYDZM): visit and interaction statistics, pseudonymous cookies, device and approximate location information. Measurement relies on consent; data may be processed outside the EEA and is not fully anonymous. The Cookies page explains the recipient, cookies, rights and limitations. GA4 retention and processing terms require confirmation before publication. Change consent in Cookie settings. Email links open your email app; a message you send and your address are used to handle your request outside KOVA. Do not send financial data or passwords. Future hosting, its logging practices, and correspondence retention require approval before publication. The document below concerns the app and does not replace this website information."
+  },
+  "review": "Draft for KOVA Offline Free V1, matching the app source document dated 22 October 2026 (not a new APK qualification). The publisher approved the name, contact and domain, and supplied the public document URLs on 22 October 2026. An HTTP 200 response was verified that day. This is not legal approval or full hosting qualification. The document below includes its public link. An effective date and content approval remain pending.",
+  "seo": {
+    "titles": {
+      "404": "Page Not Found — KOVA",
+      "index": "KOVA — Offline Budget & Expense Tracker for Android",
+      "status": "KOVA for Android — App Status & Availability",
+      "roadmap": "KOVA — Offline Finance App Release Roadmap",
+      "updates": "KOVA — Finance App News & Development Updates",
+      "security": "KOVA — Privacy, Encryption & Offline Backups",
+      "contact": "Contact KOVA — App Support & Questions",
+      "delete-account": "KOVA — Delete Local Data & Profiles",
+      "privacy": "KOVA Privacy Policy — App & Website",
+      "terms": "KOVA Terms of Use — Draft Document",
+      "cookies": "KOVA Website Cookies & Google Analytics"
+    },
+    "descriptions": {
+      "404": "This KOVA page does not exist. Return to the app overview, updates or contact.",
+      "index": "Meet KOVA: a free Android app for expenses, budgets and savings goals. Works offline without a cloud account or ads. First public release in preparation.",
+      "status": "Check KOVA Offline Free V1 availability, planned features and remaining release steps. Public app downloads are not available yet.",
+      "roadmap": "Follow KOVA’s first-release roadmap: local finances, final testing and Google Play preparation. No unconfirmed launch dates.",
+      "updates": "KOVA project updates: offline Android finances, authentic app screens, data export and progress toward the first public release.",
+      "security": "How KOVA keeps finances local: SQLCipher, profile isolation and manual password-protected exports. Understand data protection and its limitations.",
+      "contact": "Contact KOVA at contact@kovacompass.app for app questions, issue reports and privacy requests. Please do not send financial data.",
+      "delete-account": "Manage your data and delete a local profile in KOVA Offline V1. Learn about exported copies and why cloud recovery is not available.",
+      "privacy": "Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.",
+      "terms": "Draft terms for KOVA Offline Free V1: app scope, user data, backups and limitations of financial estimates.",
+      "cookies": "How the KOVA website uses cookies and Google Analytics only after consent. See what is measured and how to withdraw your choice."
+    }
+  },
+  "extra": {
+    "demo": "fictional demo data",
+    "enlarge": "Enlarge",
+    "contents": "Contents",
+    "publicAddress": "Public EN address: ",
+    "language": "Site language"
+  },
+  "cookies": "<section data-doc-lang=\"en\" data-document-title=\"Cookies — KOVA\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Analytics is your choice.</h1><p>Essential cookies remember language and settings. Analytics starts only after consent.</p><div class=\"document-meta\"><span class=\"document-chip\">Updated: 22 October 2026</span><span class=\"document-chip\">No advertising</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Essential</h2><p><code>kova_site_language</code> remembers language for up to 12 months; <code>kova_cookie_consent_v2</code> remembers your choice for 180 days. Previous consent to local counters does not authorize Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>After consent on the public kovacompass.app domain (including www), we load Google tag <code>G-2LE3GWYDZM</code>. Google may store <code>_ga</code> and <code>_ga_2LE3GWYDZM</code> cookies for browser and session recognition. We configure 180-day expiry without automatic renewal on every visit; browsers may shorten this period.</p></article>\n          <article class=\"document-card\"><h2>What we measure</h2><p>Page views, opening and playing the presentation, chapter selection, enlarged screenshots, opened FAQs and contact clicks. Our events contain only the event name, public page without URL parameters or fragments, and language. We do not send message contents, finances, account IDs or Workspace contents. Local previews do not run Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Recipient and basis</h2><p>Publisher: Vadyslav Konohrai, Poland; contact: <a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Optional measurement relies on your consent. Google Analytics also processes technical browser, device, session and approximate location information. IP addresses are involved in communication; Google states GA4 does not store IP addresses. This does not make the data fully anonymous. Processing may take place outside the EEA. See <a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Google’s privacy policy</a> and <a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 data information</a>.</p></article>\n          <article class=\"document-card\"><h2>Site language</h2><p>The language choice also remains in <code>localStorage</code> until browser storage is cleared. KOVA account data is not stored here.</p></article>\n          <article class=\"document-card wide\"><h2>Change your choice</h2><p>Open “Cookie settings” in the footer and reject analytics, or turn it off and save. Refusing does not limit the site. Withdrawal removes accessible GA cookies and reloads the page to stop the tag. It cannot recall data already sent. Contact us about data rights; you may also complain to the relevant data protection authority. Privacy documents remain readable without choosing consent.</p></article>\n          <article class=\"document-card wide\"><h2>Pre-publication status</h2><p>Draft information updated 22 October 2026. Integration is website-only; the Offline V1 app remains analytics-free. Google Signals and advertising consent are disabled in code. Before publication the publisher must confirm processing terms, transfers, GA4 service retention (separate from cookie lifetime), disabled automatic enhanced measurement, and hosting configuration. Local tests do not verify these settings.</p></article>\n        </div>\n      </section>"
+}

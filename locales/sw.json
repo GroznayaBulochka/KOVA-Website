@@ -1,0 +1,502 @@
+{
+  "home": {
+    "skip": "Ruka hadi yaliyomo",
+    "tagline": "Fedha katika sehemu moja.",
+    "language": "Lugha",
+    "openMenu": "Fungua menyu",
+    "close": "Funga",
+    "navFeatures": "Vipengele",
+    "navScreens": "Skrini",
+    "navSecurity": "Usalama",
+    "navLegal": "Nyaraka",
+    "navRoadmap": "Ramani ya barabara",
+    "heroKicker": "KOVA Nje ya Mtandao Bila Malipo V1 · Android",
+    "heroTitle": "Fedha<br><em>katika sehemu moja.</em>",
+    "heroCopy": "Matumizi, bajeti, malengo na mapato ya kazini - kwenye simu yako. Tunatayarisha toleo lisilolipishwa la nje ya mtandao, bila akaunti za wingu, matangazo au usajili.",
+    "projectStatus": "Angalia hali ya mradi",
+    "watchVideo": "Tazama ziara ya bidhaa",
+    "pauseVideo": "Sitisha",
+    "playVideo": "Cheza",
+    "releaseNote": "Kabla ya uzinduzi · upakuaji wa umma bado haupatikani.",
+    "trustPrivacy": "Faragha kwanza",
+    "trustPrivacyCopy": "Hifadhidata ya ndani, hakuna upakiaji otomatiki",
+    "trustReports": "Muhtasari wa vitendo",
+    "trustReportsCopy": "Ripoti kulingana na data iliyorekodiwa",
+    "trustOffline": "Inafanya kazi nje ya mtandao",
+    "trustOfflineCopy": "Fedha za msingi zinaendelea kupatikana",
+    "trustLife": "Imeundwa kwa maisha halisi",
+    "trustLifeCopy": "Bajeti, malengo, kazi na maelezo",
+    "featureExpenses": "Gharama",
+    "featureExpensesCopy": "Shughuli na kategoria",
+    "featureBudgets": "Bajeti",
+    "featureBudgetsCopy": "Mipaka na maendeleo",
+    "featureWork": "Kazi & Mapato",
+    "featureWorkCopy": "Saa na siku za malipo",
+    "featureCalendar": "Kalenda",
+    "featureCalendarCopy": "Matukio ya kifedha",
+    "featureReports": "Ripoti",
+    "featureReportsCopy": "Mitindo na utabiri",
+    "featureGoals": "Malengo",
+    "featureGoalsCopy": "Mipango na maendeleo",
+    "clarityKicker": "programu",
+    "clarityTitle": "Mtazamo ndani ya KOVA.",
+    "clarityCopy": "Mtumiaji mmoja wa kubuni, akaunti tatu na miezi sita ya fedha za kila siku. Hizi ni picha za skrini mpya, ambazo hazijaguswa kutoka KOVA V1 ya Nje ya Mtandao inayoendeshwa kwenye kiigaji cha Android. Vipengele halisi vilivyo na rekodi za demo halisi, bila fedha za kibinafsi za mtu yeyote. Skrini za programu ziko kwa Kipolandi.",
+    "clarityAccounts": "Akaunti, shughuli na kategoria",
+    "clarityReports": "Ripoti na utabiri",
+    "clarityWork": "Kazi & Mapato",
+    "clarityGoals": "Malengo na thamani halisi",
+    "clarityCurrency": "Usahihi wa sarafu nyingi",
+    "clarityOffline": "Ufikiaji wa nje ya mtandao kwa data ya msingi",
+    "exploreScreens": "Chunguza skrini",
+    "screenOverview": "Mandhari meusi",
+    "screenOverviewCopy": "Salio na gharama iliyorekodiwa",
+    "screenFeatures": "Mandhari nyepesi",
+    "screenFeaturesCopy": "Takwimu sawa, sura tofauti",
+    "screenWork": "Vidokezo vya ndani",
+    "screenWorkCopy": "Imehifadhiwa kwenye kifaa · 21 Okt 2026",
+    "securityKicker": "Faragha",
+    "securityTitle": "Jinsi KOVA hulinda data.",
+    "securityCopy": "Hifadhidata kuu ya fedha hutumia SQLCipher. Hakuna usawazishaji wa wingu otomatiki. Linda simu yako na uhamishe mara kwa mara - usimbaji fiche hauchukui nafasi ya hifadhi rudufu au utunzaji makini.",
+    "securityModel": "Soma kuhusu usalama",
+    "secureLocal": "Usimbaji fiche wa ndani",
+    "secureOwner": "Kutengwa kwa data",
+    "secureOwnerCopy": "Rekodi hupewa mmiliki wao",
+    "secureNoBank": "Hakuna nywila za benki",
+    "secureNoBankCopy": "KOVA haiunganishi na benki yako",
+    "secureOnline": "Uhamishaji wa mikono",
+    "secureOnlineCopy": "Nakala ndogo, iliyolindwa na nenosiri",
+    "legalKicker": "Nyaraka",
+    "legalTitle": "KOVA sera.",
+    "legalCopy": "Nakala za sasa za hati za programu. Sera ya Faragha na Masharti yanasalia kuwa rasimu zinazohitaji idhini kabla ya kuchapishwa.",
+    "privacyTitle": "Sera ya Faragha",
+    "privacyCopy": "Data ya ndani, usafirishaji na mawasiliano ya usaidizi.",
+    "termsTitle": "Masharti ya Matumizi",
+    "termsCopy": "Upeo wa bidhaa na sheria.",
+    "cookiesTitle": "Vidakuzi",
+    "cookiesCopy": "Mipangilio ya kivinjari na uhifadhi.",
+    "privacyShort": "Faragha",
+    "termsShort": "Masharti",
+    "cookiesShort": "Vidakuzi",
+    "activeDevelopment": "V1 ya Nje ya Mtandao Bila Malipo · kabla ya kuzinduliwa.",
+    "cookieSettings": "Mipangilio",
+    "navFaq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "navStatus": "Mradi",
+    "galleryHint": "Gusa skrini ili kuona picha kamili.",
+    "secureLocalCopy": "Hifadhidata iliyosimbwa kwa njia fiche kwenye kifaa chako",
+    "projectKicker": "Toleo la kwanza",
+    "projectHeading": "Bure. Kwa simu yako.",
+    "projectCopy": "Akaunti za ndani, miamala, bajeti, malipo ya mara kwa mara, madeni, malengo, thamani halisi, kazi, ripoti, kalenda, madokezo na OCR. Huduma za wingu, API za benki, AI, Wear OS, Familia ya mtandaoni, na nukuu za moja kwa moja si sehemu ya V1. Hati za mwisho na sifa bado ziko kwenye maandalizi.",
+    "availability": "Upatikanaji wa programu",
+    "roadmapLink": "Tunachofanyia kazi",
+    "updatesLink": "Sasisho za hivi majuzi",
+    "faqKicker": "Vizuri kujua",
+    "faqTitle": "Majibu machache rahisi.",
+    "faqCopy": "Kabla ya kuanza kutumia KOVA.",
+    "faqDownloadQ": "Je, ninaweza kupakua KOVA bado?",
+    "faqDownloadA": "Upakuaji wa umma bado haupatikani. Kiungo cha duka kilichothibitishwa kitaonekana kwenye ukurasa wa hali ya mradi toleo litakapokuwa tayari. Tutatangaza tarehe mara tu itakapothibitishwa.",
+    "faqOfflineQ": "Je, programu inafanya kazi bila mtandao?",
+    "faqOfflineA": "Ndiyo. V1 inatayarishwa kama programu ya nje ya mtandao iliyo na wasifu wa karibu nawe. Haitoi huduma za kuingia, kusawazisha, au AI kwenye Google. Mtoa huduma wako wa faili, kivinjari, au programu ya barua pepe uliyochagua inaweza kutumia intaneti bila ya KOVA.",
+    "faqBankQ": "Je, ninahitaji kuunganisha akaunti yangu ya benki?",
+    "faqBankA": "Hapana. KOVA haiulizi manenosiri ya benki yako. Akaunti katika programu husaidia kupanga maelezo ya fedha unayorekodi.",
+    "faqEstimateQ": "Je, utabiri na kiasi cha malipo halisi kimehakikishwa?",
+    "faqEstimateA": "Hapana. Ni makadirio kulingana na data iliyorekodiwa na usanidi. Zinaweza kutofautiana na malipo halisi na hazibadilishi hati za mwajiri au ushauri wa mtu binafsi.",
+    "faqWebsiteQ": "Je, tovuti hii inaweza kufikia fedha zangu?",
+    "faqWebsiteA": "Hapana. Tovuti inatanguliza mradi na haiunganishi kwenye hifadhidata ya fedha kwenye simu yako. Uchanganuzi wa hiari wa tovuti unategemea idhini yako.",
+    "altHome": "KOVA V1 ya nje ya mtandao: skrini ya kwanza yenye historia ya kifedha ya kubuniwa",
+    "altProfile": "KOVA Nje ya mtandao V1: akaunti tatu za onyesho la ndani",
+    "altFeatures": "KOVA V1 Bila malipo: mandhari mepesi kwenye kiigaji",
+    "altWork": "KOVA Offline V1: dokezo la majaribio lililohifadhiwa kwenye kiigaji",
+    "previous": "Skrini iliyotangulia",
+    "next": "Skrini inayofuata",
+    "navigation": "Urambazaji mkuu",
+    "pageTitle": "KOVA — fedha katika sehemu moja",
+    "faqFreeQ": "Je, KOVA itakuwa bure?",
+    "faqFreeA": "Ndiyo. V1 ya Nje ya Mtandao Isiyolipishwa haina matangazo, ununuzi, usajili au ngome za malipo. Vipengele vya ndani havihitaji usajili au huduma ya malipo ya nyuma.",
+    "tourNote": "Skrini za programu halisi · data ya mfano ya kubuni · si rekodi ya video",
+    "tourChapters": "Chagua skrini ya ziara",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "Fedha za ndani",
+    "factAccount": "Hakuna akaunti mtandaoni",
+    "faqBackupQ": "Je, ninawezaje kulinda data yangu au kubadilisha simu?",
+    "faqBackupA": "Unda uhamishaji unaolindwa na nenosiri na uihifadhi kwa usalama nje ya simu yako. Kuagiza kunahitaji uthibitisho na kuchukua nafasi ya data inayotumika ya wasifu uliochaguliwa. Ni nakala kiasi, si picha kamili ya programu: picha zilizopachikwa za dokezo zimejumuishwa, lakini viambatisho vya nje na picha za stakabadhi zinahitaji nakala tofauti. Mchapishaji hawezi kurejesha data kutoka kwa wingu au kurejesha nenosiri lako la kuhifadhi.",
+    "faqOcrQ": "Je, kuchanganua risiti hufanya kazi nje ya mtandao?",
+    "faqOcrA": "OCR hutumia muundo uliounganishwa na programu. Piga picha au chagua moja kutoka kwenye ghala yako kupitia kiteua Android. Utambuzi unaweza kuwa mbaya - angalia kiasi, sarafu na tarehe kabla ya kuhifadhi. Kunyima ufikiaji wa kamera hakuzuii uteuzi wa faili.",
+    "faqDeviceQ": "KOVA ni vifaa na hadhira gani?",
+    "faqDeviceA": "Android simu zinazoendesha Android 7.0 au matoleo mapya zaidi, yenye violesura vya PL/EN/RU. Jaribio la uoanifu linaendelea. Hadhira inayolengwa ni 13+, lakini huu si ukadiriaji ulioidhinishwa wa Google Play au uthibitisho wa upatikanaji katika kila nchi. Hakuna saa au toleo la iOS linalotolewa."
+  },
+  "slides": [
+    {
+      "title": "Fedha zako leo",
+      "caption": "Mizani, mapato na matumizi ya hivi karibuni",
+      "copy": "KOVA skrini halisi ya nyumbani iliyo na rekodi za ndani za Marta, mtumiaji wa kubuni. Historia ile ile ya fedha inawezesha kila skrini katika ziara hii."
+    },
+    {
+      "title": "Hesabu",
+      "caption": "Akaunti ya sasa, akiba na pesa taslimu",
+      "copy": "Akaunti tatu za ndani hupanga fedha za kila siku. Salio ni pamoja na ununuzi, mshahara na uhamisho kati ya akaunti yako mwenyewe. Hakuna muunganisho wa benki."
+    },
+    {
+      "title": "Shughuli",
+      "caption": "Miezi sita ya rekodi za kila siku",
+      "copy": "Vyakula, kahawa, usafiri, kodi ya nyumba na mshahara. Kiasi na tarehe tofauti huunda historia halisi, sio orodha ya miamala inayofanana."
+    },
+    {
+      "title": "Bajeti na mipaka",
+      "caption": "Mipango ya matumizi na matumizi ya sasa",
+      "copy": "Vizuizi vya kila mwezi vya chakula, burudani na usafiri vinalinganisha mipango na matumizi yaliyorekodiwa. Kiasi hutoka kwa wasifu sawa wa onyesho."
+    },
+    {
+      "title": "Malipo ya mara kwa mara",
+      "caption": "Kodi, mtandao, simu na usajili",
+      "copy": "Bili zinazorudiwa zina tarehe zake za kukamilisha na historia ya malipo. KOVA hupanga rekodi; haihamishi wala kukusanya pesa."
+    },
+    {
+      "title": "Ripoti",
+      "caption": "Muhtasari wa maingizo yaliyorekodiwa",
+      "copy": "Chati na muhtasari huhesabiwa kwa KOVA kutoka kwa shughuli za ndani. Data ni ya kubuni, lakini skrini na mahesabu hutoka kwa programu inayoendesha."
+    },
+    {
+      "title": "Kalenda ya kifedha",
+      "caption": "Matukio na tarehe za kukamilisha katika mwonekano mmoja",
+      "copy": "Shughuli zilizorekodiwa na tarehe za bili mwezi mzima. Chagua siku ili kuona matukio yake bila kutafuta historia nzima."
+    },
+    {
+      "title": "Vidokezo",
+      "caption": "Mipango, orodha na maelezo ya kila siku",
+      "copy": "Mpango wa hazina ya dharura na madokezo ya safari ya wikendi yaliyohifadhiwa ndani pamoja na fedha. Haya ni maudhui ya onyesho, si madokezo ya faragha ya mtu mwingine."
+    }
+  ],
+  "shell": {
+    "home": "Nyumbani",
+    "product": "programu",
+    "project": "Mradi",
+    "legal": "Habari",
+    "features": "Vipengele",
+    "screens": "Skrini za programu",
+    "faq": "Maswali na majibu",
+    "status": "Hali ya mradi",
+    "roadmap": "Ramani ya barabara",
+    "updates": "Sasisho",
+    "security": "Usalama",
+    "contact": "Wasiliana",
+    "deletion": "Data yako",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Matumizi",
+    "cookies": "Vidakuzi",
+    "settings": "Mipangilio ya kuki",
+    "tagline": "Fedha za kila siku. Katika sehemu moja.",
+    "note": "KOVA Nje ya Mtandao Bila Malipo V1 · kabla ya kuzinduliwa",
+    "top": "Rudi juu",
+    "skip": "Ruka hadi yaliyomo",
+    "language": "Lugha ya tovuti",
+    "menu": "Menyu",
+    "back": "Nyumbani",
+    "official": "Tovuti rasmi ya mradi"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "Ukurasa huu haupo hapa.",
+      "intro": "Huenda kiungo kimebadilika. Rudi nyumbani au angalia maelezo ya mradi.",
+      "cards": [],
+      "actions": [
+        [
+          "Nyumbani",
+          "index.html"
+        ],
+        [
+          "Hali ya mradi",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Hali ya mradi",
+      "title": "Nje ya mtandao V1. Kabla ya uzinduzi.",
+      "intro": "Tunatayarisha KOVA bila malipo kwa Android simu: hakuna usajili, matangazo, usajili, au usawazishaji wa wingu. Toleo hili bado halipatikani hadharani.",
+      "badge": "Ilisasishwa: 21 Oktoba 2026 · 1.0.8 (10)",
+      "cards": [
+        [
+          "Upeo wa kutolewa kwa kwanza",
+          "Akaunti, miamala na kategoria, bajeti, madeni, malengo, thamani halisi, malipo ya mara kwa mara, wasifu na saa za kazi, ripoti, kalenda, madokezo, kwenye kifaa OCR, na export/import iliyosimbwa kwa mikono."
+        ],
+        [
+          "Nini kimeangaliwa",
+          "Vizalia vya APK na AAB vimeundwa. Majaribio yalifanyika Android 7.0, 7.1, na muda halisi wa utekelezaji wa 16 KB. Uhamisho wa usafirishaji uliosimbwa kwa njia fiche kati ya usakinishaji uliotengwa na uagizaji unaorudiwa bila nakala pia ulikaguliwa. Haya ni matukio yenye mipaka, si hakikisho kwa kila simu."
+        ],
+        [
+          "Nini kinabaki",
+          "Kiolesura kamili cha kawaida na ufikivu, mgombeaji wa sasa kwenye simu halisi, idhini ya hati, kutia sahihi na mahitaji ya Google Play. Vizalia vya programu vilivyotolewa vimeondolewa saini."
+        ],
+        [
+          "Nje ya Nje ya Mtandao V1",
+          "Akaunti za Google/Firebase, huduma za wingu, kushiriki familia mtandaoni, API za benki, nukuu za moja kwa moja, AI, Wear OS, Premium, na ununuzi hazitumiki katika toleo hili. Hakuna tarehe ya kupatikana iliyothibitishwa."
+        ]
+      ],
+      "note": "Tutachapisha tarehe ya uzinduzi au kitufe cha kupakua baada tu ya kutolewa na anwani rasmi ya duka kuidhinishwa.",
+      "actions": [
+        [
+          "Mpango wa kutolewa",
+          "roadmap.html"
+        ],
+        [
+          "Mabadiliko ya hivi karibuni",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Ramani ya barabara",
+      "title": "Toleo la kuaminika la nje ya mtandao kwanza.",
+      "intro": "Tunakamilisha uhitimu wa vipengele vilivyopo. Mpango huu hauahidi tarehe au huduma mpya.",
+      "badge": "Kipaumbele: Offline Bure V1",
+      "cards": [
+        [
+          "01 · Majaribio ya mwisho",
+          "Kamilisha hali zilizosalia za kiolesura cha kawaida, lugha na ufikivu na uangalie toleo la sasa kwenye simu. Cheki zilizokamilishwa sio madai ya utayari."
+        ],
+        [
+          "02 · Taarifa na sera",
+          "Mchapishaji na maelezo ya mawasiliano yanathibitishwa. Hati za nje ya mtandao zinasalia kuwa rasimu: sheria na masharti, mbinu za usaidizi, masoko, hadhira na anwani za umma bado zinahitaji idhini."
+        ],
+        [
+          "03 · Hifadhi mgombea",
+          "Idhinisha kutia sahihi na Google Play usanidi, na ukamilishe majaribio na matamko yanayohitajika. Kiungo rasmi kinafuata idhini ya kutolewa."
+        ],
+        [
+          "Baadaye · Uhitimu tofauti",
+          "Moduli za siku zijazo zinasalia kwenye mradi lakini hazijawezeshwa. Huduma za wingu, AI, Wear OS, na uchumaji wa mapato zinahitaji maamuzi tofauti, majaribio na ufumbuzi wa mtumiaji."
+        ]
+      ],
+      "actions": [
+        [
+          "Hali ya sasa",
+          "status.html"
+        ],
+        [
+          "Wasiliana",
+          "contact.html"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Faragha na usalama",
+      "title": "Data ya ndani. Vikwazo wazi.",
+      "intro": "V1 ya nje ya mtandao huhifadhi fedha kwenye simu yako. Haiundi akaunti ya mtandaoni au kusawazisha rekodi na seva.",
+      "badge": "Hifadhidata iliyosimbwa kwa njia fiche · usafirishaji wa mikono",
+      "cards": [
+        [
+          "Hifadhidata kwenye kifaa chako",
+          "Data ya fedha hutumia Chumba na SQLCipher kwa kutengwa kwa wasifu. Usimbaji fiche hauwezi kuzuia upotevu wowote wa simu, nenosiri, ufunguo au ufikiaji wa kifaa. Hatudai cheti huru cha usalama."
+        ],
+        [
+          "Hakuna upakiaji otomatiki",
+          "Faili ya maelezo ya toleo iliyoteuliwa haina ruhusa ya INTERNET. Firebase, takwimu za programu, Crashlytics, matangazo, Bili na huduma za AI zimezimwa. Hii haimaanishi Android au programu zingine hazitoi trafiki ya mtandao."
+        ],
+        [
+          "Kuuza nje ni chaguo lako",
+          "Uhamishaji wa mikono unaweza kusimbwa kwa nenosiri. Inashughulikia rekodi zinazotumika, sio picha kamili ya usakinishaji: picha za noti zilizopachikwa husafiri nayo; marejeleo ya faili ya nje hayanakili faili yenyewe. Hifadhi nenosiri na faili kwa usalama. Hakuna nakala ya kiotomatiki ya KOVA ya wingu."
+        ],
+        [
+          "Picha na OCR",
+          "Utambuzi hutumia muundo uliounganishwa na programu. Unaweza kuchukua picha au kuchagua moja kutoka kwa ghala. Angalia kiasi, sarafu na tarehe kabla ya kuhifadhi — OCR inaweza kufanya makosa."
+        ],
+        [
+          "Tovuti ni tofauti",
+          "Tovuti hii haiwezi kusoma hifadhidata ya simu. Baada ya idhini pekee, Google Analytics hupima matembeleo na mwingiliano kwenye tovuti ya umma. Idhini inaweza kuondolewa katika sehemu ya chini; tazama Vidakuzi kwa maelezo. Upangishaji wa siku zijazo unaweza kuchakata data ya muunganisho - usanidi wake na sera zinahitaji idhini."
+        ],
+        [
+          "Ripoti salama",
+          "Eleza masuala katika contact@kovacompass.app. Usitume manenosiri, funguo, nakala kamili za hifadhidata au rekodi halisi za kifedha. Jumuisha toleo la programu, Android toleo, na hatua za kuzaliana kwa mfano wa data."
+        ]
+      ],
+      "actions": [
+        [
+          "Sera ya faragha ya programu",
+          "privacy.html"
+        ],
+        [
+          "Hamisha na kufuta data",
+          "delete-account.html"
+        ],
+        [
+          "Hifadhi ya kivinjari na vidakuzi",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Sasisho",
+      "title": "KOVA inahamishwa hadi Offline Isiyolipishwa V1.",
+      "intro": "Taarifa kuhusu toleo lijalo, si tangazo la uzinduzi.",
+      "badge": "21 Oktoba 2026",
+      "cards": [
+        [
+          "Hakuna akaunti ya lazima",
+          "V1 ya Umma imeundwa kufanya kazi bila usajili au mtandao. Huduma za mtandaoni zimehifadhiwa kwa siku zijazo lakini zimezimwa katika toleo hili."
+        ],
+        [
+          "Vidokezo na kubebeka kwa data",
+          "Utangamano wa Android 7 wa mhariri ulirekebishwa. Hundi hufunika uendelevu baada ya kuwasha upya, picha zilizopachikwa, kuhamisha, na uingizaji wa kawaida kati ya usakinishaji wa Android 7.1 na 7.0 uliotengwa. Mhariri wa sasa pia aliangaliwa kwenye 16 KiB."
+        ],
+        [
+          "Matokeo, sio dai la utayari",
+          "Rejea kamili mnamo tarehe 21 Oktoba: 6745 PASS kati ya kesi 6746, 1 FAIL kwa rasimu ya hati za kisheria, makosa 0 ya utekelezaji, na 0 ilirukwa. Majaribio yaliyolengwa baadaye hayaongezwe kwa hesabu hii. Baadhi ya sifa za UI na ukaguzi wa sasa wa simu unasalia."
+        ],
+        [
+          "Nyaraka na mawasiliano",
+          "Tovuti hutumia rasimu za hati za sasa za V1 za Nje ya Mtandao katika PL/EN/RU na maelezo yaliyothibitishwa ya mchapishaji. Hiki si kibali cha mwisho cha kisheria au uchapishaji wa duka."
+        ]
+      ],
+      "actions": [
+        [
+          "Hali ya kutolewa",
+          "status.html"
+        ],
+        [
+          "Mchapishaji maelezo",
+          "contact.html"
+        ]
+      ]
+    },
+    "contact": {
+      "label": "Wasiliana na mchapishaji",
+      "title": "Hebu tuzungumze kuhusu KOVA.",
+      "intro": "Tumia anwani iliyo hapa chini kwa maswali ya programu, masuala na masuala ya faragha. Usitume rekodi zako za kifedha.",
+      "badge": "Anwani imethibitishwa na mchapishaji",
+      "cards": [
+        [
+          "Mchapishaji",
+          "Vadyslav Konohrai · Poland · mtu binafsi. Maelezo haya yalitolewa na mmiliki wa mradi; sio dai la kufuzu kwa sheria kukamilika kwa masoko yote."
+        ],
+        [
+          "Usaidizi na faragha",
+          "contact@kovacompass.app — anwani moja ya maswali, masuala, malalamiko, na masuala ya faragha. Kiungo hufungua programu yako ya barua pepe; tovuti hii haitoi ombi yenyewe."
+        ],
+        [
+          "Eleza suala",
+          "Jumuisha toleo la KOVA, muundo wa simu, toleo la Android, tabia inayotarajiwa, na hatua za kuzaliana. Tumia kiasi cha mfano. Ondoa maelezo ya kibinafsi kabla ya kuambatisha picha za skrini."
+        ],
+        [
+          "Kutolewa na watazamaji",
+          "V1 Iliyopangwa ni bure, kwa Android 7.0 au matoleo mapya zaidi, na inakusudiwa watu wenye umri wa miaka 13+. Upatikanaji wa kimataifa unategemea idhini ya duka na mahitaji ya ndani; haijathibitishwa bado."
+        ]
+      ],
+      "note": "Usitume manenosiri, funguo za usimbaji fiche, nakala kamili, au rekodi halisi za kifedha. Uhifadhi wa mawasiliano na mbinu za usaidizi kwa umma bado zinahitaji idhini katika hati.",
+      "actions": [
+        [
+          "Andika barua pepe",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Faragha",
+          "privacy.html"
+        ],
+        [
+          "Upatikanaji wa programu",
+          "status.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Data yako",
+      "title": "Hamisha na ufute data ya ndani.",
+      "intro": "V1 ya nje ya mtandao haiundi akaunti ya wingu. Wasifu wa ndani au akaunti ya fedha katika KOVA si akaunti ya mtandaoni au muunganisho wa benki.",
+      "badge": "Hakuna akaunti ya mtandaoni au kusawazisha",
+      "cards": [
+        [
+          "Hifadhi unachohitaji kwanza",
+          "Katika mipangilio ya data, tumia uhamishaji uliosimbwa kwa mikono wa rekodi zinazotumika na uchague unakoenda. Weka nenosiri. Hii ni sehemu ya kuhamishwa, si nakala ya kila mpangilio, ufunguo na faili ya usakinishaji."
+        ],
+        [
+          "Futa data ya ndani",
+          "Ili kuondoa data ya usakinishaji wote, fungua Android mipangilio → Programu → KOVA → Hifadhi → Futa data, au sanidua KOVA. Lebo hutofautiana kulingana na mfumo. Bila chelezo halali hii haiwezi kutenduliwa; inaweza kuathiri kila wasifu wa ndani katika usakinishaji huo."
+        ],
+        [
+          "Faili nje ya programu",
+          "Futa nakala zilizotumwa, picha asili na faili zinazoshikiliwa na watoa huduma wengine kando. Picha iliyopachikwa kwenye dokezo inaweza kujumuishwa katika usafirishaji; URI ya nje ni kumbukumbu tu. Mchapishaji hawezi kufikia hifadhidata yako ya ndani akiwa mbali."
+        ],
+        [
+          "Ujumbe kwa mchapishaji",
+          "Kwa data iliyoshirikiwa kwa barua pepe, wasiliana na contact@kovacompass.app. Usiambatishe chelezo za kifedha. Ukurasa huu haufuti data wala kutuma ombi otomatiki."
+        ]
+      ],
+      "actions": [
+        [
+          "Wasiliana kuhusu data",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Sera kamili ya faragha",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "UCHAGUZI WAKO",
+    "title": "Faragha kwa masharti yako",
+    "body": "Je, tunaweza kupima matumizi ya tovuti kwa Google Analytics? Inatusaidia kujifunza maonyesho na taarifa zipi zinafaa. Google hupokea data ya kutembelewa, kifaa na mwingiliano na vitambulishi vya vidakuzi - sio data ya kifedha kutoka kwa programu.",
+    "note": "Uchanganuzi ni wa hiari. Kukataa hukupa ufikiaji sawa. Hatuunganishi kwa Google Analytics bila idhini.",
+    "accept": "Kubali uchanganuzi",
+    "reject": "Kataa uchanganuzi",
+    "settings": "Customize chaguo",
+    "save": "Hifadhi chaguo",
+    "essential": "Mipangilio muhimu",
+    "essentialBody": "Lugha na chaguo lako la faragha. Inatumika kila wakati.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Tembelea na uwasilishe takwimu za matumizi. Hakuna matangazo au ubinafsishaji wa matangazo.",
+    "privacy": "Faragha",
+    "cookies": "Maelezo ya kuki",
+    "foot": "Tunakumbuka chaguo lako kwa siku 180. Ibadilishe wakati wowote kwa kutumia \"Mipangilio ya Vidakuzi\" kwenye kijachini."
+  },
+  "legal": {
+    "language": "Lugha",
+    "back": "Nyumbani",
+    "source": "Maudhui yanayotumiwa na programu ya KOVA",
+    "loading": "Inapakia hati...",
+    "error": "Hati haikuweza kupakiwa.",
+    "privacy": "Faragha",
+    "terms": "Masharti ya Matumizi",
+    "cookies": "Vidakuzi",
+    "analyticsTitle": "Faragha kwenye tovuti hii",
+    "analyticsCopy": "Mchapishaji: Vadyslav Konohrai, Poland; mwasiliani: contact@kovacompass.app. Tovuti hii haiwezi kufikia fedha kwenye simu yako na haina fomu ya kuwasilisha. Chaguo za lugha na vidakuzi huhifadhiwa kwenye kivinjari chako. Baada ya idhini ya hiari tovuti ya umma hutumia Google Analytics 4 (G-2LE3GWYDZM): takwimu za kutembelea na mwingiliano, vidakuzi visivyojulikana, kifaa na maelezo ya eneo la kukadiria. Kipimo kinategemea idhini; data inaweza kuchakatwa nje ya EEA na haijulikani kabisa. Ukurasa wa Vidakuzi unaelezea mpokeaji, vidakuzi, haki na vikwazo. GA4 masharti ya kuhifadhi na kuchakata yanahitaji uthibitisho kabla ya kuchapishwa. Badilisha idhini katika mipangilio ya Vidakuzi. Viungo vya barua pepe fungua programu yako ya barua pepe; ujumbe unaotuma na anwani yako hutumika kushughulikia ombi lako nje ya KOVA. Usitume data ya fedha au manenosiri. Upangishaji wa siku zijazo, mbinu zake za ukataji miti, na uhifadhi wa mawasiliano huhitaji idhini kabla ya kuchapishwa. Hati iliyo hapa chini inahusu programu na haibadilishi maelezo ya tovuti hii."
+  },
+  "review": "Rasimu ya KOVA V1 ya Nje ya Mtandao Isiyolipishwa, inayolingana na hati ya chanzo cha programu ya tarehe 22 Oktoba 2026 (sio sifa mpya ya APK). Mchapishaji aliidhinisha jina, anwani na kikoa, na akatoa URL za hati ya umma tarehe 22 Oktoba 2026. Jibu la HTTP 200 lilithibitishwa siku hiyo. Hiki si kibali cha kisheria au sifa kamili ya upangishaji. Hati iliyo hapa chini inajumuisha kiungo chake cha umma. Tarehe ya kutekelezwa na uidhinishaji wa maudhui bado unasubiri.",
+  "seo": {
+    "titles": {
+      "404": "Ukurasa Haujapatikana — KOVA",
+      "index": "KOVA — Bajeti ya Nje ya Mtandao na Kifuatilia Gharama cha Android",
+      "status": "KOVA kwa Android — Hali ya Programu na Upatikanaji",
+      "roadmap": "KOVA — Ramani ya Njia ya Utoaji wa Programu ya Fedha Nje ya Mtandao",
+      "updates": "KOVA — Habari za Programu ya Fedha na Usasisho wa Maendeleo",
+      "security": "KOVA — Faragha, Usimbaji fiche na Hifadhi Nakala za Nje ya Mtandao",
+      "contact": "Wasiliana na KOVA — Usaidizi wa Programu & Maswali",
+      "delete-account": "KOVA — Futa Data ya Ndani na Wasifu",
+      "privacy": "KOVA Sera ya Faragha — Programu na Tovuti",
+      "terms": "KOVA Masharti ya Matumizi — Rasimu ya Hati",
+      "cookies": "KOVA Vidakuzi vya Tovuti & Google Analytics"
+    },
+    "descriptions": {
+      "404": "Ukurasa huu wa KOVA haupo. Rudi kwa muhtasari wa programu, masasisho au anwani.",
+      "index": "Kutana na KOVA: programu isiyolipishwa ya Android kwa gharama, bajeti na malengo ya kuweka akiba. Inafanya kazi nje ya mtandao bila akaunti ya wingu au matangazo. Toleo la kwanza la umma katika maandalizi.",
+      "status": "Angalia KOVA upatikanaji wa V1 Nje ya Mtandao Bila Malipo, vipengele vilivyopangwa na hatua zilizosalia za kutolewa. Vipakuliwa vya programu hadharani bado havipatikani.",
+      "roadmap": "Fuata ramani ya KOVA ya toleo la kwanza: fedha za ndani, majaribio ya mwisho na Google Play maandalizi. Hakuna tarehe za uzinduzi ambazo hazijathibitishwa.",
+      "updates": "KOVA masasisho ya mradi: nje ya mtandao Android fedha, skrini halisi za programu, uhamishaji wa data na maendeleo kuelekea toleo la kwanza la umma.",
+      "security": "Jinsi KOVA huweka fedha za ndani: SQLCipher, kutenganisha wasifu na uhamishaji unaolindwa na nenosiri mwenyewe. Kuelewa ulinzi wa data na mapungufu yake.",
+      "contact": "Wasiliana na KOVA kwa contact@kovacompass.app kwa maswali ya programu, ripoti za toleo na maombi ya faragha. Tafadhali usitume data ya kifedha.",
+      "delete-account": "Dhibiti data yako na ufute wasifu wa karibu nawe katika KOVA Offline V1. Jifunze kuhusu nakala zilizohamishwa na kwa nini urejeshaji wa wingu haupatikani.",
+      "privacy": "Rasimu ya KOVA sera ya faragha: data ya programu ya ndani, usafirishaji, mawasiliano na uchanganuzi wa hiari wa tovuti. Idhini inahitajika kabla ya kuchapishwa.",
+      "terms": "Rasimu ya masharti ya KOVA V1 ya Nje ya Mtandao Isiyolipishwa: upeo wa programu, data ya mtumiaji, hifadhi rudufu na vikwazo vya makadirio ya kifedha.",
+      "cookies": "Jinsi tovuti ya KOVA hutumia vidakuzi na Google Analytics tu baada ya idhini. Tazama kile kinachopimwa na jinsi ya kuondoa chaguo lako."
+    }
+  },
+  "extra": {
+    "demo": "data ya demo ya kubuni",
+    "enlarge": "Panua",
+    "contents": "Yaliyomo",
+    "publicAddress": "Anwani ya EN ya umma:",
+    "language": "Lugha ya tovuti"
+  },
+  "cookies": "<section data-doc-lang=\"sw\" data-document-title=\"KOVA Vidakuzi vya Tovuti &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Vidakuzi</p><h1>Uchambuzi ni chaguo lako.</h1><p>Vidakuzi muhimu hukumbuka lugha na mipangilio. Uchanganuzi huanza tu baada ya idhini.</p><div class=\"document-meta\"><span class=\"document-chip\">Ilisasishwa: 22 Oktoba 2026</span><span class=\"document-chip\">Hakuna matangazo</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Muhimu</h2><p><code>kova_site_language</code>anakumbuka lugha hadi miezi 12;<code>kova_cookie_consent_v2</code>anakumbuka chaguo lako kwa siku 180. Idhini ya awali kwa kaunta za karibu haiidhinishi Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Baada ya idhini kwenye kikoa cha umma cha kovacompass.app (pamoja na www), tunapakia lebo ya Google<code>G-2LE3GWYDZM</code>. Google inaweza kuhifadhi<code>_ga</code>na<code>_ga_2LE3GWYDZM</code>vidakuzi kwa kivinjari na utambuzi wa kipindi. Tunasanidi kuisha kwa siku 180 bila kusasishwa kiotomatiki kwa kila ziara; vivinjari vinaweza kufupisha kipindi hiki.</p></article>\n          <article class=\"document-card\"><h2>Tunapima nini</h2><p>Mionekano ya ukurasa, kufungua na kucheza wasilisho, uteuzi wa sura, picha za skrini zilizopanuliwa, Maswali Yanayoulizwa Mara kwa Mara iliyofunguliwa na mibofyo ya anwani. Matukio yetu yana jina la tukio pekee, ukurasa wa umma bila vigezo au vipande vya URL na lugha. Hatutumi maudhui ya ujumbe, fedha, vitambulisho vya akaunti au maudhui ya Nafasi ya Kazi. Uhakiki wa ndani hauendeshi Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Mpokeaji na msingi</h2><p>Mchapishaji: Vadyslav Konohrai, Poland; mawasiliano:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Kipimo cha hiari kinategemea idhini yako. Google Analytics pia huchakata kivinjari cha kiufundi, kifaa, kipindi na maelezo ya eneo yaliyokadiriwa. Anwani za IP zinahusika katika mawasiliano; Google inasema GA4 haihifadhi anwani za IP. Hii haifanyi data isijulikane kabisa. Usindikaji unaweza kufanyika nje ya EEA. Tazama<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Sera ya faragha ya Google</a>na<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 maelezo ya data</a>.</p></article>\n          <article class=\"document-card\"><h2>Lugha ya tovuti</h2><p>Chaguo la lugha pia linabaki ndani<code>localStorage</code>hadi uhifadhi wa kivinjari utakapofutwa. KOVA data ya akaunti haijahifadhiwa hapa.</p></article>\n          <article class=\"document-card wide\"><h2>Badilisha chaguo lako</h2><p>Fungua \"Mipangilio ya Vidakuzi\" katika kijachini na ukatae uchanganuzi, au uizime na uhifadhi. Kukataa hakuzuii tovuti. Kutoa huondoa vidakuzi vya GA vinavyoweza kufikiwa na kupakia upya ukurasa ili kusimamisha lebo. Haiwezi kukumbuka data iliyotumwa tayari. Wasiliana nasi kuhusu haki za data; unaweza pia kulalamika kwa mamlaka husika ya ulinzi wa data. Hati za faragha hubakia kusomeka bila kuchagua kibali.</p></article>\n          <article class=\"document-card wide\"><h2>Hali ya kabla ya uchapishaji</h2><p>Rasimu ya habari ilisasishwa 22 Oktoba 2026. Muunganisho ni wa tovuti pekee; programu ya V1 ya Nje ya Mtandao inasalia bila uchanganuzi. Ishara za Google na idhini ya utangazaji imezimwa katika msimbo. Kabla ya uchapishaji, mchapishaji lazima athibitishe sheria na masharti, uhamishaji, GA4 uhifadhi wa huduma (tofauti na maisha ya vidakuzi), kuzima kipimo kilichoimarishwa kiotomatiki, na usanidi wa upangishaji. Majaribio ya ndani hayathibitishi mipangilio hii.</p></article>\n        </div>\n      </section>"
+}

@@ -133,3 +133,7 @@ window.KOVA_PROJECT_PAGES = {
     ru:{label:'404',title:'Такой страницы нет.',intro:'Возможно, ссылка изменилась. Вернитесь на главную или узнайте о проекте.',cards:[],actions:[['Главная','index.html'],['Статус проекта','status.html']]}
   }
 };
+
+for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
+  for (const [page,copy] of Object.entries(data.projects)) window.KOVA_PROJECT_PAGES[page][code]=copy;
+}

@@ -19,14 +19,14 @@ const renderSeo=await prepareRenderer(new URL('../',import.meta.url));
 const files=[
   ...pages.map(p=>p+'.html'),
   'landing.css','site-ui.css','styles.css','workspace.css',
-  'landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js',
+  'language-config.js','language-options.js','translations.js','landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js',
   'site.webmanifest','assets/logo.svg','assets/icons.svg','assets/hero-visual.webp','assets/social/kova.png',
   ...['home','accounts','transactions','budgets','recurring','reports','calendar','notes'].map(id=>`assets/screenshots/offline-demo-${id}.png`),
-  ...['privacy-policy','terms-of-service'].flatMap(k=>['pl','en','ru'].map(l=>`legal/${k}-${l}.md`))
+  ...['privacy-policy','terms-of-service'].flatMap(k=>languages.map(l=>`legal/${k}-${l}.md`))
 ];
 // Fail on unexpected output instead of deleting or accidentally shipping old private files.
 const out=resolve(root,'dist');
-const generated=['robots.txt','_headers','sitemap.xml',...pages.flatMap(p=>['en','ru'].map(l=>file(p,l)))];
+const generated=['robots.txt','_headers','sitemap.xml',...pages.flatMap(p=>languages.filter(l=>l!=='pl').map(l=>file(p,l)))];
 const permitted=new Set([...files,...generated]);
 async function list(dir,prefix='') {
   let entries; try { entries=await readdir(dir,{withFileTypes:true}); } catch(e) { if(e.code==='ENOENT')return []; throw e; }

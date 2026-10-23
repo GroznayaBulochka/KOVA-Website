@@ -1,0 +1,110 @@
+{
+  "pl": {
+    "hreflang": "pl",
+    "ogLocale": "pl_PL"
+  },
+  "zh": {
+    "hreflang": "zh-Hans",
+    "ogLocale": "zh_CN"
+  },
+  "yue": {
+    "hreflang": "zh-Hant-HK",
+    "ogLocale": "zh_HK"
+  },
+  "es": {
+    "hreflang": "es",
+    "ogLocale": "es_ES"
+  },
+  "en": {
+    "hreflang": "en",
+    "ogLocale": "en_GB"
+  },
+  "ar": {
+    "hreflang": "ar",
+    "ogLocale": "ar_SA"
+  },
+  "hi": {
+    "hreflang": "hi",
+    "ogLocale": "hi_IN"
+  },
+  "bn": {
+    "hreflang": "bn",
+    "ogLocale": "bn_BD"
+  },
+  "pt": {
+    "hreflang": "pt",
+    "ogLocale": "pt_PT"
+  },
+  "ru": {
+    "hreflang": "ru",
+    "ogLocale": "ru_RU"
+  },
+  "uk": {
+    "hreflang": "uk",
+    "ogLocale": "uk_UA"
+  },
+  "ja": {
+    "hreflang": "ja",
+    "ogLocale": "ja_JP"
+  },
+  "pnb": {
+    "hreflang": "pa-Arab-PK",
+    "ogLocale": "pa_PK"
+  },
+  "jv": {
+    "hreflang": "jv",
+    "ogLocale": "jv_ID"
+  },
+  "ko": {
+    "hreflang": "ko",
+    "ogLocale": "ko_KR"
+  },
+  "de": {
+    "hreflang": "de",
+    "ogLocale": "de_DE"
+  },
+  "fr": {
+    "hreflang": "fr",
+    "ogLocale": "fr_FR"
+  },
+  "te": {
+    "hreflang": "te",
+    "ogLocale": "te_IN"
+  },
+  "mr": {
+    "hreflang": "mr",
+    "ogLocale": "mr_IN"
+  },
+  "tr": {
+    "hreflang": "tr",
+    "ogLocale": "tr_TR"
+  },
+  "ur": {
+    "hreflang": "ur",
+    "ogLocale": "ur_PK"
+  },
+  "vi": {
+    "hreflang": "vi",
+    "ogLocale": "vi_VN"
+  },
+  "ta": {
+    "hreflang": "ta",
+    "ogLocale": "ta_IN"
+  },
+  "it": {
+    "hreflang": "it",
+    "ogLocale": "it_IT"
+  },
+  "fa": {
+    "hreflang": "fa",
+    "ogLocale": "fa_IR"
+  },
+  "sw": {
+    "hreflang": "sw",
+    "ogLocale": "sw_KE"
+  },
+  "ms": {
+    "hreflang": "ms",
+    "ogLocale": "ms_MY"
+  }
+}

@@ -1,6 +1,15 @@
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
-export const languages=['pl','en','ru'];
+export const languageNames=JSON.parse(await readFile(new URL('../language-registry.json',import.meta.url),'utf8'));
+export const languages=Object.keys(languageNames);
+const translations=Object.fromEntries(await Promise.all(languages.filter(l=>!['pl','en','ru'].includes(l)).map(async l=>[l,JSON.parse(await readFile(new URL(`../locales/${l}.json`,import.meta.url),'utf8'))])));
+// Google accepts ISO 639-1 language groups, with optional script/region.
+// Keep actual document languages yue/pnb in HTML and JSON-LD, and target
+// their Chinese/Punjabi language groups in search annotations.
+export const seoLocales=JSON.parse(await readFile(new URL('../seo-locales.json',import.meta.url),'utf8'));
+export const hreflang=lang=>seoLocales[lang].hreflang;
+if (languages.some(l=>!seoLocales[l]) || Object.keys(seoLocales).length!==languages.length) throw new Error('SEO locale registry does not match website languages');
+const rtl=new Set(['ar','pnb','ur','fa']);
 export const pages=['index','status','roadmap','updates','security','contact','delete-account','privacy','terms','cookies','404'];
 export const noindexPages=new Set(['privacy','terms','cookies','404']);
 export const file=(page,lang)=>`${page}${lang==='pl'?'':'-'+lang}.html`;
@@ -54,15 +63,19 @@ const descriptions={
 export const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const json=value=>JSON.stringify(value).replace(/</g,'\\u003c');
 export function metadata(page,lang,origin){
- const index=languages.indexOf(lang),canonical=origin+urlPath(page,lang);
+ const index=['pl','en','ru'].indexOf(lang),canonical=origin+urlPath(page,lang);
+ const title=translations[lang]?.seo.titles[page] || titles[page][index];
+ const description=translations[lang]?.seo.descriptions[page] || descriptions[page][index];
+ const ogLocale=seoLocales[lang].ogLocale;
+ const imageAlt=translations[lang]?.home.altHome || {pl:'KOVA Offline V1: ekran aplikacji z fikcyjnymi finansami',en:'KOVA Offline V1: app screen with fictional demo finances',ru:'KOVA Offline V1: экран приложения с вымышленными финансами'}[lang];
  const website={'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'KOVA',inLanguage:languages};
  const schema={'@context':'https://schema.org','@graph':[
    website,
-   {'@type':page==='contact'?'ContactPage':'WebPage','@id':canonical+'#page',url:canonical,name:titles[page][index],description:descriptions[page][index],inLanguage:lang,isPartOf:{'@id':website['@id']}},
-   ...(page==='index'?[{'@type':'MobileApplication','@id':origin+'/#app',name:'KOVA',applicationCategory:'FinanceApplication',operatingSystem:'Android',inLanguage:languages,description:descriptions.index[index],url:canonical,image:origin+'/assets/social/kova.png'}]:[]),
-   ...(page!=='index'&&page!=='404'?[{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'KOVA',item:origin+urlPath('index',lang)},{'@type':'ListItem',position:2,name:titles[page][index],item:canonical}]}]:[])
+   {'@type':page==='contact'?'ContactPage':'WebPage','@id':canonical+'#page',url:canonical,name:title,description:description,inLanguage:lang,isPartOf:{'@id':website['@id']}},
+   ...(page==='index'?[{'@type':'MobileApplication','@id':origin+'/#app',name:'KOVA',applicationCategory:'FinanceApplication',operatingSystem:'Android',description:description,url:canonical,image:origin+'/assets/social/kova.png'}]:[]),
+   ...(page!=='index'&&page!=='404'?[{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'KOVA',item:origin+urlPath('index',lang)},{'@type':'ListItem',position:2,name:title,item:canonical}]}]:[])
  ]};
- return {title:titles[page][index],description:descriptions[page][index],canonical,schema};
+ return {title,description,canonical,schema,ogLocale,imageAlt};
 }
 export function seoHead(page,lang,origin,isRelease){
  const m=metadata(page,lang,origin);
@@ -72,12 +85,13 @@ export function seoHead(page,lang,origin,isRelease){
 <meta name="description" content="${escape(m.description)}">
 <meta name="robots" content="${isRelease&&!noindexPages.has(page)?'index,follow,max-image-preview:large':'noindex,follow'}">
 ${page==='404'?'':`<link rel="canonical" href="${escape(m.canonical)}">`}
-${page==='404'?'':languages.map(l=>`<link rel="alternate" hreflang="${l}" href="${origin+urlPath(page,l)}">`).join('\n')+`\n<link rel="alternate" hreflang="x-default" href="${origin+urlPath(page,'pl')}">`}
+${page==='404'?'':languages.map(l=>`<link rel="alternate" hreflang="${hreflang(l)}" href="${origin+urlPath(page,l)}">`).join('\n')+`\n<link rel="alternate" hreflang="x-default" href="${origin+urlPath(page,'pl')}">`}
 <meta property="og:type" content="website"><meta property="og:site_name" content="KOVA">
 <meta property="og:title" content="${escape(m.title)}"><meta property="og:description" content="${escape(m.description)}">
-<meta property="og:url" content="${escape(m.canonical)}"><meta property="og:locale" content="${{pl:'pl_PL',en:'en_GB',ru:'ru_RU'}[lang]}">
-<meta property="og:image" content="${origin}/assets/social/kova.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="KOVA — Offline Free V1 · Android · PL / EN / RU">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escape(m.title)}"><meta name="twitter:description" content="${escape(m.description)}"><meta name="twitter:image" content="${origin}/assets/social/kova.png"><meta name="twitter:image:alt" content="KOVA — Offline Free V1 · Android · PL / EN / RU">
+<meta property="og:url" content="${escape(m.canonical)}"><meta property="og:locale" content="${m.ogLocale}">
+${languages.filter(l=>l!==lang).map(l=>`<meta property="og:locale:alternate" content="${seoLocales[l].ogLocale}">`).join('\n')}
+<meta property="og:image" content="${origin}/assets/social/kova.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="${escape(m.imageAlt)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escape(m.title)}"><meta name="twitter:description" content="${escape(m.description)}"><meta name="twitter:image" content="${origin}/assets/social/kova.png"><meta name="twitter:image:alt" content="${escape(m.imageAlt)}">
 <script type="application/ld+json" id="kova-structured-data">${json(m.schema)}</script>
 <script type="application/json" id="kova-seo-data">${json({page,language:lang,locales})}</script>`;
 }
@@ -88,18 +102,19 @@ export function robots(origin,isRelease){return isRelease?`User-agent: *\nAllow:
 export async function prepareRenderer(root){
  const read=name=>readFile(new URL(name,root),'utf8');
  const landing=await read('landing.js'),projects=await read('project-content.js'),legal=await read('legal-document.js');
- const context={window:{}};
+ const context={window:{KOVA_TRANSLATIONS:translations}};
  const shell=await read('site-shell.js');
  vm.runInNewContext(shell.slice(shell.indexOf('  const labels'),shell.indexOf('  const page'))+';window.shellLabels=labels;',context);
  vm.runInNewContext(landing.slice(landing.indexOf('  const dictionaries'),landing.indexOf('  const supported'))+';window.home=dictionaries;window.slides=videoSlides;',context);
  vm.runInNewContext(projects,context);
  vm.runInNewContext(legal.slice(legal.indexOf('  const escapeHtml'),legal.indexOf('  let loadRevision'))+';window.renderMarkdown=renderMarkdown;',context);
  vm.runInNewContext(legal.slice(legal.indexOf('  const websiteCopy'),legal.indexOf('  for (const [lang'))+';window.websiteCopy=websiteCopy;window.reviewCopy=reviewCopy;',context);
+ for(const [code,data] of Object.entries(translations)) {context.window.websiteCopy[code]=[data.legal.analyticsTitle,data.legal.analyticsCopy];context.window.reviewCopy[code]=data.review;}
  const projectJs=await read('project-pages.js');
  vm.runInNewContext(projectJs.slice(projectJs.indexOf('  const esc'),projectJs.indexOf('  let stored'))+';window.renderProject=render;',context);
  return async function render(html,page,lang,origin,isRelease){
   const content=context.window;
-  html=html.replace('<html lang="pl">',`<html lang="${lang}" data-static-language="${lang}">`);
+  html=html.replace('<html lang="pl">',`<html lang="${lang}" data-static-language="${lang}"${rtl.has(lang)?' dir="rtl"':''}>`);
   const shell=content.shellLabels[lang];
   html=html.replace(/(<small>)(?:Oficjalna strona projektu|Official project|Official project website)(<\/small>)/g,`$1${escape(shell.official)}$2`);
   html=html.replace(/(<a class="document-back"[^>]*>)[\s\S]*?<\/a>/,`$1${escape(shell.home)}</a>`);
@@ -108,13 +123,14 @@ export async function prepareRenderer(root){
    const copy=content.home[lang];
    html=html.replace(/<([a-z][a-z0-9]*)\b([^>]*\bdata-i18n(?:-html)?="([^"]+)"[^>]*)>[\s\S]*?<\/\1>/g,(all,tag,attrs,key)=>copy[key]===undefined?all:`<${tag}${attrs}>${attrs.includes('data-i18n-html')?copy[key]:escape(copy[key])}</${tag}>`);
    html=html.replace(/<img\b[^>]*data-i18n-alt="([^"]+)"[^>]*>/g,(all,key)=>all.replace(/alt="[^"]*"/,`alt="${escape(copy[key])}"`));
-   const demo={pl:'fikcyjne dane demonstracyjne',en:'fictional demo data',ru:'вымышленные данные'}[lang];
+   const demo=translations[lang]?.extra.demo || {pl:'fikcyjne dane demonstracyjne',en:'fictional demo data',ru:'вымышленные данные'}[lang];
    html=html.replace(/<figure data-screen-index="(\d+)">[\s\S]*?<\/figure>/g,(_,n)=>{
     const s=content.slides[Number(n)];return `<figure data-screen-index="${n}"><button type="button" data-lightbox="${s.image}" aria-label="${escape(s.title[lang])}"><img src="${s.image}" alt="${escape(s.title[lang]+' — KOVA, '+demo)}" loading="lazy" width="1080" height="2400"></button><figcaption><b>${escape(s.title[lang])}</b><span>${escape(s.caption[lang])}</span></figcaption></figure>`;
    });
   }else if(content.KOVA_PROJECT_PAGES[page]){
    html=html.replace(/<div data-project-content>[\s\S]*<\/div>\s*<\/main>/,`<div data-project-content>${content.renderProject(content.KOVA_PROJECT_PAGES[page][lang])}</div>\n</main>`);
   }else if(page==='cookies'){
+   if(translations[lang]) html=html.replace('</main>',translations[lang].cookies+'\n</main>');
    html=html.replace(/(<section data-doc-lang="([^"]+)"[^>]*?)(?: hidden)?(>)/g,(_,start,l,end)=>start+(l===lang?'':' hidden')+end);
   }else if(['privacy','terms'].includes(page)){
    const kind=page==='privacy'?'privacy-policy':'terms-of-service';
@@ -125,9 +141,10 @@ export async function prepareRenderer(root){
    html=html.replace(/(<summary data-legal-copy="analyticsTitle">)[\s\S]*?<\/summary>/,`$1${escape(content.websiteCopy[lang][0])}</summary>`).replace(/(<p data-legal-copy="analyticsCopy">)[\s\S]*?<\/p>/,`$1${escape(content.websiteCopy[lang][1])}</p>`);
    const publicUrl=/data-public-document-url="([^"]+)"/.exec(html)?.[1]||'';
    if(publicUrl!==`https://kovacompass.app/${page}.html?lang=en`)throw new Error(`Unapproved public document URL: ${page}`);
-   html=html.replace(/(<p[^>]*data-legal-review[^>]*>)[\s\S]*?<\/p>/,`$1${escape(content.reviewCopy[lang])} ${{pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[lang]}<a data-public-document-link href="${escape(publicUrl)}" target="_blank" rel="noopener noreferrer">${escape(publicUrl)}</a></p>`);
+   html=html.replace(/(<p[^>]*data-legal-review[^>]*>)[\s\S]*?<\/p>/,`$1${escape(content.reviewCopy[lang])} ${translations[lang]?.extra.publicAddress || {pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[lang]}<a data-public-document-link href="${escape(publicUrl)}" target="_blank" rel="noopener noreferrer">${escape(publicUrl)}</a></p>`);
    html=html.replace(/href="legal\/[^\"]+" data-legal-source/,`href="legal/${kind}-${lang}.md" data-legal-source`);
   }
+  html=html.replace(/(<select\b[^>]*(?:id="site-language"|data-project-language|data-document-language|data-legal-language)[^>]*>)[\s\S]*?<\/select>/g,(_,start)=>start+languages.map(l=>`<option value="${l}"${l===lang?' selected':''}>${escape(languageNames[l])}</option>`).join('')+'</select>');
   html=html.replace(/<option value="(pl|en|ru)"(?: selected)?>/g,(_,l)=>`<option value="${l}"${l===lang?' selected':''}>`);
   html=html.replace(/<meta (?:name="(?:robots|description|twitter:[^"]+)"|property="og:[^"]+")[^>]*>/g,'').replace(/<title>[\s\S]*?<\/title>/,'');
   html=html.replace('</head>',seoHead(page,lang,origin,isRelease)+'\n</head>');
@@ -139,7 +156,7 @@ export async function prepareRenderer(root){
    return `href="${urlPath(target,languages.includes(explicit)?explicit:lang)}${url.search}${url.hash}"`;
   });
   // Crawlable links, also usable with scripts disabled; no hidden keyword content.
-  const navigation=`<nav class="seo-language-links" aria-label="Language">${languages.map(l=>`<a data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}">${{pl:'Polski',en:'English',ru:'Русский'}[l]}</a>`).join(' · ')}</nav>`;
+  const navigation=`<nav class="seo-language-links" aria-label="Language">${languages.map(l=>`<a data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}">${languageNames[l]}</a>`).join(' · ')}</nav>`;
   html=html.replace('</main>',navigation+'\n</main>');
   return html;
  };

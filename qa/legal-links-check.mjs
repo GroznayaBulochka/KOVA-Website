@@ -22,7 +22,7 @@ for(const page of ['privacy','terms']) for(const lang of ['pl','en','ru']) {
   const link={href:url,getAttribute:()=>url,hasAttribute:name=>name==='data-public-document-link'};
   const source={textContent:JSON.stringify(data)};
   const doc={documentElement:{lang},readyState:'complete',getElementById:id=>id==='kova-seo-data'?source:null,querySelector:()=>null,querySelectorAll:()=>[link]};
-  vm.runInNewContext(await read('site-seo.js'),{window:{addEventListener(){}},document:doc,location:{href:`https://kovacompass.app/${page}.html`,origin:'https://kovacompass.app'},history:{replaceState(){}},URL,MutationObserver:class{observe(){}}});
+  vm.runInNewContext(await read('site-seo.js'),{window:{KOVA_LANGUAGES:{codes:Object.keys(JSON.parse(await read('language-registry.json')))},addEventListener(){}},document:doc,location:{href:`https://kovacompass.app/${page}.html`,origin:'https://kovacompass.app'},history:{replaceState(){}},URL,MutationObserver:class{observe(){}}});
   assert.equal(link.href,url); checks++;
 }
 console.log(JSON.stringify({result:'PASS',checks,documents:6,scope:'Static no-JS anchors, pending effective date, mocked production-origin URL preservation; no network or legal approval'}));

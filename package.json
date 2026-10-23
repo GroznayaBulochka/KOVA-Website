@@ -6,7 +6,7 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "screens:sync": "node scripts/sync-presentation.mjs && node qa/sync-public-copy.mjs",
-    "build": "node scripts/build-site.mjs",
+    "build": "node scripts/assemble-locales.mjs && node scripts/build-site.mjs",
     "preview": "node scripts/preview.mjs",
     "preview:workspace": "node scripts/preview.mjs --source",
     "test": "node qa/run-checks.mjs",

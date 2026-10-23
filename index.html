@@ -2,6 +2,8 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
+  <script src="translations.js" defer></script>
+  <script src="language-options.js" defer></script>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#07100f" />
     <meta name="robots" content="index,follow" />
@@ -14,7 +16,9 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="stylesheet" href="landing.css" />
     <link rel="stylesheet" href="site-ui.css" />
-  </head>
+    <script src="language-config.js"></script>
+
+</head>
   <body>
     <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
     <header class="topbar">
@@ -66,8 +70,8 @@
     <footer><a class="brand" href="#top"><img src="assets/logo.svg" alt="" /><span><b>KOVA</b><small data-i18n="tagline">Finanse w jednym miejscu.</small></span></a><nav aria-label="Dokumenty"><a href="status.html">Status</a><a href="roadmap.html" data-i18n="navRoadmap">Roadmapa</a><a class="legal-link" data-legal-link="privacy.html" href="privacy.html" data-i18n="privacyShort">Prywatność</a><a class="legal-link" data-legal-link="terms.html" href="terms.html" data-i18n="termsShort">Warunki</a><a class="legal-link" data-legal-link="cookies.html" href="cookies.html" data-i18n="cookiesShort">Cookies</a><button class="footer-link" type="button" data-cookie-settings data-i18n="cookieSettings">Ustawienia</button></nav><p>© 2026 KOVA<br /><span data-i18n="activeDevelopment">Offline Free V1 · przed premierą.</span></p></footer>
     <dialog class="video-tour" data-video-dialog aria-labelledby="video-title"><button class="video-close" type="button" data-video-close><span class="sr-only" data-i18n="close">Zamknij</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"></use></svg></button><div class="video-stage"><div class="video-progress" aria-hidden="true"><i data-video-progress></i></div><figure><img data-video-image src="assets/screenshots/offline-demo-home.png" alt="Ekran aplikacji KOVA" /><figcaption><span data-video-counter>1 / 8</span><h2 id="video-title" data-video-title>Finanse na dziś</h2><p data-video-copy>Zwykły ekran główny KOVA z lokalnymi danymi Marty — fikcyjnej użytkowniczki. Ta sama historia finansowa zasila wszystkie ekrany prezentacji.</p></figcaption></figure><p class="tour-note" data-i18n="tourNote">Prawdziwe ekrany aplikacji · fikcyjne dane demonstracyjne · nie nagranie wideo</p><nav class="video-chapters" data-video-chapters aria-label="Wybierz ekran prezentacji"></nav><div class="video-controls"><button type="button" data-video-prev aria-label="Poprzedni ekran"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-left"></use></svg></button><button type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#pause"></use></svg><span data-video-play-label data-i18n="playVideo">Odtwórz</span></button><button type="button" data-video-next aria-label="Następny ekran"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-right"></use></svg></button></div></div></dialog>
     <dialog class="lightbox"><button type="button" aria-label="Zamknij"><span class="sr-only" data-i18n="close">Zamknij</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"></use></svg></button><img src="" alt="" /></dialog>
-    <script src="landing.js"></script>
-    <script src="site-shell.js"></script>
+    <script src="landing.js" defer></script>
+    <script src="site-shell.js" defer></script>
     <script src="language-picker.js" defer></script>
   <script src="site-consent.js" defer></script>
   </body>

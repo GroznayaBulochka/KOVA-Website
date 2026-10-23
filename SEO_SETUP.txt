@@ -1,5 +1,5 @@
 KOVA — SEO i przygotowanie indeksowania
-Stan lokalny: 22.10.2026. Domena: https://kovacompass.app
+Stan lokalny: 23.10.2026. Domena: https://kovacompass.app
 Właściciel wskazał publiczne dokumenty EN:
 https://kovacompass.app/privacy.html?lang=en
 https://kovacompass.app/terms.html?lang=en
@@ -9,8 +9,8 @@ Dowód: qa/artifacts/seo-2026-10-22/public-documents.json.
 Nowe zmiany SEO są wyłącznie lokalne; nie opublikowano ich na istniejącej domenie.
 
 CO ZOSTAŁO WDROŻONE
-- Unikalne tytuły i opisy PL/EN/RU, zgodne z aplikacją Offline Free V1 przed premierą.
-- Pełna treść główna renderowana do HTML podczas budowania: 33 strony w 3 językach.
+- Unikalne tytuły i opisy we wszystkich 27 językach, w tym ukraińskim (uk), zgodne z aplikacją Offline Free V1 przed premierą.
+- Pełna treść główna renderowana do HTML podczas budowania: 297 stron w 27 językach.
   Nie trzeba uruchamiać JavaScript, aby odczytać opisy, FAQ, status i dokumenty.
 - Osobne adresy językowe, canonical, wzajemne hreflang oraz x-default dla PL.
 - Linki językowe działające także bez JavaScript; zwykła nawigacja zachowuje język.
@@ -20,7 +20,7 @@ CO ZOSTAŁO WDROŻONE
   danych, których KOVA przed premierą nie może rzetelnie podać.
 - Open Graph i Twitter Card, rzeczywisty obraz 1200 × 630: assets/social/kova.png.
   Wykorzystuje autentyczny ekran z już istniejącymi fikcyjnymi danymi demonstracyjnymi.
-- Sitemap produkcyjny z 21 adresami, robots.txt oraz wykluczenie prywatnego Workspace.
+- Sitemap produkcyjny ze 189 adresami, robots.txt oraz wykluczenie prywatnego Workspace.
   robots.txt nie jest zabezpieczeniem dostępu: Workspace nie trafia do publicznego dist.
 
 ADRESY
@@ -28,10 +28,13 @@ PL: / (strona główna), /status.html, /roadmap.html, /updates.html,
     /security.html, /contact.html, /delete-account.html.
 EN: /index-en.html i analogiczne nazwy z -en.html.
 RU: /index-ru.html i analogiczne nazwy z -ru.html.
+UK: /index-uk.html i analogiczne nazwy z -uk.html.
+Pozostałe języki: /index-<kod>.html i analogiczne podstrony.
+Rejestr języków: language-registry.json; parametry SEO: seo-locales.json.
 Dokumenty privacy/terms/cookies i 404 mają odpowiednie wersje językowe, ale noindex.
 Pliki źródłowe /legal/* otrzymują X-Robots-Tag: noindex w konfiguracji hostingu.
 Dokumenty prywatności są dostępne; noindex nie zastępuje ich zatwierdzenia.
-Stare linki ?lang=pl/en/ru nadal działają w przeglądarce; preferowane nowe adresy
+Stare linki ?lang=<kod> dla wszystkich obsługiwanych języków nadal działają w przeglądarce; preferowane nowe adresy
 nie zawierają parametrów. Canonical pomija parametry analityczne i fragmenty URL.
 
 ROZDZIELENIE PODGLĄDU I PUBLIKACJI
@@ -47,7 +50,7 @@ w tym faktycznej kwalifikacji dokumentów, hostingu i konfiguracji Analytics.
 nie skonfigurowano DNS i nie wykonywano zgłoszeń do Search Console.
 
 TESTY LOKALNE
-1. node scripts/build-site.mjs
+1. npm run build
 2. npm test
 3. npm run check:release
 4. npm run test:browser (włączony lokalny podgląd dist na 127.0.0.1:4174)
@@ -65,7 +68,7 @@ PO ZATWIERDZENIU PUBLIKACJI — CZYNNOŚCI WŁAŚCICIELA
    Publikować tylko zatwierdzony dist, nigdy katalog repozytorium.
 2. Skonfigurować przekierowania HTTP -> HTTPS, www -> domena bez www i
    /index.html -> / (z zachowaniem zgodności starych linków językowych).
-   Polityka dla ?lang musi najpierw uwzględnić język; nie kierować EN/RU na PL.
+   Polityka dla ?lang musi najpierw uwzględnić język; nie kierować innych wersji językowych na PL.
    To ustawienia właściwego hostingu, nie zdalnie wykonane operacje w tej iteracji.
 3. Zweryfikować rzeczywiste odpowiedzi: strony 200, zasoby 200, nieznane ścieżki
    HTTP 404. Nie zamieniać nieznanych ścieżek na stronę główną z kodem 200.
@@ -74,7 +77,7 @@ PO ZATWIERDZENIU PUBLIKACJI — CZYNNOŚCI WŁAŚCICIELA
 4. W Google Search Console dodać właściwość domenową kovacompass.app i potwierdzić
    ją prawdziwym rekordem DNS otrzymanym od Google. Nie ma tu fikcyjnego tokenu.
 5. Zgłosić https://kovacompass.app/sitemap.xml. Sprawdzić URL Inspection dla
-   /, /index-en.html i /index-ru.html, canonical, dostępność zasobów i renderowanie.
+   /, /index-en.html, /index-uk.html oraz wybranych pozostałych języków, canonical, dostępność zasobów i renderowanie.
 6. Obserwować błędy indeksowania, wyniki wyszukiwania i wydajność mobilną.
    Nie ma jeszcze pomiaru rzeczywistych Core Web Vitals ani danych ruchu publicznego.
    Uzupełniać dostępność/Google Play i treść tylko po rzeczywistych zmianach produktu.
@@ -92,3 +95,27 @@ https://developers.google.com/search/docs/appearance/structured-data/software-ap
 https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors
 https://support.google.com/webmasters/answer/9008080
 https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+
+AKTUALIZACJA WIELOJĘZYCZNEGO SEO — 23.10.2026
+- Ukraiński ma kod języka uk (nie kod kraju UA) oraz og:locale uk_UA.
+- Wzajemne hreflang w HTML obejmują każdą wersję, także bieżącą, i x-default.
+- ISO 639-1 dla Google: zh-Hans dla uproszczonego chińskiego; zh-Hant-HK
+  dla grupy chińskiej wariantu yue; pa-Arab-PK dla pendżabskiego Shahmukhi.
+  To celowe mapowanie do grup językowych obsługiwanych przez Google.
+  Rzeczywiste lang HTML i inLanguage WebPage pozostają yue oraz pnb.
+- Open Graph: język_TERYTORIUM i pełna lista og:locale:alternate.
+  Region Open Graph opisuje format metadanych; nie ogranicza dostępności strony.
+- Tytuły, opisy, canonical, JSON-LD, lokalizowane opisy obrazu i podglądy
+  społecznościowe pozostają spójne również po zmianie języka w przeglądarce.
+- Karta społecznościowa nie ogranicza już dostępnych języków do PL/EN/RU.
+- MobileApplication nie deklaruje, że aplikacja obsługuje wszystkie języki strony.
+- Sitemap obejmuje publiczne strony gotowe do indeksowania; dokumenty prawne,
+  cookies, błędy 404 i prywatny Workspace pozostają poza mapą.
+- Bieżący dist jest podglądem: robots/noindex i pusta mapa pozostają aktywne.
+  Pełna mapa produkcyjna jest testowana w pamięci i zapisana jako dowód QA;
+  ta zmiana nie wykonuje publikacji, zgłoszenia Search Console ani indeksowania.
+- Wu (wuu) pozostaje poza rejestrem, ponieważ nie ma jeszcze jego tłumaczenia.
+
+Źródła techniczne sprawdzone 23.10.2026:
+https://developers.google.com/search/docs/specialty/international/localized-versions
+https://ogp.me/

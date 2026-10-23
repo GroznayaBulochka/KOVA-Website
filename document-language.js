@@ -1,14 +1,18 @@
 (() => {
   'use strict';
 
-  const supported = new Set(['pl', 'en', 'ru']);
+  const supported = new Set(window.KOVA_LANGUAGES.codes);
   const params = new URLSearchParams(location.search);
-  const browserLanguage = navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl';
+  const browserLanguage = window.KOVA_LANGUAGES.resolve(navigator.language);
   let storedLanguage;
   try { storedLanguage = localStorage.getItem('kova_site_language'); } catch { /* The document remains readable without storage. */ }
   let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || browserLanguage;
   if (!supported.has(language)) language = 'pl';
 
+  const main=document.querySelector('main');
+  for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
+    if (!main.querySelector(`[data-doc-lang="${code}"]`)) main.insertAdjacentHTML('beforeend',data.cookies);
+  }
   const applyLanguage = nextLanguage => {
     language = supported.has(nextLanguage) ? nextLanguage : 'pl';
     document.documentElement.lang = language;

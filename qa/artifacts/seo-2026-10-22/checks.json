@@ -1,109 +1,902 @@
 {
-  "recordedAt": "2026-10-22T08:52:24.995Z",
+  "recordedAt": "2026-10-23T09:32:26.225Z",
   "result": "PASS",
-  "checks": 105,
-  "localReferences": 1014,
+  "checks": 898,
+  "localReferences": 23613,
   "passed": [
     "index.html: static localized HTML, metadata, reciprocal alternatives",
     "index.html: visible content exists without JS",
     "index.html: production indexing policy is explicit",
+    "index-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-zh.html: visible content exists without JS",
+    "index-zh.html: production indexing policy is explicit",
+    "index-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-yue.html: visible content exists without JS",
+    "index-yue.html: production indexing policy is explicit",
+    "index-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-es.html: visible content exists without JS",
+    "index-es.html: production indexing policy is explicit",
     "index-en.html: static localized HTML, metadata, reciprocal alternatives",
     "index-en.html: visible content exists without JS",
     "index-en.html: production indexing policy is explicit",
+    "index-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ar.html: visible content exists without JS",
+    "index-ar.html: production indexing policy is explicit",
+    "index-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-hi.html: visible content exists without JS",
+    "index-hi.html: production indexing policy is explicit",
+    "index-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-bn.html: visible content exists without JS",
+    "index-bn.html: production indexing policy is explicit",
+    "index-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-pt.html: visible content exists without JS",
+    "index-pt.html: production indexing policy is explicit",
     "index-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "index-ru.html: visible content exists without JS",
     "index-ru.html: production indexing policy is explicit",
+    "index-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-uk.html: visible content exists without JS",
+    "index-uk.html: production indexing policy is explicit",
+    "index-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ja.html: visible content exists without JS",
+    "index-ja.html: production indexing policy is explicit",
+    "index-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-pnb.html: visible content exists without JS",
+    "index-pnb.html: production indexing policy is explicit",
+    "index-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-jv.html: visible content exists without JS",
+    "index-jv.html: production indexing policy is explicit",
+    "index-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ko.html: visible content exists without JS",
+    "index-ko.html: production indexing policy is explicit",
+    "index-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-de.html: visible content exists without JS",
+    "index-de.html: production indexing policy is explicit",
+    "index-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-fr.html: visible content exists without JS",
+    "index-fr.html: production indexing policy is explicit",
+    "index-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-te.html: visible content exists without JS",
+    "index-te.html: production indexing policy is explicit",
+    "index-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-mr.html: visible content exists without JS",
+    "index-mr.html: production indexing policy is explicit",
+    "index-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-tr.html: visible content exists without JS",
+    "index-tr.html: production indexing policy is explicit",
+    "index-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ur.html: visible content exists without JS",
+    "index-ur.html: production indexing policy is explicit",
+    "index-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-vi.html: visible content exists without JS",
+    "index-vi.html: production indexing policy is explicit",
+    "index-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ta.html: visible content exists without JS",
+    "index-ta.html: production indexing policy is explicit",
+    "index-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-it.html: visible content exists without JS",
+    "index-it.html: production indexing policy is explicit",
+    "index-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-fa.html: visible content exists without JS",
+    "index-fa.html: production indexing policy is explicit",
+    "index-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-sw.html: visible content exists without JS",
+    "index-sw.html: production indexing policy is explicit",
+    "index-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "index-ms.html: visible content exists without JS",
+    "index-ms.html: production indexing policy is explicit",
     "status.html: static localized HTML, metadata, reciprocal alternatives",
     "status.html: visible content exists without JS",
     "status.html: production indexing policy is explicit",
+    "status-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-zh.html: visible content exists without JS",
+    "status-zh.html: production indexing policy is explicit",
+    "status-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-yue.html: visible content exists without JS",
+    "status-yue.html: production indexing policy is explicit",
+    "status-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-es.html: visible content exists without JS",
+    "status-es.html: production indexing policy is explicit",
     "status-en.html: static localized HTML, metadata, reciprocal alternatives",
     "status-en.html: visible content exists without JS",
     "status-en.html: production indexing policy is explicit",
+    "status-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ar.html: visible content exists without JS",
+    "status-ar.html: production indexing policy is explicit",
+    "status-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-hi.html: visible content exists without JS",
+    "status-hi.html: production indexing policy is explicit",
+    "status-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-bn.html: visible content exists without JS",
+    "status-bn.html: production indexing policy is explicit",
+    "status-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-pt.html: visible content exists without JS",
+    "status-pt.html: production indexing policy is explicit",
     "status-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "status-ru.html: visible content exists without JS",
     "status-ru.html: production indexing policy is explicit",
+    "status-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-uk.html: visible content exists without JS",
+    "status-uk.html: production indexing policy is explicit",
+    "status-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ja.html: visible content exists without JS",
+    "status-ja.html: production indexing policy is explicit",
+    "status-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-pnb.html: visible content exists without JS",
+    "status-pnb.html: production indexing policy is explicit",
+    "status-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-jv.html: visible content exists without JS",
+    "status-jv.html: production indexing policy is explicit",
+    "status-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ko.html: visible content exists without JS",
+    "status-ko.html: production indexing policy is explicit",
+    "status-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-de.html: visible content exists without JS",
+    "status-de.html: production indexing policy is explicit",
+    "status-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-fr.html: visible content exists without JS",
+    "status-fr.html: production indexing policy is explicit",
+    "status-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-te.html: visible content exists without JS",
+    "status-te.html: production indexing policy is explicit",
+    "status-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-mr.html: visible content exists without JS",
+    "status-mr.html: production indexing policy is explicit",
+    "status-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-tr.html: visible content exists without JS",
+    "status-tr.html: production indexing policy is explicit",
+    "status-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ur.html: visible content exists without JS",
+    "status-ur.html: production indexing policy is explicit",
+    "status-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-vi.html: visible content exists without JS",
+    "status-vi.html: production indexing policy is explicit",
+    "status-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ta.html: visible content exists without JS",
+    "status-ta.html: production indexing policy is explicit",
+    "status-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-it.html: visible content exists without JS",
+    "status-it.html: production indexing policy is explicit",
+    "status-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-fa.html: visible content exists without JS",
+    "status-fa.html: production indexing policy is explicit",
+    "status-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-sw.html: visible content exists without JS",
+    "status-sw.html: production indexing policy is explicit",
+    "status-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "status-ms.html: visible content exists without JS",
+    "status-ms.html: production indexing policy is explicit",
     "roadmap.html: static localized HTML, metadata, reciprocal alternatives",
     "roadmap.html: visible content exists without JS",
     "roadmap.html: production indexing policy is explicit",
+    "roadmap-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-zh.html: visible content exists without JS",
+    "roadmap-zh.html: production indexing policy is explicit",
+    "roadmap-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-yue.html: visible content exists without JS",
+    "roadmap-yue.html: production indexing policy is explicit",
+    "roadmap-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-es.html: visible content exists without JS",
+    "roadmap-es.html: production indexing policy is explicit",
     "roadmap-en.html: static localized HTML, metadata, reciprocal alternatives",
     "roadmap-en.html: visible content exists without JS",
     "roadmap-en.html: production indexing policy is explicit",
+    "roadmap-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ar.html: visible content exists without JS",
+    "roadmap-ar.html: production indexing policy is explicit",
+    "roadmap-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-hi.html: visible content exists without JS",
+    "roadmap-hi.html: production indexing policy is explicit",
+    "roadmap-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-bn.html: visible content exists without JS",
+    "roadmap-bn.html: production indexing policy is explicit",
+    "roadmap-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-pt.html: visible content exists without JS",
+    "roadmap-pt.html: production indexing policy is explicit",
     "roadmap-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "roadmap-ru.html: visible content exists without JS",
     "roadmap-ru.html: production indexing policy is explicit",
+    "roadmap-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-uk.html: visible content exists without JS",
+    "roadmap-uk.html: production indexing policy is explicit",
+    "roadmap-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ja.html: visible content exists without JS",
+    "roadmap-ja.html: production indexing policy is explicit",
+    "roadmap-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-pnb.html: visible content exists without JS",
+    "roadmap-pnb.html: production indexing policy is explicit",
+    "roadmap-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-jv.html: visible content exists without JS",
+    "roadmap-jv.html: production indexing policy is explicit",
+    "roadmap-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ko.html: visible content exists without JS",
+    "roadmap-ko.html: production indexing policy is explicit",
+    "roadmap-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-de.html: visible content exists without JS",
+    "roadmap-de.html: production indexing policy is explicit",
+    "roadmap-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-fr.html: visible content exists without JS",
+    "roadmap-fr.html: production indexing policy is explicit",
+    "roadmap-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-te.html: visible content exists without JS",
+    "roadmap-te.html: production indexing policy is explicit",
+    "roadmap-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-mr.html: visible content exists without JS",
+    "roadmap-mr.html: production indexing policy is explicit",
+    "roadmap-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-tr.html: visible content exists without JS",
+    "roadmap-tr.html: production indexing policy is explicit",
+    "roadmap-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ur.html: visible content exists without JS",
+    "roadmap-ur.html: production indexing policy is explicit",
+    "roadmap-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-vi.html: visible content exists without JS",
+    "roadmap-vi.html: production indexing policy is explicit",
+    "roadmap-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ta.html: visible content exists without JS",
+    "roadmap-ta.html: production indexing policy is explicit",
+    "roadmap-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-it.html: visible content exists without JS",
+    "roadmap-it.html: production indexing policy is explicit",
+    "roadmap-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-fa.html: visible content exists without JS",
+    "roadmap-fa.html: production indexing policy is explicit",
+    "roadmap-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-sw.html: visible content exists without JS",
+    "roadmap-sw.html: production indexing policy is explicit",
+    "roadmap-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "roadmap-ms.html: visible content exists without JS",
+    "roadmap-ms.html: production indexing policy is explicit",
     "updates.html: static localized HTML, metadata, reciprocal alternatives",
     "updates.html: visible content exists without JS",
     "updates.html: production indexing policy is explicit",
+    "updates-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-zh.html: visible content exists without JS",
+    "updates-zh.html: production indexing policy is explicit",
+    "updates-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-yue.html: visible content exists without JS",
+    "updates-yue.html: production indexing policy is explicit",
+    "updates-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-es.html: visible content exists without JS",
+    "updates-es.html: production indexing policy is explicit",
     "updates-en.html: static localized HTML, metadata, reciprocal alternatives",
     "updates-en.html: visible content exists without JS",
     "updates-en.html: production indexing policy is explicit",
+    "updates-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ar.html: visible content exists without JS",
+    "updates-ar.html: production indexing policy is explicit",
+    "updates-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-hi.html: visible content exists without JS",
+    "updates-hi.html: production indexing policy is explicit",
+    "updates-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-bn.html: visible content exists without JS",
+    "updates-bn.html: production indexing policy is explicit",
+    "updates-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-pt.html: visible content exists without JS",
+    "updates-pt.html: production indexing policy is explicit",
     "updates-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "updates-ru.html: visible content exists without JS",
     "updates-ru.html: production indexing policy is explicit",
+    "updates-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-uk.html: visible content exists without JS",
+    "updates-uk.html: production indexing policy is explicit",
+    "updates-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ja.html: visible content exists without JS",
+    "updates-ja.html: production indexing policy is explicit",
+    "updates-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-pnb.html: visible content exists without JS",
+    "updates-pnb.html: production indexing policy is explicit",
+    "updates-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-jv.html: visible content exists without JS",
+    "updates-jv.html: production indexing policy is explicit",
+    "updates-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ko.html: visible content exists without JS",
+    "updates-ko.html: production indexing policy is explicit",
+    "updates-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-de.html: visible content exists without JS",
+    "updates-de.html: production indexing policy is explicit",
+    "updates-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-fr.html: visible content exists without JS",
+    "updates-fr.html: production indexing policy is explicit",
+    "updates-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-te.html: visible content exists without JS",
+    "updates-te.html: production indexing policy is explicit",
+    "updates-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-mr.html: visible content exists without JS",
+    "updates-mr.html: production indexing policy is explicit",
+    "updates-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-tr.html: visible content exists without JS",
+    "updates-tr.html: production indexing policy is explicit",
+    "updates-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ur.html: visible content exists without JS",
+    "updates-ur.html: production indexing policy is explicit",
+    "updates-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-vi.html: visible content exists without JS",
+    "updates-vi.html: production indexing policy is explicit",
+    "updates-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ta.html: visible content exists without JS",
+    "updates-ta.html: production indexing policy is explicit",
+    "updates-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-it.html: visible content exists without JS",
+    "updates-it.html: production indexing policy is explicit",
+    "updates-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-fa.html: visible content exists without JS",
+    "updates-fa.html: production indexing policy is explicit",
+    "updates-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-sw.html: visible content exists without JS",
+    "updates-sw.html: production indexing policy is explicit",
+    "updates-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "updates-ms.html: visible content exists without JS",
+    "updates-ms.html: production indexing policy is explicit",
     "security.html: static localized HTML, metadata, reciprocal alternatives",
     "security.html: visible content exists without JS",
     "security.html: production indexing policy is explicit",
+    "security-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-zh.html: visible content exists without JS",
+    "security-zh.html: production indexing policy is explicit",
+    "security-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-yue.html: visible content exists without JS",
+    "security-yue.html: production indexing policy is explicit",
+    "security-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-es.html: visible content exists without JS",
+    "security-es.html: production indexing policy is explicit",
     "security-en.html: static localized HTML, metadata, reciprocal alternatives",
     "security-en.html: visible content exists without JS",
     "security-en.html: production indexing policy is explicit",
+    "security-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ar.html: visible content exists without JS",
+    "security-ar.html: production indexing policy is explicit",
+    "security-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-hi.html: visible content exists without JS",
+    "security-hi.html: production indexing policy is explicit",
+    "security-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-bn.html: visible content exists without JS",
+    "security-bn.html: production indexing policy is explicit",
+    "security-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-pt.html: visible content exists without JS",
+    "security-pt.html: production indexing policy is explicit",
     "security-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "security-ru.html: visible content exists without JS",
     "security-ru.html: production indexing policy is explicit",
+    "security-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-uk.html: visible content exists without JS",
+    "security-uk.html: production indexing policy is explicit",
+    "security-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ja.html: visible content exists without JS",
+    "security-ja.html: production indexing policy is explicit",
+    "security-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-pnb.html: visible content exists without JS",
+    "security-pnb.html: production indexing policy is explicit",
+    "security-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-jv.html: visible content exists without JS",
+    "security-jv.html: production indexing policy is explicit",
+    "security-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ko.html: visible content exists without JS",
+    "security-ko.html: production indexing policy is explicit",
+    "security-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-de.html: visible content exists without JS",
+    "security-de.html: production indexing policy is explicit",
+    "security-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-fr.html: visible content exists without JS",
+    "security-fr.html: production indexing policy is explicit",
+    "security-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-te.html: visible content exists without JS",
+    "security-te.html: production indexing policy is explicit",
+    "security-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-mr.html: visible content exists without JS",
+    "security-mr.html: production indexing policy is explicit",
+    "security-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-tr.html: visible content exists without JS",
+    "security-tr.html: production indexing policy is explicit",
+    "security-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ur.html: visible content exists without JS",
+    "security-ur.html: production indexing policy is explicit",
+    "security-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-vi.html: visible content exists without JS",
+    "security-vi.html: production indexing policy is explicit",
+    "security-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ta.html: visible content exists without JS",
+    "security-ta.html: production indexing policy is explicit",
+    "security-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-it.html: visible content exists without JS",
+    "security-it.html: production indexing policy is explicit",
+    "security-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-fa.html: visible content exists without JS",
+    "security-fa.html: production indexing policy is explicit",
+    "security-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-sw.html: visible content exists without JS",
+    "security-sw.html: production indexing policy is explicit",
+    "security-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "security-ms.html: visible content exists without JS",
+    "security-ms.html: production indexing policy is explicit",
     "contact.html: static localized HTML, metadata, reciprocal alternatives",
     "contact.html: visible content exists without JS",
     "contact.html: production indexing policy is explicit",
+    "contact-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-zh.html: visible content exists without JS",
+    "contact-zh.html: production indexing policy is explicit",
+    "contact-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-yue.html: visible content exists without JS",
+    "contact-yue.html: production indexing policy is explicit",
+    "contact-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-es.html: visible content exists without JS",
+    "contact-es.html: production indexing policy is explicit",
     "contact-en.html: static localized HTML, metadata, reciprocal alternatives",
     "contact-en.html: visible content exists without JS",
     "contact-en.html: production indexing policy is explicit",
+    "contact-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ar.html: visible content exists without JS",
+    "contact-ar.html: production indexing policy is explicit",
+    "contact-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-hi.html: visible content exists without JS",
+    "contact-hi.html: production indexing policy is explicit",
+    "contact-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-bn.html: visible content exists without JS",
+    "contact-bn.html: production indexing policy is explicit",
+    "contact-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-pt.html: visible content exists without JS",
+    "contact-pt.html: production indexing policy is explicit",
     "contact-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "contact-ru.html: visible content exists without JS",
     "contact-ru.html: production indexing policy is explicit",
+    "contact-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-uk.html: visible content exists without JS",
+    "contact-uk.html: production indexing policy is explicit",
+    "contact-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ja.html: visible content exists without JS",
+    "contact-ja.html: production indexing policy is explicit",
+    "contact-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-pnb.html: visible content exists without JS",
+    "contact-pnb.html: production indexing policy is explicit",
+    "contact-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-jv.html: visible content exists without JS",
+    "contact-jv.html: production indexing policy is explicit",
+    "contact-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ko.html: visible content exists without JS",
+    "contact-ko.html: production indexing policy is explicit",
+    "contact-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-de.html: visible content exists without JS",
+    "contact-de.html: production indexing policy is explicit",
+    "contact-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-fr.html: visible content exists without JS",
+    "contact-fr.html: production indexing policy is explicit",
+    "contact-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-te.html: visible content exists without JS",
+    "contact-te.html: production indexing policy is explicit",
+    "contact-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-mr.html: visible content exists without JS",
+    "contact-mr.html: production indexing policy is explicit",
+    "contact-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-tr.html: visible content exists without JS",
+    "contact-tr.html: production indexing policy is explicit",
+    "contact-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ur.html: visible content exists without JS",
+    "contact-ur.html: production indexing policy is explicit",
+    "contact-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-vi.html: visible content exists without JS",
+    "contact-vi.html: production indexing policy is explicit",
+    "contact-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ta.html: visible content exists without JS",
+    "contact-ta.html: production indexing policy is explicit",
+    "contact-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-it.html: visible content exists without JS",
+    "contact-it.html: production indexing policy is explicit",
+    "contact-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-fa.html: visible content exists without JS",
+    "contact-fa.html: production indexing policy is explicit",
+    "contact-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-sw.html: visible content exists without JS",
+    "contact-sw.html: production indexing policy is explicit",
+    "contact-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "contact-ms.html: visible content exists without JS",
+    "contact-ms.html: production indexing policy is explicit",
     "delete-account.html: static localized HTML, metadata, reciprocal alternatives",
     "delete-account.html: visible content exists without JS",
     "delete-account.html: production indexing policy is explicit",
+    "delete-account-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-zh.html: visible content exists without JS",
+    "delete-account-zh.html: production indexing policy is explicit",
+    "delete-account-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-yue.html: visible content exists without JS",
+    "delete-account-yue.html: production indexing policy is explicit",
+    "delete-account-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-es.html: visible content exists without JS",
+    "delete-account-es.html: production indexing policy is explicit",
     "delete-account-en.html: static localized HTML, metadata, reciprocal alternatives",
     "delete-account-en.html: visible content exists without JS",
     "delete-account-en.html: production indexing policy is explicit",
+    "delete-account-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ar.html: visible content exists without JS",
+    "delete-account-ar.html: production indexing policy is explicit",
+    "delete-account-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-hi.html: visible content exists without JS",
+    "delete-account-hi.html: production indexing policy is explicit",
+    "delete-account-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-bn.html: visible content exists without JS",
+    "delete-account-bn.html: production indexing policy is explicit",
+    "delete-account-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-pt.html: visible content exists without JS",
+    "delete-account-pt.html: production indexing policy is explicit",
     "delete-account-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "delete-account-ru.html: visible content exists without JS",
     "delete-account-ru.html: production indexing policy is explicit",
+    "delete-account-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-uk.html: visible content exists without JS",
+    "delete-account-uk.html: production indexing policy is explicit",
+    "delete-account-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ja.html: visible content exists without JS",
+    "delete-account-ja.html: production indexing policy is explicit",
+    "delete-account-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-pnb.html: visible content exists without JS",
+    "delete-account-pnb.html: production indexing policy is explicit",
+    "delete-account-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-jv.html: visible content exists without JS",
+    "delete-account-jv.html: production indexing policy is explicit",
+    "delete-account-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ko.html: visible content exists without JS",
+    "delete-account-ko.html: production indexing policy is explicit",
+    "delete-account-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-de.html: visible content exists without JS",
+    "delete-account-de.html: production indexing policy is explicit",
+    "delete-account-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-fr.html: visible content exists without JS",
+    "delete-account-fr.html: production indexing policy is explicit",
+    "delete-account-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-te.html: visible content exists without JS",
+    "delete-account-te.html: production indexing policy is explicit",
+    "delete-account-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-mr.html: visible content exists without JS",
+    "delete-account-mr.html: production indexing policy is explicit",
+    "delete-account-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-tr.html: visible content exists without JS",
+    "delete-account-tr.html: production indexing policy is explicit",
+    "delete-account-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ur.html: visible content exists without JS",
+    "delete-account-ur.html: production indexing policy is explicit",
+    "delete-account-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-vi.html: visible content exists without JS",
+    "delete-account-vi.html: production indexing policy is explicit",
+    "delete-account-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ta.html: visible content exists without JS",
+    "delete-account-ta.html: production indexing policy is explicit",
+    "delete-account-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-it.html: visible content exists without JS",
+    "delete-account-it.html: production indexing policy is explicit",
+    "delete-account-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-fa.html: visible content exists without JS",
+    "delete-account-fa.html: production indexing policy is explicit",
+    "delete-account-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-sw.html: visible content exists without JS",
+    "delete-account-sw.html: production indexing policy is explicit",
+    "delete-account-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "delete-account-ms.html: visible content exists without JS",
+    "delete-account-ms.html: production indexing policy is explicit",
     "privacy.html: static localized HTML, metadata, reciprocal alternatives",
     "privacy.html: visible content exists without JS",
     "privacy.html: production indexing policy is explicit",
+    "privacy-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-zh.html: visible content exists without JS",
+    "privacy-zh.html: production indexing policy is explicit",
+    "privacy-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-yue.html: visible content exists without JS",
+    "privacy-yue.html: production indexing policy is explicit",
+    "privacy-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-es.html: visible content exists without JS",
+    "privacy-es.html: production indexing policy is explicit",
     "privacy-en.html: static localized HTML, metadata, reciprocal alternatives",
     "privacy-en.html: visible content exists without JS",
     "privacy-en.html: production indexing policy is explicit",
+    "privacy-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ar.html: visible content exists without JS",
+    "privacy-ar.html: production indexing policy is explicit",
+    "privacy-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-hi.html: visible content exists without JS",
+    "privacy-hi.html: production indexing policy is explicit",
+    "privacy-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-bn.html: visible content exists without JS",
+    "privacy-bn.html: production indexing policy is explicit",
+    "privacy-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-pt.html: visible content exists without JS",
+    "privacy-pt.html: production indexing policy is explicit",
     "privacy-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "privacy-ru.html: visible content exists without JS",
     "privacy-ru.html: production indexing policy is explicit",
+    "privacy-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-uk.html: visible content exists without JS",
+    "privacy-uk.html: production indexing policy is explicit",
+    "privacy-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ja.html: visible content exists without JS",
+    "privacy-ja.html: production indexing policy is explicit",
+    "privacy-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-pnb.html: visible content exists without JS",
+    "privacy-pnb.html: production indexing policy is explicit",
+    "privacy-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-jv.html: visible content exists without JS",
+    "privacy-jv.html: production indexing policy is explicit",
+    "privacy-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ko.html: visible content exists without JS",
+    "privacy-ko.html: production indexing policy is explicit",
+    "privacy-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-de.html: visible content exists without JS",
+    "privacy-de.html: production indexing policy is explicit",
+    "privacy-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-fr.html: visible content exists without JS",
+    "privacy-fr.html: production indexing policy is explicit",
+    "privacy-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-te.html: visible content exists without JS",
+    "privacy-te.html: production indexing policy is explicit",
+    "privacy-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-mr.html: visible content exists without JS",
+    "privacy-mr.html: production indexing policy is explicit",
+    "privacy-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-tr.html: visible content exists without JS",
+    "privacy-tr.html: production indexing policy is explicit",
+    "privacy-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ur.html: visible content exists without JS",
+    "privacy-ur.html: production indexing policy is explicit",
+    "privacy-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-vi.html: visible content exists without JS",
+    "privacy-vi.html: production indexing policy is explicit",
+    "privacy-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ta.html: visible content exists without JS",
+    "privacy-ta.html: production indexing policy is explicit",
+    "privacy-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-it.html: visible content exists without JS",
+    "privacy-it.html: production indexing policy is explicit",
+    "privacy-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-fa.html: visible content exists without JS",
+    "privacy-fa.html: production indexing policy is explicit",
+    "privacy-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-sw.html: visible content exists without JS",
+    "privacy-sw.html: production indexing policy is explicit",
+    "privacy-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "privacy-ms.html: visible content exists without JS",
+    "privacy-ms.html: production indexing policy is explicit",
     "terms.html: static localized HTML, metadata, reciprocal alternatives",
     "terms.html: visible content exists without JS",
     "terms.html: production indexing policy is explicit",
+    "terms-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-zh.html: visible content exists without JS",
+    "terms-zh.html: production indexing policy is explicit",
+    "terms-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-yue.html: visible content exists without JS",
+    "terms-yue.html: production indexing policy is explicit",
+    "terms-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-es.html: visible content exists without JS",
+    "terms-es.html: production indexing policy is explicit",
     "terms-en.html: static localized HTML, metadata, reciprocal alternatives",
     "terms-en.html: visible content exists without JS",
     "terms-en.html: production indexing policy is explicit",
+    "terms-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ar.html: visible content exists without JS",
+    "terms-ar.html: production indexing policy is explicit",
+    "terms-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-hi.html: visible content exists without JS",
+    "terms-hi.html: production indexing policy is explicit",
+    "terms-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-bn.html: visible content exists without JS",
+    "terms-bn.html: production indexing policy is explicit",
+    "terms-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-pt.html: visible content exists without JS",
+    "terms-pt.html: production indexing policy is explicit",
     "terms-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "terms-ru.html: visible content exists without JS",
     "terms-ru.html: production indexing policy is explicit",
+    "terms-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-uk.html: visible content exists without JS",
+    "terms-uk.html: production indexing policy is explicit",
+    "terms-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ja.html: visible content exists without JS",
+    "terms-ja.html: production indexing policy is explicit",
+    "terms-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-pnb.html: visible content exists without JS",
+    "terms-pnb.html: production indexing policy is explicit",
+    "terms-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-jv.html: visible content exists without JS",
+    "terms-jv.html: production indexing policy is explicit",
+    "terms-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ko.html: visible content exists without JS",
+    "terms-ko.html: production indexing policy is explicit",
+    "terms-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-de.html: visible content exists without JS",
+    "terms-de.html: production indexing policy is explicit",
+    "terms-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-fr.html: visible content exists without JS",
+    "terms-fr.html: production indexing policy is explicit",
+    "terms-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-te.html: visible content exists without JS",
+    "terms-te.html: production indexing policy is explicit",
+    "terms-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-mr.html: visible content exists without JS",
+    "terms-mr.html: production indexing policy is explicit",
+    "terms-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-tr.html: visible content exists without JS",
+    "terms-tr.html: production indexing policy is explicit",
+    "terms-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ur.html: visible content exists without JS",
+    "terms-ur.html: production indexing policy is explicit",
+    "terms-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-vi.html: visible content exists without JS",
+    "terms-vi.html: production indexing policy is explicit",
+    "terms-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ta.html: visible content exists without JS",
+    "terms-ta.html: production indexing policy is explicit",
+    "terms-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-it.html: visible content exists without JS",
+    "terms-it.html: production indexing policy is explicit",
+    "terms-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-fa.html: visible content exists without JS",
+    "terms-fa.html: production indexing policy is explicit",
+    "terms-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-sw.html: visible content exists without JS",
+    "terms-sw.html: production indexing policy is explicit",
+    "terms-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "terms-ms.html: visible content exists without JS",
+    "terms-ms.html: production indexing policy is explicit",
     "cookies.html: static localized HTML, metadata, reciprocal alternatives",
     "cookies.html: visible content exists without JS",
     "cookies.html: production indexing policy is explicit",
+    "cookies-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-zh.html: visible content exists without JS",
+    "cookies-zh.html: production indexing policy is explicit",
+    "cookies-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-yue.html: visible content exists without JS",
+    "cookies-yue.html: production indexing policy is explicit",
+    "cookies-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-es.html: visible content exists without JS",
+    "cookies-es.html: production indexing policy is explicit",
     "cookies-en.html: static localized HTML, metadata, reciprocal alternatives",
     "cookies-en.html: visible content exists without JS",
     "cookies-en.html: production indexing policy is explicit",
+    "cookies-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ar.html: visible content exists without JS",
+    "cookies-ar.html: production indexing policy is explicit",
+    "cookies-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-hi.html: visible content exists without JS",
+    "cookies-hi.html: production indexing policy is explicit",
+    "cookies-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-bn.html: visible content exists without JS",
+    "cookies-bn.html: production indexing policy is explicit",
+    "cookies-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-pt.html: visible content exists without JS",
+    "cookies-pt.html: production indexing policy is explicit",
     "cookies-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "cookies-ru.html: visible content exists without JS",
     "cookies-ru.html: production indexing policy is explicit",
+    "cookies-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-uk.html: visible content exists without JS",
+    "cookies-uk.html: production indexing policy is explicit",
+    "cookies-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ja.html: visible content exists without JS",
+    "cookies-ja.html: production indexing policy is explicit",
+    "cookies-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-pnb.html: visible content exists without JS",
+    "cookies-pnb.html: production indexing policy is explicit",
+    "cookies-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-jv.html: visible content exists without JS",
+    "cookies-jv.html: production indexing policy is explicit",
+    "cookies-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ko.html: visible content exists without JS",
+    "cookies-ko.html: production indexing policy is explicit",
+    "cookies-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-de.html: visible content exists without JS",
+    "cookies-de.html: production indexing policy is explicit",
+    "cookies-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-fr.html: visible content exists without JS",
+    "cookies-fr.html: production indexing policy is explicit",
+    "cookies-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-te.html: visible content exists without JS",
+    "cookies-te.html: production indexing policy is explicit",
+    "cookies-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-mr.html: visible content exists without JS",
+    "cookies-mr.html: production indexing policy is explicit",
+    "cookies-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-tr.html: visible content exists without JS",
+    "cookies-tr.html: production indexing policy is explicit",
+    "cookies-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ur.html: visible content exists without JS",
+    "cookies-ur.html: production indexing policy is explicit",
+    "cookies-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-vi.html: visible content exists without JS",
+    "cookies-vi.html: production indexing policy is explicit",
+    "cookies-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ta.html: visible content exists without JS",
+    "cookies-ta.html: production indexing policy is explicit",
+    "cookies-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-it.html: visible content exists without JS",
+    "cookies-it.html: production indexing policy is explicit",
+    "cookies-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-fa.html: visible content exists without JS",
+    "cookies-fa.html: production indexing policy is explicit",
+    "cookies-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-sw.html: visible content exists without JS",
+    "cookies-sw.html: production indexing policy is explicit",
+    "cookies-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "cookies-ms.html: visible content exists without JS",
+    "cookies-ms.html: production indexing policy is explicit",
     "404.html: static localized HTML, metadata, reciprocal alternatives",
     "404.html: visible content exists without JS",
     "404.html: production indexing policy is explicit",
+    "404-zh.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-zh.html: visible content exists without JS",
+    "404-zh.html: production indexing policy is explicit",
+    "404-yue.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-yue.html: visible content exists without JS",
+    "404-yue.html: production indexing policy is explicit",
+    "404-es.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-es.html: visible content exists without JS",
+    "404-es.html: production indexing policy is explicit",
     "404-en.html: static localized HTML, metadata, reciprocal alternatives",
     "404-en.html: visible content exists without JS",
     "404-en.html: production indexing policy is explicit",
+    "404-ar.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ar.html: visible content exists without JS",
+    "404-ar.html: production indexing policy is explicit",
+    "404-hi.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-hi.html: visible content exists without JS",
+    "404-hi.html: production indexing policy is explicit",
+    "404-bn.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-bn.html: visible content exists without JS",
+    "404-bn.html: production indexing policy is explicit",
+    "404-pt.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-pt.html: visible content exists without JS",
+    "404-pt.html: production indexing policy is explicit",
     "404-ru.html: static localized HTML, metadata, reciprocal alternatives",
     "404-ru.html: visible content exists without JS",
     "404-ru.html: production indexing policy is explicit",
-    "Production sitemap: 21 unique canonical pages; no drafts/private/query aliases",
+    "404-uk.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-uk.html: visible content exists without JS",
+    "404-uk.html: production indexing policy is explicit",
+    "404-ja.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ja.html: visible content exists without JS",
+    "404-ja.html: production indexing policy is explicit",
+    "404-pnb.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-pnb.html: visible content exists without JS",
+    "404-pnb.html: production indexing policy is explicit",
+    "404-jv.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-jv.html: visible content exists without JS",
+    "404-jv.html: production indexing policy is explicit",
+    "404-ko.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ko.html: visible content exists without JS",
+    "404-ko.html: production indexing policy is explicit",
+    "404-de.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-de.html: visible content exists without JS",
+    "404-de.html: production indexing policy is explicit",
+    "404-fr.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-fr.html: visible content exists without JS",
+    "404-fr.html: production indexing policy is explicit",
+    "404-te.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-te.html: visible content exists without JS",
+    "404-te.html: production indexing policy is explicit",
+    "404-mr.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-mr.html: visible content exists without JS",
+    "404-mr.html: production indexing policy is explicit",
+    "404-tr.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-tr.html: visible content exists without JS",
+    "404-tr.html: production indexing policy is explicit",
+    "404-ur.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ur.html: visible content exists without JS",
+    "404-ur.html: production indexing policy is explicit",
+    "404-vi.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-vi.html: visible content exists without JS",
+    "404-vi.html: production indexing policy is explicit",
+    "404-ta.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ta.html: visible content exists without JS",
+    "404-ta.html: production indexing policy is explicit",
+    "404-it.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-it.html: visible content exists without JS",
+    "404-it.html: production indexing policy is explicit",
+    "404-fa.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-fa.html: visible content exists without JS",
+    "404-fa.html: production indexing policy is explicit",
+    "404-sw.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-sw.html: visible content exists without JS",
+    "404-sw.html: production indexing policy is explicit",
+    "404-ms.html: static localized HTML, metadata, reciprocal alternatives",
+    "404-ms.html: visible content exists without JS",
+    "404-ms.html: production indexing policy is explicit",
+    "Search locale mappings use distinct supported language/script tags",
+    "Production sitemap: unique canonical pages for all languages; no drafts/private/query aliases",
     "Production robots allow crawling and reference the canonical sitemap",
     "Preview stays non-indexable and does not advertise draft pages",
     "Raw legal draft sources also carry noindex in generated hosting headers",
@@ -113,135 +906,1191 @@
   "inputs": [
     {
       "path": "dist/index.html",
-      "sha256": "8faaea65aa869a2db75fa2483798ee6d68d3ba23460b18e4c685192598aab2e0"
+      "sha256": "0c059d68bd7661096b90f74eec287bce4e72603433514366fd7b7c977e1e4861"
+    },
+    {
+      "path": "dist/index-zh.html",
+      "sha256": "d941e07ed0c6bb7e7064f7b893242baba36173ae51360f4c3eb24a00168e4747"
+    },
+    {
+      "path": "dist/index-yue.html",
+      "sha256": "5f2b4c2f05ec17f6296dc293e723028223c40b31d2ee533fb4cdeca08543dfb5"
+    },
+    {
+      "path": "dist/index-es.html",
+      "sha256": "f1b8e903ada6f8630fd97e82737a09299947627838b27a42a6ce38163fc9a1a0"
     },
     {
       "path": "dist/index-en.html",
-      "sha256": "adbd1caa7b5169b2262628f1e0a8d58bf811d0a32c2327492e5c38d9f1eeba97"
+      "sha256": "765f85674d7d225d9b1fa99a9ac80be1b68421aed8f835a73fa8d8324b7f3988"
+    },
+    {
+      "path": "dist/index-ar.html",
+      "sha256": "e0339d7d600c103da6e73e39f56693c48ffc62d750edb859fdeef9e9c63e6bf7"
+    },
+    {
+      "path": "dist/index-hi.html",
+      "sha256": "45c85d699a89d8d6a8668371d1fb3e6f35ef45c52135c676f5fcb2f11408c6f4"
+    },
+    {
+      "path": "dist/index-bn.html",
+      "sha256": "6f08b55827e6e03aa03ce28f30ec218986758b0a1252bef45dcf41b6eca6f1e5"
+    },
+    {
+      "path": "dist/index-pt.html",
+      "sha256": "a2530a151cf82442c9e94d8d15db53e73940557af6f4e1100fd7dcd19b494b14"
     },
     {
       "path": "dist/index-ru.html",
-      "sha256": "8226f456c5f8fe3b485c36dd5ccbce8bc86b05fa8a1824ea805c277d3603d42e"
+      "sha256": "586cffa59ee49607ae6038ac3479d501e16203c44c145eae648ab91cb75220df"
+    },
+    {
+      "path": "dist/index-uk.html",
+      "sha256": "ce2f4d7f0e37f15cbdcbbb0d7a823f57cd403b3adff09a2fd0ee9f11d5764e2e"
+    },
+    {
+      "path": "dist/index-ja.html",
+      "sha256": "0668e74b117216fdd137dec55d854aca045269b404ce536ef44810b24912dbe8"
+    },
+    {
+      "path": "dist/index-pnb.html",
+      "sha256": "a0821eef2ffe067680730452c85de8417e4fb8c64070e2ff5020fa20269a053d"
+    },
+    {
+      "path": "dist/index-jv.html",
+      "sha256": "37a28ca56cae9449d4b5f2a44d8d8005b637d6930fc5e4b8e2114fe965871499"
+    },
+    {
+      "path": "dist/index-ko.html",
+      "sha256": "c05800c6b38f4cb171d339ff557ac555bfbfb7ef3f34a0f62013f679cb47122a"
+    },
+    {
+      "path": "dist/index-de.html",
+      "sha256": "6ec9ab931ccb2b07843c4c2cec25214efc144f753d9cb0271f1993c44be3aff4"
+    },
+    {
+      "path": "dist/index-fr.html",
+      "sha256": "383cea34a3936b7dd49e6879246e1f7bd1f0b75b19e563411993365fb94d3152"
+    },
+    {
+      "path": "dist/index-te.html",
+      "sha256": "7e96d932285e455a3f1979dab1c1b73cc896df2658243690d0d3497c4a43fea9"
+    },
+    {
+      "path": "dist/index-mr.html",
+      "sha256": "ae750b030644347afafd8465a1cd98e8d8f055a0f08bd989d7256e8bc0784e43"
+    },
+    {
+      "path": "dist/index-tr.html",
+      "sha256": "e414814eb86a9e24b15febab4958160035f12fa1bd7b7bb6cad1a561d4a25951"
+    },
+    {
+      "path": "dist/index-ur.html",
+      "sha256": "b70829b684a100aaf9625b1391ebf057764d574ea4321830643bb6dca20083ca"
+    },
+    {
+      "path": "dist/index-vi.html",
+      "sha256": "6abf96c4d1eb1acef4fe36fa206f4b6fab0d7ef709901f2baab9cda224ceb2d5"
+    },
+    {
+      "path": "dist/index-ta.html",
+      "sha256": "59558a841fd0df7a2c586ccc995e8536d0a9b44975f0038ed4e819199aa3cefd"
+    },
+    {
+      "path": "dist/index-it.html",
+      "sha256": "958a4ea474cf6983215216b3d016858db8e3ae899886d232088e656448164903"
+    },
+    {
+      "path": "dist/index-fa.html",
+      "sha256": "6251054836f946e155ec4c5190d33b0a7ad0fecd9a05111d6f56e4c45d949a04"
+    },
+    {
+      "path": "dist/index-sw.html",
+      "sha256": "4658804549166fc00fd7c8aff8b833b07e5b4bd6172d7f671eb16eedb6da9c15"
+    },
+    {
+      "path": "dist/index-ms.html",
+      "sha256": "8ba16be759d03c9a255cb4626bd2b617a692fea72bc4844b8ddea25fbedd0104"
     },
     {
       "path": "dist/status.html",
-      "sha256": "81b14a6288c5a5a3353ab21a9b996170778abfdaf8ab0841e496adec4e08a651"
+      "sha256": "1deb9b58cc8b660f8825d8d55228cbacc15ea313856d829aa0bf6466529f9b24"
+    },
+    {
+      "path": "dist/status-zh.html",
+      "sha256": "b16a8f752525fc281f135643c81db3b478bdfd245afc29629423c182dec0bdde"
+    },
+    {
+      "path": "dist/status-yue.html",
+      "sha256": "9ce4dd27787c0480b0cf39feb33f7f0d04216bc3d8d2071e956e61c35414483d"
+    },
+    {
+      "path": "dist/status-es.html",
+      "sha256": "d0dcd8f2e8b0ebbb25d3d69c9079911c94ce9316121bdad8d7eae0e6bf7280bc"
     },
     {
       "path": "dist/status-en.html",
-      "sha256": "64473c0d5db530f5334c33f3d1826e83481f91fbd9434a8d4d279a0667073b8b"
+      "sha256": "5ea2a950d6d5cb29133d5542500c62ab0fe48bc7ad87036638d196e20359d995"
+    },
+    {
+      "path": "dist/status-ar.html",
+      "sha256": "086c41c291225c40fd0514b8795fb212afce6f2957740c2524df7e6e15f7bad3"
+    },
+    {
+      "path": "dist/status-hi.html",
+      "sha256": "9f6acc4d9f8a539b723a2c94882839e815371074f15a3296fdfbdb17dd75f6e9"
+    },
+    {
+      "path": "dist/status-bn.html",
+      "sha256": "d66bc0adab9659620e94485a6257ddbafebd152023984b13226fa0b78a58cd0b"
+    },
+    {
+      "path": "dist/status-pt.html",
+      "sha256": "ba85e895f4e77473338b9e9892e5117f480c85917c6a729532e027a76af80b67"
     },
     {
       "path": "dist/status-ru.html",
-      "sha256": "acf1949926de2ea28fe222afea2f096c89cac14e02a7816d40b318b7c5879067"
+      "sha256": "b70280afd662c7449b074d787166d066876c2afe111b8a6d21bcc7b4a2267715"
+    },
+    {
+      "path": "dist/status-uk.html",
+      "sha256": "ccbf1b19ae3ff8dd2589c237229bb0077099638902d83461ec15d5712bab2c22"
+    },
+    {
+      "path": "dist/status-ja.html",
+      "sha256": "27d8f45cd029fd5ce350c42247452e9fef01507f33bcdda7a26ae8b5de8b0e19"
+    },
+    {
+      "path": "dist/status-pnb.html",
+      "sha256": "acb4e588c7efa06a1d53a4a390def06a54b4f205d41b9cec11368980c3a169a0"
+    },
+    {
+      "path": "dist/status-jv.html",
+      "sha256": "2e920b44502d326f0587c4962bf71704bf640f7b80fda2ab609418a7d6537dab"
+    },
+    {
+      "path": "dist/status-ko.html",
+      "sha256": "3e7e1a0dd72a99461a0ab421adb92df85af4e95bb5d0d958974f617c4de7ef69"
+    },
+    {
+      "path": "dist/status-de.html",
+      "sha256": "0ab89484c5e9012566e576baecf64c87d8691224dad6f136d31cb1b5d5bef783"
+    },
+    {
+      "path": "dist/status-fr.html",
+      "sha256": "60656a151d244782e23ec1ff5c816d5d814cef71de799d990301dc751875c969"
+    },
+    {
+      "path": "dist/status-te.html",
+      "sha256": "424dbd5fcb8fa80b7ef9a66c3c15bb74f2a7767fe6b9bccdcda989a674328e28"
+    },
+    {
+      "path": "dist/status-mr.html",
+      "sha256": "be51bd5714ce2ed6f21f7815bf2dbf794016cab08211f105c4d2a76ce8da002a"
+    },
+    {
+      "path": "dist/status-tr.html",
+      "sha256": "7887bca0f71eb7d09ae3c8d716f72fef44772e99ace98751a85aa6b500ed0517"
+    },
+    {
+      "path": "dist/status-ur.html",
+      "sha256": "5816728d43a21a673b7e7ce74ae8f306e19154040d6783059ce27fbd6898957b"
+    },
+    {
+      "path": "dist/status-vi.html",
+      "sha256": "b423ef8e1df4fae7d83a7441fa452ba7fa5b19395017ce8d96185396573f0fd3"
+    },
+    {
+      "path": "dist/status-ta.html",
+      "sha256": "ec2b08bc372f745b182e2dd520a25382098ec92ad73de7e0642fb82791a81248"
+    },
+    {
+      "path": "dist/status-it.html",
+      "sha256": "74611742c185cec56bca0156ca37f4bfa61c5d1f90eb053f15bf40868f8975e8"
+    },
+    {
+      "path": "dist/status-fa.html",
+      "sha256": "4588054c7e432fa5a1e43ae100fbf81328106121dea9ed24d5be39a582532093"
+    },
+    {
+      "path": "dist/status-sw.html",
+      "sha256": "33f08b4cfcc31397ad766db38d433f371176587e3f3e1ea30f66380380b16679"
+    },
+    {
+      "path": "dist/status-ms.html",
+      "sha256": "9ba30b9a6f88ad02cf4d545f64c1e61aea12b5130008bcd9b279836d881c7958"
     },
     {
       "path": "dist/roadmap.html",
-      "sha256": "19339ba55bbd084bbec3e1e352c8447b1d14c6eca728424bd208b9ca7e184ff6"
+      "sha256": "49f2be1d6dc01f6915080d2bda381319b8050bdb8396f0674f830a591e4cfe67"
+    },
+    {
+      "path": "dist/roadmap-zh.html",
+      "sha256": "039c771e31517350a27951303a80ba07914d734a0b9a23c5e1a21eecad62863c"
+    },
+    {
+      "path": "dist/roadmap-yue.html",
+      "sha256": "85a3c451ea847b0473567691daf64d4dea3a9008d5c3ebb1b16505ecc35a2c6e"
+    },
+    {
+      "path": "dist/roadmap-es.html",
+      "sha256": "5c6242ba667f654a907f3f6521e0e3d5224fcc2dbe5d77755fda5c979dc50533"
     },
     {
       "path": "dist/roadmap-en.html",
-      "sha256": "2b31f097ed34ae2991ea0a3ce8a81bfb70c277c07e9663fe444f2c2a49c800ab"
+      "sha256": "16f6c8b6ae00057258d6f9ee6545988acd9af43ef17cb3451b41ccdd50078154"
+    },
+    {
+      "path": "dist/roadmap-ar.html",
+      "sha256": "6993ff2bf6ed1739dca65de1bc361f4a8bff495b032089bae100d8449b3e6a8e"
+    },
+    {
+      "path": "dist/roadmap-hi.html",
+      "sha256": "24921ab36497a345b9ce9ab27bcc05665ac9bd44d39d8b7e1fb9ad83bcb887fb"
+    },
+    {
+      "path": "dist/roadmap-bn.html",
+      "sha256": "2342ff234f080c1c5cc72b57b2ce06189b1979a301bdd4c62fceeda8cb861ff3"
+    },
+    {
+      "path": "dist/roadmap-pt.html",
+      "sha256": "06ccfe7cff11fb96dac99397da2ee9b494303615b8678f4148e7035df32ba36e"
     },
     {
       "path": "dist/roadmap-ru.html",
-      "sha256": "4260b54f6ccd94437962915d6fb3c725ab34ed3327bffe6301595564b3a8318e"
+      "sha256": "0d57f88cd60ed50930bcd346ee1ddb16565b316a911aaa7f7163f06ffc1c3170"
+    },
+    {
+      "path": "dist/roadmap-uk.html",
+      "sha256": "1928dee87eccb4dcf86eb0358cbfa27a47120c7af620e5b74f15f192e3c4ff9a"
+    },
+    {
+      "path": "dist/roadmap-ja.html",
+      "sha256": "1ffbdd821d6d363022ee0749629090fce7ce386ae8d2e13a92ec8febef957493"
+    },
+    {
+      "path": "dist/roadmap-pnb.html",
+      "sha256": "34dc9db701f15406feada552fa3c0852f4052b580d875f36b6976add5fbe62ec"
+    },
+    {
+      "path": "dist/roadmap-jv.html",
+      "sha256": "cc2c700b6d4508a5bbc22e02ceb3c9365710d153125603099def819ad230b3ac"
+    },
+    {
+      "path": "dist/roadmap-ko.html",
+      "sha256": "d7d0b48aed2deba33d8ea1de1b0296c207a4679c2a5be78ef9942664cad5b6b8"
+    },
+    {
+      "path": "dist/roadmap-de.html",
+      "sha256": "e37ac049145e4069efc231b9becb65ea339ce7e8b6f110096dbeb835e1f156b8"
+    },
+    {
+      "path": "dist/roadmap-fr.html",
+      "sha256": "85120f736e97fcb9c4f5ef69ce6ec4cbb94a79b98f359692e38398547320c0d8"
+    },
+    {
+      "path": "dist/roadmap-te.html",
+      "sha256": "9722b7d669aa22a9b9522bcaff7594c3dc557f25ba7f526c4ab1ec1a5d7581a5"
+    },
+    {
+      "path": "dist/roadmap-mr.html",
+      "sha256": "3cdcb854dd76ca70519e9a89278b69f421f7bfbee8d89db5babdc201436ca258"
+    },
+    {
+      "path": "dist/roadmap-tr.html",
+      "sha256": "c3ad4d538ebe5adf26d9550c4b745b4211c04a1a3b628386ce74df2e0d5b3299"
+    },
+    {
+      "path": "dist/roadmap-ur.html",
+      "sha256": "f99eab176a23eaf11094652f481b29514ef2d224c4c1edc86740c0e1a1c71c3b"
+    },
+    {
+      "path": "dist/roadmap-vi.html",
+      "sha256": "0f7c15ced51d0afc2364780f9a6a17f5d425391add3eb893dac44e53e35c947a"
+    },
+    {
+      "path": "dist/roadmap-ta.html",
+      "sha256": "e5e5f6fa055c5d6ade5f4b4ee8e74c5a059cb8624861bb177c982929b898c62c"
+    },
+    {
+      "path": "dist/roadmap-it.html",
+      "sha256": "4964140b42d2ade6c9376962f480ad91bf473bd04d861532ce12aa5c03eed050"
+    },
+    {
+      "path": "dist/roadmap-fa.html",
+      "sha256": "e1f9c5f7c7b78a72318f7f347eb2327946a1363ffb9e25eaba13c270234cb1b9"
+    },
+    {
+      "path": "dist/roadmap-sw.html",
+      "sha256": "111d83254f41e9e90c91a05264d7f2f886ea7e074009738c5333c932602b618d"
+    },
+    {
+      "path": "dist/roadmap-ms.html",
+      "sha256": "31727c0857ba207c8db600e19719c5a1626a69e3fcef5ba31c74341e95d8b667"
     },
     {
       "path": "dist/updates.html",
-      "sha256": "f3a42ea66ea50607253b987b5e065eae845edf6af316898643270387d4bf0324"
+      "sha256": "831bce717909dc5f239e6c252b37c471bf075100af112c1f25ecfd62d60d2c27"
+    },
+    {
+      "path": "dist/updates-zh.html",
+      "sha256": "6711f34a083e03f96a2177fb0886a2c3f4d728234b82b86395590f4985b0d2dd"
+    },
+    {
+      "path": "dist/updates-yue.html",
+      "sha256": "2e5f8bb81a95cfe29743a1c75aa25d0829a61fff2915bd0c286072d1d53a55ec"
+    },
+    {
+      "path": "dist/updates-es.html",
+      "sha256": "298a398f59f7ed7a1b9b7460db188e40fdb303f8c521fd06eab076914509b292"
     },
     {
       "path": "dist/updates-en.html",
-      "sha256": "0937b635f3b25edf6eb017a480fce0ec0ad90c92999edf906a838e72f371b8cc"
+      "sha256": "9c4593506f8ff1f0e422b2e1ae3d2c0fee3a37918f5e0c096aa10538ccbdcffc"
+    },
+    {
+      "path": "dist/updates-ar.html",
+      "sha256": "4f6c65c8e673c085c23fa380aeef1c4c1b65be68450074cd119c6dc129858f4e"
+    },
+    {
+      "path": "dist/updates-hi.html",
+      "sha256": "ad8dd432bf7042d02c294e3a31451d1fa5e26986563e8d2892cd4b3b5af9e60f"
+    },
+    {
+      "path": "dist/updates-bn.html",
+      "sha256": "d2600752b4e849e3011128fcc11019729a80eb4c6d306f4a98a98f52dd753044"
+    },
+    {
+      "path": "dist/updates-pt.html",
+      "sha256": "ad309dc192d6f79aab3bd98e73b603c9c053b3df65606b9806914f9c2aee172f"
     },
     {
       "path": "dist/updates-ru.html",
-      "sha256": "4bd965a5fed4a45b5a75882b03a8b5a32c62ff4df8707755a7c887b3a5e719d2"
+      "sha256": "e9baa12a740af69326febce62b3859d445dcdbe405ce29437346d233bca0e218"
+    },
+    {
+      "path": "dist/updates-uk.html",
+      "sha256": "accc97a6c9c67f766e3a0a3c4c94d556032942a36e826e12def37e3071e86eaf"
+    },
+    {
+      "path": "dist/updates-ja.html",
+      "sha256": "f0b19ea884ad202a95911a5e0679fe24515c46e11339b09eb3de55597f7bfbe4"
+    },
+    {
+      "path": "dist/updates-pnb.html",
+      "sha256": "2760ebc235f686410ab7570ad9c96d6725e68843da81569e99de740b163f72b3"
+    },
+    {
+      "path": "dist/updates-jv.html",
+      "sha256": "1f6291058fc88a7e241cd62218454c76aaca05cacddacb979aa7a8fa257fdb6c"
+    },
+    {
+      "path": "dist/updates-ko.html",
+      "sha256": "37056a4bab1a40867ef5043c95804e440c98e036f7c94a058a6828389926a3c2"
+    },
+    {
+      "path": "dist/updates-de.html",
+      "sha256": "f2f2c77d4da34aa702b12c86b0edfd988f6a9ba119233983c40882a985e3967d"
+    },
+    {
+      "path": "dist/updates-fr.html",
+      "sha256": "4e94de4d7d4a9e8acdb73eaae56f854684c4e40edf50af2250df1e3b4f9dbf42"
+    },
+    {
+      "path": "dist/updates-te.html",
+      "sha256": "553cb7f2545d55591fc9c406d1d53e37405852f8f653f5860d46a0406e8034c0"
+    },
+    {
+      "path": "dist/updates-mr.html",
+      "sha256": "a5755e9f3030deeea87c97dbc7142722a388db2c5425c8afff0851d0a065deb7"
+    },
+    {
+      "path": "dist/updates-tr.html",
+      "sha256": "e4b8ebd33b79b0df188bec365ffb82da1f9d639fd95524e8d93497c21a2dc720"
+    },
+    {
+      "path": "dist/updates-ur.html",
+      "sha256": "702de85aa50cc42cc4199f82b4c45d88749e016615bd0a72c45982f3fcbc887a"
+    },
+    {
+      "path": "dist/updates-vi.html",
+      "sha256": "73b4d9b80c5e3966338328a7687c87ef683c86c96d0dc1f91962a828e085d9d6"
+    },
+    {
+      "path": "dist/updates-ta.html",
+      "sha256": "633702c4e0e16fa73e7eca1d5ff652dcfd81ab46fec913796e5e3b00d9f17c4a"
+    },
+    {
+      "path": "dist/updates-it.html",
+      "sha256": "306dc4af316cc707c77720a6d91a375b4f0be6df058e8f815914831577d40607"
+    },
+    {
+      "path": "dist/updates-fa.html",
+      "sha256": "4354abd70b3ae81c78879d8cd00d09259ce78d587dfd279a12f0bc48564c78e0"
+    },
+    {
+      "path": "dist/updates-sw.html",
+      "sha256": "132ad31c2dc1d6fe4b51db5411f91ab4a54b998cbedf8b6490aaf1cd8ad5a188"
+    },
+    {
+      "path": "dist/updates-ms.html",
+      "sha256": "2f19789f6d3e07366e7e9a82406ff655e7e9a29ebe7df404fc916d0a0cc12f73"
     },
     {
       "path": "dist/security.html",
-      "sha256": "b0b56e9b9bc8767070de97f93f67ab434c29628479c4b330e893eca7ecb74f3e"
+      "sha256": "7f8f779ba6708a6d80f13cf39532526c4e4f62b694a046c19b7c58c92413229a"
+    },
+    {
+      "path": "dist/security-zh.html",
+      "sha256": "e7066288ad2e5b2a1483bcab7921058755ee6d2c7dda31a8a88df47af51d68d0"
+    },
+    {
+      "path": "dist/security-yue.html",
+      "sha256": "4705a138f4d5bed05102b0f16e6ac7243582d42d11b147ccaead996d3db3f274"
+    },
+    {
+      "path": "dist/security-es.html",
+      "sha256": "4d4e0623bbcb2a8e5bff88071790bf38d0c0749f26ad2a82aecc6ee28ff8bd42"
     },
     {
       "path": "dist/security-en.html",
-      "sha256": "9376112512ae1ebb9eb8caa0b18c151070c262e19ecfce48b4b96205f96efad2"
+      "sha256": "ca87874088a96f774dee431355d8884201f0d49bbec957a8a3b668f09a9f97e3"
+    },
+    {
+      "path": "dist/security-ar.html",
+      "sha256": "9dd7bc6adba94db6a408a037eb9973bdf9522540c02c3392c78ec9d29f51778a"
+    },
+    {
+      "path": "dist/security-hi.html",
+      "sha256": "eb4eddfdca38af1e5eee540b555bde7c3de105d39b8e506bc65fa901a5b24129"
+    },
+    {
+      "path": "dist/security-bn.html",
+      "sha256": "4e64b046000071dfe9f24ab0d07004beabeeda0f1cfe8ffd22eda2b55a59622e"
+    },
+    {
+      "path": "dist/security-pt.html",
+      "sha256": "2167797ae2ff07c904c5be1d1cc3a9e3db74f813c40f8d2cbd4d524080a3cd6b"
     },
     {
       "path": "dist/security-ru.html",
-      "sha256": "c18ca6a4349473510cf187e0d200e38f825da6298cf3ac771a5d005eb14cdb0e"
+      "sha256": "663917ce709ce9d38a576620364afc31432df4803d02317e5505022ce0de2e78"
+    },
+    {
+      "path": "dist/security-uk.html",
+      "sha256": "73ccd7470f13536150555da204ddf9ef2da7f7b51bcc98b48f8ddddc2986e87e"
+    },
+    {
+      "path": "dist/security-ja.html",
+      "sha256": "a724bde68dbcafddadfa1e72c46c46fd6f8f4920184732a56798774c53eab709"
+    },
+    {
+      "path": "dist/security-pnb.html",
+      "sha256": "1f511c4e02d35ce7b0054358fae86c4dd0ec9ea360f271db26ec08adbc9aac9a"
+    },
+    {
+      "path": "dist/security-jv.html",
+      "sha256": "c0bc429944bc9c6332a643f4a82412c50f30fb60ff036053843387d7042dd45e"
+    },
+    {
+      "path": "dist/security-ko.html",
+      "sha256": "d3a03f54b6d98b058b2bcbc8943df37bc46f92ee26c89f951b25fcbfd6fb72b8"
+    },
+    {
+      "path": "dist/security-de.html",
+      "sha256": "73e135b6e9e7ddc09168c82ead57f396c6726499797b4b0e92502d5a670fbee0"
+    },
+    {
+      "path": "dist/security-fr.html",
+      "sha256": "22c439adf1dfdb78bf126eb074e07667a98cbf50b57a5bde78de5fcad86ff184"
+    },
+    {
+      "path": "dist/security-te.html",
+      "sha256": "54559eba2ade980fe46d710b12ea204b8840476f0bbc884c2c80829170258c54"
+    },
+    {
+      "path": "dist/security-mr.html",
+      "sha256": "13cd896e71925df11ef23b4553131bdccfc650717007f7fc77e73a7e282dea81"
+    },
+    {
+      "path": "dist/security-tr.html",
+      "sha256": "1da701f67980ed769d80f883a049896fe3c3a7f0e6f007cd71c29484a11961e1"
+    },
+    {
+      "path": "dist/security-ur.html",
+      "sha256": "be0e63ad320fe0e242d14c0080bde834150c1810541194f26a073f33f72f045d"
+    },
+    {
+      "path": "dist/security-vi.html",
+      "sha256": "044bf444253dc8b87d976693a796fa21f8a68383dd9fd3d594073687188f3a58"
+    },
+    {
+      "path": "dist/security-ta.html",
+      "sha256": "d1189d5780071f5dad3cd5bcac15b4f6e6b5f534afc9fb0a830125cce0825566"
+    },
+    {
+      "path": "dist/security-it.html",
+      "sha256": "4e65ede06cc1d634d8105777e0b86379cb1e57532e039324182ecf7f36f9e743"
+    },
+    {
+      "path": "dist/security-fa.html",
+      "sha256": "cc3cfd5e216e02e048bda5d337ed323fbe181b709b2a691bd151a4da5f2587d5"
+    },
+    {
+      "path": "dist/security-sw.html",
+      "sha256": "dfcd2d04a098d1be09d32761ac984da2dd2d8c7ff54c8fadfa513f16a3533972"
+    },
+    {
+      "path": "dist/security-ms.html",
+      "sha256": "1d3b1c33d88435f39d5e61fb4840aab62c60bf95cd9ed262cf6307dab6c64983"
     },
     {
       "path": "dist/contact.html",
-      "sha256": "9cc11b6f90916324f2380332883a8e3087cfd22a4b207478cd9dff40b2d7f7ef"
+      "sha256": "7e25e45723f9bcf29b07f7023c2432fea4b4fcce305c5edd1dec3a8112dd1065"
+    },
+    {
+      "path": "dist/contact-zh.html",
+      "sha256": "85f1889be2d25c81067d6df57675af97f3cc8547a523461ec9e8b5f5f04f31b0"
+    },
+    {
+      "path": "dist/contact-yue.html",
+      "sha256": "1b3bb5deca6477a5478eca4dde315fb777cdd651ede0b5f39adb558c59c2baf2"
+    },
+    {
+      "path": "dist/contact-es.html",
+      "sha256": "d6b28941d21d69c82cf65ae0fbba3f8e0e7053b59b614c3a0b2fd771567975d0"
     },
     {
       "path": "dist/contact-en.html",
-      "sha256": "6b64108a8b77bcc006a2ba56ae923ae0ee21419409d7579420a9d661ba2d18db"
+      "sha256": "dcfaf111acca2ca3ec328e6039062d20888c83ca4a1e62ebe3f5668a0afbb58f"
+    },
+    {
+      "path": "dist/contact-ar.html",
+      "sha256": "d6e7cb081882b4ec96889475683059260875c2e95aa470c9ee75add836b8b785"
+    },
+    {
+      "path": "dist/contact-hi.html",
+      "sha256": "ad232a04171602df10411133c322f5bb9ee33193eb7e58f85b3e3ec8a523ee72"
+    },
+    {
+      "path": "dist/contact-bn.html",
+      "sha256": "16b27c24099c442dc45b9dbd7a07655743c1855407c6f9a36dbe95eb55be7c6f"
+    },
+    {
+      "path": "dist/contact-pt.html",
+      "sha256": "12a5710f12ae9f295c7e1d6fd6baf684c2c0dd3c5cbb024a4e62d6da511ad70e"
     },
     {
       "path": "dist/contact-ru.html",
-      "sha256": "bd219f58f3bdd8daca269a1b9e6d8142c42857477d10956f4dcefc3f4f489496"
+      "sha256": "10cc30c117fe360fc1b7aaaf231792bda9b42278b4a2a9122641fd5ce5ea97a5"
+    },
+    {
+      "path": "dist/contact-uk.html",
+      "sha256": "079c980b39b5ac11bfa13cc53e80cb39c327bfe8eaa38f4a0bccc62db635bd80"
+    },
+    {
+      "path": "dist/contact-ja.html",
+      "sha256": "1d13a4eecd4fdbbf4ccd84678e7056d98b52776af2362a8963df659de83359fb"
+    },
+    {
+      "path": "dist/contact-pnb.html",
+      "sha256": "e211dd5ea9def52797925a2cb417d6c2ee472c8e74d9bb116706bf67be10cc8e"
+    },
+    {
+      "path": "dist/contact-jv.html",
+      "sha256": "0042c0e9fdaaaf8a975096eb422227ab17673e50fcf2f2e520cc4bc71d65df23"
+    },
+    {
+      "path": "dist/contact-ko.html",
+      "sha256": "01122616878f4068d14a4472a4c7835d273b2fe705d330cd86e5b619dfcf0b84"
+    },
+    {
+      "path": "dist/contact-de.html",
+      "sha256": "7d7cf313897ecdeedb68c5b9e05e35d8204e1bdc444e0b650346460895f480a5"
+    },
+    {
+      "path": "dist/contact-fr.html",
+      "sha256": "9531021a5ab0058e8f9cf07d47790aff088e3bc38c165ebc582d7fa4760cd225"
+    },
+    {
+      "path": "dist/contact-te.html",
+      "sha256": "8fdfc6f046c9c434080609bf485ac2f2acc9a5c9b7d68f906c3fcfc5a215feb6"
+    },
+    {
+      "path": "dist/contact-mr.html",
+      "sha256": "a2fe947b6dbb5b4490c9fa1a7b84b42a192c0c2552fadfc195a4583627fbaa12"
+    },
+    {
+      "path": "dist/contact-tr.html",
+      "sha256": "e97c95ac031839ffb1f17ee14b53d1d50e46da4b9a221d07f18c77503d7c1490"
+    },
+    {
+      "path": "dist/contact-ur.html",
+      "sha256": "dee4401a1f7014930c810b9c8a74e2dea4ad36a23e5f1cb9ffeccf179437fc4c"
+    },
+    {
+      "path": "dist/contact-vi.html",
+      "sha256": "1e3260440498c7e62aca2c8e6147e71e9c337940d60aea0e12f7d42fbf87a23e"
+    },
+    {
+      "path": "dist/contact-ta.html",
+      "sha256": "1b2327e63ffe63db158aeb3af06b4fb53f8c2a80350f5660c7adf17b57cf7021"
+    },
+    {
+      "path": "dist/contact-it.html",
+      "sha256": "2a03cfc342ee31997cdcff6004b5b5ebc5daeec15421e2ce8a3daec1beffc2bc"
+    },
+    {
+      "path": "dist/contact-fa.html",
+      "sha256": "5dbdc259631f4b5c5da4aeae00b97bb09ef611320408ab7283864594494205be"
+    },
+    {
+      "path": "dist/contact-sw.html",
+      "sha256": "21b5e1dbb3eafc1270c143a47ab0332f54f91e8a16e7e8a56df495224c3d6358"
+    },
+    {
+      "path": "dist/contact-ms.html",
+      "sha256": "b0b833f85d882ee87cba04d1275e61c50bcec5769fdd232d1f6b9b15e9e81f9e"
     },
     {
       "path": "dist/delete-account.html",
-      "sha256": "83016dd7c03d8e70fa2555e4924243585f35e11e19730536afc5517ed235a866"
+      "sha256": "8e1a17a800640e0a2878a21e14d53a5a836e6e424e4d83cceaf9565beccfc1c2"
+    },
+    {
+      "path": "dist/delete-account-zh.html",
+      "sha256": "a97599e46c9b0ce7d3ade11b24bd1fa8d6a7cb89e2deb0083bfce57154d91c88"
+    },
+    {
+      "path": "dist/delete-account-yue.html",
+      "sha256": "009534946a34daa2a581b25e54db2a6d5e3b78b5a31c149f93d6d8e4967840da"
+    },
+    {
+      "path": "dist/delete-account-es.html",
+      "sha256": "7f07ef27b344de1e5ac89e006fd307bf72dd42b4774becd16fa69bbd30d005e4"
     },
     {
       "path": "dist/delete-account-en.html",
-      "sha256": "1038d8aa0ec68d82a3433a54094fb48241fe81cb08a4278fb3805e2e984114b3"
+      "sha256": "c089df7f5ac0031de71f817089fc8874bb59766550a452194defeb1cc25c7f34"
+    },
+    {
+      "path": "dist/delete-account-ar.html",
+      "sha256": "af3913154f04f34f7dd3b7571c19ba8172c74bf04b63395c29f2c40fb02ea3ad"
+    },
+    {
+      "path": "dist/delete-account-hi.html",
+      "sha256": "f7e63dfb36e679e139cc82983fa394bfd5ee95eac4f5edf8696994cd4f100e2c"
+    },
+    {
+      "path": "dist/delete-account-bn.html",
+      "sha256": "cbbec08f13edb420a71462bc65eabe36e5caf404e96f501372d7a67926dde725"
+    },
+    {
+      "path": "dist/delete-account-pt.html",
+      "sha256": "09b63ecbbc6c8dfa8961c8b7287b0624732b9c9a6e1d8e39894bc1a5dc3bcc27"
     },
     {
       "path": "dist/delete-account-ru.html",
-      "sha256": "04baefd17f93ddb37c8be1495bd1e6364c259d397da66f43c4fa0900bd529ecf"
+      "sha256": "748e35516df129ad09e513ea264c06caab7796d2c29dcb4d2442fd4b9ae07f42"
+    },
+    {
+      "path": "dist/delete-account-uk.html",
+      "sha256": "d18c3f59da8cdb729395f5107775e4062c0b17db5b71bbdbb6023fac875a1d89"
+    },
+    {
+      "path": "dist/delete-account-ja.html",
+      "sha256": "a0f523da79cb95e6e2d35519ad76ef5a9baabdee27c969487b085e2035a7ae1a"
+    },
+    {
+      "path": "dist/delete-account-pnb.html",
+      "sha256": "129e53411454c67045be3e4f263f1f43acd436ab6ef1f57afbaa5eadcfa861fb"
+    },
+    {
+      "path": "dist/delete-account-jv.html",
+      "sha256": "b6ca5a53da71323f47d720a9de0d4a5a0ecd80e711fff6549e027e276a1b2efa"
+    },
+    {
+      "path": "dist/delete-account-ko.html",
+      "sha256": "e28e575a64554cb12e88d1941a1f0cb3453b86a44ef6e70fb4b418762586df07"
+    },
+    {
+      "path": "dist/delete-account-de.html",
+      "sha256": "ac40a6b4615740856f3875a3f730cb9fa6cf4f20879087bfc53f7abfcff1c3b0"
+    },
+    {
+      "path": "dist/delete-account-fr.html",
+      "sha256": "c471d1c58214afd49b81c7632c244238513a2c1c0971f634129c087358da9eeb"
+    },
+    {
+      "path": "dist/delete-account-te.html",
+      "sha256": "0c5680601681c9e82b2ad236f02dea13f7b15b2aae7ca49e2b49a9762dc52d8b"
+    },
+    {
+      "path": "dist/delete-account-mr.html",
+      "sha256": "37b723316a7886f0a1a676a91ea82a2b9df8b432a1f0531c21ec894fcff00e2c"
+    },
+    {
+      "path": "dist/delete-account-tr.html",
+      "sha256": "8e8fd8a9b24cf1067c088dab42502dab191f4ab9bfe1f51eb07614fa20484b6b"
+    },
+    {
+      "path": "dist/delete-account-ur.html",
+      "sha256": "2e4ae6a5e454886c789f3e4f923d9c7e190bf4af65f5264cc8571ebb7b9e58d0"
+    },
+    {
+      "path": "dist/delete-account-vi.html",
+      "sha256": "1a683e1888e28ecd7d5aa7dfeb342ae845de33b76440cf891408b58dc0c57106"
+    },
+    {
+      "path": "dist/delete-account-ta.html",
+      "sha256": "5929997724e35f4f6fc3877e1ff8f4d0010383389347cf238535187fd9a6d1d9"
+    },
+    {
+      "path": "dist/delete-account-it.html",
+      "sha256": "ac6a55f4de60e6e9ad37ac88df18c30a5cabd45ac2f22cde47fd2f505192025f"
+    },
+    {
+      "path": "dist/delete-account-fa.html",
+      "sha256": "749f53d07033a03a93a3859317d2950dd7ad083d9f8e55211b63ffae1132081b"
+    },
+    {
+      "path": "dist/delete-account-sw.html",
+      "sha256": "5f6d664ae10b2bbc64eaa91b0ebdd3ac6d48ea0015b6e023bef4609de9f669ea"
+    },
+    {
+      "path": "dist/delete-account-ms.html",
+      "sha256": "8e4d050d5aa3025606d077f4f15938b63c8b3623eddd67c9d0ba52e0cba24456"
     },
     {
       "path": "dist/privacy.html",
-      "sha256": "7dae855e1a61c1ddf5a9e9d6b258906199e56dc0550cb2749ae9082a7c3e8ff9"
+      "sha256": "78927bd41d3302671427ccd75a9709afee62677b97621adffa12891f11a0753b"
+    },
+    {
+      "path": "dist/privacy-zh.html",
+      "sha256": "c5506ff00b8a1918430fb7274b444adcfe2e284845812f4f4382da4d95c9d17b"
+    },
+    {
+      "path": "dist/privacy-yue.html",
+      "sha256": "a331cc22db39138605059c745371b4a16c6d1917b5d497b8b1db17ce1738fdbc"
+    },
+    {
+      "path": "dist/privacy-es.html",
+      "sha256": "6b7b5b3886a90fa646a86dfe513ab68df94ef36d5bab599e969489cd88642d68"
     },
     {
       "path": "dist/privacy-en.html",
-      "sha256": "d327b977e97e98562fc8c3078fa8eeaac1a83ae05da0210e20b466c4722d38f1"
+      "sha256": "fb36d65926af860adae6fd928df796fa7b2dc6145809e4c5fdc16b93cd80ad58"
+    },
+    {
+      "path": "dist/privacy-ar.html",
+      "sha256": "f9466aabe33fed149400691a0e3ac67e8c02f61afa9d5a30f024be13ab00d8f0"
+    },
+    {
+      "path": "dist/privacy-hi.html",
+      "sha256": "7b9f137888a300ac704442aa527f6b56a8fb1725b25d25da5a31e5ba7620c1b3"
+    },
+    {
+      "path": "dist/privacy-bn.html",
+      "sha256": "8529f62454f687ecb930ec74de94cfe5d88fb554c7ed31535cf2030ee3686c6e"
+    },
+    {
+      "path": "dist/privacy-pt.html",
+      "sha256": "8c2b39301140d2f18d8a31dd758b13bcb29de363ef2a4462420c07bc357010d6"
     },
     {
       "path": "dist/privacy-ru.html",
-      "sha256": "f8403ce4e5fd57ad9930a52974fa360bdbce0ef767bc5ee55fc9344f4792e34e"
+      "sha256": "01b0924d22f62ff7587a08a99a10fa42c3394bed24bdfbe1857ca7028deab99a"
+    },
+    {
+      "path": "dist/privacy-uk.html",
+      "sha256": "1479ebb3f515c1bda79edb0b5f78840733cb28644103b681edb1588f996f0a24"
+    },
+    {
+      "path": "dist/privacy-ja.html",
+      "sha256": "cee5a6703434568cc42d6952cca4d6c95b0aab2d2237083e663e2b3356e62b1e"
+    },
+    {
+      "path": "dist/privacy-pnb.html",
+      "sha256": "d9ceab36c81f2e0054f4ddaac31acd84c5debd08b22ff7b73bcc3842cb8dfe7b"
+    },
+    {
+      "path": "dist/privacy-jv.html",
+      "sha256": "d5f57fae95aecf5b067109b5fadbf3c5fd7043470b28ccf61714fde8c8dc88ed"
+    },
+    {
+      "path": "dist/privacy-ko.html",
+      "sha256": "d4f0c3cb4fc7d8fdac30425a2c19b4c00590c4eee3c4ceba0dcda4775bbe3ba2"
+    },
+    {
+      "path": "dist/privacy-de.html",
+      "sha256": "9687e2fea423b023f8ba59bf4545d88d23b675e0699811641775f8721744fa25"
+    },
+    {
+      "path": "dist/privacy-fr.html",
+      "sha256": "2fe4774959c073c1ed733e50ecb7e6b4a624888197f1b3cc54c7f03a312c6b94"
+    },
+    {
+      "path": "dist/privacy-te.html",
+      "sha256": "68975879c004328eae2c1d0e892d4712381698364a622df11b1cc295e559b306"
+    },
+    {
+      "path": "dist/privacy-mr.html",
+      "sha256": "b33939ccaba8fc0335ea2aea690dc9cd7f66b13e8902c461c36469ee0d212b04"
+    },
+    {
+      "path": "dist/privacy-tr.html",
+      "sha256": "429de336ac057d744d72e4567d7eba81207461de1a3a1327c8820cfa74a8864c"
+    },
+    {
+      "path": "dist/privacy-ur.html",
+      "sha256": "23180c945c6afbe21e258f33e6c39f55771e9114407fff368b5d02307de35227"
+    },
+    {
+      "path": "dist/privacy-vi.html",
+      "sha256": "a8ff9817c1cf78a6703534823f1d978caf72dd99998ac5c5f077288e7b58f9ba"
+    },
+    {
+      "path": "dist/privacy-ta.html",
+      "sha256": "32e4ee094b11b993fbd368256db37262d10eb7b843d034aebf13e57b3156c95a"
+    },
+    {
+      "path": "dist/privacy-it.html",
+      "sha256": "adb6672821fb384e84d5aa3ebbe13f480bf033cbb0b95c05f278898f0d6e8241"
+    },
+    {
+      "path": "dist/privacy-fa.html",
+      "sha256": "4aaec5d167207ea496fc8b704c690dd1ac64660b8b97efa58878706c5f62eedb"
+    },
+    {
+      "path": "dist/privacy-sw.html",
+      "sha256": "5d0659be161e366dde579351217bb9df8ddc15f399ec595730d18d2336e3d9ed"
+    },
+    {
+      "path": "dist/privacy-ms.html",
+      "sha256": "6aeb31fe5564bdbe8ae14a59767f7c54c5d690e01022b32ef114075d6ed0f9c7"
     },
     {
       "path": "dist/terms.html",
-      "sha256": "e3f5870231d86613e721ef505013c67f3cbdcc60e65293fd1ffd6b4f449e1945"
+      "sha256": "ecfc305ccfbb99f389c62dae9aef03d2ce22708dce3da9a1643a21ec7967fcaa"
+    },
+    {
+      "path": "dist/terms-zh.html",
+      "sha256": "3e2184ddc864746312358bd0daa96fd6039cd0cea41f5c58addb38de87cb0074"
+    },
+    {
+      "path": "dist/terms-yue.html",
+      "sha256": "dcf2ccfbd77c7bf3089099d678c37b931d67ec2e244c262889f56deadd26932b"
+    },
+    {
+      "path": "dist/terms-es.html",
+      "sha256": "b74f64acde802c72d0b9909a91ec7b5b2bc778b3fe4239a6170138e3c0706076"
     },
     {
       "path": "dist/terms-en.html",
-      "sha256": "a230796ca027679d0098db32f500e4e5120d64deafb6958b1d70d9dcc8a92ef7"
+      "sha256": "0e9f556612a5998dcdd3fdddc5ef6ab7bf9423a61dff1906dd538bf0f14b362f"
+    },
+    {
+      "path": "dist/terms-ar.html",
+      "sha256": "4a5a2394165f0e52b291a41d62639daa17e661c27ec9b6ff521521d794d319ab"
+    },
+    {
+      "path": "dist/terms-hi.html",
+      "sha256": "4609f5189db5c2eb7840b387cb51dec82903a698a452a5c3f257209eec531ed3"
+    },
+    {
+      "path": "dist/terms-bn.html",
+      "sha256": "54b7b92bb7623c703e7b69641b8dd272020758c0f66c700ed75c8e73eb884b36"
+    },
+    {
+      "path": "dist/terms-pt.html",
+      "sha256": "e9c288e11f1d6b4034267aea5ac9109bb866a3732f61cc6283b877d00e787985"
     },
     {
       "path": "dist/terms-ru.html",
-      "sha256": "0e8a1ddc072a43569ec07e31acee3762c9da66eeea6581d6ee344461f44ea226"
+      "sha256": "47c44bbf01341cc5afb8091359f1fcdd7188a97dbfca4dbca7c96d2c829d33c1"
+    },
+    {
+      "path": "dist/terms-uk.html",
+      "sha256": "5555ab5e848768f240e5f9b5ecea97763e117b9c160d38ed6cc6db98a24e1365"
+    },
+    {
+      "path": "dist/terms-ja.html",
+      "sha256": "0cf27d9d3670922fe6a358609f921736c34ceb7dbd74be072ecfba250e51acc1"
+    },
+    {
+      "path": "dist/terms-pnb.html",
+      "sha256": "00f3117894671e10fbb7f052a5b01d2a0a08db0fd7f69c61e3ce330abe9497fd"
+    },
+    {
+      "path": "dist/terms-jv.html",
+      "sha256": "b3516a2a4d8adc01b1e7974a3097e1133475dee1300c522c810368ed45fe9653"
+    },
+    {
+      "path": "dist/terms-ko.html",
+      "sha256": "b943d1c0c0808e4cc80e72a301472563db7d798104c02f340ad2cea09de6bad4"
+    },
+    {
+      "path": "dist/terms-de.html",
+      "sha256": "73a72e08541864bb4aca3766ea84fb196b637b3ddbacd2ca8b4c3cb44f4c6acf"
+    },
+    {
+      "path": "dist/terms-fr.html",
+      "sha256": "afda5365a2886d28ece7d65c20b42d849d4318537f1d0573297d219772c5e03e"
+    },
+    {
+      "path": "dist/terms-te.html",
+      "sha256": "102610629b0335799c175350a637f466f3f53bbee5b96b2e9fc9e47366c51dc5"
+    },
+    {
+      "path": "dist/terms-mr.html",
+      "sha256": "beee749977e1985502f9204885fba8a30c86ad6007ad9219f71e67327aefde47"
+    },
+    {
+      "path": "dist/terms-tr.html",
+      "sha256": "c45a9e6774d7a866a88691b979efaf6c1547e5e687063879a11a8e86ce65df94"
+    },
+    {
+      "path": "dist/terms-ur.html",
+      "sha256": "8f933c4d7a7cf4906a26c53def6b0ccbc4b5fac19e2ec63c5362c5a700eff4b7"
+    },
+    {
+      "path": "dist/terms-vi.html",
+      "sha256": "3a6631d240944645830f6092ee456fb53f44582cb73b1aaaaf658e8d80cea131"
+    },
+    {
+      "path": "dist/terms-ta.html",
+      "sha256": "907587211383719ab1b6f39149368e9e1b24428dcd21fbc435c94e3d9804de59"
+    },
+    {
+      "path": "dist/terms-it.html",
+      "sha256": "f9b0d5c7cb3581b238b75c7310be9b4d97e12a3ee8b38b29c3a0c33d1b44fac3"
+    },
+    {
+      "path": "dist/terms-fa.html",
+      "sha256": "56f8dde3ba5bdd677829b2f1dee26e5070afe65257276483d255768a3f7d24db"
+    },
+    {
+      "path": "dist/terms-sw.html",
+      "sha256": "d0aec8d1492498c59288a2cd51b396a235a04b0d66d6921194be4f50c1445c9d"
+    },
+    {
+      "path": "dist/terms-ms.html",
+      "sha256": "623060e81a33aefe86d18c7df9e0f5b7019266f0ccb551b0142a329609588c56"
     },
     {
       "path": "dist/cookies.html",
-      "sha256": "48e02ebc624b211552db0efc035af262d16935be83e7ce7b6fd8fcf992bedb78"
+      "sha256": "f944cb80121d342ce804715efc1afbb7096cf873a87ab966977f22d0e74f33ad"
+    },
+    {
+      "path": "dist/cookies-zh.html",
+      "sha256": "619db03d96f00cdedd591d542b57148998ea27a76e7235e467bb9faafd7ec9cf"
+    },
+    {
+      "path": "dist/cookies-yue.html",
+      "sha256": "622ea730f3c3f3c8ed1a7c2ec0705be1c10403701c2f13252743c156d0e47be9"
+    },
+    {
+      "path": "dist/cookies-es.html",
+      "sha256": "aea4f294db0ff06c92a222526c64a93d7e416d36c129a161e4a18bfe046ed6a1"
     },
     {
       "path": "dist/cookies-en.html",
-      "sha256": "a51c32e1a57be341303c899293e92f0a47d6fad1299b9bab4c0df22b34e17c19"
+      "sha256": "f3b152d52b08aea44af8f8893037bcb42ab25d8933dd54c654c4884042fbdbbb"
+    },
+    {
+      "path": "dist/cookies-ar.html",
+      "sha256": "fbd30cc2deac4e886f91094578800ca838cb5f0ba1bf7fc6a2b2f77414805745"
+    },
+    {
+      "path": "dist/cookies-hi.html",
+      "sha256": "150da756525749a55a98839272683302b25f89aa4b6fe3a81cdeca7f22e0500c"
+    },
+    {
+      "path": "dist/cookies-bn.html",
+      "sha256": "af61ed27a2aad3244ad7fd1daa11f6f1cf8cc7e5e572cde1a3df5d1a63724051"
+    },
+    {
+      "path": "dist/cookies-pt.html",
+      "sha256": "ac024cc606d64e1556b2393c3b774f1d072629d114f4450b3dcf539913d7d908"
     },
     {
       "path": "dist/cookies-ru.html",
-      "sha256": "add725087e5e517dc04b5c70f1ddd1bdfab2026970238ff7d6c01206b1602ecc"
+      "sha256": "519bc203b0de96d18ebbf7dc252301a1d3120cf490ff40f0444b35ab2b995245"
+    },
+    {
+      "path": "dist/cookies-uk.html",
+      "sha256": "22b260624775a2ece151bf72f097fbdfc99fce0e3d6d227371c29e0c0e9c2099"
+    },
+    {
+      "path": "dist/cookies-ja.html",
+      "sha256": "7abfb61a818d71ab2b22d04803f31ada57a6bb7e290b837b46d3737fd2789008"
+    },
+    {
+      "path": "dist/cookies-pnb.html",
+      "sha256": "da9b7373b16f3dc7c7f6666cf54135f71a427f8ab3e63e8fce0ad5db7f8a2683"
+    },
+    {
+      "path": "dist/cookies-jv.html",
+      "sha256": "170e05f258b87106b04eeb5cf97da99a414d092240ecf4c466ff429d9b2709b3"
+    },
+    {
+      "path": "dist/cookies-ko.html",
+      "sha256": "04796e85c1cfd6d81876d01ab74056b4ce2834083d57e776fcfced1bbc8b9198"
+    },
+    {
+      "path": "dist/cookies-de.html",
+      "sha256": "a0e56aeaee11d622afd2bf1d78fb4238a00fb5fed690f0aacdf88dd16750e826"
+    },
+    {
+      "path": "dist/cookies-fr.html",
+      "sha256": "d0155450dcaae9a716f93afd9cd277fe6829b6c7d5bb6d6416f02a195e19c72d"
+    },
+    {
+      "path": "dist/cookies-te.html",
+      "sha256": "f0d5d74afec3c6b34b445197de40814506e06ee45bd75e6479c2ed5b8f7ab369"
+    },
+    {
+      "path": "dist/cookies-mr.html",
+      "sha256": "3a120814540065b88286a2876b466a0f4e7b775f3d92c2dc27997a95b2f45a56"
+    },
+    {
+      "path": "dist/cookies-tr.html",
+      "sha256": "f5e2ec6393239eb556a18ef01053ce14c19be6e31f64be40fdaea195cb89ae86"
+    },
+    {
+      "path": "dist/cookies-ur.html",
+      "sha256": "cd57a420c735e14c662c3b20baf11af5c3b341d0e8da42e69f99743ad6369531"
+    },
+    {
+      "path": "dist/cookies-vi.html",
+      "sha256": "435be14ef3248c24910063aee135ec96321baec2d0c75a39b1441a4c10449967"
+    },
+    {
+      "path": "dist/cookies-ta.html",
+      "sha256": "4ca04a2dd14bfedf4b41672a4ef94268fee839888a0964131190a773d5fe0d27"
+    },
+    {
+      "path": "dist/cookies-it.html",
+      "sha256": "ee6291ed8537f969aba9278d916bf5b8c8e0db430fbd71f7c8c5508c4eff8d58"
+    },
+    {
+      "path": "dist/cookies-fa.html",
+      "sha256": "edeea366dd6dee3103943e735d26a6420c6ec42dbeacdfe6053e2c485d28f8e6"
+    },
+    {
+      "path": "dist/cookies-sw.html",
+      "sha256": "a4b06b001b84883226458d49f7a17e3e1a6b569a36640122bfde3d520285f4b3"
+    },
+    {
+      "path": "dist/cookies-ms.html",
+      "sha256": "211ae7367470276dbc7adcc4df8ed2b0220e9de0c21b134ecf35be78f7f489bc"
     },
     {
       "path": "dist/404.html",
-      "sha256": "b4e01f59fafc1801b69a92c4fb7a00a77beb28870ca264b59b2da6b299a0f11c"
+      "sha256": "a65ca22c082949793303bdb00be7d7a7b54d8729c4c728180f1d98de6635c0a7"
+    },
+    {
+      "path": "dist/404-zh.html",
+      "sha256": "5b83f45fcf932ecf9f7f6058949a7dc7a6626fd3e47ec9643b36ca0202955188"
+    },
+    {
+      "path": "dist/404-yue.html",
+      "sha256": "7ebdc12e9cc347b4d3d519b52d2a93b8eb0d488769eca075078a3c38e47ef41a"
+    },
+    {
+      "path": "dist/404-es.html",
+      "sha256": "55518130661dd3aa79dfc9bfc74d24e69619132113f76f7ae395900fbd71a7f7"
     },
     {
       "path": "dist/404-en.html",
-      "sha256": "d74f9e793b20e0f019805825eaadc6a03fa1f6eaa7ad543b4fadcc282430439d"
+      "sha256": "3c74d6a67bf53ab6fce50fe4a334f997b6edc5893b043cbb7f2374db4c62df54"
+    },
+    {
+      "path": "dist/404-ar.html",
+      "sha256": "273f8841214184af022ee821b95e3543f19aa35cb4d4835499d8eb5d9d6a6a39"
+    },
+    {
+      "path": "dist/404-hi.html",
+      "sha256": "9349d504a8123a54df5023613cbd7ef12495ac4c6409cf6810cadd0975fb2e14"
+    },
+    {
+      "path": "dist/404-bn.html",
+      "sha256": "b19f696811656a9c89db97fb7029b7dfe21c56878ede5f1af87915568718fa07"
+    },
+    {
+      "path": "dist/404-pt.html",
+      "sha256": "c748e9763d9ba54c572dc11c1473a0ae746ac30dbcf54c0a3fd43009fe5b0327"
     },
     {
       "path": "dist/404-ru.html",
-      "sha256": "c443a8f84a8ba9a0ea7b1d6260309e1b33f1b6435faf6e31360524cbac9aa43f"
+      "sha256": "057e3160009dafc3c48bf2d89493f7f2c9dbc5e9c839a8e15d154ed07d99b0ec"
+    },
+    {
+      "path": "dist/404-uk.html",
+      "sha256": "7d6a963283c36d1669bb7a6292654c2bcfbfbd80db7796faa54e7c3ff10ea1a4"
+    },
+    {
+      "path": "dist/404-ja.html",
+      "sha256": "beac971a4c8f117c8d24d17a87e87400e28dd333257e380893ab34bba033aead"
+    },
+    {
+      "path": "dist/404-pnb.html",
+      "sha256": "9ddb4dab3ef5eb32d744aef12ad6dfdd73877033b1cf5062bf18daf408e542e0"
+    },
+    {
+      "path": "dist/404-jv.html",
+      "sha256": "b6665943f60bf93b3166ea201b30b81d4a2c72ad10cf73b8f52c4cbf69da8bb8"
+    },
+    {
+      "path": "dist/404-ko.html",
+      "sha256": "a357554dfad6a6e14f1bb3464b8d23ec5b214a9cd9d7637edfdf533e29d2b788"
+    },
+    {
+      "path": "dist/404-de.html",
+      "sha256": "6a41aaf53c69b815ab87b5a9e1ad29607e008c5c54a237f7cc583cb41e97e902"
+    },
+    {
+      "path": "dist/404-fr.html",
+      "sha256": "ec97ca34d878e0090d43f8bfffc791fe009404012948df93cef076f25cc2db6b"
+    },
+    {
+      "path": "dist/404-te.html",
+      "sha256": "bca2148ee3404e0d15d307afaedb1ac7ce1890a8329f866cc96f4eaaa647b240"
+    },
+    {
+      "path": "dist/404-mr.html",
+      "sha256": "97fa13735a7651bf8f4fcb47b35392e290c1016cb4127d595c672e8f65138f0a"
+    },
+    {
+      "path": "dist/404-tr.html",
+      "sha256": "1c97eaad738e2da5ed1b989f86c766ace2a2d4aaf54cc2e2169875ec08cb3285"
+    },
+    {
+      "path": "dist/404-ur.html",
+      "sha256": "7e3c37b0efab1d1fe40a0bfc046c12a683025633ba84b2b72ecc4fa47ffa3334"
+    },
+    {
+      "path": "dist/404-vi.html",
+      "sha256": "6f73b09cae92410467b9478a3f36c88567a9b72fc84cb42997b73128277ab521"
+    },
+    {
+      "path": "dist/404-ta.html",
+      "sha256": "27df09d4944a7fc128665f734af158dcf3dfd561b258468f54c30ba53df0bd0d"
+    },
+    {
+      "path": "dist/404-it.html",
+      "sha256": "693ef3a66bd80e13efef926352064675b67e895ee1951af467a0a3d3a1def189"
+    },
+    {
+      "path": "dist/404-fa.html",
+      "sha256": "577f735334764be453a7022bc659855bf375b9f36e2aabe086ff7e30bf6a9e98"
+    },
+    {
+      "path": "dist/404-sw.html",
+      "sha256": "dcbac37e81dc8ff39201a12a7f4c66936535e65f8a0e9b972ee81e0810d4d895"
+    },
+    {
+      "path": "dist/404-ms.html",
+      "sha256": "c8b4e05d92cdb00eaf712c21d10319d6bb21d206b7df79f30b24da84093ea760"
     }
   ],
   "published": false,

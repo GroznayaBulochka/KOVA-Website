@@ -2,6 +2,8 @@ import { spawn } from 'node:child_process';
 import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+const locales=Object.keys(JSON.parse(await readFile(new URL('../language-registry.json',import.meta.url),'utf8')));
+const localeFromUrl=url=>locales.find(l=>l!=='pl'&&new URL(url).pathname.endsWith('-'+l+'.html')) || 'pl';
 
 const edge = process.env.KOVA_EDGE || 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const origin = process.argv[2] || 'http://127.0.0.1:4173/';
@@ -101,6 +103,10 @@ try {
         && document.querySelector('meta[name="description"]').content===expected.description
         && document.querySelector('meta[property="og:url"]').content===expected.canonical
         && document.querySelector('meta[name="twitter:title"]').content===expected.title
+        && document.querySelector('meta[property="og:locale"]').content===expected.ogLocale
+        && document.querySelector('meta[property="og:image:alt"]').content===expected.imageAlt
+        && document.querySelector('meta[name="twitter:image:alt"]').content===expected.imageAlt
+        && [...document.querySelectorAll('meta[property="og:locale:alternate"]')].map(n=>n.content).sort().join()===Object.entries(data.locales).filter(([code])=>code!==lang).map(([,m])=>m.ogLocale).sort().join()
         && (data.page==='404' ? !document.querySelector('link[rel="canonical"]') : document.querySelector('link[rel="canonical"]').href===expected.canonical)
         && JSON.parse(document.getElementById('kova-structured-data').textContent)['@graph'].some(n=>n.inLanguage===lang&&n.url===expected.canonical),
       canonical:document.querySelector('link[rel="canonical"]')?.href};
@@ -115,7 +121,7 @@ try {
   })()`;
   const initialPublicLinks = await evaluate(publicDocumentProbe);
   if (!initialPublicLinks.valid) throw new Error('Missing initial public legal links: '+JSON.stringify(initialPublicLinks));
-  const expectedLanguage = new URL(origin).searchParams.get('lang') || /-(en|ru)\.html$/.exec(new URL(origin).pathname)?.[1] || 'pl';
+  const expectedLanguage = new URL(origin).searchParams.get('lang') || localeFromUrl(origin) || 'pl';
   if (initialSeo.present && (!initialSeo.valid || initialSeo.lang!==expectedLanguage)) throw new Error('Initial localized SEO mismatch: '+JSON.stringify(initialSeo));
   // The shared native modal must be dismissed before testing background navigation.
   // Its focus trap, first-visit state and Google protocol are covered separately.
@@ -124,7 +130,7 @@ try {
     await evaluate('document.querySelector(".language-trigger").focus()');
     await key('ArrowDown','ArrowDown',40);
     if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "true" && document.activeElement.matches(".language-option")')) throw new Error('Language keyboard open/focus failed');
-    await key('Home','Home',36); await key('ArrowDown','ArrowDown',40); await key('Enter','Enter',13);
+    await key('Home','Home',36); for(let i=0;i<locales.indexOf('en');i++) await key('ArrowDown','ArrowDown',40); await key('Enter','Enter',13);
     await delay(400);
     if (!await evaluate('document.documentElement.lang === "en" && document.querySelector(".language-trigger").ariaExpanded === "false" && document.activeElement.matches(".language-trigger") && new URL(location.href).searchParams.get("lang") === "en"')) throw new Error('Language keyboard selection/focus/URL failed: '+JSON.stringify(await evaluate('({lang:document.documentElement.lang,expanded:document.querySelector(".language-trigger").ariaExpanded,focus:document.activeElement.outerHTML,url:location.href,writes:window.__languageWrites})')));
     await key('ArrowDown','ArrowDown',40); await key('End','End',35); await key('Escape','Escape',27);
@@ -134,7 +140,7 @@ try {
     await key('ArrowDown','ArrowDown',40); await key('Tab','Tab',9);
     if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "false" && !document.activeElement.matches(".language-option")')) throw new Error('Language Tab traps focus');
     // Restore the case language using the actual custom option.
-    const initialLanguage = new URL(origin).searchParams.get('lang') || /-(en|ru)\.html$/.exec(new URL(origin).pathname)?.[1] || 'pl';
+    const initialLanguage = new URL(origin).searchParams.get('lang') || localeFromUrl(origin) || 'pl';
     await evaluate(`document.querySelector('.language-trigger').click();document.querySelector('[data-language="${initialLanguage}"]').click()`);
     await delay(500);
   } else if (!origin.includes('workspace.html')) throw new Error('Custom language control missing');
@@ -302,7 +308,7 @@ try {
         const picker = document.querySelector('.language-picker');
         const trigger = picker.querySelector('.language-trigger');
         trigger.click();
-        languagePickerWorks = trigger.getAttribute('aria-expanded') === 'true' && !picker.querySelector('.language-options').hidden && picker.querySelectorAll('[role="option"]').length === 3;
+        languagePickerWorks = trigger.getAttribute('aria-expanded') === 'true' && !picker.querySelector('.language-options').hidden && picker.querySelectorAll('[role="option"]').length === window.KOVA_LANGUAGES.codes.length;
         const bounds = picker.querySelector('.language-options').getBoundingClientRect();
         languagePickerWorks = languagePickerWorks && bounds.left >= 0 && bounds.right <= innerWidth && bounds.bottom <= innerHeight;
         languagePickerWorks = languagePickerWorks && picker.querySelector('[aria-selected="true"]').dataset.language === document.documentElement.lang;

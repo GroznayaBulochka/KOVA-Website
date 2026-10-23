@@ -1,0 +1,502 @@
+{
+  "home": {
+    "skip": "Langkau ke kandungan",
+    "tagline": "Kewangan di satu tempat.",
+    "language": "Bahasa",
+    "openMenu": "Buka menu",
+    "close": "tutup",
+    "navFeatures": "Ciri-ciri",
+    "navScreens": "Skrin",
+    "navSecurity": "Keselamatan",
+    "navLegal": "Dokumen",
+    "navRoadmap": "Pelan hala tuju",
+    "heroKicker": "KOVA V1 Percuma Luar Talian · Android",
+    "heroTitle": "Kewangan<br><em>di satu tempat.</em>",
+    "heroCopy": "Perbelanjaan, belanjawan, matlamat dan pendapatan kerja — pada telefon anda. Kami sedang menyediakan keluaran luar talian percuma, tanpa akaun awan, iklan atau langganan.",
+    "projectStatus": "Semak status projek",
+    "watchVideo": "Lihat lawatan produk",
+    "pauseVideo": "jeda",
+    "playVideo": "Main",
+    "releaseNote": "Sebelum pelancaran · muat turun awam belum tersedia lagi.",
+    "trustPrivacy": "Privasi dahulu",
+    "trustPrivacyCopy": "Pangkalan data tempatan, tiada muat naik automatik",
+    "trustReports": "Ringkasan praktikal",
+    "trustReportsCopy": "Laporan berdasarkan data yang direkodkan",
+    "trustOffline": "Berfungsi di luar talian",
+    "trustOfflineCopy": "Kewangan teras kekal tersedia",
+    "trustLife": "Dibina untuk kehidupan sebenar",
+    "trustLifeCopy": "Belanjawan, matlamat, kerja dan nota",
+    "featureExpenses": "Perbelanjaan",
+    "featureExpensesCopy": "Transaksi dan kategori",
+    "featureBudgets": "Belanjawan",
+    "featureBudgetsCopy": "Had dan kemajuan",
+    "featureWork": "Kerja & Pendapatan",
+    "featureWorkCopy": "Jam dan hari gaji",
+    "featureCalendar": "Kalendar",
+    "featureCalendarCopy": "Acara kewangan",
+    "featureReports": "Laporan",
+    "featureReportsCopy": "Trend dan ramalan",
+    "featureGoals": "Matlamat",
+    "featureGoalsCopy": "Rancangan dan kemajuan",
+    "clarityKicker": "Aplikasi itu",
+    "clarityTitle": "Lihat ke dalam KOVA.",
+    "clarityCopy": "Satu pengguna fiksyen, tiga akaun dan enam bulan kewangan harian. Ini adalah tangkapan skrin baharu yang belum disentuh daripada KOVA Luar Talian V1 yang dijalankan pada emulator Android. Ciri sebenar dengan rekod demo yang realistik, tanpa kewangan peribadi sesiapa. Skrin apl adalah dalam bahasa Poland.",
+    "clarityAccounts": "Akaun, urus niaga dan kategori",
+    "clarityReports": "Laporan dan ramalan",
+    "clarityWork": "Kerja & Pendapatan",
+    "clarityGoals": "Matlamat dan nilai bersih",
+    "clarityCurrency": "Ketepatan pelbagai mata wang",
+    "clarityOffline": "Akses luar talian kepada data teras",
+    "exploreScreens": "Terokai skrin",
+    "screenOverview": "Tema gelap",
+    "screenOverviewCopy": "Baki dan perbelanjaan yang direkodkan",
+    "screenFeatures": "Tema ringan",
+    "screenFeaturesCopy": "Data yang sama, rupa yang berbeza",
+    "screenWork": "Nota tempatan",
+    "screenWorkCopy": "Disimpan pada peranti · 21 Okt 2026",
+    "securityKicker": "Privasi",
+    "securityTitle": "Cara KOVA melindungi data.",
+    "securityCopy": "Pangkalan data kewangan utama menggunakan SQLCipher. Tiada penyegerakan awan automatik. Lindungi telefon anda dan eksport dengan kerap — penyulitan tidak menggantikan sandaran atau pengendalian yang teliti.",
+    "securityModel": "Baca tentang keselamatan",
+    "secureLocal": "Penyulitan tempatan",
+    "secureOwner": "Pengasingan data",
+    "secureOwnerCopy": "Rekod diberikan kepada pemiliknya",
+    "secureNoBank": "Tiada kata laluan bank",
+    "secureNoBankCopy": "KOVA tidak bersambung ke bank anda",
+    "secureOnline": "Eksport manual",
+    "secureOnlineCopy": "Salinan separa yang dilindungi kata laluan",
+    "legalKicker": "Dokumen",
+    "legalTitle": "Dasar KOVA.",
+    "legalCopy": "Salinan semasa dokumen apl. Dasar dan Syarat Privasi kekal sebagai draf yang memerlukan kelulusan sebelum diterbitkan.",
+    "privacyTitle": "Dasar Privasi",
+    "privacyCopy": "Data tempatan, eksport dan kenalan sokongan.",
+    "termsTitle": "Syarat Penggunaan",
+    "termsCopy": "Skop dan peraturan produk.",
+    "cookiesTitle": "biskut",
+    "cookiesCopy": "Tetapan dan storan penyemak imbas.",
+    "privacyShort": "Privasi",
+    "termsShort": "Syarat",
+    "cookiesShort": "biskut",
+    "activeDevelopment": "V1 Percuma Luar Talian · sebelum pelancaran.",
+    "cookieSettings": "tetapan",
+    "navFaq": "Soalan Lazim",
+    "navStatus": "Projek",
+    "galleryHint": "Ketik skrin untuk melihat imej penuh.",
+    "secureLocalCopy": "Pangkalan data yang disulitkan pada peranti anda",
+    "projectKicker": "Keluaran pertama",
+    "projectHeading": "Percuma. Untuk telefon anda.",
+    "projectCopy": "Akaun tempatan, urus niaga, belanjawan, pembayaran berulang, hutang, matlamat, nilai bersih, kerja, laporan, kalendar, nota dan OCR. Perkhidmatan awan, API bank, AI, Wear OS, Keluarga dalam talian dan sebut harga langsung bukan sebahagian daripada V1. Kelayakan akhir dan dokumen masih dalam persiapan.",
+    "availability": "Ketersediaan apl",
+    "roadmapLink": "Perkara yang sedang kami usahakan",
+    "updatesLink": "Kemas kini terkini",
+    "faqKicker": "Senang tahu",
+    "faqTitle": "Beberapa jawapan mudah.",
+    "faqCopy": "Sebelum anda mula menggunakan KOVA.",
+    "faqDownloadQ": "Bolehkah saya memuat turun KOVA lagi?",
+    "faqDownloadA": "Muat turun awam belum tersedia lagi. Pautan kedai yang disahkan akan dipaparkan pada halaman status projek apabila keluaran sedia. Kami akan mengumumkan tarikh hanya setelah ia disahkan.",
+    "faqOfflineQ": "Adakah aplikasi berfungsi tanpa internet?",
+    "faqOfflineA": "ya. V1 sedang disediakan sebagai apl luar talian dengan profil setempat. Ia tidak menawarkan perkhidmatan log masuk, penyegerakan atau AI Google. Pembekal fail, penyemak imbas atau apl e-mel pilihan anda mungkin menggunakan Internet secara bebas daripada KOVA.",
+    "faqBankQ": "Adakah saya perlu menyambungkan akaun bank saya?",
+    "faqBankA": "Tidak. KOVA tidak meminta kata laluan bank anda. Akaun dalam apl membantu menyusun maklumat kewangan yang anda rekod.",
+    "faqEstimateQ": "Adakah ramalan dan jumlah gaji bersih dijamin?",
+    "faqEstimateA": "Tidak. Ia adalah anggaran berdasarkan data dan konfigurasi yang direkodkan. Mereka mungkin berbeza daripada bayaran sebenar dan tidak menggantikan dokumen majikan atau nasihat individu.",
+    "faqWebsiteQ": "Bolehkah laman web ini mengakses kewangan saya?",
+    "faqWebsiteA": "Tidak. Laman web ini memperkenalkan projek dan tidak menyambung ke pangkalan data kewangan pada telefon anda. Analitis tapak web pilihan bergantung pada persetujuan anda.",
+    "altHome": "KOVA Luar Talian V1: skrin utama dengan sejarah kewangan fiksyen",
+    "altProfile": "KOVA Luar Talian V1: tiga akaun demo tempatan",
+    "altFeatures": "KOVA V1 Percuma: tema ringan pada emulator",
+    "altWork": "KOVA Luar Talian V1: nota ujian yang disimpan pada emulator",
+    "previous": "Skrin sebelumnya",
+    "next": "Skrin seterusnya",
+    "navigation": "Navigasi utama",
+    "pageTitle": "KOVA — kewangan di satu tempat",
+    "faqFreeQ": "Adakah KOVA akan percuma?",
+    "faqFreeA": "ya. V1 Percuma Luar Talian tidak mempunyai iklan, pembelian, langganan atau dinding berbayar. Ciri tempatan tidak memerlukan pendaftaran atau perkhidmatan bahagian belakang berbayar.",
+    "tourNote": "Skrin apl sebenar · data demo fiksyen · bukan rakaman video",
+    "tourChapters": "Pilih skrin lawatan",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "Kewangan tempatan",
+    "factAccount": "Tiada akaun dalam talian",
+    "faqBackupQ": "Bagaimanakah saya melindungi data saya atau menukar telefon?",
+    "faqBackupA": "Buat eksport manual yang dilindungi kata laluan dan simpannya dengan selamat di luar telefon anda. Import memerlukan pengesahan dan menggantikan data yang disokong bagi profil yang dipilih. Ia adalah salinan separa, bukan imej aplikasi penuh: imej nota terbenam disertakan, tetapi lampiran luaran dan foto resit memerlukan salinan berasingan. Penerbit tidak boleh memulihkan data daripada awan atau memulihkan kata laluan sandaran anda.",
+    "faqOcrQ": "Adakah pengimbasan resit berfungsi di luar talian?",
+    "faqOcrA": "OCR menggunakan model yang digabungkan dengan apl. Ambil foto atau pilih satu daripada galeri anda melalui pemilih Android. Pengiktirafan boleh menjadi salah — semak jumlah, mata wang dan tarikh sebelum menyimpan. Menafikan akses kamera tidak menyekat pemilihan fail.",
+    "faqDeviceQ": "Peranti dan khalayak yang KOVA untuk mana?",
+    "faqDeviceA": "Android telefon yang menjalankan Android 7.0 atau lebih baru, dengan antara muka PL/EN/RU. Ujian keserasian sedang dijalankan. Khalayak yang dimaksudkan ialah 13+, tetapi ini bukan penilaian Google Play yang diluluskan atau pengesahan ketersediaan di setiap negara. Tiada keluaran jam tangan atau iOS ditawarkan."
+  },
+  "slides": [
+    {
+      "title": "Kewangan anda hari ini",
+      "caption": "Baki, pendapatan dan perbelanjaan terkini",
+      "copy": "KOVASkrin utama sebenar dengan rekod tempatan untuk Marta, pengguna fiksyen. Sejarah kewangan yang sama menguatkan setiap skrin dalam lawatan ini."
+    },
+    {
+      "title": "Akaun",
+      "caption": "Akaun semasa, simpanan dan tunai",
+      "copy": "Tiga akaun tempatan mengatur kewangan harian. Baki termasuk pembelian, gaji dan pemindahan antara akaun anda sendiri. Tiada sambungan bank."
+    },
+    {
+      "title": "Transaksi",
+      "caption": "Enam bulan rekod setiap hari",
+      "copy": "Barangan runcit, kopi, pengangkutan, sewa dan gaji. Jumlah dan tarikh yang berbeza mencipta sejarah yang realistik, bukan senarai urus niaga yang sama."
+    },
+    {
+      "title": "Belanjawan dan had",
+      "caption": "Pelan perbelanjaan dan penggunaan semasa",
+      "copy": "Had bulanan untuk makanan, hiburan dan pengangkutan membandingkan rancangan dengan perbelanjaan yang direkodkan. Jumlah datang daripada profil demo yang sama."
+    },
+    {
+      "title": "Bayaran berulang",
+      "caption": "Sewa, internet, telefon dan langganan",
+      "copy": "Bil berulang mempunyai tarikh akhir dan sejarah pembayarannya sendiri. KOVA menyusun rekod; ia tidak memindahkan atau mengumpul wang."
+    },
+    {
+      "title": "Laporan",
+      "caption": "Ringkasan catatan yang direkodkan",
+      "copy": "Carta dan ringkasan dikira oleh KOVA daripada urus niaga tempatan. Data tersebut adalah rekaan, tetapi skrin dan pengiraan datang daripada apl yang sedang berjalan."
+    },
+    {
+      "title": "Kalendar kewangan",
+      "caption": "Peristiwa dan tarikh akhir dalam satu paparan",
+      "copy": "Transaksi direkodkan dan tarikh bil sepanjang bulan. Pilih hari untuk melihat acaranya tanpa mencari seluruh sejarah."
+    },
+    {
+      "title": "Nota",
+      "caption": "Pelan, senarai dan butiran harian",
+      "copy": "Pelan dana kecemasan dan nota perjalanan hujung minggu yang disimpan secara tempatan bersama kewangan. Ini adalah kandungan demo, bukan nota peribadi orang lain."
+    }
+  ],
+  "shell": {
+    "home": "Rumah",
+    "product": "Aplikasi itu",
+    "project": "Projek",
+    "legal": "Maklumat",
+    "features": "Ciri-ciri",
+    "screens": "Skrin apl",
+    "faq": "Soalan dan jawapan",
+    "status": "Status projek",
+    "roadmap": "Pelan hala tuju",
+    "updates": "Kemas kini",
+    "security": "Keselamatan",
+    "contact": "Kenalan",
+    "deletion": "Data anda",
+    "privacy": "Dasar Privasi",
+    "terms": "Syarat Penggunaan",
+    "cookies": "biskut",
+    "settings": "Tetapan kuki",
+    "tagline": "Kewangan setiap hari. Di satu tempat.",
+    "note": "KOVA Luar Talian Percuma V1 · sebelum pelancaran",
+    "top": "Kembali ke atas",
+    "skip": "Langkau ke kandungan",
+    "language": "Bahasa tapak",
+    "menu": "Menu",
+    "back": "Rumah",
+    "official": "Laman web projek rasmi"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "Halaman ini tiada di sini.",
+      "intro": "Pautan mungkin telah berubah. Pulang ke rumah atau semak maklumat projek.",
+      "cards": [],
+      "actions": [
+        [
+          "Rumah",
+          "index.html"
+        ],
+        [
+          "Status projek",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Status projek",
+      "title": "Luar Talian V1. Sebelum pelancaran.",
+      "intro": "Kami sedang menyediakan KOVA percuma untuk Android telefon: tiada pendaftaran, iklan, langganan atau penyegerakan awan. Keluaran belum tersedia secara umum lagi.",
+      "badge": "Dikemas kini: 21 Oktober 2026 · 1.0.8 (10)",
+      "cards": [
+        [
+          "Skop keluaran pertama",
+          "Akaun, urus niaga dan kategori, belanjawan, hutang, matlamat, nilai bersih, pembayaran berulang, profil dan waktu kerja kerja, laporan, kalendar, nota, pada peranti OCR dan eksport/import disulitkan manual."
+        ],
+        [
+          "Apa yang telah disemak",
+          "Artifak APK dan AAB telah dibina. Ujian dijalankan pada Android 7.0, 7.1 dan masa jalan 16 KiB sebenar. Pemindahan eksport yang disulitkan antara pemasangan terpencil dan import berulang tanpa pendua juga telah disemak. Ini adalah senario terhad, bukan jaminan untuk setiap telefon."
+        ],
+        [
+          "Apa yang tinggal",
+          "Antara muka normal dan matriks kebolehaksesan penuh, calon semasa pada telefon fizikal, kelulusan dokumen, tandatangan dan keperluan Google Play. Artifak keluaran semasa tidak ditandatangani."
+        ],
+        [
+          "Di Luar Talian V1",
+          "Akaun Google/Firebase, perkhidmatan awan, perkongsian keluarga dalam talian, API perbankan, sebut harga langsung, AI, Wear OS, Premium dan pembelian tidak aktif dalam keluaran ini. Tiada tarikh ketersediaan disahkan."
+        ]
+      ],
+      "note": "Kami akan menerbitkan tarikh pelancaran atau butang muat turun hanya selepas keluaran dan alamat kedai rasmi telah diluluskan.",
+      "actions": [
+        [
+          "Pelan keluaran",
+          "roadmap.html"
+        ],
+        [
+          "Perubahan terkini",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Pelan hala tuju",
+      "title": "Keluaran luar talian yang boleh dipercayai dahulu.",
+      "intro": "Kami sedang menamatkan kelayakan ciri sedia ada. Pelan ini tidak menjanjikan tarikh atau perkhidmatan baharu.",
+      "badge": "Keutamaan: Luar Talian Percuma V1",
+      "cards": [
+        [
+          "01 · Ujian akhir",
+          "Lengkapkan senario antara muka biasa, bahasa dan kebolehaksesan yang tinggal dan semak versi semasa pada telefon. Semakan yang lengkap bukanlah tuntutan kesediaan menyeluruh."
+        ],
+        [
+          "02 · Maklumat dan dasar",
+          "Penerbit dan butiran hubungan disahkan. Dokumen luar talian kekal sebagai draf: syarat, amalan sokongan, pasaran, khalayak dan alamat awam masih memerlukan kelulusan."
+        ],
+        [
+          "03 · Calon kedai",
+          "Luluskan tandatangan dan konfigurasi Google Play serta lengkapkan ujian dan pengisytiharan yang diperlukan. Pautan rasmi mengikuti kelulusan keluaran."
+        ],
+        [
+          "Kemudian · Kelayakan berasingan",
+          "Modul masa hadapan kekal dalam projek tetapi tidak didayakan. Perkhidmatan awan, AI, Wear OS dan pengewangan memerlukan keputusan, ujian dan pendedahan pengguna yang berasingan."
+        ]
+      ],
+      "actions": [
+        [
+          "Status semasa",
+          "status.html"
+        ],
+        [
+          "Kenalan",
+          "contact.html"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Privasi dan keselamatan",
+      "title": "Data tempatan. Had yang jelas.",
+      "intro": "V1 luar talian menyimpan kewangan pada telefon anda. Ia tidak membuat akaun dalam talian atau menyegerakkan rekod dengan pelayan.",
+      "badge": "Pangkalan data disulitkan · eksport manual",
+      "cards": [
+        [
+          "Pangkalan data pada peranti anda",
+          "Data kewangan menggunakan Bilik dan SQLCipher dengan pengasingan profil. Penyulitan tidak boleh menghalang setiap kehilangan telefon, kata laluan, kunci atau akses peranti. Kami tidak menuntut pensijilan keselamatan bebas."
+        ],
+        [
+          "Tiada muat naik automatik",
+          "Manifes keluaran yang disemak tidak mempunyai kebenaran INTERNET. Firebase, analitis apl, Crashlytics, iklan, Pengebilan dan perkhidmatan AI dilumpuhkan. Ini tidak bermakna Android atau apl lain tidak menghasilkan trafik rangkaian."
+        ],
+        [
+          "Eksport adalah pilihan anda",
+          "Eksport manual boleh disulitkan kata laluan. Ia meliputi rekod yang disokong, bukan imej pemasangan lengkap: imej nota tertanam bergerak bersamanya; rujukan fail luaran tidak menyalin fail itu sendiri. Simpan kata laluan dan fail dengan selamat. Tiada sandaran awan KOVA automatik."
+        ],
+        [
+          "Foto dan OCR",
+          "Pengecaman menggunakan model yang digabungkan dengan apl. Anda boleh mengambil foto atau memilih satu daripada galeri. Semak amaun, mata wang dan tarikh sebelum menyimpan — OCR boleh membuat kesilapan."
+        ],
+        [
+          "Laman web adalah berasingan",
+          "Tapak ini tidak boleh membaca pangkalan data telefon. Hanya selepas persetujuan, Google Analytics mengukur lawatan dan interaksi di tapak awam. Persetujuan boleh ditarik balik dalam pengaki; lihat Kuki untuk butiran. Pengehosan masa hadapan mungkin memproses data sambungan — konfigurasi dan dasarnya memerlukan kelulusan."
+        ],
+        [
+          "Laporkan dengan selamat",
+          "Terangkan isu di contact@kovacompass.app. Jangan hantar kata laluan, kunci, salinan pangkalan data penuh atau rekod kewangan sebenar. Sertakan versi apl, versi Android dan langkah pengeluaran semula dengan data contoh."
+        ]
+      ],
+      "actions": [
+        [
+          "Dasar privasi apl",
+          "privacy.html"
+        ],
+        [
+          "Eksport dan pemadaman data",
+          "delete-account.html"
+        ],
+        [
+          "Storan pelayar dan kuki",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Kemas kini",
+      "title": "KOVA beralih ke V1 Percuma Luar Talian.",
+      "intro": "Kemas kini pada keluaran akan datang, bukan pengumuman pelancaran.",
+      "badge": "21 Oktober 2026",
+      "cards": [
+        [
+          "Tiada akaun wajib",
+          "Public V1 direka untuk berfungsi tanpa pendaftaran atau internet. Perkhidmatan dalam talian dikekalkan untuk masa hadapan tetapi dilumpuhkan dalam keluaran ini."
+        ],
+        [
+          "Nota dan mudah alih data",
+          "Keserasian Android 7 editor telah ditetapkan. Menyemak kegigihan yang meliputi selepas dimulakan semula, imej terbenam, eksport dan import biasa antara pemasangan Android 7.1 dan 7.0 terpencil. Editor semasa juga telah disemak pada 16 KiB."
+        ],
+        [
+          "Keputusan, bukan tuntutan kesediaan",
+          "Regresi penuh pada 21 Oktober: 6745 LULUS daripada 6746 kes, 1 GAGAL untuk draf dokumen undang-undang, 0 ralat pelaksanaan dan 0 dilangkau. Ujian disasarkan kemudian tidak ditambahkan pada kiraan ini. Beberapa kelayakan UI dan pemeriksaan telefon semasa kekal."
+        ],
+        [
+          "Dokumen dan kenalan",
+          "Tapak ini menggunakan draf dokumen Luar Talian V1 semasa dalam PL/EN/RU dan butiran penerbit yang disahkan. Ini bukan kelulusan undang-undang muktamad atau penerbitan kedai."
+        ]
+      ],
+      "actions": [
+        [
+          "Status keluaran",
+          "status.html"
+        ],
+        [
+          "Butiran penerbit",
+          "contact.html"
+        ]
+      ]
+    },
+    "contact": {
+      "label": "Kenalan dan penerbit",
+      "title": "Mari bercakap tentang KOVA.",
+      "intro": "Gunakan alamat di bawah untuk soalan apl, isu dan hal privasi. Jangan hantar rekod kewangan anda.",
+      "badge": "Kenalan disahkan oleh penerbit",
+      "cards": [
+        [
+          "Penerbit",
+          "Vadyslav Konohrai · Poland · individu persendirian. Butiran ini disediakan oleh pemilik projek; ia bukan tuntutan kelayakan undang-undang yang lengkap untuk semua pasaran."
+        ],
+        [
+          "Sokongan dan privasi",
+          "contact@kovacompass.app — satu alamat untuk soalan, isu, aduan dan hal privasi. Pautan membuka apl e-mel anda; laman web ini tidak menghantar permintaan itu sendiri."
+        ],
+        [
+          "Huraikan sesuatu isu",
+          "Sertakan versi KOVA, model telefon, versi Android, gelagat yang dijangkakan dan langkah pembiakan. Gunakan jumlah contoh. Alih keluar butiran peribadi sebelum melampirkan tangkapan skrin."
+        ],
+        [
+          "Keluaran dan penonton",
+          "V1 yang Dirancang adalah percuma, untuk Android 7.0 atau lebih baru dan bertujuan untuk umur 13+. Ketersediaan antarabangsa bergantung pada kelulusan kedai dan keperluan tempatan; ia belum disahkan lagi."
+        ]
+      ],
+      "note": "Jangan hantar kata laluan, kunci penyulitan, sandaran lengkap atau rekod kewangan sebenar. Pengekalan surat-menyurat dan amalan sokongan awam masih memerlukan kelulusan dalam dokumen.",
+      "actions": [
+        [
+          "Tulis e-mel",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Privasi",
+          "privacy.html"
+        ],
+        [
+          "Ketersediaan apl",
+          "status.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Data anda",
+      "title": "Eksport dan padam data tempatan.",
+      "intro": "Luar talian V1 tidak membuat akaun awan. Profil tempatan atau akaun kewangan dalam KOVA bukan akaun dalam talian atau sambungan bank.",
+      "badge": "Tiada akaun dalam talian atau penyegerakan",
+      "cards": [
+        [
+          "Simpan apa yang anda perlukan dahulu",
+          "Dalam tetapan data, gunakan eksport disulitkan manual bagi rekod yang disokong dan pilih destinasi. Simpan kata laluan. Ini ialah eksport separa, bukan salinan setiap tetapan, kunci dan fail pemasangan."
+        ],
+        [
+          "Padamkan data setempat",
+          "Untuk mengalih keluar data bagi keseluruhan pemasangan, buka Android tetapan → Apl → KOVA → Storan → Kosongkan data atau nyahpasang KOVA. Label berbeza mengikut sistem. Tanpa sandaran yang sah ini tidak boleh diubah; ia mungkin menjejaskan setiap profil setempat dalam pemasangan itu."
+        ],
+        [
+          "Fail di luar apl",
+          "Padamkan salinan yang dieksport, foto asal dan fail yang dipegang oleh pembekal lain secara berasingan. Imej yang dibenamkan dalam nota mungkin disertakan dalam eksport; URI luaran hanyalah rujukan. Penerbit tidak boleh mengakses pangkalan data tempatan anda dari jauh."
+        ],
+        [
+          "Mesej kepada penerbit",
+          "Untuk data yang dikongsi melalui e-mel, hubungi contact@kovacompass.app. Jangan lampirkan sandaran kewangan. Halaman ini tidak memadamkan data mahupun menghantar permintaan automatik."
+        ]
+      ],
+      "actions": [
+        [
+          "Hubungi tentang data",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Dasar privasi penuh",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "PILIHAN ANDA",
+    "title": "Privasi mengikut syarat anda",
+    "body": "Bolehkah kami mengukur penggunaan tapak web dengan Google Analytics? Ia membantu kami mempelajari demonstrasi dan maklumat yang berguna. Google menerima data lawatan, peranti dan interaksi serta pengecam kuki — bukan data kewangan daripada apl.",
+    "note": "Analitis adalah pilihan. Menolak memberi anda akses yang sama. Kami tidak menyambung ke Google Analytics tanpa kebenaran.",
+    "accept": "Terima analitik",
+    "reject": "Tolak analitik",
+    "settings": "Sesuaikan pilihan",
+    "save": "Simpan pilihan",
+    "essential": "Tetapan penting",
+    "essentialBody": "Bahasa dan pilihan privasi anda. Sentiasa aktif.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Statistik penggunaan lawatan dan pembentangan. Tiada iklan atau pemperibadian iklan.",
+    "privacy": "Privasi",
+    "cookies": "Butiran kuki",
+    "foot": "Kami ingat pilihan anda selama 180 hari. Tukarnya pada bila-bila masa menggunakan \"Tetapan kuki\" dalam pengaki."
+  },
+  "legal": {
+    "language": "Bahasa",
+    "back": "Rumah",
+    "source": "Kandungan yang digunakan oleh apl KOVA",
+    "loading": "Memuatkan dokumen…",
+    "error": "Dokumen tidak dapat dimuatkan.",
+    "privacy": "Privasi",
+    "terms": "Syarat Penggunaan",
+    "cookies": "biskut",
+    "analyticsTitle": "Privasi di laman web ini",
+    "analyticsCopy": "Penerbit: Vadyslav Konohrai, Poland; kenalan: contact@kovacompass.app. Tapak ini tidak boleh mengakses kewangan pada telefon anda dan tidak mempunyai borang penyerahan. Pilihan bahasa dan kuki disimpan dalam penyemak imbas anda. Selepas persetujuan pilihan, tapak awam menggunakan Google Analytics 4 (G-2LE3GWYDZM): statistik lawatan dan interaksi, kuki samaran, peranti dan maklumat lokasi anggaran. Pengukuran bergantung pada persetujuan; data mungkin diproses di luar EEA dan bukan tanpa nama sepenuhnya. Halaman Kuki menerangkan penerima, kuki, hak dan batasan. GA4 syarat pengekalan dan pemprosesan memerlukan pengesahan sebelum diterbitkan. Tukar persetujuan dalam tetapan Kuki. Pautan e-mel membuka apl e-mel anda; mesej yang anda hantar dan alamat anda digunakan untuk mengendalikan permintaan anda di luar KOVA. Jangan hantar data kewangan atau kata laluan. Pengehosan masa depan, amalan pengelogannya dan pengekalan surat-menyurat memerlukan kelulusan sebelum diterbitkan. Dokumen di bawah berkenaan dengan apl dan tidak menggantikan maklumat tapak web ini."
+  },
+  "review": "Draf untuk KOVA Luar Talian V1 Percuma, sepadan dengan dokumen sumber apl bertarikh 22 Oktober 2026 (bukan kelayakan APK baharu). Penerbit meluluskan nama, kenalan dan domain serta membekalkan URL dokumen awam pada 22 Oktober 2026. Respons HTTP 200 telah disahkan pada hari itu. Ini bukan kelulusan undang-undang atau kelayakan pengehosan penuh. Dokumen di bawah termasuk pautan awamnya. Tarikh berkuat kuasa dan kelulusan kandungan masih belum selesai.",
+  "seo": {
+    "titles": {
+      "404": "Halaman Tidak Ditemui — KOVA",
+      "index": "KOVA — Penjejak Belanjawan & Perbelanjaan Luar Talian untuk Android",
+      "status": "KOVA untuk Android — Status & Ketersediaan Apl",
+      "roadmap": "KOVA — Pelan Hala Tuju Keluaran Apl Kewangan Luar Talian",
+      "updates": "KOVA — Kemas Kini Berita & Pembangunan Apl Kewangan",
+      "security": "KOVA — Privasi, Penyulitan & Sandaran Luar Talian",
+      "contact": "Hubungi KOVA — Sokongan Apl & Soalan",
+      "delete-account": "KOVA — Padamkan Data & Profil Setempat",
+      "privacy": "KOVA Dasar Privasi — Apl & Tapak Web",
+      "terms": "KOVA Syarat Penggunaan — Draf Dokumen",
+      "cookies": "KOVA Kuki Tapak Web & Google Analytics"
+    },
+    "descriptions": {
+      "404": "Halaman KOVA ini tidak wujud. Kembali ke gambaran keseluruhan apl, kemas kini atau kenalan.",
+      "index": "Temui KOVA: apl Android percuma untuk perbelanjaan, belanjawan dan matlamat simpanan. Berfungsi di luar talian tanpa akaun awan atau iklan. Siaran awam pertama sebagai persediaan.",
+      "status": "Semak KOVA ketersediaan V1 Percuma Luar Talian, ciri yang dirancang dan langkah keluaran yang tinggal. Muat turun apl awam belum tersedia lagi.",
+      "roadmap": "Ikuti peta jalan keluaran pertama KOVA: kewangan tempatan, ujian akhir dan persediaan Google Play. Tiada tarikh pelancaran yang belum disahkan.",
+      "updates": "KOVA kemas kini projek: luar talian Android kewangan, skrin apl tulen, eksport data dan kemajuan ke arah keluaran awam yang pertama.",
+      "security": "Cara KOVA mengekalkan kewangan setempat: SQLCipher, pengasingan profil dan eksport yang dilindungi kata laluan manual. Fahami perlindungan data dan batasannya.",
+      "contact": "Hubungi KOVA di contact@kovacompass.app untuk pertanyaan apl, laporan isu dan permintaan privasi. Tolong jangan hantar data kewangan.",
+      "delete-account": "Urus data anda dan padamkan profil setempat dalam KOVA Luar Talian V1. Ketahui tentang salinan yang dieksport dan sebab pemulihan awan tidak tersedia.",
+      "privacy": "Draf dasar privasi KOVA: data apl tempatan, eksport, hubungan dan analitis tapak web pilihan. Kelulusan diperlukan sebelum diterbitkan.",
+      "terms": "Draf istilah untuk KOVA Luar Talian Percuma V1: skop apl, data pengguna, sandaran dan pengehadan anggaran kewangan.",
+      "cookies": "Cara tapak web KOVA menggunakan kuki dan Google Analytics hanya selepas persetujuan. Lihat apa yang diukur dan cara menarik balik pilihan anda."
+    }
+  },
+  "extra": {
+    "demo": "data demo fiksyen",
+    "enlarge": "Besarkan",
+    "contents": "kandungan",
+    "publicAddress": "Alamat EN awam:",
+    "language": "Bahasa tapak"
+  },
+  "cookies": "<section data-doc-lang=\"ms\" data-document-title=\"KOVA Kuki Tapak Web &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">biskut</p><h1>Analitis adalah pilihan anda.</h1><p>Kuki penting ingat bahasa dan tetapan. Analitis bermula hanya selepas persetujuan.</p><div class=\"document-meta\"><span class=\"document-chip\">Kemas kini: 22 Oktober 2026</span><span class=\"document-chip\">Tiada pengiklanan</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Penting</h2><p><code>kova_site_language</code>mengingati bahasa sehingga 12 bulan;<code>kova_cookie_consent_v2</code>mengingati pilihan anda selama 180 hari. Keizinan sebelumnya kepada kaunter tempatan tidak membenarkan Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Selepas persetujuan pada domain kovacompass.app awam (termasuk www), kami memuatkan teg Google<code>G-2LE3GWYDZM</code>. Google boleh menyimpan<code>_ga</code>dan<code>_ga_2LE3GWYDZM</code>kuki untuk pelayar dan pengecaman sesi. Kami mengkonfigurasi tamat tempoh 180 hari tanpa pembaharuan automatik pada setiap lawatan; pelayar mungkin memendekkan tempoh ini.</p></article>\n          <article class=\"document-card\"><h2>Apa yang kita ukur</h2><p>Paparan halaman, membuka dan memainkan pembentangan, pemilihan bab, tangkapan skrin yang diperbesarkan, Soalan Lazim yang dibuka dan klik kenalan. Acara kami hanya mengandungi nama acara, halaman awam tanpa parameter atau serpihan URL dan bahasa. Kami tidak menghantar kandungan mesej, kewangan, ID akaun atau kandungan Ruang Kerja. Pratonton setempat tidak dijalankan Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Penerima dan asas</h2><p>Penerbit: Vadyslav Konohrai, Poland; hubungi:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Pengukuran pilihan bergantung pada persetujuan anda. Google Analytics juga memproses maklumat pelayar teknikal, peranti, sesi dan lokasi anggaran. Alamat IP terlibat dalam komunikasi; Google menyatakan GA4 tidak menyimpan alamat IP. Ini tidak menjadikan data tanpa nama sepenuhnya. Pemprosesan mungkin berlaku di luar EEA. Lihat<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Dasar privasi Google</a>dan<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 maklumat data</a>.</p></article>\n          <article class=\"document-card\"><h2>Bahasa tapak</h2><p>Pilihan bahasa juga kekal dalam<code>localStorage</code>sehingga storan penyemak imbas dikosongkan. KOVA data akaun tidak disimpan di sini.</p></article>\n          <article class=\"document-card wide\"><h2>Tukar pilihan anda</h2><p>Buka \"Tetapan kuki\" dalam pengaki dan tolak analitis, atau matikan dan simpan. Menolak tidak mengehadkan tapak. Penarikan balik mengalih keluar kuki GA yang boleh diakses dan memuat semula halaman untuk menghentikan teg. Ia tidak dapat memanggil semula data yang telah dihantar. Hubungi kami tentang hak data; anda juga boleh mengadu kepada pihak berkuasa perlindungan data yang berkaitan. Dokumen privasi kekal boleh dibaca tanpa memilih kebenaran.</p></article>\n          <article class=\"document-card wide\"><h2>Status pra-penerbitan</h2><p>Maklumat draf dikemas kini pada 22 Oktober 2026. Penyepaduan adalah tapak web sahaja; apl Luar Talian V1 kekal bebas analitis. Isyarat Google dan persetujuan pengiklanan dilumpuhkan dalam kod. Sebelum penerbitan penerbit mesti mengesahkan syarat pemprosesan, pemindahan, pengekalan perkhidmatan GA4 (berasingan daripada seumur hidup kuki), ukuran dipertingkat automatik yang dilumpuhkan dan konfigurasi pengehosan. Ujian tempatan tidak mengesahkan tetapan ini.</p></article>\n        </div>\n      </section>"
+}

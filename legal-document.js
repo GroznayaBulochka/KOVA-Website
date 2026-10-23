@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const supported = new Set(['pl', 'en', 'ru']);
+  const supported = new Set(window.KOVA_LANGUAGES.codes);
   const copy = {
     pl: { language:'Język', back:'Strona główna', source:'Treść używana w aplikacji KOVA', loading:'Ładowanie dokumentu…', error:'Nie udało się wczytać dokumentu.', privacy:'Prywatność', terms:'Warunki użycia', cookies:'Cookies' },
     en: { language:'Language', back:'Home', source:'Content used by the KOVA app', loading:'Loading document…', error:'The document could not be loaded.', privacy:'Privacy', terms:'Terms of Use', cookies:'Cookies' },
@@ -20,14 +20,17 @@
     ru:'Проект для KOVA Offline Free V1, совпадающий с исходным документом приложения от 22.10.2026 (это не повторная проверка APK). Издатель утвердил имя, контакт и домен, а 22.10.2026 указал публичные адреса документов. В этот день подтверждён ответ HTTP 200. Это не правовое утверждение и не полная проверка хостинга. Документ ниже содержит публичную ссылку. Дата действия и утверждение содержания ещё необходимы.'
   };
   for (const [lang, [title, text]] of Object.entries(websiteCopy)) { copy[lang].analyticsTitle = title; copy[lang].analyticsCopy = text; }
+  for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
+    copy[code]=data.legal; reviewCopy[code]=data.review;
+  }
   const params = new URLSearchParams(location.search);
   let storedLanguage;
   try { storedLanguage = localStorage.getItem('kova_site_language'); } catch { /* Reading documents does not require storage. */ }
-  let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || (navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl');
+  let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || (window.KOVA_LANGUAGES.resolve(navigator.language));
   if (!supported.has(language)) language = 'pl';
 
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[character]);
-  const slug = value => value.toLowerCase().replace(/[`*_]/g, '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\u0400-\u04ff]+/g, '-').replace(/^-|-$/g, '');
+  const slug = value => value.toLowerCase().replace(/[`*_]/g, '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
 
   function inline(source) {
     const tokens = [];
@@ -35,7 +38,7 @@
       let html;
       if (code !== undefined) html = `<code>${escapeHtml(code)}</code>`;
       else if (label !== undefined) {
-        const appDocument = /^(privacy-policy|terms-of-service)-(pl|en|ru)\.md$/.exec(href);
+        const appDocument = /^(privacy-policy|terms-of-service)-([a-z]{2,3})\.md$/.exec(href);
         const safeHref = appDocument ? `${appDocument[1] === 'privacy-policy' ? 'privacy' : 'terms'}.html?lang=${appDocument[2]}` : /^(?:https?:\/\/|#)/i.test(href) ? href : '#';
         const external = /^https?:\/\//i.test(safeHref) ? ' target="_blank" rel="noopener noreferrer"' : '';
         const publicDocument = /^https:\/\/kovacompass\.app\/(?:privacy|terms)\.html\?lang=en$/.test(safeHref) ? ' data-public-document-link' : '';
@@ -101,7 +104,7 @@
     reviewNotice.textContent = reviewCopy[language];
     const publicUrl = reviewNotice.dataset.publicDocumentUrl;
     if (/^https:\/\/kovacompass\.app\/(?:privacy|terms)\.html\?lang=en$/.test(publicUrl)) {
-      reviewNotice.append(' ' + {pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[language]);
+      reviewNotice.append(' ' + (window.KOVA_TRANSLATIONS?.[language]?.extra.publicAddress || {pl:'Publiczny adres EN: ',en:'Public EN address: ',ru:'Публичный адрес EN: '}[language]));
       const link = document.createElement('a');
       link.href = publicUrl;
       link.textContent = publicUrl;
@@ -125,7 +128,7 @@
       if (headings.length) {
         const toc = document.createElement('details');
         toc.className = 'legal-toc';
-        const heading = { pl:'Spis treści', en:'Contents', ru:'Содержание' }[language];
+        const heading = (window.KOVA_TRANSLATIONS?.[language]?.extra.contents || { pl:'Spis treści', en:'Contents', ru:'Содержание' }[language]);
         toc.innerHTML = `<summary>${heading}</summary><nav aria-label="${heading}">${headings.map(node => `<a href="#${escapeHtml(node.id)}">${escapeHtml(node.textContent)}</a>`).join('')}</nav>`;
         content.before(toc);
       }

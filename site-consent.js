@@ -37,7 +37,7 @@
   let tag;
   let epoch = 0;
   let channel;
-  const lang = () => ['pl','en','ru'].includes(document.documentElement.lang) ? document.documentElement.lang : 'pl';
+  const lang = () => window.KOVA_LANGUAGES.codes.includes(document.documentElement.lang) ? document.documentElement.lang : 'pl';
   // No URL query, fragments, referrer, form contents, user ID or financial data.
   const pageLocation = () => `https://kovacompass.app/${page === 'index.html' ? '' : page}`;
   function eligible() {
@@ -123,6 +123,7 @@
       privacy:'Приватность', cookies:'Подробнее о cookies', foot:'Выбор сохраняется на 180 дней. Изменить его можно в любой момент в «Настройках cookies» внизу сайта.'
     }
   };
+  for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) copy[code]=data.consent;
   const dialog = document.createElement('dialog');
   dialog.className = 'consent-dialog';
   dialog.dataset.cookieBanner = '';

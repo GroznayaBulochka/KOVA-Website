@@ -1,0 +1,502 @@
+{
+  "home": {
+    "skip": "跳到內容",
+    "tagline": "財務喺一個地方。",
+    "language": "語言",
+    "openMenu": "打開選單",
+    "close": "閂咗",
+    "navFeatures": "功能",
+    "navScreens": "屏幕",
+    "navSecurity": "安全性",
+    "navLegal": "文件",
+    "navRoadmap": "路線圖",
+    "heroKicker": "KOVA 離線免費 V1 · Android",
+    "heroTitle": "財務<br><em>集中喺一個地方。</em>",
+    "heroCopy": "開支、預算、目標同工作收入 — 喺你部手機上面。我哋準備緊免費嘅離線版本，冇雲端帳戶、廣告或者訂閱。",
+    "projectStatus": "檢查項目狀態",
+    "watchVideo": "睇產品導覽",
+    "pauseVideo": "暫停",
+    "playVideo": "玩",
+    "releaseNote": "喺推出之前 · 仲未有公開下載。",
+    "trustPrivacy": "私隱第一",
+    "trustPrivacyCopy": "本地資料庫，冇自動上載",
+    "trustReports": "實用嘅摘要",
+    "trustReportsCopy": "根據記錄咗嘅數據報告",
+    "trustOffline": "離線工作",
+    "trustOfflineCopy": "核心財務仍然可用",
+    "trustLife": "為現實生活而建",
+    "trustLifeCopy": "預算、目標、工作同埋筆記",
+    "featureExpenses": "開支",
+    "featureExpensesCopy": "交易同類別",
+    "featureBudgets": "預算",
+    "featureBudgetsCopy": "限制同進步",
+    "featureWork": "工作同收入",
+    "featureWorkCopy": "工時同出糧日",
+    "featureCalendar": "日曆",
+    "featureCalendarCopy": "金融事件",
+    "featureReports": "報告",
+    "featureReportsCopy": "趨勢同預測",
+    "featureGoals": "目標",
+    "featureGoalsCopy": "計劃同進度",
+    "clarityKicker": "個應用程式",
+    "clarityTitle": "睇吓入面 KOVA 。",
+    "clarityCopy": "一個虛構嘅用戶，三個帳戶同埋六個月嘅日常財務。呢啲係喺 Android 模擬器上面運行緊嘅 KOVA 離線 V1 嘅新嘅未經修飾嘅螢幕截圖。真實功能同逼真嘅示範記錄，冇任何人嘅私人財務。應用程式畫面係用波蘭文。",
+    "clarityAccounts": "帳戶、交易同類別",
+    "clarityReports": "報告同預測",
+    "clarityWork": "工作同收入",
+    "clarityGoals": "目標同淨值",
+    "clarityCurrency": "多貨幣精確度",
+    "clarityOffline": "離線存取核心數據",
+    "exploreScreens": "探索畫面",
+    "screenOverview": "黑暗主題",
+    "screenOverviewCopy": "餘額同埋記錄咗嘅開支",
+    "screenFeatures": "淺色主題",
+    "screenFeaturesCopy": "同一個數據，唔同嘅外觀",
+    "screenWork": "本地筆記",
+    "screenWorkCopy": "儲存喺裝置上面 · 2026年10月21日",
+    "securityKicker": "私隱",
+    "securityTitle": "KOVA 點樣保護數據。",
+    "securityCopy": "主要嘅財務資料庫用 SQLCipher 。冇自動雲端同步。保護你部手機同埋定期匯出 — 加密唔會取代備份或者小心處理。",
+    "securityModel": "睇下安全性",
+    "secureLocal": "本地加密",
+    "secureOwner": "數據隔離",
+    "secureOwnerCopy": "記錄會分配畀佢哋嘅擁有者",
+    "secureNoBank": "冇銀行密碼",
+    "secureNoBankCopy": "KOVA 連接唔到你嘅銀行",
+    "secureOnline": "手動匯出",
+    "secureOnlineCopy": "部分受密碼保護嘅副本",
+    "legalKicker": "文件",
+    "legalTitle": "KOVA 政策。",
+    "legalCopy": "應用程式文件嘅現時副本。私隱政策同條款仍然係需要喺發佈之前獲得批准嘅草稿。",
+    "privacyTitle": "私隱政策",
+    "privacyCopy": "本地數據、匯出同埋支援聯絡人。",
+    "termsTitle": "使用條款",
+    "termsCopy": "產品範圍同規則。",
+    "cookiesTitle": "曲奇餅",
+    "cookiesCopy": "瀏覽器設定同儲存空間。",
+    "privacyShort": "私隱",
+    "termsShort": "條款",
+    "cookiesShort": "曲奇餅",
+    "activeDevelopment": "離線免費 V1 · 喺推出之前。",
+    "cookieSettings": "設定",
+    "navFaq": "常見問題",
+    "navStatus": "項目",
+    "galleryHint": "㩒一下螢幕就可以睇到全圖。",
+    "secureLocalCopy": "你部裝置上面嘅加密資料庫",
+    "projectKicker": "第一個發佈",
+    "projectHeading": "免費。為咗你部電話。",
+    "projectCopy": "本地戶口、交易、預算、經常性付款、債務、目標、淨值、工作、報告、日曆、筆記同埋 OCR 。雲端服務、銀行 API 、 AI 、 Wear OS 、網上家庭同埋即時報價唔係 V1 嘅一部分。最後嘅資格同文件仲係準備緊。",
+    "availability": "應用程式可用性",
+    "roadmapLink": "我哋做緊嘅嘢",
+    "updatesLink": "最近嘅更新",
+    "faqKicker": "好開心知道",
+    "faqTitle": "幾個簡單嘅答案。",
+    "faqCopy": "喺你開始用 KOVA 之前。",
+    "faqDownloadQ": "我可唔可以下載 KOVA 未？",
+    "faqDownloadA": "公開下載仲未有得用。當發佈版本準備好嗰陣，項目狀態頁面會顯示一個經過驗證嘅商店連結。我哋只會喺確認咗之後先公佈日期。",
+    "faqOfflineQ": "呢個應用程式係咪可以喺冇互聯網嘅情況下運作？",
+    "faqOfflineA": "係。 V1正喺度準備緊一個有本地個人檔案嘅離線應用程式。佢冇提供 Google 登入、同步或者 AI 服務。你所選擇嘅檔案供應商、瀏覽器或者電郵應用程式可以獨立於 KOVA 使用互聯網。",
+    "faqBankQ": "我需唔需要連接我嘅銀行戶口？",
+    "faqBankA": "唔係。 KOVA 唔會要求你提供銀行密碼。應用程式入面嘅帳戶有助整理你記錄嘅財務資料。",
+    "faqEstimateQ": "預測同淨薪酬金額係咪有保證？",
+    "faqEstimateA": "唔係。佢哋係根據記錄咗嘅數據同配置進行嘅估計。佢哋可能同實際嘅付款唔同，亦都唔會取代僱主文件或者個人建議。",
+    "faqWebsiteQ": "呢個網站可唔可以存取我嘅財務？",
+    "faqWebsiteA": "唔係。個網站會介紹個項目，而且唔會連接到你手機上面嘅財務資料庫。可選嘅網站分析取決於你嘅同意。",
+    "altHome": "KOVA 離線 V1：主畫面，有虛構嘅財務歷史",
+    "altProfile": "KOVA 離線 V1：三個本地示範帳戶",
+    "altFeatures": "KOVA 免費 V1：模擬器上面嘅淺色主題",
+    "altWork": "KOVA 離線 V1：模擬器上面儲存咗嘅測試筆記",
+    "previous": "上一個畫面",
+    "next": "下一個畫面",
+    "navigation": "主要導航",
+    "pageTitle": "KOVA — 財務集中喺一個地方",
+    "faqFreeQ": "KOVA 會唔會免費？",
+    "faqFreeA": "係。離線免費 V1冇廣告、購買、訂閱或者付費牆。本地功能唔需要註冊或者付費後端服務。",
+    "tourNote": "真實嘅應用程式畫面 · 虛構嘅示範資料 · 唔係錄影",
+    "tourChapters": "揀個導覽畫面",
+    "factAndroid": "Android 7.0 +",
+    "factOffline": "地方財政",
+    "factAccount": "冇網上帳戶",
+    "faqBackupQ": "我點樣保護我嘅數據或者換手機？",
+    "faqBackupA": "建立受密碼保護嘅手冊匯出，然後將佢安全噉儲存喺手機外面。匯入需要確認同埋取代所選設定檔嘅支援資料。呢個係部分副本，而唔係完整嘅應用程式圖片：包括嵌入式筆記圖片，但係外部附件同收據相片需要分開副本。發佈者唔可以喺雲端還原資料，亦唔可以恢復你嘅備份密碼。",
+    "faqOcrQ": "收據掃描係咪可以離線運作？",
+    "faqOcrA": "OCR 使用同應用程式捆綁嘅模型。影張相，或者透過 Android 挑選器喺你嘅相簿入面揀一張。識別可能會錯 — 喺儲蓄之前檢查金額、貨幣同日期。拒絕相機存取唔會阻止檔案選擇。",
+    "faqDeviceQ": "KOVA 係針對邊啲裝置同受眾？",
+    "faqDeviceA": "Android 運行 Android 7.0 或更高版本嘅電話，有 PL/EN/RU 接口。兼容性測試仲進行緊。目標受眾係13歲以上，但呢個唔係每個國家 / 地區嘅核准 Google Play 評分或者可用性嘅確認。冇提供手錶或者 iOS 版本。"
+  },
+  "slides": [
+    {
+      "title": "你今日嘅財務狀況",
+      "caption": "餘額、收入同最近嘅開支",
+      "copy": "KOVA 嘅真實主畫面，入面有虛構用戶 Marta 嘅本地記錄。呢個巡迴演出嘅每個畫面都有相同嘅財務歷史。"
+    },
+    {
+      "title": "帳戶",
+      "caption": "經常戶口、儲蓄同現金",
+      "copy": "三個本地戶口組織日常財務。餘額包括購物、人工同埋你自己戶口之間嘅轉帳。冇銀行連線。"
+    },
+    {
+      "title": "交易",
+      "caption": "半年嘅日常記錄",
+      "copy": "雜貨、咖啡、交通、租金同人工。唔同嘅金額同日期會創造出一個現實嘅歷史，而唔係一個相同嘅交易清單。"
+    },
+    {
+      "title": "預算同限制",
+      "caption": "支出計劃同現時嘅使用情況",
+      "copy": "食物、娛樂同交通嘅月限額比較計劃同記錄咗嘅開支。金額嚟自同一個示範個人檔案。"
+    },
+    {
+      "title": "定期付款",
+      "caption": "租金、互聯網、電話同訂閱",
+      "copy": "經常性帳單有自己嘅到期日同付款記錄。 KOVA 整理記錄；佢唔會轉帳或者收錢。"
+    },
+    {
+      "title": "報告",
+      "caption": "記錄咗嘅條目摘要",
+      "copy": "圖表同摘要係由 KOVA 喺本地交易中計算出嚟。呢啲數據係虛構嘅，但係個螢幕同計算係嚟自執行緊嘅應用程式。"
+    },
+    {
+      "title": "財務日曆",
+      "caption": "活動同到期日喺一個視圖入面",
+      "copy": "記錄咗全個月嘅交易同帳單日期。揀一日就可以睇到佢嘅活動，而唔使搜尋整個記錄。"
+    },
+    {
+      "title": "筆記",
+      "caption": "計劃、清單同日常詳情",
+      "copy": "緊急基金計劃同週末旅行筆記，同財務一齊儲存喺當地。呢個係示範內容，唔係其他人嘅私人筆記。"
+    }
+  ],
+  "shell": {
+    "home": "屋企",
+    "product": "個應用程式",
+    "project": "項目",
+    "legal": "資訊",
+    "features": "功能",
+    "screens": "應用程式畫面",
+    "faq": "問題同答案",
+    "status": "項目狀態",
+    "roadmap": "路線圖",
+    "updates": "更新",
+    "security": "安全性",
+    "contact": "聯絡人",
+    "deletion": "你嘅數據",
+    "privacy": "私隱政策",
+    "terms": "使用條款",
+    "cookies": "曲奇餅",
+    "settings": "Cookie 設定",
+    "tagline": "日常財務。喺一個地方。",
+    "note": "KOVA 離線免費 V1 · 啟動前",
+    "top": "返去頂部",
+    "skip": "跳到內容",
+    "language": "網站語言",
+    "menu": "菜單",
+    "back": "屋企",
+    "official": "官方項目網站"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "呢個頁面唔喺呢度。",
+      "intro": "個連結可能已經改咗。返屋企或者睇下項目資料。",
+      "cards": [],
+      "actions": [
+        [
+          "屋企",
+          "index.html"
+        ],
+        [
+          "項目狀態",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "項目狀態",
+      "title": "離線 V1。喺推出之前。",
+      "intro": "我哋為 Android 手機準備緊免費嘅 KOVA ：冇註冊、廣告、訂閱或者雲端同步。呢個發佈仲未公開。",
+      "badge": "2026年10月21日更新 · 1.0.8（10）",
+      "cards": [
+        [
+          "首次發佈範圍",
+          "帳戶、交易同類別、預算、債務、目標、淨值、經常性付款、工作簡介同工時、報告、日曆、筆記、裝置上嘅 OCR 同埋手動加密匯出/匯入。"
+        ],
+        [
+          "已經檢查咗啲咩",
+          "已經建立咗 APK 同 AAB 嘅工件。測試喺 Android 7.0、7.1同埋實際16 KiB 嘅運行時間上面進行。亦都檢查咗隔離安裝之間嘅加密匯出轉移同埋重複匯入而冇重複嘅情況。呢啲係有限嘅情況，唔係每部手機嘅保證。"
+        ],
+        [
+          "仲有啲咩",
+          "完整嘅正常介面同冇障礙矩陣、實體電話上嘅當前候選人、文件核准、簽署同埋 Google Play 要求。目前發佈嘅工件係未簽名嘅。"
+        ],
+        [
+          "離線 V1之外",
+          "Google/Firebase 帳戶、雲端服務、網上家庭共享、銀行 API 、即時報價、 AI 、 Wear OS 、高級版同埋購物喺呢個版本入面唔活躍。仲未確認供應日期。"
+        ]
+      ],
+      "note": "我哋只會喺發佈同官方商店地址獲得批准之後先發佈發佈日期或者下載按鈕。",
+      "actions": [
+        [
+          "發佈計劃",
+          "roadmap.html"
+        ],
+        [
+          "最近嘅變化",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "路線圖",
+      "title": "首先係一個可靠嘅離線版本。",
+      "intro": "我哋完成緊現有功能嘅資格。呢個計劃唔會承諾日期或者新服務。",
+      "badge": "優先次序：離線免費 V1",
+      "cards": [
+        [
+          "01 · 最後測試",
+          "完成剩餘嘅正常介面、語言同冇障礙功能方案，然後喺手機上面檢查當前版本。完成嘅檢查唔係一個全面嘅準備聲明。"
+        ],
+        [
+          "02 · 資訊同政策",
+          "出版商同聯絡資料已經確認。離線文件仍然係草稿：條款、支援做法、市場、受眾同公開地址仍然需要核准。"
+        ],
+        [
+          "03 · 店舖候選人",
+          "核准簽署同 Google Play 設定，同埋完成所需嘅測試同聲明。官方連結係喺發佈核准之後發佈。"
+        ],
+        [
+          "後來 · 分開資格",
+          "未來嘅模組仍然喺項目入面，但係未啟用。雲端服務、人工智能、 Wear OS 同埋營利需要分開嘅決定、測試同埋用戶披露。"
+        ]
+      ],
+      "actions": [
+        [
+          "而家嘅狀態",
+          "status.html"
+        ],
+        [
+          "聯絡人",
+          "contact.html"
+        ]
+      ]
+    },
+    "security": {
+      "label": "私隱同安全",
+      "title": "本地數據。明確嘅限制。",
+      "intro": "離線 V1會喺你部手機度儲存財務。佢唔會建立網上帳戶或者同伺服器同步記錄。",
+      "badge": "加密資料庫 · 手動匯出",
+      "cards": [
+        [
+          "你部裝置上面嘅資料庫",
+          "財務數據會用房間同 SQLCipher ，同埋設定檔隔離。加密唔可以防止手機、密碼、密鑰或者裝置存取權嘅每次遺失。我哋唔聲稱有獨立嘅安全認證。"
+        ],
+        [
+          "冇自動上載",
+          "檢查咗嘅發佈清單冇互聯網權限。停用咗 Firebase 、應用程式分析、 Crashlytics 、廣告、帳單同埋 AI 服務。呢個唔代表 Android 或者其他應用程式唔會產生網絡流量。"
+        ],
+        [
+          "出口係你嘅選擇",
+          "手動匯出可以用密碼加密。佢包括支援嘅記錄，而唔係完整嘅安裝映像：嵌入式筆記映像會隨住佢一齊旅行；外部檔案參考唔會複製檔案本身。安全儲存密碼同檔案。冇自動 KOVA 雲端備份。"
+        ],
+        [
+          "相片同埋 OCR",
+          "識別功能會用應用程式附帶嘅模型。你可以影張相，或者喺圖庫入面揀一張。儲存之前請檢查金額、貨幣同日期 — OCR 可能會出錯。"
+        ],
+        [
+          "個網站係獨立嘅",
+          "呢個網站讀唔到電話資料庫。只有喺同意之後， Google Analytics 先會衡量公開網站嘅瀏覽同互動。同意可以喺頁尾撤回；詳情請睇 Cookie 。未來嘅寄存可能會處理連線數據 — 佢嘅設定同政策需要核准。"
+        ],
+        [
+          "安全報告",
+          "喺 contact@kovacompass.app 描述問題。唔好傳送密碼、密鑰、完整嘅資料庫副本或者真實嘅財務記錄。包括應用程式版本、 Android 版本同埋複製步驟，同埋示例資料。"
+        ]
+      ],
+      "actions": [
+        [
+          "應用程式私隱政策",
+          "privacy.html"
+        ],
+        [
+          "匯出同埋刪除資料",
+          "delete-account.html"
+        ],
+        [
+          "瀏覽器儲存空間同 Cookie",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "更新",
+      "title": "KOVA 移至離線免費 V1。",
+      "intro": "即將發佈嘅更新，而唔係發佈公告。",
+      "badge": "2026 年 10 月 21 號",
+      "cards": [
+        [
+          "冇強制帳戶",
+          "公共 V1係設計嚟喺唔使註冊或者上網嘅情況下運作。網上服務會喺將來保留，但係喺呢個版本停用。"
+        ],
+        [
+          "筆記同埋數據可移植性",
+          "編輯器嘅 Android 7 兼容性已經修正。檢查包括重新啟動後嘅持久性、嵌入圖像、匯出同埋隔離 Android 7.1同7.0安裝之間嘅正常匯入。而家嘅編輯器亦都係檢查過16 KiB 。"
+        ],
+        [
+          "結果，唔係準備聲明",
+          "喺10月21號嘅全面迴歸：6746個案件中有6745個通過，1個法律文件草稿失敗，0個執行錯誤，0個跳過。之後嘅針對性測試唔會加入呢個計數。有啲 UI 資格同埋而家嘅電話檢查仍然存在。"
+        ],
+        [
+          "文件同聯絡人",
+          "呢個網站會用 PL/EN/RU 嘅最新離線 V1文件草稿同埋確認咗嘅出版商詳情。呢個唔係最後嘅法律批准或者店舖出版物。"
+        ]
+      ],
+      "actions": [
+        [
+          "發佈狀態",
+          "status.html"
+        ],
+        [
+          "發佈者詳情",
+          "contact.html"
+        ]
+      ]
+    },
+    "contact": {
+      "label": "聯絡人同出版商",
+      "title": "我哋講下 KOVA 。",
+      "intro": "用下面嘅地址嚟解答應用程式嘅問題、問題同埋私隱問題。唔好寄你嘅財務記錄。",
+      "badge": "聯絡人由出版商確認",
+      "cards": [
+        [
+          "出版商",
+          "Vadyslav Konohrai · 波蘭 · 私人。呢啲詳情係由項目擁有者提供嘅；佢哋唔係要求所有市場都完成法律資格。"
+        ],
+        [
+          "支援同私隱",
+          "contact@kovacompass.app — 一個地址，可以解答問題、問題、投訴同埋私隱問題。呢個連結會打開你嘅電郵應用程式；呢個網站本身唔會提交要求。"
+        ],
+        [
+          "描述一個問題",
+          "包括 KOVA 版本、手機型號、 Android 版本、預期行為同埋複製步驟。用例子金額。喺附加螢幕截圖之前移除個人資料。"
+        ],
+        [
+          "發佈同觀眾",
+          "計劃嘅 V1係免費嘅，適用於 Android 7.0或以上，同埋適合13歲以上嘅人。國際供應取決於店舖批准同當地要求；仲未確認。"
+        ]
+      ],
+      "note": "唔好傳送密碼、加密密鑰、完整備份或者真實嘅財務記錄。通訊保留同公眾支援做法仍然需要喺文件入面獲得批准。",
+      "actions": [
+        [
+          "寫個電郵",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "私隱",
+          "privacy.html"
+        ],
+        [
+          "應用程式可用性",
+          "status.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "你嘅數據",
+      "title": "匯出同刪除本地數據。",
+      "intro": "離線 V1唔會建立雲端帳戶。 KOVA 入面嘅本地個人檔案或者金融帳戶唔係網上帳戶或者銀行連線。",
+      "badge": "冇網上帳戶或者同步",
+      "cards": [
+        [
+          "儲存你需要嘅嘢先",
+          "喺資料設定入面，用手動加密匯出支援嘅記錄，然後揀目的地。保留密碼。呢個係部分匯出，而唔係每個設定、密鑰同安裝檔案嘅副本。"
+        ],
+        [
+          "刪除本地數據",
+          "如果要移除整個安裝嘅數據，打開 Android 設定 → 應用程式 → KOVA → 儲存空間 → 清除數據，或者解除安裝 KOVA 。標籤因系統而異。如果冇有效嘅備份，呢個係逆轉唔到嘅；佢可能會影響嗰個安裝入面嘅每個本地設定檔。"
+        ],
+        [
+          "應用程式外面嘅檔案",
+          "單獨刪除匯出嘅副本、原始相片同埋其他供應商持有嘅檔案。嵌入喺筆記入面嘅圖片可能會包含喺匯出入面；外部 URI 只係參考。發佈者唔可以遠端存取你嘅本機資料庫。"
+        ],
+        [
+          "畀發佈者嘅訊息",
+          "如果要透過電郵分享資料，請聯絡 contact@kovacompass.app 。唔好附加財務備份。呢個頁面嘅唔會刪除資料，亦唔會發送自動要求。"
+        ]
+      ],
+      "actions": [
+        [
+          "有關資料嘅聯絡",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "完整嘅私隱政策",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "你嘅選擇",
+    "title": "根據你嘅條款保留私隱",
+    "body": "我哋可唔可以用 Google Analytics 去量度網站嘅使用情況？佢幫我哋了解邊啲示範同資訊有用。 Google 會收到訪問、裝置同互動資料同埋 Cookie 識別碼，而唔係應用程式入面嘅財務資料。",
+    "note": "分析係選擇性嘅。拒絕畀你同樣嘅存取權。我哋唔會喺未經同意嘅情況下連線去 Google Analytics 。",
+    "accept": "接受分析",
+    "reject": "拒絕分析",
+    "settings": "自訂選擇",
+    "save": "儲存選擇",
+    "essential": "必要嘅設定",
+    "essentialBody": "語言同你嘅私隱選擇。永遠都活躍。",
+    "analytics": "Google Analytics",
+    "analyticsBody": "訪問同埋簡報使用統計資料。冇廣告或者廣告個人化。",
+    "privacy": "私隱",
+    "cookies": "Cookie 詳情",
+    "foot": "我哋會記住你嘅選擇180日。隨時用頁尾嘅「 Cookie 設定」更改佢。"
+  },
+  "legal": {
+    "language": "語言",
+    "back": "屋企",
+    "source": "KOVA 應用程式所用嘅內容",
+    "loading": "載入緊文件 …",
+    "error": "個文件加載唔到。",
+    "privacy": "私隱",
+    "terms": "使用條款",
+    "cookies": "曲奇餅",
+    "analyticsTitle": "呢個網站嘅私隱",
+    "analyticsCopy": "出版商： Vadyslav Konohrai ，波蘭；聯絡人： contact@kovacompass.app 。呢個網站喺你部手機上面存取唔到財務，亦都冇提交表格。語言同 Cookie 選擇會儲存喺你嘅瀏覽器入面。喺選擇性同意之後，公開網站會使用 Google Analytics 4 （ G-2LE3GWYDZM ）：瀏覽同互動統計資料、偽名 Cookie 、裝置同大約位置資料。測量係依賴同意；資料可能會喺歐洲經濟區以外處理，而且唔係完全匿名。 「 Cookie 」頁面會講解收件人、 Cookie 、權利同限制。 GA4 保留同處理條款需要喺發佈之前確認。喺 Cookie 設定入面更改同意。電郵連結打開你嘅電郵應用程式；你發送嘅訊息同你嘅地址用嚟處理你喺 KOVA 之外嘅要求。唔好傳送財務資料或者密碼。未來嘅寄存、記錄做法同埋通訊保留需要喺發佈之前獲得批准。以下文件關於應用程式，並唔會取代呢個網站資料。"
+  },
+  "review": "KOVA 離線免費 V1嘅草稿，同2026年10月22日嘅應用程式源文件相符（唔係新嘅 APK 資格）。發佈者喺2026年10月22號核准咗個名、聯絡人同網域，並且提供咗公開文件網址。嗰日驗證咗 HTTP 200回應。呢個唔係法律批准或者完整嘅托管資格。下面嘅文件包括佢嘅公開連結。生效日期同內容核准仍然待處理。",
+  "seo": {
+    "titles": {
+      "404": "搵唔到頁面 — KOVA",
+      "index": "KOVA — Android 嘅離線預算同開支追蹤器",
+      "status": "KOVA 對於 Android — 應用程式狀態同可用性",
+      "roadmap": "KOVA — 離線金融應用程式發佈路線圖",
+      "updates": "KOVA — 金融應用程式新聞同發展更新",
+      "security": "KOVA — 私隱、加密同離線備份",
+      "contact": "聯絡 KOVA — 應用程式支援同問題",
+      "delete-account": "KOVA — 刪除本地資料同個人檔案",
+      "privacy": "KOVA 私隱政策 — 應用程式同網站",
+      "terms": "KOVA 使用條款 — 文件草案",
+      "cookies": "KOVA 網站 Cookie 同埋 Google Analytics"
+    },
+    "descriptions": {
+      "404": "呢個 KOVA 頁面唔存在。返去應用程式概覽、更新或者聯絡人。",
+      "index": "認識 KOVA ：一個免費嘅 Android 應用程式，了解開支、預算同儲蓄目標。離線工作，唔使雲端帳戶或者廣告。準備中嘅首次公開發佈。",
+      "status": "檢查 KOVA 離線免費 V1 可用性、計劃功能同埋剩餘發佈步驟。公開應用程式下載仲未有得用。",
+      "roadmap": "跟住 KOVA 嘅首次發佈路線圖：本地財政、最終測試同埋 Google Play 準備。冇未確認嘅推出日期。",
+      "updates": "KOVA 項目更新：離線 Android 財務、真實嘅應用程式畫面、資料匯出同埋第一次公開發佈嘅進度。",
+      "security": "點樣 KOVA 將財務保持本地化： SQLCipher 、個人檔案隔離同埋手動密碼保護匯出。瞭解資料保護同埋佢嘅局限性。",
+      "contact": "如果有應用程式問題、問題報告同私隱要求，請喺 contact@kovacompass.app 聯絡 KOVA 。唔該唔好傳送財務資料。",
+      "delete-account": "喺 KOVA 離線 V1入面管理你嘅資料同埋刪除本機設定檔。瞭解匯出嘅副本同埋點解唔可以用雲端恢復。",
+      "privacy": "草擬 KOVA 私隱權政策：本地應用程式資料、匯出、聯絡人同埋可選嘅網站分析。出版前需要核准。",
+      "terms": "草擬 KOVA 離線免費 V1嘅條款：應用程式範圍、用戶資料、備份同埋財務估算嘅限制。",
+      "cookies": "KOVA 網站點樣使用 Cookie 同埋 Google Analytics 只有喺同意之後。睇下咩係衡量嘅，同埋點樣撤回你嘅選擇。"
+    }
+  },
+  "extra": {
+    "demo": "虛構嘅示範數據",
+    "enlarge": "放大",
+    "contents": "內容",
+    "publicAddress": "公開 EN 地址：",
+    "language": "網站語言"
+  },
+  "cookies": "<section data-doc-lang=\"yue\" data-document-title=\"KOVA 網站 Cookie 同埋 Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">曲奇餅</p><h1>分析係你嘅選擇。</h1><p>基本嘅 Cookie 會記住語言同設定。分析只會喺同意之後先開始。</p><div class=\"document-meta\"><span class=\"document-chip\">更新日期：2026年10月22號</span><span class=\"document-chip\">冇廣告</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>必要嘅</h2><p><code>kova_site_language</code>記住語言長達12個月；<code>kova_cookie_consent_v2</code>記住你嘅選擇180日。之前同意本地計數器唔會授權 Google Analytics 。</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>喺公開 kovacompass.app 網域（包括 www ）上面得到同意之後，我哋會載入 Google 標籤<code>G-2LE3GWYDZM</code>。 Google 可能會儲存<code>_ga</code>同埋<code>_ga_2LE3GWYDZM</code>用嚟識別瀏覽器同工作階段嘅 cookie 。我哋會設定180日到期，而唔會喺每次訪問嗰陣自動續約；瀏覽器可能會縮短呢段時間。</p></article>\n          <article class=\"document-card\"><h2>我哋衡量嘅嘢</h2><p>頁面檢視、打開同播放簡報、章節選擇、放大嘅螢幕截圖、開啟嘅常見問題同埋聯絡人點擊。我哋嘅活動只包含活動名稱、冇網址參數或者片段嘅公開頁面，同埋語言。我哋唔會傳送訊息內容、財務、帳戶 ID 或者工作區內容。本機預覽唔會執行 Google Analytics 。</p></article>\n          <article class=\"document-card\"><h2>收件人同基礎</h2><p>出版商： Vadyslav Konohrai ，波蘭；聯絡人：<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>。可選嘅測量需要你嘅同意。 Google Analytics 亦會處理技術瀏覽器、裝置、工作階段同埋大約位置資訊。 IP 地址係參與通訊嘅； Google 話 GA4 唔會儲存 IP 位址。噉樣唔會令到啲數據完全匿名。處理可能會喺歐洲經濟區以外進行。睇吓<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Google 嘅私隱政策</a>同埋<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 數據資訊</a>。</p></article>\n          <article class=\"document-card\"><h2>網站語言</h2><p>語言選擇亦都仍然存在<code>localStorage</code>直到瀏覽器儲存空間清除為止。 KOVA 帳戶資料唔會儲存喺呢度。</p></article>\n          <article class=\"document-card wide\"><h2>改變你嘅選擇</h2><p>喺頁尾打開「 Cookie 設定」，然後拒絕分析，或者閂咗佢然後儲存。拒絕唔會限制個網站。撤銷會移除可存取嘅 GA Cookie , 同埋重新載入頁面，以停止標籤。佢回想唔到已經傳送咗嘅數據。關於資料權利，請聯絡我哋；你亦可以向相關嘅數據保護機構投訴。喺唔需要選擇同意嘅情況下，私隱文件仍然可以閱讀。</p></article>\n          <article class=\"document-card wide\"><h2>出版前嘅狀態</h2><p>草稿資訊喺2026年10月22日更新。整合只限網站；離線 V1應用程式仍然係冇分析嘅。喺程式碼入面停用咗 Google 訊號同廣告同意。喺發佈之前，發佈者必須確認處理條款、轉移、 GA4 服務保留（同 Cookie 壽命分開）、停用咗自動增強測量同埋寄存設定。本地測試唔會驗證呢啲設定。</p></article>\n        </div>\n      </section>"
+}

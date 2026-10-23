@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const names = { pl:'Polski', en:'English', ru:'Русский' };
+  const names = window.KOVA_LANGUAGES.names;
   const labels = { pl:'Język strony', en:'Site language', ru:'Язык сайта' };
   document.querySelectorAll('#site-language,[data-project-language],[data-document-language],[data-legal-language]').forEach((select, index) => {
     const original = select.closest('label');
@@ -31,7 +31,7 @@
     });
     function sync() {
       const current = names[select.value] ? select.value : 'pl';
-      const label = labels[document.documentElement.lang] || labels.pl;
+      const label = window.KOVA_TRANSLATIONS?.[document.documentElement.lang]?.extra.language || labels[document.documentElement.lang] || labels.pl;
       trigger.querySelector('[data-language-name]').textContent = names[current];
       trigger.setAttribute('aria-label',`${label}: ${names[current]}`);
       menu.setAttribute('aria-label',label);
@@ -43,6 +43,7 @@
     }
     function open(last = false) {
       menu.hidden = false; trigger.setAttribute('aria-expanded','true');
+      options.find(o => o.dataset.language === select.value)?.scrollIntoView({block:'nearest'});
       (last ? options.at(-1) : options.find(o => o.dataset.language === select.value) || options[0]).focus();
     }
     trigger.addEventListener('click',() => menu.hidden ? open() : close(true));

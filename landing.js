@@ -535,12 +535,16 @@
   }
 ];
 
+  for (const [code, data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
+    dictionaries[code] = data.home;
+    videoSlides.forEach((slide,index) => { for (const key of ['title','caption','copy']) slide[key][code] = data.slides[index][key]; });
+  }
   const supported = Object.keys(dictionaries);
   const requested = new URLSearchParams(location.search).get('lang');
   let storedLanguage;
   try { storedLanguage = localStorage.getItem(LANGUAGE_KEY); } catch { /* Browsing still works with storage disabled. */ }
   let language = supported.includes(requested) ? requested : document.documentElement.dataset.staticLanguage || storedLanguage;
-  if (!supported.includes(language)) language = navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : navigator.language?.toLowerCase().startsWith('en') ? 'en' : 'pl';
+  if (!supported.includes(language)) language = window.KOVA_LANGUAGES.resolve(navigator.language);
   const copy = () => dictionaries[language];
   const isLocalOwner = location.protocol === 'file:' || ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
 
@@ -554,9 +558,9 @@
       const slide = videoSlides[Number(figure.dataset.screenIndex)];
       figure.querySelector('b').textContent = slide.title[language];
       figure.querySelector('figcaption span').textContent = slide.caption?.[language] || slide.copy[language];
-      figure.querySelector('img').alt = `${slide.title[language]} — ${{pl:'fikcyjne dane demonstracyjne',en:'fictional demo data',ru:'вымышленные данные'}[language]}`;
+      figure.querySelector('img').alt = `${slide.title[language]} — ${(window.KOVA_TRANSLATIONS?.[language]?.extra.demo || {pl:'fikcyjne dane demonstracyjne',en:'fictional demo data',ru:'вымышленные данные'}[language])}`;
     });
-    document.querySelectorAll('[data-lightbox]').forEach(button => { button.setAttribute('aria-label', `${{pl:'Powiększ',en:'Enlarge',ru:'Увеличить'}[language]}: ${button.querySelector('img').alt}`); });
+    document.querySelectorAll('[data-lightbox]').forEach(button => { button.setAttribute('aria-label', `${(window.KOVA_TRANSLATIONS?.[language]?.extra.enlarge || {pl:'Powiększ',en:'Enlarge',ru:'Увеличить'}[language])}: ${button.querySelector('img').alt}`); });
     document.querySelector('.topbar .brand').setAttribute('aria-label', copy().pageTitle);
     document.querySelector('.hero-showcase').setAttribute('aria-label', copy().navScreens);
     document.querySelector('.feature-strip').setAttribute('aria-label', copy().navFeatures);
