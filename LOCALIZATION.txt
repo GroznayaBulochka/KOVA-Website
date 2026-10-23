@@ -38,3 +38,29 @@ Verification:
 
 Ukrainian SEO titles/descriptions were edited for natural phrasing. Search-language
 group mappings and Open Graph territories are recorded in seo-locales.json.
+
+Automatic language selection — 23 October 2026
+The same language-config.js resolver is used on the landing page, project
+pages, cookies and legal documents. Priority: a supported ?lang parameter,
+a language-specific filename, a saved manual preference, then the first
+supported entry in navigator.languages (navigator.language as fallback).
+Unsupported lists fall back to Polish. Generic Polish HTML is a static
+no-JS/SEO fallback, not an automatic language preference.
+
+Only a manual selection in the picker or visible language links writes the
+existing kova_site_language preference. Both localStorage and an essential
+one-year cookie are used; blocked storage falls back to the cookie. If both
+are blocked, language selection still works for the current page and URL.
+Automatic detection and merely visiting a shared localized URL do not replace
+a previous manual preference. Existing saved choices remain compatible.
+
+Browser aliases cover regional tags, cmn for Mandarin, zh-Hant-HK/zh-MO for
+Cantonese, pa-Arab-PK for Western Punjabi and legacy jw for Javanese.
+The selector does not use IP geolocation or any external translation service.
+
+Verification:
+node qa/language-selection-check.mjs — resolver and persistence edge cases.
+npm run test:languages — isolated browser integration matrix; requires the
+public preview on http://127.0.0.1:4174 (or KOVA_PUBLIC_ORIGIN).
+Detailed browser evidence: qa/artifacts/localization/language-selection-browser.json.
+The earlier language-detection-audit.json records behavior before this fix.

@@ -111,7 +111,7 @@ export async function prepareRenderer(root){
  vm.runInNewContext(legal.slice(legal.indexOf('  const websiteCopy'),legal.indexOf('  for (const [lang'))+';window.websiteCopy=websiteCopy;window.reviewCopy=reviewCopy;',context);
  for(const [code,data] of Object.entries(translations)) {context.window.websiteCopy[code]=[data.legal.analyticsTitle,data.legal.analyticsCopy];context.window.reviewCopy[code]=data.review;}
  const projectJs=await read('project-pages.js');
- vm.runInNewContext(projectJs.slice(projectJs.indexOf('  const esc'),projectJs.indexOf('  let stored'))+';window.renderProject=render;',context);
+ vm.runInNewContext(projectJs.slice(projectJs.indexOf('  const esc'),projectJs.indexOf('  const initial'))+';window.renderProject=render;',context);
  return async function render(html,page,lang,origin,isRelease){
   const content=context.window;
   html=html.replace('<html lang="pl">',`<html lang="${lang}" data-static-language="${lang}"${rtl.has(lang)?' dir="rtl"':''}>`);
@@ -156,7 +156,7 @@ export async function prepareRenderer(root){
    return `href="${urlPath(target,languages.includes(explicit)?explicit:lang)}${url.search}${url.hash}"`;
   });
   // Crawlable links, also usable with scripts disabled; no hidden keyword content.
-  const navigation=`<nav class="seo-language-links" aria-label="Language">${languages.map(l=>`<a data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}">${languageNames[l]}</a>`).join(' · ')}</nav>`;
+  const navigation=`<nav class="seo-language-links" aria-label="Language">${languages.map(l=>`<a data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}${l==='pl'?'?lang=pl':''}">${languageNames[l]}</a>`).join(' · ')}</nav>`;
   html=html.replace('</main>',navigation+'\n</main>');
   return html;
  };

@@ -3,7 +3,7 @@ import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 const locales=Object.keys(JSON.parse(await readFile(new URL('../language-registry.json',import.meta.url),'utf8')));
-const localeFromUrl=url=>locales.find(l=>l!=='pl'&&new URL(url).pathname.endsWith('-'+l+'.html')) || 'pl';
+const localeFromUrl=url=>locales.find(l=>l!=='pl'&&new URL(url).pathname.endsWith('-'+l+'.html')) || null;
 
 const edge = process.env.KOVA_EDGE || 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const origin = process.argv[2] || 'http://127.0.0.1:4173/';
@@ -121,7 +121,7 @@ try {
   })()`;
   const initialPublicLinks = await evaluate(publicDocumentProbe);
   if (!initialPublicLinks.valid) throw new Error('Missing initial public legal links: '+JSON.stringify(initialPublicLinks));
-  const expectedLanguage = new URL(origin).searchParams.get('lang') || localeFromUrl(origin) || 'pl';
+  const expectedLanguage = new URL(origin).searchParams.get('lang') || localeFromUrl(origin) || await evaluate('window.KOVA_LANGUAGES?.browserLanguage() || "pl"');
   if (initialSeo.present && (!initialSeo.valid || initialSeo.lang!==expectedLanguage)) throw new Error('Initial localized SEO mismatch: '+JSON.stringify(initialSeo));
   // The shared native modal must be dismissed before testing background navigation.
   // Its focus trap, first-visit state and Google protocol are covered separately.
@@ -140,7 +140,7 @@ try {
     await key('ArrowDown','ArrowDown',40); await key('Tab','Tab',9);
     if (!await evaluate('document.querySelector(".language-trigger").ariaExpanded === "false" && !document.activeElement.matches(".language-option")')) throw new Error('Language Tab traps focus');
     // Restore the case language using the actual custom option.
-    const initialLanguage = new URL(origin).searchParams.get('lang') || localeFromUrl(origin) || 'pl';
+    const initialLanguage = expectedLanguage;
     await evaluate(`document.querySelector('.language-trigger').click();document.querySelector('[data-language="${initialLanguage}"]').click()`);
     await delay(500);
   } else if (!origin.includes('workspace.html')) throw new Error('Custom language control missing');

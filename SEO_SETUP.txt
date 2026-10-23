@@ -119,3 +119,12 @@ AKTUALIZACJA WIELOJĘZYCZNEGO SEO — 23.10.2026
 Źródła techniczne sprawdzone 23.10.2026:
 https://developers.google.com/search/docs/specialty/international/localized-versions
 https://ogp.me/
+
+AUTOMATYCZNY WYBÓR JĘZYKA — 23.10.2026
+Na zwykłym adresie strona używa zapamiętanego ręcznego wyboru lub pierwszego
+obsługiwanego języka z listy preferencji przeglądarki. Jawne ?lang oraz adresy
+z końcówką języka zachowują pierwszeństwo. Tylko ręczny wybór zapisuje preferencję;
+wejście z cudzego linku językowego jej nie nadpisuje. Polski link wyboru języka
+używa ?lang=pl, aby odróżnić świadomy wybór od automatycznego wejścia na /.
+Canonical, hreflang i treść statyczna bez JS nadal wskazują wersje kanoniczne.
+Nie dodano lokalizacji według IP ani nowych połączeń z usługami zewnętrznymi.

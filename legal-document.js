@@ -23,11 +23,7 @@
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
     copy[code]=data.legal; reviewCopy[code]=data.review;
   }
-  const params = new URLSearchParams(location.search);
-  let storedLanguage;
-  try { storedLanguage = localStorage.getItem('kova_site_language'); } catch { /* Reading documents does not require storage. */ }
-  let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || (window.KOVA_LANGUAGES.resolve(navigator.language));
-  if (!supported.has(language)) language = 'pl';
+  let language = window.KOVA_LANGUAGES.initial();
 
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[character]);
   const slug = value => value.toLowerCase().replace(/[`*_]/g, '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
@@ -89,8 +85,6 @@
     const revision = ++loadRevision;
     language = supported.has(nextLanguage) ? nextLanguage : 'pl';
     document.documentElement.lang = language;
-    try { localStorage.setItem('kova_site_language', language); } catch { /* URL retains the choice. */ }
-    document.cookie = `kova_site_language=${language}; Max-Age=31536000; Path=/; SameSite=Lax`;
     document.querySelector('[data-legal-language]').value = language;
     document.querySelectorAll('[data-legal-copy]').forEach(node => { node.textContent = copy[language][node.dataset.legalCopy]; });
     document.querySelectorAll('[data-legal-link]').forEach(link => { const url = new URL(link.getAttribute('href'), location.href); url.searchParams.set('lang', language); link.href = `${url.pathname.split('/').pop()}${url.search}${url.hash}`; });

@@ -2,12 +2,7 @@
   'use strict';
 
   const supported = new Set(window.KOVA_LANGUAGES.codes);
-  const params = new URLSearchParams(location.search);
-  const browserLanguage = window.KOVA_LANGUAGES.resolve(navigator.language);
-  let storedLanguage;
-  try { storedLanguage = localStorage.getItem('kova_site_language'); } catch { /* The document remains readable without storage. */ }
-  let language = params.get('lang') || document.documentElement.dataset.staticLanguage || storedLanguage || browserLanguage;
-  if (!supported.has(language)) language = 'pl';
+  let language = window.KOVA_LANGUAGES.initial();
 
   const main=document.querySelector('main');
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
@@ -29,8 +24,6 @@
 
   document.querySelectorAll('[data-document-language]').forEach(select => {
     select.addEventListener('change', event => {
-      try { localStorage.setItem('kova_site_language', event.target.value); } catch { /* URL retains the choice. */ }
-      document.cookie = `kova_site_language=${event.target.value}; Max-Age=31536000; Path=/; SameSite=Lax`;
       const url = new URL(location.href);
       url.searchParams.set('lang', event.target.value);
       history.replaceState(null, '', url);

@@ -5,6 +5,7 @@ const cwd=fileURLToPath(new URL('..',import.meta.url));
 const commands=[
  ['qa/static-check.mjs'],
  ['qa/localization-check.mjs'],
+ ['qa/language-selection-check.mjs'],
  ['qa/public-contract-check.mjs','../KOVA-App'],
  ['qa/offline-content-check.mjs'],
  ['qa/presentation-check.mjs'],

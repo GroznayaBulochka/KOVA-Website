@@ -21,7 +21,7 @@ for (const entry of cases.filter(entry => (!legalOnly || ['privacy','terms'].inc
   const id = `${entry.page}-${entry.lang}-${entry.width}${entry.mode ? '-' + entry.mode : ''}`;
   const origin = entry.page === 'workspace' ? (process.env.KOVA_WORKSPACE_ORIGIN || 'http://127.0.0.1:4173') : (process.env.KOVA_PUBLIC_ORIGIN || 'http://127.0.0.1:4174');
   const pathname = entry.page + (entry.lang === 'pl' ? '' : '-' + entry.lang) + '.html';
-  const args = ['qa/site-smoke.mjs', `${origin}/${pathname}`, `${output}/${id}.png`, String(entry.width), String(entry.height), entry.mode || ''];
+  const args = ['qa/site-smoke.mjs', `${origin}/${pathname}${entry.lang==='pl'?'?lang=pl':''}`, `${output}/${id}.png`, String(entry.width), String(entry.height), entry.mode || ''];
   const started = new Date().toISOString();
   const result = spawnSync(process.execPath, args, { cwd:root, encoding:'utf8', timeout:60000 });
   await writeFile(`${output}/${id}.log`, `${result.stdout || ''}\n${result.stderr || ''}${result.error ? '\n' + result.error : ''}`);

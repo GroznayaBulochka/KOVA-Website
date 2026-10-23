@@ -1,7 +1,6 @@
 (() => {
   'use strict';
 
-  const LANGUAGE_KEY = 'kova_site_language';
   const dictionaries = {
   "pl": {
     "skip": "Przejdź do treści",
@@ -540,11 +539,7 @@
     videoSlides.forEach((slide,index) => { for (const key of ['title','caption','copy']) slide[key][code] = data.slides[index][key]; });
   }
   const supported = Object.keys(dictionaries);
-  const requested = new URLSearchParams(location.search).get('lang');
-  let storedLanguage;
-  try { storedLanguage = localStorage.getItem(LANGUAGE_KEY); } catch { /* Browsing still works with storage disabled. */ }
-  let language = supported.includes(requested) ? requested : document.documentElement.dataset.staticLanguage || storedLanguage;
-  if (!supported.includes(language)) language = window.KOVA_LANGUAGES.resolve(navigator.language);
+  let language = window.KOVA_LANGUAGES.initial();
   const copy = () => dictionaries[language];
   const isLocalOwner = location.protocol === 'file:' || ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
 
@@ -574,9 +569,7 @@
     document.querySelector('[data-video-next]').setAttribute('aria-label', copy().next);
     document.querySelector('.lightbox>button').setAttribute('aria-label', copy().close);
     document.querySelectorAll('[data-legal-link]').forEach(link => { link.href = `${link.dataset.legalLink}?lang=${language}`; });
-    try { localStorage.setItem(LANGUAGE_KEY, language); } catch { /* URL preserves the language when storage is unavailable. */ }
     const url = new URL(location.href); url.searchParams.set('lang', language); history.replaceState(null, '', url);
-    document.cookie = `kova_site_language=${language}; Max-Age=31536000; Path=/; SameSite=Lax`;
     renderVideoSlide();
   }
 

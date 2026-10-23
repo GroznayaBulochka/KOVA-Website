@@ -62,7 +62,7 @@ for(const page of pages)for(const lang of languages){
   }else if(page==='cookies'){
    assert.ok(new RegExp(`<section data-doc-lang="${lang}"[^>]*(?<! hidden)>`).test(main));
   }else assert.ok(main.includes('document-card')||page==='404');
-  for(const l of languages)assert.ok(main.includes(`data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}"`));
+  for(const l of languages)assert.ok(main.includes(`data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}${l==='pl'?'?lang=pl':''}"`));
  });
  // Validate actual generated files, not only source templates.
  for(const [,reference] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)){
