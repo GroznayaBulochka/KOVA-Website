@@ -2,11 +2,19 @@
 (() => {
  'use strict';
  const base=new Set(['pl','en','ru']),pending=new Map();
+ const version=document.querySelector('meta[name="kova-build"]')?.content;
+ window.KOVA_ASSET_URL=path=>{
+  if(!version)return path;
+  const url=new URL(path,location.href);
+  if(url.origin!==location.origin)return path;
+  url.searchParams.set('v',version);
+  return url.pathname+url.search+url.hash;
+ };
  window.KOVA_TRANSLATIONS={};
  async function load(code){
   if(base.has(code)||window.KOVA_TRANSLATIONS[code])return;
   if(!pending.has(code))pending.set(code,(async()=>{
-   const response=await fetch(`locales/${code}.json`);
+   const response=await fetch(window.KOVA_ASSET_URL(`locales/${code}.json`));
    if(!response.ok)throw Error('Locale unavailable');
    const data=await response.json();
    if(!data.home||!data.shell||!data.projects||!data.consent)throw Error('Invalid locale');

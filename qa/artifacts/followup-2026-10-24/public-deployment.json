@@ -1,0 +1,26 @@
+{
+  "origin": "https://kovacompass.app",
+  "expectedVersion": "722a062d1060c85122cf",
+  "mode": "preview",
+  "checkedAt": "2026-10-24T19:32:27.737Z",
+  "checks": [
+    {
+      "path": "build-manifest.json",
+      "url": "https://kovacompass.app/build-manifest.json",
+      "status": 404,
+      "sha256": "efc7955b8c3e2f03ad583a2cd95e7b50411c54000f1933356fa659e602a6a619",
+      "cacheControl": null,
+      "etag": null,
+      "age": "0"
+    }
+  ],
+  "failures": [
+    {
+      "path": "build-manifest.json",
+      "status": 404,
+      "reason": "HTTP error"
+    }
+  ],
+  "warnings": [],
+  "result": "FAIL"
+}

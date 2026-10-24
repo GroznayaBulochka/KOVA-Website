@@ -26,16 +26,37 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: expected-website-build
+          path: dist/build-manifest.json
   deploy:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: expected-website-build
+          path: .release-manifest
       - name: Publish the generated artifact
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the public domain against the uploaded artifact
+        run: node scripts/verify-deployment.mjs --origin https://kovacompass.app --manifest .release-manifest/build-manifest.json --require-release --report deployment-verification.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deployment-verification
+          path: deployment-verification.json
+          if-no-files-found: ignore

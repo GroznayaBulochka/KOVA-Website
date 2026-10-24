@@ -1,0 +1,24 @@
+{
+  "scope": "Variable-spending estimation only; not a universal minimum for every forecast or guaranteed accuracy",
+  "sources": [
+    {
+      "path": "../KOVA-App/app/src/main/java/com/kova/budget/data/ForecastSpendingPolicy.kt",
+      "sha256": "1e49324673fa421affa91d2d6b46d66646fe65a9b6beb0b14c8e3335052a3f94"
+    },
+    {
+      "path": "../KOVA-App/app/src/main/java/com/kova/budget/data/ForecastEngine.kt",
+      "sha256": "9b7201e6957bd2b8edf41e2038094e6f0d17ef5f18820e47d38ed8cba159aca7"
+    },
+    {
+      "path": "../KOVA-App/app/src/main/java/com/kova/budget/data/analytics/ForecastEngine.kt",
+      "sha256": "16f42dbb1d907ff0b6dafafdae08e314d991e60f77ae534593188919df7e1012"
+    }
+  ],
+  "observed": {
+    "MIN_FORECAST_SPENDING_EVENTS": 2,
+    "MIN_FORECAST_OBSERVATION_DAYS": 7,
+    "window": "Reportable expenses from the last three months, through today",
+    "observation": "Days from earliest qualifying expense through today, inclusive",
+    "insufficient": "No variable-spending average is projected; other forecast components may still exist"
+  }
+}

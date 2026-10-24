@@ -11,7 +11,7 @@
     "navLegal": "Documents",
     "navRoadmap": "Feuille de route",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finances<br><em>en un seul endroit.</em>",
+    "heroTitle": "Dépenses. Budget.<br><em>Revenus du travail.</em>",
     "heroCopy": "Suivez vos dépenses, planifiez vos budgets et estimez les revenus de vos heures de travail. Vos finances restent sur votre téléphone. Arrive sur Android avec une base gratuite et KOVA Premium en option.",
     "heroPrivacy": "Vos données financières restent sur votre téléphone.",
     "projectStatus": "Vérifier l'état du projet",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Enregistrez les heures de travail et les tarifs pour estimer les revenus. Réunissez votre horaire de travail et votre budget mensuel dans un seul plan.",
     "aboutPrivacy": "Les dossiers financiers restent sur votre téléphone. Pas de connexion bancaire ni de compte cloud KOVA. Les achats facultatifs de Premium sont traités séparément via Google Play.",
     "aboutAction": "Voir KOVA en action",
-    "followLaunch": "Suivez le lancement",
+    "followLaunch": "Suivez KOVA sur Instagram",
     "downloadApp": "Obtenez-le sur Google Play",
     "launchChannel": "Nouvelles de lancement sur Instagram · @kova_money",
     "workScreenNote": "Travail et revenus · écran de démonstration précédent ; la conception peut changer.",
@@ -159,7 +159,8 @@
     "closingKicker": "Restez proche du lancement",
     "closingTitle": "Faites de la place pour un plan financier plus clair.",
     "closingCopy": "Suivez KOVA Development sur Instagram pour les aperçus des applications et les actualités de lancement. La première sortie publique est toujours en préparation.",
-    "closingSecondary": "Vous pouvez également trouver KOVA sur TikTok."
+    "closingSecondary": "Vous pouvez également trouver KOVA sur TikTok.",
+    "forecastNote": "Dans la version actuelle, l’estimation des dépenses variables nécessite au moins 7 jours d’observation et 2 dépenses enregistrées. Des saisies régulières donnent une vue plus complète. Une prévision reste une estimation."
   },
   "slides": [
     {

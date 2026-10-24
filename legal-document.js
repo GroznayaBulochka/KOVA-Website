@@ -20,7 +20,7 @@
   ],
   "ru": [
     "Приватность на этом сайте",
-    "Этот сайт не может прочитать базу данных ваших телефонов. Google Analytics измеряет посещения веб-сайта и взаимодействия только с вашего согласия. Отказ сохраняет полную доступность сайта. Измените свой выбор в настройках файлов cookie; сведения о хостинге и провайдере по-прежнему требуют подтверждения перед новым общедоступным развертыванием. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "Сайт не читает базу данных телефона. Google Analytics измеряет посещения и действия только с вашего согласия. При отказе весь сайт остаётся доступным. Выбор можно изменить в настройках cookies; сведения о хостинге и поставщиках услуг ещё требуют подтверждения перед новым публичным размещением. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
   ]
 };
   const reviewCopy = {
@@ -104,7 +104,7 @@
     document.querySelector('[data-legal-language]').value = language;
     document.querySelectorAll('[data-legal-copy]').forEach(node => { node.textContent = copy[language][node.dataset.legalCopy]; });
     document.querySelectorAll('[data-legal-link]').forEach(link => { const url = new URL(link.getAttribute('href'), location.href); url.searchParams.set('lang', language); link.href = `${url.pathname.split('/').pop()}${url.search}${url.hash}`; });
-    const source = `legal/${documentKind}-${language}.md`;
+    const source = window.KOVA_ASSET_URL?.(`legal/${documentKind}-${language}.md`) || `legal/${documentKind}-${language}.md`;
     const sourceLink = document.querySelector('[data-legal-source]');
     sourceLink.href = source;
     const content = document.querySelector('[data-legal-content]');

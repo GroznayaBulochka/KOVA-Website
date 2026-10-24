@@ -11,7 +11,7 @@
     "navLegal": "文件",
     "navRoadmap": "路线图",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "财务<br><em>集中在一处。</em>",
+    "heroTitle": "支出与预算。<br><em>工作收入。</em>",
     "heroCopy": "跟踪支出、计划预算并估算工作时间的收入。您的财务状况都在您的手机上。来到 Android，带有免费底座和可选的 KOVA Premium。",
     "heroPrivacy": "您的财务数据保留在您的手机上。",
     "projectStatus": "检查项目状态",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "记录工作时间和费率以估算收入。将您的工作日程和每月预算纳入一个计划。",
     "aboutPrivacy": "财务记录保留在您的手机上。没有银行连接或 KOVA 云帐户。可选的 Premium 购买通过 Google Play 单独处理。",
     "aboutAction": "查看 KOVA 的实际应用",
-    "followLaunch": "关注发射",
+    "followLaunch": "在 Instagram 关注 KOVA",
     "downloadApp": "在 Google Play 上获取",
     "launchChannel": "Instagram上线消息 · @kova_money",
     "workScreenNote": "工作与收入·早期演示屏幕；设计可能会改变。",
@@ -159,7 +159,8 @@
     "closingKicker": "密切关注发布会",
     "closingTitle": "为更清晰的财务计划腾出空间。",
     "closingCopy": "在 Instagram 上关注 KOVA Development 以获取应用预览和发布新闻。首次公开发布仍在准备中。",
-    "closingSecondary": "您还可以在TikTok上找到KOVA。"
+    "closingSecondary": "您还可以在TikTok上找到KOVA。",
+    "forecastNote": "在当前版本中，估算可变支出至少需要 7 天的观察期和 2 条支出记录。持续记录能提供更完整的信息。预测始终只是估算。"
   },
   "slides": [
     {

@@ -1,0 +1,45 @@
+{
+  "version": "f79db4b03cdc2e15098f",
+  "published": false,
+  "committed": false,
+  "inputs": [
+    {
+      "path": "landing.js",
+      "sha256": "3a9b2743904c6f72459049872f30dca00f45617a949e8eb442ae2570652a3a0c"
+    },
+    {
+      "path": "landing.css",
+      "sha256": "c77d4a9fe005fd9e6d992ecd281ecd16d6dc69a70977bb3256f2cfce8720e402"
+    },
+    {
+      "path": "project-content.js",
+      "sha256": "9e3356daf2eb6842cff2b5299304a2cb59cf03373b1f4ecf352be15ee69f2f74"
+    },
+    {
+      "path": "legal-document.js",
+      "sha256": "adcc14b2a5aa8f77dae69a1842ca70d67487a7cd1670e71f4531346f45465d7d"
+    },
+    {
+      "path": "runtime-bootstrap.js",
+      "sha256": "12e42ed854ed910e977a3365dd75ea4463476600d14bcef8887e686f36d65803"
+    },
+    {
+      "path": "scripts/build-site.mjs",
+      "sha256": "4d4ef701d03a325fc91ff401382e775b6121f688d5c74fa06482c3a4a71c8544"
+    },
+    {
+      "path": "scripts/asset-versioning.mjs",
+      "sha256": "c4c2089007b6805d63428bd11769208ce94ea7859fa27ddf430ade0099fd50b6"
+    },
+    {
+      "path": "scripts/verify-deployment.mjs",
+      "sha256": "1c26786b389a65ba738c47a8cfc867eaa9c7a7a4e1905cb21c7b434e010a1a87"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "e5ac7fd1a723e84054fc8dcfb947815198bb5643077a08ba60875365104d4c12"
+    }
+  ],
+  "languageResults": "PASS",
+  "allMobileCtasVisible": true
+}

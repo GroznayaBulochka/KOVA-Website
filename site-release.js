@@ -2,7 +2,7 @@
  'use strict';
  const config=window.KOVA_RELEASE;
  if(!config)return;
- const base={pl:{followLaunch:'Obserwuj premierę',downloadApp:'Pobierz z Google Play'},en:{followLaunch:'Follow the launch',downloadApp:'Get it on Google Play'},ru:{followLaunch:'Следите за запуском',downloadApp:'Скачать в Google Play'}};
+ const base={pl:{followLaunch:'Obserwuj KOVA na Instagramie',downloadApp:'Pobierz z Google Play'},en:{followLaunch:'Follow KOVA on Instagram',downloadApp:'Get it on Google Play'},ru:{followLaunch:'Подписаться на KOVA в Instagram',downloadApp:'Скачать в Google Play'}};
  function sync(){
   const lang=document.documentElement.lang;
   const copy=window.KOVA_TRANSLATIONS?.[lang]?.home||base[lang]||base.en;

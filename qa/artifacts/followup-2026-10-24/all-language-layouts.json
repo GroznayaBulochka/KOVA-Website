@@ -1,0 +1,278 @@
+{
+  "result": "PASS",
+  "languages": 27,
+  "version": "f79db4b03cdc2e15098f",
+  "results": [
+    {
+      "language": "pl",
+      "heading": "Wydatki. Budżet.<br><em>Dochód z pracy.</em>",
+      "cta": "Obserwuj KOVA na Instagramie",
+      "forecast": "W obecnej wersji szacowanie zmiennych wydatków wymaga co najmniej 7 dni obserwacji i 2 zapisów wydatków. Więcej regularnych zapisów daje pełniejszy obraz. Prognoza pozostaje szacunkiem.",
+      "overflow": false,
+      "ctaBottom": 622.875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 22
+    },
+    {
+      "language": "en",
+      "heading": "Spending. Budget.<br><em>Work income.</em>",
+      "cta": "Follow KOVA on Instagram",
+      "forecast": "In the current version, estimating variable spending needs at least 7 days of observation and 2 expense records. More regular records give a fuller picture. A forecast remains an estimate.",
+      "overflow": false,
+      "ctaBottom": 604.75,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 21
+    },
+    {
+      "language": "ru",
+      "heading": "Расходы. Бюджет.<br><em>Доход от работы.</em>",
+      "cta": "Подписаться на KOVA в Instagram",
+      "forecast": "В текущей версии для оценки переменных расходов нужны как минимум 7 дней наблюдений и 2 записи о расходах. Регулярные записи дают более полную картину. Прогноз остаётся оценкой.",
+      "overflow": false,
+      "ctaBottom": 764.1875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 22
+    },
+    {
+      "language": "ar",
+      "heading": "المصروفات والميزانية.<br><em>الدخل من العمل.</em>",
+      "cta": "تابع KOVA على Instagram",
+      "forecast": "في النسخة الحالية، يتطلب تقدير المصروفات المتغيرة 7 أيام من الملاحظة وسجلَّي مصروفات على الأقل. يساعد التسجيل المنتظم على تكوين صورة أشمل. وتظل التوقعات مجرد تقديرات.",
+      "overflow": false,
+      "ctaBottom": 604.75,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 22
+    },
+    {
+      "language": "bn",
+      "heading": "খরচ ও বাজেট।<br><em>কাজ থেকে আয়।</em>",
+      "cta": "Instagram-এ KOVA অনুসরণ করুন",
+      "forecast": "বর্তমান সংস্করণে পরিবর্তনশীল খরচ অনুমান করতে অন্তত 7 দিনের পর্যবেক্ষণ ও খরচের 2টি রেকর্ড প্রয়োজন। নিয়মিত রেকর্ড রাখলে আরও সম্পূর্ণ ধারণা পাওয়া যায়। পূর্বাভাস একটি অনুমান মাত্র।",
+      "overflow": false,
+      "ctaBottom": 609.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 22
+    },
+    {
+      "language": "de",
+      "heading": "Ausgaben. Budget.<br><em>Arbeitseinkommen.</em>",
+      "cta": "KOVA auf Instagram folgen",
+      "forecast": "In der aktuellen Version benötigt die Schätzung variabler Ausgaben mindestens 7 Beobachtungstage und 2 Ausgabeneinträge. Regelmäßige Einträge ergeben ein vollständigeres Bild. Eine Prognose bleibt eine Schätzung.",
+      "overflow": false,
+      "ctaBottom": 719.921875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 26
+    },
+    {
+      "language": "es",
+      "heading": "Gastos. Presupuesto.<br><em>Ingresos del trabajo.</em>",
+      "cta": "Sigue a KOVA en Instagram",
+      "forecast": "En la versión actual, estimar los gastos variables requiere al menos 7 días de observación y 2 registros de gastos. Registrar con regularidad ofrece una visión más completa. La previsión sigue siendo una estimación.",
+      "overflow": false,
+      "ctaBottom": 724.1875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 23
+    },
+    {
+      "language": "fa",
+      "heading": "هزینه‌ها و بودجه.<br><em>درآمد از کار.</em>",
+      "cta": "KOVA را در Instagram دنبال کنید",
+      "forecast": "در نسخهٔ فعلی، برآورد هزینه‌های متغیر به دست‌کم 7 روز مشاهده و 2 رکورد هزینه نیاز دارد. ثبت منظم، تصویر کامل‌تری می‌دهد. پیش‌بینی همچنان فقط یک برآورد است.",
+      "overflow": false,
+      "ctaBottom": 609.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "fr",
+      "heading": "Dépenses. Budget.<br><em>Revenus du travail.</em>",
+      "cta": "Suivez KOVA sur Instagram",
+      "forecast": "Dans la version actuelle, l’estimation des dépenses variables nécessite au moins 7 jours d’observation et 2 dépenses enregistrées. Des saisies régulières donnent une vue plus complète. Une prévision reste une estimation.",
+      "overflow": false,
+      "ctaBottom": 737.796875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 25
+    },
+    {
+      "language": "hi",
+      "heading": "खर्च और बजट।<br><em>काम से आय।</em>",
+      "cta": "Instagram पर KOVA को फ़ॉलो करें",
+      "forecast": "मौजूदा संस्करण में बदलते खर्च का अनुमान लगाने के लिए कम से कम 7 दिनों का अवलोकन और खर्च की 2 प्रविष्टियाँ चाहिए। नियमित प्रविष्टियों से पूरी तस्वीर मिलती है। पूर्वानुमान केवल एक अनुमान है।",
+      "overflow": false,
+      "ctaBottom": 649.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 25
+    },
+    {
+      "language": "it",
+      "heading": "Spese. Budget.<br><em>Reddito da lavoro.</em>",
+      "cta": "Segui KOVA su Instagram",
+      "forecast": "Nella versione attuale, la stima delle spese variabili richiede almeno 7 giorni di osservazione e 2 spese registrate. Registrazioni regolari offrono un quadro più completo. Una previsione resta una stima.",
+      "overflow": false,
+      "ctaBottom": 693.53125,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "ja",
+      "heading": "支出と予算。<br><em>仕事の収入。</em>",
+      "cta": "InstagramでKOVAをフォロー",
+      "forecast": "現在のバージョンでは、変動する支出の推定に少なくとも7日間の観察期間と2件の支出記録が必要です。継続して記録すると、より全体像を把握できます。予測はあくまで推定です。",
+      "overflow": false,
+      "ctaBottom": 649.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "jv",
+      "heading": "Pangeluaran. Anggaran.<br><em>Pangasilan saka kerja.</em>",
+      "cta": "Tindakake KOVA ing Instagram",
+      "forecast": "Ing versi saiki, ngira-ngira pangeluaran sing owah-owahan mbutuhake paling ora 7 dina pengamatan lan 2 cathetan pangeluaran. Cathetan sing ajeg menehi gambaran luwih lengkap. Prakiraan tetep mung perkiraan.",
+      "overflow": false,
+      "ctaBottom": 697.796875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "ko",
+      "heading": "지출과 예산.<br><em>일해서 번 소득.</em>",
+      "cta": "Instagram에서 KOVA 팔로우",
+      "forecast": "현재 버전에서 변동 지출을 추정하려면 최소 7일의 관찰 기간과 2건의 지출 기록이 필요합니다. 꾸준히 기록하면 더 전체적인 상황을 파악할 수 있습니다. 예측은 어디까지나 추정입니다.",
+      "overflow": false,
+      "ctaBottom": 609.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "mr",
+      "heading": "खर्च आणि बजेट.<br><em>कामातून मिळकत.</em>",
+      "cta": "Instagram वर KOVA ला फॉलो करा",
+      "forecast": "सध्याच्या आवृत्तीत बदलत्या खर्चाचा अंदाज लावण्यासाठी किमान 7 दिवसांचे निरीक्षण आणि खर्चाच्या 2 नोंदी आवश्यक आहेत. नियमित नोंदींमुळे अधिक स्पष्ट चित्र मिळते. पूर्वानुमान हा केवळ अंदाज असतो.",
+      "overflow": false,
+      "ctaBottom": 586.875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "ms",
+      "heading": "Perbelanjaan. Bajet.<br><em>Pendapatan kerja.</em>",
+      "cta": "Ikuti KOVA di Instagram",
+      "forecast": "Dalam versi semasa, anggaran perbelanjaan berubah memerlukan sekurang-kurangnya 7 hari pemerhatian dan 2 rekod perbelanjaan. Rekod yang konsisten memberikan gambaran lebih lengkap. Ramalan tetap hanya anggaran.",
+      "overflow": false,
+      "ctaBottom": 693.53125,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 26
+    },
+    {
+      "language": "pnb",
+      "heading": "خرچے تے بجٹ۔<br><em>کم توں آمدن۔</em>",
+      "cta": "Instagram اُتے KOVA نوں فالو کرو",
+      "forecast": "موجودہ ورژن وچ بدل دے خرچیاں دا اندازہ لاؤن لئی گھٹ توں گھٹ 7 دناں دی نگرانی تے خرچیاں دے 2 ریکارڈ چاہیدے نیں۔ باقاعدہ ریکارڈ نال ہور پوری تصویر ملدی اے۔ پیش گوئی صرف اک اندازہ اے۔",
+      "overflow": false,
+      "ctaBottom": 586.875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 23
+    },
+    {
+      "language": "pt",
+      "heading": "Despesas. Orçamento.<br><em>Renda do trabalho.</em>",
+      "cta": "Siga a KOVA no Instagram",
+      "forecast": "Na versão atual, estimar despesas variáveis exige pelo menos 7 dias de observação e 2 registros de despesas. Registros regulares oferecem uma visão mais completa. A previsão continua sendo uma estimativa.",
+      "overflow": false,
+      "ctaBottom": 737.796875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "sw",
+      "heading": "Matumizi. Bajeti.<br><em>Mapato ya kazi.</em>",
+      "cta": "Fuata KOVA kwenye Instagram",
+      "forecast": "Katika toleo la sasa, kukadiria matumizi yanayobadilika kunahitaji angalau siku 7 za ufuatiliaji na rekodi 2 za matumizi. Rekodi za mara kwa mara hutoa picha kamili zaidi. Utabiri unabaki kuwa makadirio.",
+      "overflow": false,
+      "ctaBottom": 649.265625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 23
+    },
+    {
+      "language": "ta",
+      "heading": "செலவுகள். பட்ஜெட்.<br><em>வேலை வருமானம்.</em>",
+      "cta": "Instagram இல் KOVA ஐப் பின்தொடருங்கள்",
+      "forecast": "தற்போதைய பதிப்பில் மாறும் செலவுகளை மதிப்பிட குறைந்தது 7 நாள் கவனிப்பும் 2 செலவுப் பதிவுகளும் தேவை. தொடர்ச்சியான பதிவுகள் முழுமையான பார்வையைத் தரும். முன்னறிவிப்பு ஒரு மதிப்பீடு மட்டுமே.",
+      "overflow": false,
+      "ctaBottom": 779.375,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 22
+    },
+    {
+      "language": "te",
+      "heading": "ఖర్చులు. బడ్జెట్.<br><em>పని ద్వారా ఆదాయం.</em>",
+      "cta": "Instagramలో KOVAను అనుసరించండి",
+      "forecast": "ప్రస్తుత వెర్షన్‌లో మారే ఖర్చులను అంచనా వేయడానికి కనీసం 7 రోజుల పరిశీలన, 2 ఖర్చు నమోదులు అవసరం. క్రమంగా నమోదు చేస్తే మరింత పూర్తి అవగాహన వస్తుంది. ముందస్తు అంచనా కేవలం ఒక అంచనా మాత్రమే.",
+      "overflow": false,
+      "ctaBottom": 646.328125,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "tr",
+      "heading": "Harcamalar. Bütçe.<br><em>Çalışma geliri.</em>",
+      "cta": "Instagram’da KOVA’yı takip edin",
+      "forecast": "Mevcut sürümde değişken harcamaları tahmin etmek için en az 7 günlük gözlem ve 2 harcama kaydı gerekir. Düzenli kayıtlar daha kapsamlı bir görünüm sağlar. Öngörüler yalnızca tahmindir.",
+      "overflow": false,
+      "ctaBottom": 671.140625,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "uk",
+      "heading": "Витрати. Бюджет.<br><em>Дохід від роботи.</em>",
+      "cta": "Стежте за KOVA в Instagram",
+      "forecast": "У поточній версії для оцінки змінних витрат потрібні щонайменше 7 днів спостережень і 2 записи про витрати. Регулярні записи дають повнішу картину. Прогноз залишається оцінкою.",
+      "overflow": false,
+      "ctaBottom": 737.796875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 25
+    },
+    {
+      "language": "ur",
+      "heading": "اخراجات اور بجٹ۔<br><em>کام سے آمدن۔</em>",
+      "cta": "Instagram پر KOVA کو فالو کریں",
+      "forecast": "موجودہ ورژن میں بدلتے اخراجات کا تخمینہ لگانے کے لیے کم از کم 7 دن کا مشاہدہ اور اخراجات کے 2 ریکارڈ درکار ہیں۔ باقاعدہ اندراج سے زیادہ مکمل تصویر ملتی ہے۔ پیش گوئی صرف ایک تخمینہ ہے۔",
+      "overflow": false,
+      "ctaBottom": 586.875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 25
+    },
+    {
+      "language": "vi",
+      "heading": "Chi tiêu. Ngân sách.<br><em>Thu nhập từ công việc.</em>",
+      "cta": "Theo dõi KOVA trên Instagram",
+      "forecast": "Trong phiên bản hiện tại, việc ước tính chi tiêu biến đổi cần ít nhất 7 ngày theo dõi và 2 bản ghi chi tiêu. Ghi chép đều đặn giúp có cái nhìn đầy đủ hơn. Dự báo vẫn chỉ là ước tính.",
+      "overflow": false,
+      "ctaBottom": 737.796875,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 24
+    },
+    {
+      "language": "yue",
+      "heading": "開支同預算。<br><em>工作收入。</em>",
+      "cta": "喺 Instagram 追蹤 KOVA",
+      "forecast": "目前版本要估算浮動開支，至少需要 7 日觀察期同 2 筆開支紀錄。持續記錄可以睇得更全面。預測始終只係估算。",
+      "overflow": false,
+      "ctaBottom": 560.484375,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 26
+    },
+    {
+      "language": "zh",
+      "heading": "支出与预算。<br><em>工作收入。</em>",
+      "cta": "在 Instagram 关注 KOVA",
+      "forecast": "在当前版本中，估算可变支出至少需要 7 天的观察期和 2 条支出记录。持续记录能提供更完整的信息。预测始终只是估算。",
+      "overflow": false,
+      "ctaBottom": 560.484375,
+      "version": "f79db4b03cdc2e15098f",
+      "resources": 25
+    }
+  ],
+  "errors": []
+}

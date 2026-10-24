@@ -11,7 +11,7 @@
     "navLegal": "문서",
     "navRoadmap": "로드맵",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "재정<br><em>한곳에서</em>",
+    "heroTitle": "지출과 예산.<br><em>일해서 번 소득.</em>",
     "heroCopy": "지출을 추적하고, 예산을 계획하고, 근무 시간에 따른 수입을 추정해 보세요. 귀하의 재정은 귀하의 휴대 전화에 남아 있습니다. 무료 베이스와 KOVA Premium 옵션이 포함된 Android가 출시됩니다.",
     "heroPrivacy": "금융 데이터는 사용자의 휴대폰에 저장됩니다.",
     "projectStatus": "프로젝트 상태 확인",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "근무 시간과 요율을 기록하여 수입을 추정하세요. 업무 일정과 월예산을 하나의 계획으로 통합하세요.",
     "aboutPrivacy": "재무 기록은 휴대전화에 보관됩니다. 은행 연결이나 KOVA 클라우드 계정이 없습니다. 선택적 Premium 구매는 Google Play를 통해 별도로 처리됩니다.",
     "aboutAction": "KOVA 작동 모습 보기",
-    "followLaunch": "출시를 따라가세요",
+    "followLaunch": "Instagram에서 KOVA 팔로우",
     "downloadApp": "Google Play에서 구매하세요",
     "launchChannel": "Instagram · @kova_money 출시 소식",
     "workScreenNote": "일과 소득 · 이전 데모 화면; 디자인은 변경될 수 있습니다.",
@@ -159,7 +159,8 @@
     "closingKicker": "출시에 가까이 다가가세요",
     "closingTitle": "보다 명확한 자금 계획을 위한 공간을 확보하십시오.",
     "closingCopy": "앱 미리보기 및 출시 소식을 보려면 Instagram에서 KOVA Development를 팔로우하세요. 첫 번째 공개 릴리스는 아직 준비 중입니다.",
-    "closingSecondary": "TikTok에서도 KOVA를 찾을 수 있습니다."
+    "closingSecondary": "TikTok에서도 KOVA를 찾을 수 있습니다.",
+    "forecastNote": "현재 버전에서 변동 지출을 추정하려면 최소 7일의 관찰 기간과 2건의 지출 기록이 필요합니다. 꾸준히 기록하면 더 전체적인 상황을 파악할 수 있습니다. 예측은 어디까지나 추정입니다."
   },
   "slides": [
     {

@@ -11,7 +11,7 @@
     "navLegal": "Documentos",
     "navRoadmap": "Roteiro",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finanças<br><em>em um só lugar.</em>",
+    "heroTitle": "Despesas. Orçamento.<br><em>Renda do trabalho.</em>",
     "heroCopy": "Acompanhe gastos, planeje orçamentos e estime a receita de suas horas de trabalho. Suas finanças ficam no seu telefone. Chegando ao Android com base gratuita e KOVA Premium opcional.",
     "heroPrivacy": "Seus dados financeiros ficam no seu telefone.",
     "projectStatus": "Verifique o status do projeto",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Registre horas de trabalho e taxas para estimar ganhos. Reúna seu cronograma de trabalho e orçamento mensal em um único plano.",
     "aboutPrivacy": "Os registros financeiros permanecem no seu telefone. Sem conexão bancária ou conta na nuvem KOVA. As compras opcionais de Premium são tratadas separadamente por meio de Google Play.",
     "aboutAction": "Veja KOVA em ação",
-    "followLaunch": "Acompanhe o lançamento",
+    "followLaunch": "Siga a KOVA no Instagram",
     "downloadApp": "Obtenha em Google Play",
     "launchChannel": "Novidades de lançamento em Instagram · @kova_money",
     "workScreenNote": "Trabalho e renda · tela de demonstração anterior; o design pode mudar.",
@@ -159,7 +159,8 @@
     "closingKicker": "Fique perto do lançamento",
     "closingTitle": "Abra espaço para um plano financeiro mais claro.",
     "closingCopy": "Siga KOVA Development em Instagram para visualizações de aplicativos e notícias de lançamento. O primeiro lançamento público ainda está em preparação.",
-    "closingSecondary": "Você também pode encontrar KOVA em TikTok."
+    "closingSecondary": "Você também pode encontrar KOVA em TikTok.",
+    "forecastNote": "Na versão atual, estimar despesas variáveis exige pelo menos 7 dias de observação e 2 registros de despesas. Registros regulares oferecem uma visão mais completa. A previsão continua sendo uma estimativa."
   },
   "slides": [
     {

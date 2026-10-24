@@ -163,7 +163,7 @@ try {
  record('Private path guarded even if consent script is injected',await evaluate('!window.KOVA_ANALYTICS&&!document.querySelector("[data-kova-google-tag]")'));
  const beforeNoScript=requests.length;
  await send('Emulation.setScriptExecutionDisabled',{value:true});
- for(const [path,language,heading] of [['index-en.html','en','finances'],['index-ru.html','ru','финанс'],['privacy-en.html','en','DRAFT']]){
+ for(const [path,language,heading] of [['index-en.html','en','spending'],['index-ru.html','ru','расходы'],['privacy-en.html','en','DRAFT']]){
   await send('Page.navigate',{url:origin+'/'+path});
   await until('document.readyState === "complete" && document.documentElement.lang === '+JSON.stringify(language));
   record(path+': browser without JavaScript has translated content, metadata and crawlable alternatives',await evaluate(`!window.KOVA_ROUTES && !window.KOVA_ANALYTICS && document.querySelector('h1').innerText.toLowerCase().includes(${JSON.stringify(heading.toLowerCase())}) && document.querySelector('link[rel="canonical"]').href===${JSON.stringify(origin+'/'+path)} && document.querySelectorAll('[data-language-link]').length===27 && document.querySelector('main').innerText.length>1000`)&&requests.length===beforeNoScript);

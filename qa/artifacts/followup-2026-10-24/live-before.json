@@ -1,0 +1,75 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 28652,
+    "cacheControl": "max-age=600",
+    "etag": null,
+    "age": "0",
+    "server": "cloudflare",
+    "canonical": false,
+    "hreflang": false,
+    "sameAsSource": false,
+    "sha256": "6bbbc3cac0f4fc17f06308ff7e8a45cf39a55c04b09319705eb99adf251422d2"
+  },
+  {
+    "path": "index-en.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "landing.js",
+    "status": 200,
+    "bytes": 59828,
+    "cacheControl": "max-age=14400",
+    "etag": "W/\"6adcffd4-e9b4\"",
+    "age": "0",
+    "server": "cloudflare",
+    "canonical": false,
+    "hreflang": false,
+    "sameAsSource": false,
+    "sha256": "532cc0ee6d8d60dcc38aace2fbad02863860893eab28d889ddf0efca82b206c2"
+  },
+  {
+    "path": "landing.css",
+    "status": 200,
+    "bytes": 24750,
+    "cacheControl": "max-age=14400",
+    "etag": "W/\"6adcffd3-60ae\"",
+    "age": "0",
+    "server": "cloudflare",
+    "canonical": false,
+    "hreflang": false,
+    "sameAsSource": false,
+    "sha256": "86b95e877240fa6d7c5c56c81896781470eb2c1d71518181a6fdcf30d4ff7537"
+  },
+  {
+    "path": "runtime-bootstrap.js",
+    "status": 200,
+    "bytes": 3310,
+    "cacheControl": "max-age=14400",
+    "etag": "W/\"6adcffd3-cee\"",
+    "age": "0",
+    "server": "cloudflare",
+    "canonical": false,
+    "hreflang": false,
+    "sameAsSource": true,
+    "sha256": "df809cb9ade0f60efa39914597c77bd7079d69ae02c1cb80f37b5f1cd4a80af2"
+  },
+  {
+    "path": "sitemap.xml",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "bytes": 22,
+    "cacheControl": "max-age=14400",
+    "etag": "\"6adcffd3-16\"",
+    "age": "0",
+    "server": "cloudflare",
+    "canonical": false,
+    "hreflang": false,
+    "sameAsSource": true,
+    "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+  }
+]

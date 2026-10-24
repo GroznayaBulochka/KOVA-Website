@@ -11,7 +11,7 @@
     "navLegal": "Dokumente",
     "navRoadmap": "Roadmap",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finanzen<br><em>an einem Ort.</em>",
+    "heroTitle": "Ausgaben. Budget.<br><em>Arbeitseinkommen.</em>",
     "heroCopy": "Verfolgen Sie Ausgaben, planen Sie Budgets und schätzen Sie die Einnahmen aus Ihren Arbeitsstunden. Ihre Finanzen bleiben auf Ihrem Telefon. Kommt zu Android mit einer kostenlosen Basis und optionalem KOVA Premium.",
     "heroPrivacy": "Ihre Finanzdaten bleiben auf Ihrem Smartphone.",
     "projectStatus": "Überprüfen Sie den Projektstatus",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Erfassen Sie Arbeitsstunden und Tarife, um den Verdienst abzuschätzen. Bringen Sie Ihren Arbeitsplan und Ihr Monatsbudget in einem Plan zusammen.",
     "aboutPrivacy": "Finanzunterlagen bleiben auf Ihrem Telefon. Keine Bankverbindung oder KOVA Cloud-Konto. Optionale Premium-Käufe werden separat über Google Play abgewickelt.",
     "aboutAction": "Sehen Sie KOVA in Aktion",
-    "followLaunch": "Verfolgen Sie den Start",
+    "followLaunch": "KOVA auf Instagram folgen",
     "downloadApp": "Holen Sie es sich unter Google Play",
     "launchChannel": "Einführungsnachrichten zu Instagram · @kova_money",
     "workScreenNote": "Arbeit und Einkommen · früherer Demobildschirm; Das Design kann sich ändern.",
@@ -159,7 +159,8 @@
     "closingKicker": "Bleiben Sie nah am Start",
     "closingTitle": "Schaffen Sie Platz für einen klareren Geldplan.",
     "closingCopy": "Folgen Sie KOVA Development auf Instagram für App-Vorschauen und Startnachrichten. Die erste öffentliche Veröffentlichung ist noch in Vorbereitung.",
-    "closingSecondary": "Sie finden KOVA auch auf TikTok."
+    "closingSecondary": "Sie finden KOVA auch auf TikTok.",
+    "forecastNote": "In der aktuellen Version benötigt die Schätzung variabler Ausgaben mindestens 7 Beobachtungstage und 2 Ausgabeneinträge. Regelmäßige Einträge ergeben ein vollständigeres Bild. Eine Prognose bleibt eine Schätzung."
   },
   "slides": [
     {

@@ -1,5 +1,5 @@
 {
-  "recordedAt": "2026-10-24T18:28:37.400Z",
+  "recordedAt": "2026-10-24T19:34:07.572Z",
   "result": "PASS",
   "cases": 70,
   "results": [
@@ -74,7 +74,7 @@
       "expected": "pl",
       "kind": "navigation",
       "page": "index",
-      "ready": "interactive",
+      "ready": "complete",
       "lang": "pl",
       "selected": "pl",
       "browser": [
@@ -187,7 +187,7 @@
       "expected": "pl",
       "kind": "navigation",
       "page": "index",
-      "ready": "complete",
+      "ready": "interactive",
       "lang": "pl",
       "selected": "pl",
       "browser": [

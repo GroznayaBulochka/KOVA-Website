@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {browserSession,delay} from './browser-session.mjs';
-const out=resolve('qa/artifacts/audit-2026-10-24');await mkdir(out,{recursive:true});
+const out=resolve(process.env.KOVA_AUDIT_OUTPUT||'qa/artifacts/audit-2026-10-24');await mkdir(out,{recursive:true});
 const b=await browserSession(),checks=[],errors=[],requests=[];
 const record=(name,value)=>{assert.ok(value,name);checks.push(name);};
 b.on(m=>{if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails.exception?.description||m.params.exceptionDetails.text);if(m.method==='Network.requestWillBeSent')requests.push(m.params.request.url);});
@@ -17,12 +17,12 @@ try{
   const initial=await b.evaluate(`(()=>{const c=document.querySelector('[data-primary-cta]'),r=c.getBoundingClientRect();return {layout:document.documentElement.scrollWidth===document.documentElement.clientWidth,ctaVisible:r.top>=0&&r.bottom<=innerHeight,cta:c.href,action:c.dataset.ctaAction,model:document.querySelector('#plans').innerText,privacy:document.querySelector('.hero-privacy').innerText,reduced:getComputedStyle(document.documentElement).scrollBehavior==='auto',broken:[...document.images].filter(i=>i.complete&&i.getAttribute('src')&&!i.naturalWidth).length}})()`);
   record(name+': no page overflow',initial.layout);record(name+': launch CTA visible and correct',initial.ctaVisible&&initial.cta==='https://www.instagram.com/kova_money/'&&initial.action==='follow_launch');
   record(name+': Free/Premium and privacy rendered',initial.model.includes('Premium')&&initial.privacy.length>5);record(name+': reduced motion and intact images',initial.reduced&&initial.broken===0);
-  record(name+': no all-language bundle or unrelated locale',requests.slice(before).every(url=>!url.endsWith('/translations.js')&&(!url.includes('/locales/')||url.endsWith('/'+lang+'.json'))));
+  record(name+': no all-language bundle or unrelated locale',requests.slice(before).every(url=>!new URL(url).pathname.endsWith('/translations.js')&&(!url.includes('/locales/')||new URL(url).pathname.endsWith('/'+lang+'.json'))));
   await b.screenshot(resolve(out,`home-${name}.png`));
   await b.evaluate(`document.querySelector('.scenario-screen').focus();document.querySelector('.scenario-screen').click()`);
   const first=await b.evaluate(`document.querySelector('.lightbox img').src`);
   await b.key('ArrowRight');
-  record(name+': gallery keyboard navigation uses original captures',await b.evaluate(`document.querySelector('.lightbox').open&&document.querySelector('.lightbox img').src!==${JSON.stringify(first)}&&document.querySelector('.lightbox img').src.endsWith('.png')`));
+  record(name+': gallery keyboard navigation uses original captures',await b.evaluate(`document.querySelector('.lightbox').open&&document.querySelector('.lightbox img').src!==${JSON.stringify(first)}&&new URL(document.querySelector('.lightbox img').src).pathname.endsWith('.png')`));
   await b.key('Escape','Escape',27);
   record(name+': gallery Escape restores focus',await b.evaluate(`!document.querySelector('.lightbox').open&&document.activeElement===document.querySelector('.scenario-screen')`));
   await b.evaluate(`document.querySelector('[data-video-open]').focus();document.querySelector('[data-video-open]').click()`);
@@ -42,7 +42,7 @@ try{
    await b.screenshot(resolve(out,`full-${name}.png`),true);
   }
  }
- await b.send('Network.setBlockedURLs',{urls:['*locales/uk.json']});
+ await b.send('Network.setBlockedURLs',{urls:['*locales/uk.json*']});
  await b.evaluate(`localStorage.setItem('kova_site_language','uk')`);
  await b.navigate('http://127.0.0.1:4174/index-uk.html?lang=uk',ready('en'));
  record('Locale failure: interactive English fallback and manual preference preserved',await b.evaluate(`Boolean(document.querySelector('[data-locale-error]'))&&localStorage.getItem('kova_site_language')==='uk'&&Boolean(window.KOVA_ANALYTICS)`));

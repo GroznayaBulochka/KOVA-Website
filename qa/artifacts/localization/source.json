@@ -11,8 +11,8 @@
     "navLegal": "Documents",
     "navRoadmap": "Roadmap",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finances<br><em>in one place.</em>",
-    "heroCopy": "Track spending, plan budgets and estimate income from your work hours. Your finances stay on your phone. Coming to Android with a free base and optional KOVA Premium.",
+    "heroTitle": "Spending. Budget.<br><em>Work income.</em>",
+    "heroCopy": "Work hours change from month to month? Bring spending, budgets and estimated income into one plan. KOVA for Android: a free base and optional KOVA Premium.",
     "heroPrivacy": "Your financial data stays on your phone.",
     "projectStatus": "Check project status",
     "watchVideo": "See the app",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Record work hours and rates to estimate earnings. Bring your work schedule and monthly budget into one plan.",
     "aboutPrivacy": "Financial records stay on your phone. No bank connection or KOVA cloud account. Optional Premium purchases are handled separately through Google Play.",
     "aboutAction": "See KOVA in action",
-    "followLaunch": "Follow the launch",
+    "followLaunch": "Follow KOVA on Instagram",
     "downloadApp": "Get it on Google Play",
     "launchChannel": "Launch news on Instagram · @kova_money",
     "workScreenNote": "Work & income · earlier demo screen; the design may change.",
@@ -159,7 +159,8 @@
     "closingKicker": "Stay close to the launch",
     "closingTitle": "Make room for a clearer money plan.",
     "closingCopy": "Follow KOVA Development on Instagram for app previews and launch news. The first public release is still in preparation.",
-    "closingSecondary": "You can also find KOVA on TikTok."
+    "closingSecondary": "You can also find KOVA on TikTok.",
+    "forecastNote": "In the current version, estimating variable spending needs at least 7 days of observation and 2 expense records. More regular records give a fuller picture. A forecast remains an estimate."
   },
   "slides": [
     {

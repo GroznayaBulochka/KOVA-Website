@@ -11,7 +11,7 @@
     "navLegal": "Documentos",
     "navRoadmap": "Hoja de ruta",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finanzas<br>><em>en un solo lugar.</em>",
+    "heroTitle": "Gastos. Presupuesto.<br><em>Ingresos del trabajo.</em>",
     "heroCopy": "Realice un seguimiento de los gastos, planifique presupuestos y calcule los ingresos de sus horas de trabajo. Tus finanzas permanecen en tu teléfono. Llegando a Android con una base gratuita y KOVA Premium opcional.",
     "heroPrivacy": "Tus datos financieros se quedan en tu teléfono.",
     "projectStatus": "Verificar el estado del proyecto",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Registre las horas de trabajo y las tarifas para estimar los ingresos. Reúna su horario de trabajo y su presupuesto mensual en un solo plan.",
     "aboutPrivacy": "Los registros financieros permanecen en su teléfono. Sin conexión bancaria ni cuenta en la nube KOVA. Las compras opcionales de Premium se manejan por separado a través de Google Play.",
     "aboutAction": "Vea KOVA en acción",
-    "followLaunch": "Sigue el lanzamiento",
+    "followLaunch": "Sigue a KOVA en Instagram",
     "downloadApp": "Consíguelo en Google Play",
     "launchChannel": "Novedades de lanzamiento en Instagram · @kova_money",
     "workScreenNote": "Trabajo e ingresos · pantalla de demostración anterior; el diseño puede cambiar.",
@@ -159,7 +159,8 @@
     "closingKicker": "Manténgase cerca del lanzamiento",
     "closingTitle": "Haga espacio para un plan monetario más claro.",
     "closingCopy": "Siga a KOVA Development en Instagram para obtener vistas previas de aplicaciones y noticias de lanzamiento. El primer lanzamiento público aún está en preparación.",
-    "closingSecondary": "También puede encontrar KOVA en TikTok."
+    "closingSecondary": "También puede encontrar KOVA en TikTok.",
+    "forecastNote": "En la versión actual, estimar los gastos variables requiere al menos 7 días de observación y 2 registros de gastos. Registrar con regularidad ofrece una visión más completa. La previsión sigue siendo una estimación."
   },
   "slides": [
     {

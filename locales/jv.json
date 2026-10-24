@@ -11,7 +11,7 @@
     "navLegal": "Dokumen",
     "navRoadmap": "Peta dalan",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Keuangan<br><em>ing sak panggonan.</em>",
+    "heroTitle": "Pangeluaran. Anggaran.<br><em>Pangasilan saka kerja.</em>",
     "heroCopy": "Lacak mbuwang, ngrancang anggaran lan ngira penghasilan saka jam kerja sampeyan. Keuangan sampeyan tetep ing telpon. Teka Android kanthi basis gratis lan KOVA Premium opsional.",
     "heroPrivacy": "Data finansial sampeyan tetep ana ing telpon sampeyan.",
     "projectStatus": "Priksa status proyek",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Rekam jam kerja lan tarif kanggo ngira penghasilan. Gawe jadwal kerja lan anggaran saben wulan dadi siji rencana.",
     "aboutPrivacy": "Cathetan finansial tetep ing telpon sampeyan. Ora ana sambungan bank utawa akun maya KOVA. Tuku Premium opsional ditangani kanthi kapisah liwat Google Play.",
     "aboutAction": "Waca KOVA ing tumindak",
-    "followLaunch": "Tindakake peluncuran",
+    "followLaunch": "Tindakake KOVA ing Instagram",
     "downloadApp": "Entuk ing Google Play",
     "launchChannel": "Bukak warta babagan Instagram · @kova_money",
     "workScreenNote": "Karya & penghasilan · layar demo sadurungé; desain bisa ngganti.",
@@ -159,7 +159,8 @@
     "closingKicker": "Tetep cedhak karo peluncuran",
     "closingTitle": "Nggawe papan kanggo rencana dhuwit sing luwih jelas.",
     "closingCopy": "Tindakake KOVA Development ing Instagram kanggo pratinjau aplikasi lan warta peluncuran. Rilis umum pisanan isih ana ing persiapan.",
-    "closingSecondary": "Sampeyan uga bisa nemokake KOVA ing TikTok."
+    "closingSecondary": "Sampeyan uga bisa nemokake KOVA ing TikTok.",
+    "forecastNote": "Ing versi saiki, ngira-ngira pangeluaran sing owah-owahan mbutuhake paling ora 7 dina pengamatan lan 2 cathetan pangeluaran. Cathetan sing ajeg menehi gambaran luwih lengkap. Prakiraan tetep mung perkiraan."
   },
   "slides": [
     {

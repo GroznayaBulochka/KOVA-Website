@@ -11,7 +11,7 @@
     "navLegal": "書類",
     "navRoadmap": "ロードマップ",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "財務<br><em>を 1 か所で管理します。</em>",
+    "heroTitle": "支出と予算。<br><em>仕事の収入。</em>",
     "heroCopy": "支出を追跡し、予算を計画し、労働時間から収入を見積もります。あなたの財政はあなたの携帯電話に残ります。無料のベースとオプションの KOVA Premium を備えた Android が登場します。",
     "heroPrivacy": "あなたの財務データはスマートフォン内に保存されます。",
     "projectStatus": "プロジェクトのステータスを確認する",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "収入を見積もるために労働時間と料金を記録します。仕事のスケジュールと毎月の予算を 1 つのプランにまとめます。",
     "aboutPrivacy": "財務記録は携帯電話に残ります。銀行接続や KOVA クラウド アカウントはありません。オプションの Premium の購入は、Google Play を通じて個別に処理されます。",
     "aboutAction": "KOVA の動作を確認してください",
-    "followLaunch": "打ち上げに従ってください",
+    "followLaunch": "InstagramでKOVAをフォロー",
     "downloadApp": "Google Play で入手",
     "launchChannel": "Instagram · @kova_money の発売ニュース",
     "workScreenNote": "仕事と収入・以前のデモ画面;デザインは変更される場合があります。",
@@ -159,7 +159,8 @@
     "closingKicker": "打ち上げの近くにいてください",
     "closingTitle": "より明確なお金の計画のための余地を作りましょう。",
     "closingCopy": "アプリのプレビューとリリースのニュースについては、Instagram で KOVA Development をフォローしてください。最初の一般リリースはまだ準備中です。",
-    "closingSecondary": "TikTok でも KOVA を見つけることができます。"
+    "closingSecondary": "TikTok でも KOVA を見つけることができます。",
+    "forecastNote": "現在のバージョンでは、変動する支出の推定に少なくとも7日間の観察期間と2件の支出記録が必要です。継続して記録すると、より全体像を把握できます。予測はあくまで推定です。"
   },
   "slides": [
     {

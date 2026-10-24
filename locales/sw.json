@@ -11,7 +11,7 @@
     "navLegal": "Nyaraka",
     "navRoadmap": "Ramani ya barabara",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Fedha<br><em>katika sehemu moja.</em>",
+    "heroTitle": "Matumizi. Bajeti.<br><em>Mapato ya kazi.</em>",
     "heroCopy": "Fuatilia matumizi, panga bajeti na ukadiria mapato kutokana na saa zako za kazi. Fedha zako zibaki kwenye simu yako. Inakuja kwa Android yenye msingi usiolipishwa na KOVA Premium ya hiari.",
     "heroPrivacy": "Data yako ya kifedha hubaki kwenye simu yako.",
     "projectStatus": "Angalia hali ya mradi",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Rekodi saa za kazi na viwango ili kukadiria mapato. Weka ratiba yako ya kazi na bajeti ya kila mwezi katika mpango mmoja.",
     "aboutPrivacy": "Rekodi za fedha hukaa kwenye simu yako. Hakuna muunganisho wa benki au akaunti ya wingu ya KOVA. Ununuzi wa hiari wa Premium unashughulikiwa kando kupitia Google Play.",
     "aboutAction": "Tazama KOVA katika hatua",
-    "followLaunch": "Fuatilia uzinduzi huo",
+    "followLaunch": "Fuata KOVA kwenye Instagram",
     "downloadApp": "Ipate kwenye Google Play",
     "launchChannel": "Zindua habari kwenye Instagram · @kova_money",
     "workScreenNote": "Kazi na mapato · skrini ya onyesho ya mapema; muundo unaweza kubadilika.",
@@ -159,7 +159,8 @@
     "closingKicker": "Kaa karibu na uzinduzi",
     "closingTitle": "Tengeneza nafasi kwa mpango wazi wa pesa.",
     "closingCopy": "Fuata KOVA Development kwenye Instagram kwa muhtasari wa programu na habari za uzinduzi. Toleo la kwanza la umma bado linatayarishwa.",
-    "closingSecondary": "Unaweza pia kupata KOVA kwenye TikTok."
+    "closingSecondary": "Unaweza pia kupata KOVA kwenye TikTok.",
+    "forecastNote": "Katika toleo la sasa, kukadiria matumizi yanayobadilika kunahitaji angalau siku 7 za ufuatiliaji na rekodi 2 za matumizi. Rekodi za mara kwa mara hutoa picha kamili zaidi. Utabiri unabaki kuwa makadirio."
   },
   "slides": [
     {

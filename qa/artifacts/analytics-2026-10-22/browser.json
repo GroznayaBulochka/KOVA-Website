@@ -1,10 +1,10 @@
 {
-  "recordedAt": "2026-10-22T07:47:01.235Z",
+  "recordedAt": "2026-10-24T19:36:07.225Z",
   "result": "PASS",
-  "checks": 30,
+  "checks": 38,
   "passed": [
     "First visit: zero Google requests, no GA cookies",
-    "Centered accessible native modal with equal decision buttons",
+    "Compact accessible native modal with equal decision buttons",
     "Background cannot take focus while dialog is open",
     "Escape rejects; no request and remembered essential choice",
     "Rejection remembered across public pages",
@@ -15,6 +15,8 @@
     "Repeated grant does not double load or double count",
     "Allowlisted engagement sent and arbitrary payload rejected",
     "Remembered consent resumes, URL query/fragment/referrer excluded from our payload",
+    "One primary event and one social event per launch click; fixed channel categories only",
+    "Future Play CTA sends one allowlisted event without destination parameters",
     "Real presentation, screenshot and FAQ interactions reach event adapter",
     "Withdrawal unloads tag, removes GA cookies and stops further requests",
     "Withdrawal before delayed initialization cancels future callbacks",
@@ -30,8 +32,14 @@
     "Settings also available on disclosure page",
     "Blocked cookie/localStorage: usable site, analytics fail closed",
     "Tag blocked: no retry loop, presentation still opens",
+    "Direct EN URL wins over stored PL; no Google request without consent",
+    "Rejection survives localized RU navigation",
+    "Localized route consent permits the adapter, preserving sanitized page and RU",
     "Local preview never loads Google even after acceptance",
     "Private path guarded even if consent script is injected",
+    "index-en.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
+    "index-ru.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
+    "privacy-en.html: browser without JavaScript has translated content, metadata and crawlable alternatives",
     "No unexpected external URL, no runtime errors"
   ],
   "requestsIntercepted": [
@@ -54,6 +62,26 @@
     {
       "type": "collect",
       "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=primary_cta"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=social_click"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=social_click"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=primary_cta"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=google_play_click"
     },
     {
       "type": "collect",
@@ -90,14 +118,23 @@
     {
       "type": "tag",
       "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "tag",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-2LE3GWYDZM"
+    },
+    {
+      "type": "collect",
+      "url": "https://www.google-analytics.com/g/collect?tid=G-2LE3GWYDZM&en=page_view"
     }
   ],
   "errors": [],
   "rejected": [],
   "inputs": {
-    "site-consent.js": "56ab4b46b543d4e70f3021ae7aaec18544e7b6fc305ede88e9b4e6c07927f631",
-    "site-ui.css": "2898690cdb73bab99dea8d10a157974fd1d40c51a722947ae9aaa2a3b6abc14a",
-    "dist/_headers": "daa3a6ae6795c1b73a6c1ebab53a5520030694418834e33f807e79e4a3b83cad"
+    "site-consent.js": "34c90d71ae05d64acfa827b45a862b4f13807abb2c9f010b215d05b93c9c15dd",
+    "site-ui.css": "540a178f41a83d247b5748e888c4df5cb7072c08ea6c661678b69df780b730ac",
+    "site-seo.js": "04a1616b021ea63e90be96f1e5b752bffe8e5e65a0efd5d346ab61c85fe92ece",
+    "dist/_headers": "a32b8ddc1db3b88ea552dd08c4620f5334dde2e91a30fc9b95723ceb90d58ac8"
   },
   "scope": "Real Edge DOM/CSP/consent; Google tag and collector mocked. No live GA/backend verification; no deployment."
 }

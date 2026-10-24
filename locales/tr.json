@@ -11,7 +11,7 @@
     "navLegal": "Belgeler",
     "navRoadmap": "Yol Haritası",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Finans<br><em>tek bir yerde.</em>",
+    "heroTitle": "Harcamalar. Bütçe.<br><em>Çalışma geliri.</em>",
     "heroCopy": "Harcamaları takip edin, bütçeleri planlayın ve çalışma saatlerinizden elde edilen geliri tahmin edin. Mali durumunuz telefonunuzda kalır. Ücretsiz bir taban ve isteğe bağlı KOVA Premium ile Android'ye geliyor.",
     "heroPrivacy": "Finansal verileriniz telefonunuzda kalır.",
     "projectStatus": "Proje durumunu kontrol edin",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Kazançları tahmin etmek için çalışma saatlerini ve oranlarını kaydedin. Çalışma programınızı ve aylık bütçenizi tek bir planda birleştirin.",
     "aboutPrivacy": "Mali kayıtlar telefonunuzda kalır. Banka bağlantısı veya KOVA bulut hesabı yok. İsteğe bağlı Premium satın alımları Google Play aracılığıyla ayrı olarak gerçekleştirilir.",
     "aboutAction": "KOVA'i çalışırken görün",
-    "followLaunch": "Lansmanı takip edin",
+    "followLaunch": "Instagram’da KOVA’yı takip edin",
     "downloadApp": "Google Play'den edinin",
     "launchChannel": "Instagram · @kova_money ile ilgili lansman haberleri",
     "workScreenNote": "İş ve gelir · önceki demo ekranı; tasarım değişebilir.",
@@ -159,7 +159,8 @@
     "closingKicker": "Lansmana yakın kalın",
     "closingTitle": "Daha net bir para planına yer açın.",
     "closingCopy": "Uygulama önizlemeleri ve lansman haberleri için KOVA Development'yi Instagram'de takip edin. İlk halka açık yayın hâlâ hazırlık aşamasındadır.",
-    "closingSecondary": "Ayrıca KOVA'yi TikTok'de de bulabilirsiniz."
+    "closingSecondary": "Ayrıca KOVA'yi TikTok'de de bulabilirsiniz.",
+    "forecastNote": "Mevcut sürümde değişken harcamaları tahmin etmek için en az 7 günlük gözlem ve 2 harcama kaydı gerekir. Düzenli kayıtlar daha kapsamlı bir görünüm sağlar. Öngörüler yalnızca tahmindir."
   },
   "slides": [
     {

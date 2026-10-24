@@ -6,7 +6,7 @@ const project=fileURLToPath(new URL('..',import.meta.url));
 const root=await realpath(process.argv.includes('--source')?project:resolve(project,'dist'));
 // Preserve the owner's historical Workspace origin and its existing localStorage.
 const port=Number(process.env.PORT||(process.argv.includes('--source')?4173:4174));
-const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.md':'text/plain; charset=utf-8','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.webmanifest':'application/manifest+json'};
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.md':'text/plain; charset=utf-8','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.webmanifest':'application/manifest+json'};
 const server=http.createServer(async(req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');
   res.setHeader('X-Robots-Tag','noindex, nofollow');

@@ -1,0 +1,59 @@
+KOVA — zgodność publikacji i pamięć podręczna
+Aktualizacja: 24.10.2026
+
+Obserwacja publicznej domeny (odczyt, bez wdrożenia)
+Strona główna zwraca HTTP 200, lecz nie ma wygenerowanych canonical/hreflang.
+index-en.html oraz sitemap.xml zwracają 404. HTML ma Cache-Control: max-age=600,
+CSS/JS: max-age=14400. Odczytano bieżący pages.yml w głównej gałęzi GitHub;
+nie znaleziono uruchomień Actions dla commita 61f5d48f411a1cbac7f8345253d5324b2a7a00d8.
+To dowód braku poprawnej wersji wygenerowanej na domenie, nie dowód konkretnego
+ustawienia panelu Pages. Źródło publikacji w panelu wymaga potwierdzenia.
+
+Co przygotowuje build
+- 297 wersji HTML w 27 językach, komplet metadanych i zasoby z dist/.
+- Jeden deterministyczny identyfikator całego wydania z treści plików,
+  konfiguracji i generatorów. Każdy HTML zawiera meta[name=kova-build].
+- CSS, skrypty, obrazy, ikony, dynamiczne tłumaczenia i dokumenty dostają ?v=ID.
+  Kanoniczne adresy stron, hreflang i nawigacja pozostają stabilne.
+- build-manifest.json zawiera identyfikator i SHA-256 wynikowych plików.
+  Nie zawiera prywatnej konfiguracji, ścieżek lokalnych ani danych zatwierdzeń.
+- Zmiana treści daje nowy identyfikator; identyczne wejście daje ten sam.
+  Preview i produkcja mają osobne identyfikatory.
+
+Wdrożenie po spełnieniu istniejących warunków wydania
+1. W repozytorium GitHub Pages powinno korzystać z GitHub Actions, a nie
+   publikować katalogu źródłowego. Gotowy workflow to .github/workflows/pages.yml.
+2. Workflow sprawdza preview, a potem wykonuje build:public. Zatrzymuje się,
+   jeśli istniejące wymagania prawne, właścicielskie lub hostingu są niezamknięte.
+   Nie należy zmieniać pól *Approved tylko po to, aby build przeszedł.
+3. Publikowany jest wyłącznie katalog dist/. Manifest z tego samego builda trafia
+   do osobnego artefaktu oczekiwanej wersji. Nie wolno porównywać wdrożenia
+   z manifestem wygenerowanym przez inny build lub system końców linii.
+4. Po wdrożeniu workflow porównuje domenę publiczną z tym manifestem: wszystkie
+   strony, zasoby i adres /. Brak wersji językowej, stare CSS/JS lub stary HTML
+   kończą kontrolę błędem. CNAME/_headers to konfiguracja hosta i nie są pobierane.
+   Raport jest zachowany nawet po nieudanej kontroli.
+5. Ta kontrola nie cofa automatycznie już wykonanego wdrożenia. Przy różnicach
+   należy sprawdzić źródło publikacji i cache, naprawić je i powtórzyć kontrolę.
+
+Wymagania cache na rzeczywistym hostingu/CDN
+- Parametr v musi być częścią klucza pamięci podręcznej. Standardowy klucz
+  Cloudflare zawiera query string; reguła niestandardowa nie może go ignorować.
+- HTML, robots.txt, sitemap.xml i build-manifest.json powinny być rewalidowane
+  (np. Cache-Control: no-cache), aby stary HTML nie wskazywał starych zasobów.
+- _headers zawiera teraz no-cache, ale GitHub Pages nie odczytuje tego pliku.
+  Ustawienia trzeba zastosować na obsługującym je hostingu lub w proxy/CDN.
+- Przy przejściu ze starego publikowania źródeł należy unieważnić poprzedni cache
+  HTML i plików sterujących na CDN. Nie usuwa się wyboru języka ani zgody użytkownika.
+- Nie dodajemy service workera, który mógłby utrwalać starszą wersję.
+
+Kontrola ręczna (odczytowa)
+npm run verify:deployment -- --origin http://127.0.0.1:4174 --report lokalna-kontrola.json
+npm run verify:deployment -- --origin https://kovacompass.app --manifest SCIEZKA_DO_MANIFESTU_Z_WDROZENIA --require-release --report kontrola-domeny.json
+
+Źródła procesu
+https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+https://developers.cloudflare.com/cache/how-to/cache-keys/
+
+W tej zmianie nie uruchomiono publikacji ani nie zmieniono ustawień CDN/Pages.
+Samo działanie podglądu nie potwierdza wdrożenia na publicznej domenie.

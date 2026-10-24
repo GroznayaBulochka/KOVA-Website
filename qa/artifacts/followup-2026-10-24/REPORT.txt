@@ -1,0 +1,116 @@
+KOVA — poprawki po ponownym audycie
+24 października 2026
+
+WYNIK
+Poprawki są w lokalnym kodzie i w gotowym podglądzie dist/.
+Wersja wynikowa: f79db4b03cdc2e15098f (431 plików, 297 stron HTML).
+Podgląd: http://127.0.0.1:4174/?lang=pl
+W tym zadaniu nie wykonano commit, push, wdrożenia ani zmian w aplikacji Android.
+Stan początkowy był czysty: commit 61f5d48f411a1cbac7f8345253d5324b2a7a00d8.
+Nie zmieniono release-config.json, żadnego pola *Approved ani źródeł prawnych.
+
+CO WYNIKAŁO Z UWAG, A CO POTWIERDZONO
+Część uwag dotyczyła publicznej strony, na której nie ma aktualnego kompletnego
+wyniku budowania. Lokalna strona już miała model Free + Premium, SEO, karty planów
+i wszystkie języki. Sprawdzono je ponownie zamiast cofać wcześniejsze poprawki.
+
+Publiczna domena: / zwraca 200 bez canonical/hreflang; index-en.html i sitemap.xml
+zwracają 404. HTML ma max-age=600, CSS i JavaScript max-age=14400. To potwierdza
+brak poprawnego wygenerowanego serwisu i możliwość utrzymywania starych zasobów,
+ale nie dowodzi, że cache jest jedyną przyczyną. Zapis: live-before.json.
+Odczytano pages.yml z głównej gałęzi przez GitHub. Dla pełnego początkowego SHA
+narzędzie nie zwróciło uruchomień Actions. Nie uzyskano potwierdzenia ustawienia
+źródła publikacji w panelu Pages. Nowy kontroler publicznej domeny wykrył brak
+build-manifest.json: HTTP 404 (public-deployment.json, wcześniejsza iteracja builda).
+
+WPROWADZONE ZMIANY
+1. Nagłówek: „Wydatki. Budżet. Dochód z pracy.” Nowe treści PL/EN/RU wyjaśniają
+   planowanie przy zmiennych godzinach pracy. Prywatność jest widoczna od razu.
+2. Główny przycisk: „Obserwuj KOVA na Instagramie”. Taki sam jednoznaczny kierunek
+   w hero i na końcu strony, w 27 językach. Przyszły przełącznik na zatwierdzony
+   Google Play jest zachowany, a obecna dostępność nadal jest przedpremierowa.
+3. Do planów dodano warunki danych dla szacowania zmiennych wydatków: minimum
+   7 dni obserwacji i 2 zapisy. To konkretny próg potwierdzony w kodzie aplikacji,
+   nie uniwersalny próg wszystkich analiz ani gwarancja dokładności. Szczegóły
+   i SHA-256 źródeł: forecast-evidence.json. Informacja jest w 27 językach.
+4. Zredagowano błędne tłumaczenia rosyjskie: opis Premium nie mówi już o „miejscu”,
+   historia danych nie jest „anamnezą”, a Play nie jest tłumaczone jako odtwarzanie.
+   Poprawiono stronę główną, FAQ, status, plan rozwoju, bezpieczeństwo, kontakt,
+   informację o subskrypcji przy usuwaniu i opis prywatności witryny. W kontakcie
+   zachowano potwierdzoną pisownię nazwiska Vadyslav Konohrai.
+5. Skrócono tamilski wstęp po wykryciu, że na ekranie 360×800 główny przycisk
+   znajdował się poniżej widoku. Ponowna kontrola 27 wersji: wszystkie mieszczą
+   główny przycisk i nie mają poziomego przewijania.
+6. Build nadaje zasobom wspólny identyfikator wynikający z treści plików,
+   konfiguracji i generatorów. CSS, JS, ikony, obrazy oraz pobierane tłumaczenia
+   i dokumenty mają ?v=ID. Nawigacja, canonical i hreflang są stabilne.
+   Zmiana treści zmienia wersję zasobów; nie trzeba kasować wyboru języka czy zgody.
+7. Dodano publiczny manifest sum kontrolnych i odczytową kontrolę wdrożenia.
+   Workflow Pages po publikacji porównuje domenę z dokładnie tym artefaktem,
+   który wysłano. Brak pliku, stary HTML lub stary CSS/JS kończy kontrolę błędem.
+   Sprawdzono także negatywne przypadki mieszanych zasobów i brakującego języka.
+8. PUBLICATION_CHECK.txt opisuje ustawienie właściwego źródła publikacji i cache.
+   _headers zawiera no-cache, ale GitHub Pages nie stosuje tego pliku. Rzeczywiste
+   reguły trzeba ustawić na hostingu/proxy; parametr v musi wejść do klucza cache.
+   Przy przejściu ze starej strony trzeba unieważnić poprzedni cache HTML i plików
+   sterujących. Nie wykonano żadnych zmian w panelu CDN ani Pages.
+
+SPRAWDZENIA
+- npm test: 30 poleceń, 0 niepowodzeń; tests.log.
+- Wersjonowanie i zgodność artefaktu: 733 sprawdzenia, PASS.
+- Lokalna kontrola HTTP: 430 odpowiedzi zgodnych z manifestem, PASS; obejmuje
+  wszystkie publiczne pliki poza CNAME/_headers oraz dodatkowo adres /.
+- SEO: 898 sprawdzeń, 297 lokalizowanych stron i 189 produkcyjnych URL, PASS.
+- Spójność tłumaczeń: 9096 ciągów w 24 dodatkowych pakietach, 27 języków łącznie.
+- Automatyczny wybór, ręczna preferencja, powroty, URL, blokada pamięci i RTL:
+  246 scenariuszy w prawdziwej przeglądarce, PASS.
+- Wspólny nagłówek, przejścia, język i kotwice: 70 scenariuszy, PASS.
+- Układ 360/390/768/1440, galerie, prezentacja, klawiatura, powrót fokusu,
+  błędy wczytywania języka i brak obcego pakietu: 119 sprawdzeń, PASS.
+- Dodatkowa kontrola wszystkich 27 stron głównych przy 360×800: właściwy nagłówek,
+  CTA, opis prognoz, brak przepełnienia, główny przycisk w pierwszym widoku,
+  identyczna wersja zasobów, brak pełnych PNG i całej paczki języków na starcie.
+  PASS, zero błędów wykonania; all-language-layouts.json (końcowy build).
+- Zgody i analityka: 38 sprawdzeń, PASS. Google był symulowany i przechwytywany;
+  nie potwierdzano odbioru na rzeczywistym koncie GA4.
+- Ochrona wydania: 327 sprawdzeń, PASS. Próba build:public nadal kończy się
+  kontrolowanym kodem 2. 54 źródłowe projekty dokumentów zachowują swoje SHA-256.
+- git diff --check: PASS.
+
+Testy funkcjonalne nawigacji, analityki i głównego audytu wykonano przed końcowym
+skróceniem tekstu tamilskiego i korektą jednego akapitu RU. Po tych korektach
+powtórzono pełny npm test, kontrolę 27 wersji, HTTP manifestu i ochronę wydania.
+Pierwsza próba testu analityki oczekiwała poprzedniego nagłówka w widoku bez JS;
+zaktualizowano oczekiwany tekst, zachowując sprawdzenie treści, SEO i języków.
+Nie jest to nowy pomiar Lighthouse ani potwierdzenie wydajności domeny publicznej.
+Tłumaczenia nadal wymagają niezależnej oceny językowej; testy sprawdzają również
+kompletność i działanie, ale nie zastępują takiej oceny. Nie używano telefonu użytkownika.
+
+PODGLĄDY
+home-pl-1440.png i home-pl-390.png — pierwszy ekran.
+plans-pl-1440.png — Free/Premium i wyjaśnienie historii danych.
+home-ru-360.png, home-uk-360.png, home-ta-360.png — dłuższe tłumaczenia mobilne.
+home-ar-360.png i home-pnb-360.png — przykładowe widoki RTL.
+full-pl-1440.png, full-en-1440.png i full-en-390.png — pełne strony.
+Przejrzano wizualnie PL desktop/mobile, RU i TA mobile oraz karty planów PL.
+Galeria zachowuje proporcje i używa istniejących, autentycznych zrzutów aplikacji.
+
+CO NADAL WSTRZYMUJE PUBLIKACJĘ
+Aktualny komunikat build:public:
+operatorLegalQualified, supportContactOperationallyVerified, hostingVerified,
+legalApproved, publicationApproved, websiteAnalytics.accountConfigurationVerified.
+
+Te pola nie zostały odznaczone ani uznane za wykonane na podstawie samego audytu.
+Właściciel wcześniej potwierdził działanie poczty; ten fakt nie jest powtórnie
+kwestionowany i nie zlecono ponownie tego samego testu. Niezamknięta kwalifikacja
+nie oznacza automatycznie, że wcześniej zgłoszona czynność nie została wykonana.
+
+Nie usunięto informacji o roboczym statusie niezatwierdzonych dokumentów. Ich
+aktualna treść zawiera nierozstrzygnięte fakty i nie ma zatwierdzonej daty wejścia
+w życie; przemianowanie na dokument ostateczny byłoby niezgodne z tym stanem.
+Nie wpisano wymyślonych danych sprzedawcy, ceny ani daty i nie przywrócono adresu
+domowego. Rozwiązanie wymaganych informacji sprzedawcy, dokumentów, hostingu
+i ustawień GA4 pozostaje odrębną czynnością przed faktycznym wdrożeniem.
+
+Wynik: dodatkowe uwagi wdrożone w lokalnej stronie, przygotowane sprawdzanie
+publikacji i opisane konkretne ograniczenia. Publiczna domena pozostaje bez zmian.

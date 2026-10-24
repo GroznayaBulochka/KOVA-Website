@@ -21,6 +21,7 @@
     "build:public": "node scripts/assemble-locales.mjs && node scripts/build-site.mjs --release",
     "test:audit": "node qa/prelaunch-check.mjs",
     "test:audit:browser": "node qa/audit-browser.mjs",
-    "test:performance": "node qa/performance-audit.mjs after"
+    "test:performance": "node qa/performance-audit.mjs after",
+    "verify:deployment": "node scripts/verify-deployment.mjs"
   }
 }

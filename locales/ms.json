@@ -11,7 +11,7 @@
     "navLegal": "Dokumen",
     "navRoadmap": "Pelan hala tuju",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Kewangan<br><em>di satu tempat.</em>",
+    "heroTitle": "Perbelanjaan. Bajet.<br><em>Pendapatan kerja.</em>",
     "heroCopy": "Jejaki perbelanjaan, rancang belanjawan dan anggaran pendapatan daripada waktu kerja anda. Kewangan anda kekal pada telefon anda. Datang ke Android dengan asas percuma dan pilihan KOVA Premium.",
     "heroPrivacy": "Data kewangan anda kekal pada telefon anda.",
     "projectStatus": "Semak status projek",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Catatkan waktu kerja dan kadar untuk menganggarkan pendapatan. Bawa jadual kerja dan belanjawan bulanan anda ke dalam satu pelan.",
     "aboutPrivacy": "Rekod kewangan kekal pada telefon anda. Tiada sambungan bank atau akaun awan KOVA. Pembelian Premium pilihan dikendalikan secara berasingan melalui Google Play.",
     "aboutAction": "Lihat KOVA dalam tindakan",
-    "followLaunch": "Ikuti pelancaran",
+    "followLaunch": "Ikuti KOVA di Instagram",
     "downloadApp": "Dapatkannya di Google Play",
     "launchChannel": "Pelancaran berita tentang Instagram · @kova_money",
     "workScreenNote": "Kerja & pendapatan · skrin demo awal; reka bentuk mungkin berubah.",
@@ -159,7 +159,8 @@
     "closingKicker": "Kekal dekat dengan pelancaran",
     "closingTitle": "Berikan ruang untuk pelan wang yang lebih jelas.",
     "closingCopy": "Ikuti KOVA Development pada Instagram untuk pratonton apl dan berita pelancaran. Siaran awam pertama masih dalam persiapan.",
-    "closingSecondary": "Anda juga boleh mendapatkan KOVA di TikTok."
+    "closingSecondary": "Anda juga boleh mendapatkan KOVA di TikTok.",
+    "forecastNote": "Dalam versi semasa, anggaran perbelanjaan berubah memerlukan sekurang-kurangnya 7 hari pemerhatian dan 2 rekod perbelanjaan. Rekod yang konsisten memberikan gambaran lebih lengkap. Ramalan tetap hanya anggaran."
   },
   "slides": [
     {

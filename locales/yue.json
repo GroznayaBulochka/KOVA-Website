@@ -11,7 +11,7 @@
     "navLegal": "文件",
     "navRoadmap": "路線圖",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "財務<br><em>集中喺一個地方。</em>",
+    "heroTitle": "開支同預算。<br><em>工作收入。</em>",
     "heroCopy": "追蹤開支、計劃預算同埋估計你工作時間嘅收入。你嘅財務會留喺你部手機度。嚟緊 Android 有免費底座同可選 KOVA Premium 。",
     "heroPrivacy": "你嘅財務資料會留喺你部手機入面。",
     "projectStatus": "檢查項目狀態",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "記錄工作時間同工資嚟估計收入。將你嘅工作時間表同每月預算納入一個計劃。",
     "aboutPrivacy": "財務記錄會保留喺你部手機上面。冇銀行連線或者 KOVA 雲端帳戶。可選嘅 Premium 購買係透過 Google Play 單獨處理。",
     "aboutAction": "請參閱 KOVA 嘅行動",
-    "followLaunch": "跟住個發佈",
+    "followLaunch": "喺 Instagram 追蹤 KOVA",
     "downloadApp": "喺 Google Play 上面攞到",
     "launchChannel": "喺 Instagram · @kova_money 上發佈消息",
     "workScreenNote": "工作同收入 · 較早嘅示範畫面；個設計可能會改變。",
@@ -159,7 +159,8 @@
     "closingKicker": "留喺發佈會附近",
     "closingTitle": "為更清晰嘅錢財計劃留出空間。",
     "closingCopy": "喺 Instagram 上面追蹤 KOVA Development ，睇下應用程式預覽同發佈消息。第一次公開發佈仲係準備緊。",
-    "closingSecondary": "你亦可以喺 TikTok 搵到 KOVA 。"
+    "closingSecondary": "你亦可以喺 TikTok 搵到 KOVA 。",
+    "forecastNote": "目前版本要估算浮動開支，至少需要 7 日觀察期同 2 筆開支紀錄。持續記錄可以睇得更全面。預測始終只係估算。"
   },
   "slides": [
     {

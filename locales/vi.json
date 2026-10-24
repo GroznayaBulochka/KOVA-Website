@@ -11,7 +11,7 @@
     "navLegal": "Tài liệu",
     "navRoadmap": "Lộ trình",
     "heroKicker": "KOVA: Money & Budget · Android",
-    "heroTitle": "Tài chính<br><em>ở một nơi.</em>",
+    "heroTitle": "Chi tiêu. Ngân sách.<br><em>Thu nhập từ công việc.</em>",
     "heroCopy": "Theo dõi chi tiêu, lập kế hoạch ngân sách và ước tính thu nhập từ giờ làm việc của bạn. Tài chính của bạn vẫn còn trên điện thoại của bạn. Đến với Android với đế miễn phí và KOVA Premium tùy chọn.",
     "heroPrivacy": "Dữ liệu tài chính được lưu ngay trên điện thoại của bạn.",
     "projectStatus": "Kiểm tra trạng thái dự án",
@@ -137,7 +137,7 @@
     "aboutIncomeCopy": "Ghi lại số giờ làm việc và tỷ lệ để ước tính thu nhập. Đưa lịch làm việc và ngân sách hàng tháng của bạn vào một kế hoạch.",
     "aboutPrivacy": "Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Không có kết nối ngân hàng hoặc tài khoản đám mây KOVA. Các giao dịch mua Premium tùy chọn được xử lý riêng thông qua Google Play.",
     "aboutAction": "Xem KOVA hoạt động",
-    "followLaunch": "Theo dõi buổi ra mắt",
+    "followLaunch": "Theo dõi KOVA trên Instagram",
     "downloadApp": "Tải nó trên Google Play",
     "launchChannel": "Ra mắt tin tức về Instagram · @kova_money",
     "workScreenNote": "Công việc & thu nhập · màn hình demo trước đó; thiết kế có thể thay đổi.",
@@ -159,7 +159,8 @@
     "closingKicker": "Ở gần buổi ra mắt",
     "closingTitle": "Nhường chỗ cho một kế hoạch tiền bạc rõ ràng hơn.",
     "closingCopy": "Theo dõi KOVA Development trên Instagram để xem trước ứng dụng và tin tức ra mắt. Việc phát hành công khai đầu tiên vẫn đang được chuẩn bị.",
-    "closingSecondary": "Bạn cũng có thể tìm thấy KOVA trên TikTok."
+    "closingSecondary": "Bạn cũng có thể tìm thấy KOVA trên TikTok.",
+    "forecastNote": "Trong phiên bản hiện tại, việc ước tính chi tiêu biến đổi cần ít nhất 7 ngày theo dõi và 2 bản ghi chi tiêu. Ghi chép đều đặn giúp có cái nhìn đầy đủ hơn. Dự báo vẫn chỉ là ước tính."
   },
   "slides": [
     {

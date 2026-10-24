@@ -1,6 +1,10 @@
 KOVA: Money & Budget — current website preparation
 Updated: 24 October 2026. Contract: KOVA_PHONE_LOCAL_FREEMIUM_V1.
 
+Publication/cache follow-up: see PUBLICATION_CHECK.txt. Builds now version all
+browser assets and expose a checksum manifest; the Pages workflow verifies the
+actual public domain after deployment. Existing release gates still apply.
+
 CURRENT PRODUCT
 KOVA Development is the project brand, not a claim of a registered company.
 Confirmed publisher: Vadyslav Konohrai, Poland. Public contact: contact@kovacompass.app.
