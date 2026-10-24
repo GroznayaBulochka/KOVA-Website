@@ -104,6 +104,7 @@ check('URL grammar: every localized page including numeric 404; no private or un
  for(const p of pages)for(const l of languages){
   const route=routes.parse(urlPath(p,l));assert.equal(route?.page,p);assert.equal(route?.language,l);
   assert.equal(routes.localize(urlPath(p,l)+'?lang=pl#main','ru'),urlPath(p,'ru')+'#main');
+  assert.equal(routes.localize(urlPath(p,l)+'#main','pl'),urlPath(p,'pl')+'?lang=pl#main');
  }
  for(const path of ['/workspace.html','/workspace-en.html','/foo.html','/4040.html','/private/index.html','/index-zz.html'])assert.equal(routes.parse(path),null);
  assert.equal(routes.localize('https://example.org/privacy.html','ru'),'https://example.org/privacy.html');

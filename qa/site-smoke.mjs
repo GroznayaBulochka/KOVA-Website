@@ -198,7 +198,8 @@ try {
         const language = document.querySelector('#site-language');
         language.value = 'en';
         language.dispatchEvent(new Event('change', { bubbles: true }));
-        languageChanged = document.documentElement.lang === 'en' && document.querySelector('[data-i18n="navFeatures"]').textContent === 'Features';
+        await Promise.resolve();
+        languageChanged = document.documentElement.lang === 'en' && document.querySelector('[data-header-key="features"]').textContent === 'Features';
         document.querySelector('[data-cookie-settings]').click();
         cookieShown = document.querySelector('[data-cookie-banner]')?.open === true;
         analyticsAbsentBeforeConsent = !document.cookie.includes('kova_analytics_id=') && !document.cookie.includes('kova_analytics_session=');
@@ -318,7 +319,7 @@ try {
         const footerLinks = [...document.querySelectorAll('.public-footer a[href]')];
         const route = link => window.KOVA_ROUTES?.parse(new URL(link.href).pathname);
         sharedFooter = ['contact','privacy'].every(page => footerLinks.some(link => window.KOVA_ROUTES ? route(link)?.page === page : new URL(link.href).pathname.endsWith('/'+page+'.html')));
-        const languageLinks = footerLinks.filter(link => new URL(link.href).origin === location.origin && (route(link) || link.getAttribute('href').includes('.html')));
+        const languageLinks = footerLinks.filter(link => !link.hasAttribute('data-local-workspace') && new URL(link.href).origin === location.origin && (route(link) || link.getAttribute('href').includes('.html')));
         languageChanged = languageChanged && languageLinks.every(link => window.KOVA_ROUTES ? route(link)?.language === document.documentElement.lang : new URL(link.href).searchParams.get('lang') === document.documentElement.lang);
       }
       // Load lazy screenshots before testing the final layout and producing visual evidence.
@@ -354,6 +355,7 @@ try {
         overflowElements: [...document.querySelectorAll('body *')].filter(node => { const rect = node.getBoundingClientRect(); return rect.right > innerWidth + 1 || rect.left < -1; }).slice(0, 12).map(node => ({ tag:node.tagName, className:node.className || '', text:(node.textContent || '').trim().slice(0, 80), left:Math.round(node.getBoundingClientRect().left), right:Math.round(node.getBoundingClientRect().right), scrollWidth:node.scrollWidth })),
         brokenImages: [...document.images].filter(image => image.getAttribute('src') && image.loading !== 'lazy' && image.complete && image.naturalWidth === 0).map(image => image.getAttribute('src')),
         missingLocalLinks: [...document.querySelectorAll('a[href]')].filter(link => !link.href || link.getAttribute('href') === '#').length,
+        unresolvedLinks: [...document.querySelectorAll('a[href]')].filter(link => !link.href || link.getAttribute('href') === '#').map(link=>link.outerHTML),
         initialCards,
         dialogOpened,
         taskCreated,
@@ -379,7 +381,12 @@ try {
     })()`,
   });
   await delay(250);
-  const screenshot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: previewMode === 'full' });
+  let clip;
+  if (previewMode === 'intro') {
+    clip = await evaluate(`(() => { const node=document.getElementById('about'); node.scrollIntoView({behavior:'instant',block:'start'}); const r=node.getBoundingClientRect(); return {x:r.left+scrollX,y:r.top+scrollY,width:r.width,height:r.height,scale:1}; })()`);
+  }
+  if (previewMode === 'footer') await evaluate(`document.querySelector('.public-footer').scrollIntoView({behavior:'instant',block:'end'})`);
+  const screenshot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: previewMode === 'full' || previewMode === 'intro', ...(clip ? {clip} : {}) });
   await writeFile(output, Buffer.from(screenshot.data, 'base64'));
   if (evaluation.exceptionDetails) throw new Error(evaluation.exceptionDetails.exception?.description || evaluation.exceptionDetails.text);
   const result = evaluation.result.value;

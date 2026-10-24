@@ -13,6 +13,7 @@
     "heroKicker": "KOVA 離線免費 V1 · Android",
     "heroTitle": "財務<br><em>集中喺一個地方。</em>",
     "heroCopy": "開支、預算、目標同工作收入 — 喺你部手機上面。我哋準備緊免費嘅離線版本，冇雲端帳戶、廣告或者訂閱。",
+    "heroPrivacy": "你嘅財務資料會留喺你部手機入面。",
     "projectStatus": "檢查項目狀態",
     "watchVideo": "睇產品導覽",
     "pauseVideo": "暫停",
@@ -55,8 +56,8 @@
     "screenWork": "本地筆記",
     "screenWorkCopy": "儲存喺裝置上面 · 2026年10月21日",
     "securityKicker": "私隱",
-    "securityTitle": "KOVA 點樣保護數據。",
-    "securityCopy": "主要嘅財務資料庫用 SQLCipher 。冇自動雲端同步。保護你部手機同埋定期匯出 — 加密唔會取代備份或者小心處理。",
+    "securityTitle": "私隱係我哋嘅首要任務。",
+    "securityCopy": "我哋努力令 KOVA 盡量安全。喺 Offline V1 入面，你嘅財務資料會保留喺你部手機上面 — 呢個應用程式唔會自動將佢哋傳送畀我哋或者第三方。你可以自行決定係咪匯出或分享資料。",
     "securityModel": "睇下安全性",
     "secureLocal": "本地加密",
     "secureOwner": "數據隔離",
@@ -122,7 +123,20 @@
     "faqOcrQ": "收據掃描係咪可以離線運作？",
     "faqOcrA": "OCR 使用同應用程式捆綁嘅模型。影張相，或者透過 Android 挑選器喺你嘅相簿入面揀一張。識別可能會錯 — 喺儲蓄之前檢查金額、貨幣同日期。拒絕相機存取唔會阻止檔案選擇。",
     "faqDeviceQ": "KOVA 係針對邊啲裝置同受眾？",
-    "faqDeviceA": "Android 運行 Android 7.0 或更高版本嘅電話，有 PL/EN/RU 接口。兼容性測試仲進行緊。目標受眾係13歲以上，但呢個唔係每個國家 / 地區嘅核准 Google Play 評分或者可用性嘅確認。冇提供手錶或者 iOS 版本。"
+    "faqDeviceA": "Android 運行 Android 7.0 或更高版本嘅電話，有 PL/EN/RU 接口。兼容性測試仲進行緊。目標受眾係13歲以上，但呢個唔係每個國家 / 地區嘅核准 Google Play 評分或者可用性嘅確認。冇提供手錶或者 iOS 版本。",
+    "aboutKicker": "咩係 KOVA ？",
+    "aboutTitle": "少啲錢嘅壓力。你嘅計劃有更多空間。",
+    "aboutCopy": "KOVA 係一個 Android 應用程式，用嚟日常個人財務。佢將開支、收入、預算同儲蓄目標結合埋一齊，噉你就可以睇到帳單之後剩低啲咩，同埋計劃下個月。",
+    "aboutAudience": "對於學生、打工仔同任何想對自己嘅錢作出更有意識嘅決定嘅人嚟講。",
+    "aboutForWhom": "對你嚟講，如果 …",
+    "aboutSpendingTitle": "你想知你嘅錢去咗邊",
+    "aboutSpendingCopy": "記錄購買、帳單同訂閱。按類別睇返開支，同埋搵出你可以改變嘅地方。",
+    "aboutGoalsTitle": "你儲緊錢買啲重要嘅嘢",
+    "aboutGoalsCopy": "計劃預算，同埋追蹤緊急基金、旅行或者大型購物嘅儲蓄。",
+    "aboutIncomeTitle": "你嘅收入唔同",
+    "aboutIncomeCopy": "記錄工作時間同工資。估計收入，方便計劃出糧日之間嘅開支。",
+    "aboutPrivacy": "你嘅記錄會保留喺你嘅手機上面。冇銀行連線、雲端帳戶或者廣告。",
+    "aboutAction": "請參閱 KOVA 嘅行動"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "私隱同安全",
-      "title": "本地數據。明確嘅限制。",
-      "intro": "離線 V1會喺你部手機度儲存財務。佢唔會建立網上帳戶或者同伺服器同步記錄。",
+      "title": "私隱係我哋嘅首要任務。",
+      "intro": "我哋努力令 KOVA 盡量安全。喺 Offline V1 入面，你嘅財務資料會保留喺你部手機上面 — 呢個應用程式唔會自動將佢哋傳送畀我哋或者第三方。你可以自行決定係咪匯出或分享資料。",
       "badge": "加密資料庫 · 手動匯出",
       "cards": [
         [

@@ -13,6 +13,7 @@
     "heroKicker": "KOVA V1 Percuma Luar Talian · Android",
     "heroTitle": "Kewangan<br><em>di satu tempat.</em>",
     "heroCopy": "Perbelanjaan, belanjawan, matlamat dan pendapatan kerja — pada telefon anda. Kami sedang menyediakan keluaran luar talian percuma, tanpa akaun awan, iklan atau langganan.",
+    "heroPrivacy": "Data kewangan anda kekal pada telefon anda.",
     "projectStatus": "Semak status projek",
     "watchVideo": "Lihat lawatan produk",
     "pauseVideo": "jeda",
@@ -55,8 +56,8 @@
     "screenWork": "Nota tempatan",
     "screenWorkCopy": "Disimpan pada peranti · 21 Okt 2026",
     "securityKicker": "Privasi",
-    "securityTitle": "Cara KOVA melindungi data.",
-    "securityCopy": "Pangkalan data kewangan utama menggunakan SQLCipher. Tiada penyegerakan awan automatik. Lindungi telefon anda dan eksport dengan kerap — penyulitan tidak menggantikan sandaran atau pengendalian yang teliti.",
+    "securityTitle": "Privasi ialah keutamaan utama kami.",
+    "securityCopy": "Kami berusaha untuk menjadikan KOVA seaman mungkin. Dalam Offline V1, data kewangan anda kekal pada telefon anda — apl tidak menghantarnya secara automatik kepada kami atau pihak ketiga. Anda memutuskan sama ada untuk mengeksport atau berkongsi data anda.",
     "securityModel": "Baca tentang keselamatan",
     "secureLocal": "Penyulitan tempatan",
     "secureOwner": "Pengasingan data",
@@ -122,7 +123,20 @@
     "faqOcrQ": "Adakah pengimbasan resit berfungsi di luar talian?",
     "faqOcrA": "OCR menggunakan model yang digabungkan dengan apl. Ambil foto atau pilih satu daripada galeri anda melalui pemilih Android. Pengiktirafan boleh menjadi salah — semak jumlah, mata wang dan tarikh sebelum menyimpan. Menafikan akses kamera tidak menyekat pemilihan fail.",
     "faqDeviceQ": "Peranti dan khalayak yang KOVA untuk mana?",
-    "faqDeviceA": "Android telefon yang menjalankan Android 7.0 atau lebih baru, dengan antara muka PL/EN/RU. Ujian keserasian sedang dijalankan. Khalayak yang dimaksudkan ialah 13+, tetapi ini bukan penilaian Google Play yang diluluskan atau pengesahan ketersediaan di setiap negara. Tiada keluaran jam tangan atau iOS ditawarkan."
+    "faqDeviceA": "Android telefon yang menjalankan Android 7.0 atau lebih baru, dengan antara muka PL/EN/RU. Ujian keserasian sedang dijalankan. Khalayak yang dimaksudkan ialah 13+, tetapi ini bukan penilaian Google Play yang diluluskan atau pengesahan ketersediaan di setiap negara. Tiada keluaran jam tangan atau iOS ditawarkan.",
+    "aboutKicker": "Apakah itu KOVA?",
+    "aboutTitle": "Kurang tekanan wang. Lebih banyak ruang untuk rancangan anda.",
+    "aboutCopy": "KOVA ialah apl Android untuk kewangan peribadi setiap hari. Ia menyatukan perbelanjaan, pendapatan, belanjawan dan matlamat simpanan, supaya anda boleh melihat apa yang tinggal selepas bil dan merancang bulan hadapan.",
+    "aboutAudience": "Untuk pelajar, pekerja dan sesiapa sahaja yang ingin membuat keputusan yang lebih disengajakan tentang wang mereka sendiri.",
+    "aboutForWhom": "Untuk anda, jika…",
+    "aboutSpendingTitle": "Anda ingin tahu ke mana wang anda pergi",
+    "aboutSpendingCopy": "Merekod pembelian, bil dan langganan. Semak perbelanjaan mengikut kategori dan cari tempat anda boleh membuat perubahan.",
+    "aboutGoalsTitle": "Anda menabung untuk sesuatu yang penting",
+    "aboutGoalsCopy": "Rancang belanjawan dan jejak penjimatan untuk dana kecemasan, perjalanan atau pembelian yang lebih besar.",
+    "aboutIncomeTitle": "Pendapatan anda berbeza-beza",
+    "aboutIncomeCopy": "Catatkan waktu kerja dan kadar. Anggarkan pendapatan untuk memudahkan perancangan perbelanjaan antara hari gaji.",
+    "aboutPrivacy": "Rekod anda kekal pada telefon anda. Tiada sambungan bank, akaun awan atau iklan.",
+    "aboutAction": "Lihat KOVA dalam tindakan"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Privasi dan keselamatan",
-      "title": "Data tempatan. Had yang jelas.",
-      "intro": "V1 luar talian menyimpan kewangan pada telefon anda. Ia tidak membuat akaun dalam talian atau menyegerakkan rekod dengan pelayan.",
+      "title": "Privasi ialah keutamaan utama kami.",
+      "intro": "Kami berusaha untuk menjadikan KOVA seaman mungkin. Dalam Offline V1, data kewangan anda kekal pada telefon anda — apl tidak menghantarnya secara automatik kepada kami atau pihak ketiga. Anda memutuskan sama ada untuk mengeksport atau berkongsi data anda.",
       "badge": "Pangkalan data disulitkan · eksport manual",
       "cards": [
         [

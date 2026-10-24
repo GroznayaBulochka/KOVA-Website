@@ -13,6 +13,7 @@
     "heroKicker": "KOVA 离线免费 V1 · Android",
     "heroTitle": "财务<br><em>集中在一处。</em>",
     "heroCopy": "支出、预算、目标和工作收入 — 在您的手机上。我们正在准备免费的离线版本，没有云帐户、广告或订阅。",
+    "heroPrivacy": "您的财务数据保留在您的手机上。",
     "projectStatus": "检查项目状态",
     "watchVideo": "查看产品导览",
     "pauseVideo": "暂停",
@@ -55,8 +56,8 @@
     "screenWork": "本地笔记",
     "screenWorkCopy": "已保存在设备上 · 2026 年 10 月 21 日",
     "securityKicker": "隐私",
-    "securityTitle": "KOVA 如何保护数据。",
-    "securityCopy": "主要金融数据库使用SQLCipher。没有自动云同步。定期保护您的手机和导出 — 加密不能取代备份或谨慎处理。",
+    "securityTitle": "隐私是我们的首要任务。",
+    "securityCopy": "我们努力使 KOVA 尽可能安全。在 Offline V1 中，您的财务数据保留在您的手机上 - 该应用程序不会自动将其发送给我们或第三方。您决定是否导出或共享您的数据。",
     "securityModel": "了解安全性",
     "secureLocal": "本地加密",
     "secureOwner": "数据隔离",
@@ -122,7 +123,20 @@
     "faqOcrQ": "收据扫描可以离线使用吗？",
     "faqOcrA": "OCR 使用与应用程序捆绑的模型。拍摄一张照片或通过 Android 选择器从图库中选择一张照片。识别可能是错误的——保存前检查金额、货币和日期。拒绝相机访问不会阻止文件选择。",
     "faqDeviceQ": "KOVA 适用于哪些设备和受众？",
-    "faqDeviceA": "Android 运行 Android 7.0 或更高版本、具有 PL/EN/RU 接口的电话。兼容性测试正在进行中。目标受众为 13 岁以上，但这并不是每个国家/地区批准的 Google Play 评级或可用性确认。不提供手表或 iOS 版本。"
+    "faqDeviceA": "Android 运行 Android 7.0 或更高版本、具有 PL/EN/RU 接口的电话。兼容性测试正在进行中。目标受众为 13 岁以上，但这并不是每个国家/地区批准的 Google Play 评级或可用性确认。不提供手表或 iOS 版本。",
+    "aboutKicker": "什么是KOVA？",
+    "aboutTitle": "金钱压力较小。为您的计划提供更多空间。",
+    "aboutCopy": "KOVA 是一款用于日常个人财务的 Android 应用。它将支出、收入、预算和储蓄目标结合在一起，这样您就可以看到账单后剩下的钱并计划未来一个月。",
+    "aboutAudience": "适合学生、上班族和任何想要对自己的钱做出更明智决定的人。",
+    "aboutForWhom": "对于你来说，如果……",
+    "aboutSpendingTitle": "你想知道你的钱去哪儿了",
+    "aboutSpendingCopy": "记录购买、账单和订阅。按类别审查支出并找出可以做出改变的地方。",
+    "aboutGoalsTitle": "您正在为重要的事情存钱",
+    "aboutGoalsCopy": "规划预算并跟踪应急基金、旅行或大宗采购的节省情况。",
+    "aboutIncomeTitle": "您的收入各不相同",
+    "aboutIncomeCopy": "记录工作时间和工资。估算收入，以便更轻松地计划发薪日之间的支出。",
+    "aboutPrivacy": "您的记录保留在您的手机上。没有银行连接、云帐户或广告。",
+    "aboutAction": "查看 KOVA 的实际应用"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "隐私和安全",
-      "title": "本地数据。明确的限制。",
-      "intro": "离线 V1 将财务信息存储在您的手机上。它不会创建在线帐户或与服务器同步记录。",
+      "title": "隐私是我们的首要任务。",
+      "intro": "我们努力使 KOVA 尽可能安全。在 Offline V1 中，您的财务数据保留在您的手机上 - 该应用程序不会自动将其发送给我们或第三方。您决定是否导出或共享您的数据。",
       "badge": "加密数据库·手动导出",
       "cards": [
         [

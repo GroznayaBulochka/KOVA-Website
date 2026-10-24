@@ -104,7 +104,7 @@ export async function prepareRenderer(root){
  const landing=await read('landing.js'),projects=await read('project-content.js'),legal=await read('legal-document.js');
  const context={window:{KOVA_TRANSLATIONS:translations}};
  const shell=await read('site-shell.js');
- vm.runInNewContext(shell.slice(shell.indexOf('  const labels'),shell.indexOf('  const page'))+';window.shellLabels=labels;',context);
+ vm.runInNewContext(shell.slice(shell.indexOf('  const labels'),shell.indexOf('  const page'))+';window.shellLabels=labels;window.socialLinks=socialLinks;window.renderHeader=renderHeader;window.renderContext=renderContext;',context);
  vm.runInNewContext(landing.slice(landing.indexOf('  const dictionaries'),landing.indexOf('  const supported'))+';window.home=dictionaries;window.slides=videoSlides;',context);
  vm.runInNewContext(projects,context);
  vm.runInNewContext(legal.slice(legal.indexOf('  const escapeHtml'),legal.indexOf('  let loadRevision'))+';window.renderMarkdown=renderMarkdown;',context);
@@ -145,6 +145,9 @@ export async function prepareRenderer(root){
    html=html.replace(/href="legal\/[^\"]+" data-legal-source/,`href="legal/${kind}-${lang}.md" data-legal-source`);
   }
   html=html.replace(/(<select\b[^>]*(?:id="site-language"|data-project-language|data-document-language|data-legal-language)[^>]*>)[\s\S]*?<\/select>/g,(_,start)=>start+languages.map(l=>`<option value="${l}"${l===lang?' selected':''}>${escape(languageNames[l])}</option>`).join('')+'</select>');
+  const select=/<select\b[\s\S]*?<\/select>/.exec(html)?.[0];
+  html=html.replace(/<header\b[\s\S]*?<\/header>/,content.renderHeader(lang,page,select));
+  if(page!=='index') html=html.replace(/<a class="document-back"[^>]*>[\s\S]*?<\/a>/,`<div data-site-context>${content.renderContext(lang,page)}</div>`);
   html=html.replace(/<option value="(pl|en|ru)"(?: selected)?>/g,(_,l)=>`<option value="${l}"${l===lang?' selected':''}>`);
   html=html.replace(/<meta (?:name="(?:robots|description|twitter:[^"]+)"|property="og:[^"]+")[^>]*>/g,'').replace(/<title>[\s\S]*?<\/title>/,'');
   html=html.replace('</head>',seoHead(page,lang,origin,isRelease)+'\n</head>');
@@ -153,9 +156,13 @@ export async function prepareRenderer(root){
    const url=new URL(href,origin+'/'); const target=url.pathname.slice(1,-5);
    if(!pages.includes(target))return all;
    const explicit=url.searchParams.get('lang');url.searchParams.delete('lang');
-   return `href="${urlPath(target,languages.includes(explicit)?explicit:lang)}${url.search}${url.hash}"`;
+   const targetLanguage=languages.includes(explicit)?explicit:lang;
+   if(targetLanguage==='pl')url.searchParams.set('lang','pl');
+   return `href="${urlPath(target,targetLanguage)}${url.search}${url.hash}"`;
   });
   // Crawlable links, also usable with scripts disabled; no hidden keyword content.
+  if (html.includes('</footer>')) html=html.replace('</footer>',content.socialLinks+'</footer>');
+  else html=html.replace('</body>',`<footer class="public-footer">${content.socialLinks}</footer>\n</body>`);
   const navigation=`<nav class="seo-language-links" aria-label="Language">${languages.map(l=>`<a data-language-link hreflang="${l}" lang="${l}" href="${urlPath(page,l)}${l==='pl'?'?lang=pl':''}">${languageNames[l]}</a>`).join(' · ')}</nav>`;
   html=html.replace('</main>',navigation+'\n</main>');
   return html;

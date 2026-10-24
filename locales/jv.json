@@ -13,6 +13,7 @@
     "heroKicker": "KOVA Offline Gratis V1 · Android",
     "heroTitle": "Keuangan<br><em>ing sak panggonan.</em>",
     "heroCopy": "Belanja, anggaran, gol, lan penghasilan kerja — ing telpon sampeyan. Kita lagi nyiapake rilis offline gratis, tanpa akun awan, iklan, utawa langganan.",
+    "heroPrivacy": "Data finansial sampeyan tetep ana ing telpon sampeyan.",
     "projectStatus": "Priksa status proyek",
     "watchVideo": "Ndeleng tur produk",
     "pauseVideo": "ngaso",
@@ -55,8 +56,8 @@
     "screenWork": "Cathetan lokal",
     "screenWorkCopy": "Disimpen ing piranti · 21 Okt 2026",
     "securityKicker": "Privasi",
-    "securityTitle": "Carane KOVA nglindhungi data.",
-    "securityCopy": "Database keuangan utama nggunakake SQLCipher. Ora ana sinkronisasi awan otomatis. Nglindhungi telpon lan ekspor kanthi rutin — enkripsi ora ngganti serep utawa penanganan sing ati-ati.",
+    "securityTitle": "Privasi minangka prioritas utama.",
+    "securityCopy": "Kita ngupaya supaya KOVA dadi aman sabisa. Ing Offline V1, data finansial sampeyan tetep ana ing telpon — aplikasi ora ngirim data kasebut kanthi otomatis marang kita utawa pihak katelu. Sampeyan sing mutusake apa arep ngekspor utawa nuduhake data sampeyan.",
     "securityModel": "Maca babagan keamanan",
     "secureLocal": "Enkripsi lokal",
     "secureOwner": "Isolasi data",
@@ -122,7 +123,20 @@
     "faqOcrQ": "Apa pindai resi bisa digunakake ing offline?",
     "faqOcrA": "OCR nggunakake model sing digabung karo app. Njupuk foto utawa pilih salah siji saka galeri liwat pemilih Android. Pangenalan bisa uga salah - priksa jumlah, mata uang, lan tanggal sadurunge nyimpen. Nolak akses kamera ora ngalangi pilihan file.",
     "faqDeviceQ": "Kanggo piranti lan pamirsa sing KOVA?",
-    "faqDeviceA": "Android telpon sing nganggo Android 7.0 utawa luwih anyar, kanthi antarmuka PL/EN/RU. Tes kompatibilitas lagi ditindakake. Penonton sing dituju yaiku 13+, nanging iki dudu rating Google Play sing disetujoni utawa konfirmasi kasedhiyan ing saben negara. Ora ana rilis jam tangan utawa iOS sing ditawakake."
+    "faqDeviceA": "Android telpon sing nganggo Android 7.0 utawa luwih anyar, kanthi antarmuka PL/EN/RU. Tes kompatibilitas lagi ditindakake. Penonton sing dituju yaiku 13+, nanging iki dudu rating Google Play sing disetujoni utawa konfirmasi kasedhiyan ing saben negara. Ora ana rilis jam tangan utawa iOS sing ditawakake.",
+    "aboutKicker": "Apa KOVA?",
+    "aboutTitle": "Kurang stres dhuwit. Ruang liyane kanggo rencana sampeyan.",
+    "aboutCopy": "KOVA iku sawijining aplikasi Android kanggo keuangan pribadi saben dina. Iku ndadekke mbuwang, income, budgets lan tabungan gol bebarengan, supaya sampeyan bisa ndeleng apa isih sawise tagihan lan rencana sasi ahead.",
+    "aboutAudience": "Kanggo siswa, wong kerja lan sapa wae sing pengin nggawe keputusan sing luwih disengaja babagan dhuwit dhewe.",
+    "aboutForWhom": "Kanggo sampeyan, yen…",
+    "aboutSpendingTitle": "Sampeyan pengin ngerti menyang ngendi dhuwit sampeyan",
+    "aboutSpendingCopy": "Rekam tumbas, tagihan lan lengganan. Deleng belanja miturut kategori lan titik ing ngendi sampeyan bisa ngganti.",
+    "aboutGoalsTitle": "Sampeyan nyimpen kanggo soko penting",
+    "aboutGoalsCopy": "Rencanana anggaran lan lacak tabungan kanggo dana darurat, lelungan utawa tuku sing luwih gedhe.",
+    "aboutIncomeTitle": "Penghasilan sampeyan beda-beda",
+    "aboutIncomeCopy": "Rekam jam kerja lan tarif. Ngira-ngira pangentukan kanggo nggampangake ngrancang mbuwang antarane paydays.",
+    "aboutPrivacy": "Cathetan sampeyan tetep ing telpon. Ora ana sambungan bank, akun maya utawa iklan.",
+    "aboutAction": "Waca KOVA ing tumindak"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Privasi lan keamanan",
-      "title": "Data lokal. Watesan sing jelas.",
-      "intro": "Offline V1 nyimpen keuangan ing telpon. Ora nggawe akun online utawa nyelarasake rekaman karo server.",
+      "title": "Privasi minangka prioritas utama.",
+      "intro": "Kita ngupaya supaya KOVA dadi aman sabisa. Ing Offline V1, data finansial sampeyan tetep ana ing telpon — aplikasi ora ngirim data kasebut kanthi otomatis marang kita utawa pihak katelu. Sampeyan sing mutusake apa arep ngekspor utawa nuduhake data sampeyan.",
       "badge": "Database enkripsi · ekspor manual",
       "cards": [
         [

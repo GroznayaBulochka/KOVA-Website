@@ -16,6 +16,7 @@
     "heroKicker": "KOVA Offline Free V1 · Android",
     "heroTitle": "Finanse<br><em>w jednym miejscu.</em>",
     "heroCopy": "Wydatki, budżety, cele i dochód z pracy — na Twoim telefonie. Przygotowujemy bezpłatną wersję offline, bez konta w chmurze, reklam i subskrypcji.",
+    "heroPrivacy": "Twoje dane finansowe zostają na telefonie.",
     "projectStatus": "Sprawdź stan projektu",
     "watchVideo": "Obejrzyj prezentację",
     "pauseVideo": "Pauza",
@@ -58,8 +59,8 @@
     "screenWork": "Lokalne notatki",
     "screenWorkCopy": "Zapis na urządzeniu · 21.10.2026",
     "securityKicker": "Prywatność",
-    "securityTitle": "Jak KOVA chroni dane.",
-    "securityCopy": "Główna baza finansowa korzysta z SQLCipher. Nie ma automatycznej synchronizacji z chmurą. Zadbaj o blokadę telefonu i regularny eksport — szyfrowanie nie zastępuje kopii ani ostrożności.",
+    "securityTitle": "Prywatność jest dla nas najważniejsza.",
+    "securityCopy": "Staramy się tworzyć KOVA tak, aby Twoje dane były jak najlepiej chronione. W wersji Offline V1 dane finansowe pozostają na Twoim telefonie — aplikacja nie wysyła ich automatycznie do nas ani do osób trzecich. To Ty decydujesz o ich eksporcie i udostępnianiu.",
     "securityModel": "Czytaj o bezpieczeństwie",
     "secureLocal": "Szyfrowanie lokalne",
     "secureOwner": "Izolacja danych",
@@ -141,6 +142,7 @@
     "heroKicker": "KOVA Offline Free V1 · Android",
     "heroTitle": "Finances<br><em>in one place.</em>",
     "heroCopy": "Spending, budgets, goals, and work income — on your phone. We’re preparing a free offline release, without cloud accounts, ads, or subscriptions.",
+    "heroPrivacy": "Your financial data stays on your phone.",
     "projectStatus": "Check project status",
     "watchVideo": "View product tour",
     "pauseVideo": "Pause",
@@ -183,8 +185,8 @@
     "screenWork": "Local notes",
     "screenWorkCopy": "Saved on device · 21 Oct 2026",
     "securityKicker": "Privacy",
-    "securityTitle": "How KOVA protects data.",
-    "securityCopy": "The main financial database uses SQLCipher. There is no automatic cloud sync. Protect your phone and export regularly — encryption does not replace a backup or careful handling.",
+    "securityTitle": "Privacy is our top priority.",
+    "securityCopy": "We strive to make KOVA as secure as possible. In Offline V1, your financial data stays on your phone — the app does not automatically send it to us or third parties. You decide whether to export or share your data.",
     "securityModel": "Read about security",
     "secureLocal": "Local encryption",
     "secureOwner": "Data isolation",
@@ -266,6 +268,7 @@
     "heroKicker": "KOVA Offline Free V1 · Android",
     "heroTitle": "Финансы<br><em>в одном месте.</em>",
     "heroCopy": "Расходы, бюджеты, цели и доход от работы — на вашем телефоне. Готовим бесплатную офлайн-версию без облачного аккаунта, рекламы и подписок.",
+    "heroPrivacy": "Ваши финансовые данные остаются на телефоне.",
     "projectStatus": "Статус проекта",
     "watchVideo": "Посмотреть обзор",
     "pauseVideo": "Пауза",
@@ -308,8 +311,8 @@
     "screenWork": "Локальные заметки",
     "screenWorkCopy": "Сохранение на устройстве · 21.10.2026",
     "securityKicker": "Приватность",
-    "securityTitle": "Как KOVA защищает данные.",
-    "securityCopy": "Основная финансовая база использует SQLCipher. Автоматической синхронизации с облаком нет. Защищайте телефон и регулярно экспортируйте данные — шифрование не заменяет копию и осторожность.",
+    "securityTitle": "Приватность для нас важнее всего.",
+    "securityCopy": "Мы стремимся сделать KOVA максимально безопасной. В версии Offline V1 ваши финансовые данные остаются на телефоне — приложение не отправляет их автоматически нам или третьим лицам. Вы сами решаете, экспортировать ли свои данные и делиться ли ими.",
     "securityModel": "О безопасности",
     "secureLocal": "Локальное шифрование",
     "secureOwner": "Изоляция данных",
@@ -378,6 +381,52 @@
     "faqDeviceA": "Для телефонов с Android 7.0 и новее, с интерфейсом PL/EN/RU. Проверка совместимости продолжается. Планируемая аудитория — 13+, но это не утверждённый рейтинг Google Play и не подтверждение доступности во всех странах. Версии для часов и iOS не предлагаются."
   }
 };
+
+  Object.assign(dictionaries.pl,{
+  "aboutKicker": "Czym jest KOVA?",
+  "aboutTitle": "Mniej chaosu w finansach. Więcej miejsca na Twoje plany.",
+  "aboutCopy": "KOVA to aplikacja na Androida do codziennych finansów osobistych. Łączy wydatki, dochody, budżety i cele w jednym miejscu, aby łatwiej było zobaczyć, co zostaje po opłatach, i zaplanować kolejny miesiąc.",
+  "aboutAudience": "Dla studentów, osób pracujących i wszystkich, którzy chcą świadomie zarządzać własnymi pieniędzmi.",
+  "aboutForWhom": "Dla Ciebie, jeśli…",
+  "aboutSpendingTitle": "Chcesz wiedzieć, na co wydajesz",
+  "aboutSpendingCopy": "Zapisuj zakupy, rachunki i subskrypcje. Przeglądaj wydatki według kategorii i zauważaj, gdzie możesz coś zmienić.",
+  "aboutGoalsTitle": "Odkładasz na ważny cel",
+  "aboutGoalsCopy": "Zaplanuj budżet i śledź oszczędności na poduszkę finansową, podróż lub większy zakup.",
+  "aboutIncomeTitle": "Masz zmienny dochód",
+  "aboutIncomeCopy": "Zapisuj godziny pracy i stawki. Szacuj zarobki, by łatwiej planować wydatki między wypłatami.",
+  "aboutPrivacy": "Twoje zapisy pozostają na telefonie. Bez podłączania banku, konta w chmurze i reklam.",
+  "aboutAction": "Zobacz KOVA w praktyce"
+});
+  Object.assign(dictionaries.en,{
+  "aboutKicker": "What is KOVA?",
+  "aboutTitle": "Less money stress. More room for your plans.",
+  "aboutCopy": "KOVA is an Android app for everyday personal finances. It brings spending, income, budgets and savings goals together, so you can see what is left after bills and plan the month ahead.",
+  "aboutAudience": "For students, working people and anyone who wants to make more intentional decisions about their own money.",
+  "aboutForWhom": "For you, if…",
+  "aboutSpendingTitle": "You want to know where your money goes",
+  "aboutSpendingCopy": "Record purchases, bills and subscriptions. Review spending by category and spot where you could make a change.",
+  "aboutGoalsTitle": "You are saving for something important",
+  "aboutGoalsCopy": "Plan a budget and track savings for an emergency fund, a trip or a bigger purchase.",
+  "aboutIncomeTitle": "Your income varies",
+  "aboutIncomeCopy": "Record working hours and rates. Estimate earnings to make it easier to plan spending between paydays.",
+  "aboutPrivacy": "Your records stay on your phone. No bank connection, cloud account or ads.",
+  "aboutAction": "See KOVA in action"
+});
+  Object.assign(dictionaries.ru,{
+  "aboutKicker": "Что такое KOVA?",
+  "aboutTitle": "Меньше хаоса в финансах. Больше места для ваших планов.",
+  "aboutCopy": "KOVA — приложение для Android, которое помогает вести личные финансы каждый день. Расходы, доходы, бюджеты и цели накоплений собраны в одном месте, чтобы было проще увидеть, сколько остаётся после оплаты счетов, и спланировать следующий месяц.",
+  "aboutAudience": "Для студентов, работающих людей и всех, кто хочет осознанно распоряжаться своими деньгами.",
+  "aboutForWhom": "Для вас, если…",
+  "aboutSpendingTitle": "Вы хотите знать, на что уходят деньги",
+  "aboutSpendingCopy": "Записывайте покупки, счета и подписки. Смотрите расходы по категориям и замечайте, что можно изменить.",
+  "aboutGoalsTitle": "Вы копите на важную цель",
+  "aboutGoalsCopy": "Планируйте бюджет и следите за накоплениями на финансовую подушку, поездку или крупную покупку.",
+  "aboutIncomeTitle": "Ваш доход меняется от месяца к месяцу",
+  "aboutIncomeCopy": "Записывайте рабочие часы и ставки. Оценивайте заработок, чтобы проще планировать расходы между выплатами.",
+  "aboutPrivacy": "Ваши записи остаются на телефоне. Без подключения к банку, облачного аккаунта и рекламы.",
+  "aboutAction": "Посмотреть KOVA в действии"
+});
 
   const videoSlides = [
   {
@@ -575,12 +624,6 @@
 
   document.querySelectorAll('[data-local-workspace]').forEach(node => { node.hidden = !isLocalOwner; });
   document.querySelector('#site-language').addEventListener('change', event => { language = event.target.value; applyLanguage(); });
-
-  const menuButton = document.querySelector('.menu-button');
-  const navigation = document.querySelector('.main-nav');
-  menuButton.addEventListener('click', () => { const open = navigation.classList.toggle('open'); menuButton.setAttribute('aria-expanded', String(open)); });
-  navigation.addEventListener('click', event => { if (event.target.closest('a')) { navigation.classList.remove('open'); menuButton.setAttribute('aria-expanded', 'false'); } });
-  document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('open')) { navigation.classList.remove('open'); menuButton.setAttribute('aria-expanded', 'false'); menuButton.focus(); } });
 
   const lightbox = document.querySelector('.lightbox');
   const lightboxImage = lightbox.querySelector('img');

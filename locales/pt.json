@@ -13,6 +13,7 @@
     "heroKicker": "KOVA Off-line gratuito V1 · Android",
     "heroTitle": "Finanças<br><em>em um só lugar.</em>",
     "heroCopy": "Gastos, orçamentos, metas e rendimentos do trabalho - no seu telefone. Estamos preparando um lançamento off-line gratuito, sem contas na nuvem, anúncios ou assinaturas.",
+    "heroPrivacy": "Seus dados financeiros ficam no seu telefone.",
     "projectStatus": "Verifique o status do projeto",
     "watchVideo": "Ver tour do produto",
     "pauseVideo": "Pausa",
@@ -55,8 +56,8 @@
     "screenWork": "Notas locais",
     "screenWorkCopy": "Salvo no dispositivo · 21 de outubro de 2026",
     "securityKicker": "Privacidade",
-    "securityTitle": "Como KOVA protege os dados.",
-    "securityCopy": "O principal banco de dados financeiro usa SQLCipher. Não há sincronização automática na nuvem. Proteja seu telefone e exporte regularmente – a criptografia não substitui um backup ou um manuseio cuidadoso.",
+    "securityTitle": "A privacidade é a nossa principal prioridade.",
+    "securityCopy": "Nós nos esforçamos para tornar o KOVA o mais seguro possível. No Offline V1, seus dados financeiros permanecem no seu telefone – o aplicativo não os envia automaticamente para nós ou para terceiros. Você decide se deseja exportar ou compartilhar seus dados.",
     "securityModel": "Leia sobre segurança",
     "secureLocal": "Criptografia local",
     "secureOwner": "Isolamento de dados",
@@ -122,7 +123,20 @@
     "faqOcrQ": "A digitalização de recibos funciona offline?",
     "faqOcrA": "OCR usa um modelo que acompanha o aplicativo. Tire uma foto ou escolha uma da sua galeria através do seletor Android. O reconhecimento pode estar errado – verifique o valor, a moeda e a data antes de salvar. Negar o acesso à câmera não bloqueia a seleção de arquivos.",
     "faqDeviceQ": "Para quais dispositivos e público-alvo KOVA se destina?",
-    "faqDeviceA": "Android telefones executando Android 7.0 ou posterior, com interfaces PL/EN/RU. Os testes de compatibilidade estão em andamento. O público-alvo é maior de 13 anos, mas esta não é uma classificação Google Play aprovada ou confirmação de disponibilidade em todos os países. Nenhum relógio ou versão iOS é oferecido."
+    "faqDeviceA": "Android telefones executando Android 7.0 ou posterior, com interfaces PL/EN/RU. Os testes de compatibilidade estão em andamento. O público-alvo é maior de 13 anos, mas esta não é uma classificação Google Play aprovada ou confirmação de disponibilidade em todos os países. Nenhum relógio ou versão iOS é oferecido.",
+    "aboutKicker": "O que é KOVA?",
+    "aboutTitle": "Menos estresse financeiro. Mais espaço para seus planos.",
+    "aboutCopy": "KOVA é um aplicativo Android para finanças pessoais diárias. Ele reúne gastos, receitas, orçamentos e metas de poupança, para que você possa ver o que resta após as contas e planejar o mês seguinte.",
+    "aboutAudience": "Para estudantes, trabalhadores e qualquer pessoa que queira tomar decisões mais intencionais sobre seu próprio dinheiro.",
+    "aboutForWhom": "Para você, se…",
+    "aboutSpendingTitle": "Você quer saber para onde vai seu dinheiro",
+    "aboutSpendingCopy": "Registre compras, contas e assinaturas. Analise os gastos por categoria e identifique onde você poderia fazer uma mudança.",
+    "aboutGoalsTitle": "Você está economizando para algo importante",
+    "aboutGoalsCopy": "Planeje um orçamento e acompanhe as economias para um fundo de emergência, uma viagem ou uma compra maior.",
+    "aboutIncomeTitle": "Sua renda varia",
+    "aboutIncomeCopy": "Registre horas de trabalho e taxas. Estime os ganhos para facilitar o planejamento dos gastos entre os dias de pagamento.",
+    "aboutPrivacy": "Seus registros permanecem no seu telefone. Sem conexão bancária, conta na nuvem ou anúncios.",
+    "aboutAction": "Veja KOVA em ação"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Privacidade e segurança",
-      "title": "Dados locais. Limitações claras.",
-      "intro": "O V1 offline armazena finanças no seu telefone. Ele não cria uma conta online nem sincroniza registros com um servidor.",
+      "title": "A privacidade é a nossa principal prioridade.",
+      "intro": "Nós nos esforçamos para tornar o KOVA o mais seguro possível. No Offline V1, seus dados financeiros permanecem no seu telefone – o aplicativo não os envia automaticamente para nós ou para terceiros. Você decide se deseja exportar ou compartilhar seus dados.",
       "badge": "Banco de dados criptografado · exportação manual",
       "cards": [
         [

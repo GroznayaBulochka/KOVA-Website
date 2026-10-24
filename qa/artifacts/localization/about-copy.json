@@ -1,0 +1,62 @@
+{
+  "pl": {
+    "aboutKicker": "Czym jest KOVA?",
+    "aboutTitle": "Mniej chaosu w finansach. Więcej miejsca na Twoje plany.",
+    "aboutCopy": "KOVA to aplikacja na Androida do codziennych finansów osobistych. Łączy wydatki, dochody, budżety i cele w jednym miejscu, aby łatwiej było zobaczyć, co zostaje po opłatach, i zaplanować kolejny miesiąc.",
+    "aboutAudience": "Dla studentów, osób pracujących i wszystkich, którzy chcą świadomie zarządzać własnymi pieniędzmi.",
+    "aboutForWhom": "Dla Ciebie, jeśli…",
+    "aboutSpendingTitle": "Chcesz wiedzieć, na co wydajesz",
+    "aboutSpendingCopy": "Zapisuj zakupy, rachunki i subskrypcje. Przeglądaj wydatki według kategorii i zauważaj, gdzie możesz coś zmienić.",
+    "aboutGoalsTitle": "Odkładasz na ważny cel",
+    "aboutGoalsCopy": "Zaplanuj budżet i śledź oszczędności na poduszkę finansową, podróż lub większy zakup.",
+    "aboutIncomeTitle": "Masz zmienny dochód",
+    "aboutIncomeCopy": "Zapisuj godziny pracy i stawki. Szacuj zarobki, by łatwiej planować wydatki między wypłatami.",
+    "aboutPrivacy": "Twoje zapisy pozostają na telefonie. Bez podłączania banku, konta w chmurze i reklam.",
+    "aboutAction": "Zobacz KOVA w praktyce"
+  },
+  "en": {
+    "aboutKicker": "What is KOVA?",
+    "aboutTitle": "Less money stress. More room for your plans.",
+    "aboutCopy": "KOVA is an Android app for everyday personal finances. It brings spending, income, budgets and savings goals together, so you can see what is left after bills and plan the month ahead.",
+    "aboutAudience": "For students, working people and anyone who wants to make more intentional decisions about their own money.",
+    "aboutForWhom": "For you, if…",
+    "aboutSpendingTitle": "You want to know where your money goes",
+    "aboutSpendingCopy": "Record purchases, bills and subscriptions. Review spending by category and spot where you could make a change.",
+    "aboutGoalsTitle": "You are saving for something important",
+    "aboutGoalsCopy": "Plan a budget and track savings for an emergency fund, a trip or a bigger purchase.",
+    "aboutIncomeTitle": "Your income varies",
+    "aboutIncomeCopy": "Record working hours and rates. Estimate earnings to make it easier to plan spending between paydays.",
+    "aboutPrivacy": "Your records stay on your phone. No bank connection, cloud account or ads.",
+    "aboutAction": "See KOVA in action"
+  },
+  "ru": {
+    "aboutKicker": "Что такое KOVA?",
+    "aboutTitle": "Меньше хаоса в финансах. Больше места для ваших планов.",
+    "aboutCopy": "KOVA — приложение для Android, которое помогает вести личные финансы каждый день. Расходы, доходы, бюджеты и цели накоплений собраны в одном месте, чтобы было проще увидеть, сколько остаётся после оплаты счетов, и спланировать следующий месяц.",
+    "aboutAudience": "Для студентов, работающих людей и всех, кто хочет осознанно распоряжаться своими деньгами.",
+    "aboutForWhom": "Для вас, если…",
+    "aboutSpendingTitle": "Вы хотите знать, на что уходят деньги",
+    "aboutSpendingCopy": "Записывайте покупки, счета и подписки. Смотрите расходы по категориям и замечайте, что можно изменить.",
+    "aboutGoalsTitle": "Вы копите на важную цель",
+    "aboutGoalsCopy": "Планируйте бюджет и следите за накоплениями на финансовую подушку, поездку или крупную покупку.",
+    "aboutIncomeTitle": "Ваш доход меняется от месяца к месяцу",
+    "aboutIncomeCopy": "Записывайте рабочие часы и ставки. Оценивайте заработок, чтобы проще планировать расходы между выплатами.",
+    "aboutPrivacy": "Ваши записи остаются на телефоне. Без подключения к банку, облачного аккаунта и рекламы.",
+    "aboutAction": "Посмотреть KOVA в действии"
+  },
+  "uk": {
+    "aboutKicker": "Що таке KOVA?",
+    "aboutTitle": "Менше хаосу у фінансах. Більше місця для ваших планів.",
+    "aboutCopy": "KOVA — застосунок для Android, який допомагає вести особисті фінанси щодня. Витрати, доходи, бюджети та цілі заощаджень зібрані в одному місці, щоб було простіше побачити, скільки залишається після оплати рахунків, і спланувати наступний місяць.",
+    "aboutAudience": "Для студентів, людей, які працюють, і всіх, хто хоче усвідомлено розпоряджатися власними грошима.",
+    "aboutForWhom": "Для вас, якщо…",
+    "aboutSpendingTitle": "Ви хочете знати, на що йдуть гроші",
+    "aboutSpendingCopy": "Записуйте покупки, рахунки та підписки. Переглядайте витрати за категоріями й помічайте, що можна змінити.",
+    "aboutGoalsTitle": "Ви заощаджуєте на важливу мету",
+    "aboutGoalsCopy": "Плануйте бюджет і стежте за заощадженнями на фінансову подушку, подорож чи велику покупку.",
+    "aboutIncomeTitle": "Ваш дохід змінюється щомісяця",
+    "aboutIncomeCopy": "Записуйте робочі години та ставки. Оцінюйте заробіток, щоб легше планувати витрати між виплатами.",
+    "aboutPrivacy": "Ваші записи залишаються на телефоні. Без підключення до банку, хмарного облікового запису та реклами.",
+    "aboutAction": "Побачити KOVA в дії"
+  }
+}

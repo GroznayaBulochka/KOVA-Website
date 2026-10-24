@@ -64,3 +64,14 @@ npm run test:languages — isolated browser integration matrix; requires the
 public preview on http://127.0.0.1:4174 (or KOVA_PUBLIC_ORIGIN).
 Detailed browser evidence: qa/artifacts/localization/language-selection-browser.json.
 The earlier language-detection-audit.json records behavior before this fix.
+
+Shared navigation — 24 October 2026
+All public pages use the same sticky header, six primary links and language
+control. Project pages share a secondary navigation and a breadcrumb trail;
+information pages have their own contextual links. Active states distinguish
+the current main section, subpage and selected landing-page anchor.
+The static build uses the same header/context renderers as the browser.
+Generic Polish navigation carries ?lang=pl so direct Polish links retain
+their language when browser preferences or saved choices differ. Canonical
+metadata remains free of language query aliases. Workspace remains separate.
+Run npm run test:navigation with the local preview to verify real transitions.

@@ -13,6 +13,7 @@
     "heroKicker": "KOVA Offline Free V1 · Android",
     "heroTitle": "Finances<br><em>in one place.</em>",
     "heroCopy": "Spending, budgets, goals, and work income — on your phone. We’re preparing a free offline release, without cloud accounts, ads, or subscriptions.",
+    "heroPrivacy": "Your financial data stays on your phone.",
     "projectStatus": "Check project status",
     "watchVideo": "View product tour",
     "pauseVideo": "Pause",
@@ -55,8 +56,8 @@
     "screenWork": "Local notes",
     "screenWorkCopy": "Saved on device · 21 Oct 2026",
     "securityKicker": "Privacy",
-    "securityTitle": "How KOVA protects data.",
-    "securityCopy": "The main financial database uses SQLCipher. There is no automatic cloud sync. Protect your phone and export regularly — encryption does not replace a backup or careful handling.",
+    "securityTitle": "Privacy is our top priority.",
+    "securityCopy": "We strive to make KOVA as secure as possible. In Offline V1, your financial data stays on your phone — the app does not automatically send it to us or third parties. You decide whether to export or share your data.",
     "securityModel": "Read about security",
     "secureLocal": "Local encryption",
     "secureOwner": "Data isolation",
@@ -122,7 +123,20 @@
     "faqOcrQ": "Does receipt scanning work offline?",
     "faqOcrA": "OCR uses a model bundled with the app. Take a photo or choose one from your gallery through the Android picker. Recognition can be wrong — check the amount, currency, and date before saving. Denying camera access does not block file selection.",
     "faqDeviceQ": "Which devices and audience is KOVA for?",
-    "faqDeviceA": "Android phones running Android 7.0 or later, with PL/EN/RU interfaces. Compatibility testing is ongoing. The intended audience is 13+, but this is not an approved Google Play rating or confirmation of availability in every country. No watch or iOS release is offered."
+    "faqDeviceA": "Android phones running Android 7.0 or later, with PL/EN/RU interfaces. Compatibility testing is ongoing. The intended audience is 13+, but this is not an approved Google Play rating or confirmation of availability in every country. No watch or iOS release is offered.",
+    "aboutKicker": "What is KOVA?",
+    "aboutTitle": "Less money stress. More room for your plans.",
+    "aboutCopy": "KOVA is an Android app for everyday personal finances. It brings spending, income, budgets and savings goals together, so you can see what is left after bills and plan the month ahead.",
+    "aboutAudience": "For students, working people and anyone who wants to make more intentional decisions about their own money.",
+    "aboutForWhom": "For you, if…",
+    "aboutSpendingTitle": "You want to know where your money goes",
+    "aboutSpendingCopy": "Record purchases, bills and subscriptions. Review spending by category and spot where you could make a change.",
+    "aboutGoalsTitle": "You are saving for something important",
+    "aboutGoalsCopy": "Plan a budget and track savings for an emergency fund, a trip or a bigger purchase.",
+    "aboutIncomeTitle": "Your income varies",
+    "aboutIncomeCopy": "Record working hours and rates. Estimate earnings to make it easier to plan spending between paydays.",
+    "aboutPrivacy": "Your records stay on your phone. No bank connection, cloud account or ads.",
+    "aboutAction": "See KOVA in action"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Privacy and security",
-      "title": "Local data. Clear limitations.",
-      "intro": "Offline V1 stores finances on your phone. It does not create an online account or sync records with a server.",
+      "title": "Privacy is our top priority.",
+      "intro": "We strive to make KOVA as secure as possible. In Offline V1, your financial data stays on your phone — the app does not automatically send it to us or third parties. You decide whether to export or share your data.",
       "badge": "Encrypted database · manual export",
       "cards": [
         [

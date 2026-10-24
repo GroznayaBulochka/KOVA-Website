@@ -18,6 +18,9 @@
     if (!route) return href;
     url.pathname = path(route.page, language);
     url.searchParams.delete('lang');
+    // Polish has no filename suffix, so carry its explicit choice across
+    // generic URLs even when the browser or saved preference is different.
+    if (language === 'pl') url.searchParams.set('lang', 'pl');
     return url.pathname + url.search + url.hash;
   }
   window.KOVA_ROUTES = Object.freeze({parse,path,localize});

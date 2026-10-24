@@ -9,7 +9,7 @@ function verify(original,localized,path='') {
   assert.equal(typeof localized,typeof original,path);
   if(typeof original==='string') {
     assert.ok(localized.trim(),path);
-    assert.ok(!/<\s*x\s+id\s*=/i.test(localized),path+': leaked translation placeholder');
+    assert.ok(!/<\s*x\b/i.test(localized),path+': leaked translation placeholder');
     for(const token of original.match(/<[^>]+>|https?:\/\/[^\s)\]<>]+|[\w.+-]+@[\w.-]+\.[a-z]+|\b(?:KOVA|SQLCipher|Android|OCR|GA4|G-2LE3GWYDZM)\b/g)||[]) assert.ok(localized.includes(token),path+': lost '+token);
     strings++;
   } else if(Array.isArray(original)) {

@@ -13,6 +13,7 @@
     "heroKicker": "KOVA Çevrimdışı Ücretsiz V1 · Android",
     "heroTitle": "Finans<br><em>tek bir yerde.</em>",
     "heroCopy": "Harcama, bütçeler, hedefler ve iş geliri — telefonunuzda. Bulut hesapları, reklamları veya abonelikleri olmayan ücretsiz bir çevrimdışı sürüm hazırlıyoruz.",
+    "heroPrivacy": "Finansal verileriniz telefonunuzda kalır.",
     "projectStatus": "Proje durumunu kontrol edin",
     "watchVideo": "Ürün turunu görüntüleyin",
     "pauseVideo": "Duraklat",
@@ -55,8 +56,8 @@
     "screenWork": "Yerel notlar",
     "screenWorkCopy": "Cihaza kaydedildi · 21 Eki 2026",
     "securityKicker": "Gizlilik",
-    "securityTitle": "KOVA verileri nasıl korur?",
-    "securityCopy": "Ana finansal veritabanı SQLCipher kullanır. Otomatik bulut senkronizasyonu yoktur. Telefonunuzu koruyun ve düzenli olarak dışa aktarın; şifreleme, yedeklemenin veya dikkatli kullanımın yerini almaz.",
+    "securityTitle": "Gizlilik en büyük önceliğimizdir.",
+    "securityCopy": "KOVA'yı mümkün olduğunca güvenli hale getirmeye çalışıyoruz. Offline V1'de finansal verileriniz telefonunuzda kalır; uygulama, bunları otomatik olarak bize veya üçüncü taraflara göndermez. Verilerinizi dışa aktarıp aktarmayacağınıza veya paylaşacağınıza siz karar verirsiniz.",
     "securityModel": "Güvenlik hakkında bilgi edinin",
     "secureLocal": "Yerel şifreleme",
     "secureOwner": "Veri izolasyonu",
@@ -122,7 +123,20 @@
     "faqOcrQ": "Makbuz taraması çevrimdışı çalışıyor mu?",
     "faqOcrA": "OCR uygulamayla birlikte verilen bir modeli kullanıyor. Bir fotoğraf çekin veya Android seçiciyi kullanarak galerinizden bir fotoğraf seçin. Tanıma yanlış olabilir; kaydetmeden önce tutarı, para birimini ve tarihi kontrol edin. Kamera erişiminin reddedilmesi dosya seçimini engellemez.",
     "faqDeviceQ": "KOVA hangi cihazlar ve kitle için?",
-    "faqDeviceA": "Android, Android 7.0 veya üzerini çalıştıran, PL/EN/RU arayüzlerine sahip telefonlar. Uyumluluk testleri devam etmektedir. Hedef kitle 13+ yaş grubudur ancak bu, onaylanmış bir Google Play derecelendirmesi veya her ülkede kullanılabilirliğin onayı değildir. Hiçbir saat veya iOS sürümü sunulmamaktadır."
+    "faqDeviceA": "Android, Android 7.0 veya üzerini çalıştıran, PL/EN/RU arayüzlerine sahip telefonlar. Uyumluluk testleri devam etmektedir. Hedef kitle 13+ yaş grubudur ancak bu, onaylanmış bir Google Play derecelendirmesi veya her ülkede kullanılabilirliğin onayı değildir. Hiçbir saat veya iOS sürümü sunulmamaktadır.",
+    "aboutKicker": "KOVA nedir?",
+    "aboutTitle": "Daha az para stresi. Planlarınız için daha fazla alan.",
+    "aboutCopy": "KOVA, günlük kişisel finansa yönelik bir Android uygulamasıdır. Harcama, gelir, bütçe ve tasarruf hedeflerini bir araya getirir, böylece faturalardan sonra kalanları görebilir ve önümüzdeki ayı planlayabilirsiniz.",
+    "aboutAudience": "Öğrenciler, çalışanlar ve kendi parasıyla ilgili daha bilinçli kararlar vermek isteyen herkes için.",
+    "aboutForWhom": "Eğer sizin için…",
+    "aboutSpendingTitle": "Paranızın nereye gittiğini bilmek istiyorsunuz",
+    "aboutSpendingCopy": "Satın almaları, faturaları ve abonelikleri kaydedin. Harcamaları kategoriye göre inceleyin ve nerede değişiklik yapabileceğinizi belirleyin.",
+    "aboutGoalsTitle": "Önemli bir şey için tasarruf yapıyorsunuz",
+    "aboutGoalsCopy": "Bir acil durum fonu, seyahat veya daha büyük bir satın alma işlemi için bir bütçe planlayın ve tasarrufları takip edin.",
+    "aboutIncomeTitle": "Geliriniz değişir",
+    "aboutIncomeCopy": "Çalışma saatlerini ve ücretlerini kaydedin. Maaş günleri arasındaki harcamaları planlamayı kolaylaştırmak için kazançları tahmin edin.",
+    "aboutPrivacy": "Kayıtlarınız telefonunuzda kalır. Banka bağlantısı, bulut hesabı veya reklam yok.",
+    "aboutAction": "KOVA'i çalışırken görün"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Gizlilik ve güvenlik",
-      "title": "Yerel veriler. Açık sınırlamalar.",
-      "intro": "Çevrimdışı V1, mali durumunuzu telefonunuzda saklar. Çevrimiçi bir hesap oluşturmaz veya kayıtları bir sunucuyla senkronize etmez.",
+      "title": "Gizlilik en büyük önceliğimizdir.",
+      "intro": "KOVA'yı mümkün olduğunca güvenli hale getirmeye çalışıyoruz. Offline V1'de finansal verileriniz telefonunuzda kalır; uygulama, bunları otomatik olarak bize veya üçüncü taraflara göndermez. Verilerinizi dışa aktarıp aktarmayacağınıza veya paylaşacağınıza siz karar verirsiniz.",
       "badge": "Şifreli veritabanı · manuel dışa aktarma",
       "cards": [
         [

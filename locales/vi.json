@@ -13,6 +13,7 @@
     "heroKicker": "KOVA Ngoại tuyến miễn phí V1 · Android",
     "heroTitle": "Tài chính<br><em>ở một nơi.</em>",
     "heroCopy": "Chi tiêu, ngân sách, mục tiêu và thu nhập từ công việc — trên điện thoại của bạn. Chúng tôi đang chuẩn bị phát hành ngoại tuyến miễn phí, không cần tài khoản đám mây, quảng cáo hoặc đăng ký.",
+    "heroPrivacy": "Dữ liệu tài chính được lưu ngay trên điện thoại của bạn.",
     "projectStatus": "Kiểm tra trạng thái dự án",
     "watchVideo": "Xem tham quan sản phẩm",
     "pauseVideo": "Tạm dừng",
@@ -55,8 +56,8 @@
     "screenWork": "Ghi chú địa phương",
     "screenWorkCopy": "Đã lưu trên thiết bị · 21 tháng 10 năm 2026",
     "securityKicker": "Quyền riêng tư",
-    "securityTitle": "Cách KOVA bảo vệ dữ liệu.",
-    "securityCopy": "Cơ sở dữ liệu tài chính chính sử dụng SQLCipher. Không có đồng bộ hóa đám mây tự động. Bảo vệ điện thoại của bạn và xuất thường xuyên — mã hóa không thay thế việc sao lưu hoặc xử lý cẩn thận.",
+    "securityTitle": "Quyền riêng tư là ưu tiên hàng đầu của chúng tôi.",
+    "securityCopy": "Chúng tôi cố gắng làm cho KOVA an toàn nhất có thể. Trong Offline V1, dữ liệu tài chính của bạn vẫn nằm trên điện thoại của bạn — ứng dụng không tự động gửi dữ liệu đó cho chúng tôi hoặc bên thứ ba. Bạn quyết định xuất hay chia sẻ dữ liệu của mình.",
     "securityModel": "Đọc về bảo mật",
     "secureLocal": "Mã hóa cục bộ",
     "secureOwner": "Cách ly dữ liệu",
@@ -122,7 +123,20 @@
     "faqOcrQ": "Quét biên nhận có hoạt động ngoại tuyến không?",
     "faqOcrA": "OCR sử dụng mô hình đi kèm với ứng dụng. Chụp ảnh hoặc chọn ảnh từ thư viện của bạn thông qua bộ chọn Android. Việc nhận dạng có thể sai — hãy kiểm tra số tiền, loại tiền tệ và ngày tháng trước khi lưu. Việc từ chối quyền truy cập vào máy ảnh không chặn việc lựa chọn tệp.",
     "faqDeviceQ": "KOVA dành cho thiết bị và đối tượng nào?",
-    "faqDeviceA": "Điện thoại Android chạy Android 7.0 trở lên, có giao diện PL/EN/RU. Thử nghiệm khả năng tương thích đang diễn ra. Đối tượng mục tiêu là từ 13 tuổi trở lên nhưng đây không phải là xếp hạng Google Play được phê duyệt hay xác nhận về tính khả dụng ở mọi quốc gia. Không có bản phát hành đồng hồ hoặc iOS nào được cung cấp."
+    "faqDeviceA": "Điện thoại Android chạy Android 7.0 trở lên, có giao diện PL/EN/RU. Thử nghiệm khả năng tương thích đang diễn ra. Đối tượng mục tiêu là từ 13 tuổi trở lên nhưng đây không phải là xếp hạng Google Play được phê duyệt hay xác nhận về tính khả dụng ở mọi quốc gia. Không có bản phát hành đồng hồ hoặc iOS nào được cung cấp.",
+    "aboutKicker": "KOVA là gì?",
+    "aboutTitle": "Ít căng thẳng về tiền bạc hơn. Nhiều chỗ hơn cho kế hoạch của bạn.",
+    "aboutCopy": "KOVA là ứng dụng Android dành cho tài chính cá nhân hàng ngày. Nó tập hợp các mục tiêu chi tiêu, thu nhập, ngân sách và tiết kiệm, vì vậy bạn có thể xem những gì còn lại sau khi thanh toán và lập kế hoạch cho tháng tới.",
+    "aboutAudience": "Dành cho sinh viên, người đi làm và bất kỳ ai muốn đưa ra quyết định có chủ ý hơn về tiền của mình.",
+    "aboutForWhom": "Đối với bạn, nếu…",
+    "aboutSpendingTitle": "Bạn muốn biết tiền của bạn đi đâu",
+    "aboutSpendingCopy": "Ghi lại mua hàng, hóa đơn và đăng ký. Xem xét chi tiêu theo danh mục và tìm ra nơi bạn có thể thực hiện thay đổi.",
+    "aboutGoalsTitle": "Bạn đang tiết kiệm cho điều gì đó quan trọng",
+    "aboutGoalsCopy": "Lập kế hoạch ngân sách và theo dõi khoản tiết kiệm cho quỹ khẩn cấp, chuyến đi hoặc mua hàng lớn hơn.",
+    "aboutIncomeTitle": "Thu nhập của bạn thay đổi",
+    "aboutIncomeCopy": "Ghi lại giờ làm việc và mức lương. Ước tính thu nhập để lập kế hoạch chi tiêu giữa các ngày lãnh lương dễ dàng hơn.",
+    "aboutPrivacy": "Hồ sơ của bạn vẫn còn trên điện thoại của bạn. Không có kết nối ngân hàng, tài khoản đám mây hoặc quảng cáo.",
+    "aboutAction": "Xem KOVA hoạt động"
   },
   "slides": [
     {
@@ -281,8 +295,8 @@
     },
     "security": {
       "label": "Quyền riêng tư và bảo mật",
-      "title": "Dữ liệu cục bộ. Rõ ràng những hạn chế.",
-      "intro": "V1 ngoại tuyến lưu trữ tài chính trên điện thoại của bạn. Nó không tạo tài khoản trực tuyến hoặc đồng bộ hóa hồ sơ với máy chủ.",
+      "title": "Quyền riêng tư là ưu tiên hàng đầu của chúng tôi.",
+      "intro": "Chúng tôi cố gắng làm cho KOVA an toàn nhất có thể. Trong Offline V1, dữ liệu tài chính của bạn vẫn nằm trên điện thoại của bạn — ứng dụng không tự động gửi dữ liệu đó cho chúng tôi hoặc bên thứ ba. Bạn quyết định xuất hay chia sẻ dữ liệu của mình.",
       "badge": "Cơ sở dữ liệu được mã hóa · xuất thủ công",
       "cards": [
         [
