@@ -10,12 +10,12 @@
     "navSecurity": "安全",
     "navLegal": "文件",
     "navRoadmap": "路线图",
-    "heroKicker": "KOVA 离线免费 V1 · Android",
+    "heroKicker": "KOVA: Money & Budget · Android",
     "heroTitle": "财务<br><em>集中在一处。</em>",
-    "heroCopy": "支出、预算、目标和工作收入 — 在您的手机上。我们正在准备免费的离线版本，没有云帐户、广告或订阅。",
+    "heroCopy": "跟踪支出、计划预算并估算工作时间的收入。您的财务状况都在您的手机上。来到 Android，带有免费底座和可选的 KOVA Premium。",
     "heroPrivacy": "您的财务数据保留在您的手机上。",
     "projectStatus": "检查项目状态",
-    "watchVideo": "查看产品导览",
+    "watchVideo": "查看应用程序",
     "pauseVideo": "暂停",
     "playVideo": "玩",
     "releaseNote": "发布前 · 尚不提供公开下载。",
@@ -41,7 +41,7 @@
     "featureGoalsCopy": "计划及进展",
     "clarityKicker": "该应用程序",
     "clarityTitle": "看看KOVA的内部。",
-    "clarityCopy": "一名虚构用户、三个账户和六个月的日常财务状况。这些是在 Android 模拟器上运行的 KOVA Offline V1 的未经修饰的新屏幕截图。真实的功能和真实的演示记录，没有任何人的私人财务。应用程序屏幕是波兰语。",
+    "clarityCopy": "带有虚构演示数据的真实 KOVA 屏幕。探索日常财务、预算和本地工具。主画廊显示波兰语界面。",
     "clarityAccounts": "账户、交易和类别",
     "clarityReports": "报告和预测",
     "clarityWork": "工作与收入",
@@ -57,36 +57,36 @@
     "screenWorkCopy": "已保存在设备上 · 2026 年 10 月 21 日",
     "securityKicker": "隐私",
     "securityTitle": "隐私是我们的首要任务。",
-    "securityCopy": "我们努力使 KOVA 尽可能安全。在 Offline V1 中，您的财务数据保留在您的手机上 - 该应用程序不会自动将其发送给我们或第三方。您决定是否导出或共享您的数据。",
+    "securityCopy": "隐私是第一位的，我们努力使 KOVA 尽可能安全。财务记录保留在您的手机上。可选Premium单独购买和恢复使用Google Play；本网站的分析需要您的同意。",
     "securityModel": "了解安全性",
     "secureLocal": "本地加密",
     "secureOwner": "数据隔离",
     "secureOwnerCopy": "记录分配给其所有者",
     "secureNoBank": "没有银行密码",
     "secureNoBankCopy": "KOVA 未连接到您的银行",
-    "secureOnline": "手动导出",
-    "secureOnlineCopy": "受密码保护的部分副本",
+    "secureOnline": "您的数据，您的选择",
+    "secureOnlineCopy": "手动备份和导出",
     "legalKicker": "文件",
     "legalTitle": "KOVA 政策。",
-    "legalCopy": "应用程序文档的当前副本。隐私政策和条款仍为草案，需要在发布前获得批准。",
+    "legalCopy": "应用程序隐私和订阅条款是等待最终批准的草案。该网站有单独的 cookie 和分析信息。",
     "privacyTitle": "隐私政策",
-    "privacyCopy": "本地数据、导出和支持联系。",
+    "privacyCopy": "地方财政，Google Play 采购支持。",
     "termsTitle": "使用条款",
-    "termsCopy": "产品范围和规则。",
+    "termsCopy": "免费基础，可选 Premium 和订阅条件。",
     "cookiesTitle": "饼干",
     "cookiesCopy": "浏览器设置和存储。",
     "privacyShort": "隐私",
     "termsShort": "条款",
     "cookiesShort": "饼干",
-    "activeDevelopment": "离线免费 V1 · 发布前。",
+    "activeDevelopment": "免费底座 + 可选 Premium · 发布前",
     "cookieSettings": "设置",
     "navFaq": "常见问题解答",
     "navStatus": "项目",
     "galleryHint": "点击屏幕即可查看完整图像。",
     "secureLocalCopy": "您设备上的加密数据库",
     "projectKicker": "第一次发布",
-    "projectHeading": "免费。为了你的手机。",
-    "projectCopy": "本地帐户、交易、预算、经常性付款、债务、目标、净值、工作、报告、日历、注释和 OCR。云服务、银行 API、人工智能、Wear OS、在线家庭和实时报价不属于 V1 的一部分。最终资格和文件仍在准备中。",
+    "projectHeading": "一个免费基地。 Premium 的更多内容。",
+    "projectCopy": "KOVA: Money & Budget 即将推出 Android，带有免费底座和可选的 Premium。尚未提供公开下载和销售。",
     "availability": "应用程序可用性",
     "roadmapLink": "我们正在做什么",
     "updatesLink": "最近更新",
@@ -94,9 +94,9 @@
     "faqTitle": "几个简单的答案。",
     "faqCopy": "在开始使用 KOVA 之前。",
     "faqDownloadQ": "我可以下载 KOVA 吗？",
-    "faqDownloadA": "尚不提供公共下载。当版本准备就绪时，经过验证的商店链接将出现在项目状态页面上。我们只会在确认日期后才宣布日期。",
+    "faqDownloadA": "尚不提供公共下载。关注Instagram上的KOVA以获取发布消息。当版本可用时，此页面将链接到已确认的 Google Play 列表。尚未宣布推出日期。",
     "faqOfflineQ": "该应用程序可以在没有互联网的情况下运行吗？",
-    "faqOfflineA": "是的。 V1 正在准备作为具有本地配置文件的离线应用程序。它不提供 Google 登录、同步或 AI 服务。您选择的文件提供商、浏览器或电子邮件应用程序可以独立于 KOVA 使用互联网。",
+    "faqOfflineA": "财务记录和免费基地在本地工作。可选 Premium 购买、恢复和访问刷新使用 Google Play 并需要连接。当前的 Premium 访问可能需要在最多 48 小时后进行新的连接检查或重新启动手机。这不会删除您的记录或阻止基本使用和导出。不提供金融云同步或银行连接。",
     "faqBankQ": "我需要连接我的银行账户吗？",
     "faqBankA": "不会。KOVA 不会要求您提供银行密码。应用程序中的帐户有助于组织您记录的财务信息。",
     "faqEstimateQ": "预测和净工资金额有保证吗？",
@@ -112,31 +112,54 @@
     "navigation": "主导航",
     "pageTitle": "KOVA — 财务集中在一处",
     "faqFreeQ": "KOVA 是免费的吗？",
-    "faqFreeA": "是的。 Offline Free V1 没有广告、购买、订阅或付费专区。本地功能不需要注册或付费后端服务。",
+    "faqFreeA": "是的。第一个版本计划提供免费基础和可选的 KOVA Premium。日常录音、基本报告、记录访问、本地加密、备份、导出和删除仍然免费。 Premium 涵盖高级报告、预测和工作收入分析。价格将在推出前公布；目前还没有公开发售。",
     "tourNote": "真实的应用程序屏幕·虚构的演示数据·不是视频记录",
     "tourChapters": "选择游览屏幕",
     "factAndroid": "Android 7.0+",
-    "factOffline": "地方财政",
-    "factAccount": "没有在线帐户",
+    "factOffline": "自由碱",
+    "factAccount": "可选Premium",
     "faqBackupQ": "如何保护我的数据或更换手机？",
     "faqBackupA": "创建受密码保护的手动导出并将其安全地存储在手机外部。导入需要确认并替换所选配置文件支持的数据。这是部分副本，而不是完整的应用程序图像：包含嵌入的注释图像，但外部附件和收据照片需要单独的副本。发布者无法从云端恢复数据或恢复您的备份密码。",
     "faqOcrQ": "收据扫描可以离线使用吗？",
     "faqOcrA": "OCR 使用与应用程序捆绑的模型。拍摄一张照片或通过 Android 选择器从图库中选择一张照片。识别可能是错误的——保存前检查金额、货币和日期。拒绝相机访问不会阻止文件选择。",
     "faqDeviceQ": "KOVA 适用于哪些设备和受众？",
-    "faqDeviceA": "Android 运行 Android 7.0 或更高版本、具有 PL/EN/RU 接口的电话。兼容性测试正在进行中。目标受众为 13 岁以上，但这并不是每个国家/地区批准的 Google Play 评级或可用性确认。不提供手表或 iOS 版本。",
+    "faqDeviceA": "KOVA 正在为运行 Android 7.0 或更高版本的 Android 电话准备。当前源包括27种界面语言；兼容性和语言审查正在进行中。适合 13 岁以上儿童，具体取决于商店和当地要求。不提供 iOS 或手表版本。",
     "aboutKicker": "什么是KOVA？",
     "aboutTitle": "金钱压力较小。为您的计划提供更多空间。",
-    "aboutCopy": "KOVA 是一款用于日常个人财务的 Android 应用。它将支出、收入、预算和储蓄目标结合在一起，这样您就可以看到账单后剩下的钱并计划未来一个月。",
+    "aboutCopy": "KOVA 是一款用于日常个人财务的 Android 应用程序。将开支、预算和工作时间放在一起，这样您就可以了解账单后剩余的金额并计划未来一个月。",
     "aboutAudience": "适合学生、上班族和任何想要对自己的钱做出更明智决定的人。",
     "aboutForWhom": "对于你来说，如果……",
-    "aboutSpendingTitle": "你想知道你的钱去哪儿了",
-    "aboutSpendingCopy": "记录购买、账单和订阅。按类别审查支出并找出可以做出改变的地方。",
-    "aboutGoalsTitle": "您正在为重要的事情存钱",
-    "aboutGoalsCopy": "规划预算并跟踪应急基金、旅行或大宗采购的节省情况。",
-    "aboutIncomeTitle": "您的收入各不相同",
-    "aboutIncomeCopy": "记录工作时间和工资。估算收入，以便更轻松地计划发薪日之间的支出。",
-    "aboutPrivacy": "您的记录保留在您的手机上。没有银行连接、云帐户或广告。",
-    "aboutAction": "查看 KOVA 的实际应用"
+    "aboutSpendingTitle": "看看你的钱去哪儿了",
+    "aboutSpendingCopy": "记录日常支出，并按类别查找。了解哪些费用对您的月份影响最大。",
+    "aboutGoalsTitle": "了解您的预算还剩下什么",
+    "aboutGoalsCopy": "设置类别限制并检查支出进度。计划下一次购买时，要更清楚地了解剩下的东西。",
+    "aboutIncomeTitle": "围绕收入变化制定计划",
+    "aboutIncomeCopy": "记录工作时间和费率以估算收入。将您的工作日程和每月预算纳入一个计划。",
+    "aboutPrivacy": "财务记录保留在您的手机上。没有银行连接或 KOVA 云帐户。可选的 Premium 购买通过 Google Play 单独处理。",
+    "aboutAction": "查看 KOVA 的实际应用",
+    "followLaunch": "关注发射",
+    "downloadApp": "在 Google Play 上获取",
+    "launchChannel": "Instagram上线消息 · @kova_money",
+    "workScreenNote": "工作与收入·早期演示屏幕；设计可能会改变。",
+    "plansKicker": "计划首次发布",
+    "plansTitle": "一个免费基地。 Premium 的更多内容。",
+    "plansCopy": "从日常资金管理开始。如果您需要更深入的本地分析，请选择 Premium。尚未提供公开下载和销售。",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "日常记录和控制您自己的数据。",
+    "planFreeOne": "费用、预算和基本报告",
+    "planFreeTwo": "工作记录和访问保存的数据",
+    "planFreeThree": "本地加密、备份、导出、删除",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "可选订阅以获得更详细的本地见解。",
+    "planPremiumOne": "高级报告和比较",
+    "planPremiumTwo": "根据您的记录进行预测",
+    "planPremiumThree": "工作收入分析",
+    "plansNote": "价格和上市时间将在发布前公布。一些分析需要足够的历史记录。 Premium 购买和访问刷新需要 Google Play 和连接；免费基地仍然可用。",
+    "plansDetails": "阅读订阅草稿",
+    "closingKicker": "密切关注发布会",
+    "closingTitle": "为更清晰的财务计划腾出空间。",
+    "closingCopy": "在 Instagram 上关注 KOVA Development 以获取应用预览和发布新闻。首次公开发布仍在准备中。",
+    "closingSecondary": "您还可以在TikTok上找到KOVA。"
   },
   "slides": [
     {
@@ -199,13 +222,13 @@
     "cookies": "饼干",
     "settings": "Cookie 设置",
     "tagline": "日常财务。在一个地方。",
-    "note": "KOVA 离线免费 V1 · 发布前",
+    "note": "免费底座 + 可选 Premium · 发布前",
     "top": "返回顶部",
     "skip": "跳至内容",
     "language": "网站语言",
     "menu": "菜单",
     "back": "首页",
-    "official": "项目官方网站"
+    "official": "KOVA Development·官网"
   },
   "projects": {
     "404": {
@@ -226,60 +249,64 @@
     },
     "status": {
       "label": "项目状况",
-      "title": "离线V1.发射前。",
-      "intro": "我们正在为 Android 手机准备免费的 KOVA：无需注册、广告、订阅或云同步。该版本尚未公开发布。",
-      "badge": "更新日期：2026 年 10 月 21 日 · 1.0.8 (10)",
+      "title": "您的日常财务状况。正在发布。",
+      "intro": "KOVA: Money & Budget 即将推出 Android，带有免费底座和可选的 Premium。尚未提供公开下载和销售。",
+      "badge": "准备中·免费+可选Premium",
       "cards": [
         [
-          "首次发布范围",
-          "账户、交易和类别、预算、债务、目标、净值、定期付款、工作资料和时间、报告、日历、笔记、设备上 OCR 以及手动加密导出/导入。"
+          "第一个版本带来了什么",
+          "费用、预算、工作时间、目标和本地记录尽在一个应用程序中。免费基地保留日常记录、基本报告、您的数据和导出。 Premium 添加了高级报告、预测和工作收入分析。"
         ],
         [
-          "已检查什么",
-          "APK 和 AAB 工件已构建。测试在 Android 7.0、7.1 和实际 16 KiB 运行时运行。还检查了隔离安装之间的加密导出传输以及无重复的重复导入。这些都是有限的场景，并不能保证适用于每部手机。"
+          "我们现在在哪里",
+          "我们正在完善应用程序并检查兼容性、可访问性和订阅流程。选定的购买和恢复测试已经运行，但完整的公开发布仍在准备中。"
         ],
         [
-          "剩下什么",
-          "完整的正常界面和可访问性矩阵、物理电话上的当前候选人、文档批准、签名和 Google Play 要求。当前版本的工件未签名。"
+          "您的财务状况保持在本地",
+          "KOVA 在您的手机上存储财务记录。 Google Play 单独处理可选订阅购买、恢复和访问检查。不提供金融云同步或银行连接。"
         ],
         [
-          "外线离线V1",
-          "Google/Firebase 帐户、云服务、在线家庭共享、银行 API、实时报价、AI、Wear OS、Premium 和购买在此版本中不活跃。尚未确认可用日期。"
+          "如何跟踪进展",
+          "在 Instagram 上关注 @kova_money 以获取预览和发布新闻。价格和已确认的商店链接将在发布前分享。尚未公布推出日期。"
         ]
       ],
-      "note": "只有在发布和官方商店地址获得批准后，我们​​才会发布发布日期或下载按钮。",
+      "note": "KOVA Development为项目品牌。该应用程序尚未公开发布；测试结果并不等于公开销售的批准。",
       "actions": [
         [
-          "发布计划",
+          "关注Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "发布路线图",
           "roadmap.html"
         ],
         [
-          "最近的变化",
+          "最近更新",
           "updates.html"
         ]
       ]
     },
     "roadmap": {
       "label": "路线图",
-      "title": "首先是可靠的离线发布。",
-      "intro": "我们正在完成现有功能的资格认证。该计划不承诺日期或新服务。",
-      "badge": "优先：离线免费V1",
+      "title": "一个有用的第一个版本，还有成长的空间。",
+      "intro": "第一个版本结合了免费的本地基础和可选的 Premium。以下是我们在发布前正在准备的内容，截止日期尚未确定。",
+      "badge": "首次发布·Android",
       "cards": [
         [
-          "01·最终测试",
-          "完成剩余的正常界面、语言和辅助功能场景，并检查手机上的当前版本。已完成的检查并不是全面准备就绪的声明。"
+          "日常资金管理",
+          "完善支出、预算和工作记录，使常见任务清晰可靠。检查语言、辅助功能和手机兼容性。"
         ],
         [
-          "02·信息与政策",
-          "出版商和联系方式已确认。离线文档仍处于草稿阶段：条款、支持实践、市场、受众和公共地址仍需要批准。"
+          "可选本地Premium",
+          "完成检查高级报告、预测、工作收入分析、采购和恢复。不承诺提供付费云、银行集成或人工智能服务。"
         ],
         [
-          "03 · 店铺候选",
-          "批准签名和 Google Play 配置，并完成所需的测试和声明。官方链接遵循发布批准。"
+          "准备Google Play",
+          "完成剩余的发布检查、订阅信息和文档。在公开发售之前确认价格和商店列表。"
         ],
         [
-          "稍后 · 单独资格",
-          "未来的模块仍保留在项目中，但未启用。云服务、人工智能、Wear OS 和货币化需要单独的决策、测试和用户披露。"
+          "分享发布",
+          "在现有 KOVA 渠道上发布应用预览和进度。当版本获得批准并可用时，将启动链接替换为官方 Google Play 链接。"
         ]
       ],
       "actions": [
@@ -288,77 +315,81 @@
           "status.html"
         ],
         [
-          "联系方式",
-          "contact.html"
+          "关注 Instagram",
+          "https://www.instagram.com/kova_money/"
         ]
       ]
     },
     "security": {
       "label": "隐私和安全",
       "title": "隐私是我们的首要任务。",
-      "intro": "我们努力使 KOVA 尽可能安全。在 Offline V1 中，您的财务数据保留在您的手机上 - 该应用程序不会自动将其发送给我们或第三方。您决定是否导出或共享您的数据。",
-      "badge": "加密数据库·手动导出",
+      "intro": "我们努力使 KOVA 尽可能安全。财务记录保留在您的手机上。可选 Play 购买和本网站具有单独的数据流，如下所述。",
+      "badge": "地方财政·单独可选采购",
       "cards": [
         [
-          "您设备上的数据库",
-          "财务数据使用 Room 和具有配置文件隔离的 SQLCipher。加密无法防止电话、密码、密钥或设备访问权限的每次丢失。我们不主张独立的安全认证。"
+          "您设备上的财务数据",
+          "主数据库使用带有本地配置文件隔离的 SQLCipher。保护您的手机和备份密码。加密并不能保证针对所有设备、访问或数据丢失风险。"
         ],
         [
-          "没有自动上传",
-          "检查的发布清单没有 INTERNET 权限。 Firebase、应用分析、Crashlytics、广告、结算和 AI 服务已禁用。这并不意味着 Android 或其他应用程序不会产生网络流量。"
+          "可选 Premium 至 Google Play",
+          "当前候选者使用Play计费接口，没有KOVA验证服务器。 Play 使用自己的网络进行购买、恢复和访问刷新。 KOVA 接收购买状态和签名的购买详细信息，而不是卡详细信息。您的财务记录不会通过 Play 发送。"
         ],
         [
-          "出口是你的选择",
-          "手动导出可以使用密码加密。它涵盖支持的记录，而不是完整的安装图像：嵌入的注释图像随其一起移动；外部文件引用不会复制文件本身。安全存储密码和文件。没有自动KOVA云备份。"
+          "本地访问和恢复",
+          "当前的 Premium 访问可能需要在最多 48 小时或手机重启后进行另一次连接播放检查。恢复购买与恢复财务数据是分开的。免费库、保存的记录和备份/导出仍然可用；完整的公开销售资格正在等待中。"
         ],
         [
-          "照片和 OCR",
-          "识别使用与应用程序捆绑在一起的模型。您可以拍照或从图库中选择一张。保存前检查金额、货币和日期 — OCR 可能会出错。"
+          "您的备份由您选择",
+          "创建受密码保护的手动导出并安全存储。它是部分副本；单独保存外部附件。云文件夹或共享操作使用您选择的提供商，而不是自动 KOVA 财务同步。"
         ],
         [
-          "网站是独立的",
-          "该网站无法读取电话数据库。只有在获得同意后，Google Analytics 才会衡量公共网站上的访问和互动。可以在页脚中撤回同意；有关详细信息，请参阅 Cookie。未来的托管可能会处理连接数据——其配置和策略需要批准。"
+          "这个网站是独立的",
+          "该网站无法读取您的手机数据库。 Google Analytics 仅在您同意的情况下测量网站访问和互动。拒绝会使整个站点保持可用。更改您在 Cookie 设置中的选择；在新的公共部署之前，托管和提供商详细信息仍需要确认。"
         ],
         [
           "安全报告",
-          "在 contact@kovacompass.app 描述问题。不要发送密码、密钥、完整的数据库副本或真实的财务记录。包括应用版本、Android 版本以及带有示例数据的重现步骤。"
+          "请联系 contact@kovacompass.app，了解应用程序和 Android 版本以及使用示例数据的步骤。不要发送密码、购买代币、完整备份或真实的财务记录。"
         ]
       ],
       "actions": [
         [
-          "应用程序隐私政策",
+          "应用隐私草案",
           "privacy.html"
         ],
         [
-          "导出和数据删除",
+          "您的数据和导出",
           "delete-account.html"
         ],
         [
-          "浏览器存储和 cookie",
+          "网站 cookies",
           "cookies.html"
         ]
       ]
     },
     "updates": {
       "label": "更新",
-      "title": "KOVA 转向离线免费 V1。",
-      "intro": "即将发布的版本的更新，而不是发布公告。",
-      "badge": "2026 年 10 月 21 日",
+      "title": "一个免费基地。可选Premium。地方财政。",
+      "intro": "2026 年 10 月 24 日：第一个 Android 版本的当前计划包括免费基础版和可选的 Premium。下面的早期条目描述了历史计划。",
+      "badge": "当前更新 · 2026 年 10 月 24 日",
       "cards": [
         [
-          "无强制账户",
+          "2026 年 10 月 24 日 · 首次发布模型",
+          "第一个版本计划提供免费的本地基础以及可选的 Premium，用于高级报告、预测和工作收入分析。选定的Google Play购买/恢复场景已经过测试；全面的公开销售准备工作仍有待完成。价格和上市日期尚未公布。"
+        ],
+        [
+          "21.10.2026 · 无强制账户",
           "Public V1 的设计无需注册或无需互联网即可使用。在线服务会为将来保留，但在此版本中被禁用。"
         ],
         [
-          "注释和数据可移植性",
+          "21.10.2026 · 注释和数据可移植性",
           "编辑器的 Android 7 兼容性已修复。检查重启后的持久性、嵌入图像、导出以及独立 Android 7.1 和 7.0 安装之间的正常导入。当前的编辑器也在 16 KiB 上进行了检查。"
         ],
         [
-          "结果，而不是准备声明",
+          "21.10.2026 · 结果，而不是准备声明",
           "10月21日全面回归：6746个案例中有6745个案例通过，1个法律文件草案失败，0个执行错误，0个跳过。稍后的针对性测试不会添加到此计数中。一些 UI 资格和当前的电话检查仍然存在。"
         ],
         [
-          "文件及联系方式",
+          "21.10.2026 · 文件及联系方式",
           "该网站使用当前的离线 V1 文档草稿（PL/EN/RU 格式）和已确认的出版商详细信息。这不是最终的法律批准或商店出版物。"
         ]
       ],
@@ -371,51 +402,52 @@
           "出版商详细信息",
           "contact.html"
         ]
-      ]
+      ],
+      "note": "2026 年 10 月 21 日的条目保留了之前的 Offline Free V1 计划及其有限的测试范围。它们没有描述当前的发布优惠或对当前候选者进行资格认证。"
     },
     "contact": {
-      "label": "联系方式和出版商",
+      "label": "联系方式",
       "title": "我们来谈谈KOVA。",
-      "intro": "使用下面的地址来解答应用程序疑问、问题和隐私事宜。不要发送您的财务记录。",
-      "badge": "经出版商确认的联系方式",
+      "intro": "对应用程序、问题或隐私有疑问吗？写信给下面的联系人。关注现有 KOVA 频道以获取发布消息。",
+      "badge": "KOVA Development·项目品牌",
       "cards": [
         [
-          "出版商",
-          "Vadyslav Konohrai · 波兰 · 私人。这些详细信息由项目业主提供；它们并不是对所有市场都具有完整的法律资格的声明。"
+          "项目及出版商",
+          "KOVA: Money & Budget是以KOVA Development品牌开发的。已确认的出版商是波兰私人人士 Vadyslav Konohrai。该品牌并非独立注册公司的声明。"
         ],
         [
           "支持和隐私",
-          "contact@kovacompass.app — 询问、问题、投诉和隐私问题的一个地址。该链接将打开您的电子邮件应用程序；本网站本身不提交请求。"
+          "contact@kovacompass.app 是问题、问题和隐私问题的公共地址。该链接将打开您的电子邮件应用程序。通信与手机上存储的财务数据是分开的。"
         ],
         [
           "描述一个问题",
-          "包括 KOVA 版本、手机型号、Android 版本、预期行为和重现步骤。使用示例金额。在附加屏幕截图之前删除个人详细信息。"
+          "包括应用程序版本、手机型号、Android 版本以及发生的情况。使用示例金额并从屏幕截图中删除个人详细信息。不要附加完整的数据库或购买令牌。"
         ],
         [
-          "发行及受众",
-          "Planned V1 对于 Android 7.0 或更高版本是免费的，适合 13 岁以上的用户。国际可用性取决于商店批准和当地要求；目前尚未确认。"
+          "发布和可用性",
+          "带有免费基础和可选 Premium 的 Android 版本正在准备中。尚未提供公开下载和销售。关注Instagram了解上线消息；我们尚未宣布发布日期。"
         ]
       ],
-      "note": "不要发送密码、加密密钥、完整备份或真实的财务记录。通信保留和公共支持做法仍需要文件中的批准。",
+      "note": "切勿发送密码、加密密钥或真实的财务记录。该应用程序文件仍处于草稿状态，等待最终批准。",
       "actions": [
         [
           "写一封电子邮件",
           "mailto:contact@kovacompass.app"
         ],
         [
-          "隐私",
-          "privacy.html"
+          "关注Instagram",
+          "https://www.instagram.com/kova_money/"
         ],
         [
-          "应用程序可用性",
-          "status.html"
+          "隐私信息",
+          "privacy.html"
         ]
       ]
     },
     "delete-account": {
       "label": "您的数据",
       "title": "导出和删除本地数据。",
-      "intro": "离线V1不创建云账号。 KOVA 中的本地个人资料或财务帐户不是在线帐户或银行连接。",
+      "intro": "您的财务资料保留在您的手机上；它与 Google Play 帐户或订阅分开。您控制本地记录、备份和导出。",
       "badge": "没有在线帐户或同步",
       "cards": [
         [
@@ -433,6 +465,10 @@
         [
           "给发布者的消息",
           "如需通过电子邮件共享的数据，请联系 contact@kovacompass.app。不要附上财务备份。该页面既不删除数据也不发送自动请求。"
+        ],
+        [
+          "订阅是单独的",
+          "删除应用程序数据或卸载 KOVA 不会取消 Premium 订阅。在Google Play中管理续订。恢复购买不会恢复财务记录，导入备份不会授予 Premium。"
         ]
       ],
       "actions": [
@@ -474,34 +510,34 @@
     "terms": "使用条款",
     "cookies": "饼干",
     "analyticsTitle": "本网站的隐私",
-    "analyticsCopy": "出版商：Vadyslav Konohrai，波兰；联系人：contact@kovacompass.app。该网站无法通过您的手机访问财务信息，也没有提交表格。语言和 cookie 选择存储在您的浏览器中。经过可选同意后，公共网站将使用 Google Analytics 4 (G-2LE3GWYDZM)：访问和交互统计数据、假名 Cookie、设备和大致位置信息。测量依赖于同意；数据可能在欧洲经济区之外进行处理，并且不完全匿名。 Cookie 页面解释了接收者、Cookie、权利和限制。 GA4 保留和处理条款需要在发布前确认。更改 Cookie 设置中的同意。电子邮件链接打开您的电子邮件应用程序；您发送的消息和您的地址将用于在 KOVA 之外处理您的请求。不要发送财务数据或密码。未来的托管、其日志记录实践和通信保留需要在发布前获得批准。以下文档涉及该应用程序，并不取代本网站信息。"
+    "analyticsCopy": "该网站无法读取您的手机数据库。 Google Analytics 仅在您同意的情况下测量网站访问和互动。拒绝会使整个站点保持可用。更改您在 Cookie 设置中的选择；在新的公共部署之前，托管和提供商详细信息仍需要确认。 Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
   },
-  "review": "KOVA Offline Free V1 草案，与 2026 年 10 月 22 日的应用源文档匹配（不是新的 APK 资格）。发布者于 2026 年 10 月 22 日批准了名称、联系人和域名，并提供了公共文档 URL。当天验证了 HTTP 200 响应。这不是法律批准或完整的托管资格。下面的文档包含其公共链接。生效日期和内容审批仍有待确定。",
+  "review": "计划的第一个 KOVA 版本的草案：免费基础和可选的 Premium。与日期为 2026 年 10 月 24 日的当前应用程序文档相匹配。生效日期、最终批准以及剩余的卖家和服务详细信息正在等待确定。这不是有效的订阅优惠。",
   "seo": {
     "titles": {
       "404": "找不到页面 — KOVA",
-      "index": "KOVA — Android 的离线预算和费用跟踪器",
+      "index": "KOVA: Money & Budget — Android 财务，免费 + Premium",
       "status": "KOVA for Android — 应用程序状态和可用性",
-      "roadmap": "KOVA — 线下金融应用发布路线图",
+      "roadmap": "KOVA — 免费和 Premium Android 发布路线图",
       "updates": "KOVA — 金融应用新闻和开发更新",
-      "security": "KOVA — 隐私、加密和离线备份",
+      "security": "KOVA — 本地金融数据、隐私和 Premium",
       "contact": "联系 KOVA — 应用程序支持和问题",
       "delete-account": "KOVA — 删除本地数据和配置文件",
       "privacy": "KOVA 隐私政策 - 应用程序和网站",
-      "terms": "KOVA 使用条款 — 草案文件",
+      "terms": "KOVA Free 和 Premium 条款 — 草案",
       "cookies": "KOVA 网站 Cookie 和 Google Analytics"
     },
     "descriptions": {
       "404": "此KOVA页面不存在。返回应用程序概述、更新或联系方式。",
-      "index": "了解 KOVA：一款用于实现支出、预算和储蓄目标的免费 Android 应用。离线工作，无需云帐户或广告。首次公开发布正在准备中。",
-      "status": "检查 KOVA 离线免费 V1 可用性、计划的功能和剩余的发布步骤。公共应用程序尚不可用。",
-      "roadmap": "遵循 KOVA 的首次发布路线图：当地财务、最终测试和 Google Play 准备工作。没有未经确认的发布日期。",
+      "index": "用 KOVA 为 Android 计划支出、预算和工作收入。本地金融数据，免费基础和可选Premium。首次公开发布正在准备中。",
+      "status": "KOVA for Android 正在准备带有免费基础和可选 Premium 的第一个版本。查看范围、进度和启动渠道。尚不提供下载。",
+      "roadmap": "遵循 KOVA 的 Android 版本的准备工作：免费的本地基础、可选的 Premium、最终检查和 Google Play。没有未确认的发布日期。",
       "updates": "KOVA 项目更新：离线Android 财务、真实的应用屏幕、数据导出和首次公开发布的进展。",
-      "security": "KOVA 如何保持财务本地化：SQLCipher、配置文件隔离和手动密码保护导出。了解数据保护及其局限性。",
+      "security": "财务记录保留在您的手机上。了解 KOVA 如何分离本地加密、可选的 Google Play 购买和基于同意的网站分析。",
       "contact": "有关应用程序问题、问题报告和隐私请求，请通过 contact@kovacompass.app 联系 KOVA。请不要发送财务数据。",
-      "delete-account": "在 KOVA Offline V1 中管理您的数据并删除本地配置文件。了解导出的副本以及云恢复不可用的原因。",
+      "delete-account": "管理和删除本地 KOVA 数据、配置文件和导出。 Premium续费在Google Play中单独管理；卸载并不会取消它。",
       "privacy": "KOVA 隐私政策草案：本地应用数据、导出、联系方式和可选网站分析。出版前需获得批准。",
-      "terms": "KOVA Offline Free V1 条款草案：应用范围、用户数据、备份和财务估算限制。",
+      "terms": "KOVA Free 和 Premium 条款草案：本地功能、可选订阅、Google Play 购买和恢复、备份和估计限制。",
       "cookies": "KOVA 网站如何使用 cookie，并且 Google Analytics 仅在征得同意后才使用。查看衡量的内容以及如何撤回您的选择。"
     }
   },
@@ -510,7 +546,8 @@
     "enlarge": "Enlarge",
     "contents": "内容",
     "publicAddress": "Public EN address:",
-    "language": "网站语言"
+    "language": "网站语言",
+    "pendingDecision": "发布前等待所有者确认"
   },
   "cookies": "<section data-doc-lang=\"zh\" data-document-title=\"KOVA 网站 Cookie 和 Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">饼干</p><h1>分析是您的选择。</h1><p>基本 cookie 会记住语言和设置。分析仅在同意后开始。</p><div class=\"document-meta\"><span class=\"document-chip\">Updated: 22 October 2026</span><span class=\"document-chip\">No advertising</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>必备</h2><p><code>kova_site_language</code>记忆语言长达 12 个月；<code>kova_cookie_consent_v2</code>180 天记住您的选择。先前对当地柜台的同意并不授权Google Analytics。</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>在获得公共 kovacompass.app 域（包括 www）同意后，我们加载 Google 标签<code>G-2LE3GWYDZM</code>。 Google may store<code>_ga</code>和<code>_ga_2LE3GWYDZM</code>用于浏览器和会话识别的 cookie。我们配置 180 天到期，每次访问都不会自动续订；浏览器可能会缩短此时间。</p></article>\n          <article class=\"document-card\"><h2>What we measure</h2><p>页面视图、打开和播放演示文稿、章节选择、放大屏幕截图、打开的常见问题解答和联系人点击。我们的活动仅包含活动名称、没有 URL 参数或片段的公共页面以及语言。我们不会发送消息内容、财务、帐户 ID 或工作区内容。本地预览不运行 Google Analytics。</p></article>\n          <article class=\"document-card\"><h2>Recipient and basis</h2><p>出版商：Vadyslav Konohrai，波兰；联系方式：<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>。可选测量取决于您的同意。 Google Analytics 还处理技术浏览器、设备、会话和大致位置信息。 IP地址参与通信； Google 声明 GA4 不存储 IP 地址。这并不会使数据完全匿名。处理可能在欧洲经济区之外进行。参见<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">谷歌的隐私政策</a>和<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 数据信息</a>。</p></article>\n          <article class=\"document-card\"><h2>网站语言</h2><p>语言选择也保留在<code>localStorage</code>直到浏览器存储被清除。 KOVA 帐户数据不存储在此处。</p></article>\n          <article class=\"document-card wide\"><h2>改变你的选择</h2><p>在页脚中打开“Cookie 设置”并拒绝分析，或将其关闭并保存。拒绝并不限制网站。撤回会删除可访问的 GA cookie 并重新加载页面以停止标记。它无法调用已发送的数据。联系我们了解数据权利；您还可以向相关数据保护机构投诉。隐私文件无需选择同意即可保持可读。</p></article>\n          <article class=\"document-card wide\"><h2>预发表状态</h2><p>草案信息于 2026 年 10 月 22 日更新。仅在网站上集成； Offline V1 应用程序仍然无需分析。代码中禁用了 Google 信号和广告同意。在发布之前，发布者必须确认处理条款、传输、GA4 服务保留（与 Cookie 生命周期分开）、禁用自动增强测量和托管配置。本地测试不会验证这些设置。</p></article>\n        </div>\n      </section>"
 }

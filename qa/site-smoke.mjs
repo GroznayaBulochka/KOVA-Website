@@ -234,7 +234,7 @@ try {
          tourNavigation = tourNavigation && chapters.length === gallery.length && chapters.length === 8
            && chapters.at(-1).getAttribute('aria-current') === 'step'
            && video.querySelector('[data-video-counter]').textContent === (chapters.length + ' / ' + chapters.length)
-           && video.querySelector('[data-video-image]').getAttribute('src') === gallery.at(-1).querySelector('img').getAttribute('src');
+           && video.querySelector('[data-video-image]').getAttribute('src') === gallery.at(-1).querySelector('[data-lightbox]').dataset.lightbox;
          video.dispatchEvent(new KeyboardEvent('keydown', {key:'Home', bubbles:true}));
          tourNavigation = tourNavigation && video.querySelector('[data-video-image]').getAttribute('src') === firstVideoImage;
          video.dispatchEvent(new KeyboardEvent('keydown', {key:'End', bubbles:true}));

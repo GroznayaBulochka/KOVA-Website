@@ -1,0 +1,119 @@
+KOVA: Money & Budget — raport zmian strony
+24 października 2026
+
+STATUS
+Zmiany wyłącznie lokalne, niezacommitowane. Gotowy build preview: dist/.
+Podgląd: http://127.0.0.1:4174/?lang=pl
+Nie wykonano push, wdrożenia, płatności ani zmian w aplikacji Android.
+Publiczna domena nadal serwuje starszą stronę. Produkcyjny build kończy się
+kontrolowanym kodem 2 z powodu zachowanych wymagań zatwierdzenia.
+Nie zmieniono żadnego istniejącego pola *Approved.
+
+1. TREŚĆ I PRODUKT
+Pierwsze wydanie: darmowa baza i opcjonalne KOVA Premium, w 27 językach.
+Potwierdzony zakres Premium: zaawansowane raporty i porównania, prognozy oraz
+analizy dochodu z pracy. Brak wymyślonej ceny, rabatu, próbnego okresu lub daty.
+Zakupy są wdrożone w kandydacie i częściowo testowane; pełna publiczna sprzedaż
+nie jest zatwierdzona. Dane finansowe, komunikacja Google Play i analityka strony
+są opisane osobno. Podkreślono lokalność danych i priorytet prywatności.
+KOVA Development jest marką. Potwierdzone nazwisko: Vadyslav Konohrai,
+zgodnie z OWNER_CONFIRMED_LEGAL_FACTS.json. Nie wymyślono podmiotu prawnego.
+
+2. CEL STRONY I WYGLĄD
+Główne działanie: Obserwuj premierę, prowadzące do istniejącego Instagramu KOVA.
+Prezentacja jest działaniem drugim, status dodatkowym. Dodano końcowe CTA.
+Adresy Instagram/TikTok zwróciły HTTP 200 w sprawdzeniu odczytowym; nie jest to
+audyt dostępu właściciela do kont. Nie dodano formularza bez zaplecza.
+release-config.json steruje adresem i dostępnością przyszłego Google Play.
+Niezweryfikowany link nie może włączyć pobierania.
+Trzy scenariusze ze zrzutami: wydatki, budżet, godziny pracy i dochód.
+Zachowano góry, logo, ciemną zieleń, złoto i jasne sekcje. Uproszczono opisy,
+usunięto powielający opis wydania i dodano czytelne porównanie Free/Premium.
+Galeria ma klawiaturę, poprzedni/następny ekran, Escape i powrót fokusu.
+Okno zgody jest mniejsze, z równie łatwym przyjęciem i odrzuceniem.
+Elementy stopki i języków na telefonie mają co najmniej 44 px wysokości.
+
+3. PODSTRONY I DOKUMENTY
+Status, roadmapa, kontakt i bezpieczeństwo opisują korzyści i aktualny etap.
+Historyczne wpisy z 21.10 zachowano i oznaczono; dodano aktualizację 24.10.
+54 projekty dokumentów skopiowano z aktualnego local-freemium-legal bez zmiany
+oryginalnych bajtów. Potwierdzają to sumy SHA-256. Zostały projektami bez
+fikcyjnej daty obowiązywania lub zatwierdzenia. Braki są prezentowane czytelnie,
+zamiast surowego OWNER_INPUT_REQUIRED. Naprawiono prezentację uszkodzonych
+przez tłumaczenie linków, bez przepisywania źródeł prawnych.
+Nie przywrócono ani nie opublikowano adresu domowego.
+
+4. SEO I PUBLIKACJA
+Sprawdzono wynikowy HTML 297 stron, canonical, wzajemne hreflang, metadane
+Open Graph/Twitter, JSON-LD bez fikcyjnych ocen/ofert oraz linki wewnętrzne.
+Produkcja ma 189 indeksowalnych adresów; projekty prawne i 404 są noindex.
+Preview ma noindex, blokadę robots i pustą mapę. Wygenerowano próbki produkcyjne
+w production-samples/ do weryfikacji, bez nadawania im statusu wydania.
+Nowa grafika udostępniania wykorzystuje istniejące logo, góry i ekran aplikacji.
+Live: HTML HTTP 200 bez canonical/hreflang/og:image; sitemap HTTP 404.
+Repozytorium zgłasza has_pages=true, lecz odczyt ustawienia źródła publikacji
+wymagał dostępu. Przygotowano ręczny workflow GitHub Pages: sprawdzenia preview,
+gated build:public, publikacja wyłącznie dist/. Nie uruchomiono workflow.
+GitHub Pages ignoruje _headers; właściwe nagłówki trzeba potwierdzić na hostingu
+lub proxy. Nie obchodzono istniejących wymagań zatwierdzenia.
+
+5. ZASOBY I POMIARY
+Dodano 18 wariantów WebP 360/720 px, srcset/sizes i zachowano PNG w powiększeniu.
+Zrzuty zachowują proporcje. Moduł pracy jest oznaczony jako wcześniejszy ekran.
+Nie pobiera się pełnego PNG prezentacji przed jej otwarciem ani całego pakietu
+27 tłumaczeń. Wczytywany jest wybrany język, z obsługą błędu i wyścigu wyborów.
+
+Mediany z 3 zimnych uruchomień EN, 390×844, headless Edge 154 na Windows,
+lokalny HTTP, 150 ms opóźnienia, 1,6 Mb/s pobierania, 750 kb/s wysyłania,
+spowolnienie CPU 4×; analityka odrzucona:
+- transfer: 2.209 MB -> 0.426 MB (80.7% mniej);
+- load przeglądarki: 11.80 s -> 2.74 s;
+- LCP: 1.132 s -> 1.208 s;
+- CLS: 0.001256 -> 0.000000.
+LCP w tym krótkim pomiarze nie poprawił się. Wyniki zależą od obciążenia hosta,
+zimnego procesu i warunków symulacji. To nie Lighthouse, dane CrUX, ruch prawdziwych
+użytkowników ani pomiar produkcji. Surowe wyniki: performance-before/after.json.
+
+6. WERYFIKACJA
+- 29 poleceń zestawu npm test: PASS, 0 niepowodzeń (tests.log).
+- SEO: 898 sprawdzeń, 297 stron, 189 adresów produkcyjnych: PASS.
+- 27 języków: 9072 sprawdzonych ciągów oraz 246 przypadków przeglądarkowych: PASS.
+- Nawigacja: 70 rzeczywistych przejść, zachowanie języka i wspólnego nagłówka: PASS.
+- Nowy audyt: 119 sprawdzeń PL/EN/DE/AR/PNB, 360/390/768/1440 px: PASS.
+- Analityka: 38 sprawdzeń zgody i przechwyconych zdarzeń CTA/kanałów/prezentacji: PASS.
+- Kontrakt wydania: 143 sprawdzenia, w tym zgodność 54 dokumentów: PASS.
+- Ochrona artefaktu i negatywna próba publikacji: 327 sprawdzeń: PASS.
+Liczby opisują różne zestawy, nie są sumowane jako niezależne testy aplikacji.
+Google tag i kolektor były symulowane; sprawdzono kod i wysyłkę adaptera, bez
+potwierdzenia odbioru w panelu GA4. Brak dostępu do panelu i oceny prawdziwego ruchu.
+Przeglądarkę uruchamiano w izolowanych profilach; nie użyto fizycznego telefonu.
+Tłumaczenia wspomagane maszynowo i dokumenty nadal wymagają przeglądu językowego
+oraz prawnego. Nie deklarujemy pełnego audytu czytników ekranu lub wszystkich
+możliwych urządzeń. Nie ma nowych błędów konsoli w wykonanych scenariuszach.
+
+7. ZRZUTY I ZMIENIONE OBSZARY
+home-pl-1440.png / home-pl-390.png: pierwszy ekran komputera i telefonu.
+full-pl-1440.png / full-en-1440.png / full-en-390.png: pełna strona PL/EN.
+scenarios-pl-desktop.png / plans-pl-desktop.png: scenariusze i Free/Premium.
+home-ar-360.png / home-pnb-360.png: reprezentatywne układy RTL.
+privacy-uk-390.png: dokument na telefonie. analytics/: zgody i widok bez JS.
+
+Zmodyfikowano: index.html, landing.js/css, project-content.js, wspólną powłokę,
+wybór/wczytywanie języków, obsługę dokumentów i zgód, 24 pliki locales oraz bazowe
+PL/EN/RU, 54 źródła prawne, generator SEO/build, konfigurację wydania, zasoby,
+dokumentację procesu, workflow i testy. Private Workspace zachowany i wykluczony.
+
+8. POZOSTAŁE KONKRETNE WYMAGANIA
+- Końcowe zatwierdzenie treści prawnej i rzeczywistej daty obowiązywania; rozwiązanie
+  wymaganych informacji sprzedawcy dla odpłatnej dystrybucji, bez ponownego
+  żądania adresu domowego. Dane firmy lub zwolnienie nie zostały wymyślone.
+- Kwalifikacja zasad Cloudflare/Gmail, transferów i wyjątków retencji oraz wdrożenie
+  zaakceptowanej procedury korespondencji. Właściciel potwierdził dostarczenie
+  i odpowiedź e-mail; nie żądamy ponowienia tego samego testu.
+- Faktyczna konfiguracja źródła publikacji, hostingu i nagłówków; weryfikacja
+  ustawień/retencji GA4 i odbioru zdarzeń; zgoda na wdrożenie nowej wersji.
+- Przed premierą: potwierdzona cena/oferta i oficjalny link Google Play, końcowe
+  wymagania wydania aplikacji oraz językowa/prawna ocena tłumaczeń.
+
+Wynik: gotowa i sprawdzona lokalna witryna przedpremierowa. Zmiany nie zostały
+przedstawione jako wdrożenie na kovacompass.app ani zatwierdzenie sprzedaży Premium.

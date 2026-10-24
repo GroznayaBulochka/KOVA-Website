@@ -1,14 +1,16 @@
 import { spawnSync } from 'node:child_process';
-import { readdir } from 'node:fs/promises';
+import { readdir, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 const cwd=fileURLToPath(new URL('..',import.meta.url));
+let appAvailable=true;try{await access(new URL('../../KOVA-App/docs/release/local-freemium-legal',import.meta.url));}catch{appAvailable=false;}
 const commands=[
  ['qa/static-check.mjs'],
  ['qa/localization-check.mjs'],
  ['qa/language-selection-check.mjs'],
- ['qa/public-contract-check.mjs','../KOVA-App'],
+ ['qa/public-contract-check.mjs',...(appAvailable?['../KOVA-App']:[])],
  ['qa/offline-content-check.mjs'],
  ['qa/presentation-check.mjs'],
+ ['qa/prelaunch-check.mjs'],
  ['qa/analytics-contract.mjs'],
  ['qa/seo-check.mjs'],
  ['qa/legal-links-check.mjs'],

@@ -1,3 +1,5 @@
+AKTUALIZACJA 24.10.2026: techniczny generator i lokalny build zawierają SEO. Publiczna domena nadal serwuje starszy HTML bez tych znaczników; /sitemap.xml zwraca 404. Nowy ręczny workflow Pages publikuje wyłącznie dist/ po przejściu istniejących kontroli zatwierdzeń. Nie uruchomiono wdrożenia. Szczegóły: RELEASE_PREPARATION.txt.
+
 KOVA — SEO i przygotowanie indeksowania
 Stan lokalny: 23.10.2026. Domena: https://kovacompass.app
 Właściciel wskazał publiczne dokumenty EN:
@@ -9,7 +11,7 @@ Dowód: qa/artifacts/seo-2026-10-22/public-documents.json.
 Nowe zmiany SEO są wyłącznie lokalne; nie opublikowano ich na istniejącej domenie.
 
 CO ZOSTAŁO WDROŻONE
-- Unikalne tytuły i opisy we wszystkich 27 językach, w tym ukraińskim (uk), zgodne z aplikacją Offline Free V1 przed premierą.
+- Unikalne tytuły i opisy we wszystkich 27 językach, w tym ukraińskim (uk), zgodne z planem darmowej bazy i opcjonalnego Premium przed premierą.
 - Pełna treść główna renderowana do HTML podczas budowania: 297 stron w 27 językach.
   Nie trzeba uruchamiać JavaScript, aby odczytać opisy, FAQ, status i dokumenty.
 - Osobne adresy językowe, canonical, wzajemne hreflang oraz x-default dla PL.

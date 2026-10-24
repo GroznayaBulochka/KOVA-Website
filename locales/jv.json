@@ -10,12 +10,12 @@
     "navSecurity": "Keamanan",
     "navLegal": "Dokumen",
     "navRoadmap": "Peta dalan",
-    "heroKicker": "KOVA Offline Gratis V1 · Android",
+    "heroKicker": "KOVA: Money & Budget · Android",
     "heroTitle": "Keuangan<br><em>ing sak panggonan.</em>",
-    "heroCopy": "Belanja, anggaran, gol, lan penghasilan kerja — ing telpon sampeyan. Kita lagi nyiapake rilis offline gratis, tanpa akun awan, iklan, utawa langganan.",
+    "heroCopy": "Lacak mbuwang, ngrancang anggaran lan ngira penghasilan saka jam kerja sampeyan. Keuangan sampeyan tetep ing telpon. Teka Android kanthi basis gratis lan KOVA Premium opsional.",
     "heroPrivacy": "Data finansial sampeyan tetep ana ing telpon sampeyan.",
     "projectStatus": "Priksa status proyek",
-    "watchVideo": "Ndeleng tur produk",
+    "watchVideo": "Ndeleng app",
     "pauseVideo": "ngaso",
     "playVideo": "Dolanan",
     "releaseNote": "Sadurunge diluncurake · download umum durung kasedhiya.",
@@ -41,7 +41,7 @@
     "featureGoalsCopy": "Rencana lan kemajuan",
     "clarityKicker": "Aplikasi kasebut",
     "clarityTitle": "Deleng ing KOVA.",
-    "clarityCopy": "Siji pangguna fiksi, telung akun lan nem wulan finansial saben dinane. Iki minangka gambar anyar sing durung diresiki saka KOVA Offline V1 sing mlaku ing emulator Android. Fitur nyata kanthi rekaman demo sing nyata, tanpa finansial pribadi. Layar app ana ing Polandia.",
+    "clarityCopy": "Layar KOVA nyata kanthi data demo fiksi. Jelajahi keuangan saben dina, anggaran lan alat lokal. Galeri utama nuduhake antarmuka Polandia.",
     "clarityAccounts": "Akun, transaksi lan kategori",
     "clarityReports": "Laporan lan ramalan",
     "clarityWork": "Kerja & Penghasilan",
@@ -57,36 +57,36 @@
     "screenWorkCopy": "Disimpen ing piranti · 21 Okt 2026",
     "securityKicker": "Privasi",
     "securityTitle": "Privasi minangka prioritas utama.",
-    "securityCopy": "Kita ngupaya supaya KOVA dadi aman sabisa. Ing Offline V1, data finansial sampeyan tetep ana ing telpon — aplikasi ora ngirim data kasebut kanthi otomatis marang kita utawa pihak katelu. Sampeyan sing mutusake apa arep ngekspor utawa nuduhake data sampeyan.",
+    "securityCopy": "Privasi luwih dhisik nalika kita kerja kanggo nggawe KOVA kanthi aman. Cathetan finansial tetep ing telpon sampeyan. Tuku lan pulihake Premium opsional nggunakake Google Play kanthi kapisah; analytics situs web iki mbutuhake idin sampeyan.",
     "securityModel": "Maca babagan keamanan",
     "secureLocal": "Enkripsi lokal",
     "secureOwner": "Isolasi data",
     "secureOwnerCopy": "Cathetan ditugasake marang pemilike",
     "secureNoBank": "Ora sandhi bank",
     "secureNoBankCopy": "KOVA ora nyambung menyang bank sampeyan",
-    "secureOnline": "Ekspor manual",
-    "secureOnlineCopy": "Salinan parsial sing dilindhungi sandi",
+    "secureOnline": "Data sampeyan, pilihan sampeyan",
+    "secureOnlineCopy": "Gawe serep lan ekspor manual",
     "legalKicker": "Dokumen",
     "legalTitle": "KOVA kabijakan.",
-    "legalCopy": "Salinan dokumen app saiki. Kabijakan lan Ketentuan Privasi tetep dadi konsep sing mbutuhake persetujuan sadurunge diterbitake.",
+    "legalCopy": "Privasi aplikasi lan syarat langganan minangka draf sing ngenteni persetujuan pungkasan. Situs web kasebut nduweni informasi cookie lan analytics sing kapisah.",
     "privacyTitle": "Kebijakan Privasi",
-    "privacyCopy": "Data lokal, ekspor, lan kontak dhukungan.",
+    "privacyCopy": "Keuangan lokal, tuku lan dhukungan Google Play.",
     "termsTitle": "Katentuan Pangginaan supados langkung",
-    "termsCopy": "orane katrangan Product lan aturan.",
+    "termsCopy": "Dasar gratis, opsional Premium lan syarat langganan.",
     "cookiesTitle": "cookie",
     "cookiesCopy": "Setelan browser lan panyimpenan.",
     "privacyShort": "Privasi",
     "termsShort": "Syarat",
     "cookiesShort": "cookie",
-    "activeDevelopment": "Offline Gratis V1 · sadurunge diluncurake.",
+    "activeDevelopment": "Dasar gratis + opsional Premium · sadurunge diluncurake",
     "cookieSettings": "Setelan",
     "navFaq": "FAQ",
     "navStatus": "Proyek",
     "galleryHint": "Tutul layar kanggo ndeleng gambar lengkap.",
     "secureLocalCopy": "Database sing dienkripsi ing piranti sampeyan",
     "projectKicker": "Rilis pisanan",
-    "projectHeading": "Gratis. Kanggo telpon sampeyan.",
-    "projectCopy": "Akun lokal, transaksi, anggaran, pembayaran bola-bali, utang, gol, net worth, karya, laporan, tanggalan, cathetan, lan OCR. Layanan awan, API bank, AI, Wear OS, Kulawarga online, lan kuotasi langsung dudu bagean saka V1. Kualifikasi lan dokumen pungkasan isih disiapake.",
+    "projectHeading": "Dasar gratis. Liyane karo Premium.",
+    "projectCopy": "KOVA: Money & Budget teka ing Android kanthi basis gratis lan Premium opsional. Download umum lan dodolan durung kasedhiya.",
     "availability": "kasedhiyan app",
     "roadmapLink": "Apa sing lagi digarap",
     "updatesLink": "Nganyari paling anyar",
@@ -94,9 +94,9 @@
     "faqTitle": "A sawetara jawaban prasaja.",
     "faqCopy": "Sadurunge miwiti nggunakake KOVA.",
     "faqDownloadQ": "Apa aku bisa ngundhuh KOVA durung?",
-    "faqDownloadA": "Download umum durung kasedhiya. Link toko sing wis diverifikasi bakal katon ing kaca status proyek nalika rilis wis siyap. Kita bakal ngumumake tanggal mung yen wis dikonfirmasi.",
+    "faqDownloadA": "Download umum durung kasedhiya. Tindakake KOVA ing Instagram kanggo warta peluncuran. Kaca iki bakal nyambung menyang dhaptar Google Play sing dikonfirmasi nalika rilis kasedhiya. Ora ana tanggal peluncuran sing diumumake.",
     "faqOfflineQ": "Apa app bisa tanpa internet?",
-    "faqOfflineA": "ya wis. V1 lagi disiapake minangka app offline karo profil lokal. Ora nawakake layanan mlebu, sinkronisasi, utawa AI Google. Panyedhiya file, browser, utawa aplikasi email sing sampeyan pilih bisa nggunakake internet kanthi bebas saka KOVA.",
+    "faqOfflineA": "cathetan Financial lan basa Free karya lokal. Tuku Premium opsional, mulihake lan ngakses refresh nggunakake Google Play lan mbutuhake konektivitas. Akses Premium saiki mbutuhake mriksa sambungan anyar sawise nganti 48 jam utawa telpon diwiwiti maneh. Iki ora mbusak cathetan utawa mblokir panggunaan dhasar lan ekspor. Ora ana sinkronisasi awan finansial utawa sambungan bank.",
     "faqBankQ": "Apa aku kudu nyambungake akun bank?",
     "faqBankA": "Ora. KOVA ora njaluk sandhi bank sampeyan. Akun ing app mbantu ngatur informasi finansial sing sampeyan rekam.",
     "faqEstimateQ": "Apa ramalan lan jumlah bayaran net dijamin?",
@@ -112,31 +112,54 @@
     "navigation": "Pandhu arah utama",
     "pageTitle": "KOVA — keuangan ing sak panggonan",
     "faqFreeQ": "Apa KOVA bakal gratis?",
-    "faqFreeA": "ya wis. Offline Free V1 ora duwe iklan, tumbas, langganan, utawa paywall. Fitur lokal ora mbutuhake registrasi utawa layanan backend sing dibayar.",
+    "faqFreeA": "ya wis. Rilis pisanan direncanakake kanthi basis gratis lan KOVA Premium opsional. Rekaman saben dina, laporan dhasar, akses menyang cathetan, enkripsi lokal, serep, ekspor lan pambusakan tetep gratis. Premium nyakup laporan maju, ramalan lan analitik penghasilan kerja. Rega bakal diumumake sadurunge diluncurake; durung ana dodolan umum.",
     "tourNote": "Layar aplikasi nyata · data demo fiksi · dudu rekaman video",
     "tourChapters": "Pilih layar tur",
     "factAndroid": "Android 7.0+",
-    "factOffline": "Keuangan lokal",
-    "factAccount": "Ora ana akun online",
+    "factOffline": "Dasar gratis",
+    "factAccount": "Opsional Premium",
     "faqBackupQ": "Kepiye carane nglindhungi data utawa ngganti telpon?",
     "faqBackupA": "Gawe ekspor manual sing dilindhungi sandi lan simpen kanthi aman ing njaba telpon. Impor mbutuhake konfirmasi lan ngganti data sing didhukung saka profil sing dipilih. Iku salinan sebagean, dudu gambar app lengkap: gambar cathetan ditempelake klebu, nanging lampiran external lan foto panrimo kudu salinan kapisah. Penerbit ora bisa mulihake data saka awan utawa mbalekake sandhi serep.",
     "faqOcrQ": "Apa pindai resi bisa digunakake ing offline?",
     "faqOcrA": "OCR nggunakake model sing digabung karo app. Njupuk foto utawa pilih salah siji saka galeri liwat pemilih Android. Pangenalan bisa uga salah - priksa jumlah, mata uang, lan tanggal sadurunge nyimpen. Nolak akses kamera ora ngalangi pilihan file.",
     "faqDeviceQ": "Kanggo piranti lan pamirsa sing KOVA?",
-    "faqDeviceA": "Android telpon sing nganggo Android 7.0 utawa luwih anyar, kanthi antarmuka PL/EN/RU. Tes kompatibilitas lagi ditindakake. Penonton sing dituju yaiku 13+, nanging iki dudu rating Google Play sing disetujoni utawa konfirmasi kasedhiyan ing saben negara. Ora ana rilis jam tangan utawa iOS sing ditawakake.",
+    "faqDeviceA": "KOVA lagi disiapake kanggo Android telpon nganggo Android 7.0 utawa mengko. Sumber saiki kalebu 27 basa antarmuka; kompatibilitas lan review basa lagi ditindakake. Ditujukake kanggo umur 13+, miturut syarat toko lan lokal. Ora ana rilis iOS utawa jam tangan sing ditawakake.",
     "aboutKicker": "Apa KOVA?",
     "aboutTitle": "Kurang stres dhuwit. Ruang liyane kanggo rencana sampeyan.",
-    "aboutCopy": "KOVA iku sawijining aplikasi Android kanggo keuangan pribadi saben dina. Iku ndadekke mbuwang, income, budgets lan tabungan gol bebarengan, supaya sampeyan bisa ndeleng apa isih sawise tagihan lan rencana sasi ahead.",
+    "aboutCopy": "KOVA minangka aplikasi Android kanggo keuangan pribadi saben dina. Tansah biaya, anggaran lan jam kerja, supaya sampeyan bisa ndeleng apa sing isih ana sawise tagihan lan rencana sasi ngarep.",
     "aboutAudience": "Kanggo siswa, wong kerja lan sapa wae sing pengin nggawe keputusan sing luwih disengaja babagan dhuwit dhewe.",
     "aboutForWhom": "Kanggo sampeyan, yen…",
-    "aboutSpendingTitle": "Sampeyan pengin ngerti menyang ngendi dhuwit sampeyan",
-    "aboutSpendingCopy": "Rekam tumbas, tagihan lan lengganan. Deleng belanja miturut kategori lan titik ing ngendi sampeyan bisa ngganti.",
-    "aboutGoalsTitle": "Sampeyan nyimpen kanggo soko penting",
-    "aboutGoalsCopy": "Rencanana anggaran lan lacak tabungan kanggo dana darurat, lelungan utawa tuku sing luwih gedhe.",
-    "aboutIncomeTitle": "Penghasilan sampeyan beda-beda",
-    "aboutIncomeCopy": "Rekam jam kerja lan tarif. Ngira-ngira pangentukan kanggo nggampangake ngrancang mbuwang antarane paydays.",
-    "aboutPrivacy": "Cathetan sampeyan tetep ing telpon. Ora ana sambungan bank, akun maya utawa iklan.",
-    "aboutAction": "Waca KOVA ing tumindak"
+    "aboutSpendingTitle": "Delengen menyang ngendi dhuwit sampeyan",
+    "aboutSpendingCopy": "Rekam mbuwang saben dina lan goleki miturut kategori. Ngerti biaya sing nggawe prabédan paling gedhe kanggo sasi sampeyan.",
+    "aboutGoalsTitle": "Ngerti apa sing isih ana ing anggaran sampeyan",
+    "aboutGoalsCopy": "Setel watesan kategori lan priksa kemajuan nalika sampeyan nglampahi. Rencana tuku sabanjure kanthi tampilan sing luwih jelas babagan apa sing isih ana.",
+    "aboutIncomeTitle": "Rencana babagan ngganti penghasilan",
+    "aboutIncomeCopy": "Rekam jam kerja lan tarif kanggo ngira penghasilan. Gawe jadwal kerja lan anggaran saben wulan dadi siji rencana.",
+    "aboutPrivacy": "Cathetan finansial tetep ing telpon sampeyan. Ora ana sambungan bank utawa akun maya KOVA. Tuku Premium opsional ditangani kanthi kapisah liwat Google Play.",
+    "aboutAction": "Waca KOVA ing tumindak",
+    "followLaunch": "Tindakake peluncuran",
+    "downloadApp": "Entuk ing Google Play",
+    "launchChannel": "Bukak warta babagan Instagram · @kova_money",
+    "workScreenNote": "Karya & penghasilan · layar demo sadurungé; desain bisa ngganti.",
+    "plansKicker": "Dirancang kanggo release pisanan",
+    "plansTitle": "Dasar gratis. Liyane karo Premium.",
+    "plansCopy": "Mulai karo manajemen dhuwit saben dina. Pilih Premium yen sampeyan butuh analisis lokal sing luwih jero. Download umum lan dodolan durung kasedhiya.",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "Ngrekam saben dina lan ngontrol data sampeyan dhewe.",
+    "planFreeOne": "Biaya, anggaran lan laporan dhasar",
+    "planFreeTwo": "Cathetan kerja lan akses menyang data sing disimpen",
+    "planFreeThree": "Enkripsi lokal, serep, ekspor lan pambusakan",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "Langganan opsional kanggo wawasan lokal sing luwih rinci.",
+    "planPremiumOne": "Laporan lan perbandingan lanjut",
+    "planPremiumTwo": "Prakiraan adhedhasar cathetan sampeyan",
+    "planPremiumThree": "Analisis penghasilan kerja",
+    "plansNote": "Rega lan kasedhiyan peluncuran bakal diumumake sadurunge dirilis. Sawetara analisis mbutuhake riwayat sing cukup. Premium tuku lan akses refresh mbutuhake Google Play lan panyambungan; basa Free tetep kasedhiya.",
+    "plansDetails": "Maca draf langganan",
+    "closingKicker": "Tetep cedhak karo peluncuran",
+    "closingTitle": "Nggawe papan kanggo rencana dhuwit sing luwih jelas.",
+    "closingCopy": "Tindakake KOVA Development ing Instagram kanggo pratinjau aplikasi lan warta peluncuran. Rilis umum pisanan isih ana ing persiapan.",
+    "closingSecondary": "Sampeyan uga bisa nemokake KOVA ing TikTok."
   },
   "slides": [
     {
@@ -199,13 +222,13 @@
     "cookies": "cookie",
     "settings": "Setelan cookie",
     "tagline": "Keuangan saben dina. Ing sak panggonan.",
-    "note": "KOVA Offline Gratis V1 · sadurunge diluncurake",
+    "note": "Dasar gratis + opsional Premium · sadurunge diluncurake",
     "top": "Bali menyang ndhuwur",
     "skip": "Lumpat menyang isi",
     "language": "Basa situs",
     "menu": "Menu",
     "back": "Ngarep",
-    "official": "Situs web proyek resmi"
+    "official": "KOVA Development · situs web resmi"
   },
   "projects": {
     "404": {
@@ -226,60 +249,64 @@
     },
     "status": {
       "label": "Status proyek",
-      "title": "Offline V1. Sadurunge diluncurake.",
-      "intro": "Kita lagi nyiapake KOVA gratis kanggo Android telpon: ora ana registrasi, iklan, langganan, utawa sinkronisasi awan. Rilis kasebut durung kasedhiya kanggo umum.",
-      "badge": "Dianyari: 21 Oktober 2026 · 1.0.8 (10)",
+      "title": "Keuangan saben dina. A release ing proses.",
+      "intro": "KOVA: Money & Budget teka ing Android kanthi basis gratis lan Premium opsional. Download umum lan dodolan durung kasedhiya.",
+      "badge": "Ing preparation · Gratis + opsional Premium",
       "cards": [
         [
-          "Lingkup release pisanan",
-          "Akun, transaksi lan kategori, anggaran, utang, gol, net worth, pambayaran bola-bali, profil lan jam kerja, laporan, tanggalan, cathetan, ing piranti OCR, lan ekspor/impor sing dienkripsi manual."
+          "Apa release pisanan ndadekke",
+          "Biaya, anggaran, jam kerja, gol lan cathetan lokal ing siji app. Basis gratis njaga rekaman saben dina, laporan dhasar, data lan ekspor. Premium nambahake laporan, ramalan lan analitik penghasilan kerja."
         ],
         [
-          "Apa sing wis dipriksa",
-          "APK lan artefak AAB wis dibangun. Tes ditindakake ing Android 7.0, 7.1, lan wektu aktual 16 KiB. Transfer ekspor sing dienkripsi antarane panginstalan terisolasi lan impor bola-bali tanpa duplikat uga dicenthang. Iki minangka skenario sing diwatesi, dudu jaminan kanggo saben telpon."
+          "Ing ngendi kita saiki",
+          "Kita nyaring app lan mriksa kompatibilitas, aksesibilitas lan aliran langganan. Tes tuku lan pamulihan sing dipilih wis ditindakake, nanging rilis umum lengkap isih disiapake."
         ],
         [
-          "Apa tetep",
-          "Matriks antarmuka normal lan aksesibilitas lengkap, calon saiki ing telpon fisik, persetujuan dokumen, teken, lan syarat Google Play. Artefak rilis saiki ora ditandatangani."
+          "Keuangan sampeyan tetep lokal",
+          "KOVA nyimpen cathetan finansial ing telpon. Google Play nangani tuku langganan opsional, mulihake lan akses mriksa kanthi kapisah. Ora ana sinkronisasi awan finansial utawa sambungan bank."
         ],
         [
-          "Njaba Offline V1",
-          "Akun Google/Firebase, layanan awan, enggo bareng kulawarga online, API perbankan, kuotasi langsung, AI, Wear OS, Premium, lan tumbas ora aktif ing rilis iki. Ora ana tanggal kasedhiyan dikonfirmasi."
+          "Cara ngetutake kemajuan",
+          "Tindakake @kova_money ing Instagram kanggo pratinjau lan miwiti warta. Rega lan link toko sing dikonfirmasi bakal dituduhake sadurunge dirilis. Ora ana tanggal peluncuran sing diumumake."
         ]
       ],
-      "note": "Kita bakal nerbitake tanggal peluncuran utawa tombol download mung sawise release lan alamat toko resmi wis disetujoni.",
+      "note": "KOVA Development minangka merek proyek. Aplikasi iki durung kasedhiya kanggo umum; asil tes ora jumlah persetujuan dodolan umum.",
       "actions": [
         [
-          "Rencana release",
+          "Tindakake ing Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Ngeculake roadmap",
           "roadmap.html"
         ],
         [
-          "owah-owahan pungkasan",
+          "Nganyari paling anyar",
           "updates.html"
         ]
       ]
     },
     "roadmap": {
       "label": "Peta dalan",
-      "title": "Rilis offline sing dipercaya dhisik.",
-      "intro": "Kita ngrampungake kualifikasi fitur sing wis ana. Rencana iki ora janji tanggal utawa layanan anyar.",
-      "badge": "Prioritas: Offline Gratis V1",
+      "title": "A release pisanan migunani, karo kamar kanggo tuwuh.",
+      "intro": "Rilis pisanan nggabungake basis lokal gratis lan Premium opsional. Mangkene sing disiapake sadurunge diluncurake, tanpa wates wektu sing durung dikonfirmasi.",
+      "badge": "Rilis pisanan · Android",
       "cards": [
         [
-          "01 · Tes pungkasan",
-          "Rampungake skenario antarmuka normal, basa, lan aksesibilitas sing isih ana, lan priksa versi saiki ing telpon. Pemeriksaa sing wis rampung dudu pratelan kesiapan."
+          "Manajemen dhuwit saben dina",
+          "Rampungake belanja, anggaran lan cathetan kerja supaya tugas umum jelas lan dipercaya. Priksa basa, aksesibilitas lan kompatibilitas telpon."
         ],
         [
-          "02 · Informasi lan kabijakan",
-          "Publisher lan rincian kontak wis dikonfirmasi. Dokumen offline tetep dadi draf: syarat, praktik dhukungan, pasar, pamirsa, lan alamat umum isih mbutuhake persetujuan."
+          "Premium lokal opsional",
+          "Rampung mriksa laporan, ramalan, analytics penghasilan kerja, tuku lan pulihake. Ora ana awan sing dibayar, integrasi bank utawa layanan AI sing dijanjekake."
         ],
         [
-          "03 · Calon toko",
-          "Nyetujoni teken lan konfigurasi Google Play, lan ngrampungake tes lan deklarasi sing dibutuhake. Link resmi nderek persetujuan rilis."
+          "Siapke Google Play",
+          "Rampungake mriksa rilis sing isih ana, informasi langganan lan dokumen. Konfirmasi rega lan dhaptar toko sadurunge kasedhiyan umum."
         ],
         [
-          "Mengko · Kualifikasi kapisah",
-          "Modul mbesuk tetep ana ing proyek kasebut nanging ora diaktifake. Layanan awan, AI, Wear OS, lan monetisasi mbutuhake keputusan, tes, lan pambocoran pangguna sing kapisah."
+          "Nuduhake peluncuran",
+          "Nerbitake pratinjau app lan kemajuan ing saluran KOVA sing wis ana. Nalika release disetujoni lan kasedhiya, ngganti link Bukak karo link resmi Google Play."
         ]
       ],
       "actions": [
@@ -288,77 +315,81 @@
           "status.html"
         ],
         [
-          "Kontak",
-          "contact.html"
+          "Tindakake ing Instagram",
+          "https://www.instagram.com/kova_money/"
         ]
       ]
     },
     "security": {
       "label": "Privasi lan keamanan",
       "title": "Privasi minangka prioritas utama.",
-      "intro": "Kita ngupaya supaya KOVA dadi aman sabisa. Ing Offline V1, data finansial sampeyan tetep ana ing telpon — aplikasi ora ngirim data kasebut kanthi otomatis marang kita utawa pihak katelu. Sampeyan sing mutusake apa arep ngekspor utawa nuduhake data sampeyan.",
-      "badge": "Database enkripsi · ekspor manual",
+      "intro": "Kita bisa kanggo nggawe KOVA minangka aman sabisa. Cathetan finansial tetep ing telpon sampeyan. Tuku Play opsional lan situs web iki duwe aliran data sing kapisah, diterangake ing ngisor iki.",
+      "badge": "Keuangan lokal · tuku opsional sing kapisah",
       "cards": [
         [
-          "Database ing piranti sampeyan",
-          "Data finansial nggunakake Kamar lan SQLCipher kanthi isolasi profil. Enkripsi ora bisa nyegah saben mundhut telpon, sandhi, kunci, utawa akses piranti. Kita ora ngaku sertifikasi keamanan independen."
+          "Data finansial ing piranti sampeyan",
+          "Database utama nggunakake SQLCipher kanthi isolasi profil lokal. Nglindhungi telpon lan sandhi serep. Enkripsi ora njamin kanggo saben piranti, akses utawa risiko mundhut data."
         ],
         [
-          "Ora ana unggahan otomatis",
-          "Manifes rilis sing wis dicenthang ora duwe idin INTERNET. Firebase, analytics app, Crashlytics, iklan, Tagihan, lan layanan AI dipateni. Iki ora ateges Android utawa aplikasi liyane ora ngasilake lalu lintas jaringan."
+          "Opsional Premium liwat Google Play",
+          "Kandidat saiki nggunakake antarmuka tagihan Play, tanpa server verifikasi KOVA. Play nggunakake jaringan dhewe kanggo tuku, mulihake lan akses refresh. KOVA nampa status tuku lan mlebu rincian tuku, dudu rincian kertu. Cathetan finansial sampeyan ora dikirim liwat Play."
         ],
         [
-          "Ekspor iku pilihan sampeyan",
-          "Ekspor manual bisa dienkripsi karo sandi. Isine cathetan didhukung, ora gambar instalasi lengkap: ditempelake cathetan gambar lelungan karo; referensi file external ora nyalin file dhewe. Simpen sandhi lan file kanthi aman. Ora ana serep awan KOVA otomatis."
+          "Akses lokal lan mulihake",
+          "Akses Premium saiki mbutuhake mriksa Play liyane sing disambungake sawise nganti 48 jam utawa telpon diwiwiti maneh. Mulihake tumbas kapisah saka mulihake data finansial. Dasar gratis, rekaman sing disimpen lan serep / ekspor tetep kasedhiya; kualifikasi public-sales lengkap ditundha."
         ],
         [
-          "Foto lan OCR",
-          "Pangenalan nggunakake model sing dibundel karo app. Sampeyan bisa njupuk foto utawa milih salah siji saka galeri. Priksa jumlah, mata uang, lan tanggal sadurunge nyimpen — OCR bisa nggawe kesalahan."
+          "Cadangan sampeyan dadi pilihan sampeyan",
+          "Gawe ekspor manual sing dilindhungi sandi lan simpen kanthi aman. Iku salinan parsial; simpen lampiran njaba kanthi kapisah. Folder maya utawa tumindak bareng nggunakake panyedhiya sing dipilih, tinimbang sinkronisasi finansial KOVA otomatis."
         ],
         [
-          "Situs web kasebut kapisah",
-          "Situs iki ora bisa maca database telpon. Mung sawise idin, Google Analytics ngukur kunjungan lan interaksi ing situs umum. Idin bisa ditarik ing footer; ndeleng Cookie kanggo rincian. Hosting mangsa ngarep bisa uga ngolah data sambungan - konfigurasi lan kabijakan kasebut kudu disetujoni."
+          "Situs web iki kapisah",
+          "Situs iki ora bisa maca database telpon. Google Analytics ngukur kunjungan lan interaksi situs web mung kanthi idin sampeyan. Nolak tetep situs lengkap kasedhiya. Ngganti pilihan sampeyan ing setelan Cookie; rincian hosting lan panyedhiya isih mbutuhake konfirmasi sadurunge penyebaran umum anyar."
         ],
         [
           "Laporan kanthi aman",
-          "Nerangake masalah ing contact@kovacompass.app. Aja ngirim tembung sandhi, kunci, salinan database lengkap, utawa cathetan finansial nyata. Kalebu versi aplikasi, versi Android, lan langkah-langkah reproduksi kanthi conto data."
+          "Hubungi contact@kovacompass.app karo app lan versi Android lan langkah nggunakake data conto. Aja ngirim sandhi, tuku token, serep lengkap utawa cathetan finansial nyata."
         ]
       ],
       "actions": [
         [
-          "Kabijakan privasi app",
+          "Draf privasi app",
           "privacy.html"
         ],
         [
-          "Ekspor lan pambusakan data",
+          "Data lan ekspor sampeyan",
           "delete-account.html"
         ],
         [
-          "Panyimpenan browser lan cookie",
+          "Cookie situs web",
           "cookies.html"
         ]
       ]
     },
     "updates": {
       "label": "Nganyari",
-      "title": "KOVA pindhah menyang Offline Free V1.",
-      "intro": "Nganyari babagan rilis sing bakal teka, dudu pengumuman peluncuran.",
-      "badge": "21 Oktober 2026",
+      "title": "Dasar gratis. Opsional Premium. Keuangan lokal.",
+      "intro": "24 Oktober 2026: rencana saiki kanggo release Android pisanan kalebu basis gratis lan Premium opsional. Entri sadurungé ing ngisor iki njlèntrèhaké rencana sajarah.",
+      "badge": "Nganyari saiki · 24 Oktober 2026",
       "cards": [
         [
-          "Ora ana akun wajib",
+          "24 Oktober 2026 · model rilis pisanan",
+          "Rilis pisanan direncanakake kanthi basis lokal gratis ditambah Premium opsional kanggo laporan maju, ramalan lan analytics penghasilan kerja. Skenario tuku / pulihake Google Play sing dipilih wis diuji; kesiapan dodolan umum isih ditundha. Rega lan tanggal peluncuran ora diumumake."
+        ],
+        [
+          "21.10.2026 · Ora ana akun wajib",
           "Public V1 dirancang kanggo bisa tanpa registrasi utawa internet. Layanan online disimpen kanggo masa depan nanging dipateni ing rilis iki."
         ],
         [
-          "Cathetan lan portabilitas data",
+          "21.10.2026 · Cathetan lan portabilitas data",
           "Kompatibilitas Android 7 editor wis didandani. Priksa terus-terusan sawise miwiti maneh, gambar sing dipasang, ekspor, lan impor normal antarane panginstalan Android 7.1 lan 7.0 sing terisolasi. Editor saiki uga dicenthang ing 16 KiB."
         ],
         [
-          "Asil, dudu pratelan kesiapan",
+          "21.10.2026 · Asil, dudu pratelan kesiapan",
           "Regresi lengkap tanggal 21 Oktober: 6745 LULUS saka 6746 kasus, 1 GAGAL kanggo draf dokumen hukum, 0 kesalahan eksekusi, lan 0 dilewati. Tes sing ditargetake mengko ora ditambahake ing count iki. Sawetara kualifikasi UI lan mriksa telpon saiki tetep."
         ],
         [
-          "Dokumen lan kontak",
+          "21.10.2026 · Dokumen lan kontak",
           "Situs kasebut nggunakake draf dokumen Offline V1 saiki ing PL/EN/RU lan rincian penerbit sing dikonfirmasi. Iki dudu persetujuan legal final utawa publikasi toko."
         ]
       ],
@@ -371,51 +402,52 @@
           "Rincian penerbit",
           "contact.html"
         ]
-      ]
+      ],
+      "note": "Entri tanggal 21 Oktober 2026 njaga rencana Offline Free V1 sadurunge lan ruang lingkup tes winates. Dheweke ora njlèntrèhaké tawaran rilis saiki utawa nduweni kualifikasi calon saiki."
     },
     "contact": {
-      "label": "Kontak lan penerbit",
-      "title": "Ayo ngomong babagan KOVA.",
-      "intro": "Gunakake alamat ing ngisor iki kanggo pitakonan app, masalah, lan masalah privasi. Aja ngirim cathetan keuangan.",
-      "badge": "Kontak dikonfirmasi dening publisher",
+      "label": "Kontak",
+      "title": "Ayo dadi pirembagan bab KOVA.",
+      "intro": "Pitakonan babagan app, masalah utawa privasi? Tulis menyang kontak ing ngisor iki. Tindakake saluran KOVA sing ana kanggo warta peluncuran.",
+      "badge": "KOVA Development · merek proyek",
       "cards": [
         [
-          "Penerbit",
-          "Vadyslav Konohrai · Polandia · pribadi. Rincian kasebut diwenehake dening pemilik proyek; padha ora pratelan saka kualifikasi legal rampung kanggo kabeh pasar."
+          "Proyek lan penerbit",
+          "KOVA: Money & Budget dikembangake miturut merek KOVA Development. Penerbit sing dikonfirmasi yaiku Vadyslav Konohrai, wong pribadi ing Polandia. Merek kasebut dudu deklarasi perusahaan kadhaptar sing kapisah."
         ],
         [
           "Dhukungan lan privasi",
-          "contact@kovacompass.app — siji alamat kanggo pitakonan, masalah, keluhan, lan masalah privasi. Link mbukak app email; situs web iki ora ngirim panjalukan dhewe."
+          "contact@kovacompass.app minangka alamat umum kanggo pitakonan, masalah lan masalah privasi. Link mbukak app email sampeyan. Korespondensi kapisah saka data finansial sing disimpen ing telpon."
         ],
         [
           "Nerangake masalah",
-          "Kalebu versi KOVA, model telpon, versi Android, prilaku sing dikarepake, lan langkah-langkah reproduksi. Gunakake jumlah conto. Mbusak rincian pribadhi sadurunge masang gambar."
+          "Kalebu versi app, model telpon, versi Android lan apa sing kedadeyan. Gunakake jumlah conto lan mbusak rincian pribadhi saka gambar. Aja masang database lengkap utawa tuku token."
         ],
         [
-          "Rilis lan pamirsa",
-          "Planned V1 gratis, kanggo Android 7.0 utawa luwih anyar, lan ditrapake kanggo umur 13+. Kasedhiyan internasional gumantung saka persetujuan toko lan syarat lokal; iku durung dikonfirmasi."
+          "Rilis lan kasedhiyan",
+          "Rilis Android kanthi basis gratis lan Premium opsional lagi nyiapake. Download umum lan dodolan durung kasedhiya. Tindakake Instagram kanggo warta peluncuran; kita durung ngumumake tanggal rilis."
         ]
       ],
-      "note": "Aja ngirim sandhi, kunci enkripsi, serep lengkap, utawa cathetan finansial nyata. Penylametan korespondensi lan praktik dhukungan umum isih mbutuhake persetujuan ing dokumen kasebut.",
+      "note": "Aja ngirim tembung sandhi, kunci enkripsi utawa cathetan finansial nyata. Dokumen aplikasi tetep dadi draf ngenteni persetujuan pungkasan.",
       "actions": [
         [
           "Tulis email",
           "mailto:contact@kovacompass.app"
         ],
         [
-          "Privasi",
-          "privacy.html"
+          "Tindakake ing Instagram",
+          "https://www.instagram.com/kova_money/"
         ],
         [
-          "kasedhiyan app",
-          "status.html"
+          "Informasi privasi",
+          "privacy.html"
         ]
       ]
     },
     "delete-account": {
       "label": "Data sampeyan",
       "title": "Ekspor lan mbusak data lokal.",
-      "intro": "Offline V1 ora nggawe akun maya. Profil lokal utawa akun finansial ing KOVA dudu akun online utawa sambungan bank.",
+      "intro": "Profil finansial sampeyan tetep ing telpon; iku kapisah saka akun Google Play utawa langganan. Sampeyan ngontrol cathetan lokal, serep lan ekspor.",
       "badge": "Ora ana akun online utawa sinkronisasi",
       "cards": [
         [
@@ -433,6 +465,10 @@
         [
           "Pesen kanggo penerbit",
           "Kanggo data sing dienggo bareng liwat email, hubungi contact@kovacompass.app. Aja masang cadangan finansial. Kaca iki ora mbusak data utawa ngirim panjalukan otomatis."
+        ],
+        [
+          "A langganan kapisah",
+          "Mbusak data aplikasi utawa mbusak KOVA ora mbatalake langganan Premium. Ngatur nganyari maneh ing Google Play. Mulihake tumbas ora mulihake cathetan finansial, lan ngimpor serep ora menehi Premium."
         ]
       ],
       "actions": [
@@ -474,34 +510,34 @@
     "terms": "Katentuan Pangginaan supados langkung",
     "cookies": "cookie",
     "analyticsTitle": "Privasi ing situs web iki",
-    "analyticsCopy": "Penerbit: Vadyslav Konohrai, Polandia; kontak: contact@kovacompass.app. Situs iki ora bisa ngakses keuangan ing telpon lan ora duwe formulir pengajuan. Pilihan basa lan cookie disimpen ing browser sampeyan. Sawise idin opsional, situs umum nggunakake Google Analytics 4 (G-2LE3GWYDZM): statistik kunjungan lan interaksi, cookie pseudonim, piranti lan informasi lokasi kira-kira. Pangukuran gumantung ing idin; data bisa diproses ing njaba EEA lan ora anonim. Kaca Cookie nerangake panampa, cookie, hak lan watesan. GA4 syarat retensi lan pangolahan mbutuhake konfirmasi sadurunge diterbitake. Ngganti idin ing setelan Cookie. Link email mbukak app email sampeyan; pesen sing sampeyan kirim lan alamat sampeyan digunakake kanggo nangani panjalukan sampeyan ing njaba KOVA. Aja ngirim data finansial utawa sandhi. Hosting mangsa ngarep, praktik logging, lan retensi korespondensi mbutuhake persetujuan sadurunge diterbitake. Dokumen ing ngisor iki gegayutan karo app lan ora ngganti informasi situs web iki."
+    "analyticsCopy": "Situs iki ora bisa maca database telpon. Google Analytics ngukur kunjungan lan interaksi situs web mung kanthi idin sampeyan. Nolak tetep situs lengkap kasedhiya. Ngganti pilihan sampeyan ing setelan Cookie; rincian hosting lan panyedhiya isih mbutuhake konfirmasi sadurunge penyebaran umum anyar. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
   },
-  "review": "Draf kanggo KOVA Offline Gratis V1, cocog karo dokumen sumber app tanggal 22 Oktober 2026 (dudu kualifikasi APK anyar). Penerbit nyetujoni jeneng, kontak lan domain, lan nyedhiyakake URL dokumen umum ing 22 Oktober 2026. Tanggepan HTTP 200 wis diverifikasi dina iku. Iki dudu persetujuan sah utawa kualifikasi hosting lengkap. Dokumen ing ngisor iki kalebu pranala umum. Tanggal efektif lan persetujuan isi tetep ditundha.",
+  "review": "Draf kanggo release KOVA pisanan sing direncanakake: basis gratis lan Premium opsional. Cocog karo dokumen app saiki tanggal 24 Oktober 2026. Tanggal efektif, persetujuan pungkasan lan rincian penjual lan layanan isih ditundha. Iki dudu tawaran langganan aktif.",
   "seo": {
     "titles": {
       "404": "Kaca Ora Ditemokake — KOVA",
-      "index": "KOVA — Pelacak Anggaran & Biaya Offline kanggo Android",
+      "index": "KOVA: Money & Budget — Android keuangan, Gratis + Premium",
       "status": "KOVA kanggo Android — Status & Ketersediaan Aplikasi",
-      "roadmap": "KOVA — Peta Jalan Rilis Aplikasi Keuangan Offline",
+      "roadmap": "KOVA — Gratis lan Premium Android Rilis Roadmap",
       "updates": "KOVA — Nganyari Warta & Pangembangan Aplikasi Keuangan",
-      "security": "KOVA — Privasi, Enkripsi & Serep Offline",
+      "security": "KOVA — Data Keuangan Lokal, Privasi & Premium",
       "contact": "Kontak KOVA — Dhukungan & Pitakonan Aplikasi",
       "delete-account": "KOVA — Mbusak Data & Profil Lokal",
       "privacy": "KOVA Kebijakan Privasi — Aplikasi & Situs Web",
-      "terms": "KOVA Ketentuan Penggunaan — Draf Dokumen",
+      "terms": "Ketentuan KOVA Free & Premium — Draft",
       "cookies": "KOVA Kuki Situs web & Google Analytics"
     },
     "descriptions": {
       "404": "Kaca KOVA iki ora ana. Bali menyang ringkesan app, nganyari utawa kontak.",
-      "index": "Temokake KOVA: aplikasi Android gratis kanggo biaya, anggaran lan tujuan tabungan. Bisa offline tanpa akun maya utawa iklan. Rilis umum pisanan minangka persiapan.",
-      "status": "Priksa KOVA Kasedhiya V1 Gratis Offline, fitur sing direncanakake lan langkah rilis sing isih ana. Download aplikasi umum durung kasedhiya.",
-      "roadmap": "Tindakake peta dalan sing diluncurake pisanan KOVA: keuangan lokal, tes pungkasan lan persiapan Google Play. Ora ana tanggal peluncuran sing durung dikonfirmasi.",
+      "index": "Rencana mbuwang, anggaran lan penghasilan kerja karo KOVA kanggo Android. Data keuangan lokal, basis gratis lan opsional Premium. Rilis umum pisanan minangka persiapan.",
+      "status": "KOVA kanggo Android nyiapake rilis pisanan kanthi basis gratis lan Premium opsional. Deleng ruang lingkup, kemajuan lan saluran peluncuran. Download durung kasedhiya.",
+      "roadmap": "Tindakake persiapan KOVA release Android: basis lokal gratis, Premium opsional, mriksa pungkasan lan Google Play. Ora ana tanggal peluncuran sing durung dikonfirmasi.",
       "updates": "KOVA nganyari proyek: offline Android keuangan, layar aplikasi asli, ekspor data lan kemajuan menyang rilis umum pisanan.",
-      "security": "Carane KOVA njaga keuangan lokal: SQLCipher, isolasi profil lan ekspor sing dilindhungi sandi manual. Ngerti proteksi data lan watesane.",
+      "security": "Cathetan finansial tetep ing telpon sampeyan. Sinau carane KOVA misahake enkripsi lokal, tuku Google Play opsional lan analytics situs web adhedhasar idin.",
       "contact": "Hubungi KOVA ing contact@kovacompass.app kanggo pitakonan app, laporan masalah lan panjalukan privasi. Aja ngirim data finansial.",
-      "delete-account": "Atur data sampeyan lan busak profil lokal ing KOVA Offline V1. Sinau babagan salinan sing diekspor lan kenapa pemulihan awan ora kasedhiya.",
+      "delete-account": "Ngatur lan mbusak data, profil lan ekspor KOVA lokal. Pembaruan Premium dikelola kanthi kapisah ing Google Play; uninstalling ora mbatalake.",
       "privacy": "Draf KOVA kabijakan privasi: data aplikasi lokal, ekspor, kontak lan analisis situs web opsional. Persetujuan dibutuhake sadurunge diterbitake.",
-      "terms": "Draf istilah kanggo KOVA Offline Gratis V1: ruang lingkup aplikasi, data pangguna, serep lan watesan perkiraan finansial.",
+      "terms": "Konsep istilah KOVA Free lan Premium: fitur lokal, langganan opsional, tuku lan mulihake Google Play, serep lan watesan perkiraan.",
       "cookies": "Carane situs web KOVA nggunakake cookie lan Google Analytics mung sawise idin. Deleng apa sing diukur lan carane mbatalake pilihan sampeyan."
     }
   },
@@ -510,7 +546,8 @@
     "enlarge": "nggedhekake",
     "contents": "Isine",
     "publicAddress": "Alamat EN Umum:",
-    "language": "Basa situs"
+    "language": "Basa situs",
+    "pendingDecision": "Nunggu konfirmasi pemilik sadurunge diterbitake"
   },
   "cookies": "<section data-doc-lang=\"jv\" data-document-title=\"KOVA Kuki Situs web &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">cookie</p><h1>Analytics minangka pilihan sampeyan.</h1><p>Cookie penting ngelingi basa lan setelan. Analytics diwiwiti mung sawise idin.</p><div class=\"document-meta\"><span class=\"document-chip\">Dianyari: 22 Oktober 2026</span><span class=\"document-chip\">Ora iklan</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>sing penting</h2><p><code>kova_site_language</code>ngelingi basa nganti 12 sasi;<code>kova_cookie_consent_v2</code>ngelingi pilihan sampeyan kanggo 180 dina. Idin sadurunge kanggo counter lokal ora menehi wewenang Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Sawise idin ing domain umum kovacompass.app (kalebu www), kita mbukak tag Google<code>G-2LE3GWYDZM</code>. Google bisa nyimpen<code>_ga</code>lan<code>_ga_2LE3GWYDZM</code>cookie kanggo browser lan pangenalan sesi. Kita ngatur kadaluwarsa 180 dina tanpa nganyari maneh otomatis ing saben kunjungan; browser bisa shorten wektu iki.</p></article>\n          <article class=\"document-card\"><h2>Apa sing kita ukur</h2><p>Tampilan kaca, mbukak lan muter presentasi, pilihan bab, gambar sing digedhekake, FAQ sing dibukak lan klik kontak. Acara kita mung ngemot jeneng acara, kaca umum tanpa parameter URL utawa fragmen, lan basa. Kita ora ngirim isi pesen, keuangan, ID akun utawa isi Workspace. Pratinjau lokal ora mbukak Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Panampa lan basis</h2><p>Penerbit: Vadyslav Konohrai, Polandia; kontak:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Pangukuran opsional gumantung ing idin sampeyan. Google Analytics uga ngolah browser teknis, piranti, sesi lan informasi lokasi kira-kira. Alamat IP melu komunikasi; Google nyatakake GA4 ora nyimpen alamat IP. Iki ora nggawe data kanthi anonim. Pangolahan bisa ditindakake ing njaba EEA. Delengen<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">kabijakan privasi Google</a>lan<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 informasi data</a>.</p></article>\n          <article class=\"document-card\"><h2>Basa situs</h2><p>Pilihan basa uga tetep ing<code>localStorage</code>nganti panyimpenan browser dibusak. KOVA data akun ora disimpen ing kene.</p></article>\n          <article class=\"document-card wide\"><h2>Ganti pilihan sampeyan</h2><p>Bukak \"Setelan cookie\" ing footer lan nolak analytics, utawa mateni lan simpen. Nolak ora mbatesi situs kasebut. Penarikan mbusak cookie GA sing bisa diakses lan ngisi maneh kaca kanggo mungkasi tag. Ora bisa ngelingi data sing wis dikirim. Hubungi kita babagan hak data; sampeyan uga bisa sambat menyang panguwasa pangayoman data sing cocog. Dokumen privasi tetep bisa diwaca tanpa milih idin.</p></article>\n          <article class=\"document-card wide\"><h2>Status pra-publikasi</h2><p>Informasi rancangan dianyari 22 Oktober 2026. Integrasi mung situs web; aplikasi Offline V1 tetep bebas analytics. Sinyal Google lan idin pariwara dipateni ing kode. Sadurunge publikasi, penerbit kudu konfirmasi syarat pangolahan, transfer, GA4 retensi layanan (kapisah saka umur cookie), pangukuran sing ditingkatake otomatis dipateni, lan konfigurasi hosting. Tes lokal ora verifikasi setelan kasebut.</p></article>\n        </div>\n      </section>"
 }

@@ -15,50 +15,118 @@ export const noindexPages=new Set(['privacy','terms','cookies','404']);
 export const file=(page,lang)=>`${page}${lang==='pl'?'':'-'+lang}.html`;
 export const urlPath=(page,lang)=>page==='index'&&lang==='pl'?'/':'/'+file(page,lang);
 const titles={
- index:['KOVA — aplikacja do budżetu i finansów osobistych offline','KOVA — Offline Budget & Expense Tracker for Android','KOVA — личные финансы и учёт расходов офлайн'],
- status:['KOVA na Androida — status aplikacji i dostępność','KOVA for Android — App Status & Availability','KOVA для Android — статус и доступность приложения'],
- roadmap:['KOVA — plan wydania aplikacji finansowej offline','KOVA — Offline Finance App Release Roadmap','KOVA — план выпуска финансового приложения офлайн'],
- updates:['KOVA — aktualności i rozwój aplikacji finansowej','KOVA — Finance App News & Development Updates','KOVA — новости и развитие финансового приложения'],
- security:['KOVA — prywatność, szyfrowanie i kopie danych offline','KOVA — Privacy, Encryption & Offline Backups','KOVA — приватность, шифрование и резервные копии'],
- contact:['Kontakt z KOVA — wsparcie i pytania o aplikację','Contact KOVA — App Support & Questions','Контакты KOVA — поддержка и вопросы о приложении'],
- 'delete-account':['KOVA — usuwanie lokalnych danych i profilu','KOVA — Delete Local Data & Profiles','KOVA — удаление локальных данных и профиля'],
- privacy:['Polityka prywatności KOVA — aplikacja i strona','KOVA Privacy Policy — App & Website','Политика конфиденциальности KOVA — приложение и сайт'],
- terms:['Warunki korzystania z KOVA — projekt dokumentu','KOVA Terms of Use — Draft Document','Условия использования KOVA — проект документа'],
- cookies:['Cookies i Google Analytics na stronie KOVA','KOVA Website Cookies & Google Analytics','Cookies и Google Analytics на сайте KOVA'],
- '404':['Nie znaleziono strony — KOVA','Page Not Found — KOVA','Страница не найдена — KOVA']
+  "404": [
+    "Nie znaleziono strony — KOVA",
+    "Page Not Found — KOVA",
+    "Страница не найдена — KOVA"
+  ],
+  "index": [
+    "KOVA: Money & Budget — finanse na Androida, Free + Premium",
+    "KOVA: Money & Budget — Android finances, Free + Premium",
+    "KOVA: Money & Budget — Android финансы, Бесплатно + Premium"
+  ],
+  "status": [
+    "KOVA na Androida — status aplikacji i dostępność",
+    "KOVA for Android — App Status & Availability",
+    "KOVA для Android — статус и доступность приложения"
+  ],
+  "roadmap": [
+    "KOVA — plan wydania na Androida, Free i Premium",
+    "KOVA — Free and Premium Android Release Roadmap",
+    "KOVA — бесплатно и план выпуска Premium Android"
+  ],
+  "updates": [
+    "KOVA — aktualności i rozwój aplikacji finansowej",
+    "KOVA — Finance App News & Development Updates",
+    "KOVA — новости и развитие финансового приложения"
+  ],
+  "security": [
+    "KOVA — lokalne dane finansowe, prywatność i Premium",
+    "KOVA — Local Financial Data, Privacy & Premium",
+    "KOVA — локальные финансовые данные, конфиденциальность и Premium"
+  ],
+  "contact": [
+    "Kontakt z KOVA — wsparcie i pytania o aplikację",
+    "Contact KOVA — App Support & Questions",
+    "Контакты KOVA — поддержка и вопросы о приложении"
+  ],
+  "delete-account": [
+    "KOVA — usuwanie lokalnych danych i profilu",
+    "KOVA — Delete Local Data & Profiles",
+    "KOVA — удаление локальных данных и профиля"
+  ],
+  "privacy": [
+    "Polityka prywatności KOVA — aplikacja i strona",
+    "KOVA Privacy Policy — App & Website",
+    "Политика конфиденциальности KOVA — приложение и сайт"
+  ],
+  "terms": [
+    "Warunki KOVA Free i Premium — projekt",
+    "KOVA Free & Premium Terms — Draft",
+    "Условия KOVA Free и Premium — черновой вариант"
+  ],
+  "cookies": [
+    "Cookies i Google Analytics na stronie KOVA",
+    "KOVA Website Cookies & Google Analytics",
+    "Cookies и Google Analytics на сайте KOVA"
+  ]
 };
 const descriptions={
- index:['Poznaj KOVA: bezpłatną aplikację na Androida do wydatków, budżetu domowego i celów oszczędzania. Offline, bez konta online i reklam. W przygotowaniu.',
- 'Meet KOVA: a free Android app for expenses, budgets and savings goals. Works offline without a cloud account or ads. First public release in preparation.',
- 'KOVA — бесплатное приложение для Android: расходы, семейный бюджет и цели накоплений. Офлайн, без облачного аккаунта и рекламы. Готовится к выпуску.'],
- status:['Sprawdź dostępność KOVA Offline Free V1, zakres pierwszej wersji i pozostałe przygotowania. Publiczne pobieranie aplikacji nie jest jeszcze dostępne.',
- 'Check KOVA Offline Free V1 availability, planned features and remaining release steps. Public app downloads are not available yet.',
- 'Узнайте статус KOVA Offline Free V1, функции первой версии и оставшиеся этапы подготовки. Публичное скачивание пока недоступно.'],
- roadmap:['Plan pierwszego wydania KOVA: lokalne finanse, końcowe testy i przygotowanie do Google Play. Bez niepotwierdzonych terminów premiery.',
- 'Follow KOVA’s first-release roadmap: local finances, final testing and Google Play preparation. No unconfirmed launch dates.',
- 'План первого выпуска KOVA: локальные финансы, финальные тесты и подготовка к Google Play. Без неподтверждённых дат релиза.'],
- updates:['Aktualności projektu KOVA: aplikacja finansowa offline na Androida, sprawdzone ekrany, eksport danych i przygotowania do pierwszego wydania.',
- 'KOVA project updates: offline Android finances, authentic app screens, data export and progress toward the first public release.',
- 'Новости проекта KOVA: финансы офлайн на Android, реальные экраны, экспорт данных и подготовка первого публичного выпуска.'],
- security:['Jak KOVA przechowuje finanse lokalnie: SQLCipher, izolacja profili i ręczny eksport chroniony hasłem. Poznaj możliwości i ograniczenia ochrony danych.',
- 'How KOVA keeps finances local: SQLCipher, profile isolation and manual password-protected exports. Understand data protection and its limitations.',
- 'Как KOVA хранит финансы локально: SQLCipher, изоляция профилей и ручной экспорт с паролем. Возможности и ограничения защиты данных.'],
- contact:['Kontakt z wydawcą KOVA: contact@kovacompass.app. Pytania o aplikację, zgłaszanie problemów i sprawy prywatności. Nie przesyłaj danych finansowych.',
- 'Contact KOVA at contact@kovacompass.app for app questions, issue reports and privacy requests. Please do not send financial data.',
- 'Связь с KOVA: contact@kovacompass.app. Вопросы о приложении, сообщения об ошибках и обращения по приватности. Не отправляйте финансовые данные.'],
- 'delete-account':['Jak zarządzać danymi i usunąć lokalny profil w KOVA Offline V1. Dowiedz się, co dzieje się z eksportami i dlaczego nie ma odzyskiwania z chmury.',
- 'Manage your data and delete a local profile in KOVA Offline V1. Learn about exported copies and why cloud recovery is not available.',
- 'Управление данными и удаление локального профиля KOVA Offline V1. Что происходит с экспортами и почему нет восстановления из облака.'],
- privacy:['Projekt polityki prywatności KOVA: dane lokalne aplikacji, eksport, kontakt i opcjonalna analityka strony. Dokument wymaga zatwierdzenia przed publikacją.',
- 'Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.',
- 'Проект политики KOVA: локальные данные, экспорт, обращения и необязательная аналитика сайта. Требует утверждения до публикации.'],
- terms:['Projekt warunków KOVA Offline Free V1: zakres aplikacji, dane użytkownika, kopie zapasowe i ograniczenia szacunków finansowych.',
- 'Draft terms for KOVA Offline Free V1: app scope, user data, backups and limitations of financial estimates.',
- 'Проект условий KOVA Offline Free V1: возможности приложения, данные, резервные копии и ограничения финансовых оценок.'],
- cookies:['Jak strona KOVA używa cookies i Google Analytics wyłącznie po zgodzie. Sprawdź zakres pomiaru i sposób wycofania zgody.',
- 'How the KOVA website uses cookies and Google Analytics only after consent. See what is measured and how to withdraw your choice.',
- 'Cookies и Google Analytics на сайте KOVA — только после согласия. Что измеряется и как отозвать согласие.'],
- '404':['Ta strona KOVA nie istnieje. Wróć do aplikacji, aktualności lub kontaktu.','This KOVA page does not exist. Return to the app overview, updates or contact.','Этой страницы KOVA нет. Вернитесь к обзору приложения, новостям или контактам.']
+  "404": [
+    "Ta strona KOVA nie istnieje. Wróć do aplikacji, aktualności lub kontaktu.",
+    "This KOVA page does not exist. Return to the app overview, updates or contact.",
+    "Этой страницы KOVA нет. Вернитесь к обзору приложения, новостям или контактам."
+  ],
+  "index": [
+    "Zaplanuj wydatki, budżet i dochód z pracy w KOVA na Androida. Lokalne dane finansowe, darmowa baza i opcjonalne Premium. Pierwsze wydanie w przygotowaniu.",
+    "Plan spending, budgets and work income with KOVA for Android. Local financial data, a free base and optional Premium. First public release in preparation.",
+    "Планируйте расходы, бюджеты и доходы от работы с помощью KOVA для Android. Местные финансовые данные, бесплатная база и дополнительный Premium. Первый публичный релиз в стадии подготовки."
+  ],
+  "status": [
+    "KOVA na Androida przygotowuje pierwsze wydanie z darmową bazą i opcjonalnym Premium. Zobacz zakres, postępy i kanały premiery. Pobieranie jeszcze niedostępne.",
+    "KOVA for Android is preparing a first release with a free base and optional Premium. See the scope, progress and launch channels. Downloads are not available yet.",
+    "KOVA для Android готовит первый выпуск со свободной базой и дополнительным Premium. Ознакомьтесь с масштабами, прогрессом и каналами запуска. Загрузки пока недоступны."
+  ],
+  "roadmap": [
+    "Śledź przygotowania KOVA na Androida: darmowa baza lokalna, opcjonalne Premium, końcowe sprawdzenia i Google Play. Bez niepotwierdzonej daty premiery.",
+    "Follow preparation of KOVA’s Android release: a free local base, optional Premium, final checks and Google Play. No unconfirmed launch date.",
+    "Следите за подготовкой выпуска Android для KOVA: бесплатная локальная база, дополнительный Premium, финальные проверки и Google Play. Нет неподтвержденной даты запуска."
+  ],
+  "updates": [
+    "Aktualności projektu KOVA: aplikacja finansowa offline na Androida, sprawdzone ekrany, eksport danych i przygotowania do pierwszego wydania.",
+    "KOVA project updates: offline Android finances, authentic app screens, data export and progress toward the first public release.",
+    "Новости проекта KOVA: финансы офлайн на Android, реальные экраны, экспорт данных и подготовка первого публичного выпуска."
+  ],
+  "security": [
+    "Dane finansowe zostają na telefonie. Zobacz, jak KOVA rozdziela lokalne szyfrowanie, opcjonalne zakupy Google Play i analitykę strony zależną od zgody.",
+    "Financial records stay on your phone. Learn how KOVA separates local encryption, optional Google Play purchases and consent-based website analytics.",
+    "Финансовые отчеты остаются на вашем телефоне. Узнайте, как KOVA разделяет локальное шифрование, дополнительные покупки Google Play и аналитику веб-сайтов на основе согласия."
+  ],
+  "contact": [
+    "Kontakt z wydawcą KOVA: contact@kovacompass.app. Pytania o aplikację, zgłaszanie problemów i sprawy prywatności. Nie przesyłaj danych finansowych.",
+    "Contact KOVA at contact@kovacompass.app for app questions, issue reports and privacy requests. Please do not send financial data.",
+    "Связь с KOVA: contact@kovacompass.app. Вопросы о приложении, сообщения об ошибках и обращения по приватности. Не отправляйте финансовые данные."
+  ],
+  "delete-account": [
+    "Zarządzaj lokalnymi danymi, profilami i eksportami KOVA. Odnowienie Premium obsługuje oddzielnie Google Play; odinstalowanie nie anuluje subskrypcji.",
+    "Manage and delete local KOVA data, profiles and exports. Premium renewal is managed separately in Google Play; uninstalling does not cancel it.",
+    "Управляйте и удаляйте локальные данные, профили и экспорт KOVA. Продление Premium управляется отдельно в Google Play; удаление не отменяет его."
+  ],
+  "privacy": [
+    "Projekt polityki prywatności KOVA: dane lokalne aplikacji, eksport, kontakt i opcjonalna analityka strony. Dokument wymaga zatwierdzenia przed publikacją.",
+    "Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.",
+    "Проект политики KOVA: локальные данные, экспорт, обращения и необязательная аналитика сайта. Требует утверждения до публикации."
+  ],
+  "terms": [
+    "Projekt zasad KOVA Free i Premium: funkcje lokalne, opcjonalna subskrypcja, zakup i przywracanie Google Play, kopie i ograniczenia szacunków.",
+    "Draft KOVA Free and Premium terms: local features, optional subscription, Google Play purchase and restore, backups and the limits of estimates.",
+    "Проект условий KOVA Free и Premium: локальные функции, дополнительная подписка, покупка и восстановление Google Play, резервное копирование и пределы оценок."
+  ],
+  "cookies": [
+    "Jak strona KOVA używa cookies i Google Analytics wyłącznie po zgodzie. Sprawdź zakres pomiaru i sposób wycofania zgody.",
+    "How the KOVA website uses cookies and Google Analytics only after consent. See what is measured and how to withdraw your choice.",
+    "Cookies и Google Analytics на сайте KOVA — только после согласия. Что измеряется и как отозвать согласие."
+  ]
 };
 export const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const json=value=>JSON.stringify(value).replace(/</g,'\\u003c');
@@ -122,10 +190,10 @@ export async function prepareRenderer(root){
   if(page==='index'){
    const copy=content.home[lang];
    html=html.replace(/<([a-z][a-z0-9]*)\b([^>]*\bdata-i18n(?:-html)?="([^"]+)"[^>]*)>[\s\S]*?<\/\1>/g,(all,tag,attrs,key)=>copy[key]===undefined?all:`<${tag}${attrs}>${attrs.includes('data-i18n-html')?copy[key]:escape(copy[key])}</${tag}>`);
-   html=html.replace(/<img\b[^>]*data-i18n-alt="([^"]+)"[^>]*>/g,(all,key)=>all.replace(/alt="[^"]*"/,`alt="${escape(copy[key])}"`));
+   html=html.replace(/<img\b[^>]*data-i18n-alt="([^"]+)"[^>]*>/g,(all,key)=>all.replace(/ alt="[^"]*"/,` alt="${escape(copy[key])}"`));
    const demo=translations[lang]?.extra.demo || {pl:'fikcyjne dane demonstracyjne',en:'fictional demo data',ru:'вымышленные данные'}[lang];
    html=html.replace(/<figure data-screen-index="(\d+)">[\s\S]*?<\/figure>/g,(_,n)=>{
-    const s=content.slides[Number(n)];return `<figure data-screen-index="${n}"><button type="button" data-lightbox="${s.image}" aria-label="${escape(s.title[lang])}"><img src="${s.image}" alt="${escape(s.title[lang]+' — KOVA, '+demo)}" loading="lazy" width="1080" height="2400"></button><figcaption><b>${escape(s.title[lang])}</b><span>${escape(s.caption[lang])}</span></figcaption></figure>`;
+    const s=content.slides[Number(n)];return `<figure data-screen-index="${n}"><button type="button" data-lightbox="${s.image}" aria-label="${escape(s.title[lang])}"><img src="assets/screenshots/thumbs/${s.image.split('/').pop().replace('.png','-360.webp')}" srcset="assets/screenshots/thumbs/${s.image.split('/').pop().replace('.png','-360.webp')} 360w, assets/screenshots/thumbs/${s.image.split('/').pop().replace('.png','-720.webp')} 720w" sizes="(max-width:600px) 68vw, (max-width:900px) 28vw, 250px" alt="${escape(s.title[lang]+' — KOVA, '+demo)}" loading="lazy" width="1080" height="2400"></button><figcaption><b>${escape(s.title[lang])}</b><span>${escape(s.caption[lang])}</span></figcaption></figure>`;
    });
   }else if(content.KOVA_PROJECT_PAGES[page]){
    html=html.replace(/<div data-project-content>[\s\S]*<\/div>\s*<\/main>/,`<div data-project-content>${content.renderProject(content.KOVA_PROJECT_PAGES[page][lang])}</div>\n</main>`);
@@ -134,7 +202,8 @@ export async function prepareRenderer(root){
    html=html.replace(/(<section data-doc-lang="([^"]+)"[^>]*?)(?: hidden)?(>)/g,(_,start,l,end)=>start+(l===lang?'':' hidden')+end);
   }else if(['privacy','terms'].includes(page)){
    const kind=page==='privacy'?'privacy-policy':'terms-of-service';
-   const document=content.renderMarkdown(await read(`legal/${kind}-${lang}.md`));
+   const pending=translations[lang]?.extra.pendingDecision || {pl:'Do potwierdzenia przez właściciela przed publikacją',en:'Pending owner confirmation before publication',ru:'Ожидает подтверждения владельца перед публикацией'}[lang];
+   const document=content.renderMarkdown(await read(`legal/${kind}-${lang}.md`),pending,lang);
    const h1=/<h1[^>]*>([\s\S]*?)<\/h1>/.exec(document);
    html=html.replace(/(<h1[^>]*data-legal-page-heading>)[\s\S]*?<\/h1>/,`$1${h1?.[1]||metadata(page,lang,origin).title}</h1>`);
    html=html.replace(/(<article[^>]*data-legal-content[^>]*>)[\s\S]*?<\/article>/,`$1${document.replace(/<h1[^>]*>[\s\S]*?<\/h1>/,'')}</article>`).replace('aria-busy="true"','aria-busy="false"');

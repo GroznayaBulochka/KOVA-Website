@@ -1,0 +1,128 @@
+[
+  {
+    "source": "assets\\screenshots\\offline-demo-accounts.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-accounts-360.webp",
+    "sourceBytes": 574527,
+    "bytes": 24790,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-accounts.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-accounts-720.webp",
+    "sourceBytes": 574527,
+    "bytes": 58702,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-budgets.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-budgets-360.webp",
+    "sourceBytes": 623324,
+    "bytes": 32462,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-budgets.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-budgets-720.webp",
+    "sourceBytes": 623324,
+    "bytes": 77008,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-calendar.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-calendar-360.webp",
+    "sourceBytes": 729890,
+    "bytes": 28586,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-calendar.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-calendar-720.webp",
+    "sourceBytes": 729890,
+    "bytes": 67444,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-home.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-home-360.webp",
+    "sourceBytes": 251592,
+    "bytes": 20298,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-home.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-home-720.webp",
+    "sourceBytes": 251592,
+    "bytes": 44874,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-notes.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-notes-360.webp",
+    "sourceBytes": 656469,
+    "bytes": 20412,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-notes.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-notes-720.webp",
+    "sourceBytes": 656469,
+    "bytes": 47162,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-recurring.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-recurring-360.webp",
+    "sourceBytes": 572408,
+    "bytes": 30886,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-recurring.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-recurring-720.webp",
+    "sourceBytes": 572408,
+    "bytes": 72168,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-reports.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-reports-360.webp",
+    "sourceBytes": 665664,
+    "bytes": 25068,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-reports.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-reports-720.webp",
+    "sourceBytes": 665664,
+    "bytes": 59528,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-transactions.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-transactions-360.webp",
+    "sourceBytes": 248758,
+    "bytes": 24538,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\offline-demo-transactions.png",
+    "derivative": "assets\\screenshots\\thumbs\\offline-demo-transactions-720.webp",
+    "sourceBytes": 248758,
+    "bytes": 55788,
+    "width": 720
+  },
+  {
+    "source": "assets\\screenshots\\kova-work-income.png",
+    "derivative": "assets\\screenshots\\thumbs\\kova-work-income-360.webp",
+    "sourceBytes": 285964,
+    "bytes": 21490,
+    "width": 360
+  },
+  {
+    "source": "assets\\screenshots\\kova-work-income.png",
+    "derivative": "assets\\screenshots\\thumbs\\kova-work-income-720.webp",
+    "sourceBytes": 285964,
+    "bytes": 50164,
+    "width": 720
+  }
+]

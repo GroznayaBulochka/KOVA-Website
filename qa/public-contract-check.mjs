@@ -20,6 +20,7 @@ for (const [page, languages] of Object.entries(context.window.KOVA_PROJECT_PAGES
     for (const [heading, content] of data.cards) assert.ok(heading && content);
     for (const [, href] of data.actions) {
       if (href.startsWith('mailto:')) assert.equal(href, 'mailto:contact@kovacompass.app');
+      else if(href.startsWith('https:')) assert.ok(['https://www.instagram.com/kova_money/','https://www.tiktok.com/@kova_money'].includes(href),'Only confirmed project channels');
       else await access(resolve(root, href.split('#')[0]));
     }
     translations++;
@@ -50,7 +51,7 @@ if (process.argv[2]) {
   let documents = 0;
   for (const kind of ['privacy-policy','terms-of-service']) for (const lang of ['pl','en','ru']) {
     const name = `${kind}-${lang}.md`;
-    const app = await readFile(resolve(process.argv[2], 'docs/release/offline-legal', name),'utf8');
+    const app = await readFile(resolve(process.argv[2], 'docs/release/local-freemium-legal', name),'utf8');
     // App sources use mixed CRLF/LF and copies contain one extra trailing blank line.
     // Compare every content character, ignoring only line endings and empty lines at EOF.
     const canonical = text => text.replace(/\r\n/g,'\n').replace(/\n*$/, '\n');

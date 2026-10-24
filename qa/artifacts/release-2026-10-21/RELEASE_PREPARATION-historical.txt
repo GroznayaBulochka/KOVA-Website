@@ -1,0 +1,137 @@
+KOVA Website — Offline Free V1 preparation
+Content checkpoint: 22 October 2026 (SEO and owner-provided public document URLs)
+
+STATE
+Current changes prepared locally for the pre-release phase; not published by this task.
+The owner's existing public privacy/terms URLs returned HTTP 200 on 22 October 2026.
+Their English source text still contains DRAFT markers. Public availability is not
+legal approval, hosting qualification, or evidence that new local changes are deployed.
+Privacy Policy and Terms remain DRAFT by explicit owner instruction.
+This website does not establish that the Android application is approved for release.
+
+SOURCE OF TRUTH
+../KOVA-App/docs/release/KOVA_OFFLINE_FREE_V1_READINESS.json
+../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json
+../KOVA-App/docs/release/offline-legal/{privacy-policy,terms-of-service}-{pl,en,ru}.md
+KOVA_PHONE_OFFLINE_FREE_V1, com.kova.budget, version 1.0.8 (10).
+Local profiles, SQLCipher, local finances, bundled OCR, manual partial export/import.
+Cloud account/sync, bank APIs, Family online, AI, Wear, live quotes, Billing and ads OFF.
+App readiness: INCOMPLETE — REQUIRED TEST ENVIRONMENT MISSING.
+No launch date or Google Play listing is invented.
+
+PUBLIC CONTENT
+PL/EN/RU: home, status, roadmap, updates, security, contact, your data,
+privacy, terms, cookies and 404.
+Six legal documents are exact copies of canonical OFFLINE app drafts, not old cloud docs.
+Approved public name: Vadyslav Konohrai, Poland, private individual.
+Approved email: contact@kovacompass.app (not operationally tested).
+No private address may be inferred or published. Legal trader status is not qualified.
+13+ worldwide is intended, not an approved rating/market qualification.
+The legacy delete-account.html route now explains LOCAL deletion/export, not cloud
+account registration or a remote deletion request. External files require separate copies.
+Nine FAQ entries include backup limits, offline OCR, Android 7.0+ and audience.
+The product tour is a screenshot sequence, not a video.
+
+SCREENSHOT PROVENANCE
+Authentic Android emulator captures with synthetic data, not physical phone photos.
+Eight new captures from 2026-10-21: Home, Accounts, Transactions, Budgets/limits,
+Recurring payments, Reports, Calendar and Notes. assets/screenshots/offline-demo-*.png.
+Isolated package com.kova.budget.offlinequalification, 1.0.8 (10), KOVA_Demo emulator,
+API37 / page size 16384 / airplane mode. No physical phone or private finances used.
+Marta Nowak is fictional: 3 accounts, 214 transactions across May–October,
+5 recurring payments, 3 budget limits and 3 notes. This is a plausible scenario,
+not a claim about statistically representative income or expenditure.
+The existing DemoDataset/installer was reused. One explicit opt-in instrumentation
+test verifies exact balances and persisted records; it passed before and after UI
+capture. These are two executions of one case, not two independent test cases.
+Ordinary app onboarding, settings and navigation were used; no UI was replaced.
+Screens are Polish; website chapters/descriptions are translated into PL/EN/RU.
+The tour starts paused, has eight selectable chapters and keyboard controls.
+Raw PNGs are copied byte-for-byte, without cropping, recolouring or AI retouching.
+Exact APK, fixture, screenshot and UI hierarchy hashes:
+qa/artifacts/presentation-2026-10-21/provenance.json and runtime.json.
+Calendar includes planned occurrences; Reports show booked transactions. Their
+totals need not match. Captures illustrate existing UI, not complete release QA.
+The old intro advertises cloud account services: excluded from public build.
+Old generated dist screenshot copies were replaced; source originals remain locally.
+Byte identity is checked by qa/release-check.mjs.
+Older app screenshots remain in the local archive; they are not shipped.
+
+LOCAL COMMANDS (Node 22+, no third-party packages required)
+npm run build                 Produce only the allowlisted public dist/ files.
+npm run preview               Public artifact at http://127.0.0.1:4174/
+npm run preview:workspace     Local source + Workspace at http://127.0.0.1:4173/
+npm test                      Static, localization, legal parity and state checks.
+npm run check:release         Needs public preview; tests output and access boundaries.
+npm run test:browser          Public-only isolated headless Edge matrix.
+node qa/presentation-matrix.mjs Current nine-case home/tour PL/EN/RU browser check.
+npm run screens:sync          Regenerate the eight-screen gallery and fallback text.
+node scripts/sync-app-release.mjs Copy canonical drafts/Notes and pin source hashes.
+node qa/sync-public-copy.mjs  Regenerate Polish no-JavaScript text after copy changes.
+
+PRIVATE WORKSPACE
+The deployable output excludes workspace.html, workspace.js, workspace-access.js,
+qa/, scripts/, Git and internal evidence. Deploying the repository root is unsafe.
+workspace.css contains shared reading-page styles only; it is included intentionally.
+The localhost JavaScript guard is not server authentication. The private Workspace
+must stay on loopback or later receive real server-side access control.
+Existing browser tasks and notes are preserved. A versioned, one-time import adds
+the seven current owner/environment blockers. Historical tasks are not overwritten.
+Use the same browser and http://127.0.0.1:4173/workspace.html to retain access to
+existing notes: localStorage is origin-specific. A different port or localhost
+hostname has a different store. No storage is migrated or reset automatically.
+Browser storage/export remains the owner's responsibility; no cloud sync was added.
+
+ANALYTICS
+Website-only GA4: G-2LE3GWYDZM, basic opt-in consent, no Google requests before
+consent or after rejection. Only HTTPS kovacompass.app/www; never preview/Workspace.
+180-day versioned consent and GA cookie lifetime. Old local-counter consent is
+not reused. Withdraw via footer; accessible GA cookies removed and page reloaded.
+See GOOGLE_ANALYTICS_SETUP.txt for events, account checks and verification limits.
+Android remains offline with analytics disabled. No publication was performed.
+
+PUBLICATION BLOCKERS
+Owner confirmed kovacompass.app on 21 October 2026. Canonical origin:
+https://kovacompass.app. Owner-provided public English documents:
+https://kovacompass.app/privacy.html?lang=en
+https://kovacompass.app/terms.html?lang=en
+Read-only HTTPS checks confirmed both HTML endpoints and English Markdown files
+return HTTP 200. This does not qualify DNS/domain control, the entire hosting setup,
+legal content, or publication of the newly prepared version.
+Evidence: qa/artifacts/seo-2026-10-22/public-documents.json.
+SEO configuration, canonical language URLs and Search Console steps: SEO_SETUP.txt.
+No DNS, hosting, cloud or app configuration changes were made by this domain update.
+The store URL remains unconfirmed. Name/email/domain are approved.
+Legal qualification/approval, effective date, document publication, hosting/logging,
+support retention and inbox verification, audience/market/store/signing
+requirements and publication permission remain unresolved. --release exits 2.
+Existing historical cloud incident and owner test accounts were not touched or audited.
+No automatic publish, commit, push or store upload was performed. This screenshot
+refresh added only an opt-in Android test fixture helper; no production Android
+source, release flags or financial calculations were changed.
+The old guessed-domain sitemap and unverified security contact were removed;
+their originals remain recoverable from Git.
+The preview has noindex/nofollow and robots Disallow. These are indexing controls,
+not authentication. Do not expose drafts as the approved public legal policy.
+
+HOSTING HANDOFF
+Only dist/ is a deployment artifact. _headers targets hosts supporting that syntax.
+For another host, configure equivalent response headers explicitly and verify HTTPS,
+headers, actual 404 responses, canonical URLs and contact links after deployment.
+Never use a catch-all SPA 200 response for private paths.
+The local preview verifies a 404 for private files; production hosting is NOT VERIFIED.
+Do not approve a release by simply changing booleans without the underlying evidence.
+
+VERIFICATION
+See qa/artifacts/release-2026-10-21/ for current build pins, screenshot hashes,
+release-check.json and matrix/results.json.
+The earlier 40-case browser matrix is historical. Current presentation checks and
+their exact inputs are in qa/artifacts/presentation-2026-10-21/web-results.json.
+The browser matrix uses isolated headless Edge profiles, not the owner's Workspace
+storage or a physical phone. Human accessibility and production deployment are
+separate checks, not implied by automated PASS.
+Previous 16 October evidence remains historical, not recounted as current PASS.
+Built-in browser automation failed to initialize; existing repository headless browser
+tests provide a local fallback without touching the owner's browser profile.
+Shared language picker supports arrows/Home/End/Enter/Space/Escape/Tab and outside
+dismissal. The native select remains a no-JavaScript fallback.

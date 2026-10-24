@@ -1,3 +1,9 @@
+24 October update: current Free + optional Premium copy in all 27 supported languages.
+54 current canonical app legal drafts copied from local-freemium-legal; source hashes
+are in qa/artifacts/audit-2026-10-24/content-sources.json. Runtime loads the selected
+locale JSON; root translations.js is retained for source-preview compatibility.
+The following describes initial localization history, not the current app contract.
+
 KOVA website localization — 23 October 2026
 
 24 new machine-translated locale packs were added to the existing Polish,

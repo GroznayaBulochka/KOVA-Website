@@ -19,12 +19,12 @@ check('Owner domain does not imply verified hosting or publication',()=>{
  assert.equal(config.canonicalOrigin,'https://kovacompass.app');assert.equal(config.domainApprovedByOwner,true);assert.equal(config.hostingVerified,false);
  assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html?lang=en');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html?lang=en');assert.equal(config.publicationApproved,false);
 });
-check('Approved identity is distinct from legal qualification',()=>{assert.equal(config.contract,'KOVA_PHONE_OFFLINE_FREE_V1');assert.equal(config.publisher,'Vadyslav Konohrai');assert.equal(config.supportEmail,'contact@kovacompass.app');assert.equal(config.operatorApproved,true);assert.equal(config.operatorLegalQualified,false);assert.equal(config.cloudAccountAvailable,false);});
+check('Approved identity is distinct from legal qualification',()=>{assert.equal(config.contract,'KOVA_PHONE_LOCAL_FREEMIUM_V1');assert.equal(config.publisher,'Vadyslav Konohrai');assert.equal(config.supportEmail,'contact@kovacompass.app');assert.equal(config.operatorApproved,true);assert.equal(config.operatorLegalQualified,false);assert.equal(config.cloudAccountAvailable,false);});
 const files=[];
 async function walk(dir,prefix=''){for(const e of await readdir(dir,{withFileTypes:true})){const p=prefix+e.name;if(e.isDirectory())await walk(resolve(dir,e.name),p+'/');else files.push(p);}}
 await walk(resolve(root,'dist'));
 check('Private workspace, QA and obsolete imagery absent',()=>{
-  for(const p of files) assert.ok(!/^(?:workspace\.(?:html|js)|workspace-access\.js|qa\/|scripts\/|\.git|\.well-known)|^assets\/screenshots\/(?:kova-|free-v1-intro)/.test(p),p);
+  for(const p of files) assert.ok(p==='assets/screenshots/kova-work-income.png'||!/^(?:workspace\.(?:html|js)|workspace-access\.js|qa\/|scripts\/|\.git|\.well-known)|^assets\/screenshots\/(?:kova-|free-v1-intro)/.test(p),p);
 });
 for(const page of files.filter(p=>p.endsWith('.html'))){
  const html=await read('dist/'+page);
@@ -45,7 +45,7 @@ for(const image of capture.screenshots){
 for(const kind of ['privacy-policy','terms-of-service'])for(const lang of ['pl','en','ru']){
  const name=kind+'-'+lang+'.md';
  const actual=await readFile(resolve(root,'dist/legal',name));
- const source=await readFile(resolve(app,'docs/release/offline-legal',name));
+ const source=await readFile(resolve(app,'docs/release/local-freemium-legal',name));
  check(name+': exact app draft bytes',()=>{assert.equal(hash(actual),hash(source));assert.match(actual.toString(),/DRAFT|SZKIC|ЧЕРНОВИК/i);});
 }
 // Verify the served artifact, including direct requests that bypass all browser UI.

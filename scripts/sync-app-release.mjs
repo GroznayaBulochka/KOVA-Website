@@ -12,14 +12,14 @@ const copy=async(source,destination,kind)=>{
   await copyFile(resolve(app,source),resolve(root,destination));
   artifacts.push({source,destination,kind,sha256:hash(bytes)});
 };
-for(const kind of ['privacy-policy','terms-of-service'])for(const lang of ['pl','en','ru']) {
+for(const kind of ['privacy-policy','terms-of-service'])for(const lang of Object.keys(JSON.parse(await readFile(resolve(root,'language-registry.json'),'utf8')))) {
   const name=`${kind}-${lang}.md`;
-  await copy(`docs/release/offline-legal/${name}`,`legal/${name}`,'UNAPPROVED_OFFLINE_LEGAL_DRAFT');
+  await copy(`docs/release/local-freemium-legal/${name}`,`legal/${name}`,'UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT');
 }
 await copy('docs/release/offline-free-v1-evidence/20261021-api37-normal-ui-notes-portability/notes046-screen.png','assets/screenshots/offline-v1-notes.png','SYNTHETIC_EMULATOR_SCREENSHOT_2026_10_21');
-for(const source of ['docs/release/KOVA_OFFLINE_FREE_V1_READINESS.json','docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json']) {
+for(const source of ['docs/release/KOVA_LOCAL_FREEMIUM_V1_READINESS.json','docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json']) {
   const bytes=await readFile(resolve(app,source)); artifacts.push({source,kind:'FACT_SOURCE_PIN_NOT_PUBLISHED',sha256:hash(bytes)});
 }
 await mkdir(resolve(root,'qa/artifacts/release-2026-10-21'),{recursive:true});
-await writeFile(resolve(root,'qa/artifacts/release-2026-10-21/app-source-pins.json'),JSON.stringify({recordedAt:new Date().toISOString(),contract:'KOVA_PHONE_OFFLINE_FREE_V1',artifacts},null,2));
-console.log('Copied six canonical offline drafts and the authentic Notes screenshot. Pinned local source evidence.');
+await writeFile(resolve(root,'qa/artifacts/release-2026-10-21/app-source-pins.json'),JSON.stringify({recordedAt:new Date().toISOString(),contract:'KOVA_PHONE_LOCAL_FREEMIUM_V1',artifacts},null,2));
+console.log('Copied 54 canonical local Freemium drafts and the authentic Notes screenshot. Pinned local source evidence.');

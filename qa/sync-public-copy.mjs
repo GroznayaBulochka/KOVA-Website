@@ -30,7 +30,7 @@ home = home.replace(/<([a-z][a-z0-9]*)\b([^>]*\bdata-i18n(?:-html)?="([^"]+)"[^>
   const value = context.window.copy.pl[key];
   return value === undefined ? all : `<${tag}${attrs}>${attrs.includes('data-i18n-html') ? value : esc(value)}</${tag}>`;
 });
-home = home.replace(/<img\b[^>]*data-i18n-alt="([^"]+)"[^>]*>/g,(all,key)=>all.replace(/alt="[^"]*"/,`alt="${esc(context.window.copy.pl[key])}"`));
+home = home.replace(/<img\b[^>]*data-i18n-alt="([^"]+)"[^>]*>/g,(all,key)=>all.replace(/ alt="[^"]*"/,` alt="${esc(context.window.copy.pl[key])}"`));
 home = home.replace(/<meta (name="description"|property="og:description") content="[^"]*" \/>/g,(_,attr)=>`<meta ${attr} content="${esc(context.window.copy.pl.heroCopy)}" />`);
 await writeFile(resolve(root,'index.html'),home);
 console.log('Synchronized public Polish fallbacks and metadata.');
@@ -40,8 +40,7 @@ for (const page of ['index','status','roadmap','updates','security','contact','d
   if (['privacy','terms'].includes(page)) {
     const publicUrl = page === 'privacy' ? release.publicPolicyUrl : release.publicTermsUrl;
     if(publicUrl!==`https://kovacompass.app/${page}.html?lang=en`)throw new Error(`Unapproved public document URL: ${page}`);
-    html = html.replaceAll('KOVA Free V1','KOVA Offline Free V1')
-      .replace(/<p class="document-notice" data-legal-review[^>]*>[\s\S]*?<\/p>/,`<p class="document-notice" data-legal-review data-public-document-url="${esc(publicUrl)}">Projekt Offline V1: nazwisko, e-mail i domena zatwierdzone przez wydawcę. Publiczny adres wskazany przez właściciela: <a data-public-document-link href="${esc(publicUrl)}" target="_blank" rel="noopener noreferrer">${esc(publicUrl)}</a>. Dostępność HTTP potwierdzona 22.10.2026; pełna kwalifikacja hostingu, data obowiązywania i zatwierdzenie treści prawnej pozostają do wykonania.</p>`);
+    html = html.replaceAll('KOVA Offline Free V1','KOVA: Money & Budget');
   }
   if (page === 'cookies') html = html.replaceAll('16 października 2026','21 października 2026').replaceAll('16 October 2026','21 October 2026').replaceAll('16 октября 2026','21 октября 2026');
   if (!html.includes('src="language-picker.js"')) {

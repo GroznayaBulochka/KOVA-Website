@@ -1,0 +1,116 @@
+{
+  "titles": {
+    "404": [
+      "Nie znaleziono strony — KOVA",
+      "Page Not Found — KOVA",
+      "Страница не найдена — KOVA"
+    ],
+    "index": [
+      "KOVA — aplikacja do budżetu i finansów osobistych offline",
+      "KOVA — Offline Budget & Expense Tracker for Android",
+      "KOVA — личные финансы и учёт расходов офлайн"
+    ],
+    "status": [
+      "KOVA na Androida — status aplikacji i dostępność",
+      "KOVA for Android — App Status & Availability",
+      "KOVA для Android — статус и доступность приложения"
+    ],
+    "roadmap": [
+      "KOVA — plan wydania aplikacji finansowej offline",
+      "KOVA — Offline Finance App Release Roadmap",
+      "KOVA — план выпуска финансового приложения офлайн"
+    ],
+    "updates": [
+      "KOVA — aktualności i rozwój aplikacji finansowej",
+      "KOVA — Finance App News & Development Updates",
+      "KOVA — новости и развитие финансового приложения"
+    ],
+    "security": [
+      "KOVA — prywatność, szyfrowanie i kopie danych offline",
+      "KOVA — Privacy, Encryption & Offline Backups",
+      "KOVA — приватность, шифрование и резервные копии"
+    ],
+    "contact": [
+      "Kontakt z KOVA — wsparcie i pytania o aplikację",
+      "Contact KOVA — App Support & Questions",
+      "Контакты KOVA — поддержка и вопросы о приложении"
+    ],
+    "delete-account": [
+      "KOVA — usuwanie lokalnych danych i profilu",
+      "KOVA — Delete Local Data & Profiles",
+      "KOVA — удаление локальных данных и профиля"
+    ],
+    "privacy": [
+      "Polityka prywatności KOVA — aplikacja i strona",
+      "KOVA Privacy Policy — App & Website",
+      "Политика конфиденциальности KOVA — приложение и сайт"
+    ],
+    "terms": [
+      "Warunki korzystania z KOVA — projekt dokumentu",
+      "KOVA Terms of Use — Draft Document",
+      "Условия использования KOVA — проект документа"
+    ],
+    "cookies": [
+      "Cookies i Google Analytics na stronie KOVA",
+      "KOVA Website Cookies & Google Analytics",
+      "Cookies и Google Analytics на сайте KOVA"
+    ]
+  },
+  "descriptions": {
+    "404": [
+      "Ta strona KOVA nie istnieje. Wróć do aplikacji, aktualności lub kontaktu.",
+      "This KOVA page does not exist. Return to the app overview, updates or contact.",
+      "Этой страницы KOVA нет. Вернитесь к обзору приложения, новостям или контактам."
+    ],
+    "index": [
+      "Poznaj KOVA: bezpłatną aplikację na Androida do wydatków, budżetu domowego i celów oszczędzania. Offline, bez konta online i reklam. W przygotowaniu.",
+      "Meet KOVA: a free Android app for expenses, budgets and savings goals. Works offline without a cloud account or ads. First public release in preparation.",
+      "KOVA — бесплатное приложение для Android: расходы, семейный бюджет и цели накоплений. Офлайн, без облачного аккаунта и рекламы. Готовится к выпуску."
+    ],
+    "status": [
+      "Sprawdź dostępność KOVA Offline Free V1, zakres pierwszej wersji i pozostałe przygotowania. Publiczne pobieranie aplikacji nie jest jeszcze dostępne.",
+      "Check KOVA Offline Free V1 availability, planned features and remaining release steps. Public app downloads are not available yet.",
+      "Узнайте статус KOVA Offline Free V1, функции первой версии и оставшиеся этапы подготовки. Публичное скачивание пока недоступно."
+    ],
+    "roadmap": [
+      "Plan pierwszego wydania KOVA: lokalne finanse, końcowe testy i przygotowanie do Google Play. Bez niepotwierdzonych terminów premiery.",
+      "Follow KOVA’s first-release roadmap: local finances, final testing and Google Play preparation. No unconfirmed launch dates.",
+      "План первого выпуска KOVA: локальные финансы, финальные тесты и подготовка к Google Play. Без неподтверждённых дат релиза."
+    ],
+    "updates": [
+      "Aktualności projektu KOVA: aplikacja finansowa offline na Androida, sprawdzone ekrany, eksport danych i przygotowania do pierwszego wydania.",
+      "KOVA project updates: offline Android finances, authentic app screens, data export and progress toward the first public release.",
+      "Новости проекта KOVA: финансы офлайн на Android, реальные экраны, экспорт данных и подготовка первого публичного выпуска."
+    ],
+    "security": [
+      "Jak KOVA przechowuje finanse lokalnie: SQLCipher, izolacja profili i ręczny eksport chroniony hasłem. Poznaj możliwości i ograniczenia ochrony danych.",
+      "How KOVA keeps finances local: SQLCipher, profile isolation and manual password-protected exports. Understand data protection and its limitations.",
+      "Как KOVA хранит финансы локально: SQLCipher, изоляция профилей и ручной экспорт с паролем. Возможности и ограничения защиты данных."
+    ],
+    "contact": [
+      "Kontakt z wydawcą KOVA: contact@kovacompass.app. Pytania o aplikację, zgłaszanie problemów i sprawy prywatności. Nie przesyłaj danych finansowych.",
+      "Contact KOVA at contact@kovacompass.app for app questions, issue reports and privacy requests. Please do not send financial data.",
+      "Связь с KOVA: contact@kovacompass.app. Вопросы о приложении, сообщения об ошибках и обращения по приватности. Не отправляйте финансовые данные."
+    ],
+    "delete-account": [
+      "Jak zarządzać danymi i usunąć lokalny profil w KOVA Offline V1. Dowiedz się, co dzieje się z eksportami i dlaczego nie ma odzyskiwania z chmury.",
+      "Manage your data and delete a local profile in KOVA Offline V1. Learn about exported copies and why cloud recovery is not available.",
+      "Управление данными и удаление локального профиля KOVA Offline V1. Что происходит с экспортами и почему нет восстановления из облака."
+    ],
+    "privacy": [
+      "Projekt polityki prywatności KOVA: dane lokalne aplikacji, eksport, kontakt i opcjonalna analityka strony. Dokument wymaga zatwierdzenia przed publikacją.",
+      "Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.",
+      "Проект политики KOVA: локальные данные, экспорт, обращения и необязательная аналитика сайта. Требует утверждения до публикации."
+    ],
+    "terms": [
+      "Projekt warunków KOVA Offline Free V1: zakres aplikacji, dane użytkownika, kopie zapasowe i ograniczenia szacunków finansowych.",
+      "Draft terms for KOVA Offline Free V1: app scope, user data, backups and limitations of financial estimates.",
+      "Проект условий KOVA Offline Free V1: возможности приложения, данные, резервные копии и ограничения финансовых оценок."
+    ],
+    "cookies": [
+      "Jak strona KOVA używa cookies i Google Analytics wyłącznie po zgodzie. Sprawdź zakres pomiaru i sposób wycofania zgody.",
+      "How the KOVA website uses cookies and Google Analytics only after consent. See what is measured and how to withdraw your choice.",
+      "Cookies и Google Analytics на сайте KOVA — только после согласия. Что измеряется и как отозвать согласие."
+    ]
+  }
+}

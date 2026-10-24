@@ -8,6 +8,7 @@
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
     if (!main.querySelector(`[data-doc-lang="${code}"]`)) main.insertAdjacentHTML('beforeend',data.cookies);
   }
+  window.addEventListener('kova:locale-loaded', ({detail:{code,data}}) => {if(!main.querySelector(`[data-doc-lang="${code}"]`))main.insertAdjacentHTML('beforeend',data.cookies);});
   const applyLanguage = nextLanguage => {
     language = supported.has(nextLanguage) ? nextLanguage : 'pl';
     document.documentElement.lang = language;

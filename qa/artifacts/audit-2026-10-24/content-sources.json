@@ -1,0 +1,292 @@
+{
+  "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
+  "publisherSource": "../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
+  "languageReview": "New marketing translations are machine-assisted; native-language review pending. Legal documents copied without editing.",
+  "legalFiles": [
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-en.md",
+      "destination": "legal\\privacy-policy-en.md",
+      "sha256": "c16801be329b4c23129e230024946292dc63e1afe876a09114eda32a74f5b0c1"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-en.md",
+      "destination": "legal\\terms-of-service-en.md",
+      "sha256": "d8a13f48b0b11b9fe897045020212bf2180c052d96a0339067dfe59477f506a6"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-pl.md",
+      "destination": "legal\\privacy-policy-pl.md",
+      "sha256": "1c5a009476c430382890ce5f84972b88e084a4b29856118166a6cf3786afb7a9"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-pl.md",
+      "destination": "legal\\terms-of-service-pl.md",
+      "sha256": "2a2a80de8ae5790c7ea0bca518e0bebc9aecb4091aa7fe73fe785a0982859d3e"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-zh.md",
+      "destination": "legal\\privacy-policy-zh.md",
+      "sha256": "42d2e1c6c76d0aad400bff56dee706f191ff7dff9ffd7a95607daa82fc0c6051"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-zh.md",
+      "destination": "legal\\terms-of-service-zh.md",
+      "sha256": "dc6d47194ee8a72a9d91bebd6b0ec5812b0f169d5299cbd7ea7aff95766d5115"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-yue.md",
+      "destination": "legal\\privacy-policy-yue.md",
+      "sha256": "1afb4ec638e4fc8c48db0b1d85bdbac24b18ab7cd20c49b33781bda6395ec5b8"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-yue.md",
+      "destination": "legal\\terms-of-service-yue.md",
+      "sha256": "2081f2efd1ac0802247e8d8c8c40749aee52eb25be352026f8e3006933adfc6d"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-es.md",
+      "destination": "legal\\privacy-policy-es.md",
+      "sha256": "37c5b9fdbcfa4b7b0200d2e342fe06a197a5352c95d4ee967d7f47093f4e2965"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-es.md",
+      "destination": "legal\\terms-of-service-es.md",
+      "sha256": "5aca5ec7e40b1386defdc2f3e6763fb21c84a96332971083d8cc7aea0b02fcf2"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ar.md",
+      "destination": "legal\\privacy-policy-ar.md",
+      "sha256": "39681e0fef09b22582159899779fb96f808d8bf30d04047c25edd6f7526b611c"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ar.md",
+      "destination": "legal\\terms-of-service-ar.md",
+      "sha256": "13a7247e6d3cfa810effe378694dc1ce4ab9721bf978570e10c318e5c8c4e15d"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-hi.md",
+      "destination": "legal\\privacy-policy-hi.md",
+      "sha256": "8f9d833243992a4de41a449cde13e3c5ad45efae087636a89e2cb389f5b1b25b"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-hi.md",
+      "destination": "legal\\terms-of-service-hi.md",
+      "sha256": "0f02a6b6dd11e7b1634128390d607fafed61727dc90e4011270d37282cfe0868"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-bn.md",
+      "destination": "legal\\privacy-policy-bn.md",
+      "sha256": "1e3326388933589fc09a326d41f8b39d945210c4560e7bbdb2a149669b8c566e"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-bn.md",
+      "destination": "legal\\terms-of-service-bn.md",
+      "sha256": "0da02ae62308f032d8d33a073caf2bd6007faa56574da86b1788ae45d2dda629"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-pt.md",
+      "destination": "legal\\privacy-policy-pt.md",
+      "sha256": "f0387e4692f01b195a0e71be1ad61672a17a0f204a0b4650be7eaa36f5821c00"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-pt.md",
+      "destination": "legal\\terms-of-service-pt.md",
+      "sha256": "ae4d4529fb850b18cc2ca1a19935a0f7f33618312414220c8945c2b6078a6eea"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ru.md",
+      "destination": "legal\\privacy-policy-ru.md",
+      "sha256": "4f0462c1f4003c0644656ee165943bd493c7a0afbc8ef0a24c7e2f58976b6bb0"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ru.md",
+      "destination": "legal\\terms-of-service-ru.md",
+      "sha256": "3570fe48f81edbdd877d3381ee35c7349938e235ac6fca17f543b696f488b341"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-uk.md",
+      "destination": "legal\\privacy-policy-uk.md",
+      "sha256": "754d96d272cc62bf9c1bad8848f61247453716e22939f94082f82d91b9a5541a"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-uk.md",
+      "destination": "legal\\terms-of-service-uk.md",
+      "sha256": "c74b6416a94b23cd16bdfe33657c81f60cd152d350e41a8cdfa982542caf29ec"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ja.md",
+      "destination": "legal\\privacy-policy-ja.md",
+      "sha256": "4f2ec8a58f8312f5b686c7dead44e76ff39252fac4db613247e2fc1de7b0c8ac"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ja.md",
+      "destination": "legal\\terms-of-service-ja.md",
+      "sha256": "a54ac95efc0e504f8d7035deb1d564b4f2623e9c06ff2e12441fa8e0bed8ba4b"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-pnb.md",
+      "destination": "legal\\privacy-policy-pnb.md",
+      "sha256": "198003d66a86ab88f301a62ad6e5054f1936436be2efc36e0899c74c86b3c1a7"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-pnb.md",
+      "destination": "legal\\terms-of-service-pnb.md",
+      "sha256": "0374b19acebaebdc52d71c06a6ce58022cac305d1d483ac8c0e889bc051347d1"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-jv.md",
+      "destination": "legal\\privacy-policy-jv.md",
+      "sha256": "5f9b3bf8d8da20ee61acbc246ed36b9ba00028979627e442e10a4797649c9e39"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-jv.md",
+      "destination": "legal\\terms-of-service-jv.md",
+      "sha256": "2d8a95441a23b7fdb6b3394465a9711ed7d6ee596fbaf47e315cb13d1321468a"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ko.md",
+      "destination": "legal\\privacy-policy-ko.md",
+      "sha256": "0dd4d08ee625882b111711a59f441d23a264d5f5ffc866a3283a2016aa4314b5"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ko.md",
+      "destination": "legal\\terms-of-service-ko.md",
+      "sha256": "90b1c850b3ca5660a94da082e947d7131c9965fd260e652ccd8ff76dea476f84"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-de.md",
+      "destination": "legal\\privacy-policy-de.md",
+      "sha256": "7058f7ff77e6b6ff85a17ae2b4b7fd57cc7f4ee0501d5d7b1b1555b2cbe1718e"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-de.md",
+      "destination": "legal\\terms-of-service-de.md",
+      "sha256": "21d9417da17f2376e242d5e243af51bc47a77dd2b7579bae7b3a016aac47eddd"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-fr.md",
+      "destination": "legal\\privacy-policy-fr.md",
+      "sha256": "09e3a76ac9ed02bbecd181fda14615e8380589311cb41f49265db57f429abb66"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-fr.md",
+      "destination": "legal\\terms-of-service-fr.md",
+      "sha256": "18f09042a083023579083ebe920a33634bee5064d17d0d4838ff562f19238948"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-te.md",
+      "destination": "legal\\privacy-policy-te.md",
+      "sha256": "d55c44af8fa7209ee862646da5662859e314d6d8be9df9d64a95b88e8f041f5a"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-te.md",
+      "destination": "legal\\terms-of-service-te.md",
+      "sha256": "5cb4214c9983483aa5f23520a1e7cf740e4880d3850764aa4ef0ec6d95f31280"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-mr.md",
+      "destination": "legal\\privacy-policy-mr.md",
+      "sha256": "d2ee05498211cac291d437ab7132e2bbd298bf7eaedfeb4f23bade5febab16a1"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-mr.md",
+      "destination": "legal\\terms-of-service-mr.md",
+      "sha256": "16ecac54534d062bea9debcbf9950604ac56d24f6fd57fb18417bab8452f684b"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-tr.md",
+      "destination": "legal\\privacy-policy-tr.md",
+      "sha256": "35cc71c2c4ca9400451b094b059b482af04d2a3ddb2e68a25356ca2767511d55"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-tr.md",
+      "destination": "legal\\terms-of-service-tr.md",
+      "sha256": "4dd0551bf3e25f1dcbea0e7967aeb3e26f0e8de7026e617187c9f0d6f7b59b54"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ur.md",
+      "destination": "legal\\privacy-policy-ur.md",
+      "sha256": "b949fb7bd251a975e99f6037138448c3258484059c60ef62beef391a6b212ce4"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ur.md",
+      "destination": "legal\\terms-of-service-ur.md",
+      "sha256": "f76b16e680f1307f9e8ceeab98945cec9181da531ca3b9d344213957e1e1d923"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-vi.md",
+      "destination": "legal\\privacy-policy-vi.md",
+      "sha256": "9b6f33cee9123227b5482fcedd92efec41e0e827b32a3405453fe013955648bd"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-vi.md",
+      "destination": "legal\\terms-of-service-vi.md",
+      "sha256": "135c09cafa2764d9e09eccaf748f4f531c6970a1040870c259335420337bc629"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ta.md",
+      "destination": "legal\\privacy-policy-ta.md",
+      "sha256": "dd776101902f01052ecac47d11beb90856444f582b6a0bfac71e12fed39d32b7"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ta.md",
+      "destination": "legal\\terms-of-service-ta.md",
+      "sha256": "ad171514727dd4d7d8e12b46bc06b0a6af46eeab209ee772181daa6dfa7c7c50"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-it.md",
+      "destination": "legal\\privacy-policy-it.md",
+      "sha256": "0e8252e922fda6cc38568e6823cce98f085e1f16d5176ed405778a2b51d3b998"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-it.md",
+      "destination": "legal\\terms-of-service-it.md",
+      "sha256": "b65f225bc94065b61c868e01782fba7541e12d191205d84bbf1ce4a0928ee626"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-fa.md",
+      "destination": "legal\\privacy-policy-fa.md",
+      "sha256": "a878938df49910f3a1e07d2ffe899a23bee47c441620a99fd153c9fcca0c2d99"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-fa.md",
+      "destination": "legal\\terms-of-service-fa.md",
+      "sha256": "062fda65acd72f016aa6f2da0a154c73a2fc151fb50c541cb85a266177b99a86"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-sw.md",
+      "destination": "legal\\privacy-policy-sw.md",
+      "sha256": "b699050a63826e09d1dbf7dda1e4b4481ef482c9634b9c31d537d20342338bdb"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-sw.md",
+      "destination": "legal\\terms-of-service-sw.md",
+      "sha256": "ae5444ea48e341c4796694e38707a5c3c30a40da570f0f68b678277e5f713618"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\privacy-policy-ms.md",
+      "destination": "legal\\privacy-policy-ms.md",
+      "sha256": "2453298e32faa7bec62910c5f04f7ac6d567c3653462321c28d030cdfd5e5f09"
+    },
+    {
+      "source": "docs\\release\\local-freemium-legal\\terms-of-service-ms.md",
+      "destination": "legal\\terms-of-service-ms.md",
+      "sha256": "ed27d2ae01e9de1e9cfaae2835b01073ab980b6f4fe26166294bf8bdd4b42caf"
+    }
+  ],
+  "additionalScreenshot": {
+    "file": "assets/screenshots/kova-work-income.png",
+    "sha256": "0fc7dec06ea7aa535fadf62e313deda2e50f310863dcc32aa1f34bd93ab6a55d",
+    "provenance": "Existing repository app screen, retained without retouching; labelled earlier demonstration. Not a new release-candidate capture."
+  },
+  "factSourceHashes": [
+    {
+      "source": "docs\\release\\OWNER_CONFIRMED_LEGAL_FACTS.json",
+      "sha256": "63f76eb8cdc65d1357275e1a375a63f105dbeeaf1051d1d91e6956ce4ef9de94"
+    },
+    {
+      "source": "docs\\release\\KOVA_LOCAL_FREEMIUM_V1_READINESS.json",
+      "sha256": "b53be268b92f71c8f127c99772d85dcdccf85a9e4d73f0282c5014fed7a1e4c0"
+    }
+  ]
+}

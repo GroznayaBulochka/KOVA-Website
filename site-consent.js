@@ -11,7 +11,7 @@
   const page = normalized ? normalized.page + '.html' : location.pathname === '/' ? 'index.html' : location.pathname.slice(1);
   if (!pages.has(page)) return;
   const publicHost = location.protocol === 'https:' && ['kovacompass.app','www.kovacompass.app'].includes(location.hostname) && !location.port;
-  const events = new Set(['presentation_open','presentation_play','presentation_select','screenshot_open','faq_open','contact_click']);
+  const events = new Set(['presentation_open','presentation_play','presentation_select','screenshot_open','faq_open','contact_click','primary_cta','social_click','google_play_click']);
   const read = () => {
     try { return document.cookie.split(';').map(s => s.trim()).find(s => s.startsWith(COOKIE + '='))?.slice(COOKIE.length + 1) || ''; }
     catch { return ''; }
@@ -43,9 +43,14 @@
   function eligible() {
     return publicHost && consent === 'analytics' && read() === 'analytics';
   }
-  function track(name) {
+  function track(name, context = {}) {
     if (!events.has(name) || !started || !eligible()) return false;
-    window.gtag('event', name, {send_to:ID, page_location:pageLocation(), page_title:page, language:lang()});
+    // Only fixed categories are accepted. Never send a destination URL or query.
+    const safe={};
+    if(['hero','closing'].includes(context.placement))safe.placement=context.placement;
+    if(['instagram','tiktok'].includes(context.channel))safe.channel=context.channel;
+    if(['follow_launch','google_play'].includes(context.action))safe.action=context.action;
+    window.gtag('event', name, {send_to:ID, page_location:pageLocation(), page_title:page, language:lang(),...safe});
     return true;
   }
   function start() {
@@ -124,6 +129,7 @@
     }
   };
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) copy[code]=data.consent;
+  window.addEventListener('kova:locale-loaded', ({detail:{code,data}}) => {copy[code]=data.consent;});
   const dialog = document.createElement('dialog');
   dialog.className = 'consent-dialog';
   dialog.dataset.cookieBanner = '';
@@ -186,7 +192,16 @@
   document.addEventListener('visibilitychange', () => { if (!document.hidden) reconcile(); });
   document.addEventListener('click', event => {
     const el = event.target instanceof Element ? event.target : null;
-    if (el?.closest('[data-video-open]')) track('presentation_open');
+    const primary=el?.closest('[data-primary-cta]');
+    const social=el?.closest('a[href]');
+    if(primary){
+      const action=primary.dataset.ctaAction || 'follow_launch';
+      track('primary_cta',{placement:primary.dataset.ctaLocation,action});
+      if(action==='google_play')track('google_play_click');
+      else track('social_click',{channel:'instagram'});
+    }
+    else if(social && /^https:\/\/www\.(?:instagram\.com\/kova_money\/|tiktok\.com\/@kova_money)$/.test(social.href)) track('social_click',{channel:social.href.includes('instagram.com')?'instagram':'tiktok'});
+    else if (el?.closest('[data-video-open]')) track('presentation_open');
     else if (el?.closest('[data-video-play]')?.querySelector('use')?.getAttribute('href')?.endsWith('#pause')) track('presentation_play');
     else if (el?.closest('[data-video-chapter]')) track('presentation_select');
     else if (el?.closest('[data-lightbox]')) track('screenshot_open');

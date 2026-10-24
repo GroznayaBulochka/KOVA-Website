@@ -15,7 +15,9 @@ for(const lang of ['pl','en','ru'])for(const kind of ['privacy-policy','terms-of
   assert.equal((rendered.match(/<h2 /g)||[]).length,(source.match(/^## /gm)||[]).length);
   assert.ok(rendered.includes('Vadyslav Konohrai'));
   assert.ok(rendered.includes('contact@kovacompass.app'));
-  assert.ok(rendered.includes('OWNER_INPUT_REQUIRED'));
+  assert.ok(source.includes('OWNER_INPUT_REQUIRED'),'Do not silently approve missing legal facts');
+  assert.ok(rendered.includes('Pending owner confirmation before publication'));
+  assert.ok(!rendered.includes('OWNER_INPUT_REQUIRED'),'Show readable pending status');
   checked++;
 }
 assert.ok(!context.inline('[bad](javascript:evil)').includes('href="javascript:'));
@@ -26,7 +28,8 @@ const copy={window:{}};
 vm.runInNewContext(landing.slice(landing.indexOf('  const dictionaries'),landing.indexOf('  const videoSlides'))+';window.copy=dictionaries;',copy);
 for(const lang of ['pl','en','ru']) {
   const data=copy.window.copy[lang];
-  assert.ok(data.heroKicker.includes('Offline'));
+  assert.ok(data.heroKicker.includes('Android'));
+  assert.ok(data.faqFreeA.includes('Premium'));
   for(const key of ['faqBackupA','faqOcrA','faqDeviceA','factAccount','faqOfflineA'])assert.ok(data[key].length>5);
   assert.ok(!/Google.*(?:wymagają|need|нужен)/.test(data.secureOnlineCopy));
 }

@@ -177,6 +177,11 @@ html:has(.consent-dialog[open]) { overflow:hidden; }
 .language-option span:first-child { unicode-bidi:plaintext; }
 html[dir="rtl"] .language-options { right:auto; left:0; }
 html[dir="rtl"] .consent-dialog { text-align:right; }
+/* Keep the first visit readable without weakening either privacy choice. */
+.consent-dialog{inset:auto 20px 20px auto;margin:0;width:min(480px,calc(100% - 40px));padding:24px;border-radius:20px;font-size:14px;max-height:calc(100dvh - 40px)}
+.consent-dialog::backdrop{background:#07100935;backdrop-filter:none}.consent-dialog .consent-mark,.consent-dialog .consent-kicker{display:none}.consent-dialog h2{font-size:23px;margin-bottom:12px}.consent-dialog #consent-body{font-size:13px;line-height:1.7}.consent-dialog .consent-note{font-size:12px;padding:10px 12px}.consent-actions{margin-top:16px;gap:10px}.consent-dialog .consent-actions button{font-size:13px;min-height:46px;padding:10px 12px}.consent-dialog .consent-settings{margin-bottom:4px}.consent-dialog .consent-foot{margin-bottom:0}.consent-links a{min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:480px){.consent-dialog{inset:auto 12px 12px;margin:0;width:calc(100% - 24px);padding:20px;max-height:calc(100dvh - 24px)}.consent-actions{grid-template-columns:1fr 1fr}.consent-dialog .consent-actions button{overflow-wrap:anywhere}}
+@media(max-width:600px){.public-footer nav a,.footer-bottom a,.seo-language-links a{min-height:44px}.seo-language-links a{padding-block:11px}}
 html[dir="rtl"] .language-chevron { margin-left:0; margin-right:4px; }
 html[dir="rtl"] .document-back .icon { transform:rotate(180deg); }
 html[dir="rtl"] .consent-dialog input,html[dir="rtl"] .document-card { text-align:start; }

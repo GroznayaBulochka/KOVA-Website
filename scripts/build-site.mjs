@@ -4,8 +4,10 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 import {pages,languages,file,prepareRenderer,sitemap,robots} from './seo.mjs';
+import {publicRelease} from './release-data.mjs';
 const root = fileURLToPath(new URL('..',import.meta.url));
 const config = JSON.parse(await readFile(resolve(root,'release-config.json'),'utf8'));
+await writeFile(resolve(root,'release-public.js'),'// Generated from release-config.json.\nwindow.KOVA_RELEASE = '+JSON.stringify(publicRelease(config))+';\n');
 if (process.argv.includes('--release')) {
   const missing = ['operatorApproved','operatorLegalQualified','supportContactApproved','supportContactOperationallyVerified','domainApprovedByOwner','hostingVerified','legalApproved','publicationApproved'].filter(key=>config[key]!==true);
   if (config.websiteAnalytics?.accountConfigurationVerified !== true) missing.push('websiteAnalytics.accountConfigurationVerified');
@@ -19,9 +21,12 @@ const renderSeo=await prepareRenderer(new URL('../',import.meta.url));
 const files=[
   ...pages.map(p=>p+'.html'),
   'landing.css','site-ui.css','styles.css','workspace.css',
-  'language-config.js','language-options.js','translations.js','landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js',
-  'site.webmanifest','assets/logo.svg','assets/icons.svg','assets/hero-visual.webp','assets/social/kova.png',
+  'language-config.js','language-options.js','translations.js','landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js','runtime-bootstrap.js','release-public.js','site-release.js',
+  'site.webmanifest','CNAME','assets/logo.svg','assets/icons.svg','assets/hero-visual.webp','assets/social/kova.png',
   ...['home','accounts','transactions','budgets','recurring','reports','calendar','notes'].map(id=>`assets/screenshots/offline-demo-${id}.png`),
+  'assets/screenshots/kova-work-income.png',
+  ...['offline-demo-home','offline-demo-accounts','offline-demo-transactions','offline-demo-budgets','offline-demo-recurring','offline-demo-reports','offline-demo-calendar','offline-demo-notes','kova-work-income'].flatMap(id=>[360,720].map(width=>`assets/screenshots/thumbs/${id}-${width}.webp`)),
+  ...languages.filter(l=>!['pl','en','ru'].includes(l)).map(l=>`locales/${l}.json`),
   ...['privacy-policy','terms-of-service'].flatMap(k=>languages.map(l=>`legal/${k}-${l}.md`))
 ];
 // Fail on unexpected output instead of deleting or accidentally shipping old private files.
@@ -51,8 +56,11 @@ for(const name of files) {
     for(const language of languages){
       const target=file(page,language);
       const rendered=await renderSeo(html,page,language,config.canonicalOrigin,isRelease);
-      await writeFile(resolve(out,target),rendered);
-      if(language!=='pl')pins.push({file:target,bytes:Buffer.byteLength(rendered),sha256:createHash('sha256').update(rendered).digest('hex')});
+      const scripts=[];
+      let optimized=rendered.replace(/<script\b[^>]*src="([^"]+)"[^>]*\bdefer[^>]*><\/script>/g,(tag,src)=>{if(src!=='translations.js')scripts.push(src);return '';});
+      optimized=optimized.replace('</body>',`<script type="application/json" id="kova-runtime-scripts">${JSON.stringify(scripts)}</script><script src="runtime-bootstrap.js" defer></script>\n</body>`);
+      await writeFile(resolve(out,target),optimized);
+      if(language!=='pl')pins.push({file:target,bytes:Buffer.byteLength(optimized),sha256:createHash('sha256').update(optimized).digest('hex')});
     }
   } else await copyFile(resolve(root,name),dest);
   const bytes=await readFile(dest); pins.push({file:name,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')});

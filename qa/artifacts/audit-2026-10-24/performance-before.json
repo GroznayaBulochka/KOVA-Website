@@ -1,0 +1,58 @@
+{
+  "label": "before",
+  "measuredAt": "2026-10-24T18:06:41.954Z",
+  "environment": "Isolated headless Edge on Windows; local HTTP static preview; cold browser cache; 390x844; simulated 150ms latency / 1.6Mbps down / 750Kbps up / 4x CPU slowdown; EN; analytics rejected; three runs. Not Lighthouse or field/Core Web Vitals data.",
+  "runs": [
+    {
+      "lcp": 3972,
+      "cls": 0.0012558106492096212,
+      "fcp": 2240,
+      "domContentLoaded": 11957.300000011921,
+      "load": 12124.899999976158,
+      "transferBytes": 2217968,
+      "resources": 22,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0"
+    },
+    {
+      "lcp": 1132,
+      "cls": 0.130877735051494,
+      "fcp": 1032,
+      "domContentLoaded": 11727.5,
+      "load": 11800.800000011921,
+      "transferBytes": 2209316,
+      "resources": 20,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0"
+    },
+    {
+      "lcp": 1048,
+      "cls": 0,
+      "fcp": 976,
+      "domContentLoaded": 11724.100000023842,
+      "load": 11752.5,
+      "transferBytes": 2209316,
+      "resources": 20,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0"
+    }
+  ],
+  "median": {
+    "lcp": 1132,
+    "cls": 0.0012558106492096212,
+    "fcp": 1032,
+    "domContentLoaded": 11727.5,
+    "load": 11800.800000011921,
+    "transferBytes": 2209316,
+    "resources": 20
+  }
+}

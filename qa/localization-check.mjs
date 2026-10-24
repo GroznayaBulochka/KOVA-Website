@@ -4,6 +4,8 @@ import vm from 'node:vm';
 import {languages,languageNames} from '../scripts/seo.mjs';
 const read=name=>readFile(new URL('../'+name,import.meta.url),'utf8');
 const source=JSON.parse(await read('qa/artifacts/localization/source.json'));
+const legalRenderer=await read('legal-document.js'),legalContext={};
+vm.runInNewContext(legalRenderer.slice(legalRenderer.indexOf('  const escapeHtml'),legalRenderer.indexOf('  let loadRevision'))+';this.render=renderMarkdown;',legalContext);
 let strings=0;
 function verify(original,localized,path='') {
   assert.equal(typeof localized,typeof original,path);
@@ -33,7 +35,10 @@ for(const lang of languages.filter(l=>!['pl','en','ru'].includes(l))) {
     assert.ok(text.includes('[OWNER_INPUT_REQUIRED]'));
     assert.ok(text.includes('contact@kovacompass.app'));
     const url=`https://kovacompass.app/${kind==='privacy-policy'?'privacy':'terms'}.html?lang=en`;
-    assert.ok(text.includes(`[${url}](${url})`),lang+': legal URL markup');
+    const rendered=legalContext.render(text,'Pending owner confirmation',lang);
+    assert.ok(rendered.includes(`href="${url}"`),lang+': legal URL is a working rendered link');
+    assert.ok(!rendered.includes('href="#"'),lang+': translated document links work');
+    assert.ok(!rendered.includes('OWNER_INPUT_REQUIRED'),lang+': human-readable pending status');
   }
 }
 assert.equal(languages.length,27);

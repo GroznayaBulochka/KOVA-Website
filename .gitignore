@@ -1,2 +1,4 @@
 /dist/
 /qa/artifacts/localization/cache/
+
+/qa/artifacts/audit-2026-10-24/production-samples/

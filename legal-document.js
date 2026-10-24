@@ -10,19 +10,29 @@
 
   const documentKind = document.body.dataset.legalDocument;
   const websiteCopy = {
-    pl:['Prywatność na tej stronie','Wydawca: Vadyslav Konohrai, Polska; kontakt: contact@kovacompass.app. Strona nie ma dostępu do finansów w telefonie ani formularza zgłoszeń. Język i wybór cookies są zapisywane w przeglądarce. Po opcjonalnej zgodzie publiczna strona korzysta z Google Analytics 4 (G-2LE3GWYDZM): statystyki odwiedzin i interakcji, pseudonimowe cookies, informacje o urządzeniu i przybliżonej lokalizacji. Podstawą pomiaru jest zgoda; dane mogą być przetwarzane poza EOG. Nie są to dane w pełni anonimowe. Szczegóły odbiorcy, cookies, praw i ograniczeń znajdują się na stronie Cookies. Retencja GA4 i warunki przetwarzania wymagają potwierdzenia przed publikacją. Zgodę zmienisz w ustawieniach cookies. Link e-mail otwiera Twoją pocztę; wysłana wiadomość i adres służą obsłudze zgłoszenia poza aplikacją. Nie wysyłaj finansów ani haseł. Przyszły hosting, zasady jego logów i okres przechowywania korespondencji wymagają zatwierdzenia przed publikacją. Dokument poniżej dotyczy aplikacji, nie zastępuje tych informacji o stronie.'],
-    en:['Privacy on this website','Publisher: Vadyslav Konohrai, Poland; contact: contact@kovacompass.app. This site cannot access finances on your phone and has no submission form. Language and cookie choices are stored in your browser. After optional consent the public site uses Google Analytics 4 (G-2LE3GWYDZM): visit and interaction statistics, pseudonymous cookies, device and approximate location information. Measurement relies on consent; data may be processed outside the EEA and is not fully anonymous. The Cookies page explains the recipient, cookies, rights and limitations. GA4 retention and processing terms require confirmation before publication. Change consent in Cookie settings. Email links open your email app; a message you send and your address are used to handle your request outside KOVA. Do not send financial data or passwords. Future hosting, its logging practices, and correspondence retention require approval before publication. The document below concerns the app and does not replace this website information.'],
-    ru:['Приватность на этом сайте','Издатель: Vadyslav Konohrai, Польша; контакт: contact@kovacompass.app. Сайт не имеет доступа к финансам на телефоне и не содержит формы обращений. Язык и выбор cookies сохраняются в браузере. После необязательного согласия публичный сайт использует Google Analytics 4 (G-2LE3GWYDZM): статистику посещений и действий, псевдонимные cookies, данные об устройстве и приблизительном местоположении. Основание — согласие; данные могут обрабатываться вне ЕЭЗ и не являются полностью анонимными. Получатель, cookies, права и ограничения описаны на странице Cookies. Сроки хранения в GA4 и условия обработки требуют подтверждения до публикации. Изменить согласие можно в настройках cookies. Почтовая ссылка открывает вашу почту; отправленное сообщение и адрес используются для обработки обращения вне KOVA. Не отправляйте финансовые данные и пароли. Будущий хостинг, его журналы и срок хранения переписки требуют утверждения перед публикацией. Документ ниже относится к приложению и не заменяет эту информацию о сайте.']
-  };
+  "pl": [
+    "Prywatność na tej stronie",
+    "Witryna nie czyta bazy telefonu. Google Analytics mierzy odwiedziny i działania na stronie wyłącznie po zgodzie. Odrzucenie zachowuje pełny dostęp. Wybór zmienisz w ustawieniach cookies; szczegóły hostingu i dostawców wymagają potwierdzenia przed nowym publicznym wdrożeniem. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  ],
+  "en": [
+    "Privacy on this website",
+    "This site cannot read your phone database. Google Analytics measures website visits and interactions only with your consent. Rejecting keeps the full site available. Change your choice in Cookie settings; hosting and provider details still require confirmation before a new public deployment. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  ],
+  "ru": [
+    "Приватность на этом сайте",
+    "Этот сайт не может прочитать базу данных ваших телефонов. Google Analytics измеряет посещения веб-сайта и взаимодействия только с вашего согласия. Отказ сохраняет полную доступность сайта. Измените свой выбор в настройках файлов cookie; сведения о хостинге и провайдере по-прежнему требуют подтверждения перед новым общедоступным развертыванием. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  ]
+};
   const reviewCopy = {
-    pl:'Projekt dokumentu dla KOVA Offline Free V1, zgodny ze źródłowym dokumentem aplikacji z 22.10.2026 (nie jest to ponowna kwalifikacja APK). Wydawca zatwierdził nazwisko, kontakt i domenę. Publiczne adresy dokumentów wskazał 22.10.2026; w tym dniu potwierdzono odpowiedź HTTP 200. Nie oznacza to zatwierdzenia prawnego ani pełnej kwalifikacji hostingu. Dokument poniżej zawiera publiczny link. Data obowiązywania i zatwierdzenie treści nadal pozostają do uzupełnienia.',
-    en:'Draft for KOVA Offline Free V1, matching the app source document dated 22 October 2026 (not a new APK qualification). The publisher approved the name, contact and domain, and supplied the public document URLs on 22 October 2026. An HTTP 200 response was verified that day. This is not legal approval or full hosting qualification. The document below includes its public link. An effective date and content approval remain pending.',
-    ru:'Проект для KOVA Offline Free V1, совпадающий с исходным документом приложения от 22.10.2026 (это не повторная проверка APK). Издатель утвердил имя, контакт и домен, а 22.10.2026 указал публичные адреса документов. В этот день подтверждён ответ HTTP 200. Это не правовое утверждение и не полная проверка хостинга. Документ ниже содержит публичную ссылку. Дата действия и утверждение содержания ещё необходимы.'
-  };
+  "pl": "Projekt dla planowanego pierwszego wydania KOVA: darmowa baza i opcjonalne Premium. Zgodny z aktualnymi dokumentami aplikacji z 24.10.2026. Data obowiązywania, końcowe zatwierdzenie oraz pozostałe informacje o sprzedawcy i usługach wymagają uzupełnienia. Nie jest to aktywna oferta subskrypcji.",
+  "en": "Draft for the planned first KOVA release: a free base and optional Premium. Matches the current app documents dated 24 October 2026. An effective date, final approval and the remaining seller and service details are pending. This is not an active subscription offer.",
+  "ru": "Черновик запланированного первого выпуска KOVA: бесплатная базовая версия и дополнительный Premium. Соответствует текущим документам приложения от 24 октября 2026 года. Дата вступления в силу, окончательное утверждение, а также остальные сведения о продавце и услугах ожидаются. Это не активное предложение подписки."
+};
   for (const [lang, [title, text]] of Object.entries(websiteCopy)) { copy[lang].analyticsTitle = title; copy[lang].analyticsCopy = text; }
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
     copy[code]=data.legal; reviewCopy[code]=data.review;
   }
+  window.addEventListener('kova:locale-loaded', ({detail:{code,data}}) => {copy[code]=data.legal;reviewCopy[code]=data.review;});
   let language = window.KOVA_LANGUAGES.initial();
 
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[character]);
@@ -46,7 +56,13 @@
     return escapeHtml(tokenized).replace(/\u0000(\d+)\u0000/g, (_, index) => tokens[Number(index)]);
   }
 
-  function renderMarkdown(markdown) {
+  function renderMarkdown(markdown, pendingLabel = 'Pending owner confirmation before publication', documentLanguage = 'en') {
+    markdown = markdown.replaceAll('[OWNER_INPUT_REQUIRED]', pendingLabel);
+    // Preserve the canonical source bytes; repair known translation damage only
+    // in presentation, with links pointing to the same document language.
+    markdown = markdown.replace(/［\s*(https?:\/\/[^\s\]]+)\]/g,'[$1]').replace(/\[\s+(https?:\/\/[^\s\]]+)\]/g,'[$1]');
+    const damagedLinks={'شروط الخدمة-en.md':'terms-of-service','सेवा की शर्तें-en.md':'terms-of-service','terma-perkhidmatan-en.md':'terms-of-service','masharti-ya-huduma-en.md':'terms-of-service','điều khoản dịch vụ-en.md':'terms-of-service','faragha-sera-en.md':'privacy-policy'};
+    markdown = markdown.replace(/\]\(([^)]+)\)/g,(all,href)=>damagedLinks[href]?`](${damagedLinks[href]}-${documentLanguage}.md)`:all);
     const lines = markdown.replace(/\r\n?/g, '\n').split('\n');
     const html = [];
     let paragraph = [];
@@ -114,7 +130,7 @@
       if (!response.ok) throw new Error(String(response.status));
       const markdown = await response.text();
       if (revision !== loadRevision) return;
-      content.innerHTML = renderMarkdown(markdown);
+      content.innerHTML = renderMarkdown(markdown, window.KOVA_TRANSLATIONS?.[language]?.extra.pendingDecision || {pl:'Do potwierdzenia przez właściciela przed publikacją',en:'Pending owner confirmation before publication',ru:'Ожидает подтверждения владельца перед публикацией'}[language], language);
       const firstHeading = content.querySelector('h1');
       const title = firstHeading?.textContent;
       if (title) { document.title = `${title} — KOVA`; document.querySelector('[data-legal-page-heading]').textContent = title; firstHeading.remove(); }

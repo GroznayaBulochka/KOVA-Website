@@ -1,6 +1,6 @@
 {
-  "contract": "KOVA_PHONE_OFFLINE_FREE_V1",
-  "verifiedOn": "2026-10-21",
+  "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
+  "verifiedOn": "2026-10-24",
   "appVersionName": "1.0.8",
   "appVersionCode": 10,
   "publicDownloadAvailable": false,
@@ -29,10 +29,34 @@
     "measurementId": "G-2LE3GWYDZM",
     "consentMode": "BASIC_OPT_IN",
     "cookieLifetimeDays": 180,
-    "productionHosts": ["kovacompass.app", "www.kovacompass.app"],
+    "productionHosts": [
+      "kovacompass.app",
+      "www.kovacompass.app"
+    ],
     "accountConfigurationVerified": false,
     "liveReceptionVerified": false
   },
   "legalState": "DRAFT_OWNER_INPUT_REQUIRED",
-  "appReadiness": "INCOMPLETE_REQUIRED_TEST_ENVIRONMENT_MISSING"
+  "appReadiness": "IMPLEMENTED_PUBLIC_RELEASE_QUALIFICATION_PENDING",
+  "productName": "KOVA: Money & Budget",
+  "brand": "KOVA Development",
+  "productModel": "FREE_BASE_OPTIONAL_PREMIUM",
+  "storeListingVerified": false,
+  "followUrl": "https://www.instagram.com/kova_money/",
+  "premium": {
+    "features": [
+      "Advanced local reports and comparisons",
+      "Forecasts",
+      "Work-income analytics"
+    ],
+    "price": null,
+    "salesAvailable": false,
+    "billingImplementation": "CLIENT_ONLY_GOOGLE_PLAY",
+    "qualification": "PARTIAL_PLAY_TESTS_NOT_APPROVED_FOR_PUBLIC_SALES",
+    "financialDataUploadedForPurchase": false,
+    "offlineAccessMaximumHours": 48
+  },
+  "factSource": "../KOVA-App/docs/release/KOVA_LOCAL_FREEMIUM_V1_READINESS.json",
+  "publisherFactSource": "../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
+  "legalDocumentSource": "../KOVA-App/docs/release/local-freemium-legal"
 }

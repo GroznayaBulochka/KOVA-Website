@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://kovacompass.app/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://kovacompass.app/robots.txt",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://kovacompass.app/sitemap.xml",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://api.github.com/repos/GroznayaBulochka/KOVA-Website",
+    "status": 200,
+    "result": {
+      "html_url": "https://github.com/GroznayaBulochka/KOVA-Website",
+      "default_branch": "main",
+      "has_pages": true,
+      "build_type": null,
+      "source": null,
+      "cname": null,
+      "status": null
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/GroznayaBulochka/KOVA-Website/pages",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

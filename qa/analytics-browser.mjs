@@ -75,7 +75,7 @@ try {
  await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
  await clear(); await navigate(origin+'/index.html?lang=pl');
  record('First visit: zero Google requests, no GA cookies',requests.length===0 && await evaluate('!document.cookie.includes("_ga=")'));
- record('Centered accessible native modal with equal decision buttons',await evaluate(`(() => {const d=document.querySelector('[data-cookie-banner]'),r=d.getBoundingClientRect();const b=[...d.querySelectorAll('.consent-actions button')];return d.open&&d.matches(':modal')&&d.contains(document.activeElement)&&Math.abs(r.x+r.width/2-innerWidth/2)<2&&Math.abs(r.y+r.height/2-innerHeight/2)<2&&r.width>=600&&getComputedStyle(b[0]).backgroundColor===getComputedStyle(b[1]).backgroundColor&&b.every(x=>x.offsetHeight>=44)})()`));
+ record('Compact accessible native modal with equal decision buttons',await evaluate(`(() => {const d=document.querySelector('[data-cookie-banner]'),r=d.getBoundingClientRect();const b=[...d.querySelectorAll('.consent-actions button')];return d.open&&d.matches(':modal')&&d.contains(document.activeElement)&&r.left>=0&&r.right<=innerWidth&&r.bottom<=innerHeight&&r.width<=500&&getComputedStyle(b[0]).backgroundColor===getComputedStyle(b[1]).backgroundColor&&b.every(x=>x.offsetHeight>=44)})()`));
  await screenshot('consent-pl-desktop');
  // Background elements are actually inert, not only labelled aria-modal.
  record('Background cannot take focus while dialog is open',await evaluate(`document.querySelector('.language-trigger').focus(); document.querySelector('[data-cookie-banner]').contains(document.activeElement)`));
@@ -99,6 +99,15 @@ try {
  await navigate(origin+'/index.html?lang=ru&email=synthetic%40invalid.test#private-synthetic');
  await until('Boolean(window.__gaCalls)');
  record('Remembered consent resumes, URL query/fragment/referrer excluded from our payload',await evaluate('!document.querySelector("[data-cookie-banner]").open && !JSON.stringify(window.__gaCalls).includes("synthetic") && window.__gaCalls.find(a=>a[0]==="config")[2].page_location==="https://kovacompass.app/" && window.__gaCalls.find(a=>a[0]==="config")[2].page_referrer===""'));
+ await evaluate(`document.addEventListener('click',e=>{if(e.target.closest('a[href^="https:"]'))e.preventDefault();},true)`);
+ await click('[data-primary-cta][data-cta-location="hero"]');
+ await click('.footer-social a[href*="tiktok.com"]');
+ record('One primary event and one social event per launch click; fixed channel categories only',await evaluate(`window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='primary_cta').length===1&&window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='social_click').length===2&&window.__gaCalls.some(a=>a[1]==='primary_cta'&&a[2].placement==='hero'&&a[2].action==='follow_launch')&&!JSON.stringify(window.__gaCalls).includes('instagram.com')`));
+ await evaluate(`window.KOVA_RELEASE.available=true;window.KOVA_RELEASE.storeUrl='https://play.google.com/store/apps/details?id=com.kova.budget';document.documentElement.setAttribute('lang',document.documentElement.lang)`);
+ await until(`document.querySelector('[data-primary-cta]').dataset.ctaAction==='google_play'`);
+ await click('[data-primary-cta][data-cta-location="hero"]');
+ record('Future Play CTA sends one allowlisted event without destination parameters',await evaluate(`window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='google_play_click').length===1&&!JSON.stringify(window.__gaCalls).includes('com.kova.budget')`));
+ await evaluate(`window.KOVA_RELEASE.available=false;document.documentElement.setAttribute('lang',document.documentElement.lang)`);
  await click('[data-video-open]');await click('[data-video-play]');await click('[data-video-chapter="2"]');await click('[data-video-close]');await click('[data-lightbox]');await click('.lightbox button');await click('#faq summary');await delay(80);
  record('Real presentation, screenshot and FAQ interactions reach event adapter',await evaluate('["presentation_open","presentation_play","presentation_select","screenshot_open","faq_open"].every(n=>window.__gaCalls.some(a=>a[0]==="event"&&a[1]===n))'));
  await click('[data-cookie-settings]');await click('[data-cookie-essential]');
@@ -157,7 +166,7 @@ try {
  for(const [path,language,heading] of [['index-en.html','en','finances'],['index-ru.html','ru','финанс'],['privacy-en.html','en','DRAFT']]){
   await send('Page.navigate',{url:origin+'/'+path});
   await until('document.readyState === "complete" && document.documentElement.lang === '+JSON.stringify(language));
-  record(path+': browser without JavaScript has translated content, metadata and crawlable alternatives',await evaluate(`!window.KOVA_ROUTES && !window.KOVA_ANALYTICS && document.querySelector('h1').innerText.toLowerCase().includes(${JSON.stringify(heading.toLowerCase())}) && document.querySelector('link[rel="canonical"]').href===${JSON.stringify(origin+'/'+path)} && document.querySelectorAll('[data-language-link]').length===3 && document.querySelector('main').innerText.length>1000`)&&requests.length===beforeNoScript);
+  record(path+': browser without JavaScript has translated content, metadata and crawlable alternatives',await evaluate(`!window.KOVA_ROUTES && !window.KOVA_ANALYTICS && document.querySelector('h1').innerText.toLowerCase().includes(${JSON.stringify(heading.toLowerCase())}) && document.querySelector('link[rel="canonical"]').href===${JSON.stringify(origin+'/'+path)} && document.querySelectorAll('[data-language-link]').length===27 && document.querySelector('main').innerText.length>1000`)&&requests.length===beforeNoScript);
   if(path==='index-en.html')await screenshot('no-javascript-en');
  }
  await send('Emulation.setScriptExecutionDisabled',{value:false});

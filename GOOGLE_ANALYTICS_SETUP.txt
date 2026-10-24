@@ -19,7 +19,7 @@ Cookie kova_cookie_consent_v2: analytics/essential, 180 days, SameSite=Lax,
 Secure on HTTPS. It contains no unique visitor ID. No fingerprinting substitute.
 GA cookies: _ga and _ga_2LE3GWYDZM, configured 180 days, cookie_update=false.
 Browser restrictions can shorten retention. This is NOT GA server data retention.
-The large centered native modal makes background controls inert. Equal accept
+The compact bottom-corner native modal makes background controls inert. Equal accept
 and reject buttons; Escape rejects. Settings uses unchecked optional analytics
 on first visit. Privacy/terms/cookies can be read without first making a choice.
 Footer settings opens on every public page. Withdrawal sets ga-disable before
@@ -30,6 +30,9 @@ Cookies unavailable: site remains usable, analytics fails closed.
 Script blocked/offline: site remains usable, no automatic retry loop.
 
 EVENT CONTRACT
+primary_cta: one per primary click; fixed hero/closing placement and follow_launch/google_play action.
+social_click: one per project-channel click; only instagram/tiktok category.
+google_play_click: future verified store CTA, without destination/query parameters.
 page_view: one per public document load after consent, send_page_view=false.
 presentation_open: user opens the app tour.
 presentation_play: user starts/resumes its slideshow.
@@ -99,3 +102,7 @@ NOT DONE
 No publication, DNS/hosting changes, GA account settings changes, real GA events,
 Firebase calls, Android changes, or private Workspace data access.
 Local implementation is not a guarantee of legal compliance in all jurisdictions.
+
+24 October verification: actual Edge interactions with intercepted Google tag/collector.
+The adapter receives main CTA, channel, tour and screenshot events after consent.
+No GA4 panel access or live receiver verification is claimed.
