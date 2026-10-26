@@ -1,11 +1,11 @@
 {
-  "recordedAt": "2026-10-24T19:39:15.172Z",
+  "recordedAt": "2026-10-26T06:26:07.734Z",
   "result": "PASS",
   "checks": 327,
   "passed": [
     "Publication and download remain unapproved",
     "Release command fails closed with exact owner blockers",
-    "Owner domain does not imply verified hosting or publication",
+    "Hosting configuration evidence is distinct from publication approval",
     "Approved identity is distinct from legal qualification",
     "Private workspace, QA and obsolete imagery absent",
     "404-ar.html: preview noindex and no private entry",

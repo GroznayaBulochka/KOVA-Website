@@ -1,6 +1,15 @@
 KOVA — poprawki po ponownym audycie
 24 października 2026
 
+KOREKTA DODANA 25.10.2026 (treść historyczna poniżej)
+Narzędzie użyte poniżej do sprawdzania Actions zwracało tylko uruchomienia
+wyzwolone przez pull request. Pusty wynik nie oznaczał braku innych wdrożeń.
+Run 40127626723 rzeczywiście opublikował źródła przez Build with Jekyll.
+25.10 w panelu potwierdzono Source = Deploy from a branch, main, / (root),
+a następnie zapisano Source = GitHub Actions. Nowej wersji nie opublikowano:
+wymagania zatwierdzenia nadal są otwarte. Bieżący stan: PUBLICATION_CHECK.txt
+i qa/artifacts/publication-2026-10-25/REPORT.txt.
+
 WYNIK
 Poprawki są w lokalnym kodzie i w gotowym podglądzie dist/.
 Wersja wynikowa: f79db4b03cdc2e15098f (431 plików, 297 stron HTML).

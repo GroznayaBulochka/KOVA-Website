@@ -57,7 +57,7 @@
     "screenWorkCopy": "Salvato sul dispositivo · 21 ott 2026",
     "securityKicker": "Privacy",
     "securityTitle": "La privacy è la nostra massima priorità.",
-    "securityCopy": "La privacy viene prima di tutto poiché lavoriamo per rendere KOVA il più sicuro possibile. I registri finanziari rimangono sul tuo telefono. L'acquisto e il ripristino opzionali di Premium utilizzano Google Play separatamente; l’analisi di questo sito Web richiede il tuo consenso.",
+    "securityCopy": "I dati finanziari di KOVA restano sul tuo telefono. Lavoriamo per rendere l’app il più sicura possibile. L'acquisto e il ripristino opzionali di Premium utilizzano Google Play separatamente; l’analisi di questo sito Web richiede il tuo consenso.",
     "securityModel": "Leggi sulla sicurezza",
     "secureLocal": "Crittografia locale",
     "secureOwner": "Isolamento dei dati",
@@ -123,12 +123,12 @@
     "faqOcrQ": "La scansione delle ricevute funziona offline?",
     "faqOcrA": "OCR utilizza un modello in bundle con l'app. Scatta una foto o scegline una dalla tua galleria tramite il selettore Android. Il riconoscimento può essere errato: controlla l'importo, la valuta e la data prima di salvare. Negare l'accesso alla fotocamera non blocca la selezione del file.",
     "faqDeviceQ": "A quali dispositivi e pubblico è rivolto KOVA?",
-    "faqDeviceA": "KOVA è in preparazione per i telefoni Android che eseguono Android 7.0 o versioni successive. La fonte attuale include 27 lingue di interfaccia; la compatibilità e la revisione della lingua sono in corso. Destinato ai bambini dai 13 anni in su, soggetto ai requisiti locali e del negozio. Non viene offerta alcuna versione per iOS o orologi.",
+    "faqDeviceA": "KOVA è in preparazione per i telefoni Android che eseguono Android 7.0 o versioni successive. L’interfaccia di KOVA supporta 27 lingue; la compatibilità e la revisione della lingua sono in corso. Destinato alle persone dai 13 anni in su, soggetto ai requisiti locali e del negozio. Non viene offerta alcuna versione per iOS o orologi.",
     "aboutKicker": "Cos'è KOVA?",
     "aboutTitle": "Meno stress da soldi. Più spazio ai tuoi progetti.",
     "aboutCopy": "KOVA è un'app Android per le finanze personali quotidiane. Tieni insieme spese, budget e ore di lavoro, così puoi vedere cosa resta dopo le fatture e pianificare il mese in anticipo.",
     "aboutAudience": "Per studenti, lavoratori e chiunque voglia prendere decisioni più consapevoli riguardo al proprio denaro.",
-    "aboutForWhom": "Per te, se...",
+    "aboutForWhom": "Cosa ti offre KOVA",
     "aboutSpendingTitle": "Guarda dove vanno i tuoi soldi",
     "aboutSpendingCopy": "Registra la spesa quotidiana e trovala per categoria. Scopri quali costi fanno la differenza maggiore per il tuo mese.",
     "aboutGoalsTitle": "Scopri cosa rimane nel tuo budget",
@@ -160,7 +160,9 @@
     "closingTitle": "Fate spazio a un piano monetario più chiaro.",
     "closingCopy": "Segui KOVA Development su Instagram per anteprime delle app e novità sul lancio. La prima versione pubblica è ancora in preparazione.",
     "closingSecondary": "Puoi trovare KOVA anche su TikTok.",
-    "forecastNote": "Nella versione attuale, la stima delle spese variabili richiede almeno 7 giorni di osservazione e 2 spese registrate. Registrazioni regolari offrono un quadro più completo. Una previsione resta una stima."
+    "forecastNote": "Ogni analisi richiede dati sufficienti. Controlla i requisiti prima di scegliere Premium.",
+    "faqDataQ": "Quanti dati servono per ciascuna analisi?",
+    "faqDataA": "<p>Puoi registrare spese e budget fin dall’inizio. I report di base richiedono 5 transazioni in almeno 3 giorni diversi.</p><ul><li>Stima delle spese variabili: almeno 7 giorni di osservazione e 2 spese negli ultimi 3 mesi. È la soglia di un componente del calcolo, non di tutto Premium.</li><li>Report avanzati: almeno 60 giorni di storico, 75 transazioni, 20 giorni con transazioni e almeno 1 budget o obiettivo. Tutte le condizioni devono essere soddisfatte.</li><li>Previsioni: almeno 90 giorni di storico, 100 transazioni in 3 mesi diversi e un reddito regolare o un pagamento ricorrente (registrato o rilevato). Tutte le condizioni devono essere soddisfatte.</li></ul><p>L’acquisto di Premium non sostituisce lo storico necessario. Contano i dati del profilo, anche quelli importati correttamente; la sola data di installazione non basta. Le previsioni restano stime.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA: elimina dati e profili locali",
       "privacy": "KOVA Informativa sulla privacy: app e sito web",
       "terms": "Termini KOVA Free e Premium — Bozza",
-      "cookies": "KOVA Cookie del sito web e Google Analytics"
+      "cookies": "KOVA — Le statistiche sono disattivate."
     },
     "descriptions": {
       "404": "Questa pagina KOVA non esiste. Torna alla panoramica dell'app, agli aggiornamenti o ai contatti.",
@@ -539,7 +541,7 @@
       "delete-account": "Gestisci ed elimina dati, profili ed esportazioni locali KOVA. Il rinnovo Premium è gestito separatamente in Google Play; la disinstallazione non lo annulla.",
       "privacy": "Bozza dell'informativa sulla privacy KOVA: dati delle app locali, esportazioni, contatti e analisi facoltative del sito web. Prima della pubblicazione è necessaria l'approvazione.",
       "terms": "Bozza dei termini KOVA Free e Premium: funzionalità locali, abbonamento opzionale, acquisto e ripristino Google Play, backup e limiti dei preventivi.",
-      "cookies": "Come il sito KOVA utilizza i cookie e Google Analytics solo previo consenso. Scopri cosa viene misurato e come ritirare la tua scelta."
+      "cookies": "KOVA: Il sito non avvia Google Analytics né cookie analitici, anche se hai dato il consenso in precedenza."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Lingua del sito",
     "pendingDecision": "In attesa di conferma del proprietario prima della pubblicazione"
   },
-  "cookies": "<section data-doc-lang=\"it\" data-document-title=\"KOVA Cookie del sito web e Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Biscotti</p><h1>L'analisi è una tua scelta.</h1><p>I cookie essenziali ricordano la lingua e le impostazioni. L'analisi inizia solo dopo il consenso.</p><div class=\"document-meta\"><span class=\"document-chip\">Aggiornato: 22 ottobre 2026</span><span class=\"document-chip\">Nessuna pubblicità</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Essenziale</h2><p><code>kova_site_language</code>ricorda la lingua fino a 12 mesi;<code>kova_cookie_consent_v2</code>ricorda la tua scelta per 180 giorni. Il previo consenso agli sportelli locali non autorizza Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Dopo il consenso sul dominio pubblico kovacompass.app (incluso www), carichiamo il tag Google<code>G-2LE3GWYDZM</code>. Google potrebbe archiviare<code>_ga</code>e<code>_ga_2LE3GWYDZM</code>cookie per il riconoscimento del browser e della sessione. Configuriamo la scadenza a 180 giorni senza rinnovo automatico ad ogni visita; i browser potrebbero abbreviare questo periodo.</p></article>\n          <article class=\"document-card\"><h2>Cosa misuriamo</h2><p>Visualizzazioni di pagina, apertura e riproduzione della presentazione, selezione di capitoli, screenshot ingranditi, domande frequenti aperte e clic di contatto. I nostri eventi contengono solo il nome dell'evento, la pagina pubblica senza parametri o frammenti URL e la lingua. Non inviamo contenuti dei messaggi, dati finanziari, ID account o contenuti dell'area di lavoro. Le anteprime locali non vengono eseguite Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Destinatario e base</h2><p>Editore: Vadyslav Konohrai, Polonia; contatto:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. La misurazione facoltativa si basa sul tuo consenso. Google Analytics elabora anche informazioni tecniche su browser, dispositivo, sessione e posizione approssimativa. Gli indirizzi IP sono coinvolti nella comunicazione; Google afferma che GA4 non memorizza gli indirizzi IP. Ciò non rende i dati completamente anonimi. Il trattamento può avvenire al di fuori del SEE. Vedi<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">L'informativa sulla privacy di Google</a>e<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 informazioni sui dati</a>.</p></article>\n          <article class=\"document-card\"><h2>Lingua del sito</h2><p>Rimane anche la scelta della lingua<code>localStorage</code>fino a quando la memoria del browser non viene cancellata. KOVA i dati dell'account non vengono archiviati qui.</p></article>\n          <article class=\"document-card wide\"><h2>Cambia la tua scelta</h2><p>Apri \"Impostazioni cookie\" nel piè di pagina e rifiuta l'analisi, oppure disattivala e salva. Il rifiuto non limita il sito. Il ritiro rimuove i cookie GA accessibili e ricarica la pagina per interrompere il tag. Non può richiamare i dati già inviati. Contattaci in merito ai diritti sui dati; potrai inoltre presentare reclamo all'autorità competente per la protezione dei dati. I documenti sulla privacy rimangono leggibili anche senza scelta del consenso.</p></article>\n          <article class=\"document-card wide\"><h2>Stato di pre-pubblicazione</h2><p>Bozza informativa aggiornata al 22 ottobre 2026. L'integrazione è solo sul sito web; l'app Offline V1 rimane priva di analisi. Google Signals e il consenso alla pubblicità sono disabilitati nel codice. Prima della pubblicazione, l'editore deve confermare i termini di elaborazione, i trasferimenti, la conservazione del servizio GA4 (separata dalla durata del cookie), la misurazione avanzata automatica disabilitata e la configurazione dell'hosting. I test locali non verificano queste impostazioni.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"it\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Le statistiche sono disattivate.</h1><p>Il sito non avvia Google Analytics né cookie analitici, anche se hai dato il consenso in precedenza.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Ricordiamo la lingua scelta. I cookie tecnici possono anche ricordare che le statistiche sono disattivate.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>I precedenti cookie analitici vengono rimossi alla prossima visita. Questo non elimina i dati già inviati a Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=it\" data-shell-label=\"privacy\">Informativa sulla privacy</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

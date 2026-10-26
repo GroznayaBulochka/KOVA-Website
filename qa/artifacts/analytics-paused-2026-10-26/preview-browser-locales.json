@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-26T06:30:01.714Z",
+  "checks": [
+    {
+      "lang": "uk",
+      "heading": "Аналітику вимкнено.",
+      "dialogCount": 0
+    },
+    {
+      "lang": "ar",
+      "heading": "تم إيقاف التحليلات.",
+      "dialogCount": 0
+    },
+    {
+      "lang": "en",
+      "heading": "Analytics is paused.",
+      "dialogCount": 0
+    }
+  ]
+}

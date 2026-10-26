@@ -72,6 +72,9 @@
   footer.querySelector('.footer-about').append(publisher);
   footer.querySelector('.footer-about').insertAdjacentHTML('beforeend',socialLinks);
   if(workspace){workspace.setAttribute('aria-label','Workspace');footer.querySelector('.footer-about').append(workspace);}
+  // Analytics is paused: link to the current disclosure, not an opt-in dialog.
+  footer.querySelector('[data-shell-settings]').href = 'cookies.html';
+  footer.querySelector('[data-shell-settings]').dataset.shellLabel = 'cookies';
   footer.querySelector('[data-shell-settings]').setAttribute('data-cookie-settings', '');
   footer.querySelector('[data-shell-settings]').addEventListener('click', event => {
     if (document.querySelector('[data-cookie-banner]')) {
@@ -88,7 +91,7 @@
     const languageLabel=header.querySelector('.sr-only');
     if(languageLabel)languageLabel.textContent=copy.language;
     nav.setAttribute('aria-label',copy.menu);toggle.setAttribute('aria-label',copy.menu);
-    const section={about:'product',features:'features',screens:'screens',faq:'faq'}[location.hash.slice(1)] || 'product';
+    const section={about:'product',features:'features',screens:'screens',faq:'faq','analysis-data':'faq'}[location.hash.slice(1)] || 'product';
     const active=projectPages.includes(page)?'project':page==='security'?'security':page==='index'?section:null;
     for(const link of header.querySelectorAll('[data-header-key]')) {
       link.textContent=copy[link.dataset.headerKey];

@@ -11,7 +11,7 @@ const config = JSON.parse(await readFile(resolve(root,'release-config.json'),'ut
 await writeFile(resolve(root,'release-public.js'),'// Generated from release-config.json.\nwindow.KOVA_RELEASE = '+JSON.stringify(publicRelease(config))+';\n');
 if (process.argv.includes('--release')) {
   const missing = ['operatorApproved','operatorLegalQualified','supportContactApproved','supportContactOperationallyVerified','domainApprovedByOwner','hostingVerified','legalApproved','publicationApproved'].filter(key=>config[key]!==true);
-  if (config.websiteAnalytics?.accountConfigurationVerified !== true) missing.push('websiteAnalytics.accountConfigurationVerified');
+  if (config.websiteAnalytics?.enabled !== false && config.websiteAnalytics?.accountConfigurationVerified !== true) missing.push('websiteAnalytics.accountConfigurationVerified');
   let validOrigin=false;
   try { const u=new URL(config.canonicalOrigin); validOrigin=u.protocol==='https:' && u.origin===config.canonicalOrigin && !u.username && !u.password; } catch {}
   if (!validOrigin) missing.push('canonicalOrigin');
@@ -79,7 +79,7 @@ await writeFile(resolve(out,'robots.txt'),robots(config.canonicalOrigin,isReleas
 await writeFile(resolve(out,'sitemap.xml'),isRelease?sitemap(config.canonicalOrigin):'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>\n');
 await writeFile(resolve(out,'_headers'),`/*
   Cache-Control: no-cache
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()

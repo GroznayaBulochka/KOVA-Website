@@ -1,5 +1,45 @@
 KOVA WEBSITE — GOOGLE ANALYTICS 4
-Prepared: 2026-10-22. Local implementation, not a deployment/account audit.
+CURRENT STATUS — 26 OCTOBER 2026: PAUSED BY OWNER
+Website analytics is disabled, including for visitors with previous opt-in.
+Cloudflare now enforces script-src/connect-src self and expires the two GA4
+cookies for host and parent-domain scope. A technical essential-only choice
+keeps the old deployed consent dialog closed on normal page visits.
+The local source also stops before creating any dialog/tag and clears old
+analytics/consent cookies. Cookie disclosure updated in all 27 languages.
+The full generated website is NOT deployed; old public cookie copy/settings
+remain until that release. No GA account/history deletion or DPA acceptance.
+websiteAnalytics.enabled=false makes the account-configuration release gate
+inapplicable while disabled; it is NOT marked verified. Other gates remain.
+Evidence: qa/artifacts/analytics-paused-2026-10-26/REPORT.txt.
+The account settings and opt-in implementation described below are historical.
+
+Prepared: 2026-10-22. Account review update: 2026-10-25 (details below).
+
+ACTUAL ACCOUNT REVIEW — 25 OCTOBER 2026
+Correct website property KOVAST (560156655), stream KOVASite (16179424302),
+measurement G-2LE3GWYDZM, URL https://kovacompass.app verified in signed-in UI.
+Enhanced measurement OFF. Google tag automatic detection of history pageviews,
+scrolls, outbound clicks, forms, video and downloads also turned OFF and reopened
+to verify persistence. Standard pageviews stay available; our send_page_view=false
+and manual page_view remain necessary. Only KOVASite is shown as tag destination.
+Connected site tags: 0. Custom event transformations and custom events: none.
+Google Signals and user-provided data collection were already disabled in GA4.
+Detailed location/device collection now OFF; ads personalization 0/307 regions.
+All four optional account data-sharing choices already OFF, left unchanged.
+No Google Ads links or pending links. Account country Poland.
+Event retention 2 months; user retention changed from 14 to 2 months, reset on
+new activity OFF, with explicit owner approval. Values persisted after reload.
+Google indicates a 24-hour delay before retention changes take effect; this is
+not proof old data have already been deleted. Cookie lifetime is separate.
+
+DPA panel has no separately recorded acceptance and no listed contact.
+Google documentation says EEA terms may already incorporate the processing terms;
+the panel alone does not establish their absence. Owner requested an explanation
+of liability rather than accepting. No agreement accepted, no contact submitted.
+Review of applicable contract/entity/contact and website disclosures is OPEN.
+accountConfigurationVerified and liveReceptionVerified remain false. No real
+post-release consent/GA reception test or release approval is claimed.
+Evidence: qa/artifacts/launch-readiness-2026-10-25/.
 
 IDENTITY AND SCOPE
 Owner-supplied measurement ID: G-2LE3GWYDZM.
@@ -47,7 +87,8 @@ Google's runtime also handles standard session/device/engagement metadata.
 Do not describe pseudonymous analytics as anonymous or as local-only storage.
 
 GA ADMIN CHECKLIST — OWNER/ACCOUNT ADMIN REQUIRED BEFORE PUBLICATION
-These are requirements, NOT verified facts. No account settings were changed.
+Original pre-publication checklist. See dated review above for verified settings;
+remaining legal and live-delivery requirements must not be inferred from tests.
 1. Confirm this ID belongs to the intended WEB stream and publisher-controlled
    property, URL https://kovacompass.app. Do not attach other Google destinations.
 2. Turn OFF Enhanced measurement (including history pageviews, site search,
@@ -98,9 +139,10 @@ https://support.google.com/analytics/answer/12017362
 https://europa.eu/youreurope/business/growing/digitalising/online-privacy/index_en.htm
 https://www.edpb.europa.eu/system/files/2023-01/edpb_20230118_report_cookie_banner_taskforce_en.pdf
 
-NOT DONE
-No publication, DNS/hosting changes, GA account settings changes, real GA events,
-Firebase calls, Android changes, or private Workspace data access.
+NOT DONE AT INITIAL IMPLEMENTATION (22 OCTOBER)
+The initial implementation did not publish, change hosting/GA settings, send real
+GA events, call Firebase, change Android or access private Workspace data.
+The 25 October account/hosting review is recorded separately above.
 Local implementation is not a guarantee of legal compliance in all jurisdictions.
 
 24 October verification: actual Edge interactions with intercepted Google tag/collector.

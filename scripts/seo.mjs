@@ -66,9 +66,9 @@ const titles={
     "Условия KOVA Free и Premium — черновой вариант"
   ],
   "cookies": [
-    "Cookies i Google Analytics na stronie KOVA",
-    "KOVA Website Cookies & Google Analytics",
-    "Cookies и Google Analytics на сайте KOVA"
+    "KOVA — analityka jest wyłączona",
+    "KOVA — analytics is paused",
+    "KOVA — аналитика отключена"
   ]
 };
 const descriptions={
@@ -123,9 +123,9 @@ const descriptions={
     "Проект условий KOVA Free и Premium: локальные функции, дополнительная подписка, покупка и восстановление Google Play, резервное копирование и пределы оценок."
   ],
   "cookies": [
-    "Jak strona KOVA używa cookies i Google Analytics wyłącznie po zgodzie. Sprawdź zakres pomiaru i sposób wycofania zgody.",
-    "How the KOVA website uses cookies and Google Analytics only after consent. See what is measured and how to withdraw your choice.",
-    "Cookies и Google Analytics на сайте KOVA — только после согласия. Что измеряется и как отозвать согласие."
+    "KOVA: analityka Google Analytics i cookies analityczne są wyłączone. Pozostają ustawienia języka i techniczne ustawienia prywatności.",
+    "KOVA: Google Analytics and analytics cookies are disabled. Language and technical privacy settings remain available.",
+    "KOVA: Google Analytics и аналитические cookies отключены. Сохраняются настройки языка и технические настройки приватности."
   ]
 };
 export const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

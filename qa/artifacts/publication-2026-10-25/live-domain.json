@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-25T18:12:24.453Z",
+  "origin": "https://kovacompass.app",
+  "mode": "Read-only; no publication",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "cacheControl": "max-age=600",
+      "server": "cloudflare",
+      "canonical": false,
+      "hreflang": false,
+      "ogImage": false,
+      "runtimeBootstrap": false,
+      "allLanguageBundle": true,
+      "buildId": null
+    },
+    {
+      "path": "/index-en.html",
+      "status": 404,
+      "cacheControl": null,
+      "server": "cloudflare"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 404,
+      "cacheControl": null,
+      "server": "cloudflare"
+    },
+    {
+      "path": "/build-manifest.json",
+      "status": 404,
+      "cacheControl": null,
+      "server": "cloudflare"
+    }
+  ]
+}

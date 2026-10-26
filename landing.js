@@ -60,7 +60,7 @@
     "screenWorkCopy": "Zapis na urządzeniu · 21.10.2026",
     "securityKicker": "Prywatność",
     "securityTitle": "Prywatność jest dla nas najważniejsza.",
-    "securityCopy": "Prywatność jest dla nas najważniejsza. Staramy się tworzyć KOVA jak najbezpieczniej, a dane finansowe zostają na telefonie. Opcjonalny zakup i przywracanie Premium obsługuje oddzielnie Google Play; analityka tej strony wymaga Twojej zgody.",
+    "securityCopy": "Dane finansowe są przechowywane lokalnie na telefonie. Staramy się tworzyć KOVA jak najbezpieczniej. Opcjonalny zakup i przywracanie Premium obsługuje oddzielnie Google Play; analityka tej strony wymaga Twojej zgody.",
     "securityModel": "Czytaj o bezpieczeństwie",
     "secureLocal": "Szyfrowanie lokalne",
     "secureOwner": "Izolacja danych",
@@ -126,12 +126,12 @@
     "faqOcrQ": "Czy skanowanie paragonów działa offline?",
     "faqOcrA": "OCR używa modelu dołączonego do aplikacji. Możesz zrobić zdjęcie lub wybrać je z galerii przez selektor Androida. Rozpoznawanie może się pomylić — przed zapisem sprawdź kwotę, walutę i datę. Odmowa dostępu do aparatu nie blokuje wyboru pliku.",
     "faqDeviceQ": "Na jakie urządzenia i dla kogo powstaje KOVA?",
-    "faqDeviceA": "KOVA powstaje na telefony z Androidem 7.0 lub nowszym. Aktualne źródła zawierają 27 języków interfejsu; weryfikacja zgodności i tłumaczeń trwa. Planowana grupa to osoby 13+, z uwzględnieniem wymagań sklepu i lokalnego prawa. Nie oferujemy wersji na iOS ani zegarki.",
+    "faqDeviceA": "KOVA powstaje na telefony z Androidem 7.0 lub nowszym. Interfejs KOVA obsługuje 27 języków; weryfikacja zgodności i tłumaczeń trwa. Planowana grupa to osoby 13+, z uwzględnieniem wymagań sklepu i lokalnego prawa. Nie oferujemy wersji na iOS ani zegarki.",
     "aboutKicker": "Czym jest KOVA?",
     "aboutTitle": "Mniej chaosu w finansach. Więcej miejsca na Twoje plany.",
     "aboutCopy": "KOVA to aplikacja na Androida do codziennych finansów osobistych. Łączy wydatki, budżet i godziny pracy, żeby łatwiej zobaczyć, co zostaje po rachunkach, i zaplanować kolejny miesiąc.",
     "aboutAudience": "Dla studentów, osób pracujących i wszystkich, którzy chcą świadomie zarządzać własnymi pieniędzmi.",
-    "aboutForWhom": "Dla Ciebie, jeśli…",
+    "aboutForWhom": "Co zyskujesz z KOVA",
     "aboutSpendingTitle": "Wiesz, na co wydajesz",
     "aboutSpendingCopy": "Zapisuj codzienne wydatki i przeglądaj je według kategorii. Zobacz, które koszty najbardziej wpływają na Twój miesiąc.",
     "aboutGoalsTitle": "Widzisz, ile zostało w budżecie",
@@ -163,7 +163,9 @@
     "closingTitle": "Zrób miejsce na spokojniejszy plan finansów.",
     "closingCopy": "Obserwuj KOVA Development na Instagramie: zobacz aplikację i śledź wieści o premierze. Pierwsze publiczne wydanie nadal przygotowujemy.",
     "closingSecondary": "KOVA znajdziesz też na TikToku.",
-    "forecastNote": "W obecnej wersji szacowanie zmiennych wydatków wymaga co najmniej 7 dni obserwacji i 2 zapisów wydatków. Więcej regularnych zapisów daje pełniejszy obraz. Prognoza pozostaje szacunkiem."
+    "forecastNote": "Każda analiza potrzebuje odpowiednich danych. Sprawdź wymagania przed wyborem Premium.",
+    "faqDataQ": "Ile danych potrzebują poszczególne analizy?",
+    "faqDataA": "<p>Wydatki i budżety możesz zapisywać od początku. Podstawowe raporty potrzebują 5 transakcji z co najmniej 3 różnych dni.</p><ul><li>Szacowanie zmiennych wydatków: minimum 7 dni obserwacji i 2 wydatki z ostatnich 3 miesięcy. To próg jednego składnika obliczeń, a nie całego Premium.</li><li>Rozszerzone raporty: minimum 60 dni historii, 75 transakcji, 20 dni z transakcjami oraz co najmniej 1 budżet lub cel. Wszystkie te warunki muszą być spełnione.</li><li>Prognozy: minimum 90 dni historii, 100 transakcji z 3 różnych miesięcy oraz regularny dochód lub płatność cykliczna (zapisana albo wykryta). Wszystkie te warunki muszą być spełnione.</li></ul><p>Zakup Premium nie zastępuje wymaganej historii. Liczą się dane zapisane w profilu, również prawidłowo zaimportowane; sama data instalacji nie wystarcza. Prognozy pozostają szacunkami.</p>"
   },
   "en": {
     "skip": "Skip to content",
@@ -223,7 +225,7 @@
     "screenWorkCopy": "Saved on device · 21 Oct 2026",
     "securityKicker": "Privacy",
     "securityTitle": "Privacy is our top priority.",
-    "securityCopy": "Privacy comes first as we work to make KOVA as secure as possible. Financial records stay on your phone. Optional Premium purchase and restore use Google Play separately; this website’s analytics requires your consent.",
+    "securityCopy": "Financial records are stored locally on your phone. We work to make KOVA as secure as possible. Optional Premium purchases and restores use Google Play separately; website analytics requires your consent.",
     "securityModel": "Read about security",
     "secureLocal": "Local encryption",
     "secureOwner": "Data isolation",
@@ -289,12 +291,12 @@
     "faqOcrQ": "Does receipt scanning work offline?",
     "faqOcrA": "OCR uses a model bundled with the app. Take a photo or choose one from your gallery through the Android picker. Recognition can be wrong — check the amount, currency, and date before saving. Denying camera access does not block file selection.",
     "faqDeviceQ": "Which devices and audience is KOVA for?",
-    "faqDeviceA": "KOVA is being prepared for Android phones running Android 7.0 or later. The current source includes 27 interface languages; compatibility and language review are ongoing. Intended for ages 13+, subject to store and local requirements. No iOS or watch release is offered.",
+    "faqDeviceA": "KOVA is being prepared for Android phones running Android 7.0 or later. KOVA’s interface supports 27 languages; compatibility and language review are ongoing. Intended for ages 13+, subject to store and local requirements. No iOS or watch release is offered.",
     "aboutKicker": "What is KOVA?",
     "aboutTitle": "Less money stress. More room for your plans.",
     "aboutCopy": "KOVA is an Android app for everyday personal finances. Keep expenses, budgets and work hours together, so you can see what is left after bills and plan the month ahead.",
     "aboutAudience": "For students, working people and anyone who wants to make more intentional decisions about their own money.",
-    "aboutForWhom": "For you, if…",
+    "aboutForWhom": "What you gain with KOVA",
     "aboutSpendingTitle": "See where your money goes",
     "aboutSpendingCopy": "Record everyday spending and find it by category. Understand which costs make the biggest difference to your month.",
     "aboutGoalsTitle": "Know what is left in your budget",
@@ -326,7 +328,9 @@
     "closingTitle": "Make room for a clearer money plan.",
     "closingCopy": "Follow KOVA Development on Instagram for app previews and launch news. The first public release is still in preparation.",
     "closingSecondary": "You can also find KOVA on TikTok.",
-    "forecastNote": "In the current version, estimating variable spending needs at least 7 days of observation and 2 expense records. More regular records give a fuller picture. A forecast remains an estimate."
+    "forecastNote": "Each analysis needs sufficient data. Check the requirements before choosing Premium.",
+    "faqDataQ": "How much data does each analysis need?",
+    "faqDataA": "<p>You can record expenses and budgets from the start. Basic reports need 5 transactions across at least 3 different days.</p><ul><li>Variable spending estimate: at least 7 observation days and 2 expenses from the last 3 months. This is the threshold for one calculation component, not all of Premium.</li><li>Advanced reports: at least 60 days of history, 75 transactions, 20 days with transactions, and at least 1 budget or goal. All these conditions must be met.</li><li>Forecasts: at least 90 days of history, 100 transactions across 3 different months, and regular income or a recurring payment (recorded or detected). All these conditions must be met.</li></ul><p>Buying Premium does not replace the required history. Records in the profile count, including correctly imported data; the installation date alone is not enough. Forecasts remain estimates.</p>"
   },
   "ru": {
     "skip": "Перейти к содержимому",
@@ -386,7 +390,7 @@
     "screenWorkCopy": "Сохранение на устройстве · 21.10.2026",
     "securityKicker": "Приватность",
     "securityTitle": "Приватность для нас важнее всего.",
-    "securityCopy": "Приватность для нас важнее всего. Мы стараемся сделать KOVA максимально безопасной, а финансовые данные остаются на телефоне. Необязательные покупки и восстановление Premium обрабатывает Google Play; аналитика этого сайта работает только с вашего согласия.",
+    "securityCopy": "Финансовые данные хранятся локально на телефоне. Мы стараемся сделать KOVA максимально безопасной. Необязательные покупки и восстановление Premium обрабатывает Google Play; аналитика сайта работает только с вашего согласия.",
     "securityModel": "О безопасности",
     "secureLocal": "Локальное шифрование",
     "secureOwner": "Изоляция данных",
@@ -452,12 +456,12 @@
     "faqOcrQ": "Работает ли сканирование чеков офлайн?",
     "faqOcrA": "OCR использует модель из состава приложения. Можно сделать фото или выбрать его из галереи через системный выбор Android. Распознавание может ошибаться — проверьте сумму, валюту и дату перед сохранением. Отказ в доступе к камере не блокирует выбор файла.",
     "faqDeviceQ": "Для каких устройств и пользователей создаётся KOVA?",
-    "faqDeviceA": "KOVA готовится для телефонов Android под управлением Android 7.0 или более поздней версии. Текущий исходный код включает 27 языков интерфейса; совместимость и языковая проверка продолжаются. Предназначено для детей старше 13 лет с учетом требований магазина и местных условий. Никакой версии для iOS или часов не предлагается.",
+    "faqDeviceA": "KOVA готовится для телефонов Android под управлением Android 7.0 или более поздней версии. Интерфейс KOVA поддерживает 27 языков; совместимость и языковая проверка продолжаются. Предназначено для пользователей от 13 лет с учётом требований магазина и местных правил. Никакой версии для iOS или часов не предлагается.",
     "aboutKicker": "Что такое KOVA?",
     "aboutTitle": "Меньше хаоса в финансах. Больше места для ваших планов.",
     "aboutCopy": "KOVA — приложение для личных финансов на Android. Оно объединяет расходы, бюджет и учёт рабочего времени, чтобы было проще понять, сколько остаётся после оплаты счетов, и спланировать следующий месяц.",
     "aboutAudience": "Для студентов, работающих людей и всех, кто хочет осознанно распоряжаться своими деньгами.",
-    "aboutForWhom": "Для вас, если…",
+    "aboutForWhom": "Что даёт вам KOVA",
     "aboutSpendingTitle": "Посмотрите, куда идут ваши деньги",
     "aboutSpendingCopy": "Записывайте повседневные расходы и просматривайте их по категориям. Узнайте, какие траты сильнее всего влияют на ваш месячный бюджет.",
     "aboutGoalsTitle": "Видите, сколько осталось в бюджете",
@@ -489,7 +493,9 @@
     "closingTitle": "Планируйте свои финансы спокойнее.",
     "closingCopy": "Подписывайтесь на KOVA Development в Instagram: смотрите приложение и следите за новостями о выпуске. Первый публичный релиз ещё готовится.",
     "closingSecondary": "Вы также можете найти KOVA на TikTok.",
-    "forecastNote": "В текущей версии для оценки переменных расходов нужны как минимум 7 дней наблюдений и 2 записи о расходах. Регулярные записи дают более полную картину. Прогноз остаётся оценкой."
+    "forecastNote": "Для каждого анализа нужны подходящие данные. Проверьте требования перед выбором Premium.",
+    "faqDataQ": "Сколько данных нужно для разных видов анализа?",
+    "faqDataA": "<p>Записывать расходы и бюджеты можно с самого начала. Для базовых отчётов нужны 5 транзакций за минимум 3 разных дня.</p><ul><li>Оценка переменных расходов: минимум 7 дней наблюдения и 2 расхода за последние 3 месяца. Это порог одного компонента расчёта, а не всего Premium.</li><li>Расширенные отчёты: минимум 60 дней истории, 75 транзакций, 20 дней с транзакциями и хотя бы 1 бюджет или цель. Все условия должны выполняться одновременно.</li><li>Прогнозы: минимум 90 дней истории, 100 транзакций за 3 разных месяца и регулярный доход или повторяющийся платёж (записанный либо обнаруженный). Все условия должны выполняться одновременно.</li></ul><p>Покупка Premium не заменяет нужную историю. Учитываются записи профиля, включая корректно импортированные данные; одной даты установки недостаточно. Прогнозы остаются оценками.</p>"
   }
 };
 
@@ -786,5 +792,14 @@
     else { videoIndex = event.key === 'Home' ? 0 : videoSlides.length - 1; videoPlaying = false; renderVideoSlide(); scheduleVideo(); }
   });
 
+  // A direct FAQ link opens its answer, including after switching languages.
+  const openLinkedAnswer = () => {
+    if (location.hash === '#analysis-data') document.getElementById('analysis-data').open = true;
+  };
+  document.querySelectorAll('a[href="#analysis-data"]').forEach(link => link.addEventListener('click', () => {
+    document.getElementById('analysis-data').open = true;
+  }));
+  window.addEventListener('hashchange', openLinkedAnswer);
+  openLinkedAnswer();
   applyLanguage();
 })();

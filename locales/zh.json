@@ -57,7 +57,7 @@
     "screenWorkCopy": "已保存在设备上 · 2026 年 10 月 21 日",
     "securityKicker": "隐私",
     "securityTitle": "隐私是我们的首要任务。",
-    "securityCopy": "隐私是第一位的，我们努力使 KOVA 尽可能安全。财务记录保留在您的手机上。可选Premium单独购买和恢复使用Google Play；本网站的分析需要您的同意。",
+    "securityCopy": "KOVA 的财务记录保存在你的手机上。我们努力让应用尽可能安全。 可选Premium单独购买和恢复使用Google Play；本网站的分析需要您的同意。",
     "securityModel": "了解安全性",
     "secureLocal": "本地加密",
     "secureOwner": "数据隔离",
@@ -123,12 +123,12 @@
     "faqOcrQ": "收据扫描可以离线使用吗？",
     "faqOcrA": "OCR 使用与应用程序捆绑的模型。拍摄一张照片或通过 Android 选择器从图库中选择一张照片。识别可能是错误的——保存前检查金额、货币和日期。拒绝相机访问不会阻止文件选择。",
     "faqDeviceQ": "KOVA 适用于哪些设备和受众？",
-    "faqDeviceA": "KOVA 正在为运行 Android 7.0 或更高版本的 Android 电话准备。当前源包括27种界面语言；兼容性和语言审查正在进行中。适合 13 岁以上儿童，具体取决于商店和当地要求。不提供 iOS 或手表版本。",
+    "faqDeviceA": "KOVA 正在为运行 Android 7.0 或更高版本的 Android 电话准备。 KOVA 界面支持 27 种语言；兼容性和语言审查正在进行中。适合 13 岁及以上用户，具体取决于商店和当地要求。不提供 iOS 或手表版本。",
     "aboutKicker": "什么是KOVA？",
     "aboutTitle": "金钱压力较小。为您的计划提供更多空间。",
     "aboutCopy": "KOVA 是一款用于日常个人财务的 Android 应用程序。将开支、预算和工作时间放在一起，这样您就可以了解账单后剩余的金额并计划未来一个月。",
     "aboutAudience": "适合学生、上班族和任何想要对自己的钱做出更明智决定的人。",
-    "aboutForWhom": "对于你来说，如果……",
+    "aboutForWhom": "KOVA 带来的帮助",
     "aboutSpendingTitle": "看看你的钱去哪儿了",
     "aboutSpendingCopy": "记录日常支出，并按类别查找。了解哪些费用对您的月份影响最大。",
     "aboutGoalsTitle": "了解您的预算还剩下什么",
@@ -160,7 +160,9 @@
     "closingTitle": "为更清晰的财务计划腾出空间。",
     "closingCopy": "在 Instagram 上关注 KOVA Development 以获取应用预览和发布新闻。首次公开发布仍在准备中。",
     "closingSecondary": "您还可以在TikTok上找到KOVA。",
-    "forecastNote": "在当前版本中，估算可变支出至少需要 7 天的观察期和 2 条支出记录。持续记录能提供更完整的信息。预测始终只是估算。"
+    "forecastNote": "每种分析都需要足够的数据。选择 Premium 前，请先了解要求。",
+    "faqDataQ": "不同分析需要多少数据？",
+    "faqDataA": "<p>你可以从一开始就记录支出和预算。基本报表需要至少 3 个不同日期的 5 笔交易。</p><ul><li>可变支出估算：至少观察 7 天，并在最近 3 个月内有 2 笔支出。这只是一个计算组成部分的门槛，并非整个 Premium 的门槛。</li><li>高级报表：至少 60 天历史、75 笔交易、20 个有交易的日期，以及至少 1 个预算或目标。以上条件必须全部满足。</li><li>预测：至少 90 天历史、分布于 3 个不同月份的 100 笔交易，以及固定收入或定期付款（已记录或已识别）。以上条件必须全部满足。</li></ul><p>购买 Premium 不能替代所需的历史记录。系统依据个人资料中的记录，包括正确导入的数据；仅安装日期并不够。预测仍然是估算。</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — 删除本地数据和配置文件",
       "privacy": "KOVA 隐私政策 - 应用程序和网站",
       "terms": "KOVA Free 和 Premium 条款 — 草案",
-      "cookies": "KOVA 网站 Cookie 和 Google Analytics"
+      "cookies": "KOVA — 分析功能已停用。"
     },
     "descriptions": {
       "404": "此KOVA页面不存在。返回应用程序概述、更新或联系方式。",
@@ -539,7 +541,7 @@
       "delete-account": "管理和删除本地 KOVA 数据、配置文件和导出。 Premium续费在Google Play中单独管理；卸载并不会取消它。",
       "privacy": "KOVA 隐私政策草案：本地应用数据、导出、联系方式和可选网站分析。出版前需获得批准。",
       "terms": "KOVA Free 和 Premium 条款草案：本地功能、可选订阅、Google Play 购买和恢复、备份和估计限制。",
-      "cookies": "KOVA 网站如何使用 cookie，并且 Google Analytics 仅在征得同意后才使用。查看衡量的内容以及如何撤回您的选择。"
+      "cookies": "KOVA: 网站不会运行 Google Analytics 或分析 Cookie，即使您之前已同意。"
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "网站语言",
     "pendingDecision": "发布前等待所有者确认"
   },
-  "cookies": "<section data-doc-lang=\"zh\" data-document-title=\"KOVA 网站 Cookie 和 Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">饼干</p><h1>分析是您的选择。</h1><p>基本 cookie 会记住语言和设置。分析仅在同意后开始。</p><div class=\"document-meta\"><span class=\"document-chip\">Updated: 22 October 2026</span><span class=\"document-chip\">No advertising</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>必备</h2><p><code>kova_site_language</code>记忆语言长达 12 个月；<code>kova_cookie_consent_v2</code>180 天记住您的选择。先前对当地柜台的同意并不授权Google Analytics。</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>在获得公共 kovacompass.app 域（包括 www）同意后，我们加载 Google 标签<code>G-2LE3GWYDZM</code>。 Google may store<code>_ga</code>和<code>_ga_2LE3GWYDZM</code>用于浏览器和会话识别的 cookie。我们配置 180 天到期，每次访问都不会自动续订；浏览器可能会缩短此时间。</p></article>\n          <article class=\"document-card\"><h2>What we measure</h2><p>页面视图、打开和播放演示文稿、章节选择、放大屏幕截图、打开的常见问题解答和联系人点击。我们的活动仅包含活动名称、没有 URL 参数或片段的公共页面以及语言。我们不会发送消息内容、财务、帐户 ID 或工作区内容。本地预览不运行 Google Analytics。</p></article>\n          <article class=\"document-card\"><h2>Recipient and basis</h2><p>出版商：Vadyslav Konohrai，波兰；联系方式：<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>。可选测量取决于您的同意。 Google Analytics 还处理技术浏览器、设备、会话和大致位置信息。 IP地址参与通信； Google 声明 GA4 不存储 IP 地址。这并不会使数据完全匿名。处理可能在欧洲经济区之外进行。参见<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">谷歌的隐私政策</a>和<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 数据信息</a>。</p></article>\n          <article class=\"document-card\"><h2>网站语言</h2><p>语言选择也保留在<code>localStorage</code>直到浏览器存储被清除。 KOVA 帐户数据不存储在此处。</p></article>\n          <article class=\"document-card wide\"><h2>改变你的选择</h2><p>在页脚中打开“Cookie 设置”并拒绝分析，或将其关闭并保存。拒绝并不限制网站。撤回会删除可访问的 GA cookie 并重新加载页面以停止标记。它无法调用已发送的数据。联系我们了解数据权利；您还可以向相关数据保护机构投诉。隐私文件无需选择同意即可保持可读。</p></article>\n          <article class=\"document-card wide\"><h2>预发表状态</h2><p>草案信息于 2026 年 10 月 22 日更新。仅在网站上集成； Offline V1 应用程序仍然无需分析。代码中禁用了 Google 信号和广告同意。在发布之前，发布者必须确认处理条款、传输、GA4 服务保留（与 Cookie 生命周期分开）、禁用自动增强测量和托管配置。本地测试不会验证这些设置。</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"zh\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>分析功能已停用。</h1><p>网站不会运行 Google Analytics 或分析 Cookie，即使您之前已同意。</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>我们会记住您选择的语言。技术 Cookie 也可能用于记住分析功能已停用。</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>您下次访问时，之前的分析 Cookie 将被删除。这不会删除已发送给 Google 的数据。</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=zh\" data-shell-label=\"privacy\">隐私政策</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

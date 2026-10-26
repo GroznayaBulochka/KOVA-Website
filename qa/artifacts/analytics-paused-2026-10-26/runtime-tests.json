@@ -1,0 +1,152 @@
+{
+  "result": "PASS",
+  "cases": 24,
+  "disclosureLanguages": 27,
+  "checks": [
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "analytics",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "analytics",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "essential",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "essential",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "invalid",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "kovacompass.app",
+      "previousConsent": "invalid",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "analytics",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "analytics",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "essential",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "essential",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "invalid",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "www.kovacompass.app",
+      "previousConsent": "invalid",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "analytics",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "analytics",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "essential",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "essential",
+      "storageBlocked": true,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "invalid",
+      "storageBlocked": false,
+      "pass": true
+    },
+    {
+      "host": "127.0.0.1",
+      "previousConsent": "invalid",
+      "storageBlocked": true,
+      "pass": true
+    }
+  ],
+  "scope": "Node VM runtime regression tests with simulated cookie storage; generated CSP and localized disclosure. Not a browser network capture."
+}

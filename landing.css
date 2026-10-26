@@ -81,3 +81,6 @@ html[dir="rtl"] .intro-bottom .button .icon { transform:rotate(180deg); }
 @media(max-width:650px){.plan-cards{grid-template-columns:1fr;gap:16px}.plan-card{padding:26px}.plan-card h3{font-size:27px}.launch-panel{padding:36px 24px;border-radius:22px}.scenario-screen img{height:320px}.plans.section{padding-bottom:36px}}
 .lightbox>img{max-height:calc(100dvh - 150px)}.lightbox-controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px;padding:8px;color:#fff;background:#101511;border-radius:16px;font-size:13px}.lightbox-controls button{display:grid;place-items:center;width:48px;height:44px;border:1px solid #ffffff50;border-radius:12px;color:#fff;background:#ffffff0b}.lightbox-controls button:hover{background:#ffffff24}.lightbox-controls button:focus-visible{outline:3px solid #f3bd56;outline-offset:3px}
 .locale-error{margin:16px 20px;padding:14px;border:1px solid #ab833d;border-radius:10px;font-size:14px;line-height:1.6;color:#573e17;background:#fff3d7}
+
+/* Data requirements remain readable as a short list in every language. */
+.faq-data-answer ul{margin:0 28px 24px 0;padding-inline-start:22px;color:var(--muted);font-size:15px;line-height:1.8}.faq-data-answer li+li{margin-top:12px}.analysis-data-link{display:inline-block;margin-top:20px}#analysis-data{scroll-margin-top:100px}

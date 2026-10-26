@@ -57,7 +57,7 @@
     "screenWorkCopy": "儲存喺裝置上面 · 2026年10月21日",
     "securityKicker": "私隱",
     "securityTitle": "私隱係我哋嘅首要任務。",
-    "securityCopy": "我哋努力確保 KOVA 盡量安全，所以私隱係第一位。財務記錄會保留喺你部手機上面。可選擇 Premium 購買和還原使用 Google Play 單獨使用；呢個網站嘅分析需要你嘅同意。",
+    "securityCopy": "KOVA 嘅財務記錄會留喺你部手機。我哋努力令應用程式盡量安全。 可選擇 Premium 購買和還原使用 Google Play 單獨使用；呢個網站嘅分析需要你嘅同意。",
     "securityModel": "睇下安全性",
     "secureLocal": "本地加密",
     "secureOwner": "數據隔離",
@@ -123,12 +123,12 @@
     "faqOcrQ": "收據掃描係咪可以離線運作？",
     "faqOcrA": "OCR 使用同應用程式捆綁嘅模型。影張相，或者透過 Android 挑選器喺你嘅相簿入面揀一張。識別可能會錯 — 喺儲蓄之前檢查金額、貨幣同日期。拒絕相機存取唔會阻止檔案選擇。",
     "faqDeviceQ": "KOVA 係針對邊啲裝置同受眾？",
-    "faqDeviceA": "KOVA 正為運行 Android 7.0或更高版本嘅 Android 手機做準備。目前嘅來源包括27種介面語言；兼容性同語言審查仲進行緊。適合 13 歲以上嘅小朋友，視乎店舖同當地嘅要求而定。冇提供 iOS 或者手錶版本。",
+    "faqDeviceA": "KOVA 正為運行 Android 7.0或更高版本嘅 Android 手機做準備。 KOVA 介面支援 27 種語言；兼容性同語言審查仲進行緊。適合年滿 13 歲嘅用戶，視乎店舖同當地嘅要求而定。冇提供 iOS 或者手錶版本。",
     "aboutKicker": "咩係 KOVA ？",
     "aboutTitle": "少啲錢嘅壓力。你嘅計劃有更多空間。",
     "aboutCopy": "KOVA 係一個適用於日常個人理財嘅 Android 應用程式。將開支、預算同工作時間放埋一齊，噉你就可以睇到帳單之後剩低啲咩，同埋計劃下個月。",
     "aboutAudience": "對於學生、打工仔同任何想對自己嘅錢作出更有意識嘅決定嘅人嚟講。",
-    "aboutForWhom": "對你嚟講，如果 …",
+    "aboutForWhom": "KOVA 幫到你啲乜",
     "aboutSpendingTitle": "睇下你啲錢去咗邊",
     "aboutSpendingCopy": "記錄日常開支，然後按類別搵。了解邊啲費用對你嘅月份有最大嘅影響。",
     "aboutGoalsTitle": "知道你嘅預算仲有啲咩",
@@ -160,7 +160,9 @@
     "closingTitle": "為更清晰嘅錢財計劃留出空間。",
     "closingCopy": "喺 Instagram 上面追蹤 KOVA Development ，睇下應用程式預覽同發佈消息。第一次公開發佈仲係準備緊。",
     "closingSecondary": "你亦可以喺 TikTok 搵到 KOVA 。",
-    "forecastNote": "目前版本要估算浮動開支，至少需要 7 日觀察期同 2 筆開支紀錄。持續記錄可以睇得更全面。預測始終只係估算。"
+    "forecastNote": "每種分析都需要足夠數據。揀 Premium 前，先睇清楚要求。",
+    "faqDataQ": "各種分析需要幾多數據？",
+    "faqDataA": "<p>你一開始就可以記錄開支同預算。基本報表需要最少 3 個唔同日子嘅 5 筆交易。</p><ul><li>浮動開支估算：最少觀察 7 日，同埋最近 3 個月有 2 筆開支。呢個只係一個計算部分嘅門檻，唔係成個 Premium 嘅門檻。</li><li>進階報表：最少 60 日歷史、75 筆交易、20 個有交易嘅日子，同埋最少 1 個預算或目標。全部條件都要符合。</li><li>預測：最少 90 日歷史、分佈喺 3 個唔同月份嘅 100 筆交易，同埋固定收入或定期付款（已記錄或偵測到）。全部條件都要符合。</li></ul><p>買 Premium 唔能夠代替所需歷史。系統會計入個人檔案嘅記錄，包括正確匯入嘅數據；淨係安裝日期唔夠。預測始終係估算。</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — 刪除本地資料同個人檔案",
       "privacy": "KOVA 私隱政策 — 應用程式同網站",
       "terms": "KOVA Free 同 Premium 條款 — 草稿",
-      "cookies": "KOVA 網站 Cookie 同埋 Google Analytics"
+      "cookies": "KOVA — 分析功能已停用。"
     },
     "descriptions": {
       "404": "呢個 KOVA 頁面唔存在。返去應用程式概覽、更新或者聯絡人。",
@@ -539,7 +541,7 @@
       "delete-account": "管理同刪除本地 KOVA 數據、個人檔案同匯出。 Premium 續約係喺 Google Play 單獨管理；卸載唔會取消佢。",
       "privacy": "草擬 KOVA 私隱權政策：本地應用程式資料、匯出、聯絡人同埋可選嘅網站分析。出版前需要核准。",
       "terms": "KOVA Free 同 Premium 條款草案：本地功能、可選訂閱、 Google Play 購買同還原、備份同估算嘅限制。",
-      "cookies": "KOVA 網站點樣使用 Cookie 同埋 Google Analytics 只有喺同意之後。睇下咩係衡量嘅，同埋點樣撤回你嘅選擇。"
+      "cookies": "KOVA: 網站唔會啟動 Google Analytics 或分析 Cookie，就算你之前同意咗都一樣。"
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "網站語言",
     "pendingDecision": "喺發佈之前等緊擁有者確認"
   },
-  "cookies": "<section data-doc-lang=\"yue\" data-document-title=\"KOVA 網站 Cookie 同埋 Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">曲奇餅</p><h1>分析係你嘅選擇。</h1><p>基本嘅 Cookie 會記住語言同設定。分析只會喺同意之後先開始。</p><div class=\"document-meta\"><span class=\"document-chip\">更新日期：2026年10月22號</span><span class=\"document-chip\">冇廣告</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>必要嘅</h2><p><code>kova_site_language</code>記住語言長達12個月；<code>kova_cookie_consent_v2</code>記住你嘅選擇180日。之前同意本地計數器唔會授權 Google Analytics 。</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>喺公開 kovacompass.app 網域（包括 www ）上面得到同意之後，我哋會載入 Google 標籤<code>G-2LE3GWYDZM</code>。 Google 可能會儲存<code>_ga</code>同埋<code>_ga_2LE3GWYDZM</code>用嚟識別瀏覽器同工作階段嘅 cookie 。我哋會設定180日到期，而唔會喺每次訪問嗰陣自動續約；瀏覽器可能會縮短呢段時間。</p></article>\n          <article class=\"document-card\"><h2>我哋衡量嘅嘢</h2><p>頁面檢視、打開同播放簡報、章節選擇、放大嘅螢幕截圖、開啟嘅常見問題同埋聯絡人點擊。我哋嘅活動只包含活動名稱、冇網址參數或者片段嘅公開頁面，同埋語言。我哋唔會傳送訊息內容、財務、帳戶 ID 或者工作區內容。本機預覽唔會執行 Google Analytics 。</p></article>\n          <article class=\"document-card\"><h2>收件人同基礎</h2><p>出版商： Vadyslav Konohrai ，波蘭；聯絡人：<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>。可選嘅測量需要你嘅同意。 Google Analytics 亦會處理技術瀏覽器、裝置、工作階段同埋大約位置資訊。 IP 地址係參與通訊嘅； Google 話 GA4 唔會儲存 IP 位址。噉樣唔會令到啲數據完全匿名。處理可能會喺歐洲經濟區以外進行。睇吓<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Google 嘅私隱政策</a>同埋<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 數據資訊</a>。</p></article>\n          <article class=\"document-card\"><h2>網站語言</h2><p>語言選擇亦都仍然存在<code>localStorage</code>直到瀏覽器儲存空間清除為止。 KOVA 帳戶資料唔會儲存喺呢度。</p></article>\n          <article class=\"document-card wide\"><h2>改變你嘅選擇</h2><p>喺頁尾打開「 Cookie 設定」，然後拒絕分析，或者閂咗佢然後儲存。拒絕唔會限制個網站。撤銷會移除可存取嘅 GA Cookie , 同埋重新載入頁面，以停止標籤。佢回想唔到已經傳送咗嘅數據。關於資料權利，請聯絡我哋；你亦可以向相關嘅數據保護機構投訴。喺唔需要選擇同意嘅情況下，私隱文件仍然可以閱讀。</p></article>\n          <article class=\"document-card wide\"><h2>出版前嘅狀態</h2><p>草稿資訊喺2026年10月22日更新。整合只限網站；離線 V1應用程式仍然係冇分析嘅。喺程式碼入面停用咗 Google 訊號同廣告同意。喺發佈之前，發佈者必須確認處理條款、轉移、 GA4 服務保留（同 Cookie 壽命分開）、停用咗自動增強測量同埋寄存設定。本地測試唔會驗證呢啲設定。</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"yue\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>分析功能已停用。</h1><p>網站唔會啟動 Google Analytics 或分析 Cookie，就算你之前同意咗都一樣。</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>我哋會記住你揀嘅語言。技術 Cookie 亦可能用嚟記住分析功能已停用。</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>你下次瀏覽時，之前嘅分析 Cookie 會被刪除。呢個操作唔會刪除已經傳送畀 Google 嘅資料。</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=yue\" data-shell-label=\"privacy\">私隱政策</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

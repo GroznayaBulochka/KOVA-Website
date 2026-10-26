@@ -1,0 +1,95 @@
+KOVA — informacja o prywatności strony WWW, materiał do końcowego przeglądu
+Przygotowano 25.10.2026. NIEOPUBLIKOWANY PROJEKT, bez daty obowiązywania.
+Dotyczy kovacompass.app, nie zastępuje polityki aplikacji Android.
+Wariant zakłada zachowanie opcjonalnego GA4. Decyzja właściciela pozostaje otwarta.
+
+1. Kto odpowiada za stronę
+Wydawca: Vadyslav Konohrai, Polska. Kontakt dotyczący prywatności i wsparcia:
+contact@kovacompass.app. Właściciel deklaruje status osoby prywatnej.
+Do finalizacji pozostaje kwalifikacja operatora i wymaganych informacji
+identyfikacyjnych. Nie wprowadzono adresu domowego ani fikcyjnej firmy.
+
+2. Strona i finanse w aplikacji to różne zakresy
+Ta witryna przedstawia KOVA. Nie odczytuje bazy finansowej z Twojego telefonu.
+Dane wpisywane w aplikacji i opcjonalne zakupy opisuje osobna polityka aplikacji.
+Korzystanie ze strony wymaga przesłania żądań internetowych do jej dostawców.
+Dlatego nie należy obiecywać, że wszystkie dane związane z odwiedzinami zostają
+na telefonie lub że nikt trzeci ich nie przetwarza.
+
+3. Wyświetlanie i bezpieczeństwo strony
+Strona korzysta z GitHub Pages oraz Cloudflare do dostarczania plików i ochrony
+połączenia. Żądania zawierają informacje techniczne, takie jak adres IP,
+żądany adres strony i nagłówki przeglądarki. Dostawcy opisują własne przetwarzanie
+i okresy przechowywania w swoich zasadach. Przegląd konfiguracji potwierdził
+HTTPS z walidacją certyfikatu serwera oraz nagłówki ochronne, nie pełny audyt
+wewnętrznych logów dostawców.
+Proponowana podstawa czynności operatora: prawnie uzasadniony interes polegający
+na udostępnianiu i zabezpieczaniu strony (art. 6 ust. 1 lit. f RODO), po ustaleniu
+niezbędności, zakresu i ról dostawców. Nie przedstawiać tego projektu jako
+zakończonej oceny wszystkich operacji wykonywanych niezależnie przez dostawców.
+
+4. Opcjonalna analityka Google Analytics 4
+GA4 służy do sprawdzania, które strony i prezentacje są przydatne. Uruchamia się
+po wyraźnej zgodzie. Odrzucenie zachowuje dostęp do całej witryny. Zgodę można
+zmienić lub wycofać w ustawieniach cookies; wycofanie nie zmienia zgodności
+wcześniejszego przetwarzania. Proponowana podstawa: art. 6 ust. 1 lit. a RODO
+oraz właściwe wymagania dla zapisu/odczytu informacji w urządzeniu.
+Zakres obejmuje odwiedziny, język strony, określone kliknięcia i standardowe
+metadane sesji/przeglądarki. Identyfikatory cookies są pseudonimowe, nie anonimowe.
+Nasz adapter nie przekazuje danych finansowych, treści wiadomości, User-ID,
+parametrów zapytania ani fragmentu adresu strony. Nie włączamy Google Signals,
+personalizacji reklam, zbierania danych podanych przez użytkownika ani
+szczegółowych danych o lokalizacji i urządzeniu. Nie oznacza to wyłączenia
+wszystkich standardowych danych technicznych lub informacji o kraju/regionie.
+Ustawienie retencji danych użytkowników i zdarzeń: 2 miesiące, bez odnawiania
+przy kolejnych wizytach. Nie jest to obietnica usunięcia w tym samym czasie
+wszystkich raportów zbiorczych ani wszystkich kopii dostawcy.
+Wybór zgody i cookies GA mają odrębny okres: 180 dni według konfiguracji witryny.
+Odbiorca usługi: Google Analytics 4, identyfikator G-2LE3GWYDZM.
+Przed publikacją trzeba domknąć właściwy podmiot Google, podstawę umowną,
+dane kontaktowe DPA i mające zastosowanie zabezpieczenia transferów.
+
+5. Kontakt e-mail
+Jeśli napiszesz do contact@kovacompass.app, otrzymamy adres nadawcy, treść
+i przesłane załączniki, aby obsłużyć sprawę. Nie wysyłaj haseł, kodów 2FA,
+danych karty ani pełnej bazy finansów. Publiczny adres przekierowuje Cloudflare
+do skrzynki Gmail; prywatnego adresu docelowego nie publikujemy.
+Proponowana podstawa zwykłych pytań: uzasadniony interes obsługi korespondencji.
+Przy konkretnej umowie, obowiązku prawnym albo żądaniu dotyczącym praw należy
+odpowiednio ustalić podstawę dla tej sprawy. Nie pobierać ogólnej, obowiązkowej
+zgody na całą korespondencję jako zamiennika takiej oceny.
+Przyjęty plan: dane zwykłej pomocy usuwać po ustaniu celu, maks. do 12 miesięcy
+od zamknięcia, jeżeli dalsze zachowanie jest uzasadnione. Zbędne załączniki usuwać
+po użyciu, nie później niż do 30 dni od zamknięcia. Reklamacje, spory i rozliczenia
+wymagają osobnych, właściwych kryteriów. Te zasady nie mogą zostać opisane jako
+wykonywane, dopóki nie zostanie wdrożona załączona SUPPORT_PROCEDURE.txt.
+
+6. Twoje prawa
+W zakresie i na warunkach RODO możesz żądać dostępu, sprostowania, usunięcia,
+ograniczenia, przenoszenia oraz wnieść sprzeciw wobec przetwarzania opartego
+na uzasadnionym interesie. Możesz wycofać zgodę i złożyć skargę do Prezesa UODO
+lub właściwego organu nadzorczego. Kontakt: contact@kovacompass.app.
+Nie wszystkie prawa mają zastosowanie do każdej podstawy i każdego zbioru danych.
+Nie żądamy rutynowo dokumentu tożsamości. Wyjaśniamy konieczny zakres weryfikacji.
+Witryna nie ma możliwości zdalnego skasowania danych istniejących tylko w telefonie.
+
+7. Co konkretnie domknąć przed nadaniem daty i tłumaczeniem końcowej wersji
+- Decyzja o utrzymaniu GA4, właściwa umowa i kontakt do jej powiadomień.
+- Rzeczywisty wariant konta Gmail/warunki dla korespondencji, dostęp i role
+  dostawców, transfery oraz właściwe kryteria retencji logów hostingu.
+- Wdrożenie prywatnego rejestru i obsługi terminów z SUPPORT_PROCEDURE.txt.
+- Ocena statusu operatora/informacji identyfikacyjnych. Bez powrotu do cofniętej
+  zgody na publikowanie adresu domowego.
+- Zatwierdzenie ostatecznej treści i daty nie wcześniejszej niż udostępnienie
+  użytkownikom; osobna spójność z aktualnymi dokumentami aplikacji i ofertą Play.
+
+Nie opublikowano tego projektu ani nie zmieniono 54 dokumentów strony. Materiał
+oddziela ustalone fakty techniczne od niezamkniętych decyzji i kwalifikacji.
+Źródła dostawców do przeglądu, odczyt 25.10.2026:
+https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+https://www.cloudflare.com/privacypolicy/
+https://www.cloudflare.com/cloudflare-customer-dpa/
+https://support.google.com/analytics/answer/3379636?hl=pl
+https://business.safety.google/adsprocessorterms/
+https://support.google.com/analytics/answer/7667196
+https://www.uodo.gov.pl/pl/493/4098

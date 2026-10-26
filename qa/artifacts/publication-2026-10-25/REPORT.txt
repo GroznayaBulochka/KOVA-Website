@@ -1,0 +1,94 @@
+KOVA — publikacja i wymagania analiz
+25 października 2026
+
+STAN KOŃCOWY
+Zmieniono rzeczywiste źródło publikacji GitHub Pages na GitHub Actions.
+Poprawki treści są lokalnie gotowe i sprawdzone. Nie wykonano commit/push,
+nowego wdrożenia ani zmian w aplikacji Android. Nie opublikowano preview.
+Wersja lokalnego artefaktu: 66a7ba803ae65b90b4db, 431 plików, 297 wersji HTML.
+Podgląd: http://127.0.0.1:4174/?lang=pl#analysis-data
+
+PUBLIKACJA
+Potwierdzono log joba 120972343002 w run 40127626723: Build with Jekyll,
+actions/jekyll-build-pages@v1, source ., destination ./_site.
+Panel Pages wskazywał Deploy from a branch, main, / (root). Zmieniono Source
+na GitHub Actions i odczytano komunikat GitHub Pages source saved.
+Domena kovacompass.app i Enforce HTTPS pozostały bez zmian.
+Dowody: github-pages-change.json i github-pages-actions.png.
+
+Istniejący .github/workflows/pages.yml ma właściwy proces: build i testy,
+build:public, publikacja tylko dist/, kontrola domeny z manifestem artefaktu.
+Nie dodano szablonu Static HTML ani kolejnego workflow Jekyll.
+Poprawiono PUBLICATION_CHECK.txt i jawnie dopisano korektę do raportu z 24.10:
+poprzednie narzędzie listowało tylko uruchomienia powiązane z pull requestami.
+Pusty wynik nie dowodził braku innych wdrożeń.
+
+Publiczny odczyt 25.10: / = 200 bez canonical, hreflang, og:image, kova-build
+i runtime-bootstrap. Nadal ładuje translations.js. /index-en.html,
+/sitemap.xml i /build-manifest.json = 404. Dowód: live-domain.json.
+Zmiana Source zapobiega kolejnym publikacjom źródeł przez ustawienie branch,
+ale sama nie podmienia obecnego serwisu na domenie.
+
+Właściciel odpowiedział „nie” na pytanie, czy zakończono dokumenty/datę,
+wdrożenie obsługi korespondencji albo kontrolę GA4. Nie zmieniono release-config.
+Pozostałe wymagania, rozróżnienie istniejących potwierdzeń i braków oraz kolejny
+krok są opisane w RELEASE_BLOCKERS.txt. Nie należy powtarzać testu poczty i 2FA
+już potwierdzonych przez właściciela ani odtwarzać wycofanego adresu domowego.
+
+TREŚĆ — WSZYSTKIE 27 JĘZYKÓW
+1. Nowe FAQ rozróżnia cztery przypadki:
+   - podstawowe raporty: 5 transakcji z co najmniej 3 różnych dni;
+   - składnik szacowania zmiennych wydatków: 7 dni obserwacji i 2 wydatki
+     w oknie ostatnich 3 miesięcy — nie jest to próg całego Premium;
+   - rozszerzone raporty: 60 dni historii, 75 transakcji, 20 dni z transakcjami
+     oraz co najmniej 1 budżet lub cel, wszystkie warunki łącznie;
+   - prognozy: 90 dni historii, 100 transakcji z 3 różnych miesięcy i regularny
+     dochód lub płatność cykliczna zapisana/wykryta, wszystkie warunki łącznie.
+   Wyjaśnia rozpoczęcie od własnych zapisów, uwzględnianie prawidłowo
+   zaimportowanych danych, brak obejścia historii przez sam zakup Premium
+   oraz szacunkowy charakter wyników. To nie obietnica natychmiastowej
+   dostępności wszystkich analiz przy pustym profilu.
+2. Przy planach jest odsyłacz do FAQ zamiast odosobnionego progu 7/2.
+   Kliknięcie i bezpośredni adres #analysis-data otwierają odpowiedź.
+   Górne menu prawidłowo zaznacza Pytania i odpowiedzi dla nowej kotwicy.
+3. Wprowadzenie do scenariuszy: „Co zyskujesz z KOVA”, pasujące do nagłówków.
+4. Opis prywatności zaczyna się od danych na telefonie; nie powtarza nagłówka.
+   Zachowano informację o pracy nad bezpieczeństwem, osobnych zakupach Play
+   i wymaganej zgodzie na analitykę strony.
+5. FAQ o urządzeniach opisuje 27 obsługiwanych języków i trwającą kontrolę
+   tłumaczeń, bez technicznego sformułowania o „aktualnych źródłach”.
+   Poprawiono też sformułowania sugerujące, że grupa 13+ obejmuje tylko dzieci.
+6. Nie zmieniono projektu graficznego ani głównej galerii. Obejrzano polskie
+   work.png z phone-nav-final i phone-nav-feature-a11y-20261025: oba pokazują
+   pusty profil pracy, bez przykładowej historii. Zachowano oznaczony starszy
+   ekran zamiast zastępować go takim pustym widokiem. Nie uruchamiano telefonu.
+
+Źródła progów i sumy SHA-256 są w analysis-evidence.json. Odczytano silnik
+gotowości, rejestr funkcji, reguły Premium, politykę wydatków i źródło metryk
+historii. Import zapisuje transakcje do tego samego lokalnego rejestru.
+Nie dokonywano zmian w tych źródłach ani w 54 projektach dokumentów prawnych.
+
+SPRAWDZENIA
+- npm test: 31 poleceń, 0 niepowodzeń, tests.log; obejmuje kontrolę progów
+  w każdej wersji, kompletność 9144 tłumaczonych ciągów, metadane/SEO,
+  spójność artefaktu i negatywną próbę wydania. build:public nadal blokowany.
+- SEO: 898 kontroli, 297 stron lokalizowanych, 189 URL dla przyszłej wersji
+  publicznej; seo-checks.json. Nie jest to dowód indeksowania domeny.
+- Kontrola HTTP lokalnego artefaktu: 430 zgodnych adresów, 0 błędów;
+  local-deployment.json, wersja 66a7ba803ae65b90b4db.
+- Przeglądarka w aplikacji: wszystkie 27 bezpośrednich linków otwierają
+  przetłumaczone FAQ, 3 punkty wymagań, właściwe aktywne menu, brak poziomego
+  przepełnienia na szerokości desktopowej; browser-languages.json.
+- Widok 360 i 390 px PL, 360 px AR oraz 768 px RU i 1440 px PL obejrzano
+  w lokalnych ramkach o stałej szerokości przez qa/responsive-preview.mjs.
+  To test responsywnego układu w przeglądarce, nie test fizycznego telefonu.
+  Zrzuty faq-*.png. Zrzuty ramek poprzedzają końcową, jednoliniową poprawkę
+  aktywnej pozycji menu; faq-pl-desktop.png pokazuje już końcową wersję.
+- Nie wykonywano Lighthouse ani pomiarów rzeczywistego odbioru danych GA4.
+  Testy nie zastępują niezależnej oceny językowej tłumaczeń.
+
+Pierwsze iteracje testów wykryły brak nazwy KOVA po skróceniu akapitu prywatności
+oraz założenie tej samej kolejności liczb w zdaniach różnych języków. Poprawiono
+teksty i porównywanie progów w obrębie analizy; końcowy pełny zestaw przechodzi.
+Historyczne raporty generowane przez testy zachowano, a nowe wyniki zapisano
+w tym katalogu. QA i narzędzia kontrolne nie są częścią artefaktu publicznego.

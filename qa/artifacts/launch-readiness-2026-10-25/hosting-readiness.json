@@ -1,0 +1,19 @@
+{
+  "checkedOn": "2026-10-25",
+  "scope": "PRE_DEPLOYMENT_CONFIGURATION",
+  "origin": "https://kovacompass.app",
+  "result": "PASS",
+  "pagesSource": "GitHub Actions",
+  "pagesSourceEvidence": "qa/artifacts/publication-2026-10-25/github-pages-actions.png",
+  "dnsOrigin": "GitHub Pages via Cloudflare proxy",
+  "sslMode": "Full (strict)",
+  "queryStringInCacheKey": true,
+  "htmlAndReleaseMetadataBypassEdgeCache": true,
+  "browserRevalidation": "no-cache",
+  "securityHeadersApplied": true,
+  "rawLegalSourceNoindex": true,
+  "httpEvidence": "qa/artifacts/launch-readiness-2026-10-25/hosting-http.json",
+  "panelEvidence": "qa/artifacts/launch-readiness-2026-10-25/REPORT.txt",
+  "publicArtifactVerified": false,
+  "postDeploymentManifestVerificationRequired": true
+}

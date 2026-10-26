@@ -57,7 +57,7 @@
     "screenWorkCopy": "デバイスに保存されました · 2026 年 10 月 21 日",
     "securityKicker": "プライバシー",
     "securityTitle": "プライバシーは当社の最優先事項です。",
-    "securityCopy": "KOVA を可能な限り安全にするよう取り組んでいるため、プライバシーが最優先されます。財務記録は携帯電話に残ります。オプションの Premium の購入と復元では、Google Play を個別に使用します。このウェブサイトの分析にはあなたの同意が必要です。",
+    "securityCopy": "KOVA の財務記録はスマートフォン内に保存されます。アプリの安全性をできる限り高めるよう取り組んでいます。 オプションの Premium の購入と復元では、Google Play を個別に使用します。このウェブサイトの分析にはあなたの同意が必要です。",
     "securityModel": "セキュリティについて読む",
     "secureLocal": "ローカル暗号化",
     "secureOwner": "データの分離",
@@ -123,12 +123,12 @@
     "faqOcrQ": "レシートのスキャンはオフラインでも機能しますか?",
     "faqOcrA": "OCR はアプリにバンドルされているモデルを使用します。写真を撮るか、Android ピッカーを使用してギャラリーから写真を選択します。認識が間違っている可能性があります。保存する前に、金額、通貨、日付を確認してください。カメラへのアクセスを拒否しても、ファイルの選択はブロックされません。",
     "faqDeviceQ": "KOVA はどのデバイスと対象者を対象としていますか?",
-    "faqDeviceA": "KOVA は、Android 7.0 以降を実行する Android 携帯電話用に準備されています。現在のソースには 27 のインターフェイス言語が含まれています。互換性と言語のレビューは進行中です。対象年齢は 13 歳以上ですが、店舗および地域の要件に従う必要があります。 iOS または Watch のリリースは提供されていません。",
+    "faqDeviceA": "KOVA は、Android 7.0 以降を実行する Android 携帯電話用に準備されています。 KOVA の画面は 27 言語に対応しています。互換性と言語のレビューは進行中です。対象年齢は 13 歳以上ですが、店舗および地域の要件に従う必要があります。 iOS または Watch のリリースは提供されていません。",
     "aboutKicker": "KOVA とは何ですか?",
     "aboutTitle": "お金のストレスが減ります。あなたの計画のためのスペースがさらに広がります。",
     "aboutCopy": "KOVA は、毎日の個人財務のための Android アプリです。支出、予算、作業時間をまとめておけば、請求後に何が残っているかを確認し、先月の計画を立てることができます。",
     "aboutAudience": "学生、社会人、そして自分のお金についてより意図的な意思決定をしたい人向け。",
-    "aboutForWhom": "あなたにとって、もし…",
+    "aboutForWhom": "KOVA で得られること",
     "aboutSpendingTitle": "お金の行き先を確認する",
     "aboutSpendingCopy": "毎日の支出を記録し、カテゴリ別に検索します。どのコストが月に最大の違いをもたらすかを理解します。",
     "aboutGoalsTitle": "予算内に何が残っているかを把握する",
@@ -160,7 +160,9 @@
     "closingTitle": "より明確なお金の計画のための余地を作りましょう。",
     "closingCopy": "アプリのプレビューとリリースのニュースについては、Instagram で KOVA Development をフォローしてください。最初の一般リリースはまだ準備中です。",
     "closingSecondary": "TikTok でも KOVA を見つけることができます。",
-    "forecastNote": "現在のバージョンでは、変動する支出の推定に少なくとも7日間の観察期間と2件の支出記録が必要です。継続して記録すると、より全体像を把握できます。予測はあくまで推定です。"
+    "forecastNote": "各分析には十分なデータが必要です。Premium を選ぶ前に条件をご確認ください。",
+    "faqDataQ": "各分析にはどのくらいのデータが必要ですか？",
+    "faqDataA": "<p>支出や予算は最初から記録できます。基本レポートには、少なくとも 3 日の異なる日付にわたる 5 件の取引が必要です。</p><ul><li>変動支出の推定：最低 7 日の観察期間と、直近 3 か月の支出 2 件が必要です。これは計算の一部分の条件であり、Premium 全体の条件ではありません。</li><li>詳細レポート：最低 60 日の履歴、75 件の取引、取引のある日が 20 日、さらに予算または目標が 1 件以上必要です。すべての条件を満たす必要があります。</li><li>予測：最低 90 日の履歴、異なる 3 か月にわたる 100 件の取引、定期収入または定期支払い（記録済みまたは検出済み）が必要です。すべての条件を満たす必要があります。</li></ul><p>Premium を購入しても必要な履歴の代わりにはなりません。正しくインポートされたデータを含むプロフィール内の記録が対象です。インストール日だけでは不十分です。予測はあくまで推定です。</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA - ローカル データとプロファイルの削除",
       "privacy": "KOVA プライバシー ポリシー — アプリとウェブサイト",
       "terms": "KOVA Free および Premium 規約 — 草案",
-      "cookies": "KOVA ウェブサイトの Cookie と Google Analytics"
+      "cookies": "KOVA — アクセス解析は停止中です。"
     },
     "descriptions": {
       "404": "この KOVA ページは存在しません。アプリの概要、アップデート、または連絡先に戻ります。",
@@ -539,7 +541,7 @@
       "delete-account": "ローカルの KOVA データ、プロファイル、エクスポートを管理および削除します。 Premium の更新は、Google Play で個別に管理されます。アンインストールしてもキャンセルされません。",
       "privacy": "KOVA プライバシー ポリシーの草案: ローカル アプリ データ、エクスポート、連絡先、およびオプションの Web サイト分析。公開前に承認が必要です。",
       "terms": "KOVA Free および Premium の条項草案: ローカル機能、オプションのサブスクリプション、Google Play の購入と復元、バックアップ、および見積もりの制限。",
-      "cookies": "KOVA Web サイトが Cookie を使用する方法と、同意した場合にのみ Google Analytics を使用する方法。何が測定されるのか、そして選択を撤回する方法を確認してください。"
+      "cookies": "KOVA: 以前に同意した場合も、サイトは Google Analytics や解析用 Cookie を使用しません。"
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "サイトの言語",
     "pendingDecision": "公開前に所有者の確認待ち"
   },
-  "cookies": "<section data-doc-lang=\"ja\" data-document-title=\"KOVA ウェブサイトの Cookie と Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">クッキー</p><h1>分析はあなたの選択です。</h1><p>必須の Cookie は言語と設定を記憶します。分析は同意後にのみ開始されます。</p><div class=\"document-meta\"><span class=\"document-chip\">更新日: 2026 年 10 月 22 日</span><span class=\"document-chip\">広告なし</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>必須</h2><p><code>kova_site_language</code>言語を最大 12 か月間記憶します。<code>kova_cookie_consent_v2</code>あなたの選択を 180 日間記憶します。地元の窓口への事前の同意は、Google Analytics を許可するものではありません。</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>kovacompass.app パブリック ドメイン (www を含む) に同意した後、Google タグを読み込みます<code>G-2LE3GWYDZM</code>。 Google が保存する場合があります<code>_ga</code>そして<code>_ga_2LE3GWYDZM</code>ブラウザおよびセッション認識用の Cookie。訪問ごとに自動更新を行わず、180 日間の有効期限を設定します。ブラウザによってはこの期間が短縮される場合があります。</p></article>\n          <article class=\"document-card\"><h2>私たちが測定するもの</h2><p>ページビュー、プレゼンテーションの開始と再生、章の選択、拡大されたスクリーンショット、開かれたFAQ、および連絡先のクリック。イベントには、イベント名、URL パラメーターやフラグメントを含まない公開ページ、および言語のみが含まれます。メッセージの内容、財務状況、アカウント ID、ワークスペースの内容は送信されません。ローカル プレビューは実行されませんGoogle Analytics。</p></article>\n          <article class=\"document-card\"><h2>受信者と根拠</h2><p>出版社: Vadyslav Konohrai、ポーランド;連絡先:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>。オプションの測定はお客様の同意に依存します。 Google Analytics は、技術的なブラウザ、デバイス、セッション、およびおおよその位置情報も処理します。 IP アドレスは通信に関与します。 Google は、GA4 は IP アドレスを保存していないと述べています。これにより、データが完全に匿名になるわけではありません。処理はEEA外で行われる場合があります。参照<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Googleのプライバシーポリシー</a>そして<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 データ情報</a>。</p></article>\n          <article class=\"document-card\"><h2>サイトの言語</h2><p>言語の選択も残ります<code>localStorage</code>ブラウザのストレージが空になるまで。 KOVA アカウント データはここには保存されません。</p></article>\n          <article class=\"document-card wide\"><h2>選択を変更してください</h2><p>フッターの「Cookie 設定」を開いて分析を拒否するか、オフにして保存します。拒否してもサイトは制限されません。取り消しにより、アクセス可能な GA Cookie が削除され、ページがリロードされてタグが停止されます。すでに送信されたデータを呼び出すことはできません。データの権利についてはお問い合わせください。関連するデータ保護当局に苦情を申し立てることもできます。プライバシー文書は、同意を選択しなくても読むことができます。</p></article>\n          <article class=\"document-card wide\"><h2>公開前の状況</h2><p>ドラフト情報は 2026 年 10 月 22 日に更新されました。統合は Web サイトのみで行われます。 Offline V1 アプリは分析不要のままです。 Google シグナルと広告の同意はコードで無効になっています。公開前に、発行者は処理条件、転送、GA4 サービス保持期間 (Cookie の有効期間とは別)、自動拡張測定の無効化、およびホスティング構成を確認する必要があります。ローカル テストでは、これらの設定は検証されません。</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"ja\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>アクセス解析は停止中です。</h1><p>以前に同意した場合も、サイトは Google Analytics や解析用 Cookie を使用しません。</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>選択した言語を記憶します。技術的な Cookie は解析の無効化を記憶する場合もあります。</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>以前の解析用 Cookie は次回の訪問時に削除されます。Google に送信済みのデータは削除されません。</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=ja\" data-shell-label=\"privacy\">プライバシーポリシー</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

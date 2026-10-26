@@ -150,7 +150,7 @@
   "canonicalLegalDrafts": 54,
   "releaseBuild": {
     "exitCode": 2,
-    "blockers": "BLOCKED: operatorLegalQualified, supportContactOperationallyVerified, hostingVerified, legalApproved, publicationApproved, websiteAnalytics.accountConfigurationVerified"
+    "blockers": "BLOCKED: operatorLegalQualified, supportContactOperationallyVerified, legalApproved, publicationApproved"
   },
   "productionSamples": "Verification only; not deployed",
   "published": false

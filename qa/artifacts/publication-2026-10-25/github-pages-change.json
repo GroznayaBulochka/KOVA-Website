@@ -1,0 +1,27 @@
+{
+  "observedOn": "2026-10-25",
+  "repository": "GroznayaBulochka/KOVA-Website",
+  "settingsUrl": "https://github.com/GroznayaBulochka/KOVA-Website/settings/pages",
+  "priorRun": "https://github.com/GroznayaBulochka/KOVA-Website/actions/runs/40127626723",
+  "buildJob": 120972343002,
+  "confirmedOldBuild": {
+    "step": "Build with Jekyll",
+    "action": "actions/jekyll-build-pages@v1",
+    "source": ".",
+    "destination": "./_site"
+  },
+  "before": {
+    "source": "Deploy from a branch",
+    "branch": "main",
+    "folder": "/ (root)"
+  },
+  "after": {
+    "source": "GitHub Actions",
+    "confirmation": "GitHub Pages source saved."
+  },
+  "domain": "kovacompass.app",
+  "enforceHttps": true,
+  "newWorkflowDispatched": false,
+  "newArtifactPublished": false,
+  "proof": "github-pages-actions.png"
+}

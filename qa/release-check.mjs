@@ -14,9 +14,17 @@ check('Publication and download remain unapproved',()=>{
   assert.equal(config.publicationApproved,false);assert.equal(config.publicDownloadAvailable,false);assert.equal(config.legalState,'DRAFT_OWNER_INPUT_REQUIRED');
 });
 const negative=spawnSync(process.execPath,['scripts/build-site.mjs','--release'],{cwd:root,encoding:'utf8'});
-check('Release command fails closed with exact owner blockers',()=>{assert.equal(negative.status,2);for(const key of ['operatorLegalQualified','legalApproved','hostingVerified','supportContactOperationallyVerified'])assert.ok(negative.stderr.includes(key));assert.ok(!negative.stderr.includes('canonicalOrigin'));});
-check('Owner domain does not imply verified hosting or publication',()=>{
- assert.equal(config.canonicalOrigin,'https://kovacompass.app');assert.equal(config.domainApprovedByOwner,true);assert.equal(config.hostingVerified,false);
+check('Release command fails closed with exact owner blockers',()=>{assert.equal(negative.status,2);for(const key of ['operatorLegalQualified','legalApproved','supportContactOperationallyVerified','publicationApproved'])assert.ok(negative.stderr.includes(key));assert.equal(config.websiteAnalytics.enabled,false);assert.ok(!negative.stderr.includes('websiteAnalytics.accountConfigurationVerified'));assert.ok(!negative.stderr.includes('canonicalOrigin'));assert.ok(!negative.stderr.includes('hostingVerified'));});
+const hosting=JSON.parse(await read(config.hostingVerificationEvidence));
+const hostingHttp=JSON.parse(await read(hosting.httpEvidence));
+await readFile(resolve(root,hosting.pagesSourceEvidence));
+check('Hosting configuration evidence is distinct from publication approval',()=>{
+ assert.equal(config.canonicalOrigin,'https://kovacompass.app');assert.equal(config.domainApprovedByOwner,true);assert.equal(config.hostingVerified,true);
+ assert.equal(config.hostingVerificationScope,'PRE_DEPLOYMENT_CONFIGURATION');assert.equal(hosting.scope,config.hostingVerificationScope);
+ assert.equal(hosting.origin,config.canonicalOrigin);assert.equal(hosting.result,'PASS');assert.equal(hosting.pagesSource,'GitHub Actions');assert.equal(hosting.sslMode,'Full (strict)');
+ assert.equal(hosting.queryStringInCacheKey,true);assert.equal(hosting.htmlAndReleaseMetadataBypassEdgeCache,true);assert.equal(hosting.securityHeadersApplied,true);
+ assert.equal(hostingHttp.result,'PASS');assert.equal(hostingHttp.failures.length,0);assert.equal(hostingHttp.checks.length,9);
+ assert.equal(hosting.publicArtifactVerified,false);assert.equal(hosting.postDeploymentManifestVerificationRequired,true);
  assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html?lang=en');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html?lang=en');assert.equal(config.publicationApproved,false);
 });
 check('Approved identity is distinct from legal qualification',()=>{assert.equal(config.contract,'KOVA_PHONE_LOCAL_FREEMIUM_V1');assert.equal(config.publisher,'Vadyslav Konohrai');assert.equal(config.supportEmail,'contact@kovacompass.app');assert.equal(config.operatorApproved,true);assert.equal(config.operatorLegalQualified,false);assert.equal(config.cloudAccountAvailable,false);});

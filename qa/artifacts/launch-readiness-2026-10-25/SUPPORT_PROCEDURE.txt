@@ -1,0 +1,112 @@
+KOVA — obsługa korespondencji i prywatności
+Wersja robocza do wdrożenia: 25.10.2026
+
+Cel: jedna praktyczna procedura dla contact@kovacompass.app. Nie jest dowodem,
+że opisane czynności są już wykonywane. Data rozpoczęcia: nieustalona.
+Proponowany odpowiedzialny: Vadyslav Konohrai. Inni uprawnieni: do potwierdzenia.
+Nie przechowuj rzeczywistych rejestrów zgłoszeń ani wiadomości w publicznym
+repozytorium strony. Ten plik zawiera wyłącznie instrukcję i fikcyjny przykład.
+
+1. Przyjęcie zgłoszenia
+Sprawdzaj skrzynkę regularnie, proponowane co dzień roboczy. Powiadomienia
+o incydentach wymagają pilnego odczytu również poza tym rytmem.
+Nadaj sprawie numer, np. KOVA-2026-0001. Zapisz datę wpływu, kategorię, termin
+następnego działania i status. Treść pozostaje w skrzynce; rejestr nie kopiuje
+adresu nadawcy, pełnego tematu, załączników ani danych finansowych.
+
+Kategorie: pomoc techniczna / prawa do danych / reklamacja lub płatność /
+incydent bezpieczeństwa. Nie stosuj jednego terminu do wszystkich kategorii.
+Nie wymagaj hasła, kodu 2FA, pełnego numeru karty ani kompletnej kopii finansów.
+Zwykle wystarczy wersja KOVA i Androida, opis kroków oraz zanonimizowany ekran.
+Nie przekazuj wiadomości do narzędzi AI ani innych osób bez ustalenia podstawy,
+konieczności, odbiorcy i odpowiednich zabezpieczeń.
+
+2. Odpowiedź i zamknięcie
+Odpowiadaj tylko na pytanie niezbędnymi informacjami. Przygotowanie odpowiedzi
+nie upoważnia automatycznego narzędzia do jej wysłania. Nie cytuj zbędnych danych
+ani załączników w odpowiedzi. Oznacz sprawę jako zamkniętą po jej rozstrzygnięciu
+i braku dalszych koniecznych działań. Zapisz rzeczywistą datę zamknięcia.
+
+3. Terminy uzgodnione wcześniej przez właściciela
+Zwykła pomoc techniczna: usuń dane, kiedy przestaną być potrzebne. Zachowanie
+do 12 miesięcy od zamknięcia wymaga konkretnego uzasadnienia ciągłości pomocy;
+to górna granica własnej procedury, nie ustawowy obowiązek zachowania.
+Załączniki diagnostyczne: po wykorzystaniu, najpóźniej 30 dni od zamknięcia.
+Jeżeli wiadomość nie pozwala oddzielnie usunąć załącznika, zachowaj konieczne
+minimalne ustalenia i usuń zbędną wiadomość z jej kopiami.
+Reklamacje, spory, rozliczenia: odrębnie ustal konkretną podstawę, potrzebny
+zakres, datę końcową i powód zatrzymania dowodu. Bez automatycznej reguły
+„wszystko 12 miesięcy” albo „wszystko 6 lat”. Kwalifikacja tych terminów jest
+nadal otwarta; nie kasuj potrzebnego dowodu na podstawie tego projektu.
+Minimalny log wykonania: proponowane maks. 12 miesięcy od operacji, krócej
+gdy ustanie cel. Sam numer sprawy też może stanowić daną osobową.
+
+4. Przegląd i usuwanie
+Raz w miesiącu przeglądaj terminy; działania wykonuj najpóźniej w terminie
+zapisanym dla danej sprawy. Nie przesuwaj go przez odczyt lub zmianę etykiety.
+Przy wstrzymaniu z powodu konkretnego sporu zapisz przyczynę i przegląd
+nie rzadziej niż co 3 miesiące. Żądania użytkowników rozpatruj niezależnie.
+Sprawdź wyłącznie konkretną sprawę: Odebrane, Wysłane, archiwum, kosz,
+pobrane pliki i kontrolowane kopie. Archiwizacja nie oznacza usunięcia.
+Gmail zachowuje wiadomość w koszu do 30 dni. Jeśli termin wymaga usunięcia
+wcześniej, potrzebne jest trwałe usunięcie dokładnie wskazanej wiadomości,
+po sprawdzeniu ochrony dowodów; nigdy całej prywatnej skrzynki lub kosza.
+Asystent wymaga osobnej zgody przed takim nieodwracalnym krokiem.
+Zapisz wynik, zakres, datę i ewentualne ograniczenia. Nie obiecuj natychmiastowego
+fizycznego wymazania kopii u dostawców ani z urządzeń, których nie kontrolujesz.
+
+5. Prośby dotyczące danych
+Niezwłocznie ustal, czy prośba dotyczy korespondencji, analityki strony,
+zakupu w Google Play, czy danych pozostających wyłącznie w telefonie.
+W zakresie RODO odpowiedz bez zbędnej zwłoki, zasadniczo do jednego miesiąca.
+Przedłużenie o maks. dwa dalsze miesiące wymaga podstawy oraz poinformowania
+o przyczynie przed upływem pierwszego miesiąca. Nie jest automatyczne.
+Weryfikuj tożsamość proporcjonalnie; nie żądaj rutynowo skanu dokumentu.
+Nie eksportuj danych przed upewnieniem się, że trafiają do właściwej osoby.
+KOVA nie może zdalnie skasować bazy dostępnej tylko w telefonie. Nie twórz
+nowej identyfikacji w GA4 wyłącznie po to, żeby powiązać otrzymaną wiadomość
+z pseudonimowym identyfikatorem. Ustal realne możliwości i wyjaśnij ograniczenia.
+
+6. Incydent
+Zabezpiecz konto i ogranicz dalsze ujawnienie; zapisz czas uzyskania wiedzy,
+zakres, osoby/dane i podjęte działania. Oceń ryzyko, korzystając w razie potrzeby
+z kwalifikowanej pomocy. Obowiązek zgłoszenia do właściwego organu zależy od
+ryzyka; gdy występuje, RODO przewiduje bez zbędnej zwłoki, w miarę możliwości
+do 72 godzin od stwierdzenia. Przy wysokim ryzyku może być konieczne zawiadomienie
+osób. Udokumentuj ocenę także wtedy, gdy zgłoszenie nie jest wymagane.
+Powiadomienie Google nie zastępuje Twojej oceny i działań.
+
+7. Praktyczny rejestr — wzór do prywatnego przechowywania
+Numer sprawy:
+Data wpływu:
+Kategoria:
+Minimalny opis celu (bez danych użytkownika):
+Termin odpowiedzi / kolejnego działania:
+Data zamknięcia:
+Czy załączniki są nadal potrzebne i dlaczego:
+Termin usunięcia załączników:
+Uzasadnienie dalszego zachowania korespondencji:
+Termin usunięcia korespondencji:
+Wstrzymanie / konkretna podstawa / termin przeglądu:
+Wykonane działanie / data / odpowiedzialny:
+
+8. Próba procedury, nie próba dostarczania poczty
+Fikcyjna sprawa TEST-001, zamknięta 25.10.2026: niepotrzebny załącznik należy
+usunąć od razu; 24.11.2026 to ostateczna granica 30 dni, a nie zalecenie czekania.
+Jeśli zachowanie ustaleń jest uzasadnione, granica 12 miesięcy to 25.10.2027.
+Brak uzasadnienia oznacza wcześniejsze usunięcie. Samo otwarcie 01.11 nie
+przesuwa tych dat. Spór wymaga odrębnej, udokumentowanej decyzji.
+To przykład na papierze. Nie wysłano i nie usunięto wiadomości, nie sprawdzono
+praktycznej obsługi etykiet ani prywatnego rejestru i nie włączono automatyzacji.
+
+Do uruchomienia pozostaje: potwierdzenie dostępu do skrzynki, warunków właściwej
+usługi pocztowej, miejsca prywatnego rejestru, terminów/przypomnień i wykonanie
+próby na syntetycznym zgłoszeniu. Odbioru/odpowiedzi ani 2FA nie trzeba ponownie
+potwierdzać — zachowujemy wcześniejsze oświadczenia właściciela.
+
+Źródła sprawdzone 25.10.2026:
+https://www.uodo.gov.pl/pl/493/4098 — prawa, termin odpowiedzi, tożsamość.
+https://bip.uodo.gov.pl/pl/525/2584 — zgłaszanie naruszeń i ocena ryzyka.
+https://support.google.com/mail/answer/7401?hl=pl — kosz i trwałe usunięcie.
+Fakty właściciela: KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json
+oraz OWNER_LEGAL_INPUT_REQUIRED.md; aplikacji i tych plików nie zmieniono.

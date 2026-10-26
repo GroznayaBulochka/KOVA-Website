@@ -1,0 +1,5 @@
+
+> kova-project-website@1.0.0 check:release
+> node qa/release-check.mjs
+
+{"result":"PASS","checks":327,"negativeReleaseExitCode":2}

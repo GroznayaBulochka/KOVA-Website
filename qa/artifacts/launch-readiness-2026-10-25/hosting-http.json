@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-26T06:26:08.308Z",
+  "scope": "CDN headers and redirects only; missing release files remain a publication blocker",
+  "result": "PASS",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      },
+      "buildId": null
+    },
+    {
+      "path": "/privacy.html",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/landing.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "EXPIRED",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 404,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/build-manifest.json",
+      "status": 404,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": null,
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/legal/privacy-policy-pl.md",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "cf-cache-status": "DYNAMIC",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "x-robots-tag": "noindex, nofollow",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "url": "http://kovacompass.app/?lang=uk",
+      "status": 301,
+      "location": "https://kovacompass.app/?lang=uk"
+    },
+    {
+      "url": "https://www.kovacompass.app/?lang=uk",
+      "status": 301,
+      "location": "https://kovacompass.app/?lang=uk"
+    }
+  ],
+  "failures": []
+}

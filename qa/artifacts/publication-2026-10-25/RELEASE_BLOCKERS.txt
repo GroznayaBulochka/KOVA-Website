@@ -1,0 +1,57 @@
+Wymagania wydania — stan 25.10.2026
+Aktualizacja 26.10.2026: właściciel wstrzymał cookies/analitykę strony.
+GA4 jest blokowane na domenie przez CSP i wygaszanie cookies; lokalny runtime
+ma stałą blokadę także dla zapisanej zgody. Konfiguracja konta GA4 nie jest
+warunkiem uruchomienia nieaktywnej analityki. Flagi jej weryfikacji pozostają
+false, bez akceptacji umów i bez usuwania historycznych danych Google.
+Pozostałe wymagania poniżej pozostają otwarte. Pełnego buildu nie opublikowano.
+Dowód: ../analytics-paused-2026-10-26/REPORT.txt.
+
+
+Na początku prac właściciel potwierdził brak zakończenia akceptacji dokumentów,
+wdrożenia obsługi korespondencji i kontroli GA4. Poniżej aktualizacja po panelach.
+Zamknięto wyłącznie hostingVerified na podstawie dowodów rzeczywistej konfiguracji.
+
+operatorLegalQualified
+Kwalifikacja statusu wydawcy i wymagań sprzedaży pozostaje niezamknięta.
+Zgoda na publikowanie adresu domowego została cofnięta; nie wolno odtwarzać go
+ze starszych danych. Nie podano adresu zastępczego. Nie prosimy ponownie o domowy.
+
+supportContactOperationallyVerified
+Odbiór/odpowiedź oraz 2FA są potwierdzone oświadczeniami właściciela — nie trzeba
+powtarzać tych kroków. Potwierdzono aktywne przekierowanie Cloudflare do Gmaila,
+naprawiono SPF po zgodzie właściciela i sprawdzono publiczny DNS. Umowy właściwej
+usługi pocztowej, dostęp i wdrożenie zasad pozostają otwarte. Gotowa procedura:
+../launch-readiness-2026-10-25/SUPPORT_PROCEDURE.txt. Nie jest audytem skrzynki;
+publicContact.inboxOperationallyVerified nadal false.
+
+hostingVerified
+Źródło publikacji, DNS, HTTPS, Full (strict), cache i nagłówki Cloudflare sprawdzone.
+9 kontroli HTTP PASS: ../launch-readiness-2026-10-25/hosting-http.json.
+hostingVerified=true ma jawny zakres PRE_DEPLOYMENT_CONFIGURATION i zapis dowodu.
+Pełny artefakt nadal nie jest opublikowany; sitemap/manifest 404. Nie zaliczono
+wdrożenia. Porównanie domeny z manifestem po publikacji pozostaje obowiązkowe.
+
+legalApproved
+Końcowe dokumenty, daty obowiązywania i brakujące ustalenia wymagają rzeczywistego
+zamknięcia. Obecne dokumenty pozostają projektami, z zachowaniem dotychczasowych
+54 plików źródłowych. Nie dopisujemy daty ani zgody na podstawie samego zlecenia.
+
+publicationApproved
+Końcowe dopuszczenie gotowego wydania pozostaje otwarte. Zlecenie naprawy procesu
+nie potwierdza brakujących faktów. Nie opublikowano preview i nie pominięto bramki.
+
+websiteAnalytics.accountConfigurationVerified
+Sprawdzono i ograniczono rzeczywiste ustawienia KOVAST; retencja 2 miesiące
+bez odnawiania zapisana za zgodą właściciela. Szczegóły w GOOGLE_ANALYTICS_SETUP.txt
+i ../launch-readiness-2026-10-25/REPORT.txt. Otwarte: właściwa umowa/podmiot/kontakt
+DPA i ujawnienia na stronie. Właściciel poprosił o objaśnienie odpowiedzialności;
+nie zaakceptowano umowy. Test odbioru nowego publicznego wydania nadal osobno.
+
+Źródła: release-config.json, dokumentacja KOVA-App:
+docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json oraz OWNER_LEGAL_INPUT_REQUIRED.md,
+panel GitHub Pages i odpowiedź właściciela z 25.10.2026. Nie zmieniano KOVA-App.
+
+Po domknięciu: zapisać dowody, uaktualnić tylko potwierdzone pola, przesłać
+sprawdzone zmiany do main i uruchomić Publish approved public website. Zweryfikować
+deployment-verification oraz metadane, sitemapę i żądania tłumaczeń na domenie.

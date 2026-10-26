@@ -1,0 +1,249 @@
+{
+  "result": "PASS",
+  "scope": "Local in-app browser; all 27 direct FAQ links, active navigation and desktop overflow",
+  "results": [
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "pl",
+      "open": true,
+      "overflow": false,
+      "question": "Ile danych potrzebują poszczególne analizy?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "zh",
+      "open": true,
+      "overflow": false,
+      "question": "不同分析需要多少数据？",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "yue",
+      "open": true,
+      "overflow": false,
+      "question": "各種分析需要幾多數據？",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "es",
+      "open": true,
+      "overflow": false,
+      "question": "¿Cuántos datos necesita cada análisis?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "en",
+      "open": true,
+      "overflow": false,
+      "question": "How much data does each analysis need?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ar",
+      "open": true,
+      "overflow": false,
+      "question": "كم من البيانات يحتاج كل تحليل؟",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "hi",
+      "open": true,
+      "overflow": false,
+      "question": "हर विश्लेषण के लिए कितना डेटा चाहिए?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "bn",
+      "open": true,
+      "overflow": false,
+      "question": "প্রতিটি বিশ্লেষণের জন্য কতটা তথ্য দরকার?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "pt",
+      "open": true,
+      "overflow": false,
+      "question": "De quantos dados cada análise precisa?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ru",
+      "open": true,
+      "overflow": false,
+      "question": "Сколько данных нужно для разных видов анализа?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "uk",
+      "open": true,
+      "overflow": false,
+      "question": "Скільки даних потрібно для різних видів аналізу?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ja",
+      "open": true,
+      "overflow": false,
+      "question": "各分析にはどのくらいのデータが必要ですか？",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "pnb",
+      "open": true,
+      "overflow": false,
+      "question": "ہر تجزیے لئی کنا ڈیٹا چاہیدا اے؟",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "jv",
+      "open": true,
+      "overflow": false,
+      "question": "Pira data sing dibutuhake saben analisis?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ko",
+      "open": true,
+      "overflow": false,
+      "question": "각 분석에 얼마나 많은 데이터가 필요한가요?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "de",
+      "open": true,
+      "overflow": false,
+      "question": "Wie viele Daten brauchen die einzelnen Analysen?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "fr",
+      "open": true,
+      "overflow": false,
+      "question": "De combien de données chaque analyse a-t-elle besoin ?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "te",
+      "open": true,
+      "overflow": false,
+      "question": "ప్రతి విశ్లేషణకు ఎంత డేటా కావాలి?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "mr",
+      "open": true,
+      "overflow": false,
+      "question": "प्रत्येक विश्लेषणासाठी किती डेटा लागतो?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "tr",
+      "open": true,
+      "overflow": false,
+      "question": "Her analiz ne kadar veri gerektirir?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ur",
+      "open": true,
+      "overflow": false,
+      "question": "ہر تجزیے کے لیے کتنا ڈیٹا درکار ہے؟",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "vi",
+      "open": true,
+      "overflow": false,
+      "question": "Mỗi phân tích cần bao nhiêu dữ liệu?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ta",
+      "open": true,
+      "overflow": false,
+      "question": "ஒவ்வொரு பகுப்பாய்வுக்கும் எவ்வளவு தரவு தேவை?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "it",
+      "open": true,
+      "overflow": false,
+      "question": "Quanti dati servono per ciascuna analisi?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "fa",
+      "open": true,
+      "overflow": false,
+      "question": "هر تحلیل به چه مقدار داده نیاز دارد؟",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "sw",
+      "open": true,
+      "overflow": false,
+      "question": "Kila uchanganuzi unahitaji data kiasi gani?",
+      "version": "66a7ba803ae65b90b4db"
+    },
+    {
+      "active": "faq",
+      "items": 3,
+      "language": "ms",
+      "open": true,
+      "overflow": false,
+      "question": "Berapa banyak data diperlukan untuk setiap analisis?",
+      "version": "66a7ba803ae65b90b4db"
+    }
+  ]
+}

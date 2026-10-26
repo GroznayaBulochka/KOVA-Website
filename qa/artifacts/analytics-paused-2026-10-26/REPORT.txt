@@ -1,0 +1,63 @@
+KOVA — ANALITYKA STRONY WSTRZYMANA NA PROŚBĘ WŁAŚCICIELA
+26.10.2026
+
+DZIAŁA NA PUBLICZNEJ DOMENIE
+Zmieniono istniejącą regułę Cloudflare „KOVA - security and fresh browser content”.
+CSP: script-src 'self', connect-src 'self', img-src 'self' data:.
+Usunięto wyjątki pozwalające na Google tag i odbiorniki Google Analytics.
+Pozostałe nagłówki bezpieczeństwa, DNS, poczta i źródło publikacji bez zmian.
+
+Dodano pięć aktywnych Response Header Transform Rules dla obu publicznych hostów
+i ścieżek / oraz *.html. Cloudflare wymaga unikalnych nazw nagłówków wewnątrz
+jednej reguły, więc każdy Set-Cookie jest osobną regułą Add static:
+- _ga wygasa z Domain=kovacompass.app;
+- _ga_2LE3GWYDZM wygasa z Domain=kovacompass.app;
+- _ga wygasa bez Domain (host);
+- _ga_2LE3GWYDZM wygasa bez Domain (host);
+- kova_cookie_consent_v2=essential, Secure, SameSite=Lax, Path=/, 180 dni.
+Ostatni cookie jest technicznym ustawieniem wyłączenia pomiaru: starszy publiczny
+runtime nie pokazuje wtedy modalu przy zwykłej wizycie i nie ładuje tagu.
+Nie usuwa innych cookies hostingu. Język nadal działa.
+
+WERYFIKACJA DOMENY
+qa/inspect-paused-analytics.mjs: 32 rzeczywiste odpowiedzi HTTP PASS,
+w tym 27 parametrów języka i pięć stron .html. Odczytano CSP oraz wszystkie
+pięć nagłówków Set-Cookie. Dowód: public-http.json.
+qa/inspect-hosting.mjs: 9 kontroli PASS (nagłówki i przekierowania).
+W przeglądarce strona główna po przeładowaniu: brak otwartego modalu,
+brak skryptu Google w DOM. Dowód: public-browser-dom.json i screenshot.
+Ręczne otwarcie starego panelu nadal pokazuje stare przyciski zgody. Wykonano
+próbę akceptacji i przeładowanie; nowa odpowiedź ponownie wyłącza zgodę.
+Konsola w próbce nie zwróciła wpisów; nie traktujemy tego jako śladu sieciowego.
+Blokadę sieciową potwierdza wymuszony nagłówek CSP, nie pomiar w panelu GA4.
+Brak pełnego przechwycenia ruchu przeglądarki i brak testu fizycznego telefonu.
+
+PRZYGOTOWANE W REPOZYTORIUM, BEZ PUBLIKACJI PEŁNEGO BUILDU
+site-consent.js zatrzymuje się przed tworzeniem modalu lub tagu niezależnie od
+zapisanej zgody; usuwa wcześniejsze cookies GA, lokalnych liczników i zgody.
+Ponawia czyszczenie po pageshow i powrocie do karty. Funkcje pomiaru zwracają false.
+Stopka prowadzi do informacji o cookies. Opis wstrzymania dostępny w 27 językach.
+Nowe opisy cookies i zmieniona stopka pozostają lokalne, bo pełnego wydania
+nie zatwierdzono. Publiczny HTML i starsze informacje o analityce nie zmieniły się.
+
+websiteAnalytics.enabled=false, consentMode=DISABLED_BY_OWNER, analyticsReceiver=null.
+Weryfikacja konta GA4 pozostaje false; nie jest wymagana dla wyłączonej usługi.
+Test bramy budowania potwierdza, że ponowne włączenie lub brak jawnego enabled=false
+ponownie wymaga weryfikacji konta. Pozostałe wymagania publikacji nadal blokują build.
+Nie zatwierdzono dokumentów, statusu wydawcy ani obsługi korespondencji.
+
+TESTY
+npm test: PASS, 32 polecenia; po późniejszym uzupełnieniu statycznego tekstu linku
+polityki prywatności przebudowano podgląd i ponowiono kontrole lokalizacji/analityki.
+Analityka wstrzymana: 24 przypadki (host, poprzednia zgoda, zablokowane cookies),
+3 warianty bramy publikacji, CSP i informacje w 27 językach PASS.
+qa/release-check.mjs: PASS 327, build publiczny nadal exit 2.
+Ręczny podgląd PL/UK/AR/EN: właściwy opis, brak modalu zgody.
+Nie uruchamiano historycznego testu przeglądarkowego trybu opt-in.
+
+OGRANICZENIA
+Reguły obejmują nowe odpowiedzi strony; już otwarta karta ze starym dokumentem
+musi zostać przeładowana. Cookies są wygaszane przy następnej wizycie/odświeżeniu.
+Nie skasowano danych historycznych w Google Analytics ani konta/usługi.
+Nie zaakceptowano umowy DPA. Nie zmieniono aplikacji Android, Workspace ani poczty.
+Nie wykonano commita, push ani wdrożenia preview jako wydania publicznego.

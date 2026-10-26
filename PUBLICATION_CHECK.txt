@@ -1,13 +1,28 @@
 KOVA — zgodność publikacji i pamięć podręczna
-Aktualizacja: 24.10.2026
+AKTUALIZACJA 26.10.2026 — ANALITYKA WSTRZYMANA
+Na prośbę właściciela wyłączono GA4 na publicznej domenie przez CSP Cloudflare
+i wygaszanie cookies. Jest to zmiana działającego hostingu, bez nowego wydania
+HTML. Lokalny kod nie pokazuje już zgody i nie uruchamia pomiaru; nowe informacje
+o cookies są przygotowane w 27 językach. Pełny build nadal nie jest opublikowany.
+Dowody i ograniczenia: qa/artifacts/analytics-paused-2026-10-26/REPORT.txt.
+Brama konfiguracji GA4 nie dotyczy wydania z websiteAnalytics.enabled=false;
+nie zatwierdzono dokumentów, statusu wydawcy ani obsługi korespondencji.
+
+Aktualizacja: 25.10.2026
 
 Obserwacja publicznej domeny (odczyt, bez wdrożenia)
 Strona główna zwraca HTTP 200, lecz nie ma wygenerowanych canonical/hreflang.
 index-en.html oraz sitemap.xml zwracają 404. HTML ma Cache-Control: max-age=600,
-CSS/JS: max-age=14400. Odczytano bieżący pages.yml w głównej gałęzi GitHub;
-nie znaleziono uruchomień Actions dla commita 61f5d48f411a1cbac7f8345253d5324b2a7a00d8.
-To dowód braku poprawnej wersji wygenerowanej na domenie, nie dowód konkretnego
-ustawienia panelu Pages. Źródło publikacji w panelu wymaga potwierdzenia.
+CSS/JS: max-age=14400 (odczyty z 24.10; bieżące w raporcie z 25.10).
+Run 40127626723 wykonał Build with Jekyll ze źródłem . i wynikiem ./_site.
+25.10 potwierdzono w panelu Pages: Deploy from a branch, main, / (root),
+a następnie zmieniono Source na GitHub Actions. Panel potwierdził zapis.
+Domena kovacompass.app i zaznaczone Enforce HTTPS pozostały bez zmian.
+Dowód: qa/artifacts/publication-2026-10-25/github-pages-actions.png.
+
+Korekta wcześniejszego wniosku: narzędzie użyte do listowania uruchomień commita
+zwracało tylko workflow wyzwolone przez pull request. Pusty wynik nie oznaczał
+braku innych wdrożeń. Diagnozę potwierdzają teraz log joba i ustawienia panelu.
 
 Co przygotowuje build
 - 297 wersji HTML w 27 językach, komplet metadanych i zasoby z dist/.
@@ -21,8 +36,8 @@ Co przygotowuje build
   Preview i produkcja mają osobne identyfikatory.
 
 Wdrożenie po spełnieniu istniejących warunków wydania
-1. W repozytorium GitHub Pages powinno korzystać z GitHub Actions, a nie
-   publikować katalogu źródłowego. Gotowy workflow to .github/workflows/pages.yml.
+1. GitHub Pages korzysta już z GitHub Actions. Gotowy workflow to
+   .github/workflows/pages.yml; uruchamia się ręcznie i publikuje wyłącznie dist/.
 2. Workflow sprawdza preview, a potem wykonuje build:public. Zatrzymuje się,
    jeśli istniejące wymagania prawne, właścicielskie lub hostingu są niezamknięte.
    Nie należy zmieniać pól *Approved tylko po to, aby build przeszedł.
@@ -55,5 +70,25 @@ npm run verify:deployment -- --origin https://kovacompass.app --manifest SCIEZKA
 https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 https://developers.cloudflare.com/cache/how-to/cache-keys/
 
-W tej zmianie nie uruchomiono publikacji ani nie zmieniono ustawień CDN/Pages.
-Samo działanie podglądu nie potwierdza wdrożenia na publicznej domenie.
+W pierwszym etapie 25.10 zmieniono tylko źródło publikacji Pages, bez publikacji
+i zmian CDN. Właściciel potwierdził, że dokumenty, wdrożenie zasad obsługi
+korespondencji i kontrola GA4 nie zostały jeszcze zakończone. Nie zmieniono flag.
+Dokładne wymagania: qa/artifacts/publication-2026-10-25/RELEASE_BLOCKERS.txt.
+Samo działanie podglądu i właściwe Source nie potwierdzają wdrożenia na domenie.
+
+Drugi etap 25.10 — rzeczywista konfiguracja Cloudflare
+- SSL Full zmieniono na Full (strict), po sprawdzeniu certyfikatu GitHub Pages.
+- Caching Level Standard; Browser Cache TTL: Respect Existing Headers.
+- Aktywna reguła omija cache CDN dla /, *.html, robots.txt, sitemap.xml i manifestu.
+- Nagłówki dla kovacompass.app/www: no-cache, CSP zgodne z generatorem,
+  nosniff, strict-origin-when-cross-origin, camera/microphone/geolocation=(), DENY.
+- /legal/* otrzymuje noindex, nofollow; strona główna nie otrzymuje noindex.
+- Brak starych Page Rules; DNS wskazuje GitHub Pages przez proxy Cloudflare.
+- Kontrola HTTP: 9 przypadków PASS, w tym HTTPS/www z zachowaniem ?lang=uk.
+  To wynik ustawień CDN, nie kontroli nowego wydania. Sitemap i manifest nadal
+  nie istnieją na domenie. Nagłówki zabezpieczeń nie publikują przygotowanego dist/.
+- Przeglądarka: odrzucenie analityki, treść i nawigacja działają, bez błędów
+  w konsoli w tym ograniczonym teście. Nie był to test odbioru zdarzeń GA4.
+Dowody: qa/artifacts/launch-readiness-2026-10-25/hosting-http.json i REPORT.txt.
+Powtórzenie: node qa/inspect-hosting.mjs. Po wdrożeniu nadal obowiązuje osobne
+verify:deployment z manifestem dokładnie tego artefaktu.

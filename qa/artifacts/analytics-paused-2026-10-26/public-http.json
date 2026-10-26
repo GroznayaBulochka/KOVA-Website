@@ -1,0 +1,391 @@
+{
+  "checkedAt": "2026-10-26T06:26:07.342Z",
+  "result": "PASS",
+  "scope": "Actual production HTTP responses: enforced CSP, expired GA cookies, legacy consent forced off; no live Google request was sent by this check",
+  "checks": [
+    {
+      "path": "/?lang=pl",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=zh",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=yue",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=es",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=en",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ar",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=hi",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=bn",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=pt",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ru",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=uk",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ja",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=pnb",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=jv",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ko",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=de",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=fr",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=te",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=mr",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=tr",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ur",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=vi",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ta",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=it",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=fa",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=sw",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/?lang=ms",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/contact.html",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/cookies.html",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/privacy.html",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    },
+    {
+      "path": "/404.html",
+      "status": 200,
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+      "setCookie": [
+        "_ga=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Domain=kovacompass.app; Secure; SameSite=Lax",
+        "_ga=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "_ga_2LE3GWYDZM=; Max-Age=0; Path=/; Secure; SameSite=Lax",
+        "kova_cookie_consent_v2=essential; Max-Age=15552000; Path=/; Secure; SameSite=Lax"
+      ]
+    }
+  ]
+}

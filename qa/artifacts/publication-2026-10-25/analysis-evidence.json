@@ -1,0 +1,58 @@
+{
+  "verifiedOn": "2026-10-25",
+  "basis": "Read-only local Android source; no app changes or device access",
+  "sources": [
+    {
+      "file": "app/src/main/java/com/kova/budget/domain/features/FeatureDataReadinessEngine.kt",
+      "sha256": "216b35ec6fcc0e25c2756dca3de9731f3ccbdea365efa201030c27f9de1c7fe6"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/domain/features/KovaFeatureRegistry.kt",
+      "sha256": "6d41825631460388969b9cb97db69ef93ff1dc99adeba5d8ba721361611c4ecd"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/domain/features/ProAccessPolicy.kt",
+      "sha256": "5cb5002e5a0c78936215af057c1e290ca7ca95e9fb18d798c79952096da903be"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/data/ForecastSpendingPolicy.kt",
+      "sha256": "1e49324673fa421affa91d2d6b46d66646fe65a9b6beb0b14c8e3335052a3f94"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/data/repository/RoomUserProgressRepository.kt",
+      "sha256": "48ac0b8bc0fb8cd2cf8fa4f3865117b3d177ea2c5d2735ea7b813cfc21144f02"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/data/repository/ProgressFactsCache.kt",
+      "sha256": "64080a178ccf33be7189298be2f8276e6fc042685ead0ac357c29a48546b4ef3"
+    },
+    {
+      "file": "app/src/main/java/com/kova/budget/data/AppDataBackup.kt",
+      "sha256": "14a8c9285aaed0b44d33ed2b2f477e94053107145c9f10f3dda99a1e4dbcfaa3"
+    }
+  ],
+  "requirements": {
+    "basicReports": {
+      "transactions": 5,
+      "distinctDays": 3
+    },
+    "variableExpenseComponent": {
+      "observationDays": 7,
+      "expenses": 2,
+      "windowMonths": 3
+    },
+    "advancedReports": {
+      "historyDays": 60,
+      "transactions": 75,
+      "transactionDays": 20,
+      "budgetOrGoal": 1
+    },
+    "forecast": {
+      "historyDays": 90,
+      "transactions": 100,
+      "distinctMonths": 3,
+      "regularIncomeOrRecurringPayment": true
+    }
+  },
+  "history": "Qualifying ledger dates, not installation age. Correctly restored transactions are inserted into the same ledger. All prerequisites within each analysis apply together. Premium purchase does not bypass readiness."
+}

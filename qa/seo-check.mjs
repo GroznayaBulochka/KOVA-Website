@@ -54,7 +54,7 @@ for(const page of pages)for(const lang of languages){
   assert.ok(main.length>500);
   if(page==='index'){
    if(['pl','en','ru'].includes(lang)) assert.ok(main.includes({pl:'Wydatki',en:'Expenses',ru:'Расходы'}[lang]));
-   assert.equal((main.match(/<details>/g)||[]).length,9);
+   assert.equal((main.match(/<details\b/g)||[]).length,10);
   }else if(['privacy','terms'].includes(page)){
    assert.ok(main.includes('contact@kovacompass.app'));
    assert.ok((main.match(/<h2\b/g)||[]).length>=10);

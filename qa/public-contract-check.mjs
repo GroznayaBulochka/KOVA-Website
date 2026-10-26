@@ -36,7 +36,7 @@ vm.runInNewContext(landing.slice(landing.indexOf('  const dictionaries'),landing
 for (const key of new Set([...home.matchAll(/data-i18n(?:-html|-alt)?="([^"]+)"/g)].map(match=>match[1]))) {
   for (const lang of ['pl','en','ru']) assert.ok(copyContext.window.copy[lang][key], `Missing landing copy: ${lang}/${key}`);
 }
-assert.equal((home.match(/<details>/g) || []).length, 9, 'All nine FAQ answers must remain available without JS');
+assert.equal((home.match(/<details\b/g) || []).length, 10, 'All ten FAQ answers must remain available without JS');
 const pages = (await readdir(root)).filter(name=>name.endsWith('.html') && name !== 'workspace.html');
 for (const page of pages) {
   const html = await read(page);
@@ -44,7 +44,7 @@ for (const page of pages) {
 }
 const shell = await read('site-shell.js');
 for (const target of ['contact.html','privacy.html','terms.html','cookies.html','updates.html','roadmap.html','status.html']) assert.ok(shell.includes(target));
-console.log(JSON.stringify({ publicPages:pages.length, translatedProjectPages:translations, faqAnswers:9, result:'PASS' },null,2));
+console.log(JSON.stringify({ publicPages:pages.length, translatedProjectPages:translations, faqAnswers:10, result:'PASS' },null,2));
 
 // Optional repository-to-repository check, without changing legal text.
 if (process.argv[2]) {

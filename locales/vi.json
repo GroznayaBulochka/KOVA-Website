@@ -57,7 +57,7 @@
     "screenWorkCopy": "Đã lưu trên thiết bị · 21 tháng 10 năm 2026",
     "securityKicker": "Quyền riêng tư",
     "securityTitle": "Quyền riêng tư là ưu tiên hàng đầu của chúng tôi.",
-    "securityCopy": "Quyền riêng tư được đặt lên hàng đầu khi chúng tôi nỗ lực làm cho KOVA an toàn nhất có thể. Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Tùy chọn mua và khôi phục Premium sử dụng riêng Google Play; phân tích của trang web này cần có sự đồng ý của bạn.",
+    "securityCopy": "Dữ liệu tài chính trong KOVA được lưu trên điện thoại của bạn. Chúng tôi nỗ lực làm cho ứng dụng an toàn nhất có thể. Tùy chọn mua và khôi phục Premium sử dụng riêng Google Play; phân tích của trang web này cần có sự đồng ý của bạn.",
     "securityModel": "Đọc về bảo mật",
     "secureLocal": "Mã hóa cục bộ",
     "secureOwner": "Cách ly dữ liệu",
@@ -123,12 +123,12 @@
     "faqOcrQ": "Quét biên nhận có hoạt động ngoại tuyến không?",
     "faqOcrA": "OCR sử dụng mô hình đi kèm với ứng dụng. Chụp ảnh hoặc chọn ảnh từ thư viện của bạn thông qua bộ chọn Android. Việc nhận dạng có thể sai — hãy kiểm tra số tiền, loại tiền tệ và ngày tháng trước khi lưu. Việc từ chối quyền truy cập vào máy ảnh không chặn việc lựa chọn tệp.",
     "faqDeviceQ": "KOVA dành cho thiết bị và đối tượng nào?",
-    "faqDeviceA": "KOVA đang được chuẩn bị cho điện thoại Android chạy Android 7.0 trở lên. Nguồn hiện tại bao gồm 27 ngôn ngữ giao diện; tính tương thích và việc xem xét ngôn ngữ đang diễn ra. Dành cho lứa tuổi 13+, tùy theo yêu cầu của cửa hàng và địa phương. Không có bản phát hành iOS hoặc đồng hồ nào được cung cấp.",
+    "faqDeviceA": "KOVA đang được chuẩn bị cho điện thoại Android chạy Android 7.0 trở lên. Giao diện KOVA hỗ trợ 27 ngôn ngữ; tính tương thích và việc xem xét ngôn ngữ đang diễn ra. Dành cho lứa tuổi 13+, tùy theo yêu cầu của cửa hàng và địa phương. Không có bản phát hành iOS hoặc đồng hồ nào được cung cấp.",
     "aboutKicker": "KOVA là gì?",
     "aboutTitle": "Ít căng thẳng về tiền bạc hơn. Nhiều chỗ hơn cho kế hoạch của bạn.",
     "aboutCopy": "KOVA là một ứng dụng Android dành cho tài chính cá nhân hàng ngày. Giữ chi phí, ngân sách và giờ làm việc cùng nhau để bạn có thể xem những gì còn lại sau khi thanh toán và lập kế hoạch cho tháng tới.",
     "aboutAudience": "Dành cho sinh viên, người đi làm và bất kỳ ai muốn đưa ra quyết định có chủ ý hơn về tiền của mình.",
-    "aboutForWhom": "Đối với bạn, nếu…",
+    "aboutForWhom": "KOVA mang lại gì cho bạn",
     "aboutSpendingTitle": "Xem tiền của bạn đi đâu",
     "aboutSpendingCopy": "Ghi lại chi tiêu hàng ngày và tìm nó theo danh mục. Hiểu chi phí nào tạo ra sự khác biệt lớn nhất trong tháng của bạn.",
     "aboutGoalsTitle": "Biết những gì còn lại trong ngân sách của bạn",
@@ -160,7 +160,9 @@
     "closingTitle": "Nhường chỗ cho một kế hoạch tiền bạc rõ ràng hơn.",
     "closingCopy": "Theo dõi KOVA Development trên Instagram để xem trước ứng dụng và tin tức ra mắt. Việc phát hành công khai đầu tiên vẫn đang được chuẩn bị.",
     "closingSecondary": "Bạn cũng có thể tìm thấy KOVA trên TikTok.",
-    "forecastNote": "Trong phiên bản hiện tại, việc ước tính chi tiêu biến đổi cần ít nhất 7 ngày theo dõi và 2 bản ghi chi tiêu. Ghi chép đều đặn giúp có cái nhìn đầy đủ hơn. Dự báo vẫn chỉ là ước tính."
+    "forecastNote": "Mỗi phân tích cần đủ dữ liệu. Hãy xem yêu cầu trước khi chọn Premium.",
+    "faqDataQ": "Mỗi phân tích cần bao nhiêu dữ liệu?",
+    "faqDataA": "<p>Bạn có thể ghi chi tiêu và ngân sách ngay từ đầu. Báo cáo cơ bản cần 5 giao dịch trong ít nhất 3 ngày khác nhau.</p><ul><li>Ước tính chi tiêu biến đổi: ít nhất 7 ngày quan sát và 2 khoản chi trong 3 tháng gần nhất. Đây là ngưỡng của một thành phần tính toán, không phải toàn bộ Premium.</li><li>Báo cáo nâng cao: ít nhất 60 ngày lịch sử, 75 giao dịch, 20 ngày có giao dịch và ít nhất 1 ngân sách hoặc mục tiêu. Phải đáp ứng tất cả điều kiện.</li><li>Dự báo: ít nhất 90 ngày lịch sử, 100 giao dịch trong 3 tháng khác nhau và thu nhập đều đặn hoặc khoản thanh toán định kỳ (được ghi hoặc phát hiện). Phải đáp ứng tất cả điều kiện.</li></ul><p>Mua Premium không thay thế lịch sử cần thiết. Dữ liệu trong hồ sơ, kể cả dữ liệu được nhập đúng cách, đều được tính; chỉ ngày cài đặt là chưa đủ. Dự báo vẫn là ước tính.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — Xóa dữ liệu và hồ sơ cục bộ",
       "privacy": "KOVA Chính sách quyền riêng tư — Ứng dụng và trang web",
       "terms": "Điều khoản KOVA Free & Premium — Bản nháp",
-      "cookies": "KOVA Cookie trang web & Google Analytics"
+      "cookies": "KOVA — Tính năng phân tích đã tắt."
     },
     "descriptions": {
       "404": "Trang KOVA này không tồn tại. Quay lại phần tổng quan, cập nhật hoặc liên hệ của ứng dụng.",
@@ -539,7 +541,7 @@
       "delete-account": "Quản lý và xóa dữ liệu, hồ sơ và xuất KOVA cục bộ. Việc gia hạn Premium được quản lý riêng trong Google Play; gỡ cài đặt không hủy nó.",
       "privacy": "Chính sách bảo mật dự thảo KOVA: dữ liệu ứng dụng cục bộ, xuất, liên hệ và phân tích trang web tùy chọn. Cần có sự phê duyệt trước khi xuất bản.",
       "terms": "Các điều khoản dự thảo của KOVA Free và Premium: tính năng cục bộ, đăng ký tùy chọn, mua và khôi phục Google Play, sao lưu và giới hạn ước tính.",
-      "cookies": "Cách trang web KOVA sử dụng cookie và Google Analytics chỉ sau khi có sự đồng ý. Xem những gì được đo lường và làm thế nào để rút lại sự lựa chọn của bạn."
+      "cookies": "KOVA: Trang web không chạy Google Analytics hoặc cookie phân tích, ngay cả khi bạn đã đồng ý trước đó."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Ngôn ngữ trang web",
     "pendingDecision": "Đang chờ xác nhận của chủ sở hữu trước khi xuất bản"
   },
-  "cookies": "<section data-doc-lang=\"vi\" data-document-title=\"KOVA Cookie trang web &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Cookie</p><h1>Phân tích là sự lựa chọn của bạn.</h1><p>Cookie thiết yếu ghi nhớ ngôn ngữ và cài đặt. Phân tích chỉ bắt đầu sau khi có sự đồng ý.</p><div class=\"document-meta\"><span class=\"document-chip\">Cập nhật: ngày 22 tháng 10 năm 2026</span><span class=\"document-chip\">Không có quảng cáo</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Cần thiết</h2><p><code>kova_site_language</code>nhớ ngôn ngữ lên đến 12 tháng;<code>kova_cookie_consent_v2</code>nhớ sự lựa chọn của bạn trong 180 ngày. Sự đồng ý trước đó của các quầy địa phương không cho phép Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Sau khi có sự đồng ý trên miền kovacompass.app công khai (bao gồm www), chúng tôi sẽ tải thẻ Google<code>G-2LE3GWYDZM</code>. Google có thể lưu trữ<code>_ga</code>và<code>_ga_2LE3GWYDZM</code>cookie để nhận dạng trình duyệt và phiên. Chúng tôi định cấu hình thời hạn 180 ngày mà không cần gia hạn tự động trong mỗi lần truy cập; trình duyệt có thể rút ngắn thời gian này.</p></article>\n          <article class=\"document-card\"><h2>Những gì chúng tôi đo lường</h2><p>Lượt xem trang, mở và phát bản trình bày, chọn chương, ảnh chụp màn hình phóng to, Câu hỏi thường gặp đã mở và các lần nhấp vào liên hệ. Các sự kiện của chúng tôi chỉ chứa tên sự kiện, trang công khai không có tham số hoặc đoạn URL và ngôn ngữ. Chúng tôi không gửi nội dung tin nhắn, tài chính, ID tài khoản hoặc nội dung Workspace. Bản xem trước cục bộ không chạy Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Người nhận và cơ sở</h2><p>Nhà xuất bản: Vadyslav Konohrai, Ba Lan; liên hệ:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Việc đo lường tùy chọn phụ thuộc vào sự đồng ý của bạn. Google Analytics cũng xử lý thông tin kỹ thuật về trình duyệt, thiết bị, phiên và vị trí gần đúng. Địa chỉ IP có liên quan đến giao tiếp; Google tuyên bố GA4 không lưu trữ địa chỉ IP. Điều này không làm cho dữ liệu hoàn toàn ẩn danh. Quá trình xử lý có thể diễn ra bên ngoài EEA. Xem<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Chính sách bảo mật của Google</a>và<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 thông tin dữ liệu</a>.</p></article>\n          <article class=\"document-card\"><h2>Ngôn ngữ trang web</h2><p>Sự lựa chọn ngôn ngữ cũng vẫn còn trong<code>localStorage</code>cho đến khi bộ nhớ trình duyệt bị xóa. Dữ liệu tài khoản KOVA không được lưu trữ ở đây.</p></article>\n          <article class=\"document-card wide\"><h2>Thay đổi lựa chọn của bạn</h2><p>Mở “Cài đặt cookie” ở chân trang và từ chối phân tích hoặc tắt và lưu. Việc từ chối không giới hạn trang web. Việc rút tiền sẽ xóa cookie GA có thể truy cập và tải lại trang để dừng thẻ. Nó không thể nhớ lại dữ liệu đã được gửi. Liên hệ với chúng tôi về quyền dữ liệu; bạn cũng có thể khiếu nại với cơ quan bảo vệ dữ liệu có liên quan. Tài liệu về quyền riêng tư vẫn có thể đọc được mà không cần chọn sự đồng ý.</p></article>\n          <article class=\"document-card wide\"><h2>Tình trạng trước khi xuất bản</h2><p>Thông tin dự thảo được cập nhật vào ngày 22 tháng 10 năm 2026. Việc tích hợp chỉ dành cho trang web; ứng dụng Ngoại tuyến V1 vẫn không có phân tích. Google Tín hiệu và sự đồng ý quảng cáo bị vô hiệu hóa trong mã. Trước khi xuất bản, nhà xuất bản phải xác nhận các điều khoản xử lý, chuyển giao, duy trì dịch vụ GA4 (tách biệt với thời gian hoạt động của cookie), tính năng đo lường nâng cao tự động bị tắt và cấu hình lưu trữ. Kiểm tra cục bộ không xác minh các cài đặt này.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"vi\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Tính năng phân tích đã tắt.</h1><p>Trang web không chạy Google Analytics hoặc cookie phân tích, ngay cả khi bạn đã đồng ý trước đó.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Chúng tôi ghi nhớ ngôn ngữ bạn chọn. Cookie kỹ thuật cũng có thể ghi nhớ rằng tính năng phân tích đã tắt.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Cookie phân tích cũ được xóa vào lần truy cập tiếp theo. Việc này không xóa dữ liệu đã gửi cho Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=vi\" data-shell-label=\"privacy\">Chính sách bảo mật</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

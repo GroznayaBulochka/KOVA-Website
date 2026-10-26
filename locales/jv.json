@@ -57,7 +57,7 @@
     "screenWorkCopy": "Disimpen ing piranti · 21 Okt 2026",
     "securityKicker": "Privasi",
     "securityTitle": "Privasi minangka prioritas utama.",
-    "securityCopy": "Privasi luwih dhisik nalika kita kerja kanggo nggawe KOVA kanthi aman. Cathetan finansial tetep ing telpon sampeyan. Tuku lan pulihake Premium opsional nggunakake Google Play kanthi kapisah; analytics situs web iki mbutuhake idin sampeyan.",
+    "securityCopy": "Cathetan finansial KOVA tetep ana ing telpon sampeyan. Kita ngupaya supaya aplikasi iki aman sabisane. Tuku lan pulihake Premium opsional nggunakake Google Play kanthi kapisah; analytics situs web iki mbutuhake idin sampeyan.",
     "securityModel": "Maca babagan keamanan",
     "secureLocal": "Enkripsi lokal",
     "secureOwner": "Isolasi data",
@@ -123,12 +123,12 @@
     "faqOcrQ": "Apa pindai resi bisa digunakake ing offline?",
     "faqOcrA": "OCR nggunakake model sing digabung karo app. Njupuk foto utawa pilih salah siji saka galeri liwat pemilih Android. Pangenalan bisa uga salah - priksa jumlah, mata uang, lan tanggal sadurunge nyimpen. Nolak akses kamera ora ngalangi pilihan file.",
     "faqDeviceQ": "Kanggo piranti lan pamirsa sing KOVA?",
-    "faqDeviceA": "KOVA lagi disiapake kanggo Android telpon nganggo Android 7.0 utawa mengko. Sumber saiki kalebu 27 basa antarmuka; kompatibilitas lan review basa lagi ditindakake. Ditujukake kanggo umur 13+, miturut syarat toko lan lokal. Ora ana rilis iOS utawa jam tangan sing ditawakake.",
+    "faqDeviceA": "KOVA lagi disiapake kanggo Android telpon nganggo Android 7.0 utawa mengko. Antarmuka KOVA ndhukung 27 basa; kompatibilitas lan review basa lagi ditindakake. Ditujukake kanggo umur 13+, miturut syarat toko lan lokal. Ora ana rilis iOS utawa jam tangan sing ditawakake.",
     "aboutKicker": "Apa KOVA?",
     "aboutTitle": "Kurang stres dhuwit. Ruang liyane kanggo rencana sampeyan.",
     "aboutCopy": "KOVA minangka aplikasi Android kanggo keuangan pribadi saben dina. Tansah biaya, anggaran lan jam kerja, supaya sampeyan bisa ndeleng apa sing isih ana sawise tagihan lan rencana sasi ngarep.",
     "aboutAudience": "Kanggo siswa, wong kerja lan sapa wae sing pengin nggawe keputusan sing luwih disengaja babagan dhuwit dhewe.",
-    "aboutForWhom": "Kanggo sampeyan, yen…",
+    "aboutForWhom": "Paedahe KOVA kanggo sampeyan",
     "aboutSpendingTitle": "Delengen menyang ngendi dhuwit sampeyan",
     "aboutSpendingCopy": "Rekam mbuwang saben dina lan goleki miturut kategori. Ngerti biaya sing nggawe prabédan paling gedhe kanggo sasi sampeyan.",
     "aboutGoalsTitle": "Ngerti apa sing isih ana ing anggaran sampeyan",
@@ -160,7 +160,9 @@
     "closingTitle": "Nggawe papan kanggo rencana dhuwit sing luwih jelas.",
     "closingCopy": "Tindakake KOVA Development ing Instagram kanggo pratinjau aplikasi lan warta peluncuran. Rilis umum pisanan isih ana ing persiapan.",
     "closingSecondary": "Sampeyan uga bisa nemokake KOVA ing TikTok.",
-    "forecastNote": "Ing versi saiki, ngira-ngira pangeluaran sing owah-owahan mbutuhake paling ora 7 dina pengamatan lan 2 cathetan pangeluaran. Cathetan sing ajeg menehi gambaran luwih lengkap. Prakiraan tetep mung perkiraan."
+    "forecastNote": "Saben analisis butuh data sing cukup. Priksa syarate sadurunge milih Premium.",
+    "faqDataQ": "Pira data sing dibutuhake saben analisis?",
+    "faqDataA": "<p>Sampeyan bisa nyathet pangeluaran lan anggaran wiwit awal. Laporan dhasar butuh 5 transaksi ing paling ora 3 dina sing beda.</p><ul><li>Perkiraan pangeluaran sing owah-owahan: paling ora 7 dina pengamatan lan 2 pangeluaran sajrone 3 sasi pungkasan. Iki syarat kanggo siji bagean petungan, dudu kabeh Premium.</li><li>Laporan jangkep: paling ora riwayat 60 dina, 75 transaksi, 20 dina sing ana transaksine lan paling ora 1 anggaran utawa tujuan. Kabeh syarat kudu kawujud.</li><li>Prakiraan: paling ora riwayat 90 dina, 100 transaksi ing 3 sasi sing beda lan penghasilan rutin utawa pembayaran bola-bali (dicathet utawa dideteksi). Kabeh syarat kudu kawujud.</li></ul><p>Tuku Premium ora ngganti riwayat sing dibutuhake. Cathetan profil, kalebu data sing diimpor kanthi bener, diitung; tanggal instalasi wae ora cukup. Prakiraan tetep mung perkiraan.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — Mbusak Data & Profil Lokal",
       "privacy": "KOVA Kebijakan Privasi — Aplikasi & Situs Web",
       "terms": "Ketentuan KOVA Free & Premium — Draft",
-      "cookies": "KOVA Kuki Situs web & Google Analytics"
+      "cookies": "KOVA — Analitik dipateni."
     },
     "descriptions": {
       "404": "Kaca KOVA iki ora ana. Bali menyang ringkesan app, nganyari utawa kontak.",
@@ -539,7 +541,7 @@
       "delete-account": "Ngatur lan mbusak data, profil lan ekspor KOVA lokal. Pembaruan Premium dikelola kanthi kapisah ing Google Play; uninstalling ora mbatalake.",
       "privacy": "Draf KOVA kabijakan privasi: data aplikasi lokal, ekspor, kontak lan analisis situs web opsional. Persetujuan dibutuhake sadurunge diterbitake.",
       "terms": "Konsep istilah KOVA Free lan Premium: fitur lokal, langganan opsional, tuku lan mulihake Google Play, serep lan watesan perkiraan.",
-      "cookies": "Carane situs web KOVA nggunakake cookie lan Google Analytics mung sawise idin. Deleng apa sing diukur lan carane mbatalake pilihan sampeyan."
+      "cookies": "KOVA: Situs ora nglakokake Google Analytics utawa cookie analitik, senajan sampeyan wis menehi idin sadurunge."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Basa situs",
     "pendingDecision": "Nunggu konfirmasi pemilik sadurunge diterbitake"
   },
-  "cookies": "<section data-doc-lang=\"jv\" data-document-title=\"KOVA Kuki Situs web &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">cookie</p><h1>Analytics minangka pilihan sampeyan.</h1><p>Cookie penting ngelingi basa lan setelan. Analytics diwiwiti mung sawise idin.</p><div class=\"document-meta\"><span class=\"document-chip\">Dianyari: 22 Oktober 2026</span><span class=\"document-chip\">Ora iklan</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>sing penting</h2><p><code>kova_site_language</code>ngelingi basa nganti 12 sasi;<code>kova_cookie_consent_v2</code>ngelingi pilihan sampeyan kanggo 180 dina. Idin sadurunge kanggo counter lokal ora menehi wewenang Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Sawise idin ing domain umum kovacompass.app (kalebu www), kita mbukak tag Google<code>G-2LE3GWYDZM</code>. Google bisa nyimpen<code>_ga</code>lan<code>_ga_2LE3GWYDZM</code>cookie kanggo browser lan pangenalan sesi. Kita ngatur kadaluwarsa 180 dina tanpa nganyari maneh otomatis ing saben kunjungan; browser bisa shorten wektu iki.</p></article>\n          <article class=\"document-card\"><h2>Apa sing kita ukur</h2><p>Tampilan kaca, mbukak lan muter presentasi, pilihan bab, gambar sing digedhekake, FAQ sing dibukak lan klik kontak. Acara kita mung ngemot jeneng acara, kaca umum tanpa parameter URL utawa fragmen, lan basa. Kita ora ngirim isi pesen, keuangan, ID akun utawa isi Workspace. Pratinjau lokal ora mbukak Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Panampa lan basis</h2><p>Penerbit: Vadyslav Konohrai, Polandia; kontak:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Pangukuran opsional gumantung ing idin sampeyan. Google Analytics uga ngolah browser teknis, piranti, sesi lan informasi lokasi kira-kira. Alamat IP melu komunikasi; Google nyatakake GA4 ora nyimpen alamat IP. Iki ora nggawe data kanthi anonim. Pangolahan bisa ditindakake ing njaba EEA. Delengen<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">kabijakan privasi Google</a>lan<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 informasi data</a>.</p></article>\n          <article class=\"document-card\"><h2>Basa situs</h2><p>Pilihan basa uga tetep ing<code>localStorage</code>nganti panyimpenan browser dibusak. KOVA data akun ora disimpen ing kene.</p></article>\n          <article class=\"document-card wide\"><h2>Ganti pilihan sampeyan</h2><p>Bukak \"Setelan cookie\" ing footer lan nolak analytics, utawa mateni lan simpen. Nolak ora mbatesi situs kasebut. Penarikan mbusak cookie GA sing bisa diakses lan ngisi maneh kaca kanggo mungkasi tag. Ora bisa ngelingi data sing wis dikirim. Hubungi kita babagan hak data; sampeyan uga bisa sambat menyang panguwasa pangayoman data sing cocog. Dokumen privasi tetep bisa diwaca tanpa milih idin.</p></article>\n          <article class=\"document-card wide\"><h2>Status pra-publikasi</h2><p>Informasi rancangan dianyari 22 Oktober 2026. Integrasi mung situs web; aplikasi Offline V1 tetep bebas analytics. Sinyal Google lan idin pariwara dipateni ing kode. Sadurunge publikasi, penerbit kudu konfirmasi syarat pangolahan, transfer, GA4 retensi layanan (kapisah saka umur cookie), pangukuran sing ditingkatake otomatis dipateni, lan konfigurasi hosting. Tes lokal ora verifikasi setelan kasebut.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"jv\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Analitik dipateni.</h1><p>Situs ora nglakokake Google Analytics utawa cookie analitik, senajan sampeyan wis menehi idin sadurunge.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Kita ngelingi basa sing sampeyan pilih. Cookie teknis uga bisa ngelingi manawa analitik dipateni.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Cookie analitik lawas dibusak nalika kunjungan sabanjure. Iki ora mbusak data sing wis dikirim menyang Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=jv\" data-shell-label=\"privacy\">Kebijakan Privasi</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

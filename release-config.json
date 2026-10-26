@@ -8,7 +8,9 @@
   "canonicalOrigin": "https://kovacompass.app",
   "domainApprovedByOwner": true,
   "domainEvidence": "OWNER_DECLARATION_2026-10-21",
-  "hostingVerified": false,
+  "hostingVerified": true,
+  "hostingVerificationScope": "PRE_DEPLOYMENT_CONFIGURATION",
+  "hostingVerificationEvidence": "qa/artifacts/launch-readiness-2026-10-25/hosting-readiness.json",
   "publicPolicyUrl": "https://kovacompass.app/privacy.html?lang=en",
   "publicTermsUrl": "https://kovacompass.app/terms.html?lang=en",
   "publicDocumentUrlsEvidence": "OWNER_DECLARATION_2026-10-22_HTTP_200_OBSERVED",
@@ -24,11 +26,14 @@
   "cloudAccountAvailable": false,
   "externalAccountDeletionChannelRequired": false,
   "publicationApproved": false,
-  "analyticsReceiver": "Google Analytics 4",
+  "analyticsReceiver": null,
   "websiteAnalytics": {
+    "enabled": false,
+    "pausedOn": "2026-10-26",
+    "pauseEvidence": "OWNER_REQUEST_2026-10-26_STOP_COOKIES",
     "measurementId": "G-2LE3GWYDZM",
-    "consentMode": "BASIC_OPT_IN",
-    "cookieLifetimeDays": 180,
+    "consentMode": "DISABLED_BY_OWNER",
+    "cookieLifetimeDays": 0,
     "productionHosts": [
       "kovacompass.app",
       "www.kovacompass.app"

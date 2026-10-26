@@ -1,0 +1,111 @@
+KOVA — rzeczywista kontrola GA4, hostingu i przygotowanie obsługi kontaktu
+Data: 25.10.2026. Bez publikacji strony, zmian aplikacji i akceptacji umów.
+
+GA4
+KOVAST / KOVASite / G-2LE3GWYDZM / https://kovacompass.app potwierdzone w panelu.
+Zmiany: Enhanced Measurement OFF; automatyczne wykrywanie history/scroll/click/
+form/video/download w tagu OFF; szczegółowa lokalizacja/urządzenie OFF;
+personalizacja reklam OFF we wszystkich 307 regionach; dane użytkowników
+14 -> 2 miesiące, bez resetu po nowej aktywności (osobna zgoda właściciela).
+Retencja zdarzeń już wynosiła 2 miesiące. Zapis sprawdzono po przeładowaniu.
+Zmiana retencji nie dowodzi natychmiastowego usunięcia danych; panel podaje 24h.
+Google Signals, dane podane przez użytkowników (GA4) oraz opcjonalne cztery
+ustawienia udostępniania na koncie były już OFF. Nie zmieniano innych usług.
+Google Ads: zero powiązań i oczekujących wniosków. Połączone tagi: zero.
+Brak specjalnych zdarzeń i przekształceń. Diagram tagu ma jeden cel: KOVASite.
+Nie jest to pełny audyt wszystkich produktów Google ani historycznych eksportów.
+Stary serwis odbierał ruch w ostatnich 48h; to nie dowód poprawności nowego buildu.
+
+Umowa Google: w panelu nie ma osobnego potwierdzenia ani kontaktu DPA.
+Oficjalna pomoc Google wyjaśnia możliwe wcześniejsze włączenie warunków dla EOG.
+Właściciel poprosił o wyjaśnienie odpowiedzialności; nie wyraził zgody na akceptację.
+Nie zaakceptowano umowy, nie dodano kontaktu i nie potwierdzono danych podmiotu.
+Nie zmieniono flag accountConfigurationVerified/liveReceptionVerified.
+
+HOSTING
+GitHub Pages Source = GitHub Actions potwierdzone i zmienione w poprzednim etapie.
+Cloudflare Free: cztery A 185.199.108-111.153 oraz www CNAME do GitHub Pages,
+proxied. Rekordów hostingu nie zmieniano. HTTP i www prowadzą do HTTPS root,
+zachowując parametr języka. Certyfikat origin sprawdzony bez pomijania walidacji.
+SSL Full -> Full (strict), zapis potwierdzony w panelu i działającym HTTP.
+Browser Cache TTL 4 hours -> Respect Existing Headers; Caching Level Standard.
+Nie ma starszych Page Rules ani dodatkowych reguł ignorujących query string.
+
+Dodane reguły dla root/www:
+1. KOVA - refresh HTML and release metadata
+   Edge bypass dla /, *.html, /robots.txt, /sitemap.xml, /build-manifest.json;
+   ustawiono również Browser TTL bypass. Samo to nie zmieniło nagłówka
+   max-age origin na aktualnej odpowiedzi; efektywny no-cache zapewnia reguła 2.
+2. KOVA - security and fresh browser content
+   Cache-Control no-cache; CSP z scripts/build-site.mjs; X-Content-Type-Options
+   nosniff; Referrer-Policy strict-origin-when-cross-origin; Permissions-Policy
+   camera=(), microphone=(), geolocation=(); X-Frame-Options DENY.
+3. KOVA - do not index raw legal source files
+   /legal/*: X-Robots-Tag noindex, nofollow, zgodnie z generowanym _headers.
+Reguła 3 nie wyłącza indeksowania publicznych stron privacy.html/terms.html.
+
+qa/inspect-hosting.mjs: 9 kontroli PASS. Szczegóły hosting-http.json.
+Kontrola obejmuje nagłówki i przekierowania. Sitemap i manifest zwracają 404;
+główna strona nadal nie ma kova-build. Nie zaliczamy nowej publikacji.
+W przeglądarce odrzucono GA i sprawdzono załadowaną treść/nawigację; brak błędów
+w konsoli w tej próbce. Brak pomiaru Lighthouse, pełnego testu sieci GA po zgodzie
+i testu fizycznego telefonu. Nie wysłano zdarzeń testowych do GA celowo.
+Aktualny robots.txt z domeny nie miał prefiksu Cloudflare. Nie zmieniano ochrony
+botów; verifier nadal porównuje pełną treść artefaktu i wykryje ewentualne zmiany.
+
+KORESPONDENCJA
+W panelu potwierdzono aktywną regułę contact@kovacompass.app do prywatnego Gmaila.
+Adres prywatny nie jest zapisany w raporcie ani proponowany do publikacji.
+Catch-all wyłączony. Nie otwierano treści wiadomości ani logu nadawców.
+Cloudflare zgłaszał konflikt SPF: v=spf1 a mx ~all nie zawierał
+include:_spf.mx.cloudflare.net. Po osobnej zgodzie właściciela zmieniono
+istniejący rekord na v=spf1 a mx include:_spf.mx.cloudflare.net ~all.
+Nie dodano drugiego SPF ani nie zmieniono odbiorcy/MX. Potwierdzono zapis
+w publicznym DNS (1.1.1.1) i zniknięcie ostrzeżenia w panelu: Routing Enabled,
+DNS records Locked. spf-dns.json i cloudflare-email-dns-fixed.png.
+To weryfikacja konfiguracji, nie nowy test dostarczania wiadomości.
+Przygotowano SUPPORT_PROCEDURE.txt: praktyczne kroki i minimalny wzór rejestru.
+Nie jest to wdrożenie procedury w skrzynce. Nie wysłano/usunięto poczty ani
+nie utworzono automatycznych przypomnień. Wcześniejsze oświadczenia o działaniu
+odbioru/odpowiedzi i 2FA pozostają ważne i nie są ponownie kwestionowane.
+
+DOKUMENTY / PUBLIKACJA
+Finalna decyzja o GA4/DPA, właściwy podmiot/kontakt, umowy dostawców poczty,
+wdrożenie procedury, kwalifikacja operatora i dokumenty/datowanie nadal otwarte.
+Zamknięto wyłącznie hostingVerified na podstawie rzeczywistej konfiguracji,
+hosting-readiness.json i 9 kontroli HTTP. Jawny zakres to PRE_DEPLOYMENT_CONFIGURATION.
+publicArtifactVerified pozostaje false w dowodzie; po publikacji nadal konieczne
+jest porównanie manifestu. Pozostałe akceptacje/kwalifikacje nadal false.
+Zapobiega to wymaganiu wcześniejszej publikacji jako warunku jej uruchomienia.
+Nie zmieniano kanonicznych dokumentów Androida; są równolegle rozwijane.
+Aktualna polityka aplikacji zawiera już dodatkowy opis jednorazowego wsparcia.
+Przed akceptacją trzeba przypiąć zatwierdzoną wersję dokumentów. Ponowiona kontrola
+327 warunków potwierdziła zgodność sześciu bieżących źródeł PL/EN/RU z buildem;
+to nadal projekty bez akceptacji, a nie dowód zakończenia kwalifikacji prawnej.
+Przygotowano WEBSITE_PRIVACY_REVIEW_PL.txt z ustalonymi faktami i jawnymi
+punktami do domknięcia. Nie włączono go do publicznego builda.
+
+WERYFIKACJA LOKALNA PO ZAMKNIĘCIU HOSTINGU
+npm run build: PASS, preview c90c5b98b98e775a6143, 431 plików, bez publikacji.
+qa/release-check.mjs: PASS, 327 warunków, publiczny build nadal zatrzymany (exit 2).
+qa/analytics-contract.mjs: PASS, 17 warunków.
+qa/prelaunch-check.mjs: PASS, 143 warunki / 54 projekty dokumentów.
+git diff --check: PASS. Nie powtarzano całej wcześniejszej macierzy przeglądarek.
+
+DOWODY WIZUALNE
+ga4-retention-saved.png — 2/2 miesiące i wyłączony reset po ponownym otwarciu.
+ga4-enhanced-off.png, ga4-collection-saved.png, ga4-auto-events-off.png.
+ga4-dpa-review.png — odczyt do omówienia, nie dowód zawarcia umowy.
+cloudflare-headers-active.png — aktywna reguła nagłówków, bez adresu prywatnego.
+
+Źródła pierwotne sprawdzone 25.10.2026
+https://support.google.com/analytics/answer/7667196
+https://support.google.com/analytics/answer/9216061
+https://support.google.com/analytics/answer/9626162
+https://support.google.com/analytics/answer/3379636?hl=pl
+https://business.safety.google/adsprocessorterms/
+https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full-strict/
+https://developers.cloudflare.com/rules/transform/response-header-modification/
+https://developers.cloudflare.com/email-service/configuration/domains/
+https://developers.cloudflare.com/email-service/reference/troubleshooting/
+https://www.cloudflare.com/cloudflare-customer-dpa/ — lektura, nie akceptacja.

@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-25T18:47:52.9874482Z",
+  "domain": "kovacompass.app",
+  "resolver": "1.1.1.1",
+  "records": [
+    "v=spf1 a mx include:_spf.mx.cloudflare.net ~all"
+  ],
+  "exactlyOneSpf": true,
+  "expected": true,
+  "ownerApproved": true,
+  "previous": "v=spf1 a mx ~all",
+  "cloudflarePanel": "Routing Enabled; DNS records Locked; misconfigured warning absent"
+}

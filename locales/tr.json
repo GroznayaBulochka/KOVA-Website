@@ -57,7 +57,7 @@
     "screenWorkCopy": "Cihaza kaydedildi · 21 Eki 2026",
     "securityKicker": "Gizlilik",
     "securityTitle": "Gizlilik en büyük önceliğimizdir.",
-    "securityCopy": "KOVA'yi mümkün olduğunca güvenli hale getirmeye çalışırken gizlilik ilk sırada gelir. Mali kayıtlar telefonunuzda kalır. İsteğe bağlı Premium satın alma ve geri yükleme, Google Play'yi ayrı olarak kullanın; bu web sitesinin analizleri sizin izninizi gerektiriyor.",
+    "securityCopy": "KOVA'daki mali kayıtlarınız telefonunuzda kalır. Uygulamayı mümkün olduğunca güvenli hale getirmek için çalışıyoruz. İsteğe bağlı Premium satın alma ve geri yükleme, Google Play'yi ayrı olarak kullanın; bu web sitesinin analizleri sizin izninizi gerektiriyor.",
     "securityModel": "Güvenlik hakkında bilgi edinin",
     "secureLocal": "Yerel şifreleme",
     "secureOwner": "Veri izolasyonu",
@@ -123,12 +123,12 @@
     "faqOcrQ": "Makbuz taraması çevrimdışı çalışıyor mu?",
     "faqOcrA": "OCR uygulamayla birlikte verilen bir modeli kullanıyor. Bir fotoğraf çekin veya Android seçiciyi kullanarak galerinizden bir fotoğraf seçin. Tanıma yanlış olabilir; kaydetmeden önce tutarı, para birimini ve tarihi kontrol edin. Kamera erişiminin reddedilmesi dosya seçimini engellemez.",
     "faqDeviceQ": "KOVA hangi cihazlar ve kitle için?",
-    "faqDeviceA": "KOVA, Android 7.0 veya üzerini çalıştıran Android telefonlar için hazırlanıyor. Mevcut kaynak 27 arayüz dilini içermektedir; uyumluluk ve dil incelemesi devam etmektedir. Mağaza ve yerel gerekliliklere bağlı olarak 13+ yaş grubuna yöneliktir. Hiçbir iOS veya saat sürümü sunulmamaktadır.",
+    "faqDeviceA": "KOVA, Android 7.0 veya üzerini çalıştıran Android telefonlar için hazırlanıyor. KOVA arayüzü 27 dili destekler; uyumluluk ve dil incelemesi devam etmektedir. Mağaza ve yerel gerekliliklere bağlı olarak 13+ yaş grubuna yöneliktir. Hiçbir iOS veya saat sürümü sunulmamaktadır.",
     "aboutKicker": "KOVA nedir?",
     "aboutTitle": "Daha az para stresi. Planlarınız için daha fazla alan.",
     "aboutCopy": "KOVA, günlük kişisel finans için bir Android uygulamasıdır. Giderleri, bütçeleri ve çalışma saatlerini bir arada tutun, böylece faturalardan sonra kalanları görebilir ve önümüzdeki ayı planlayabilirsiniz.",
     "aboutAudience": "Öğrenciler, çalışanlar ve kendi parasıyla ilgili daha bilinçli kararlar vermek isteyen herkes için.",
-    "aboutForWhom": "Eğer sizin için…",
+    "aboutForWhom": "KOVA size neler kazandırır",
     "aboutSpendingTitle": "Paranızın nereye gittiğini görün",
     "aboutSpendingCopy": "Günlük harcamaları kaydedin ve kategoriye göre bulun. Hangi maliyetlerin ayınızda en büyük farkı yarattığını anlayın.",
     "aboutGoalsTitle": "Bütçenizde ne kaldığını öğrenin",
@@ -160,7 +160,9 @@
     "closingTitle": "Daha net bir para planına yer açın.",
     "closingCopy": "Uygulama önizlemeleri ve lansman haberleri için KOVA Development'yi Instagram'de takip edin. İlk halka açık yayın hâlâ hazırlık aşamasındadır.",
     "closingSecondary": "Ayrıca KOVA'yi TikTok'de de bulabilirsiniz.",
-    "forecastNote": "Mevcut sürümde değişken harcamaları tahmin etmek için en az 7 günlük gözlem ve 2 harcama kaydı gerekir. Düzenli kayıtlar daha kapsamlı bir görünüm sağlar. Öngörüler yalnızca tahmindir."
+    "forecastNote": "Her analiz yeterli veri gerektirir. Premium'u seçmeden önce koşulları inceleyin.",
+    "faqDataQ": "Her analiz ne kadar veri gerektirir?",
+    "faqDataA": "<p>Başlangıçtan itibaren gider ve bütçe kaydedebilirsiniz. Temel raporlar en az 3 farklı günde 5 işlem gerektirir.</p><ul><li>Değişken gider tahmini: en az 7 günlük gözlem ve son 3 ayda 2 gider. Bu eşik tüm Premium için değil, hesaplamanın bir bileşeni içindir.</li><li>Gelişmiş raporlar: en az 60 günlük geçmiş, 75 işlem, işlem yapılan 20 gün ve en az 1 bütçe veya hedef. Tüm koşullar karşılanmalıdır.</li><li>Öngörüler: en az 90 günlük geçmiş, 3 farklı ayda 100 işlem ve düzenli gelir veya yinelenen ödeme (kaydedilmiş ya da tespit edilmiş). Tüm koşullar karşılanmalıdır.</li></ul><p>Premium satın almak gerekli geçmişin yerini tutmaz. Doğru içe aktarılmış veriler dahil profil kayıtları sayılır; yalnızca kurulum tarihi yeterli değildir. Öngörüler tahmin niteliğindedir.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — Yerel Verileri ve Profilleri Sil",
       "privacy": "KOVA Gizlilik Politikası - Uygulama ve Web Sitesi",
       "terms": "KOVA Free ve Premium Şartları - Taslak",
-      "cookies": "KOVA Web Sitesi Çerezleri ve Google Analytics"
+      "cookies": "KOVA — Analiz duraklatıldı."
     },
     "descriptions": {
       "404": "Bu KOVA sayfası mevcut değil. Uygulamaya genel bakışa, güncellemelere veya iletişime dönün.",
@@ -539,7 +541,7 @@
       "delete-account": "Yerel KOVA verilerini, profillerini ve dışa aktarımlarını yönetin ve silin. Premium yenilemesi Google Play'de ayrı olarak yönetilir; kaldırma işlemi onu iptal etmez.",
       "privacy": "Taslak KOVA gizlilik politikası: yerel uygulama verileri, dışa aktarmalar, iletişim ve isteğe bağlı web sitesi analizleri. Yayınlanmadan önce onay gereklidir.",
       "terms": "Taslak KOVA Free ve Premium terimleri: yerel özellikler, isteğe bağlı abonelik, Google Play satın alma ve geri yükleme, yedeklemeler ve tahminlerin sınırları.",
-      "cookies": "KOVA web sitesinin çerezleri nasıl kullandığı ve Google Analytics'nin yalnızca izin alındıktan sonra nasıl kullanıldığı. Neyin ölçüldüğünü ve seçiminizi nasıl geri çekeceğinizi görün."
+      "cookies": "KOVA: Daha önce izin vermiş olsanız bile site Google Analytics veya analiz çerezlerini çalıştırmaz."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Site dili",
     "pendingDecision": "Yayınlanmadan önce sahip onayı bekleniyor"
   },
-  "cookies": "<section data-doc-lang=\"tr\" data-document-title=\"KOVA Web Sitesi Çerezleri ve Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Çerezler</p><h1>Analitik sizin seçiminizdir.</h1><p>Temel çerezler dili ve ayarları hatırlar. Analizler yalnızca izin alındıktan sonra başlar.</p><div class=\"document-meta\"><span class=\"document-chip\">Güncelleme: 22 Ekim 2026</span><span class=\"document-chip\">Reklam yok</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Temel</h2><p><code>kova_site_language</code>dili 12 aya kadar hatırlar;<code>kova_cookie_consent_v2</code>seçiminizi 180 gün boyunca hatırlar. Yerel sayaçlara önceden verilen izin, Google Analytics yetkisini vermez.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Herkese açık kovacompass.app alan adına (www dahil) izin verdikten sonra Google etiketini yüklüyoruz<code>G-2LE3GWYDZM</code>. Google saklayabilir<code>_ga</code>ve<code>_ga_2LE3GWYDZM</code>tarayıcı ve oturum tanıma için çerezler. Her ziyarette otomatik yenileme olmadan 180 günlük bir süre sonu yapılandırıyoruz; tarayıcılar bu süreyi kısaltabilir.</p></article>\n          <article class=\"document-card\"><h2>Neyi ölçüyoruz</h2><p>Sayfa görünümleri, sunumun açılması ve oynatılması, bölüm seçimi, büyütülmüş ekran görüntüleri, açılan SSS'ler ve iletişim tıklamaları. Etkinliklerimiz yalnızca etkinlik adını, URL parametreleri veya parçaları olmayan genel sayfayı ve dili içerir. Mesaj içerikleri, finans, hesap kimlikleri veya Workspace içerikleri göndermiyoruz. Yerel önizlemeler Google Analytics çalıştırılmıyor.</p></article>\n          <article class=\"document-card\"><h2>Alıcı ve temel</h2><p>Yayıncı: Vadyslav Konohrai, Polonya; iletişim:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. İsteğe bağlı ölçüm sizin onayınıza bağlıdır. Google Analytics ayrıca teknik tarayıcı, cihaz, oturum ve yaklaşık konum bilgilerini de işler. IP adresleri iletişime dahil olur; Google, GA4 IP adreslerini saklamadığını belirtir. Bu, verileri tamamen anonim hale getirmez. İşleme AEA dışında gerçekleştirilebilir. Bkz.<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Google'ın gizlilik politikası</a>ve<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 veri bilgisi</a>.</p></article>\n          <article class=\"document-card\"><h2>Site dili</h2><p>Dil seçimi de kalır<code>localStorage</code>tarayıcı depolama alanı temizlenene kadar. KOVA hesap verileri burada saklanmaz.</p></article>\n          <article class=\"document-card wide\"><h2>Seçiminizi değiştirin</h2><p>Alt bilgideki \"Çerez ayarları\"nı açın ve analitiği reddedin veya kapatıp kaydedin. Reddetmek siteyi sınırlamaz. Geri çekme, erişilebilir GA çerezlerini kaldırır ve etiketi durdurmak için sayfayı yeniden yükler. Gönderilmiş olan veriyi geri çağıramaz. Veri haklarıyla ilgili olarak bizimle iletişime geçin; ayrıca ilgili veri koruma yetkilisine şikayette bulunabilirsiniz. Gizlilik belgeleri, onay seçilmeden okunabilir durumda kalır.</p></article>\n          <article class=\"document-card wide\"><h2>Yayın öncesi durumu</h2><p>Taslak bilgiler 22 Ekim 2026'da güncellendi. Entegrasyon yalnızca web sitesine yöneliktir; Çevrimdışı V1 uygulaması analizlerden bağımsız kalır. Google Sinyalleri ve reklam izni kodda devre dışı bırakıldı. Yayınlamadan önce yayıncının işleme şartlarını, aktarımları, GA4 hizmet saklamayı (çerez ömründen ayrı olarak), devre dışı bırakılmış otomatik geliştirilmiş ölçümü ve barındırma yapılandırmasını onaylaması gerekir. Yerel testler bu ayarları doğrulamaz.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"tr\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Analiz duraklatıldı.</h1><p>Daha önce izin vermiş olsanız bile site Google Analytics veya analiz çerezlerini çalıştırmaz.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Seçtiğiniz dili hatırlarız. Teknik çerezler analizin devre dışı olduğunu da hatırlayabilir.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Önceki analiz çerezleri bir sonraki ziyaretinizde silinir. Bu işlem Google’a daha önce gönderilen verileri silmez.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=tr\" data-shell-label=\"privacy\">Gizlilik Politikası</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

@@ -4,6 +4,9 @@
   // Basic Consent Mode: no Google script, preconnect or request before opt-in.
   // This file is deliberately not loaded by the private Workspace or Android app.
   const ID = 'G-2LE3GWYDZM';
+  // Owner paused website analytics on 2026-10-26. Re-enabling needs a reviewed
+  // code/configuration change; saved consent cannot override this switch.
+  const PAUSED = true;
   const COOKIE = 'kova_cookie_consent_v2';
   const MAX_AGE = 60 * 60 * 24 * 180;
   const pages = new Set(['index.html','status.html','roadmap.html','updates.html','security.html','contact.html','delete-account.html','privacy.html','terms.html','cookies.html','404.html']);
@@ -29,6 +32,20 @@
     let names = [];
     try { names = document.cookie.split(';').map(s => s.trim().split('=')[0]); } catch {}
     for (const name of names) if (name === '_ga' || name.startsWith('_ga_') || name.startsWith('kova_analytics_')) removeCookie(name);
+  }
+  if (PAUSED) {
+    window['ga-disable-' + ID] = true;
+    window.gtag = () => {};
+    if (window.dataLayer) window.dataLayer.length = 0;
+    const clearPausedCookies = () => {
+      clearAnalyticsCookies();
+      for (const name of [COOKIE, 'kova_cookie_notice', 'kova_cookie_consent']) removeCookie(name);
+    };
+    clearPausedCookies();
+    window.addEventListener('pageshow', clearPausedCookies);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) clearPausedCookies(); });
+    window.KOVA_ANALYTICS = Object.freeze({track: () => false, isEnabled: () => false, paused: true});
+    return;
   }
   // The former local-counter consent never authorizes Google Analytics.
   for (const name of ['kova_cookie_notice','kova_cookie_consent','kova_analytics_id','kova_analytics_session','kova_analytics_page_count']) removeCookie(name);

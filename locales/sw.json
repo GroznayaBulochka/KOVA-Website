@@ -57,7 +57,7 @@
     "screenWorkCopy": "Imehifadhiwa kwenye kifaa · 21 Okt 2026",
     "securityKicker": "Faragha",
     "securityTitle": "Faragha ndiyo kipaumbele chetu kikuu.",
-    "securityCopy": "Faragha huja kwanza tunapojitahidi kufanya KOVA kuwa salama iwezekanavyo. Rekodi za fedha hukaa kwenye simu yako. Hiari Premium kununua na kurejesha matumizi Google Play tofauti; uchanganuzi wa tovuti hii unahitaji kibali chako.",
+    "securityCopy": "Rekodi za fedha za KOVA hubaki kwenye simu yako. Tunajitahidi kufanya programu iwe salama iwezekanavyo. Hiari Premium kununua na kurejesha matumizi Google Play tofauti; uchanganuzi wa tovuti hii unahitaji kibali chako.",
     "securityModel": "Soma kuhusu usalama",
     "secureLocal": "Usimbaji fiche wa ndani",
     "secureOwner": "Kutengwa kwa data",
@@ -123,12 +123,12 @@
     "faqOcrQ": "Je, kuchanganua risiti hufanya kazi nje ya mtandao?",
     "faqOcrA": "OCR hutumia muundo uliounganishwa na programu. Piga picha au chagua moja kutoka kwenye ghala yako kupitia kiteua Android. Utambuzi unaweza kuwa mbaya - angalia kiasi, sarafu na tarehe kabla ya kuhifadhi. Kunyima ufikiaji wa kamera hakuzuii uteuzi wa faili.",
     "faqDeviceQ": "KOVA ni vifaa na hadhira gani?",
-    "faqDeviceA": "KOVA inatayarishwa kwa simu za Android zinazotumia Android 7.0 au matoleo mapya zaidi. Chanzo cha sasa kinajumuisha lugha 27 za kiolesura; utangamano na uhakiki wa lugha unaendelea. Inakusudiwa watu walio na umri wa miaka 13+, kulingana na mahitaji ya duka na ya ndani. Hakuna iOS au toleo la saa linalotolewa.",
+    "faqDeviceA": "KOVA inatayarishwa kwa simu za Android zinazotumia Android 7.0 au matoleo mapya zaidi. Kiolesura cha KOVA kinaunga mkono lugha 27; utangamano na uhakiki wa lugha unaendelea. Inakusudiwa watu walio na umri wa miaka 13+, kulingana na mahitaji ya duka na ya ndani. Hakuna iOS au toleo la saa linalotolewa.",
     "aboutKicker": "KOVA ni nini?",
     "aboutTitle": "Shinikizo la pesa kidogo. Nafasi zaidi ya mipango yako.",
     "aboutCopy": "KOVA ni programu ya Android kwa ajili ya fedha za kibinafsi za kila siku. Weka gharama, bajeti na saa za kazi pamoja, ili uweze kuona kitakachosalia baada ya bili na upange mwezi ujao.",
     "aboutAudience": "Kwa wanafunzi, watu wanaofanya kazi na mtu yeyote ambaye anataka kufanya maamuzi ya makusudi kuhusu pesa zao wenyewe.",
-    "aboutForWhom": "Kwa wewe, ikiwa…",
+    "aboutForWhom": "Unachopata kwa KOVA",
     "aboutSpendingTitle": "Angalia pesa zako zinakwenda wapi",
     "aboutSpendingCopy": "Rekodi matumizi ya kila siku na uyapate kwa kategoria. Elewa ni gharama zipi zinazoleta tofauti kubwa kwa mwezi wako.",
     "aboutGoalsTitle": "Jua kilichobaki katika bajeti yako",
@@ -160,7 +160,9 @@
     "closingTitle": "Tengeneza nafasi kwa mpango wazi wa pesa.",
     "closingCopy": "Fuata KOVA Development kwenye Instagram kwa muhtasari wa programu na habari za uzinduzi. Toleo la kwanza la umma bado linatayarishwa.",
     "closingSecondary": "Unaweza pia kupata KOVA kwenye TikTok.",
-    "forecastNote": "Katika toleo la sasa, kukadiria matumizi yanayobadilika kunahitaji angalau siku 7 za ufuatiliaji na rekodi 2 za matumizi. Rekodi za mara kwa mara hutoa picha kamili zaidi. Utabiri unabaki kuwa makadirio."
+    "forecastNote": "Kila uchanganuzi unahitaji data ya kutosha. Angalia masharti kabla ya kuchagua Premium.",
+    "faqDataQ": "Kila uchanganuzi unahitaji data kiasi gani?",
+    "faqDataA": "<p>Unaweza kurekodi matumizi na bajeti tangu mwanzo. Ripoti za msingi zinahitaji miamala 5 katika angalau siku 3 tofauti.</p><ul><li>Makadirio ya matumizi yanayobadilika: angalau siku 7 za uchunguzi na matumizi 2 katika miezi 3 iliyopita. Hiki ni kiwango cha sehemu moja ya hesabu, si cha Premium yote.</li><li>Ripoti za kina: angalau siku 60 za historia, miamala 75, siku 20 zenye miamala na angalau bajeti au lengo 1. Masharti yote lazima yatimizwe.</li><li>Utabiri: angalau siku 90 za historia, miamala 100 katika miezi 3 tofauti na mapato ya kawaida au malipo yanayojirudia (yaliyorekodiwa au kutambuliwa). Masharti yote lazima yatimizwe.</li></ul><p>Kununua Premium hakuchukui nafasi ya historia inayohitajika. Rekodi za wasifu, pamoja na data iliyoingizwa kwa usahihi, zinahesabiwa; tarehe ya usakinishaji pekee haitoshi. Utabiri unabaki kuwa makadirio.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — Futa Data ya Ndani na Wasifu",
       "privacy": "KOVA Sera ya Faragha — Programu na Tovuti",
       "terms": "Masharti ya KOVA Free & Premium - Rasimu",
-      "cookies": "KOVA Vidakuzi vya Tovuti & Google Analytics"
+      "cookies": "KOVA — Uchanganuzi umezimwa."
     },
     "descriptions": {
       "404": "Ukurasa huu wa KOVA haupo. Rudi kwa muhtasari wa programu, masasisho au anwani.",
@@ -539,7 +541,7 @@
       "delete-account": "Dhibiti na ufute data ya ndani ya KOVA, wasifu na mauzo ya nje. Upyaji wa Premium unasimamiwa tofauti katika Google Play; kuiondoa hakughairi.",
       "privacy": "Rasimu ya KOVA sera ya faragha: data ya programu ya ndani, usafirishaji, mawasiliano na uchanganuzi wa hiari wa tovuti. Idhini inahitajika kabla ya kuchapishwa.",
       "terms": "Rasimu ya masharti ya KOVA Free na Premium: vipengele vya ndani, usajili wa hiari, ununuzi na urejeshaji wa Google Play, hifadhi rudufu na mipaka ya makadirio.",
-      "cookies": "Jinsi tovuti ya KOVA hutumia vidakuzi na Google Analytics tu baada ya idhini. Tazama kile kinachopimwa na jinsi ya kuondoa chaguo lako."
+      "cookies": "KOVA: Tovuti haiendeshi Google Analytics wala vidakuzi vya uchanganuzi, hata kama ulitoa idhini hapo awali."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Lugha ya tovuti",
     "pendingDecision": "Inasubiri uthibitisho wa mmiliki kabla ya kuchapishwa"
   },
-  "cookies": "<section data-doc-lang=\"sw\" data-document-title=\"KOVA Vidakuzi vya Tovuti &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">Vidakuzi</p><h1>Uchambuzi ni chaguo lako.</h1><p>Vidakuzi muhimu hukumbuka lugha na mipangilio. Uchanganuzi huanza tu baada ya idhini.</p><div class=\"document-meta\"><span class=\"document-chip\">Ilisasishwa: 22 Oktoba 2026</span><span class=\"document-chip\">Hakuna matangazo</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Muhimu</h2><p><code>kova_site_language</code>anakumbuka lugha hadi miezi 12;<code>kova_cookie_consent_v2</code>anakumbuka chaguo lako kwa siku 180. Idhini ya awali kwa kaunta za karibu haiidhinishi Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Baada ya idhini kwenye kikoa cha umma cha kovacompass.app (pamoja na www), tunapakia lebo ya Google<code>G-2LE3GWYDZM</code>. Google inaweza kuhifadhi<code>_ga</code>na<code>_ga_2LE3GWYDZM</code>vidakuzi kwa kivinjari na utambuzi wa kipindi. Tunasanidi kuisha kwa siku 180 bila kusasishwa kiotomatiki kwa kila ziara; vivinjari vinaweza kufupisha kipindi hiki.</p></article>\n          <article class=\"document-card\"><h2>Tunapima nini</h2><p>Mionekano ya ukurasa, kufungua na kucheza wasilisho, uteuzi wa sura, picha za skrini zilizopanuliwa, Maswali Yanayoulizwa Mara kwa Mara iliyofunguliwa na mibofyo ya anwani. Matukio yetu yana jina la tukio pekee, ukurasa wa umma bila vigezo au vipande vya URL na lugha. Hatutumi maudhui ya ujumbe, fedha, vitambulisho vya akaunti au maudhui ya Nafasi ya Kazi. Uhakiki wa ndani hauendeshi Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Mpokeaji na msingi</h2><p>Mchapishaji: Vadyslav Konohrai, Poland; mawasiliano:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Kipimo cha hiari kinategemea idhini yako. Google Analytics pia huchakata kivinjari cha kiufundi, kifaa, kipindi na maelezo ya eneo yaliyokadiriwa. Anwani za IP zinahusika katika mawasiliano; Google inasema GA4 haihifadhi anwani za IP. Hii haifanyi data isijulikane kabisa. Usindikaji unaweza kufanyika nje ya EEA. Tazama<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Sera ya faragha ya Google</a>na<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 maelezo ya data</a>.</p></article>\n          <article class=\"document-card\"><h2>Lugha ya tovuti</h2><p>Chaguo la lugha pia linabaki ndani<code>localStorage</code>hadi uhifadhi wa kivinjari utakapofutwa. KOVA data ya akaunti haijahifadhiwa hapa.</p></article>\n          <article class=\"document-card wide\"><h2>Badilisha chaguo lako</h2><p>Fungua \"Mipangilio ya Vidakuzi\" katika kijachini na ukatae uchanganuzi, au uizime na uhifadhi. Kukataa hakuzuii tovuti. Kutoa huondoa vidakuzi vya GA vinavyoweza kufikiwa na kupakia upya ukurasa ili kusimamisha lebo. Haiwezi kukumbuka data iliyotumwa tayari. Wasiliana nasi kuhusu haki za data; unaweza pia kulalamika kwa mamlaka husika ya ulinzi wa data. Hati za faragha hubakia kusomeka bila kuchagua kibali.</p></article>\n          <article class=\"document-card wide\"><h2>Hali ya kabla ya uchapishaji</h2><p>Rasimu ya habari ilisasishwa 22 Oktoba 2026. Muunganisho ni wa tovuti pekee; programu ya V1 ya Nje ya Mtandao inasalia bila uchanganuzi. Ishara za Google na idhini ya utangazaji imezimwa katika msimbo. Kabla ya uchapishaji, mchapishaji lazima athibitishe sheria na masharti, uhamishaji, GA4 uhifadhi wa huduma (tofauti na maisha ya vidakuzi), kuzima kipimo kilichoimarishwa kiotomatiki, na usanidi wa upangishaji. Majaribio ya ndani hayathibitishi mipangilio hii.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"sw\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Uchanganuzi umezimwa.</h1><p>Tovuti haiendeshi Google Analytics wala vidakuzi vya uchanganuzi, hata kama ulitoa idhini hapo awali.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Tunakumbuka lugha uliyochagua. Vidakuzi vya kiufundi vinaweza pia kukumbuka kuwa uchanganuzi umezimwa.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Vidakuzi vya zamani vya uchanganuzi vinaondolewa utakapotembelea tena. Hii haifuti data iliyokwisha kutumwa kwa Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=sw\" data-shell-label=\"privacy\">Sera ya Faragha</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

@@ -57,7 +57,7 @@
     "screenWorkCopy": "Disimpan pada peranti · 21 Okt 2026",
     "securityKicker": "Privasi",
     "securityTitle": "Privasi ialah keutamaan utama kami.",
-    "securityCopy": "Privasi diutamakan semasa kami berusaha untuk menjadikan KOVA seaman mungkin. Rekod kewangan kekal pada telefon anda. Pilihan pembelian dan pemulihan Premium gunakan Google Play secara berasingan; analitis tapak web ini memerlukan persetujuan anda.",
+    "securityCopy": "Rekod kewangan KOVA kekal pada telefon anda. Kami berusaha menjadikan aplikasi ini seaman mungkin. Pilihan pembelian dan pemulihan Premium gunakan Google Play secara berasingan; analitis tapak web ini memerlukan persetujuan anda.",
     "securityModel": "Baca tentang keselamatan",
     "secureLocal": "Penyulitan tempatan",
     "secureOwner": "Pengasingan data",
@@ -123,12 +123,12 @@
     "faqOcrQ": "Adakah pengimbasan resit berfungsi di luar talian?",
     "faqOcrA": "OCR menggunakan model yang digabungkan dengan apl. Ambil foto atau pilih satu daripada galeri anda melalui pemilih Android. Pengiktirafan boleh menjadi salah — semak jumlah, mata wang dan tarikh sebelum menyimpan. Menafikan akses kamera tidak menyekat pemilihan fail.",
     "faqDeviceQ": "Peranti dan khalayak yang KOVA untuk mana?",
-    "faqDeviceA": "KOVA sedang disediakan untuk telefon Android yang menjalankan Android 7.0 atau lebih baru. Sumber semasa termasuk 27 bahasa antara muka; keserasian dan semakan bahasa sedang berjalan. Ditujukan untuk umur 13+, tertakluk kepada keperluan kedai dan tempatan. Tiada keluaran iOS atau jam tangan ditawarkan.",
+    "faqDeviceA": "KOVA sedang disediakan untuk telefon Android yang menjalankan Android 7.0 atau lebih baru. Antara muka KOVA menyokong 27 bahasa; keserasian dan semakan bahasa sedang berjalan. Ditujukan untuk umur 13+, tertakluk kepada keperluan kedai dan tempatan. Tiada keluaran iOS atau jam tangan ditawarkan.",
     "aboutKicker": "Apakah itu KOVA?",
     "aboutTitle": "Kurang tekanan wang. Lebih banyak ruang untuk rancangan anda.",
     "aboutCopy": "KOVA ialah aplikasi Android untuk kewangan peribadi setiap hari. Simpan perbelanjaan, belanjawan dan waktu kerja bersama-sama, supaya anda boleh melihat apa yang tinggal selepas bil dan merancang bulan hadapan.",
     "aboutAudience": "Untuk pelajar, pekerja dan sesiapa sahaja yang ingin membuat keputusan yang lebih disengajakan tentang wang mereka sendiri.",
-    "aboutForWhom": "Untuk anda, jika…",
+    "aboutForWhom": "Manfaat KOVA untuk anda",
     "aboutSpendingTitle": "Lihat ke mana wang anda pergi",
     "aboutSpendingCopy": "Catat perbelanjaan harian dan cari mengikut kategori. Fahami kos yang membuat perbezaan terbesar pada bulan anda.",
     "aboutGoalsTitle": "Ketahui apa yang tinggal dalam belanjawan anda",
@@ -160,7 +160,9 @@
     "closingTitle": "Berikan ruang untuk pelan wang yang lebih jelas.",
     "closingCopy": "Ikuti KOVA Development pada Instagram untuk pratonton apl dan berita pelancaran. Siaran awam pertama masih dalam persiapan.",
     "closingSecondary": "Anda juga boleh mendapatkan KOVA di TikTok.",
-    "forecastNote": "Dalam versi semasa, anggaran perbelanjaan berubah memerlukan sekurang-kurangnya 7 hari pemerhatian dan 2 rekod perbelanjaan. Rekod yang konsisten memberikan gambaran lebih lengkap. Ramalan tetap hanya anggaran."
+    "forecastNote": "Setiap analisis memerlukan data yang mencukupi. Semak keperluan sebelum memilih Premium.",
+    "faqDataQ": "Berapa banyak data diperlukan untuk setiap analisis?",
+    "faqDataA": "<p>Anda boleh merekod perbelanjaan dan belanjawan dari awal. Laporan asas memerlukan 5 transaksi pada sekurang-kurangnya 3 hari berbeza.</p><ul><li>Anggaran perbelanjaan berubah: sekurang-kurangnya 7 hari pemerhatian dan 2 perbelanjaan dalam 3 bulan terakhir. Ini ialah ambang satu komponen pengiraan, bukan keseluruhan Premium.</li><li>Laporan lanjutan: sekurang-kurangnya 60 hari sejarah, 75 transaksi, 20 hari dengan transaksi dan sekurang-kurangnya 1 belanjawan atau matlamat. Semua syarat mesti dipenuhi.</li><li>Ramalan: sekurang-kurangnya 90 hari sejarah, 100 transaksi dalam 3 bulan berbeza dan pendapatan tetap atau bayaran berulang (direkod atau dikesan). Semua syarat mesti dipenuhi.</li></ul><p>Pembelian Premium tidak menggantikan sejarah yang diperlukan. Rekod profil termasuk data yang diimport dengan betul dikira; tarikh pemasangan sahaja tidak mencukupi. Ramalan kekal sebagai anggaran.</p>"
   },
   "slides": [
     {
@@ -526,7 +528,7 @@
       "delete-account": "KOVA — Padamkan Data & Profil Setempat",
       "privacy": "KOVA Dasar Privasi — Apl & Tapak Web",
       "terms": "KOVA Free & Premium Syarat — Draf",
-      "cookies": "KOVA Kuki Tapak Web & Google Analytics"
+      "cookies": "KOVA — Analitik dihentikan."
     },
     "descriptions": {
       "404": "Halaman KOVA ini tidak wujud. Kembali ke gambaran keseluruhan apl, kemas kini atau kenalan.",
@@ -539,7 +541,7 @@
       "delete-account": "Urus dan padamkan data, profil dan eksport KOVA setempat. Pembaharuan Premium diuruskan secara berasingan dalam Google Play; menyahpasang tidak membatalkannya.",
       "privacy": "Draf dasar privasi KOVA: data apl tempatan, eksport, hubungan dan analitis tapak web pilihan. Kelulusan diperlukan sebelum diterbitkan.",
       "terms": "Draf terma KOVA Free dan Premium: ciri tempatan, langganan pilihan, pembelian dan pemulihan Google Play, sandaran dan had anggaran.",
-      "cookies": "Cara tapak web KOVA menggunakan kuki dan Google Analytics hanya selepas persetujuan. Lihat apa yang diukur dan cara menarik balik pilihan anda."
+      "cookies": "KOVA: Laman web tidak menjalankan Google Analytics atau kuki analitik, walaupun anda pernah memberikan persetujuan."
     }
   },
   "extra": {
@@ -550,5 +552,5 @@
     "language": "Bahasa tapak",
     "pendingDecision": "Menunggu pengesahan pemilik sebelum diterbitkan"
   },
-  "cookies": "<section data-doc-lang=\"ms\" data-document-title=\"KOVA Kuki Tapak Web &amp; Google Analytics\" hidden>\n        <div class=\"document-hero\"><p class=\"workspace-kicker\">biskut</p><h1>Analitis adalah pilihan anda.</h1><p>Kuki penting ingat bahasa dan tetapan. Analitis bermula hanya selepas persetujuan.</p><div class=\"document-meta\"><span class=\"document-chip\">Kemas kini: 22 Oktober 2026</span><span class=\"document-chip\">Tiada pengiklanan</span></div></div>\n        <div class=\"document-grid-main\">\n          <article class=\"document-card\"><h2>Penting</h2><p><code>kova_site_language</code>mengingati bahasa sehingga 12 bulan;<code>kova_cookie_consent_v2</code>mengingati pilihan anda selama 180 hari. Keizinan sebelumnya kepada kaunter tempatan tidak membenarkan Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Google Analytics 4</h2><p>Selepas persetujuan pada domain kovacompass.app awam (termasuk www), kami memuatkan teg Google<code>G-2LE3GWYDZM</code>. Google boleh menyimpan<code>_ga</code>dan<code>_ga_2LE3GWYDZM</code>kuki untuk pelayar dan pengecaman sesi. Kami mengkonfigurasi tamat tempoh 180 hari tanpa pembaharuan automatik pada setiap lawatan; pelayar mungkin memendekkan tempoh ini.</p></article>\n          <article class=\"document-card\"><h2>Apa yang kita ukur</h2><p>Paparan halaman, membuka dan memainkan pembentangan, pemilihan bab, tangkapan skrin yang diperbesarkan, Soalan Lazim yang dibuka dan klik kenalan. Acara kami hanya mengandungi nama acara, halaman awam tanpa parameter atau serpihan URL dan bahasa. Kami tidak menghantar kandungan mesej, kewangan, ID akaun atau kandungan Ruang Kerja. Pratonton setempat tidak dijalankan Google Analytics.</p></article>\n          <article class=\"document-card\"><h2>Penerima dan asas</h2><p>Penerbit: Vadyslav Konohrai, Poland; hubungi:<a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a>. Pengukuran pilihan bergantung pada persetujuan anda. Google Analytics juga memproses maklumat pelayar teknikal, peranti, sesi dan lokasi anggaran. Alamat IP terlibat dalam komunikasi; Google menyatakan GA4 tidak menyimpan alamat IP. Ini tidak menjadikan data tanpa nama sepenuhnya. Pemprosesan mungkin berlaku di luar EEA. Lihat<a href=\"https://policies.google.com/privacy\" rel=\"noopener noreferrer\">Dasar privasi Google</a>dan<a href=\"https://support.google.com/analytics/answer/12017362\" rel=\"noopener noreferrer\">GA4 maklumat data</a>.</p></article>\n          <article class=\"document-card\"><h2>Bahasa tapak</h2><p>Pilihan bahasa juga kekal dalam<code>localStorage</code>sehingga storan penyemak imbas dikosongkan. KOVA data akaun tidak disimpan di sini.</p></article>\n          <article class=\"document-card wide\"><h2>Tukar pilihan anda</h2><p>Buka \"Tetapan kuki\" dalam pengaki dan tolak analitis, atau matikan dan simpan. Menolak tidak mengehadkan tapak. Penarikan balik mengalih keluar kuki GA yang boleh diakses dan memuat semula halaman untuk menghentikan teg. Ia tidak dapat memanggil semula data yang telah dihantar. Hubungi kami tentang hak data; anda juga boleh mengadu kepada pihak berkuasa perlindungan data yang berkaitan. Dokumen privasi kekal boleh dibaca tanpa memilih kebenaran.</p></article>\n          <article class=\"document-card wide\"><h2>Status pra-penerbitan</h2><p>Maklumat draf dikemas kini pada 22 Oktober 2026. Penyepaduan adalah tapak web sahaja; apl Luar Talian V1 kekal bebas analitis. Isyarat Google dan persetujuan pengiklanan dilumpuhkan dalam kod. Sebelum penerbitan penerbit mesti mengesahkan syarat pemprosesan, pemindahan, pengekalan perkhidmatan GA4 (berasingan daripada seumur hidup kuki), ukuran dipertingkat automatik yang dilumpuhkan dan konfigurasi pengehosan. Ujian tempatan tidak mengesahkan tetapan ini.</p></article>\n        </div>\n      </section>"
+  "cookies": "<section data-doc-lang=\"ms\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Analitik dihentikan.</h1><p>Laman web tidak menjalankan Google Analytics atau kuki analitik, walaupun anda pernah memberikan persetujuan.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Kami mengingati bahasa pilihan anda. Kuki teknikal juga boleh mengingati bahawa analitik dilumpuhkan.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Kuki analitik terdahulu dipadamkan pada lawatan seterusnya. Ini tidak memadamkan data yang telah dihantar kepada Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=ms\" data-shell-label=\"privacy\">Dasar Privasi</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
 }

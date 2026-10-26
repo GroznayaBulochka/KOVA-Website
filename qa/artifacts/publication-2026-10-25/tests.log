@@ -1,0 +1,36 @@
+
+> kova-project-website@1.0.0 test
+> node qa/run-checks.mjs
+
+{"command":["node","qa/static-check.mjs"],"exitCode":0,"output":"{\n  \"htmlFiles\": 12,\n  \"checkedReferences\": 325,\n  \"result\": \"PASS\"\n}","error":""}
+{"command":["node","qa/localization-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"languages\":27,\"newLocales\":24,\"validatedStrings\":9144,\"pendingLanguages\":[\"wuu\"]}","error":""}
+{"command":["node","qa/language-selection-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":81,\"languages\":27}","error":""}
+{"command":["node","qa/public-contract-check.mjs","../KOVA-App"],"exitCode":0,"output":"{\n  \"publicPages\": 11,\n  \"translatedProjectPages\": 21,\n  \"faqAnswers\": 10,\n  \"result\": \"PASS\"\n}\n{\"appDocumentTextMatches\":6,\"normalization\":\"CRLF/LF and trailing empty lines\",\"result\":\"PASS\"}","error":""}
+{"command":["node","qa/analysis-data-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"languages\":27,\"staticFaq\":true,\"analysisTypes\":4}","error":""}
+{"command":["node","qa/offline-content-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"canonicalDocumentsRendered\":6,\"relativeLinks\":\"PASS\",\"injectionEscaping\":\"PASS\",\"offlineCopy\":\"PASS\"}","error":""}
+{"command":["node","qa/presentation-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"authenticScreens\":8,\"translatedDescriptions\":24,\"unchangedPixelProvenance\":\"PASS\",\"capturedAppUiHierarchies\":8}","error":""}
+{"command":["node","qa/prelaunch-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":143,\"canonicalLegalDrafts\":54,\"releaseBuildExit\":2}","error":""}
+{"command":["node","qa/asset-versioning-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":733,\"version\":\"66a7ba803ae65b90b4db\"}","error":""}
+{"command":["node","qa/analytics-contract.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":17,\"passed\":[\"Owner measurement identity matches runtime\",\"Remote verification never inferred from local code\",\"index: one shared consent manager, no eager Google resource\",\"status: one shared consent manager, no eager Google resource\",\"roadmap: one shared consent manager, no eager Google resource\",\"updates: one shared consent manager, no eager Google resource\",\"security: one shared consent manager, no eager Google resource\",\"contact: one shared consent manager, no eager Google resource\",\"delete-account: one shared consent manager, no eager Google resource\",\"privacy: one shared consent manager, no eager Google resource\",\"terms: one shared consent manager, no eager Google resource\",\"cookies: one shared consent manager, no eager Google resource\",\"404: one shared consent manager, no eager Google resource\",\"Private Workspace has no analytics manager\",\"Release gate requires real account configuration review\",\"CSP keeps eval/inline scripts/advertising servers blocked\",\"No arbitrary measurement URL, no collected user identifiers\"]}","error":""}
+{"command":["node","qa/seo-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":898,\"localReferences\":24671,\"localizedPages\":297,\"indexableProductionUrls\":189,\"report\":\"C:\\\\Users\\\\vlad2\\\\Desktop\\\\KOVA\\\\KOVA-Website\\\\qa\\\\artifacts\\\\seo-2026-10-22\\\\checks.json\"}","error":""}
+{"command":["node","qa/legal-links-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"checks\":30,\"documents\":6,\"scope\":\"Static no-JS anchors, pending effective date, mocked production-origin URL preservation; no network or legal approval\"}","error":""}
+{"command":["node","qa/workspace-access-check.mjs"],"exitCode":0,"output":"{\n  \"local\": \"PASS\",\n  \"file\": \"PASS\",\n  \"publicDomainRedirect\": \"index.html#workspace-private\",\n  \"result\": \"PASS\"\n}","error":""}
+{"command":["node","qa/workspace-preservation-check.mjs"],"exitCode":0,"output":"{\"result\":\"PASS\",\"cases\":[\"existing tasks retained\",\"notes retained\",\"new release checklist added\",\"no duplicate import\",\"quota error preserves valid state\"]}","error":""}
+{"command":["node","--check","document-language.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","landing.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","language-config.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","language-options.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","language-picker.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","legal-document.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","project-content.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","project-pages.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","release-public.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","runtime-bootstrap.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","site-consent.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","site-release.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","site-seo.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","site-shell.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","translations.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","workspace-access.js"],"exitCode":0,"output":"","error":""}
+{"command":["node","--check","workspace.js"],"exitCode":0,"output":"","error":""}
+{"checks":31,"failed":0,"result":"PASS"}
