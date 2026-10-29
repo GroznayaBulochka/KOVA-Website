@@ -1,0 +1,415 @@
+{
+  "atUtc": "2026-10-29T06:58:45.493Z",
+  "status": "CONTENT_SYNC_NOT_PUBLICATION_OR_SCREENSHOT_PASS",
+  "languages": [
+    "pl",
+    "zh",
+    "yue",
+    "es",
+    "en",
+    "ar",
+    "hi",
+    "bn",
+    "pt",
+    "ru",
+    "uk",
+    "ja",
+    "pnb",
+    "jv",
+    "ko",
+    "de",
+    "fr",
+    "te",
+    "mr",
+    "tr",
+    "ur",
+    "vi",
+    "ta",
+    "it",
+    "fa",
+    "sw",
+    "ms"
+  ],
+  "resourcePins": [
+    {
+      "file": "../KOVA-App/app/src/main/res/values-pl/onboarding_profile.xml",
+      "sha256": "9fc8e57ee180785c962427400c0fea100617034314f267e69e737b50ec8bb20a"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-pl/premium_local.xml",
+      "sha256": "522217f597e6bc65cf507f1d6d0053cb4c16182584aa941c22b9304189668d83"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-pl/premium_package.xml",
+      "sha256": "543a664557ef29c48213fb0f1a32d67935d6c5e5b9ff5bc63677f31f52471f32"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-zh/premium_local.xml",
+      "sha256": "d1cfb323558257a0475110a6ec16b2537134d8604667e5536a96efa88effde0e"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-zh/premium_package.xml",
+      "sha256": "80f5e593dd05f6db57e7bb7ef3c796f97b993ca7be3fd75c4346f958c683c349"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-zh-rCN/onboarding_profile.xml",
+      "sha256": "b59fb68a1bd1e0dbc3042ff08a6b1ac3714a145621305c44628afbfa8ff65271"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-b+yue/onboarding_profile.xml",
+      "sha256": "d8924ec9acd636d555c65e1cd326bbe5372f227e383ea2c8c68cf71617c9765e"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-b+yue/premium_package.xml",
+      "sha256": "179e9d883f6e46601ea57767fd3dcd4c3de7161785e2890794d97e3c23eb1c19"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-es/onboarding_profile.xml",
+      "sha256": "58a5b639ea7a5f34558acdee3ef304057ffccee27d417cf7535f349b6a45f3a1"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-es/premium_local.xml",
+      "sha256": "b4abb073f9efc64b047f69141fa89006f5bbf053482e5bfdf4772d440804a4b3"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-es/premium_package.xml",
+      "sha256": "7e43e0833779b6ed3cc7f43d773aabcdcb00787f2115f525a52804242d8e4074"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values/onboarding_profile.xml",
+      "sha256": "ed5d4808eff8f711b4e8838d42334352b40a2ab73db69fdb546f21b19b4d1c93"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values/premium_local.xml",
+      "sha256": "0da701f98e4810d7406e4383faab6cef74f2e3511ca158fc9c0458ace26645d4"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values/premium_package.xml",
+      "sha256": "d143d3856d6cc83ad19910bb224408acb492fa4408f0bc82ef50f63390ca29ed"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ar/onboarding_profile.xml",
+      "sha256": "8b9b475a8f3cb4340e3260a27fd9e027d0612873404cb91fd3aacc19f0151079"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ar/premium_package.xml",
+      "sha256": "d80270c1f71af7f0eb5347ad9c0db51840230ed435bda191cd7fd607a114c55e"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-hi/onboarding_profile.xml",
+      "sha256": "5810001fa87479d0bdcd20fa23d11573378702808b46733aef9eb12b2d889395"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-hi/premium_package.xml",
+      "sha256": "4446799b25640f17e58d3715dbffec2c4e9c0babe96553ecb844c0430c415c05"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-bn/onboarding_profile.xml",
+      "sha256": "642f77b376560f1d84592e515043393ea72c07a72294f3158f53f1389bb9300a"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-bn/premium_package.xml",
+      "sha256": "506ecb4c400c28c6d3245c842f00e3339c48590372edaaa6df005db659fe656e"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-pt/onboarding_profile.xml",
+      "sha256": "5ec90d49782b35108ac1fc4f806853d96a410edf545caf793d1872d7f75356e6"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-pt/premium_package.xml",
+      "sha256": "3ea87809a760758cdcad7c5511be83cd5c007321a35a114df86f6d333e808cbe"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ru/onboarding_profile.xml",
+      "sha256": "5235a21e460b7f45af0586241ac4725df441ef97627559f76366eb1352acd2f5"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ru/premium_local.xml",
+      "sha256": "bab0477d130560e71654422bbe5d856c5ee69448d94f291982b08415cf23e0b6"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ru/premium_package.xml",
+      "sha256": "8d80d411b6e0d11cc532396a89c7cb5793775928055cfb052b80d92e27e76b95"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-uk/onboarding_profile.xml",
+      "sha256": "ef94f90d40f73c304c3dd66409b3ed7f381d8b1bb7d398b2bd6c62c873d53312"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-uk/premium_package.xml",
+      "sha256": "878d270ac76b483f69da202e9e73e1d57bc4e1eaf352276898cb6723de80936e"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ja/onboarding_profile.xml",
+      "sha256": "58d763c39ad148e49aba1dda09607557004de16748f7fa04ce60b70c6a0152c6"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ja/premium_package.xml",
+      "sha256": "f6d4be872231340c6b841812db93acad2e00ffb311a5e4482be41bd3d116979b"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-b+pnb/onboarding_profile.xml",
+      "sha256": "c4c740c6d430cc62770911cea2851c9521cdda67a5fe7ea6dd428f301f11b3ed"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-b+pnb/premium_package.xml",
+      "sha256": "7feae7a7395674b0bff9ea5fce0641db58a4d28e994b0cdaa0d4657d96485123"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-jv/onboarding_profile.xml",
+      "sha256": "bbc206ca1b2d83a3b377bd037d087e8bdbc634d1088c0d2b8a0ff5c04ce0d1d9"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-jv/premium_package.xml",
+      "sha256": "7eef21d7621ca654f5654316ede4396ab90e6a48c19d25cf2fbfc375a3738dc2"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ko/onboarding_profile.xml",
+      "sha256": "e8e3c4a1f1d0ae48d447f175ac396cd95cc5d86906bdbf9b4fc20397b1218fd0"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ko/premium_package.xml",
+      "sha256": "ea0296c75f5db8220ca5d5b7dd9e69c23a5d48faf751520ac4be01804e403367"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-de/onboarding_profile.xml",
+      "sha256": "1de5453e41959fee8f07ebe4c40dd5bf32bfc3094285dc799111d40c7d74d454"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-de/premium_package.xml",
+      "sha256": "cf25f635d7405300960b56596435b5c766178263818562425c15c6c0709956dc"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-fr/onboarding_profile.xml",
+      "sha256": "85cac9fa7de62f8a1b575cb96eaa6fd9f693f2dbf1d2e3cdd9ed5bb8349ebaaf"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-fr/premium_package.xml",
+      "sha256": "9a94e2995c1d5acf46711114b49529f31208c47b4e71dc4ed0c8e5e3cdc2109f"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-te/onboarding_profile.xml",
+      "sha256": "0966f3d9bc484984b2532570318f416daf9e2e6cd29e1b02fb45df1b994f273c"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-te/premium_package.xml",
+      "sha256": "f6a8492c952928b244600f31f6e2a1ff7fadbb72bd50a174001c3c4e177488aa"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-mr/onboarding_profile.xml",
+      "sha256": "8f0965186c0005c2899167818a7dc200762fc21c1a3d29d1b15a22f2265c911c"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-mr/premium_package.xml",
+      "sha256": "616a93de63a1be9bfbdbfabe7ef269e921560951c9c9f36ba37fe463c838975d"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-tr/onboarding_profile.xml",
+      "sha256": "8e42ced02458bb02f18250f25318962f10d45c83ea580c52797cd7fac6f1ffad"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-tr/premium_package.xml",
+      "sha256": "787a6f85cd84943018c0efce5c2587aba26610307a8f61daffe411c839ac5ae2"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ur/onboarding_profile.xml",
+      "sha256": "d82095377f7aae4d5c7ed223c7df40b9db1c74ec74413f9c94e2f5aee4403d32"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ur/premium_package.xml",
+      "sha256": "1d0d81814a1bd1b1e93920179b3717979d35df39da58ee1501eabb1254b44f9f"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-vi/onboarding_profile.xml",
+      "sha256": "986c7c9fc992c847211713b1e2b7606b89bae84bd7b1611f640bb4907319d16c"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-vi/premium_package.xml",
+      "sha256": "db82bc093b7d4c41199ab7b029c59fcc6be5b4ce06a10d626d568a32a245e6c5"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ta/onboarding_profile.xml",
+      "sha256": "0a402012a7a15b08f46d2413677d63bee255ac55877467e6c142dc336a1f8363"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ta/premium_package.xml",
+      "sha256": "2c931a0a880dab9275a0342939c586a41dea2f5a7b8048c6a0a3656a1477288c"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-it/onboarding_profile.xml",
+      "sha256": "8195565936fea49f8db4770128a74c2d20ee12bc091214b007e26d81048bb142"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-it/premium_package.xml",
+      "sha256": "de084bbc72b4bdc24db82cbc0518bd4ee4b86c96aebda5b0f4e79b11d8f35007"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-fa/onboarding_profile.xml",
+      "sha256": "6c3c0175d734a8a508ffd61ae306c5f1dbfe0dddfd94e625b3a124cc2639cc43"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-fa/premium_package.xml",
+      "sha256": "dccb380a73907e2229d8557588ce5cd819291b15ffc29693ea805661b80439f3"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-sw/onboarding_profile.xml",
+      "sha256": "3d87d26dbd3764b79e13ae2de7ba5aad1655893373e1f9dee3fd3a1b9efb6255"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-sw/premium_package.xml",
+      "sha256": "8d357953cd41cd5041346ceb6db154205445e1c35b8a619d4f031d9940c56f7b"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ms/onboarding_profile.xml",
+      "sha256": "c5ec9a4549414ce4b9ca594b8b9b37a06a9baec0c53aa471c17fb2a33e19bb4d"
+    },
+    {
+      "file": "../KOVA-App/app/src/main/res/values-ms/premium_package.xml",
+      "sha256": "73abda39ab8124b3eece416cd9ae8c02c67a4b1c14227fdd7f6534a51a5d977c"
+    }
+  ],
+  "changes": [
+    {
+      "file": "locales/zh.json",
+      "beforeSha256": "cde8d857a83756f201ec3354f74a42385b9fbe73e6ca9083b7f74cc59e23a509",
+      "afterSha256": "8d5d3722c02229653119f0c1ba7c3670c040bdb1389b5b8dbcd3f6f863a59f9f"
+    },
+    {
+      "file": "locales/yue.json",
+      "beforeSha256": "e777c92d3a37c11c4a000a57cbf45b2d4622517233e762b332da90c6416cd2ba",
+      "afterSha256": "010aee2166a8a7084361494a24c0cdd9114a09f0b5bd54cb3e94adbbec16dc0d"
+    },
+    {
+      "file": "locales/es.json",
+      "beforeSha256": "2e7c0b9b8f3b55d8f6c1e84ccadbe31ed43f71c2c80665a15f3b2af8d0d4dc5d",
+      "afterSha256": "eccf27309877ac27ad1d3c652d15292ad76620b5423a4a5f12946ce6944c0d1f"
+    },
+    {
+      "file": "locales/ar.json",
+      "beforeSha256": "6505acbeebfe7c8e599b4db8bba5eadb3b1b38cf4b2f9dd648307a6e588e0614",
+      "afterSha256": "97369b133c7665aafa5f76fcc2ce9f613a43fc5965969923f229df39999f3140"
+    },
+    {
+      "file": "locales/hi.json",
+      "beforeSha256": "cf65a723fe7a5a3f6467225cac70e9a7df39f4e88d8c325a79b6f9c21941dc52",
+      "afterSha256": "42d647af80db1014ba862c27ed168159c164584c55c7b754b47eed33ed1f96e7"
+    },
+    {
+      "file": "locales/bn.json",
+      "beforeSha256": "37a96554ebddc25367564384391c0764d3b61501232d05caca7f21ab749aebf3",
+      "afterSha256": "e3c69480e839b7fed63c178b933468ca17a1625e744be037e835bc888f2cff32"
+    },
+    {
+      "file": "locales/pt.json",
+      "beforeSha256": "5ee27f1e477a4addd46adc3b0f144b274cc0bf8d7ba80c70d96893b27f36a8c4",
+      "afterSha256": "0056236ac0141da577e6d80d926a445cd3e58c1f712fa59f74f5f0c40bf859d5"
+    },
+    {
+      "file": "locales/uk.json",
+      "beforeSha256": "0bb712ca9d6b0018cc9a77d84d7475ce0eaab4c8eb7b73812c607a894d62b56d",
+      "afterSha256": "299f493a892ce164184566008d274c0f7e5019e4a713ed5cb20e1e9d1296137b"
+    },
+    {
+      "file": "locales/ja.json",
+      "beforeSha256": "e2a4beff0378d9801c437ff767b968aaeeaad191cd3a2b140b2005a607070e10",
+      "afterSha256": "76da049c915f3f822c5d551b083031d2362d2f8b155d7dcbf75fe251fb15d8ab"
+    },
+    {
+      "file": "locales/pnb.json",
+      "beforeSha256": "9293cfbbe6eba95b00d079ec00aaedb19ee19b231333c9be24f76fd28e506568",
+      "afterSha256": "385b7e4bae12a46dc0d90f3c134e3e61a1febf0444a80e6d206978092f7be9a5"
+    },
+    {
+      "file": "locales/jv.json",
+      "beforeSha256": "55570209342ad80da6b15a50ed0a0ca22d82fdb283ee00ac209c961b2b86117c",
+      "afterSha256": "c30b4f92308bc20355a1ccf7fb116fb7c68f5fd215c734a5989bdae7e97bcb26"
+    },
+    {
+      "file": "locales/ko.json",
+      "beforeSha256": "6f79dd4b175a169331ec3ba58c249d63e338b269c9cd08b7c2680a07eaa08c73",
+      "afterSha256": "4abb9849907c9581aba9fac6985a379d10aff104ecadcfbde6f7f611c9d73d1b"
+    },
+    {
+      "file": "locales/de.json",
+      "beforeSha256": "54be5a482a1c97a41e3e4ebd3ce7de8752d82530e0408c65120eb353ec467751",
+      "afterSha256": "dddb1f9f62c3a826f4d85f26b2a9e6a8e03dee7b6fac98514f4ff8c76a081395"
+    },
+    {
+      "file": "locales/fr.json",
+      "beforeSha256": "13ea7249fd857f8e6c57b3918e551289ea737d1633d0f49850b57fd9b7baf5fb",
+      "afterSha256": "d29a93948f244db8e26b664daf7a0a848801c3969ddd766abdbf4b272cfabfa5"
+    },
+    {
+      "file": "locales/te.json",
+      "beforeSha256": "2947eb9e09ca6088000b21407c822c9bf8058e20d6b22862128a8db4d53602ba",
+      "afterSha256": "9291c776e9ce0329d23c752883b74fe7b3dc49c5b08421eab8f192c3e65cd72d"
+    },
+    {
+      "file": "locales/mr.json",
+      "beforeSha256": "e628d6a132c6ff92866543725832239c684f3fb121a9f61f8412f9f2b81c0153",
+      "afterSha256": "80df0de5d8d968605be07749c373a5087e79ddbe093dd3b8c5a6fc01aade9314"
+    },
+    {
+      "file": "locales/tr.json",
+      "beforeSha256": "e011b0bfaf68297878c50437241c9728748f96570fe9508be76119ee0cf65d37",
+      "afterSha256": "e5044b1f96f4684a1ae46fc43a9068f08a98a18566f914d5aeb66f7f0873a6cd"
+    },
+    {
+      "file": "locales/ur.json",
+      "beforeSha256": "0ace23807407a568bdc3ca27c3aa0a55aead143a6185a85809337e65cad10f84",
+      "afterSha256": "faee049ce902324452d6eb82cf6dfc87cd1e029ce43b838cf0abc6bdf59537da"
+    },
+    {
+      "file": "locales/vi.json",
+      "beforeSha256": "8c76f9e8c00e0a66e1f9998fefdfd9d2b7a238ea9205f48898ff8e1ac70af7b8",
+      "afterSha256": "fe69eb4f966314ed218e6c02f02761d7b4c585a0d1a52793a9d3e350e4d51012"
+    },
+    {
+      "file": "locales/ta.json",
+      "beforeSha256": "0a417c49c38d0ea1f793c067f80cedb41a0646fa711753a6684cfed8b485c5de",
+      "afterSha256": "f4aeb09eb42ccd1a02031f825591807f1a490834357525a34a4e48b656838ce3"
+    },
+    {
+      "file": "locales/it.json",
+      "beforeSha256": "c5303d99dc4843a20c88049a217735e04824d317a24bb1f5461028d01ffbd99d",
+      "afterSha256": "ab8bc795cc98d6ce611becb318d44d5978ec496c4f8e09703f5b7a089fd2553a"
+    },
+    {
+      "file": "locales/fa.json",
+      "beforeSha256": "632f10ea7192fd609ed67cdce530119b93ebcf9b77bef232cb21264b00c6f8d2",
+      "afterSha256": "f2c51ef3f0bd8545aee94ec000b2d4521f3ef08bc92c6d40a0d7794c9a290ed1"
+    },
+    {
+      "file": "locales/sw.json",
+      "beforeSha256": "c3fe3f369764c6c28719a05b28c41e50c371996b5dcba293717ed895951b3981",
+      "afterSha256": "139239c412e550b1b29181ae121e4fa6b9a22ccac0d8c97f8d5a53cb0a517768"
+    },
+    {
+      "file": "locales/ms.json",
+      "beforeSha256": "0bedf1afb22efd84f740ceb26280bdf791463e14cd74099637cc48296454de81",
+      "afterSha256": "e33581fbd55e30fdeba8e4d7e32110060f97ed205744b8172526fd1b2f864037"
+    },
+    {
+      "file": "landing.js",
+      "beforeSha256": "2c980eddeead4b7d401a4d303d7e4f4e883b5379134b21a2f92a6903ecfe67dc",
+      "afterSha256": "5016b8b90cba186ef85b7c9adf0ad4c6d27d9ffccfbb4e00466ae9035a7d20d2"
+    },
+    {
+      "file": "project-content.js",
+      "beforeSha256": "9e3356daf2eb6842cff2b5299304a2cb59cf03373b1f4ecf352be15ee69f2f74",
+      "afterSha256": "53d4f0717f5f6e05991a549658372ce8c8e13105dd9dfb038e043fc98ce21b8d"
+    },
+    {
+      "file": "legal-document.js",
+      "beforeSha256": "adcc14b2a5aa8f77dae69a1842ca70d67487a7cd1670e71f4531346f45465d7d",
+      "afterSha256": "91993dc01196f3051a394fd268fad3adf7a96c971a8e034c13ea7938828bb880"
+    },
+    {
+      "file": "qa/artifacts/localization/source.json",
+      "beforeSha256": "c66501704981063121c66e7e3e1ce12b9d835e10812608ae4b7bf13891a8d578",
+      "afterSha256": "d2a098561e0e3226f59d9a5e3dab96fd81ad3e359ad39b7a6079575a8111527e"
+    }
+  ],
+  "sourceContract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
+  "scope": "Bundled localized product facts copied mechanically; existing numeric analysis requirements and draft legal gates preserved. No new prices, approval, deployment, analytics activation or home-address disclosure."
+}

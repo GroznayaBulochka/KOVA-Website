@@ -1,0 +1,556 @@
+{
+  "home": {
+    "skip": "Saltar al contenido",
+    "tagline": "Finanzas en un solo lugar.",
+    "language": "Idioma",
+    "openMenu": "abrir menú",
+    "close": "Cerrar",
+    "navFeatures": "Características",
+    "navScreens": "Pantallas",
+    "navSecurity": "Seguridad",
+    "navLegal": "Documentos",
+    "navRoadmap": "Hoja de ruta",
+    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroTitle": "Gastos. Presupuesto.<br><em>Ingresos del trabajo.</em>",
+    "heroCopy": "Realice un seguimiento de los gastos, planifique presupuestos y calcule los ingresos de sus horas de trabajo. Tus finanzas permanecen en tu teléfono. Llegando a Android con una base gratuita y KOVA Premium opcional.",
+    "heroPrivacy": "Tus datos financieros se quedan en tu teléfono.",
+    "projectStatus": "Verificar el estado del proyecto",
+    "watchVideo": "Ver la aplicación",
+    "pauseVideo": "Pausa",
+    "playVideo": "Jugar",
+    "releaseNote": "Antes del lanzamiento · la descarga pública aún no está disponible.",
+    "trustPrivacy": "Privacidad primero",
+    "trustPrivacyCopy": "Base de datos local, sin cargas automáticas",
+    "trustReports": "Resúmenes prácticos",
+    "trustReportsCopy": "Informes basados en datos registrados",
+    "trustOffline": "Funciona sin conexión",
+    "trustOfflineCopy": "Las finanzas básicas siguen disponibles",
+    "trustLife": "Construido para la vida real",
+    "trustLifeCopy": "Presupuestos, metas, trabajo y notas",
+    "featureExpenses": "Gastos",
+    "featureExpensesCopy": "Transacciones y categorías",
+    "featureBudgets": "Presupuestos",
+    "featureBudgetsCopy": "Límites y progreso",
+    "featureWork": "Trabajo e ingresos",
+    "featureWorkCopy": "Horarios y días de pago",
+    "featureCalendar": "Calendario",
+    "featureCalendarCopy": "Eventos financieros",
+    "featureReports": "Informes",
+    "featureReportsCopy": "Tendencias y previsiones",
+    "featureGoals": "Metas",
+    "featureGoalsCopy": "Planes y avances",
+    "clarityKicker": "la aplicación",
+    "clarityTitle": "Una mirada al interior de KOVA.",
+    "clarityCopy": "Pantallas reales KOVA con datos de demostración ficticios. Explore las finanzas, los presupuestos y las herramientas locales del día a día. La galería principal muestra la interfaz polaca.",
+    "clarityAccounts": "Cuentas, transacciones y categorías.",
+    "clarityReports": "Informes y previsiones",
+    "clarityWork": "Trabajo e ingresos",
+    "clarityGoals": "Metas y patrimonio neto",
+    "clarityCurrency": "Precisión multidivisa",
+    "clarityOffline": "Acceso sin conexión a datos básicos",
+    "exploreScreens": "Explorar pantallas",
+    "screenOverview": "tema oscuro",
+    "screenOverviewCopy": "Saldo y gasto registrado",
+    "screenFeatures": "Tema ligero",
+    "screenFeaturesCopy": "Los mismos datos, una mirada diferente",
+    "screenWork": "Notas locales",
+    "screenWorkCopy": "Guardado en el dispositivo · 21 de octubre de 2026",
+    "securityKicker": "Privacidad",
+    "securityTitle": "La privacidad es nuestra principal prioridad.",
+    "securityCopy": "Los registros financieros de KOVA permanecen en tu teléfono. Trabajamos para que la aplicación sea lo más segura posible. La compra y restauración opcionales de Premium utilizan Google Play por separado; Los análisis de este sitio web requieren su consentimiento.",
+    "securityModel": "Leer sobre seguridad",
+    "secureLocal": "Cifrado local",
+    "secureOwner": "Aislamiento de datos",
+    "secureOwnerCopy": "Los registros se asignan a su propietario.",
+    "secureNoBank": "Sin contraseñas bancarias",
+    "secureNoBankCopy": "KOVA no se conecta a tu banco",
+    "secureOnline": "Tus datos, tu elección",
+    "secureOnlineCopy": "Copia de seguridad y exportación manual",
+    "legalKicker": "Documentos",
+    "legalTitle": "KOVA políticas.",
+    "legalCopy": "Los términos de suscripción y privacidad de la aplicación son borradores en espera de aprobación final. El sitio web tiene información analítica y de cookies separada.",
+    "privacyTitle": "Política de privacidad",
+    "privacyCopy": "Finanzas locales, compras y soporte Google Play.",
+    "termsTitle": "Términos de uso",
+    "termsCopy": "Base gratuita, opcional Premium y condiciones de suscripción.",
+    "cookiesTitle": "galletas",
+    "cookiesCopy": "Configuración y almacenamiento del navegador.",
+    "privacyShort": "Privacidad",
+    "termsShort": "Términos",
+    "cookiesShort": "galletas",
+    "activeDevelopment": "Base gratuita + opcional Premium · antes del lanzamiento",
+    "cookieSettings": "Configuración",
+    "navFaq": "Preguntas frecuentes",
+    "navStatus": "Proyecto",
+    "galleryHint": "Toque una pantalla para ver la imagen completa.",
+    "secureLocalCopy": "Base de datos cifrada en su dispositivo",
+    "projectKicker": "el primer lanzamiento",
+    "projectHeading": "Una base libre. Más con Premium.",
+    "projectCopy": "KOVA: Money & Budget llega a Android con una base gratuita y Premium opcional. Las descargas públicas y las ventas aún no están disponibles.",
+    "availability": "Disponibilidad de la aplicación",
+    "roadmapLink": "En qué estamos trabajando",
+    "updatesLink": "Actualizaciones recientes",
+    "faqKicker": "Es bueno saberlo",
+    "faqTitle": "Algunas respuestas simples.",
+    "faqCopy": "Antes de empezar a utilizar KOVA.",
+    "faqDownloadQ": "¿Puedo descargar KOVA todavía?",
+    "faqDownloadA": "Las descargas públicas aún no están disponibles. Siga a KOVA en Instagram para conocer las novedades del lanzamiento. Esta página enlazará con el listado confirmado de Google Play cuando el lanzamiento esté disponible. No se ha anunciado ninguna fecha de lanzamiento.",
+    "faqOfflineQ": "¿La aplicación funciona sin internet?",
+    "faqOfflineA": "Los registros financieros y la base gratuita funcionan localmente. La compra, restauración y actualización de acceso opcionales Premium utilizan Google Play y necesitan conectividad. El acceso actual a Premium puede requerir una nueva verificación de conexión después de hasta 48 horas o un reinicio del teléfono. Esto no elimina sus registros ni bloquea el uso básico ni la exportación. No se ofrece sincronización financiera en la nube ni conexión bancaria.",
+    "faqBankQ": "¿Necesito conectar mi cuenta bancaria?",
+    "faqBankA": "No. KOVA no solicita sus contraseñas bancarias. Las cuentas en la aplicación ayudan a organizar la información financiera que registra.",
+    "faqEstimateQ": "¿Están garantizadas las previsiones y los importes salariales netos?",
+    "faqEstimateA": "No. Son estimaciones basadas en datos registrados y configuración. Pueden diferir de los pagos reales y no reemplazan los documentos del empleador ni el asesoramiento individual.",
+    "faqWebsiteQ": "¿Este sitio web puede acceder a mis finanzas?",
+    "faqWebsiteA": "No. El sitio web presenta el proyecto y no se conecta a la base de datos financiera de su teléfono. El análisis opcional del sitio web depende de su consentimiento.",
+    "altHome": "KOVA Offline V1: pantalla de inicio con historial financiero ficticio",
+    "altProfile": "KOVA Sin conexión V1: tres cuentas de demostración locales",
+    "altFeatures": "KOVA Free V1: tema ligero en un emulador",
+    "altWork": "KOVA Offline V1: una nota de prueba guardada en un emulador",
+    "previous": "Pantalla anterior",
+    "next": "Siguiente pantalla",
+    "navigation": "Navegación principal",
+    "pageTitle": "KOVA — finanzas en un solo lugar",
+    "faqFreeQ": "¿Será KOVA gratuito?",
+    "faqFreeA": "Sí. El primer lanzamiento está previsto con una base gratuita y KOVA Premium opcional. La grabación diaria, los informes básicos, el acceso a sus registros, el cifrado local, la copia de seguridad, la exportación y la eliminación siguen siendo gratuitos. Premium cubre informes avanzados, pronósticos y análisis de ingresos laborales. El precio se anunciará antes del lanzamiento; Aún no hay venta pública.",
+    "tourNote": "Pantallas de aplicaciones reales · datos de demostración ficticios · no es una grabación de vídeo",
+    "tourChapters": "Elige una pantalla de recorrido",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "base libre",
+    "factAccount": "Opcional Premium",
+    "faqBackupQ": "¿Cómo protejo mis datos o cambio de teléfono?",
+    "faqBackupA": "Cree una exportación manual protegida con contraseña y guárdela de forma segura fuera de su teléfono. La importación requiere confirmación y reemplaza los datos admitidos del perfil seleccionado. Es una copia parcial, no una imagen completa de la aplicación: se incluyen imágenes de notas incrustadas, pero los archivos adjuntos externos y las fotografías de recibos necesitan copias separadas. El editor no puede restaurar datos desde la nube ni recuperar su contraseña de respaldo.",
+    "faqOcrQ": "¿El escaneo de recibos funciona sin conexión?",
+    "faqOcrA": "OCR utiliza un modelo incluido con la aplicación. Toma una foto o elige una de tu galería a través del selector Android. El reconocimiento puede ser incorrecto: verifique el monto, la moneda y la fecha antes de guardar. Denegar el acceso a la cámara no bloquea la selección de archivos.",
+    "faqDeviceQ": "¿Para qué dispositivos y audiencia está KOVA?",
+    "faqDeviceA": "KOVA se está preparando para teléfonos Android que ejecutan Android 7.0 o posterior. La interfaz de KOVA admite 27 idiomas; La revisión de compatibilidad y lenguaje está en curso. Destinado a mayores de 13 años, sujeto a los requisitos locales y de la tienda. No se ofrece ninguna versión de iOS o reloj.",
+    "aboutKicker": "¿Qué es KOVA?",
+    "aboutTitle": "Menos estrés monetario. Más espacio para tus planes.",
+    "aboutCopy": "KOVA es una aplicación Android para las finanzas personales cotidianas. Mantenga juntos los gastos, los presupuestos y las horas de trabajo, para que pueda ver lo que queda después de las facturas y planificar el mes siguiente.",
+    "aboutAudience": "Para estudiantes, trabajadores y cualquiera que quiera tomar decisiones más intencionadas sobre su propio dinero.",
+    "aboutForWhom": "Lo que ganas con KOVA",
+    "aboutSpendingTitle": "Mira a dónde va tu dinero",
+    "aboutSpendingCopy": "Registre el gasto diario y encuéntrelo por categoría. Comprenda qué costos marcan la mayor diferencia en su mes.",
+    "aboutGoalsTitle": "Sepa lo que queda en su presupuesto",
+    "aboutGoalsCopy": "Establezca límites de categorías y verifique el progreso a medida que gasta. Planifica la próxima compra con una visión más clara de lo que queda.",
+    "aboutIncomeTitle": "Planifique los cambios en los ingresos",
+    "aboutIncomeCopy": "Registre las horas de trabajo y las tarifas para estimar los ingresos. Reúna su horario de trabajo y su presupuesto mensual en un solo plan.",
+    "aboutPrivacy": "Los registros financieros permanecen en su teléfono. Sin conexión bancaria ni cuenta en la nube KOVA. Las compras opcionales de Premium se manejan por separado a través de Google Play.",
+    "aboutAction": "Vea KOVA en acción",
+    "followLaunch": "Sigue a KOVA en Instagram",
+    "downloadApp": "Consíguelo en Google Play",
+    "launchChannel": "Novedades de lanzamiento en Instagram · @kova_money",
+    "workScreenNote": "Trabajo e ingresos · pantalla de demostración anterior; el diseño puede cambiar.",
+    "plansKicker": "Planeado para el primer lanzamiento.",
+    "plansTitle": "Una base libre. Más con Premium.",
+    "plansCopy": "Comience con la administración diaria del dinero. Elija Premium si necesita un análisis local más profundo. Las descargas públicas y las ventas aún no están disponibles.",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "Registro y control diario de sus propios datos.",
+    "planFreeOne": "Gastos, presupuestos e informes básicos",
+    "planFreeTwo": "Registros de trabajo y acceso a datos guardados.",
+    "planFreeThree": "Cifrado local, copia de seguridad, exportación y eliminación",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "Una suscripción opcional para obtener información local más detallada.",
+    "planPremiumOne": "Informes avanzados y comparaciones.",
+    "planPremiumTwo": "Previsiones basadas en tus registros",
+    "planPremiumThree": "Análisis de ingresos laborales",
+    "plansNote": "El precio y la disponibilidad de lanzamiento se anunciarán antes del lanzamiento. Algunos análisis necesitan suficiente historia. Las compras de Premium y la actualización de acceso requieren Google Play y conectividad; la base gratuita sigue estando disponible.",
+    "plansDetails": "Leer el borrador de suscripción",
+    "closingKicker": "Manténgase cerca del lanzamiento",
+    "closingTitle": "Haga espacio para un plan monetario más claro.",
+    "closingCopy": "Siga a KOVA Development en Instagram para obtener vistas previas de aplicaciones y noticias de lanzamiento. El primer lanzamiento público aún está en preparación.",
+    "closingSecondary": "También puede encontrar KOVA en TikTok.",
+    "forecastNote": "Cada análisis necesita datos suficientes. Consulta los requisitos antes de elegir Premium.",
+    "faqDataQ": "¿Cuántos datos necesita cada análisis?",
+    "faqDataA": "<p>Puedes registrar gastos y presupuestos desde el principio. Los informes básicos necesitan 5 transacciones en al menos 3 días distintos.</p><ul><li>Estimación de gastos variables: al menos 7 días de observación y 2 gastos de los últimos 3 meses. Es el umbral de un componente del cálculo, no de todo Premium.</li><li>Informes avanzados: al menos 60 días de historial, 75 transacciones, 20 días con transacciones y al menos 1 presupuesto u objetivo. Deben cumplirse todas las condiciones.</li><li>Previsiones: al menos 90 días de historial, 100 transacciones en 3 meses distintos e ingresos regulares o un pago recurrente (registrado o detectado). Deben cumplirse todas las condiciones.</li></ul><p>Comprar Premium no sustituye el historial requerido. Cuentan los registros del perfil, incluidos los datos importados correctamente; la fecha de instalación no basta. Las previsiones siguen siendo estimaciones.</p>"
+  },
+  "slides": [
+    {
+      "title": "Tus finanzas hoy",
+      "caption": "Saldo, ingresos y gastos recientes",
+      "copy": "Pantalla de inicio real de KOVA con registros locales de Marta, una usuaria ficticia. La misma historia financiera impulsa todas las pantallas de esta gira."
+    },
+    {
+      "title": "Cuentas",
+      "caption": "Cuenta corriente, ahorro y efectivo.",
+      "copy": "Tres cuentas locales organizan las finanzas cotidianas. Los saldos incluyen compras, salario y transferencias entre cuentas propias. Sin conexión bancaria."
+    },
+    {
+      "title": "Transacciones",
+      "caption": "Seis meses de récords cotidianos",
+      "copy": "Alimentos, café, transporte, alquiler y salario. Los montos y fechas variados crean un historial realista, no una lista de transacciones idénticas."
+    },
+    {
+      "title": "Presupuestos y límites",
+      "caption": "Planes de gastos y uso actual",
+      "copy": "Los límites mensuales de alimentación, entretenimiento y transporte comparan los planes con el gasto registrado. Los importes provienen del mismo perfil de demostración."
+    },
+    {
+      "title": "Pagos recurrentes",
+      "caption": "Alquiler, internet, teléfono y suscripciones",
+      "copy": "Las facturas recurrentes tienen sus propias fechas de vencimiento e historial de pagos. KOVA organiza registros; no transfiere ni cobra dinero."
+    },
+    {
+      "title": "Informes",
+      "caption": "Resúmenes de entradas registradas",
+      "copy": "KOVA calcula los gráficos y resúmenes a partir de transacciones locales. Los datos son ficticios, pero la pantalla y los cálculos provienen de la aplicación en ejecución."
+    },
+    {
+      "title": "Calendario financiero",
+      "caption": "Eventos y fechas de vencimiento en una sola vista",
+      "copy": "Transacciones registradas y fechas de facturación a lo largo del mes. Seleccione un día para ver sus eventos sin buscar en todo el historial."
+    },
+    {
+      "title": "Notas",
+      "caption": "Planes, listas y detalles cotidianos.",
+      "copy": "Un plan de fondos de emergencia y notas de viajes de fin de semana almacenados localmente junto con las finanzas. Este es contenido de demostración, no notas privadas de otra persona."
+    }
+  ],
+  "shell": {
+    "home": "Inicio",
+    "product": "la aplicación",
+    "project": "Proyecto",
+    "legal": "Información",
+    "features": "Características",
+    "screens": "Pantallas de aplicaciones",
+    "faq": "Preguntas y respuestas",
+    "status": "Estado del proyecto",
+    "roadmap": "Hoja de ruta",
+    "updates": "Actualizaciones",
+    "security": "Seguridad",
+    "contact": "Contacto",
+    "deletion": "Tus datos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "cookies": "galletas",
+    "settings": "Configuración de cookies",
+    "tagline": "Finanzas cotidianas. En un solo lugar.",
+    "note": "Base gratuita + Premium opcional · antes del lanzamiento",
+    "top": "Volver arriba",
+    "skip": "Saltar al contenido",
+    "language": "Idioma del sitio",
+    "menu": "Menú",
+    "back": "Inicio",
+    "official": "KOVA Development · sitio web oficial"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "Esta página no está aquí.",
+      "intro": "Es posible que el enlace haya cambiado. Regrese a casa o consulte la información del proyecto.",
+      "cards": [],
+      "actions": [
+        [
+          "Inicio",
+          "index.html"
+        ],
+        [
+          "Estado del proyecto",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Estado del proyecto",
+      "title": "Tus finanzas cotidianas. Un lanzamiento en progreso.",
+      "intro": "KOVA: Money & Budget llega a Android con una base gratuita y Premium opcional. Las descargas públicas y las ventas aún no están disponibles.",
+      "badge": "En preparación · Gratis + opcional Premium",
+      "cards": [
+        [
+          "Lo que trae el primer lanzamiento",
+          "Gastos, presupuestos, horas de trabajo, metas y registros locales en una sola aplicación. La base gratuita conserva las grabaciones diarias, los informes básicos, sus datos y sus exportaciones. Premium agrega informes avanzados, pronósticos y análisis de ingresos laborales."
+        ],
+        [
+          "donde estamos ahora",
+          "Estamos perfeccionando la aplicación y comprobando la compatibilidad, la accesibilidad y los flujos de suscripción. Se han ejecutado pruebas de compra y restauración seleccionadas, pero aún se está preparando el lanzamiento público completo."
+        ],
+        [
+          "Tus finanzas permanecen locales",
+          "KOVA almacena registros financieros en su teléfono. Google Play maneja las comprobaciones de acceso, restauración y compra de suscripción opcional por separado. No se ofrece sincronización financiera en la nube ni conexión bancaria."
+        ],
+        [
+          "Cómo seguir el progreso",
+          "Siga a @kova_money en Instagram para obtener avances y noticias de lanzamiento. El precio y el enlace de la tienda confirmado se compartirán antes del lanzamiento. No se anuncia ninguna fecha de lanzamiento."
+        ]
+      ],
+      "note": "KOVA Development es la marca del proyecto. La aplicación aún no está disponible públicamente; Los resultados de las pruebas no equivalen a la aprobación de ventas públicas.",
+      "actions": [
+        [
+          "Seguir en Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Hoja de ruta de lanzamiento",
+          "roadmap.html"
+        ],
+        [
+          "Actualizaciones recientes",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Hoja de ruta",
+      "title": "Un primer lanzamiento útil, con espacio para crecer.",
+      "intro": "La primera versión combina una base local gratuita y Premium opcional. Esto es lo que estamos preparando antes del lanzamiento, sin fecha límite no confirmada.",
+      "badge": "Primer lanzamiento · Android",
+      "cards": [
+        [
+          "Gestión diaria del dinero",
+          "Refine los gastos, los presupuestos y los registros de trabajo para que las tareas comunes sean claras y confiables. Consulta idiomas, accesibilidad y compatibilidad telefónica."
+        ],
+        [
+          "Premium local opcional",
+          "Termine de consultar informes avanzados, pronósticos, análisis de ingresos laborales, compras y restauración. No se prometen servicios de nube, integraciones bancarias o inteligencia artificial de pago."
+        ],
+        [
+          "Prepárese para Google Play",
+          "Complete las verificaciones de lanzamiento restantes, la información de suscripción y los documentos. Confirma el precio y la lista de tiendas antes de la disponibilidad pública."
+        ],
+        [
+          "Comparte el lanzamiento",
+          "Publique vistas previas de aplicaciones y el progreso en los canales KOVA existentes. Cuando el lanzamiento esté aprobado y esté disponible, reemplace el enlace de lanzamiento con el enlace oficial Google Play."
+        ]
+      ],
+      "actions": [
+        [
+          "Estado actual",
+          "status.html"
+        ],
+        [
+          "Seguir en Instagram",
+          "https://www.instagram.com/kova_money/"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Privacidad y seguridad",
+      "title": "La privacidad es nuestra principal prioridad.",
+      "intro": "Trabajamos para que KOVA sea lo más seguro posible. Los registros financieros permanecen en su teléfono. Las compras opcionales de Play y este sitio web tienen flujos de datos separados, como se explica a continuación.",
+      "badge": "Finanzas locales · compras opcionales separadas",
+      "cards": [
+        [
+          "Datos financieros en su dispositivo",
+          "La base de datos principal utiliza SQLCipher con aislamiento de perfil local. Proteja su teléfono y contraseña de respaldo. El cifrado no es una garantía contra todos los dispositivos, accesos o riesgos de pérdida de datos."
+        ],
+        [
+          "Opcional Premium a través de Google Play",
+          "El candidato actual utiliza la interfaz de facturación de Play, sin un servidor de verificación KOVA. Play utiliza su propia red para comprar, restaurar y actualizar el acceso. KOVA recibe el estado de la compra y los detalles de la compra firmados, no los detalles de la tarjeta. Tus registros financieros no se envían a través de Play."
+        ],
+        [
+          "Acceso local y restauración",
+          "El acceso actual a Premium puede necesitar otra verificación de Play conectado después de hasta 48 horas o reiniciar el teléfono. La restauración de compras es independiente de la restauración de datos financieros. La base gratuita, los registros guardados y la copia de seguridad/exportación permanecen disponibles; La calificación completa de ventas públicas está pendiente."
+        ],
+        [
+          "Tu respaldo es tu elección",
+          "Cree una exportación manual protegida con contraseña y guárdela de forma segura. Es una copia parcial; mantenga los accesorios externos por separado. Una carpeta en la nube o una acción compartida utiliza el proveedor elegido, en lugar de la sincronización financiera automática KOVA."
+        ],
+        [
+          "Este sitio web es independiente.",
+          "Este sitio no puede leer la base de datos de su teléfono. Google Analytics mide las visitas e interacciones del sitio web solo con su consentimiento. Rechazar mantiene el sitio completo disponible. Cambie su elección en la configuración de cookies; Los detalles del alojamiento y del proveedor aún requieren confirmación antes de una nueva implementación pública."
+        ],
+        [
+          "Informar de forma segura",
+          "Comuníquese con contact@kovacompass.app con la aplicación y la versión y los pasos de Android utilizando datos de ejemplo. No envíe contraseñas, tokens de compra, copias de seguridad completas ni registros financieros reales."
+        ]
+      ],
+      "actions": [
+        [
+          "Borrador de privacidad de la aplicación",
+          "privacy.html"
+        ],
+        [
+          "Tus datos y exportación",
+          "delete-account.html"
+        ],
+        [
+          "Cookies del sitio web",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Actualizaciones",
+      "title": "Una base libre. Opcional Premium. Finanzas locales.",
+      "intro": "24 de octubre de 2026: el plan actual para la primera versión Android incluye una base gratuita y un Premium opcional. Las entradas anteriores a continuación describen planes históricos.",
+      "badge": "Actualización actual · 24 de octubre de 2026",
+      "cards": [
+        [
+          "24 de octubre de 2026 · primer modelo de lanzamiento",
+          "El primer lanzamiento está previsto con una base local gratuita más Premium opcional para informes avanzados, pronósticos y análisis de ingresos laborales. Se han probado escenarios de compra/restauración Google Play seleccionados; Aún está pendiente la preparación total para las ventas públicas. El precio y la fecha de lanzamiento no se anuncian."
+        ],
+        [
+          "21.10.2026 · Sin cuenta obligatoria",
+          "Public V1 está diseñado para funcionar sin registro ni Internet. Los servicios en línea se conservan para el futuro, pero están deshabilitados en esta versión."
+        ],
+        [
+          "21.10.2026 · Notas y portabilidad de datos",
+          "Se corrigió la compatibilidad Android 7 del editor. Las comprobaciones cubrieron la persistencia después del reinicio, las imágenes incrustadas, la exportación y la importación normal entre instalaciones aisladas Android 7.1 y 7.0. El editor actual también fue probado en 16 KiB."
+        ],
+        [
+          "21.10.2026 · Resultados, no una afirmación de preparación",
+          "Regresión completa el 21 de octubre: 6745 APROBADOS de 6746 casos, 1 FALLADO para borradores de documentos legales, 0 errores de ejecución y 0 omitidos. Las pruebas dirigidas posteriores no se suman a este recuento. Quedan algunas calificaciones de UI y la verificación telefónica actual."
+        ],
+        [
+          "21.10.2026 · Documentos y contacto",
+          "El sitio utiliza borradores de documentos actuales sin conexión V1 en PL/EN/RU y detalles confirmados del editor. Esta no es una aprobación legal final ni una publicación de la tienda."
+        ]
+      ],
+      "actions": [
+        [
+          "Estado de lanzamiento",
+          "status.html"
+        ],
+        [
+          "Detalles del editor",
+          "contact.html"
+        ]
+      ],
+      "note": "Las entradas del 21 de octubre de 2026 conservan el plan anterior Offline Free V1 y su alcance de prueba limitado. No describen la oferta de lanzamiento actual ni califican al candidato actual."
+    },
+    "contact": {
+      "label": "Contacto",
+      "title": "Hablemos de KOVA.",
+      "intro": "¿Preguntas sobre la aplicación, algún problema o privacidad? Escribe al contacto a continuación. Siga los canales KOVA existentes para conocer las novedades del lanzamiento.",
+      "badge": "KOVA Development · marca del proyecto",
+      "cards": [
+        [
+          "Proyecto y editor",
+          "KOVA: Money & Budget se desarrolla bajo la marca KOVA Development. El editor confirmado es Vadyslav Konohrai, un particular en Polonia. La marca no es una declaración de una empresa registrada separada."
+        ],
+        [
+          "Soporte y privacidad",
+          "contact@kovacompass.app es la dirección pública para preguntas, cuestiones y asuntos de privacidad. El enlace abre su aplicación de correo electrónico. La correspondencia es independiente de los datos financieros almacenados en su teléfono."
+        ],
+        [
+          "Describir un problema",
+          "Incluya la versión de la aplicación, el modelo de teléfono, la versión Android y lo que sucedió. Utilice cantidades de ejemplo y elimine datos personales de las capturas de pantalla. No adjunte una base de datos completa ni un token de compra."
+        ],
+        [
+          "Lanzamiento y disponibilidad",
+          "Se está preparando una versión Android con una base gratuita y Premium opcional. La descarga pública y las ventas aún no están disponibles. Siga a Instagram para conocer las novedades sobre el lanzamiento; No hemos anunciado una fecha de lanzamiento."
+        ]
+      ],
+      "note": "Nunca envíe contraseñas, claves de cifrado o registros financieros reales. Los documentos de la aplicación siguen siendo borradores en espera de aprobación final.",
+      "actions": [
+        [
+          "Escribe un correo electrónico",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Seguir en Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Información de privacidad",
+          "privacy.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Tus datos",
+      "title": "Exportar y eliminar datos locales.",
+      "intro": "Su perfil financiero permanece en su teléfono; es independiente de una cuenta o suscripción Google Play. Usted controla los registros locales, las copias de seguridad y las exportaciones.",
+      "badge": "Sin cuenta en línea ni sincronización",
+      "cards": [
+        [
+          "Guarda lo que necesitas primero",
+          "En la configuración de datos, utilice la exportación cifrada manual de registros admitidos y seleccione un destino. Guarde la contraseña. Esta es una exportación parcial, no una copia de cada configuración, clave y archivo de instalación."
+        ],
+        [
+          "Eliminar datos locales",
+          "Para eliminar datos de toda la instalación, abra Android configuración → Aplicaciones → KOVA → Almacenamiento → Borrar datos o desinstale KOVA. Las etiquetas varían según el sistema. Sin una copia de seguridad válida, esto es irreversible; puede afectar a todos los perfiles locales de esa instalación."
+        ],
+        [
+          "Archivos fuera de la aplicación",
+          "Elimine copias exportadas, fotografías originales y archivos mantenidos por otros proveedores por separado. Una imagen incrustada en una nota puede incluirse en la exportación; un URI externo es sólo una referencia. El editor no puede acceder de forma remota a su base de datos local."
+        ],
+        [
+          "Mensajes al editor",
+          "Para datos compartidos por correo electrónico, comuníquese con contact@kovacompass.app. No adjunte respaldos financieros. Esta página no elimina datos ni envía una solicitud automática."
+        ],
+        [
+          "Una suscripción es independiente.",
+          "Eliminar datos de la aplicación o desinstalar KOVA no cancela una suscripción a Premium. Gestionar la renovación en Google Play. La restauración de compras no restaura los registros financieros y la importación de una copia de seguridad no otorga Premium."
+        ]
+      ],
+      "actions": [
+        [
+          "Contacto sobre datos",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Política de privacidad completa",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "TU ELECCIÓN",
+    "title": "Privacidad en tus términos",
+    "body": "¿Podemos medir el uso del sitio web con Google Analytics? Nos ayuda a saber qué demostraciones e información son útiles. Google recibe datos de visitas, dispositivos e interacciones e identificadores de cookies, no datos financieros de la aplicación.",
+    "note": "El análisis es opcional. Rechazar te da el mismo acceso. No nos conectamos a Google Analytics sin consentimiento.",
+    "accept": "Aceptar análisis",
+    "reject": "Rechazar análisis",
+    "settings": "Personalizar la elección",
+    "save": "Guardar elección",
+    "essential": "Configuraciones esenciales",
+    "essentialBody": "Idioma y su elección de privacidad. Siempre activo.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Estadísticas de uso de visitas y presentaciones. Sin anuncios ni personalización de anuncios.",
+    "privacy": "Privacidad",
+    "cookies": "Detalles de las cookies",
+    "foot": "Recordamos tu elección durante 180 días. Cámbielo en cualquier momento usando \"Configuración de cookies\" en el pie de página."
+  },
+  "legal": {
+    "language": "Idioma",
+    "back": "Inicio",
+    "source": "Contenido utilizado por la aplicación KOVA",
+    "loading": "Cargando documento…",
+    "error": "No se pudo cargar el documento.",
+    "privacy": "Privacidad",
+    "terms": "Términos de uso",
+    "cookies": "galletas",
+    "analyticsTitle": "Privacidad en este sitio web",
+    "analyticsCopy": "Este sitio no puede leer la base de datos de su teléfono. Google Analytics mide las visitas e interacciones del sitio web solo con su consentimiento. Rechazar mantiene el sitio completo disponible. Cambie su elección en la configuración de cookies; Los detalles del alojamiento y del proveedor aún requieren confirmación antes de una nueva implementación pública. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  },
+  "review": "Borrador de la primera versión planificada de KOVA: una base gratuita y un Premium opcional. Coincide con los documentos de la aplicación actual con fecha del 24 de octubre de 2026. La fecha de vigencia, la aprobación final y los detalles restantes del vendedor y del servicio están pendientes. Esta no es una oferta de suscripción activa.",
+  "seo": {
+    "titles": {
+      "404": "Página no encontrada: KOVA",
+      "index": "KOVA: Money & Budget — Android finanzas, Gratis + Premium",
+      "status": "KOVA para Android: estado y disponibilidad de la aplicación",
+      "roadmap": "KOVA — Hoja de ruta de lanzamiento gratuita y Premium Android",
+      "updates": "KOVA — Noticias sobre aplicaciones financieras y actualizaciones de desarrollo",
+      "security": "KOVA — Datos financieros locales, privacidad y Premium",
+      "contact": "Contacto KOVA: soporte para aplicaciones y preguntas",
+      "delete-account": "KOVA — Eliminar datos y perfiles locales",
+      "privacy": "KOVA Política de privacidad: aplicación y sitio web",
+      "terms": "Términos de KOVA Free y Premium: borrador",
+      "cookies": "KOVA — La analítica está desactivada."
+    },
+    "descriptions": {
+      "404": "Esta página KOVA no existe. Volver a la descripción general de la aplicación, actualizaciones o contacto.",
+      "index": "Planifique gastos, presupuestos e ingresos laborales con KOVA para Android. Datos financieros locales, una base gratuita y Premium opcional. Primer lanzamiento público en preparación.",
+      "status": "KOVA para Android está preparando una primera versión con una base gratuita y Premium opcional. Vea el alcance, avances y canales de lanzamiento. Las descargas aún no están disponibles.",
+      "roadmap": "Siga la preparación del lanzamiento Android de KOVA: una base local gratuita, Premium opcional, comprobaciones finales y Google Play. Sin fecha de lanzamiento no confirmada.",
+      "updates": "KOVA actualizaciones del proyecto: finanzas Android fuera de línea, pantallas de aplicaciones auténticas, exportación de datos y progreso hacia el primer lanzamiento público.",
+      "security": "Los registros financieros permanecen en su teléfono. Descubra cómo KOVA separa el cifrado local, las compras opcionales de Google Play y el análisis de sitios web basado en el consentimiento.",
+      "contact": "Comuníquese con KOVA en contact@kovacompass.app si tiene preguntas sobre la aplicación, informes de problemas y solicitudes de privacidad. Por favor no envíe datos financieros.",
+      "delete-account": "Administre y elimine datos, perfiles y exportaciones locales de KOVA. La renovación Premium se gestiona por separado en Google Play; la desinstalación no lo cancela.",
+      "privacy": "Borrador de política de privacidad de KOVA: datos de aplicaciones locales, exportaciones, contactos y análisis opcionales de sitios web. Se requiere aprobación antes de la publicación.",
+      "terms": "Borradores de términos KOVA Free y Premium: características locales, suscripción opcional, compra y restauración de Google Play, copias de seguridad y límites de estimaciones.",
+      "cookies": "KOVA: El sitio no ejecuta Google Analytics ni cookies analíticas, aunque hayas dado tu consentimiento anteriormente."
+    }
+  },
+  "extra": {
+    "demo": "datos de demostración ficticios",
+    "enlarge": "Ampliar",
+    "contents": "Contenidos",
+    "publicAddress": "Dirección pública EN:",
+    "language": "Idioma del sitio",
+    "pendingDecision": "Pendiente de confirmación del propietario antes de la publicación."
+  },
+  "cookies": "<section data-doc-lang=\"es\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>La analítica está desactivada.</h1><p>El sitio no ejecuta Google Analytics ni cookies analíticas, aunque hayas dado tu consentimiento anteriormente.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Recordamos el idioma elegido. Las cookies técnicas también pueden recordar que la analítica está desactivada.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Las cookies analíticas anteriores se eliminan en tu próxima visita. Esto no elimina los datos ya enviados a Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=es\" data-shell-label=\"privacy\">Política de privacidad</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
+}

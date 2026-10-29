@@ -10,7 +10,7 @@
     "navSecurity": "Security",
     "navLegal": "Documents",
     "navRoadmap": "Roadmap",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "Spending. Budget.<br><em>Work income.</em>",
     "heroCopy": "Work hours change from month to month? Bring spending, budgets and estimated income into one plan. KOVA for Android: a free base and optional KOVA Premium.",
     "heroPrivacy": "Your financial data stays on your phone.",
@@ -18,7 +18,7 @@
     "watchVideo": "See the app",
     "pauseVideo": "Pause",
     "playVideo": "Play",
-    "releaseNote": "Before launch · public download is not available yet.",
+    "releaseNote": "Beta · Before launch · public download is not available yet.",
     "trustPrivacy": "Privacy first",
     "trustPrivacyCopy": "Local database, no automatic uploads",
     "trustReports": "Practical summaries",
@@ -32,16 +32,16 @@
     "featureBudgets": "Budgets",
     "featureBudgetsCopy": "Limits and progress",
     "featureWork": "Work & Income",
-    "featureWorkCopy": "Hours and paydays",
+    "featureWorkCopy": "Pro · Hours and paydays",
     "featureCalendar": "Calendar",
-    "featureCalendarCopy": "Financial events",
+    "featureCalendarCopy": "Pro · Financial events",
     "featureReports": "Reports",
-    "featureReportsCopy": "Trends and forecasts",
+    "featureReportsCopy": "Pro · Trends and forecasts",
     "featureGoals": "Goals",
     "featureGoalsCopy": "Plans and progress",
     "clarityKicker": "The app",
     "clarityTitle": "A look inside KOVA.",
-    "clarityCopy": "Real KOVA screens with fictional demo data. Explore everyday finances, budgets and local tools. The main gallery shows the Polish interface.",
+    "clarityCopy": "App interface in English · fictional demo data. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available. Free / Pro.",
     "clarityAccounts": "Accounts, transactions and categories",
     "clarityReports": "Reports and forecasts",
     "clarityWork": "Work & Income",
@@ -54,10 +54,10 @@
     "screenFeatures": "Light theme",
     "screenFeaturesCopy": "The same data, a different look",
     "screenWork": "Local notes",
-    "screenWorkCopy": "Saved on device · 21 Oct 2026",
+    "screenWorkCopy": "App interface in English · 2026-10-29",
     "securityKicker": "Privacy",
     "securityTitle": "Privacy is our top priority.",
-    "securityCopy": "Financial records are stored locally on your phone. We work to make KOVA as secure as possible. Optional Premium purchases and restores use Google Play separately; website analytics requires your consent.",
+    "securityCopy": "Your financial records stay on this device. No KOVA cloud account, registration or financial cloud sync is required. Purchases are checked through Google Play without a KOVA server. Access can remain available offline for up to 48 hours after a connected check. Reboot or significant clock changes require another check. Exact subscription expiry is not available in this app; see Google Play.",
     "securityModel": "Read about security",
     "secureLocal": "Local encryption",
     "secureOwner": "Data isolation",
@@ -103,16 +103,16 @@
     "faqEstimateA": "No. They are estimates based on recorded data and configuration. They may differ from actual payments and do not replace employer documents or individual advice.",
     "faqWebsiteQ": "Can this website access my finances?",
     "faqWebsiteA": "No. The website introduces the project and does not connect to the financial database on your phone. Optional website analytics depends on your consent.",
-    "altHome": "KOVA Offline V1: home screen with fictional financial history",
-    "altProfile": "KOVA Offline V1: three local demo accounts",
-    "altFeatures": "KOVA Free V1: light theme on an emulator",
-    "altWork": "KOVA Offline V1: a saved test note on an emulator",
+    "altHome": "KOVA: Your finances today — fictional demo data. App interface in English",
+    "altProfile": "KOVA: Accounts — fictional demo data. App interface in English",
+    "altFeatures": "KOVA: Your finances today — fictional demo data. App interface in English",
+    "altWork": "KOVA: Work & Income · Pro — App interface in English · Pro · 2026-10-29",
     "previous": "Previous screen",
     "next": "Next screen",
     "navigation": "Main navigation",
     "pageTitle": "KOVA — finances in one place",
     "faqFreeQ": "Will KOVA be free?",
-    "faqFreeA": "Yes. The first release is planned with a free base and optional KOVA Premium. Everyday recording, basic reports, access to your records, local encryption, backup, export and deletion remain Free. Premium covers advanced reports, forecasts and work-income analytics. Price will be announced before launch; there is no public sale yet.",
+    "faqFreeA": "KOVA Premium. Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Saved records remain accessible. Premium is required for new operations in this module. Backup and export remain free. Only an eligible offer shown by Google Play can start a trial, after you confirm the purchase there. 30 days free, then the price displayed by Google Play before purchase (Billed every month / Billed once a year). Automatically renews unless cancelled before the trial ends. Availability is determined by Google Play. Trial eligibility is managed by Google Play, not a local installation timer or financial backup. Reinstalling KOVA does not reset the trial history on the same Play account. This is not a guarantee of one trial per natural person using different accounts. Basic Free use and access to stored financial records do not require starting a trial.",
     "tourNote": "Real app screens · fictional demo data · not a video recording",
     "tourChapters": "Choose a tour screen",
     "factAndroid": "Android 7.0+",
@@ -121,7 +121,7 @@
     "faqBackupQ": "How do I protect my data or change phones?",
     "faqBackupA": "Create a password-protected manual export and store it safely outside your phone. Import requires confirmation and replaces the supported data of the selected profile. It is a partial copy, not a full app image: embedded note images are included, but external attachments and receipt photos need separate copies. The publisher cannot restore data from the cloud or recover your backup password.",
     "faqOcrQ": "Does receipt scanning work offline?",
-    "faqOcrA": "OCR uses a model bundled with the app. Take a photo or choose one from your gallery through the Android picker. Recognition can be wrong — check the amount, currency, and date before saving. Denying camera access does not block file selection.",
+    "faqOcrA": "OCR uses a model bundled with the app. Take a photo or choose one from your gallery through the Android picker. Recognition can be wrong — check the amount, currency, and date before saving. Denying camera access does not block file selection. Pro: Saved records remain accessible. Premium is required for new operations in this module. Backup and export remain free.",
     "faqDeviceQ": "Which devices and audience is KOVA for?",
     "faqDeviceA": "KOVA is being prepared for Android phones running Android 7.0 or later. KOVA’s interface supports 27 languages; compatibility and language review are ongoing. Intended for ages 13+, subject to store and local requirements. No iOS or watch release is offered.",
     "aboutKicker": "What is KOVA?",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "Know what is left in your budget",
     "aboutGoalsCopy": "Set category limits and check progress as you spend. Plan the next purchase with a clearer view of what remains.",
     "aboutIncomeTitle": "Plan around changing income",
-    "aboutIncomeCopy": "Record work hours and rates to estimate earnings. Bring your work schedule and monthly budget into one plan.",
-    "aboutPrivacy": "Financial records stay on your phone. No bank connection or KOVA cloud account. Optional Premium purchases are handled separately through Google Play.",
+    "aboutIncomeCopy": "Pro · Record work hours and rates to estimate earnings. Bring your work schedule and monthly budget into one plan.",
+    "aboutPrivacy": "Your financial records stay on this device. No KOVA cloud account, registration or financial cloud sync is required. Restore checks purchases with Google Play. It does not restore or synchronize financial records. Premium applies across local profiles on this installation. Reinstallation and another device require a separate purchase check. Changing your plan is available through Google Play.",
     "aboutAction": "See KOVA in action",
     "followLaunch": "Follow KOVA on Instagram",
     "downloadApp": "Get it on Google Play",
     "launchChannel": "Launch news on Instagram · @kova_money",
-    "workScreenNote": "Work & income · earlier demo screen; the design may change.",
+    "workScreenNote": "App interface in English · Pro · 2026-10-29",
     "plansKicker": "Planned for the first release",
     "plansTitle": "A free base. More with Premium.",
-    "plansCopy": "Start with everyday money management. Choose Premium if you need deeper local analysis. Public downloads and sales are not available yet.",
+    "plansCopy": "This is a beta version. Some parts of the app are still being refined and errors may occur. Pro covers only the tools listed below, not unfinished or promised future features. Check the limitations before buying. Pro tools are hidden without Premium. After activation, analyses appear only when their data requirements are met. Tools for entering data remain available to get started. Tax calculations cover only supported countries and tax years. Premium does not add cloud sync.",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "Everyday recording and control of your own data.",
-    "planFreeOne": "Expenses, budgets and basic reports",
-    "planFreeTwo": "Work records and access to saved data",
-    "planFreeThree": "Local encryption, backup, export and deletion",
+    "planFreeOne": "Accounts, transactions and categories",
+    "planFreeTwo": "Budgets · Goals · Recurring payments · Notes",
+    "planFreeThree": "Encryption, backup & data export",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "An optional subscription for more detailed local insight.",
-    "planPremiumOne": "Advanced reports and comparisons",
-    "planPremiumTwo": "Forecasts based on your records",
-    "planPremiumThree": "Work-income analytics",
-    "plansNote": "Price and launch availability will be announced before release. Some analyses need sufficient history. Premium purchases and access refresh require Google Play and connectivity; the Free base remains available.",
+    "planPremiumCopy": "Optional subscription for advanced local tools. Everyday finance, your records and backup remain free. No KOVA account required.",
+    "planPremiumOne": "Work & Income · Financial Calendar",
+    "planPremiumTwo": "Reports · Local receipt OCR · Tax Center",
+    "planPremiumThree": "Vault · Life Planner · Price History",
+    "plansNote": "KOVA Premium · Only an eligible offer shown by Google Play can start a trial, after you confirm the purchase there. 30 days free, then the price displayed by Google Play before purchase (Billed every month / Billed once a year). Automatically renews unless cancelled before the trial ends. Availability is determined by Google Play. Trial eligibility is managed by Google Play, not a local installation timer or financial backup. Reinstalling KOVA does not reset the trial history on the same Play account. This is not a guarantee of one trial per natural person using different accounts. Basic Free use and access to stored financial records do not require starting a trial.",
     "plansDetails": "Read the subscription draft",
     "closingKicker": "Stay close to the launch",
     "closingTitle": "Make room for a clearer money plan.",
     "closingCopy": "Follow KOVA Development on Instagram for app previews and launch news. The first public release is still in preparation.",
     "closingSecondary": "You can also find KOVA on TikTok.",
-    "forecastNote": "Each analysis needs sufficient data. Check the requirements before choosing Premium.",
+    "forecastNote": "Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available.",
     "faqDataQ": "How much data does each analysis need?",
     "faqDataA": "<p>You can record expenses and budgets from the start. Basic reports need 5 transactions across at least 3 different days.</p><ul><li>Variable spending estimate: at least 7 observation days and 2 expenses from the last 3 months. This is the threshold for one calculation component, not all of Premium.</li><li>Advanced reports: at least 60 days of history, 75 transactions, 20 days with transactions, and at least 1 budget or goal. All these conditions must be met.</li><li>Forecasts: at least 90 days of history, 100 transactions across 3 different months, and regular income or a recurring payment (recorded or detected). All these conditions must be met.</li></ul><p>Buying Premium does not replace the required history. Records in the profile count, including correctly imported data; the installation date alone is not enough. Forecasts remain estimates.</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "Recurring bills have their own due dates and payment history. KOVA organises records; it does not transfer or collect money."
     },
     {
-      "title": "Reports",
+      "title": "Reports · Pro",
       "caption": "Summaries of recorded entries",
       "copy": "Charts and summaries are calculated by KOVA from local transactions. The data is fictional, but the screen and calculations come from the running app."
     },
     {
-      "title": "Financial calendar",
+      "title": "Financial calendar · Pro",
       "caption": "Events and due dates in one view",
       "copy": "Recorded transactions and bill dates across the month. Select a day to see its events without searching the entire history."
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "What the first release brings",
-          "Expenses, budgets, work hours, goals and local records in one app. The Free base preserves everyday recording, basic reports, your data and export. Premium adds advanced reports, forecasts and work-income analytics."
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available."
         ],
         [
           "Where we are now",
@@ -301,7 +301,7 @@
         ],
         [
           "Optional local Premium",
-          "Finish checking advanced reports, forecasts, work-income analytics, purchases and restore. No paid cloud, bank integrations or AI services are promised."
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Pro tools are hidden without Premium. After activation, analyses appear only when their data requirements are met. Tools for entering data remain available to get started. Tax calculations cover only supported countries and tax years. Premium does not add cloud sync."
         ],
         [
           "Prepare for Google Play",
@@ -347,7 +347,7 @@
         ],
         [
           "This website is separate",
-          "This site cannot read your phone database. Google Analytics measures website visits and interactions only with your consent. Rejecting keeps the full site available. Change your choice in Cookie settings; hosting and provider details still require confirmation before a new public deployment."
+          "Website analytics and analytics cookies are disabled. The site may remember your language but cannot access financial records in the app."
         ],
         [
           "Report safely",
@@ -375,6 +375,10 @@
       "intro": "24 October 2026: the current plan for the first Android release includes a free base and optional Premium. Earlier entries below describe historical plans.",
       "badge": "Current update · 24 October 2026",
       "cards": [
+        [
+          "2026-10-29 · KOVA beta",
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available. App interface in English."
+        ],
         [
           "24 October 2026 · first-release model",
           "The first release is planned with a free local base plus optional Premium for advanced reports, forecasts and work-income analytics. Selected Google Play purchase/restore scenarios have been tested; full public-sales readiness is still pending. Price and launch date are not announced."
@@ -513,9 +517,9 @@
     "terms": "Terms of Use",
     "cookies": "Cookies",
     "analyticsTitle": "Privacy on this website",
-    "analyticsCopy": "This site cannot read your phone database. Google Analytics measures website visits and interactions only with your consent. Rejecting keeps the full site available. Change your choice in Cookie settings; hosting and provider details still require confirmation before a new public deployment. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "Website analytics and analytics cookies are disabled. The site may remember your language but cannot access financial records in the app. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "Draft for the planned first KOVA release: a free base and optional Premium. Matches the current app documents dated 24 October 2026. An effective date, final approval and the remaining seller and service details are pending. This is not an active subscription offer.",
+  "review": "KOVA · DRAFT · Pending owner confirmation before publication. Free and Pro scope, Google Play subscriptions and cancellation, beta limitations and your rights.",
   "seo": {
     "titles": {
       "404": "Page Not Found — KOVA",

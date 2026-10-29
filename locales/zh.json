@@ -10,7 +10,7 @@
     "navSecurity": "安全",
     "navLegal": "文件",
     "navRoadmap": "路线图",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "支出与预算。<br><em>工作收入。</em>",
     "heroCopy": "跟踪支出、计划预算并估算工作时间的收入。您的财务状况都在您的手机上。来到 Android，带有免费底座和可选的 KOVA Premium。",
     "heroPrivacy": "您的财务数据保留在您的手机上。",
@@ -18,7 +18,7 @@
     "watchVideo": "查看应用程序",
     "pauseVideo": "暂停",
     "playVideo": "玩",
-    "releaseNote": "发布前 · 尚不提供公开下载。",
+    "releaseNote": "Beta · 发布前 · 尚不提供公开下载。",
     "trustPrivacy": "隐私第一",
     "trustPrivacyCopy": "本地数据库，不自动上传",
     "trustReports": "实用总结",
@@ -32,16 +32,16 @@
     "featureBudgets": "预算",
     "featureBudgetsCopy": "限制与进步",
     "featureWork": "工作与收入",
-    "featureWorkCopy": "工作时间和发薪日",
+    "featureWorkCopy": "Pro · 工作时间和发薪日",
     "featureCalendar": "日历",
-    "featureCalendarCopy": "财经事件",
+    "featureCalendarCopy": "Pro · 财经事件",
     "featureReports": "报告",
-    "featureReportsCopy": "趋势和预测",
+    "featureReportsCopy": "Pro · 趋势和预测",
     "featureGoals": "目标",
     "featureGoalsCopy": "计划及进展",
     "clarityKicker": "该应用程序",
     "clarityTitle": "看看KOVA的内部。",
-    "clarityCopy": "带有虚构演示数据的真实 KOVA 屏幕。探索日常财务、预算和本地工具。主画廊显示波兰语界面。",
+    "clarityCopy": "应用界面为英语 · fictional demo data. 功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。 Free / Pro.",
     "clarityAccounts": "账户、交易和类别",
     "clarityReports": "报告和预测",
     "clarityWork": "工作与收入",
@@ -54,10 +54,10 @@
     "screenFeatures": "浅色主题",
     "screenFeaturesCopy": "相同的数据，不同的外观",
     "screenWork": "本地笔记",
-    "screenWorkCopy": "已保存在设备上 · 2026 年 10 月 21 日",
+    "screenWorkCopy": "应用界面为英语 · 2026-10-29",
     "securityKicker": "隐私",
     "securityTitle": "隐私是我们的首要任务。",
-    "securityCopy": "KOVA 的财务记录保存在你的手机上。我们努力让应用尽可能安全。 可选Premium单独购买和恢复使用Google Play；本网站的分析需要您的同意。",
+    "securityCopy": "财务记录保留在此设备上。无需 KOVA 云账户、注册或财务云同步。 购买通过 Google Play 核验，不使用 KOVA 服务器。联网核验后，离线访问最多可持续 48 小时。重启手机或大幅调整时间后需要重新核验。本应用无法获知订阅的确切到期时间，请在 Google Play 查看。",
     "securityModel": "了解安全性",
     "secureLocal": "本地加密",
     "secureOwner": "数据隔离",
@@ -103,16 +103,16 @@
     "faqEstimateA": "不。它们是根据记录的数据和配置进行的估计。它们可能与实际付款不同，并且不能取代雇主文件或个人建议。",
     "faqWebsiteQ": "该网站可以访问我的财务状况吗？",
     "faqWebsiteA": "不会。该网站介绍该项目，不会连接到您手机上的财务数据库。可选的网站分析取决于您的同意。",
-    "altHome": "KOVA 离线 V1：具有虚构财务历史的主屏幕",
-    "altProfile": "KOVA 离线V1：三个本地模拟账户",
-    "altFeatures": "KOVA 免费 V1：模拟器上的浅色主题",
-    "altWork": "KOVA Offline V1：模拟器上保存的测试笔记",
+    "altHome": "KOVA: 您今天的财务状况 — fictional demo data. 应用界面为英语",
+    "altProfile": "KOVA: 账户 — fictional demo data. 应用界面为英语",
+    "altFeatures": "KOVA: 您今天的财务状况 — fictional demo data. 应用界面为英语",
+    "altWork": "KOVA: 工作与收入 · Pro — 应用界面为英语 · Pro · 2026-10-29",
     "previous": "上一屏幕",
     "next": "下一个屏幕",
     "navigation": "主导航",
     "pageTitle": "KOVA — 财务集中在一处",
     "faqFreeQ": "KOVA 是免费的吗？",
-    "faqFreeA": "是的。第一个版本计划提供免费基础和可选的 KOVA Premium。日常录音、基本报告、记录访问、本地加密、备份、导出和删除仍然免费。 Premium 涵盖高级报告、预测和工作收入分析。价格将在推出前公布；目前还没有公开发售。",
+    "faqFreeA": "KOVA Premium. Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 已保存的数据仍可访问。在此模块执行新操作需要 Premium。备份和导出仍然免费。 试用期仅在您确认购买 Google Play 中可用的合资格优惠后开始。 免费30天，之后 购买前 Google Play 显示的价格（每月扣费 / 每年扣费一次）。若未在试用结束前取消，将自动续订。是否可用由 Google Play 决定。",
     "tourNote": "真实的应用程序屏幕·虚构的演示数据·不是视频记录",
     "tourChapters": "选择游览屏幕",
     "factAndroid": "Android 7.0+",
@@ -121,7 +121,7 @@
     "faqBackupQ": "如何保护我的数据或更换手机？",
     "faqBackupA": "创建受密码保护的手动导出并将其安全地存储在手机外部。导入需要确认并替换所选配置文件支持的数据。这是部分副本，而不是完整的应用程序图像：包含嵌入的注释图像，但外部附件和收据照片需要单独的副本。发布者无法从云端恢复数据或恢复您的备份密码。",
     "faqOcrQ": "收据扫描可以离线使用吗？",
-    "faqOcrA": "OCR 使用与应用程序捆绑的模型。拍摄一张照片或通过 Android 选择器从图库中选择一张照片。识别可能是错误的——保存前检查金额、货币和日期。拒绝相机访问不会阻止文件选择。",
+    "faqOcrA": "OCR 使用与应用程序捆绑的模型。拍摄一张照片或通过 Android 选择器从图库中选择一张照片。识别可能是错误的——保存前检查金额、货币和日期。拒绝相机访问不会阻止文件选择。 Pro: 已保存的数据仍可访问。在此模块执行新操作需要 Premium。备份和导出仍然免费。",
     "faqDeviceQ": "KOVA 适用于哪些设备和受众？",
     "faqDeviceA": "KOVA 正在为运行 Android 7.0 或更高版本的 Android 电话准备。 KOVA 界面支持 27 种语言；兼容性和语言审查正在进行中。适合 13 岁及以上用户，具体取决于商店和当地要求。不提供 iOS 或手表版本。",
     "aboutKicker": "什么是KOVA？",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "了解您的预算还剩下什么",
     "aboutGoalsCopy": "设置类别限制并检查支出进度。计划下一次购买时，要更清楚地了解剩下的东西。",
     "aboutIncomeTitle": "围绕收入变化制定计划",
-    "aboutIncomeCopy": "记录工作时间和费率以估算收入。将您的工作日程和每月预算纳入一个计划。",
-    "aboutPrivacy": "财务记录保留在您的手机上。没有银行连接或 KOVA 云帐户。可选的 Premium 购买通过 Google Play 单独处理。",
+    "aboutIncomeCopy": "Pro · 记录工作时间和费率以估算收入。将您的工作日程和每月预算纳入一个计划。",
+    "aboutPrivacy": "财务记录保留在此设备上。无需 KOVA 云账户、注册或财务云同步。 恢复购买会通过 Google Play 验证购买，但不会恢复或同步财务记录。Premium 适用于本次安装中的本地个人资料。重新安装或使用其他设备时需要单独验证购买。您可以在 Google Play 中更改订阅方案。",
     "aboutAction": "查看 KOVA 的实际应用",
     "followLaunch": "在 Instagram 关注 KOVA",
     "downloadApp": "在 Google Play 上获取",
     "launchChannel": "Instagram上线消息 · @kova_money",
-    "workScreenNote": "工作与收入·早期演示屏幕；设计可能会改变。",
+    "workScreenNote": "应用界面为英语 · Pro · 2026-10-29",
     "plansKicker": "计划首次发布",
     "plansTitle": "一个免费基地。 Premium 的更多内容。",
-    "plansCopy": "从日常资金管理开始。如果您需要更深入的本地分析，请选择 Premium。尚未提供公开下载和销售。",
+    "plansCopy": "这是测试版。应用部分内容仍在完善，可能出现错误。Pro 仅包含下方列出的工具，不包含未完成或承诺未来提供的功能。购买前请查看限制。 部分工具需要足够的财务历史记录。税务计算仅适用于支持的国家和纳税年度。Premium 不提供云同步。",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "日常记录和控制您自己的数据。",
-    "planFreeOne": "费用、预算和基本报告",
-    "planFreeTwo": "工作记录和访问保存的数据",
-    "planFreeThree": "本地加密、备份、导出、删除",
+    "planFreeOne": "账户、交易和类别",
+    "planFreeTwo": "预算 · 目标 · 定期付款 · 笔记",
+    "planFreeThree": "加密、备份与数据导出",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "可选订阅以获得更详细的本地见解。",
-    "planPremiumOne": "高级报告和比较",
-    "planPremiumTwo": "根据您的记录进行预测",
-    "planPremiumThree": "工作收入分析",
-    "plansNote": "价格和上市时间将在发布前公布。一些分析需要足够的历史记录。 Premium 购买和访问刷新需要 Google Play 和连接；免费基地仍然可用。",
+    "planPremiumCopy": "可选订阅提供高级本地工具。日常财务管理、您的记录和备份仍然免费。无需 KOVA 账号。",
+    "planPremiumOne": "工作与收入 · 财务日历",
+    "planPremiumTwo": "报告 · 本地收据 OCR · 税务中心",
+    "planPremiumThree": "保险库 · 人生规划 · 价格历史",
+    "plansNote": "KOVA Premium · 试用期仅在您确认购买 Google Play 中可用的合资格优惠后开始。 免费30天，之后 购买前 Google Play 显示的价格（每月扣费 / 每年扣费一次）。若未在试用结束前取消，将自动续订。是否可用由 Google Play 决定。",
     "plansDetails": "阅读订阅草稿",
     "closingKicker": "密切关注发布会",
     "closingTitle": "为更清晰的财务计划腾出空间。",
     "closingCopy": "在 Instagram 上关注 KOVA Development 以获取应用预览和发布新闻。首次公开发布仍在准备中。",
     "closingSecondary": "您还可以在TikTok上找到KOVA。",
-    "forecastNote": "每种分析都需要足够的数据。选择 Premium 前，请先了解要求。",
+    "forecastNote": "功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。",
     "faqDataQ": "不同分析需要多少数据？",
     "faqDataA": "<p>你可以从一开始就记录支出和预算。基本报表需要至少 3 个不同日期的 5 笔交易。</p><ul><li>可变支出估算：至少观察 7 天，并在最近 3 个月内有 2 笔支出。这只是一个计算组成部分的门槛，并非整个 Premium 的门槛。</li><li>高级报表：至少 60 天历史、75 笔交易、20 个有交易的日期，以及至少 1 个预算或目标。以上条件必须全部满足。</li><li>预测：至少 90 天历史、分布于 3 个不同月份的 100 笔交易，以及固定收入或定期付款（已记录或已识别）。以上条件必须全部满足。</li></ul><p>购买 Premium 不能替代所需的历史记录。系统依据个人资料中的记录，包括正确导入的数据；仅安装日期并不够。预测仍然是估算。</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "经常性账单有自己的到期日和付款历史记录。 KOVA 组织记录；它不转移或收钱。"
     },
     {
-      "title": "报告",
+      "title": "报告 · Pro",
       "caption": "记录条目摘要",
       "copy": "图表和摘要由 KOVA 根据本地交易计算得出。这些数据是虚构的，但屏幕和计算来自正在运行的应用程序。"
     },
     {
-      "title": "财经日历",
+      "title": "财经日历 · Pro",
       "caption": "事件和截止日期在一个视图中",
       "copy": "记录整个月的交易和账单日期。选择一天即可查看其事件，而无需搜索整个历史记录。"
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "第一个版本带来了什么",
-          "费用、预算、工作时间、目标和本地记录尽在一个应用程序中。免费基地保留日常记录、基本报告、您的数据和导出。 Premium 添加了高级报告、预测和工作收入分析。"
+          "Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。"
         ],
         [
           "我们现在在哪里",
@@ -301,7 +301,7 @@
         ],
         [
           "可选本地Premium",
-          "完成检查高级报告、预测、工作收入分析、采购和恢复。不承诺提供付费云、银行集成或人工智能服务。"
+          "Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 部分工具需要足够的财务历史记录。税务计算仅适用于支持的国家和纳税年度。Premium 不提供云同步。"
         ],
         [
           "准备Google Play",
@@ -347,7 +347,7 @@
         ],
         [
           "这个网站是独立的",
-          "该网站无法读取您的手机数据库。 Google Analytics 仅在您同意的情况下测量网站访问和互动。拒绝会使整个站点保持可用。更改您在 Cookie 设置中的选择；在新的公共部署之前，托管和提供商详细信息仍需要确认。"
+          "网站分析和分析类 Cookie 已停用。网站可以记住语言，但无法访问应用中的财务记录。"
         ],
         [
           "安全报告",
@@ -375,6 +375,10 @@
       "intro": "2026 年 10 月 24 日：第一个 Android 版本的当前计划包括免费基础版和可选的 Premium。下面的早期条目描述了历史计划。",
       "badge": "当前更新 · 2026 年 10 月 24 日",
       "cards": [
+        [
+          "2026-10-29 · KOVA 测试版",
+          "Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。 应用界面为英语."
+        ],
         [
           "2026 年 10 月 24 日 · 首次发布模型",
           "第一个版本计划提供免费的本地基础以及可选的 Premium，用于高级报告、预测和工作收入分析。选定的Google Play购买/恢复场景已经过测试；全面的公开销售准备工作仍有待完成。价格和上市日期尚未公布。"
@@ -513,9 +517,9 @@
     "terms": "使用条款",
     "cookies": "饼干",
     "analyticsTitle": "本网站的隐私",
-    "analyticsCopy": "该网站无法读取您的手机数据库。 Google Analytics 仅在您同意的情况下测量网站访问和互动。拒绝会使整个站点保持可用。更改您在 Cookie 设置中的选择；在新的公共部署之前，托管和提供商详细信息仍需要确认。 Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "网站分析和分析类 Cookie 已停用。网站可以记住语言，但无法访问应用中的财务记录。 Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "计划的第一个 KOVA 版本的草案：免费基础和可选的 Premium。与日期为 2026 年 10 月 24 日的当前应用程序文档相匹配。生效日期、最终批准以及剩余的卖家和服务详细信息正在等待确定。这不是有效的订阅优惠。",
+  "review": "KOVA · DRAFT · 发布前等待所有者确认. Free 和 Pro 范围、Google Play 订阅与取消、测试版限制以及您的权利。",
   "seo": {
     "titles": {
       "404": "找不到页面 — KOVA",

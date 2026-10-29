@@ -1,4 +1,4 @@
-// Current first-release plan; historical entries keep their original scope.
+// Current product facts; dated history is not a current offer.
 window.KOVA_PROJECT_PAGES = {
   "404": {
     "pl": {
@@ -59,7 +59,7 @@ window.KOVA_PROJECT_PAGES = {
       "cards": [
         [
           "Co przyniesie pierwsze wydanie",
-          "Wydatki, budżety, godziny pracy, cele i lokalne zapisy w jednej aplikacji. Darmowa baza zachowuje codzienne zapisy, podstawowe raporty, dostęp do danych i eksport. Premium dodaje zaawansowane raporty, prognozy i analizy dochodu z pracy."
+          "Planer życia · Pro. Historia cen · Pro. Premium obejmuje Work & Income, Kalendarz finansowy, wszystkie raporty, skanowanie paragonów, Centrum podatkowe i Vault. Podstawowa ewidencja finansów, Notatki, szyfrowanie, backup, przywracanie i eksport danych pozostają bezpłatne. Funkcje pojawiają się wraz z używaniem KOVA i dodawaniem potrzebnych danych. Dotyczy to również Pro: subskrypcja nie pokaże analiz wymagających danych, dopóki nie będzie wystarczającej odpowiedniej historii."
         ],
         [
           "Na jakim jesteśmy etapie",
@@ -98,7 +98,7 @@ window.KOVA_PROJECT_PAGES = {
       "cards": [
         [
           "What the first release brings",
-          "Expenses, budgets, work hours, goals and local records in one app. The Free base preserves everyday recording, basic reports, your data and export. Premium adds advanced reports, forecasts and work-income analytics."
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available."
         ],
         [
           "Where we are now",
@@ -137,7 +137,7 @@ window.KOVA_PROJECT_PAGES = {
       "cards": [
         [
           "Что будет в первом выпуске",
-          "Расходы, бюджеты, рабочее время, цели и записи на устройстве — в одном приложении. Повседневные записи, базовые отчёты, доступ к данным и экспорт остаются бесплатными. Premium добавляет расширенные отчёты, прогнозы и анализ дохода от работы."
+          "Планер жизни · Pro. История цен · Pro. Premium включает работу и доходы, финансовый календарь, все отчёты, сканирование чеков, налоговый центр и Vault. Базовый учёт финансов, заметки, шифрование, резервное копирование, восстановление и экспорт данных остаются бесплатными. Функции появляются по мере использования KOVA и добавления нужных данных. Это относится и к Pro: подписка не покажет анализ, зависящий от данных, пока не накопится достаточно подходящей истории."
         ],
         [
           "На каком мы этапе",
@@ -182,7 +182,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "Opcjonalne lokalne Premium",
-          "Dokończenie sprawdzania zaawansowanych raportów, prognoz, analiz pracy, zakupu i przywracania. Nie obiecujemy płatnej chmury, integracji bankowych ani usług AI."
+          "Planer życia · Pro. Historia cen · Pro. Premium obejmuje Work & Income, Kalendarz finansowy, wszystkie raporty, skanowanie paragonów, Centrum podatkowe i Vault. Podstawowa ewidencja finansów, Notatki, szyfrowanie, backup, przywracanie i eksport danych pozostają bezpłatne. Narzędzia Pro są ukryte bez Premium. Po aktywacji analizy pojawiają się dopiero po spełnieniu wymagań dotyczących danych. Narzędzia wprowadzania danych są dostępne od początku. Obliczenia podatkowe obejmują wyłącznie obsługiwane kraje i lata podatkowe. Premium nie dodaje synchronizacji z chmurą."
         ],
         [
           "Przygotowanie do Google Play",
@@ -216,7 +216,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "Optional local Premium",
-          "Finish checking advanced reports, forecasts, work-income analytics, purchases and restore. No paid cloud, bank integrations or AI services are promised."
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Pro tools are hidden without Premium. After activation, analyses appear only when their data requirements are met. Tools for entering data remain available to get started. Tax calculations cover only supported countries and tax years. Premium does not add cloud sync."
         ],
         [
           "Prepare for Google Play",
@@ -250,7 +250,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "Необязательный Premium на устройстве",
-          "Проверяем расширенные отчёты, прогнозы, анализ дохода от работы, покупку и восстановление подписки. Платное облако, банковские интеграции и онлайн-сервисы ИИ в заявленное предложение не входят."
+          "Планер жизни · Pro. История цен · Pro. Premium включает работу и доходы, финансовый календарь, все отчёты, сканирование чеков, налоговый центр и Vault. Базовый учёт финансов, заметки, шифрование, резервное копирование, восстановление и экспорт данных остаются бесплатными. Без Premium инструменты Pro скрыты. После активации аналитика появляется только при наличии необходимых данных. Инструменты ввода данных доступны с самого начала. Налоговые расчёты доступны только для поддерживаемых стран и налоговых лет. Premium не добавляет облачную синхронизацию."
         ],
         [
           "Подготовка к Google Play",
@@ -298,7 +298,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "Strona jest osobną usługą",
-          "Witryna nie czyta bazy telefonu. Google Analytics mierzy odwiedziny i działania na stronie wyłącznie po zgodzie. Odrzucenie zachowuje pełny dostęp. Wybór zmienisz w ustawieniach cookies; szczegóły hostingu i dostawców wymagają potwierdzenia przed nowym publicznym wdrożeniem."
+          "Analityka strony i analityczne cookies są wyłączone. Witryna może zapamiętać język, ale nie ma dostępu do finansów w aplikacji."
         ],
         [
           "Bezpieczne zgłoszenie",
@@ -344,7 +344,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "This website is separate",
-          "This site cannot read your phone database. Google Analytics measures website visits and interactions only with your consent. Rejecting keeps the full site available. Change your choice in Cookie settings; hosting and provider details still require confirmation before a new public deployment."
+          "Website analytics and analytics cookies are disabled. The site may remember your language but cannot access financial records in the app."
         ],
         [
           "Report safely",
@@ -390,7 +390,7 @@ window.KOVA_PROJECT_PAGES = {
         ],
         [
           "Этот сайт работает отдельно",
-          "Сайт не читает базу данных телефона. Google Analytics измеряет посещения и действия только с вашего согласия. При отказе весь сайт остаётся доступным. Выбор можно изменить в настройках cookies; сведения о хостинге и поставщиках услуг ещё требуют подтверждения перед новым публичным размещением."
+          "Аналитика сайта и аналитические cookies отключены. Сайт может запомнить язык, но не имеет доступа к финансовым записям приложения."
         ],
         [
           "Как безопасно сообщить о проблеме",
@@ -420,6 +420,10 @@ window.KOVA_PROJECT_PAGES = {
       "intro": "24 października 2026: aktualny plan pierwszego wydania na Androida obejmuje darmową bazę i opcjonalne Premium. Wcześniejsze wpisy poniżej opisują historyczne plany.",
       "badge": "Aktualizacja · 24 października 2026",
       "cards": [
+        [
+          "2026-10-29 · KOVA — wersja beta",
+          "Planer życia · Pro. Historia cen · Pro. Premium obejmuje Work & Income, Kalendarz finansowy, wszystkie raporty, skanowanie paragonów, Centrum podatkowe i Vault. Podstawowa ewidencja finansów, Notatki, szyfrowanie, backup, przywracanie i eksport danych pozostają bezpłatne. Funkcje pojawiają się wraz z używaniem KOVA i dodawaniem potrzebnych danych. Dotyczy to również Pro: subskrypcja nie pokaże analiz wymagających danych, dopóki nie będzie wystarczającej odpowiedniej historii. Interfejs aplikacji po angielsku."
+        ],
         [
           "24 października 2026 · model pierwszego wydania",
           "Pierwsze wydanie planujemy z darmową bazą lokalną i opcjonalnym Premium: zaawansowane raporty, prognozy i analizy dochodu z pracy. Wybrane scenariusze zakupu i przywracania Google Play przetestowano; pełna gotowość publicznej sprzedaży nadal nie jest potwierdzona. Cena i data premiery nie są ogłoszone."
@@ -460,6 +464,10 @@ window.KOVA_PROJECT_PAGES = {
       "badge": "Current update · 24 October 2026",
       "cards": [
         [
+          "2026-10-29 · KOVA beta",
+          "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available. App interface in English."
+        ],
+        [
           "24 October 2026 · first-release model",
           "The first release is planned with a free local base plus optional Premium for advanced reports, forecasts and work-income analytics. Selected Google Play purchase/restore scenarios have been tested; full public-sales readiness is still pending. Price and launch date are not announced."
         ],
@@ -498,6 +506,10 @@ window.KOVA_PROJECT_PAGES = {
       "intro": "24 октября 2026 г.: текущий план первого выпуска Android включает бесплатную базовую версию и дополнительный Premium. Более ранние записи ниже описывают исторические планы.",
       "badge": "Текущее обновление · 24 октября 2026 г.",
       "cards": [
+        [
+          "2026-10-29 · KOVA — бета-версия",
+          "Планер жизни · Pro. История цен · Pro. Premium включает работу и доходы, финансовый календарь, все отчёты, сканирование чеков, налоговый центр и Vault. Базовый учёт финансов, заметки, шифрование, резервное копирование, восстановление и экспорт данных остаются бесплатными. Функции появляются по мере использования KOVA и добавления нужных данных. Это относится и к Pro: подписка не покажет анализ, зависящий от данных, пока не накопится достаточно подходящей истории. Интерфейс приложения на английском."
+        ],
         [
           "24 октября 2026 г. · первая версия модели",
           "Первый выпуск планируется включать в себя бесплатную локальную базу и дополнительный Premium для расширенных отчетов, прогнозов и аналитики доходов от работы. Были протестированы выбранные сценарии покупки/восстановления Google Play; полная готовность к публичным продажам еще не завершена. Цена и дата запуска не объявлены."
@@ -768,7 +780,6 @@ window.KOVA_PROJECT_PAGES = {
     }
   }
 };
-
 for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {
   for (const [page,copy] of Object.entries(data.projects)) window.KOVA_PROJECT_PAGES[page][code]=copy;
 }

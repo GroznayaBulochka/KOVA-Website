@@ -1,6 +1,7 @@
 {
   "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
-  "verifiedOn": "2026-10-24",
+  "verifiedOn": "2026-10-29",
+  "appStage": "BETA_PRE_RELEASE",
   "appVersionName": "1.0.8",
   "appVersionCode": 10,
   "publicDownloadAvailable": false,
@@ -22,6 +23,7 @@
   "supportContactApproved": true,
   "supportEmail": "contact@kovacompass.app",
   "supportContactOperationallyVerified": false,
+  "supportContactOwnerReportedOperational": true,
   "legalApproved": false,
   "cloudAccountAvailable": false,
   "externalAccountDeletionChannelRequired": false,
@@ -50,18 +52,62 @@
   "followUrl": "https://www.instagram.com/kova_money/",
   "premium": {
     "features": [
-      "Advanced local reports and comparisons",
-      "Forecasts",
-      "Work-income analytics"
+      "Work & Income",
+      "Financial Calendar",
+      "All reports and eligible local forecasts",
+      "Receipt scanning with bundled local OCR",
+      "Tax Center for supported countries and tax years",
+      "Vault",
+      "Life Planner",
+      "Price History"
     ],
     "price": null,
     "salesAvailable": false,
     "billingImplementation": "CLIENT_ONLY_GOOGLE_PLAY",
     "qualification": "PARTIAL_PLAY_TESTS_NOT_APPROVED_FOR_PUBLIC_SALES",
     "financialDataUploadedForPurchase": false,
-    "offlineAccessMaximumHours": 48
+    "offlineAccessMaximumHours": 48,
+    "productId": "kova_pro_subscription",
+    "basePlans": [
+      "monthly",
+      "yearly"
+    ],
+    "sameFeaturesForBothPlans": true,
+    "dataRequirementsApply": true,
+    "trial": {
+      "offerId": "trial-30-days",
+      "duration": "P30D",
+      "availability": "ELIGIBLE_GOOGLE_PLAY_OFFER_ONLY",
+      "activationEvidence": "OWNER_REPORTED_ACTIVE",
+      "realEligibleTrialQualification": "NOT_RUN_OWNER_DEFERRED",
+      "automaticPaidRenewalAfterTrial": true,
+      "priceSource": "ACTUAL_GOOGLE_PLAY_PRODUCT_DETAILS_BEFORE_PURCHASE",
+      "cancellation": "CANCEL_BEFORE_TRIAL_END_TO_AVOID_THE_NEXT_CHARGE"
+    }
+  },
+  "freeFeatures": [
+    "Accounts",
+    "Transactions",
+    "Categories",
+    "Budgets",
+    "Recurring payments",
+    "Debts",
+    "Goals",
+    "Notes",
+    "Local profiles and encryption",
+    "Manual encrypted backup and restore",
+    "Portable export and access to saved records"
+  ],
+  "support": {
+    "type": "OPTIONAL_ONE_TIME_GOOGLE_PLAY_SUPPORT",
+    "grantsPremium": false,
+    "publicSalesQualified": false
   },
   "factSource": "../KOVA-App/docs/release/KOVA_LOCAL_FREEMIUM_V1_READINESS.json",
   "publisherFactSource": "../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
-  "legalDocumentSource": "../KOVA-App/docs/release/local-freemium-legal"
+  "legalDocumentSource": "../KOVA-App/docs/release/local-freemium-legal",
+  "presentationEvidence": "qa/artifacts/presentation-2026-10-29-source54/provenance.json",
+  "presentationLanguage": "en",
+  "presentationScreens": 9,
+  "presentationSource": 54
 }

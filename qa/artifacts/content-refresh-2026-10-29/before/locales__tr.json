@@ -1,0 +1,556 @@
+{
+  "home": {
+    "skip": "İçeriğe atla",
+    "tagline": "Finans tek bir yerde.",
+    "language": "Dil",
+    "openMenu": "Menüyü aç",
+    "close": "Kapat",
+    "navFeatures": "Özellikler",
+    "navScreens": "Ekranlar",
+    "navSecurity": "Güvenlik",
+    "navLegal": "Belgeler",
+    "navRoadmap": "Yol Haritası",
+    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroTitle": "Harcamalar. Bütçe.<br><em>Çalışma geliri.</em>",
+    "heroCopy": "Harcamaları takip edin, bütçeleri planlayın ve çalışma saatlerinizden elde edilen geliri tahmin edin. Mali durumunuz telefonunuzda kalır. Ücretsiz bir taban ve isteğe bağlı KOVA Premium ile Android'ye geliyor.",
+    "heroPrivacy": "Finansal verileriniz telefonunuzda kalır.",
+    "projectStatus": "Proje durumunu kontrol edin",
+    "watchVideo": "Uygulamayı görün",
+    "pauseVideo": "Duraklat",
+    "playVideo": "Oyna",
+    "releaseNote": "Lansmandan önce · herkese açık indirme henüz mevcut değil.",
+    "trustPrivacy": "Önce gizlilik",
+    "trustPrivacyCopy": "Yerel veritabanı, otomatik yükleme yok",
+    "trustReports": "Pratik özetler",
+    "trustReportsCopy": "Kaydedilen verilere dayalı raporlar",
+    "trustOffline": "Çevrimdışı çalışır",
+    "trustOfflineCopy": "Temel finansman mevcut olmaya devam ediyor",
+    "trustLife": "Gerçek hayat için tasarlandı",
+    "trustLifeCopy": "Bütçeler, hedefler, çalışmalar ve notlar",
+    "featureExpenses": "Giderler",
+    "featureExpensesCopy": "İşlemler ve kategoriler",
+    "featureBudgets": "Bütçeler",
+    "featureBudgetsCopy": "Sınırlar ve ilerleme",
+    "featureWork": "İş ve Gelir",
+    "featureWorkCopy": "Çalışma saatleri ve maaş günleri",
+    "featureCalendar": "Takvim",
+    "featureCalendarCopy": "Finansal olaylar",
+    "featureReports": "Raporlar",
+    "featureReportsCopy": "Eğilimler ve tahminler",
+    "featureGoals": "Hedefler",
+    "featureGoalsCopy": "Planlar ve ilerleme",
+    "clarityKicker": "Uygulama",
+    "clarityTitle": "KOVA içine bir bakış.",
+    "clarityCopy": "Kurgusal demo verileriyle gerçek KOVA ekranları. Günlük finansmanı, bütçeleri ve yerel araçları keşfedin. Ana galeri Lehçe arayüzünü gösterir.",
+    "clarityAccounts": "Hesaplar, işlemler ve kategoriler",
+    "clarityReports": "Raporlar ve tahminler",
+    "clarityWork": "İş ve Gelir",
+    "clarityGoals": "Hedefler ve net değer",
+    "clarityCurrency": "Çoklu para birimi hassasiyeti",
+    "clarityOffline": "Temel verilere çevrimdışı erişim",
+    "exploreScreens": "Ekranları keşfedin",
+    "screenOverview": "Koyu tema",
+    "screenOverviewCopy": "Bakiye ve kayıtlı gider",
+    "screenFeatures": "Işık teması",
+    "screenFeaturesCopy": "Aynı veriler, farklı bir görünüm",
+    "screenWork": "Yerel notlar",
+    "screenWorkCopy": "Cihaza kaydedildi · 21 Eki 2026",
+    "securityKicker": "Gizlilik",
+    "securityTitle": "Gizlilik en büyük önceliğimizdir.",
+    "securityCopy": "KOVA'daki mali kayıtlarınız telefonunuzda kalır. Uygulamayı mümkün olduğunca güvenli hale getirmek için çalışıyoruz. İsteğe bağlı Premium satın alma ve geri yükleme, Google Play'yi ayrı olarak kullanın; bu web sitesinin analizleri sizin izninizi gerektiriyor.",
+    "securityModel": "Güvenlik hakkında bilgi edinin",
+    "secureLocal": "Yerel şifreleme",
+    "secureOwner": "Veri izolasyonu",
+    "secureOwnerCopy": "Kayıtlar sahiplerine devredilir",
+    "secureNoBank": "Banka şifresi yok",
+    "secureNoBankCopy": "KOVA bankanıza bağlanmıyor",
+    "secureOnline": "Sizin verileriniz, sizin seçiminiz",
+    "secureOnlineCopy": "Manuel yedekleme ve dışa aktarma",
+    "legalKicker": "Belgeler",
+    "legalTitle": "KOVA politikaları.",
+    "legalCopy": "Uygulama gizliliği ve abonelik koşulları, nihai onayı bekleyen taslaklardır. Web sitesinde ayrı çerez ve analiz bilgileri bulunmaktadır.",
+    "privacyTitle": "Gizlilik Politikası",
+    "privacyCopy": "Yerel finans, Google Play satın almalar ve destek.",
+    "termsTitle": "Kullanım Koşulları",
+    "termsCopy": "Ücretsiz taban, isteğe bağlı Premium ve abonelik koşulları.",
+    "cookiesTitle": "Çerezler",
+    "cookiesCopy": "Tarayıcı ayarları ve depolama.",
+    "privacyShort": "Gizlilik",
+    "termsShort": "Şartlar",
+    "cookiesShort": "Çerezler",
+    "activeDevelopment": "Ücretsiz temel + isteğe bağlı Premium · lansmandan önce",
+    "cookieSettings": "Ayarlar",
+    "navFaq": "SSS",
+    "navStatus": "Proje",
+    "galleryHint": "Resmin tamamını görmek için bir ekrana dokunun.",
+    "secureLocalCopy": "Cihazınızdaki şifreli veritabanı",
+    "projectKicker": "İlk sürüm",
+    "projectHeading": "Ücretsiz bir üs. Premium ile daha fazlası.",
+    "projectCopy": "KOVA: Money & Budget, ücretsiz bir taban ve isteğe bağlı Premium ile Android'ye geliyor. Herkese açık indirmeler ve satışlar henüz mevcut değildir.",
+    "availability": "Uygulama kullanılabilirliği",
+    "roadmapLink": "Ne üzerinde çalışıyoruz?",
+    "updatesLink": "Son güncellemeler",
+    "faqKicker": "bilmek güzel",
+    "faqTitle": "Birkaç basit cevap.",
+    "faqCopy": "KOVA kullanmaya başlamadan önce.",
+    "faqDownloadQ": "Henüz KOVA dosyasını indirebilir miyim?",
+    "faqDownloadA": "Herkese açık indirmeler henüz mevcut değil. Lansman haberleri için KOVA'yi Instagram'de takip edin. Bu sayfa, sürüm mevcut olduğunda onaylanmış Google Play listesine bağlantı verecektir. Herhangi bir lansman tarihi açıklanmadı.",
+    "faqOfflineQ": "Uygulama internet olmadan çalışıyor mu?",
+    "faqOfflineA": "Mali kayıtlar ve Serbest taban yerel olarak çalışır. İsteğe bağlı Premium satın alma, geri yükleme ve yenilemeye erişme, Google Play kullanın ve bağlantıya ihtiyaç duyar. Mevcut Premium erişimi, 48 saate kadar yeni bir bağlantı kontrolü veya telefonun yeniden başlatılmasını gerektirebilir. Bu, kayıtlarınızı silmez veya temel kullanımı ve dışa aktarmayı engellemez. Hiçbir finansal bulut senkronizasyonu veya banka bağlantısı sunulmaz.",
+    "faqBankQ": "Banka hesabımı bağlamam gerekiyor mu?",
+    "faqBankA": "Hayır. KOVA banka şifrelerinizi istemez. Uygulamadaki hesaplar, kaydettiğiniz finansal bilgilerin düzenlenmesine yardımcı olur.",
+    "faqEstimateQ": "Tahminler ve net ücret tutarları garanti ediliyor mu?",
+    "faqEstimateA": "Hayır. Bunlar kayıtlı verilere ve konfigürasyona dayalı tahminlerdir. Bunlar gerçek ödemelerden farklı olabilir ve işveren belgelerinin veya bireysel tavsiyelerin yerine geçmez.",
+    "faqWebsiteQ": "Bu web sitesi mali durumuma erişebilir mi?",
+    "faqWebsiteA": "Hayır. Web sitesi projeyi tanıtır ve telefonunuzdaki mali veritabanına bağlanmaz. İsteğe bağlı web sitesi analizleri onayınıza bağlıdır.",
+    "altHome": "KOVA Çevrimdışı V1: kurgusal mali geçmişe sahip ana ekran",
+    "altProfile": "KOVA Çevrimdışı V1: üç yerel demo hesabı",
+    "altFeatures": "KOVA Ücretsiz V1: emülatörde hafif tema",
+    "altWork": "KOVA Çevrimdışı V1: öykünücüde kayıtlı bir test notu",
+    "previous": "Önceki ekran",
+    "next": "Sonraki ekran",
+    "navigation": "Ana gezinme",
+    "pageTitle": "KOVA — tek bir yerden finans",
+    "faqFreeQ": "KOVA ücretsiz olacak mı?",
+    "faqFreeA": "Evet. İlk sürümün ücretsiz bir taban ve isteğe bağlı KOVA Premium ile planlanması planlanıyor. Günlük kayıt, temel raporlar, kayıtlarınıza erişim, yerel şifreleme, yedekleme, dışa aktarma ve silme Ücretsiz kalır. Premium gelişmiş raporları, tahminleri ve iş-gelir analitiğini kapsar. Fiyat lansmandan önce açıklanacak; henüz halka açık bir satış yok.",
+    "tourNote": "Gerçek uygulama ekranları · kurgusal demo verileri · video kaydı değil",
+    "tourChapters": "Bir tur ekranı seçin",
+    "factAndroid": "Android 7,0+",
+    "factOffline": "Serbest taban",
+    "factAccount": "İsteğe bağlı Premium",
+    "faqBackupQ": "Verilerimi nasıl koruyabilirim veya telefonları nasıl değiştirebilirim?",
+    "faqBackupA": "Parola korumalı bir manuel dışa aktarma oluşturun ve bunu telefonunuzun dışında güvenli bir şekilde saklayın. İçe aktarma işlemi onay gerektirir ve seçilen profilin desteklenen verilerinin yerine geçer. Bu, tam uygulama görüntüsü değil, kısmi bir kopyadır: Gömülü not görselleri dahildir, ancak harici ekler ve fatura fotoğraflarının ayrı kopyaları gerekir. Yayıncı, verileri buluttan geri yükleyemez veya yedekleme şifrenizi kurtaramaz.",
+    "faqOcrQ": "Makbuz taraması çevrimdışı çalışıyor mu?",
+    "faqOcrA": "OCR uygulamayla birlikte verilen bir modeli kullanıyor. Bir fotoğraf çekin veya Android seçiciyi kullanarak galerinizden bir fotoğraf seçin. Tanıma yanlış olabilir; kaydetmeden önce tutarı, para birimini ve tarihi kontrol edin. Kamera erişiminin reddedilmesi dosya seçimini engellemez.",
+    "faqDeviceQ": "KOVA hangi cihazlar ve kitle için?",
+    "faqDeviceA": "KOVA, Android 7.0 veya üzerini çalıştıran Android telefonlar için hazırlanıyor. KOVA arayüzü 27 dili destekler; uyumluluk ve dil incelemesi devam etmektedir. Mağaza ve yerel gerekliliklere bağlı olarak 13+ yaş grubuna yöneliktir. Hiçbir iOS veya saat sürümü sunulmamaktadır.",
+    "aboutKicker": "KOVA nedir?",
+    "aboutTitle": "Daha az para stresi. Planlarınız için daha fazla alan.",
+    "aboutCopy": "KOVA, günlük kişisel finans için bir Android uygulamasıdır. Giderleri, bütçeleri ve çalışma saatlerini bir arada tutun, böylece faturalardan sonra kalanları görebilir ve önümüzdeki ayı planlayabilirsiniz.",
+    "aboutAudience": "Öğrenciler, çalışanlar ve kendi parasıyla ilgili daha bilinçli kararlar vermek isteyen herkes için.",
+    "aboutForWhom": "KOVA size neler kazandırır",
+    "aboutSpendingTitle": "Paranızın nereye gittiğini görün",
+    "aboutSpendingCopy": "Günlük harcamaları kaydedin ve kategoriye göre bulun. Hangi maliyetlerin ayınızda en büyük farkı yarattığını anlayın.",
+    "aboutGoalsTitle": "Bütçenizde ne kaldığını öğrenin",
+    "aboutGoalsCopy": "Kategori sınırlarını belirleyin ve harcadıkça ilerlemeyi kontrol edin. Geriye kalanları daha net bir şekilde görerek bir sonraki satın alma işlemini planlayın.",
+    "aboutIncomeTitle": "Gelirinizi değiştirmeye yönelik plan yapın",
+    "aboutIncomeCopy": "Kazançları tahmin etmek için çalışma saatlerini ve oranlarını kaydedin. Çalışma programınızı ve aylık bütçenizi tek bir planda birleştirin.",
+    "aboutPrivacy": "Mali kayıtlar telefonunuzda kalır. Banka bağlantısı veya KOVA bulut hesabı yok. İsteğe bağlı Premium satın alımları Google Play aracılığıyla ayrı olarak gerçekleştirilir.",
+    "aboutAction": "KOVA'i çalışırken görün",
+    "followLaunch": "Instagram’da KOVA’yı takip edin",
+    "downloadApp": "Google Play'den edinin",
+    "launchChannel": "Instagram · @kova_money ile ilgili lansman haberleri",
+    "workScreenNote": "İş ve gelir · önceki demo ekranı; tasarım değişebilir.",
+    "plansKicker": "İlk sürüm için planlandı",
+    "plansTitle": "Ücretsiz bir üs. Premium ile daha fazlası.",
+    "plansCopy": "Günlük para yönetimiyle başlayın. Daha derin yerel analize ihtiyacınız varsa Premium'yi seçin. Herkese açık indirmeler ve satışlar henüz mevcut değildir.",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "Kendi verilerinizin günlük kaydı ve kontrolü.",
+    "planFreeOne": "Giderler, bütçeler ve temel raporlar",
+    "planFreeTwo": "İş kayıtları ve kaydedilen verilere erişim",
+    "planFreeThree": "Yerel şifreleme, yedekleme, dışa aktarma ve silme",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "Daha ayrıntılı yerel bilgiler için isteğe bağlı bir abonelik.",
+    "planPremiumOne": "Gelişmiş raporlar ve karşılaştırmalar",
+    "planPremiumTwo": "Kayıtlarınıza dayalı tahminler",
+    "planPremiumThree": "İş-gelir analitiği",
+    "plansNote": "Fiyat ve lansman durumu yayınlanmadan önce duyurulacaktır. Bazı analizlerin yeterli geçmişe ihtiyacı vardır. Premium satın alma işlemleri ve erişim yenileme, Google Play ve bağlantı gerektirir; Serbest taban kullanılabilir durumda kalır.",
+    "plansDetails": "Abonelik taslağını okuyun",
+    "closingKicker": "Lansmana yakın kalın",
+    "closingTitle": "Daha net bir para planına yer açın.",
+    "closingCopy": "Uygulama önizlemeleri ve lansman haberleri için KOVA Development'yi Instagram'de takip edin. İlk halka açık yayın hâlâ hazırlık aşamasındadır.",
+    "closingSecondary": "Ayrıca KOVA'yi TikTok'de de bulabilirsiniz.",
+    "forecastNote": "Her analiz yeterli veri gerektirir. Premium'u seçmeden önce koşulları inceleyin.",
+    "faqDataQ": "Her analiz ne kadar veri gerektirir?",
+    "faqDataA": "<p>Başlangıçtan itibaren gider ve bütçe kaydedebilirsiniz. Temel raporlar en az 3 farklı günde 5 işlem gerektirir.</p><ul><li>Değişken gider tahmini: en az 7 günlük gözlem ve son 3 ayda 2 gider. Bu eşik tüm Premium için değil, hesaplamanın bir bileşeni içindir.</li><li>Gelişmiş raporlar: en az 60 günlük geçmiş, 75 işlem, işlem yapılan 20 gün ve en az 1 bütçe veya hedef. Tüm koşullar karşılanmalıdır.</li><li>Öngörüler: en az 90 günlük geçmiş, 3 farklı ayda 100 işlem ve düzenli gelir veya yinelenen ödeme (kaydedilmiş ya da tespit edilmiş). Tüm koşullar karşılanmalıdır.</li></ul><p>Premium satın almak gerekli geçmişin yerini tutmaz. Doğru içe aktarılmış veriler dahil profil kayıtları sayılır; yalnızca kurulum tarihi yeterli değildir. Öngörüler tahmin niteliğindedir.</p>"
+  },
+  "slides": [
+    {
+      "title": "Bugünkü mali durumunuz",
+      "caption": "Denge, gelir ve son harcamalar",
+      "copy": "KOVA'nin, kurgusal bir kullanıcı olan Marta'ya ait yerel kayıtların yer aldığı gerçek ana ekranı. Bu turdaki her ekrana aynı finansal geçmiş güç veriyor."
+    },
+    {
+      "title": "Hesaplar",
+      "caption": "Cari hesap, tasarruf ve nakit",
+      "copy": "Üç yerel hesap günlük finansmanı organize ediyor. Bakiyeler satın almaları, maaşları ve kendi hesaplarınız arasındaki transferleri içerir. Banka bağlantısı yok."
+    },
+    {
+      "title": "İşlemler",
+      "caption": "Altı aylık günlük kayıtlar",
+      "copy": "Yiyecek, kahve, ulaşım, kira ve maaş. Farklı tutarlar ve tarihler, aynı işlemlerin bir listesini değil, gerçekçi bir geçmiş oluşturur."
+    },
+    {
+      "title": "Bütçeler ve sınırlar",
+      "caption": "Harcama planları ve mevcut kullanım",
+      "copy": "Yiyecek, eğlence ve ulaşıma ilişkin aylık limitler, planları kaydedilen harcamalarla karşılaştırır. Tutarlar aynı demo profilinden gelir."
+    },
+    {
+      "title": "Yinelenen ödemeler",
+      "caption": "Kira, internet, telefon ve abonelikler",
+      "copy": "Yinelenen faturaların kendi vade tarihleri ve ödeme geçmişi vardır. KOVA kayıtları düzenler; para aktarmaz veya toplamaz."
+    },
+    {
+      "title": "Raporlar",
+      "caption": "Kaydedilen girişlerin özetleri",
+      "copy": "Grafikler ve özetler yerel işlemlerden KOVA ile hesaplanır. Veriler kurgusaldır ancak ekran ve hesaplamalar çalışan uygulamadan gelmektedir."
+    },
+    {
+      "title": "Mali takvim",
+      "caption": "Etkinlikler ve son tarihler tek görünümde",
+      "copy": "Ay boyunca kaydedilen işlemler ve fatura tarihleri. Tüm geçmişi aramadan etkinliklerini görmek için bir gün seçin."
+    },
+    {
+      "title": "Notlar",
+      "caption": "Planlar, listeler ve günlük ayrıntılar",
+      "copy": "Acil durum fonu planı ve hafta sonu gezi notları, mali kaynakların yanı sıra yerel olarak saklanıyor. Bu demo içeriğidir, başka birinin özel notları değildir."
+    }
+  ],
+  "shell": {
+    "home": "Ana sayfa",
+    "product": "Uygulama",
+    "project": "Proje",
+    "legal": "Bilgi",
+    "features": "Özellikler",
+    "screens": "Uygulama ekranları",
+    "faq": "Sorular ve cevaplar",
+    "status": "Proje durumu",
+    "roadmap": "Yol Haritası",
+    "updates": "Güncellemeler",
+    "security": "Güvenlik",
+    "contact": "İletişim",
+    "deletion": "Verileriniz",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerezler",
+    "settings": "Çerez ayarları",
+    "tagline": "Günlük finans. Tek bir yerde.",
+    "note": "Ücretsiz temel + isteğe bağlı Premium · lansmandan önce",
+    "top": "Başa dön",
+    "skip": "İçeriğe atla",
+    "language": "Site dili",
+    "menu": "Menü",
+    "back": "Ana sayfa",
+    "official": "KOVA Development · resmi web sitesi"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "Bu sayfa burada değil.",
+      "intro": "Bağlantı değişmiş olabilir. Eve dönün veya proje bilgilerini kontrol edin.",
+      "cards": [],
+      "actions": [
+        [
+          "Ana sayfa",
+          "index.html"
+        ],
+        [
+          "Proje durumu",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Proje durumu",
+      "title": "Günlük mali durumunuz. Bir yayın devam ediyor.",
+      "intro": "KOVA: Money & Budget, ücretsiz bir taban ve isteğe bağlı Premium ile Android'ye geliyor. Herkese açık indirmeler ve satışlar henüz mevcut değildir.",
+      "badge": "Hazırlık aşamasında · Ücretsiz + isteğe bağlı Premium",
+      "cards": [
+        [
+          "İlk sürümün getirdikleri",
+          "Giderler, bütçeler, çalışma saatleri, hedefler ve yerel kayıtlar tek uygulamada. Ücretsiz taban günlük kayıtları, temel raporları, verilerinizi ve dışa aktarmanızı korur. Premium gelişmiş raporlar, tahminler ve iş-gelir analizleri ekler."
+        ],
+        [
+          "Şimdi neredeyiz?",
+          "Uygulamayı geliştiriyoruz ve uyumluluğu, erişilebilirliği ve abonelik akışlarını kontrol ediyoruz. Seçilen satın alma ve geri yükleme testleri gerçekleştirildi ancak genel sürümün tamamı hâlâ hazırlanıyor."
+        ],
+        [
+          "Mali durumunuz yerel kalır",
+          "KOVA, mali kayıtları telefonunuzda saklar. Google Play, isteğe bağlı abonelik satın alma, geri yükleme ve erişim kontrollerini ayrı ayrı yönetir. Hiçbir finansal bulut senkronizasyonu veya banka bağlantısı sunulmaz."
+        ],
+        [
+          "İlerleme nasıl takip edilir",
+          "Önizlemeler ve lansman haberleri için @kova_money'yi Instagram'de takip edin. Fiyat ve onaylanmış mağaza bağlantısı yayınlanmadan önce paylaşılacaktır. Lansman tarihi açıklanmadı."
+        ]
+      ],
+      "note": "KOVA Development proje markasıdır. Uygulama henüz halka açık değil; Test sonuçları kamu satış onayı anlamına gelmez.",
+      "actions": [
+        [
+          "Instagram'yi takip edin",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Yol haritasını yayınlayın",
+          "roadmap.html"
+        ],
+        [
+          "Son güncellemeler",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Yol Haritası",
+      "title": "Büyümeye açık, kullanışlı bir ilk sürüm.",
+      "intro": "İlk sürüm, ücretsiz bir yerel tabanı ve isteğe bağlı Premium'yi birleştirir. Onaylanmamış bir son tarih olmadan, lansmandan önce hazırladığımız şey şu:",
+      "badge": "İlk sürüm · Android",
+      "cards": [
+        [
+          "Günlük para yönetimi",
+          "Ortak görevlerin net ve güvenilir olmasını sağlamak için harcamaları, bütçeleri ve iş kayıtlarını hassaslaştırın. Dilleri, erişilebilirliği ve telefon uyumluluğunu kontrol edin."
+        ],
+        [
+          "İsteğe bağlı yerel Premium",
+          "Gelişmiş raporları, tahminleri, iş-gelir analizlerini, satın almaları ve geri yüklemeyi kontrol etmeyi tamamlayın. Ücretli bulut, banka entegrasyonu veya yapay zeka hizmetleri vaat edilmiyor."
+        ],
+        [
+          "Google Play'ye hazırlanın",
+          "Kalan sürüm kontrollerini, abonelik bilgilerini ve belgelerini tamamlayın. Genel kullanıma sunulmadan önce fiyatı ve mağaza girişini onaylayın."
+        ],
+        [
+          "Lansmanı paylaş",
+          "Uygulama önizlemelerini ve ilerleme durumunu mevcut KOVA kanallarında yayınlayın. Sürüm onaylandığında ve mevcut olduğunda başlatma bağlantısını resmi Google Play bağlantısıyla değiştirin."
+        ]
+      ],
+      "actions": [
+        [
+          "Mevcut durum",
+          "status.html"
+        ],
+        [
+          "Instagram'de takip edin",
+          "https://www.instagram.com/kova_money/"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Gizlilik ve güvenlik",
+      "title": "Gizlilik en büyük önceliğimizdir.",
+      "intro": "KOVA'yi mümkün olduğunca güvenli hale getirmek için çalışıyoruz. Mali kayıtlar telefonunuzda kalır. İsteğe bağlı Play satın alma işlemleri ve bu web sitesi, aşağıda açıklanan ayrı veri akışlarına sahiptir.",
+      "badge": "Yerel finans · ayrı isteğe bağlı satın almalar",
+      "cards": [
+        [
+          "Cihazınızdaki finansal veriler",
+          "Ana veritabanı, yerel profil yalıtımıyla SQLCipher'yi kullanır. Telefonunuzu ve yedek şifrenizi koruyun. Şifreleme her cihaza, erişime veya veri kaybı riskine karşı bir garanti değildir."
+        ],
+        [
+          "İsteğe bağlı Premium ila Google Play",
+          "Mevcut aday, KOVA doğrulama sunucusu olmadan Play faturalandırma arayüzünü kullanıyor. Play, satın alma, geri yükleme ve yenileme erişimi için kendi ağını kullanır. KOVA, kart ayrıntılarını değil, satın alma durumunu ve imzalı satın alma ayrıntılarını alır. Mali kayıtlarınız Play aracılığıyla gönderilmez."
+        ],
+        [
+          "Yerel erişim ve geri yükleme",
+          "Mevcut Premium erişimi, 48 saate kadar başka bir bağlı Oynatma kontrolü veya telefonun yeniden başlatılmasını gerektirebilir. Satın alma işlemlerini geri yüklemek, finansal verileri geri yüklemekten farklıdır. Ücretsiz taban, kayıtlı kayıtlar ve yedekleme/dışa aktarma kullanılabilir durumda kalır; tam kamu satış kalifikasyonu beklemededir."
+        ],
+        [
+          "Yedeklemeniz sizin seçiminizdir",
+          "Parola korumalı bir manuel dışa aktarma oluşturun ve bunu güvenli bir şekilde saklayın. Kısmi bir kopyadır; harici eklentileri ayrı tutun. Bir bulut klasörü veya paylaşım eylemi, otomatik KOVA finansal senkronizasyon yerine seçtiğiniz sağlayıcıyı kullanır."
+        ],
+        [
+          "Bu web sitesi ayrı",
+          "Bu site telefon veritabanınızı okuyamıyor. Google Analytics, web sitesi ziyaretlerini ve etkileşimlerini yalnızca sizin izninizle ölçer. Reddetmek sitenin tamamını kullanılabilir durumda tutar. Çerez ayarlarında seçiminizi değiştirin; Barındırma ve sağlayıcı ayrıntılarının yeni bir genel dağıtımdan önce hâlâ onaylanması gerekiyor."
+        ],
+        [
+          "Güvenli bir şekilde raporlayın",
+          "Uygulama ve Android sürümü ve örnek verileri kullanan adımlarla contact@kovacompass.app ile iletişime geçin. Parola göndermeyin, jeton satın almayın, tam yedeklemeler veya gerçek mali kayıtlar göndermeyin."
+        ]
+      ],
+      "actions": [
+        [
+          "Uygulama gizliliği taslağı",
+          "privacy.html"
+        ],
+        [
+          "Verileriniz ve dışa aktarmanız",
+          "delete-account.html"
+        ],
+        [
+          "Web sitesi çerezleri",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Güncellemeler",
+      "title": "Ücretsiz bir üs. İsteğe bağlı Premium. Yerel finans.",
+      "intro": "24 Ekim 2026: İlk Android sürümüne yönelik mevcut plan, ücretsiz bir taban ve isteğe bağlı Premium içerir. Aşağıdaki önceki girişler tarihsel planları açıklamaktadır.",
+      "badge": "Güncel güncelleme · 24 Ekim 2026",
+      "cards": [
+        [
+          "24 Ekim 2026 · ilk sürüm modeli",
+          "İlk sürüm, gelişmiş raporlar, tahminler ve iş geliri analitiği için ücretsiz bir yerel tabanın yanı sıra isteğe bağlı Premium ile planlanıyor. Seçilen Google Play satın alma/geri yükleme senaryoları test edilmiştir; halka açık satışlara tam hazırlık hala beklemededir. Fiyatı ve lansman tarihi açıklanmadı."
+        ],
+        [
+          "21.10.2026 · Zorunlu hesap yok",
+          "Public V1 kayıt veya internet gerektirmeden çalışacak şekilde tasarlanmıştır. Çevrimiçi hizmetler gelecek için korundu ancak bu sürümde devre dışı bırakıldı."
+        ],
+        [
+          "21.10.2026 · Notlar ve veri taşınabilirliği",
+          "Düzenleyicinin Android 7 uyumluluğu düzeltildi. Yalıtılmış Android 7.1 ve 7.0 kurulumları arasında yeniden başlatma, gömülü görüntüler, dışa aktarma ve normal içe aktarma sonrasında kapsanan kalıcılığı kontrol eder. Mevcut editör de 16 KiB'de kontrol edildi."
+        ],
+        [
+          "21.10.2026 · Sonuçlar, hazırlık iddiası değil",
+          "21 Ekim'de tam gerileme: 6746 vakadan 6745'i PASS, taslak yasal belgeler için 1 FAIL, 0 yürütme hatası ve 0 atlandı. Daha sonra hedeflenen testler bu sayıya eklenmez. Bazı kullanıcı arayüzü nitelikleri ve mevcut telefon kontrolü devam ediyor."
+        ],
+        [
+          "21.10.2026 · Belgeler ve iletişim",
+          "Site, PL/EN/RU'daki mevcut Çevrimdışı V1 belge taslaklarını ve onaylanmış yayıncı ayrıntılarını kullanır. Bu, nihai yasal onay veya mağaza yayını değildir."
+        ]
+      ],
+      "actions": [
+        [
+          "Sürüm durumu",
+          "status.html"
+        ],
+        [
+          "Yayıncı ayrıntıları",
+          "contact.html"
+        ]
+      ],
+      "note": "21 Ekim 2026 tarihli girişler, önceki Çevrimdışı Ücretsiz V1 planını ve sınırlı test kapsamını koruyor. Mevcut sürüm teklifini açıklamaz veya mevcut adayı nitelendirmezler."
+    },
+    "contact": {
+      "label": "İletişim",
+      "title": "KOVA hakkında konuşalım.",
+      "intro": "Uygulamayla ilgili sorularınız mı var, bir sorun mu var yoksa gizlilik mi? Aşağıdaki kişiye yazın. Lansman haberleri için mevcut KOVA kanallarını takip edin.",
+      "badge": "KOVA Development · proje markası",
+      "cards": [
+        [
+          "Proje ve yayıncı",
+          "KOVA: Money & Budget, KOVA Development markası altında geliştirilmiştir. Onaylanan yayıncı, Polonya'da özel bir kişi olan Vadyslav Konohrai'dir. Marka, ayrı bir tescilli şirketin beyanı değildir."
+        ],
+        [
+          "Destek ve gizlilik",
+          "contact@kovacompass.app sorular, sorunlar ve gizlilik konularının genel adresidir. Bağlantı e-posta uygulamanızı açar. Yazışmalar, telefonunuzda saklanan mali verilerden ayrıdır."
+        ],
+        [
+          "Bir sorunu açıklayın",
+          "Uygulama sürümünü, telefon modelini, Android sürümünü ve olanları ekleyin. Örnek miktarlar kullanın ve kişisel ayrıntıları ekran görüntülerinden kaldırın. Tam bir veritabanı eklemeyin veya jeton satın almayın."
+        ],
+        [
+          "Yayınlanma ve kullanılabilirlik",
+          "Serbest tabanlı ve isteğe bağlı Premium içeren bir Android sürümü hazırlık aşamasındadır. Herkese açık indirme ve satış henüz mevcut değil. Lansman haberleri için Instagram'yi takip edin; çıkış tarihini açıklamadık."
+        ]
+      ],
+      "note": "Asla şifreleri, şifreleme anahtarlarını veya gerçek mali kayıtları göndermeyin. Uygulama belgeleri nihai onayı bekleyen taslak olarak kalır.",
+      "actions": [
+        [
+          "Bir e-posta yaz",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Instagram'yi takip edin",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Gizlilik bilgileri",
+          "privacy.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Verileriniz",
+      "title": "Yerel verileri dışa aktarın ve silin.",
+      "intro": "Finansal profiliniz telefonunuzda kalır; Google Play hesabından veya aboneliğinden ayrıdır. Yerel kayıtları, yedeklemeleri ve dışa aktarmaları siz kontrol edersiniz.",
+      "badge": "Çevrimiçi hesap veya senkronizasyon yok",
+      "cards": [
+        [
+          "Önce ihtiyacınız olanı kaydedin",
+          "Veri ayarlarında, desteklenen kayıtların manuel olarak şifrelenmiş şekilde dışa aktarılmasını kullanın ve bir hedef seçin. Şifreyi saklayın. Bu kısmi bir dışa aktarma işlemidir; her ayarın, anahtarın ve yükleme dosyasının bir kopyası değildir."
+        ],
+        [
+          "Yerel verileri sil",
+          "Kurulumun tamamına ilişkin verileri kaldırmak için Android ayarlar → Uygulamalar → KOVA → Depolama → Verileri temizle'yi açın veya KOVA'yi kaldırın. Etiketler sisteme göre değişir. Geçerli bir yedekleme olmadan bu durum geri alınamaz; bu kurulumdaki her yerel profili etkileyebilir."
+        ],
+        [
+          "Uygulamanın dışındaki dosyalar",
+          "Dışa aktarılan kopyaları, orijinal fotoğrafları ve diğer sağlayıcıların elinde bulunan dosyaları ayrı ayrı silin. Bir notun içine yerleştirilmiş bir görüntü, dışa aktarmaya dahil edilebilir; harici bir URI yalnızca bir referanstır. Yayıncı yerel veritabanınıza uzaktan erişemez."
+        ],
+        [
+          "Yayıncıya mesajlar",
+          "E-postayla paylaşılan veriler için contact@kovacompass.app ile iletişime geçin. Finansal yedekleri eklemeyin. Bu sayfa verileri silmez veya otomatik istek göndermez."
+        ],
+        [
+          "Abonelik ayrıdır",
+          "Uygulama verilerinin silinmesi veya KOVA'nin kaldırılması Premium aboneliğini iptal etmez. Google Play'de yenilemeyi yönetin. Satın alınanların geri yüklenmesi mali kayıtları geri yüklemez ve bir yedeğin içe aktarılması Premium hakkını vermez."
+        ]
+      ],
+      "actions": [
+        [
+          "Verilerle ilgili iletişim",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Tam gizlilik politikası",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "SEÇİMİNİZ",
+    "title": "Sizin koşullarınıza göre gizlilik",
+    "body": "Web sitesi kullanımını Google Analytics ile ölçebilir miyiz? Hangi gösterilerin ve bilgilerin yararlı olduğunu öğrenmemize yardımcı olur. Google, uygulamadan mali veriler değil, ziyaret, cihaz ve etkileşim verilerini ve çerez tanımlayıcılarını alır.",
+    "note": "Analitik isteğe bağlıdır. Reddetmek size aynı erişimi sağlar. Google Analytics'ye izinsiz bağlanmıyoruz.",
+    "accept": "Analitiği kabul et",
+    "reject": "Analitiği reddet",
+    "settings": "Seçimi özelleştir",
+    "save": "Seçimi kaydet",
+    "essential": "Temel ayarlar",
+    "essentialBody": "Dil ve gizlilik seçiminiz. Her zaman aktif.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Ziyaret ve sunum kullanım istatistikleri. Reklam veya reklam kişiselleştirme yok.",
+    "privacy": "Gizlilik",
+    "cookies": "Çerez ayrıntıları",
+    "foot": "Seçiminizi 180 gün boyunca hatırlıyoruz. Alt bilgideki \"Çerez ayarları\"nı kullanarak istediğiniz zaman değiştirebilirsiniz."
+  },
+  "legal": {
+    "language": "Dil",
+    "back": "Ana sayfa",
+    "source": "KOVA uygulaması tarafından kullanılan içerik",
+    "loading": "Belge yükleniyor…",
+    "error": "Belge yüklenemedi.",
+    "privacy": "Gizlilik",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerezler",
+    "analyticsTitle": "Bu web sitesinde gizlilik",
+    "analyticsCopy": "Bu site telefon veritabanınızı okuyamıyor. Google Analytics, web sitesi ziyaretlerini ve etkileşimlerini yalnızca sizin izninizle ölçer. Reddetmek sitenin tamamını kullanılabilir durumda tutar. Çerez ayarlarında seçiminizi değiştirin; Barındırma ve sağlayıcı ayrıntılarının yeni bir genel dağıtımdan önce hâlâ onaylanması gerekiyor. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  },
+  "review": "Planlanan ilk KOVA sürümü için taslak: ücretsiz bir taban ve isteğe bağlı Premium. 24 Ekim 2026 tarihli mevcut uygulama belgeleriyle eşleşir. Yürürlük tarihi, nihai onay ve geri kalan satıcı ve hizmet ayrıntıları beklemededir. Bu aktif bir abonelik teklifi değildir.",
+  "seo": {
+    "titles": {
+      "404": "Sayfa Bulunamadı — KOVA",
+      "index": "KOVA: Money & Budget — Android finans, Ücretsiz + Premium",
+      "status": "KOVA for Android — Uygulama Durumu ve Kullanılabilirliği",
+      "roadmap": "KOVA — Ücretsiz ve Premium Android Sürüm Yol Haritası",
+      "updates": "KOVA — Finans Uygulaması Haberleri ve Geliştirme Güncellemeleri",
+      "security": "KOVA — Yerel Mali Veriler, Gizlilik ve Premium",
+      "contact": "KOVA ile iletişime geçin — Uygulama Desteği ve Sorular",
+      "delete-account": "KOVA — Yerel Verileri ve Profilleri Sil",
+      "privacy": "KOVA Gizlilik Politikası - Uygulama ve Web Sitesi",
+      "terms": "KOVA Free ve Premium Şartları - Taslak",
+      "cookies": "KOVA — Analiz duraklatıldı."
+    },
+    "descriptions": {
+      "404": "Bu KOVA sayfası mevcut değil. Uygulamaya genel bakışa, güncellemelere veya iletişime dönün.",
+      "index": "Android için KOVA ile harcamaları, bütçeleri ve iş gelirini planlayın. Yerel mali veriler, ücretsiz bir taban ve isteğe bağlı Premium. İlk halka açık yayın hazırlık aşamasında.",
+      "status": "Android için KOVA, ücretsiz bir taban ve isteğe bağlı Premium ile ilk sürümü hazırlıyor. Kapsamı, ilerlemeyi ve lansman kanallarını görün. İndirmeler henüz kullanılamıyor.",
+      "roadmap": "KOVA'nin Android sürümünün hazırlıklarını takip edin: ücretsiz bir yerel taban, isteğe bağlı Premium, son kontroller ve Google Play. Onaylanmamış lansman tarihi yok.",
+      "updates": "KOVA proje güncellemeleri: çevrimdışı Android finans, orijinal uygulama ekranları, veri aktarımı ve ilk genel sürüme doğru ilerleme.",
+      "security": "Mali kayıtlar telefonunuzda kalır. KOVA'nin yerel şifrelemeyi, isteğe bağlı Google Play satın alımlarını ve izin tabanlı web sitesi analizlerini nasıl ayırdığını öğrenin.",
+      "contact": "Uygulama soruları, sorun raporları ve gizlilik talepleri için contact@kovacompass.app adresinden KOVA ile iletişime geçin. Lütfen finansal veri göndermeyin.",
+      "delete-account": "Yerel KOVA verilerini, profillerini ve dışa aktarımlarını yönetin ve silin. Premium yenilemesi Google Play'de ayrı olarak yönetilir; kaldırma işlemi onu iptal etmez.",
+      "privacy": "Taslak KOVA gizlilik politikası: yerel uygulama verileri, dışa aktarmalar, iletişim ve isteğe bağlı web sitesi analizleri. Yayınlanmadan önce onay gereklidir.",
+      "terms": "Taslak KOVA Free ve Premium terimleri: yerel özellikler, isteğe bağlı abonelik, Google Play satın alma ve geri yükleme, yedeklemeler ve tahminlerin sınırları.",
+      "cookies": "KOVA: Daha önce izin vermiş olsanız bile site Google Analytics veya analiz çerezlerini çalıştırmaz."
+    }
+  },
+  "extra": {
+    "demo": "kurgusal demo verileri",
+    "enlarge": "Büyüt",
+    "contents": "İçindekiler",
+    "publicAddress": "Genel EN adresi:",
+    "language": "Site dili",
+    "pendingDecision": "Yayınlanmadan önce sahip onayı bekleniyor"
+  },
+  "cookies": "<section data-doc-lang=\"tr\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Analiz duraklatıldı.</h1><p>Daha önce izin vermiş olsanız bile site Google Analytics veya analiz çerezlerini çalıştırmaz.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Seçtiğiniz dili hatırlarız. Teknik çerezler analizin devre dışı olduğunu da hatırlayabilir.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Önceki analiz çerezleri bir sonraki ziyaretinizde silinir. Bu işlem Google’a daha önce gönderilen verileri silmez.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=tr\" data-shell-label=\"privacy\">Gizlilik Politikası</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
+}

@@ -3,7 +3,7 @@ import {readFile, writeFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const root = new URL('../', import.meta.url);
 const source = await readFile(new URL('landing.js', root), 'utf8');
-const context = {};
+const context = {window:{}};
 vm.runInNewContext(source.slice(source.indexOf('  const videoSlides'), source.indexOf('  const supported')) + ';this.slides=videoSlides;', context);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const figures = context.slides.map((slide, index) => `<figure data-screen-index="${index}"><button type="button" data-lightbox="${esc(slide.image)}" aria-label="Powiększ: ${esc(slide.title.pl)}"><img src="${esc(slide.image)}" alt="${esc(slide.title.pl)} — KOVA, fikcyjne dane demonstracyjne" loading="lazy" width="1080" height="2400" /></button><figcaption><b>${esc(slide.title.pl)}</b><span>${esc(slide.caption?.pl || slide.copy.pl)}</span></figcaption></figure>`).join('');

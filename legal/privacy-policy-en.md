@@ -29,7 +29,9 @@ Currency and language searches filter lists on your device; these queries are no
 
 ## 3. Local finances and optional purchases
 
-The Free base stores financial records locally and requires no KOVA cloud account. The owner approved the Premium feature package: advanced local reports/comparisons, forecasts and work-income analytics. Calculations need sufficient relevant records. Purchase, restore and access refresh use Google Play and connectivity; a Google Play account is not a KOVA financial profile. Firebase Authentication, Google sign-in inside KOVA, financial cloud sync, Cloud Storage/Functions, advertising, Analytics/Crashlytics, push, Remote Config, Wear, online Family Sharing, market/bank APIs and AI/Command Layer remain disabled.
+Optional subscription for advanced local tools. Everyday finance, your records and backup remain free. No KOVA account required. Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Pro tools are hidden without Premium. After activation, analyses appear only when their data requirements are met. Tools for entering data remain available to get started. Tax calculations cover only supported countries and tax years. Premium does not add cloud sync.
+
+KOVA · 2026-10-29 · DRAFT
 
 CURRENT CANDIDATE — NOT APPROVED FOR PUBLIC SALES: the owner selected client-only verification, without a KOVA verification server. KOVA communicates with the Google Play app through Android's billing interface. The release removes KOVA's INTERNET permission; Google Play uses its own network and account/payment processing. KOVA observes connection availability, which does not itself establish that a cached Play purchase is current. This is not a claim that the entire phone is offline.
 

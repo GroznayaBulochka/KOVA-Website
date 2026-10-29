@@ -29,7 +29,9 @@ Listas de filtros de búsqueda de moneda e idioma en su dispositivo; Estas consu
 
 ## 3. Finanzas locales y compras opcionales.
 
-La base Free almacena registros financieros localmente y no requiere una cuenta en la nube KOVA. El propietario aprobó el paquete de funciones Premium: ​​informes/comparaciones locales avanzados, pronósticos y análisis de ingresos laborales. Los cálculos necesitan suficientes registros relevantes. Compre, restaure y acceda al uso de actualización Google Play y conectividad; una cuenta Google Play no es un perfil financiero KOVA. Firebase La autenticación, el inicio de sesión de Google dentro de KOVA, la sincronización financiera en la nube, el almacenamiento/funciones en la nube, la publicidad, los análisis/crashlytics, la inserción, la configuración remota, el uso, el uso compartido de la familia en línea, las API de mercado/banco y la capa de comando/IA permanecen deshabilitados.
+Suscripción opcional a herramientas locales avanzadas. Las finanzas cotidianas, tus datos y las copias de seguridad siguen siendo gratuitos. No necesitas una cuenta KOVA. Vida · Pro. Precios · Pro. Vault · Pro. Premium incluye trabajo e ingresos, calendario financiero, todos los informes, escaneo de recibos y centro fiscal. El registro básico, las notas, el cifrado, las copias, la restauración y la exportación siguen siendo gratuitos. Algunas herramientas necesitan suficiente historial financiero. Los cálculos fiscales solo cubren países y ejercicios admitidos. Premium no añade sincronización en la nube.
+
+KOVA · 2026-10-29 · DRAFT
 
 CANDIDATO ACTUAL — NO APROBADO PARA VENTAS PÚBLICAS: el propietario seleccionó la verificación client-only, sin un servidor de verificación KOVA. KOVA se comunica con la aplicación Google Play a través de la interfaz de facturación de Android. La versión elimina el permiso de INTERNET del KOVA; Google Play utiliza su propia red y procesamiento de cuentas/pagos. KOVA observa la disponibilidad de la conexión, lo que no establece por sí solo que una compra de Play almacenada en caché esté vigente. Esto no es una afirmación de que todo el teléfono esté desconectado.
 

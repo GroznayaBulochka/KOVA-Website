@@ -10,7 +10,7 @@
     "navSecurity": "安全性",
     "navLegal": "文件",
     "navRoadmap": "路線圖",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "開支同預算。<br><em>工作收入。</em>",
     "heroCopy": "追蹤開支、計劃預算同埋估計你工作時間嘅收入。你嘅財務會留喺你部手機度。嚟緊 Android 有免費底座同可選 KOVA Premium 。",
     "heroPrivacy": "你嘅財務資料會留喺你部手機入面。",
@@ -18,7 +18,7 @@
     "watchVideo": "睇下個應用程式",
     "pauseVideo": "暫停",
     "playVideo": "玩",
-    "releaseNote": "喺推出之前 · 仲未有公開下載。",
+    "releaseNote": "Beta · 喺推出之前 · 仲未有公開下載。",
     "trustPrivacy": "私隱第一",
     "trustPrivacyCopy": "本地資料庫，冇自動上載",
     "trustReports": "實用嘅摘要",
@@ -32,16 +32,16 @@
     "featureBudgets": "預算",
     "featureBudgetsCopy": "限制同進步",
     "featureWork": "工作同收入",
-    "featureWorkCopy": "工時同出糧日",
+    "featureWorkCopy": "Pro · 工時同出糧日",
     "featureCalendar": "日曆",
-    "featureCalendarCopy": "金融事件",
+    "featureCalendarCopy": "Pro · 金融事件",
     "featureReports": "報告",
-    "featureReportsCopy": "趨勢同預測",
+    "featureReportsCopy": "Pro · 趨勢同預測",
     "featureGoals": "目標",
     "featureGoalsCopy": "計劃同進度",
     "clarityKicker": "個應用程式",
     "clarityTitle": "睇吓入面 KOVA 。",
-    "clarityCopy": "真實嘅 KOVA 屏幕，仲有虛構嘅示範數據。探索日常財務、預算同本地工具。主圖庫顯示波蘭語介面。",
+    "clarityCopy": "應用程式介面為英文 · 虛構嘅示範數據. 功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。 Free / Pro.",
     "clarityAccounts": "帳戶、交易同類別",
     "clarityReports": "報告同預測",
     "clarityWork": "工作同收入",
@@ -54,10 +54,10 @@
     "screenFeatures": "淺色主題",
     "screenFeaturesCopy": "同一個數據，唔同嘅外觀",
     "screenWork": "本地筆記",
-    "screenWorkCopy": "儲存喺裝置上面 · 2026年10月21日",
+    "screenWorkCopy": "應用程式介面為英文 · 2026-10-29",
     "securityKicker": "私隱",
     "securityTitle": "私隱係我哋嘅首要任務。",
-    "securityCopy": "KOVA 嘅財務記錄會留喺你部手機。我哋努力令應用程式盡量安全。 可選擇 Premium 購買和還原使用 Google Play 單獨使用；呢個網站嘅分析需要你嘅同意。",
+    "securityCopy": "你嘅財務記錄會留喺呢部裝置。唔需要 KOVA 雲端帳戶、註冊或者財務雲端同步。 購物係透過 Google Play 檢查，而唔需要 KOVA 伺服器。喺連接咗檢查之後，存取權可以離線保持最多 48 個鐘。重新啟動或者有重大嘅時鐘變動需要再次檢查。呢個應用程式冇確切嘅訂閱到期日；請參閱 Google Play 。",
     "securityModel": "睇下安全性",
     "secureLocal": "本地加密",
     "secureOwner": "數據隔離",
@@ -103,16 +103,16 @@
     "faqEstimateA": "唔係。佢哋係根據記錄咗嘅數據同配置進行嘅估計。佢哋可能同實際嘅付款唔同，亦都唔會取代僱主文件或者個人建議。",
     "faqWebsiteQ": "呢個網站可唔可以存取我嘅財務？",
     "faqWebsiteA": "唔係。個網站會介紹個項目，而且唔會連接到你手機上面嘅財務資料庫。可選嘅網站分析取決於你嘅同意。",
-    "altHome": "KOVA 離線 V1：主畫面，有虛構嘅財務歷史",
-    "altProfile": "KOVA 離線 V1：三個本地示範帳戶",
-    "altFeatures": "KOVA 免費 V1：模擬器上面嘅淺色主題",
-    "altWork": "KOVA 離線 V1：模擬器上面儲存咗嘅測試筆記",
+    "altHome": "KOVA: 你今日嘅財務狀況 — 虛構嘅示範數據. 應用程式介面為英文",
+    "altProfile": "KOVA: 帳戶 — 虛構嘅示範數據. 應用程式介面為英文",
+    "altFeatures": "KOVA: 你今日嘅財務狀況 — 虛構嘅示範數據. 應用程式介面為英文",
+    "altWork": "KOVA: 工作同收入 · Pro — 應用程式介面為英文 · Pro · 2026-10-29",
     "previous": "上一個畫面",
     "next": "下一個畫面",
     "navigation": "主要導航",
     "pageTitle": "KOVA — 財務集中喺一個地方",
     "faqFreeQ": "KOVA 會唔會免費？",
-    "faqFreeA": "係呀。第一版計劃係免費底座同可選嘅 KOVA Premium 。日常錄音、基本報告、存取你嘅記錄、本地加密、備份、匯出同刪除都係免費嘅。 Premium 涵蓋高級報告、預測同工作收入分析。價錢會喺推出前公佈；仲未有公開發售。",
+    "faqFreeA": "KOVA Premium. 人生規劃師 · Pro. 價格記錄 · Pro. Vault · Pro. Premium 包括工作與收入、財務日曆、所有報告、收據掃描同稅務中心。基本記帳、筆記、加密、備份、還原同資料匯出仍然免費。 已儲存資料仍可存取。喺呢個模組進行新操作需要 Premium。備份同匯出仍然免費。 試用只會喺你確認購買 Google Play 提供畀你嘅合資格優惠後開始。 免費30日，之後 購買前 Google Play 顯示嘅價格（每月收費 / 每年收費一次）。如冇喺試用完結前取消，將自動續訂。可用資格由 Google Play 決定。",
     "tourNote": "真實嘅應用程式畫面 · 虛構嘅示範資料 · 唔係錄影",
     "tourChapters": "揀個導覽畫面",
     "factAndroid": "Android 7.0 +",
@@ -121,7 +121,7 @@
     "faqBackupQ": "我點樣保護我嘅數據或者換手機？",
     "faqBackupA": "建立受密碼保護嘅手冊匯出，然後將佢安全噉儲存喺手機外面。匯入需要確認同埋取代所選設定檔嘅支援資料。呢個係部分副本，而唔係完整嘅應用程式圖片：包括嵌入式筆記圖片，但係外部附件同收據相片需要分開副本。發佈者唔可以喺雲端還原資料，亦唔可以恢復你嘅備份密碼。",
     "faqOcrQ": "收據掃描係咪可以離線運作？",
-    "faqOcrA": "OCR 使用同應用程式捆綁嘅模型。影張相，或者透過 Android 挑選器喺你嘅相簿入面揀一張。識別可能會錯 — 喺儲蓄之前檢查金額、貨幣同日期。拒絕相機存取唔會阻止檔案選擇。",
+    "faqOcrA": "OCR 使用同應用程式捆綁嘅模型。影張相，或者透過 Android 挑選器喺你嘅相簿入面揀一張。識別可能會錯 — 喺儲蓄之前檢查金額、貨幣同日期。拒絕相機存取唔會阻止檔案選擇。 Pro: 已儲存資料仍可存取。喺呢個模組進行新操作需要 Premium。備份同匯出仍然免費。",
     "faqDeviceQ": "KOVA 係針對邊啲裝置同受眾？",
     "faqDeviceA": "KOVA 正為運行 Android 7.0或更高版本嘅 Android 手機做準備。 KOVA 介面支援 27 種語言；兼容性同語言審查仲進行緊。適合年滿 13 歲嘅用戶，視乎店舖同當地嘅要求而定。冇提供 iOS 或者手錶版本。",
     "aboutKicker": "咩係 KOVA ？",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "知道你嘅預算仲有啲咩",
     "aboutGoalsCopy": "設定類別上限，同埋喺你嘅消費嗰陣檢查進度。計劃下一次購買，清楚睇到剩低嘅嘢。",
     "aboutIncomeTitle": "計劃改變收入",
-    "aboutIncomeCopy": "記錄工作時間同工資嚟估計收入。將你嘅工作時間表同每月預算納入一個計劃。",
-    "aboutPrivacy": "財務記錄會保留喺你部手機上面。冇銀行連線或者 KOVA 雲端帳戶。可選嘅 Premium 購買係透過 Google Play 單獨處理。",
+    "aboutIncomeCopy": "Pro · 記錄工作時間同工資嚟估計收入。將你嘅工作時間表同每月預算納入一個計劃。",
+    "aboutPrivacy": "你嘅財務記錄會留喺呢部裝置。唔需要 KOVA 雲端帳戶、註冊或者財務雲端同步。 用 Google Play 還原支票購物。佢唔會還原或者同步財務記錄。 Premium 喺呢個安裝上面適用於跨本地設定檔。重新安裝同另一部裝置需要另外進行購買檢查。你可以透過 Google Play 更改你嘅計劃。",
     "aboutAction": "請參閱 KOVA 嘅行動",
     "followLaunch": "喺 Instagram 追蹤 KOVA",
     "downloadApp": "喺 Google Play 上面攞到",
     "launchChannel": "喺 Instagram · @kova_money 上發佈消息",
-    "workScreenNote": "工作同收入 · 較早嘅示範畫面；個設計可能會改變。",
+    "workScreenNote": "應用程式介面為英文 · Pro · 2026-10-29",
     "plansKicker": "計劃咗第一個發佈",
     "plansTitle": "一個免費嘅基地。更多關於 Premium 。",
-    "plansCopy": "由日常嘅錢管理開始。如果你需要更深入嘅局部分析，可以選擇 Premium 。仲未有公開下載同銷售。",
+    "plansCopy": "呢個係測試版。應用程式嘅部分部分仲喺度改良緊，可能會出現錯誤。 Pro 只包括下面列出嘅工具，而唔係未完成或者承諾嘅未來功能。買之前睇吓啲限制。 部分工具需要足夠嘅財務紀錄。稅務計算只適用於支援嘅國家同課稅年度。Premium 唔會加入雲端同步。",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "每日記錄同控制你自己嘅數據。",
-    "planFreeOne": "開支、預算同基本報告",
-    "planFreeTwo": "工作記錄同埋存取儲存咗嘅數據",
-    "planFreeThree": "本地加密、備份、匯出同刪除",
+    "planFreeOne": "帳戶、交易同類別",
+    "planFreeTwo": "預算 · 目標 · 定期付款 · 筆記",
+    "planFreeThree": "加密、備份同數據匯出",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "可選訂閱，以獲得更詳細嘅本地分析資料。",
-    "planPremiumOne": "進階報告同比較",
-    "planPremiumTwo": "根據你嘅記錄進行預測",
-    "planPremiumThree": "工作收入分析",
-    "plansNote": "價錢同推出供應情況會喺發佈之前公佈。有啲分析需要足夠嘅歷史。 Premium 購買和存取刷新需要 Google Play 和連線；自由基地仍然可用。",
+    "planPremiumCopy": "可選擇訂閱高級本地工具。日常財務、你嘅記錄同備份都係免費嘅。唔需要 KOVA 戶口。",
+    "planPremiumOne": "工作同收入 · 財務日曆",
+    "planPremiumTwo": "報告 · 本地收據 OCR · 稅務中心",
+    "planPremiumThree": "金庫 · 人生規劃師 · 價格記錄",
+    "plansNote": "KOVA Premium · 試用只會喺你確認購買 Google Play 提供畀你嘅合資格優惠後開始。 免費30日，之後 購買前 Google Play 顯示嘅價格（每月收費 / 每年收費一次）。如冇喺試用完結前取消，將自動續訂。可用資格由 Google Play 決定。",
     "plansDetails": "睇吓訂閱草稿",
     "closingKicker": "留喺發佈會附近",
     "closingTitle": "為更清晰嘅錢財計劃留出空間。",
     "closingCopy": "喺 Instagram 上面追蹤 KOVA Development ，睇下應用程式預覽同發佈消息。第一次公開發佈仲係準備緊。",
     "closingSecondary": "你亦可以喺 TikTok 搵到 KOVA 。",
-    "forecastNote": "每種分析都需要足夠數據。揀 Premium 前，先睇清楚要求。",
+    "forecastNote": "功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。",
     "faqDataQ": "各種分析需要幾多數據？",
     "faqDataA": "<p>你一開始就可以記錄開支同預算。基本報表需要最少 3 個唔同日子嘅 5 筆交易。</p><ul><li>浮動開支估算：最少觀察 7 日，同埋最近 3 個月有 2 筆開支。呢個只係一個計算部分嘅門檻，唔係成個 Premium 嘅門檻。</li><li>進階報表：最少 60 日歷史、75 筆交易、20 個有交易嘅日子，同埋最少 1 個預算或目標。全部條件都要符合。</li><li>預測：最少 90 日歷史、分佈喺 3 個唔同月份嘅 100 筆交易，同埋固定收入或定期付款（已記錄或偵測到）。全部條件都要符合。</li></ul><p>買 Premium 唔能夠代替所需歷史。系統會計入個人檔案嘅記錄，包括正確匯入嘅數據；淨係安裝日期唔夠。預測始終係估算。</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "經常性帳單有自己嘅到期日同付款記錄。 KOVA 整理記錄；佢唔會轉帳或者收錢。"
     },
     {
-      "title": "報告",
+      "title": "報告 · Pro",
       "caption": "記錄咗嘅條目摘要",
       "copy": "圖表同摘要係由 KOVA 喺本地交易中計算出嚟。呢啲數據係虛構嘅，但係個螢幕同計算係嚟自執行緊嘅應用程式。"
     },
     {
-      "title": "財務日曆",
+      "title": "財務日曆 · Pro",
       "caption": "活動同到期日喺一個視圖入面",
       "copy": "記錄咗全個月嘅交易同帳單日期。揀一日就可以睇到佢嘅活動，而唔使搜尋整個記錄。"
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "第一個發佈會帶嚟啲咩",
-          "開支、預算、工作時間、目標同本地記錄喺一個應用程式入面。免費基礎會保留日常記錄、基本報告、你嘅數據同埋匯出。 Premium 加入咗進階報告、預測同工作收入分析。"
+          "人生規劃師 · Pro. 價格記錄 · Pro. Vault · Pro. Premium 包括工作與收入、財務日曆、所有報告、收據掃描同稅務中心。基本記帳、筆記、加密、備份、還原同資料匯出仍然免費。 功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。"
         ],
         [
           "我哋而家喺邊度",
@@ -301,7 +301,7 @@
         ],
         [
           "可選本地 Premium",
-          "完成檢查進階報告、預測、工作收入分析、購買同埋還原。冇承諾過付費雲端、銀行整合或者 AI 服務。"
+          "人生規劃師 · Pro. 價格記錄 · Pro. Vault · Pro. Premium 包括工作與收入、財務日曆、所有報告、收據掃描同稅務中心。基本記帳、筆記、加密、備份、還原同資料匯出仍然免費。 部分工具需要足夠嘅財務紀錄。稅務計算只適用於支援嘅國家同課稅年度。Premium 唔會加入雲端同步。"
         ],
         [
           "為 Google Play 做準備",
@@ -347,7 +347,7 @@
         ],
         [
           "呢個網站係獨立嘅",
-          "呢個網站讀唔到你部電話資料庫。 Google Analytics 只有喺你同意嘅情況下先會衡量網站瀏覽同互動。拒絕會保持整個網站可用。喺 Cookie 設定入面更改你嘅選擇；喺新嘅公開部署之前，仍然需要確認寄存同供應商嘅詳情。"
+          "網站分析同分析 Cookie 已停用。網站可以記住語言，但無法存取應用程式入面嘅財務記錄。"
         ],
         [
           "安全報告",
@@ -375,6 +375,10 @@
       "intro": "2026年10月24日：目前第一個 Android 發佈嘅計劃包括免費底座同可選嘅 Premium 。下面嘅早期條目描述咗歷史計劃。",
       "badge": "目前更新 · 2026年10月24日",
       "cards": [
+        [
+          "2026-10-29 · KOVA 測試版",
+          "人生規劃師 · Pro. 價格記錄 · Pro. Vault · Pro. Premium 包括工作與收入、財務日曆、所有報告、收據掃描同稅務中心。基本記帳、筆記、加密、備份、還原同資料匯出仍然免費。 功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。 應用程式介面為英文."
+        ],
         [
           "2026年10月24日 · 首次發佈嘅型號",
           "第一個版本計劃有免費嘅本地基地同埋可選嘅 Premium ，用嚟進行進階報告、預測同工作收入分析。已測試指定 Google Play 購買 / 還原方案；完全公開銷售準備仍然待處理。價錢同推出日期未公佈。"
@@ -513,9 +517,9 @@
     "terms": "使用條款",
     "cookies": "曲奇餅",
     "analyticsTitle": "呢個網站嘅私隱",
-    "analyticsCopy": "呢個網站讀唔到你部電話資料庫。 Google Analytics 只有喺你同意嘅情況下先會衡量網站瀏覽同互動。拒絕會保持整個網站可用。喺 Cookie 設定入面更改你嘅選擇；喺新嘅公開部署之前，仍然需要確認寄存同供應商嘅詳情。 Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "網站分析同分析 Cookie 已停用。網站可以記住語言，但無法存取應用程式入面嘅財務記錄。 Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "計劃中嘅第一個 KOVA 版本嘅草稿：一個免費嘅基礎同埋可選嘅 Premium 。同 2026 年 10 月 24 號嘅現時應用程式文件相符。生效日期、最終核准同埋剩餘嘅賣家同服務詳情仲有待處理。呢個唔係有效嘅訂閱優惠。",
+  "review": "KOVA · DRAFT · 喺發佈之前等緊擁有者確認. Free 同 Pro 範圍、Google Play 訂閱及取消、測試版限制同你嘅權利。",
   "seo": {
     "titles": {
       "404": "搵唔到頁面 — KOVA",

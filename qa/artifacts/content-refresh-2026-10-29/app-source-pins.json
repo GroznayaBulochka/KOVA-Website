@@ -1,0 +1,449 @@
+{
+  "recordedAt": "2026-10-29T08:37:50.513Z",
+  "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
+  "artifacts": [
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-pl.md",
+      "destination": "legal/privacy-policy-pl.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "1c5a009476c430382890ce5f84972b88e084a4b29856118166a6cf3786afb7a9",
+      "sha256": "2891be800ece7d6c66ed9ce436d54b7f4bc6d87a3950d6e34f2e53add95b2909",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-zh.md",
+      "destination": "legal/privacy-policy-zh.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "42d2e1c6c76d0aad400bff56dee706f191ff7dff9ffd7a95607daa82fc0c6051",
+      "sha256": "0b4dba8b58c2bd5576f4063909a257f0f6bef3c809bb1e3d700fbdca4ea786b6",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-yue.md",
+      "destination": "legal/privacy-policy-yue.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "1afb4ec638e4fc8c48db0b1d85bdbac24b18ab7cd20c49b33781bda6395ec5b8",
+      "sha256": "e57968c49c8b099124340aafde4bfcfcfecd25f7ad19f4f6b661c161278d7a0c",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-es.md",
+      "destination": "legal/privacy-policy-es.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "37c5b9fdbcfa4b7b0200d2e342fe06a197a5352c95d4ee967d7f47093f4e2965",
+      "sha256": "7edae43f96bf571a463bba357bd38827fcf236532406e3a599612b9c8cc6c67b",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-en.md",
+      "destination": "legal/privacy-policy-en.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "c16801be329b4c23129e230024946292dc63e1afe876a09114eda32a74f5b0c1",
+      "sha256": "7f014346b82e49165e43472f6645bd4a7b2139f5cf7130876a3d1fc41ede140b",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ar.md",
+      "destination": "legal/privacy-policy-ar.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "39681e0fef09b22582159899779fb96f808d8bf30d04047c25edd6f7526b611c",
+      "sha256": "3269b241c0a7b66f9a7d3bc0ba56b295ab91d0b2a59d1d2feffb2d601bcc9107",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-hi.md",
+      "destination": "legal/privacy-policy-hi.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "8f9d833243992a4de41a449cde13e3c5ad45efae087636a89e2cb389f5b1b25b",
+      "sha256": "e27717a23720291e8f3cb869a00aa3eda16e62081e3bed1ddba23559062f7da7",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-bn.md",
+      "destination": "legal/privacy-policy-bn.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "1e3326388933589fc09a326d41f8b39d945210c4560e7bbdb2a149669b8c566e",
+      "sha256": "8b01ed6de0389e16dec982fd4fedc64ac06e7ec57ef69a6d9d6bccfec09beb13",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-pt.md",
+      "destination": "legal/privacy-policy-pt.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "f0387e4692f01b195a0e71be1ad61672a17a0f204a0b4650be7eaa36f5821c00",
+      "sha256": "bdfbf34e1fe18a15aa0b0acbbd9b41d5ac6b8dd1c9bfceaeb804c3fc5654f033",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ru.md",
+      "destination": "legal/privacy-policy-ru.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "4f0462c1f4003c0644656ee165943bd493c7a0afbc8ef0a24c7e2f58976b6bb0",
+      "sha256": "c2f6439866860fb203ea72bc1b80b29ca7f5cf049b65257f23caac37b0fa3217",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-uk.md",
+      "destination": "legal/privacy-policy-uk.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "754d96d272cc62bf9c1bad8848f61247453716e22939f94082f82d91b9a5541a",
+      "sha256": "a8c085932a6d5b9b1dd40efe9c950ac77cb602e2236b736747da3582140de83a",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ja.md",
+      "destination": "legal/privacy-policy-ja.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "4f2ec8a58f8312f5b686c7dead44e76ff39252fac4db613247e2fc1de7b0c8ac",
+      "sha256": "6742dd16ff16df970f4b82fb6a0768c369d8b5aa602885dacf1563da663fdf3c",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-pnb.md",
+      "destination": "legal/privacy-policy-pnb.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "198003d66a86ab88f301a62ad6e5054f1936436be2efc36e0899c74c86b3c1a7",
+      "sha256": "ef20413f16139049fff8d428da4d75430d70aa1f803da63c03bebf3dab0e2e64",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-jv.md",
+      "destination": "legal/privacy-policy-jv.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "5f9b3bf8d8da20ee61acbc246ed36b9ba00028979627e442e10a4797649c9e39",
+      "sha256": "e7132ab68cb342a23f7bc052bd972b3cfce25f7de6f8ab517b88a0b309837cbd",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ko.md",
+      "destination": "legal/privacy-policy-ko.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "0dd4d08ee625882b111711a59f441d23a264d5f5ffc866a3283a2016aa4314b5",
+      "sha256": "54813e2f5f1563cdf5d0cf2a4f02a66965d4d29815165feaa0a1d3e4d7f085ca",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-de.md",
+      "destination": "legal/privacy-policy-de.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "7058f7ff77e6b6ff85a17ae2b4b7fd57cc7f4ee0501d5d7b1b1555b2cbe1718e",
+      "sha256": "b8d851ea59685f9e227dba9783841e6a0488e90d30eb01dc6e7e8199330d8df7",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-fr.md",
+      "destination": "legal/privacy-policy-fr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "09e3a76ac9ed02bbecd181fda14615e8380589311cb41f49265db57f429abb66",
+      "sha256": "1637eac0a0b0d7b11dd3ea0fe5ad755a0f6a05003476204ca3c5902d26cda6a6",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-te.md",
+      "destination": "legal/privacy-policy-te.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "d55c44af8fa7209ee862646da5662859e314d6d8be9df9d64a95b88e8f041f5a",
+      "sha256": "1c182047412fcbd5cd8e3434a1f427db23edb2d6736616e2ee3f938c43743b02",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-mr.md",
+      "destination": "legal/privacy-policy-mr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "d2ee05498211cac291d437ab7132e2bbd298bf7eaedfeb4f23bade5febab16a1",
+      "sha256": "f4004c3c818059fe8fe85f6ee3664352c9ab9410ce6a996a1117e540d2e7fdda",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-tr.md",
+      "destination": "legal/privacy-policy-tr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "35cc71c2c4ca9400451b094b059b482af04d2a3ddb2e68a25356ca2767511d55",
+      "sha256": "3babd3c8afce132357e3ccff498882a42e5ecdd28da3914873d0268bb4b154d3",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ur.md",
+      "destination": "legal/privacy-policy-ur.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "b949fb7bd251a975e99f6037138448c3258484059c60ef62beef391a6b212ce4",
+      "sha256": "3c71a82e44dff7c7fba9b5a528f72b9dabfbcd6ed16be4ca069d73a290c016f7",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-vi.md",
+      "destination": "legal/privacy-policy-vi.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "9b6f33cee9123227b5482fcedd92efec41e0e827b32a3405453fe013955648bd",
+      "sha256": "18caeb5f39426a921fa71dc1c3ec271e587cb785318c86e8c5c0e9e86dfafbae",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ta.md",
+      "destination": "legal/privacy-policy-ta.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "dd776101902f01052ecac47d11beb90856444f582b6a0bfac71e12fed39d32b7",
+      "sha256": "f1c45ba1259dc810d358ce20015a5fc50646ab53bdba8b2c51e8bcb37ef5a07b",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-it.md",
+      "destination": "legal/privacy-policy-it.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "0e8252e922fda6cc38568e6823cce98f085e1f16d5176ed405778a2b51d3b998",
+      "sha256": "84c49a25d896336da139e145a20b749ede5a14b84f9e7b489e248558ba256b03",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-fa.md",
+      "destination": "legal/privacy-policy-fa.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "a878938df49910f3a1e07d2ffe899a23bee47c441620a99fd153c9fcca0c2d99",
+      "sha256": "9e5889d4ab2d62c1d4a30c1ec59b7e4dd8433524dad355881b6a06f1a42b3ed0",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-sw.md",
+      "destination": "legal/privacy-policy-sw.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "b699050a63826e09d1dbf7dda1e4b4481ef482c9634b9c31d537d20342338bdb",
+      "sha256": "f229ba5466d5041745a2d2985390f439514928e8ba49fb492b7df4387f0f6ed7",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/privacy-policy-ms.md",
+      "destination": "legal/privacy-policy-ms.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "2453298e32faa7bec62910c5f04f7ac6d567c3653462321c28d030cdfd5e5f09",
+      "sha256": "79b10d53a251e826a522f2bda135409aa0716a9233220f75fd2b773b621a17f7",
+      "scopeUpdate": "SECTION3_CURRENT_LOCALIZED_APP_PACKAGE_ONLY"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-pl.md",
+      "destination": "legal/terms-of-service-pl.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "b9ec0f0615d8d20b447865c6d715c14bfb5d02fe6c1bb20ba2d95ab5b09b6b14",
+      "sha256": "b9ec0f0615d8d20b447865c6d715c14bfb5d02fe6c1bb20ba2d95ab5b09b6b14",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-zh.md",
+      "destination": "legal/terms-of-service-zh.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "1b30d896e7a3ca88bacb87f5f6830fa5a47733ad8e06a59ba6faf20e7f3f79a8",
+      "sha256": "1b30d896e7a3ca88bacb87f5f6830fa5a47733ad8e06a59ba6faf20e7f3f79a8",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-yue.md",
+      "destination": "legal/terms-of-service-yue.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "9504281e41ad3221f1e466b34adcd5e9eac61f70c9ea362eb5df82282d03efc4",
+      "sha256": "9504281e41ad3221f1e466b34adcd5e9eac61f70c9ea362eb5df82282d03efc4",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-es.md",
+      "destination": "legal/terms-of-service-es.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "a0c563606ef0ea27634c9e8d262615699fdc0ad97c8f6e9d13acdae7a314e2d3",
+      "sha256": "a0c563606ef0ea27634c9e8d262615699fdc0ad97c8f6e9d13acdae7a314e2d3",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-en.md",
+      "destination": "legal/terms-of-service-en.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "c0033e2a18071aad2635abbbda6ba463e26b6e2323fbaf2ad8bb1ec5510ec858",
+      "sha256": "c0033e2a18071aad2635abbbda6ba463e26b6e2323fbaf2ad8bb1ec5510ec858",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ar.md",
+      "destination": "legal/terms-of-service-ar.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "0501010c38d2fbda81025d9f75da328cd022d50862da7b798b07ce5943442ec4",
+      "sha256": "0501010c38d2fbda81025d9f75da328cd022d50862da7b798b07ce5943442ec4",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-hi.md",
+      "destination": "legal/terms-of-service-hi.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "d5760791644a1b7aa4965ee4914e834ef8edaf0cc1e620154c7e7e02e32fc94f",
+      "sha256": "d5760791644a1b7aa4965ee4914e834ef8edaf0cc1e620154c7e7e02e32fc94f",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-bn.md",
+      "destination": "legal/terms-of-service-bn.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "bdb8d1674cbaeab21c9e381225ec503f015233230ffa51d300b8565b026395bf",
+      "sha256": "bdb8d1674cbaeab21c9e381225ec503f015233230ffa51d300b8565b026395bf",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-pt.md",
+      "destination": "legal/terms-of-service-pt.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "e276803295308a4f199d7f7d20d61c136c21a45cc3f6d69ca0a513eeaccfd1f7",
+      "sha256": "e276803295308a4f199d7f7d20d61c136c21a45cc3f6d69ca0a513eeaccfd1f7",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ru.md",
+      "destination": "legal/terms-of-service-ru.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "adce6b6a16092b4ec686344cfcc38017f427b2ab96314a097a43310d430e4815",
+      "sha256": "adce6b6a16092b4ec686344cfcc38017f427b2ab96314a097a43310d430e4815",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-uk.md",
+      "destination": "legal/terms-of-service-uk.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "91856b41a5b47af0ff46fe7b219ba9c5023f9b511594b7913afbce247ae41c6b",
+      "sha256": "91856b41a5b47af0ff46fe7b219ba9c5023f9b511594b7913afbce247ae41c6b",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ja.md",
+      "destination": "legal/terms-of-service-ja.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "4571701b6cf1ed8d4c10656e0d502fc1400d893a5457b7728340ede007792e7f",
+      "sha256": "4571701b6cf1ed8d4c10656e0d502fc1400d893a5457b7728340ede007792e7f",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-pnb.md",
+      "destination": "legal/terms-of-service-pnb.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "a18913967a25b20ff97d11de06a33682af6733b63f2c9f03ee0de09c163f6dac",
+      "sha256": "a18913967a25b20ff97d11de06a33682af6733b63f2c9f03ee0de09c163f6dac",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-jv.md",
+      "destination": "legal/terms-of-service-jv.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "ec3f868b5bb7878ed1e986906fea9cbe5d7ee547624744c36d061ada875912d1",
+      "sha256": "ec3f868b5bb7878ed1e986906fea9cbe5d7ee547624744c36d061ada875912d1",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ko.md",
+      "destination": "legal/terms-of-service-ko.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "6d81fceb480138ba403324c0246938d38cbcd88d395b2708fa7f5c9e70cd2fc5",
+      "sha256": "6d81fceb480138ba403324c0246938d38cbcd88d395b2708fa7f5c9e70cd2fc5",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-de.md",
+      "destination": "legal/terms-of-service-de.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "579502c4833fd48b96b7e19461cf70e8aabc0829d9ddc7d19d46bbd5bf5ebc77",
+      "sha256": "579502c4833fd48b96b7e19461cf70e8aabc0829d9ddc7d19d46bbd5bf5ebc77",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-fr.md",
+      "destination": "legal/terms-of-service-fr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "4ab61391b2d6b09258b151817c3cf5ce372e58c0af782fa84e535ee64bac0994",
+      "sha256": "4ab61391b2d6b09258b151817c3cf5ce372e58c0af782fa84e535ee64bac0994",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-te.md",
+      "destination": "legal/terms-of-service-te.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "7c7a007986cdc736fbb52c14ed5251cf881451f0bd4adea27f46269dfe74e1a2",
+      "sha256": "7c7a007986cdc736fbb52c14ed5251cf881451f0bd4adea27f46269dfe74e1a2",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-mr.md",
+      "destination": "legal/terms-of-service-mr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "a16a2d8854b599541936bd3b33a1be5567cbd16b35aee90f845b56893a7b9446",
+      "sha256": "a16a2d8854b599541936bd3b33a1be5567cbd16b35aee90f845b56893a7b9446",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-tr.md",
+      "destination": "legal/terms-of-service-tr.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "fb24c4e9c18a942a0735fdb179f591b30d27e2e31c778ecddac7e2554fbc99d7",
+      "sha256": "fb24c4e9c18a942a0735fdb179f591b30d27e2e31c778ecddac7e2554fbc99d7",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ur.md",
+      "destination": "legal/terms-of-service-ur.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "cad9aec8d3871a70562eab0060810c48d743aa0e2c09cc430e80df3912e23133",
+      "sha256": "cad9aec8d3871a70562eab0060810c48d743aa0e2c09cc430e80df3912e23133",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-vi.md",
+      "destination": "legal/terms-of-service-vi.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "2fcfa6fc5b1456969f2f5236310142e46f369b7e5a738e0fb353aa3e82009fe5",
+      "sha256": "2fcfa6fc5b1456969f2f5236310142e46f369b7e5a738e0fb353aa3e82009fe5",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ta.md",
+      "destination": "legal/terms-of-service-ta.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "eae7e23d5bbd806c61b89d3b364686655399a2f49d4410568b2c35dc03c875a1",
+      "sha256": "eae7e23d5bbd806c61b89d3b364686655399a2f49d4410568b2c35dc03c875a1",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-it.md",
+      "destination": "legal/terms-of-service-it.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "1dfafc484249dc4f85bbd73f074e95e89ba73db45bf6fcb39150a7c77aa1ceb6",
+      "sha256": "1dfafc484249dc4f85bbd73f074e95e89ba73db45bf6fcb39150a7c77aa1ceb6",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-fa.md",
+      "destination": "legal/terms-of-service-fa.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "2fe2446542a7cd513055bb156b1ffa108d9ef8e5789fed0c2ba67933b2dba6b5",
+      "sha256": "2fe2446542a7cd513055bb156b1ffa108d9ef8e5789fed0c2ba67933b2dba6b5",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-sw.md",
+      "destination": "legal/terms-of-service-sw.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "9bdeecce020652f976c42f2edf7b2529e3a3428046a26dde25587896c1f289a9",
+      "sha256": "9bdeecce020652f976c42f2edf7b2529e3a3428046a26dde25587896c1f289a9",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/local-freemium-legal/terms-of-service-ms.md",
+      "destination": "legal/terms-of-service-ms.md",
+      "kind": "UNAPPROVED_LOCAL_FREEMIUM_LEGAL_DRAFT",
+      "sourceSha256": "d4fbe7ae5612d7a3d2ad1f50c2aa8b31cbe0dd428832aca8e95bb35d5e494294",
+      "sha256": "d4fbe7ae5612d7a3d2ad1f50c2aa8b31cbe0dd428832aca8e95bb35d5e494294",
+      "scopeUpdate": "NONE"
+    },
+    {
+      "source": "docs/release/KOVA_LOCAL_FREEMIUM_V1_READINESS.json",
+      "kind": "FACT_SOURCE_PIN_NOT_PUBLISHED",
+      "sha256": "b8b7d957caf1f21f32d0d7208071f6169a9aa5f42634c6657f1991edcb172e17"
+    },
+    {
+      "source": "docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json",
+      "kind": "FACT_SOURCE_PIN_NOT_PUBLISHED",
+      "sha256": "5078754e8b4a7ded276d76b8ab62b676795cb7e4adf363aa8e3d19faf73c453c"
+    }
+  ],
+  "published": false
+}

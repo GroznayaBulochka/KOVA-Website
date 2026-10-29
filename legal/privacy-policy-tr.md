@@ -29,7 +29,9 @@ Cihazınızdaki para birimi ve dil arama filtre listeleri; bu sorgular yayıncı
 
 ## 3. Yerel finansman ve isteğe bağlı satın alımlar
 
-Free tabanı, mali kayıtları yerel olarak depolar ve KOVA bulut hesabı gerektirmez. Sahibi, Premium özellik paketini onayladı: gelişmiş yerel raporlar/karşılaştırmalar, tahminler ve iş-gelir analitiği. Hesaplamalar yeterli ilgili kayıtlara ihtiyaç duyar. Google Play'yi ve bağlantıyı satın alın, geri yükleyin ve yenilemeye erişin; Google Play hesabı, KOVA mali profili değildir. Firebase Kimlik Doğrulaması, KOVA içinde Google ile oturum açma, finansal bulut senkronizasyonu, Bulut Depolama/İşlevler, reklamcılık, Analytics/Crashlytics, push, Remote Config, Wear, çevrimiçi Aile Paylaşımı, pazar/banka API'leri ve AI/Komut Katmanı devre dışı kalır.
+Gelişmiş yerel araçlar için isteğe bağlı abonelik. Günlük finans, kayıtlarınız ve yedeklemeniz ücretsiz kalır. KOVA hesabı gerekmez. Yaşam Planlayıcı · Pro. Fiyat Geçmişi · Pro. Vault · Pro. Premium; iş ve gelir, finans takvimi, tüm raporlar, fiş tarama ve vergi merkezini içerir. Temel kayıtlar, notlar, şifreleme, yedekleme, geri yükleme ve veri dışa aktarımı ücretsizdir. Bazı araçlar yeterli finansal geçmiş gerektirir. Vergi hesapları yalnızca desteklenen ülke ve vergi yıllarını kapsar. Premium bulut eşitlemesi sağlamaz.
+
+KOVA · 2026-10-29 · DRAFT
 
 MEVCUT ADAY — KAMU SATIŞLARI İÇİN ONAYLANMADI: sahibi, KOVA doğrulama sunucusu olmadan client-only doğrulamasını seçti. KOVA, Android'nin faturalandırma arayüzü aracılığıyla Google Play uygulamasıyla iletişim kurar. Sürüm, KOVA'nin İNTERNET iznini kaldırıyor; Google Play kendi ağını ve hesap/ödeme işlemlerini kullanır. KOVA, bağlantı kullanılabilirliğini gözlemliyor ve bu, önbelleğe alınmış bir Play satın alma işleminin güncel olduğunu kendi başına kanıtlamıyor. Bu, telefonun tamamının çevrimdışı olduğu iddiası değildir.
 

@@ -10,7 +10,7 @@
     "navSecurity": "Keamanan",
     "navLegal": "Dokumen",
     "navRoadmap": "Peta dalan",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "Pangeluaran. Anggaran.<br><em>Pangasilan saka kerja.</em>",
     "heroCopy": "Lacak mbuwang, ngrancang anggaran lan ngira penghasilan saka jam kerja sampeyan. Keuangan sampeyan tetep ing telpon. Teka Android kanthi basis gratis lan KOVA Premium opsional.",
     "heroPrivacy": "Data finansial sampeyan tetep ana ing telpon sampeyan.",
@@ -18,7 +18,7 @@
     "watchVideo": "Ndeleng app",
     "pauseVideo": "ngaso",
     "playVideo": "Dolanan",
-    "releaseNote": "Sadurunge diluncurake · download umum durung kasedhiya.",
+    "releaseNote": "Beta · Sadurunge diluncurake · download umum durung kasedhiya.",
     "trustPrivacy": "Privasi dhisik",
     "trustPrivacyCopy": "Database lokal, ora ana unggahan otomatis",
     "trustReports": "Ringkesan praktis",
@@ -32,16 +32,16 @@
     "featureBudgets": "Anggaran",
     "featureBudgetsCopy": "Watesan lan kemajuan",
     "featureWork": "Kerja & Penghasilan",
-    "featureWorkCopy": "Jam lan paydays",
+    "featureWorkCopy": "Pro · Jam lan paydays",
     "featureCalendar": "Tanggalan",
-    "featureCalendarCopy": "Acara finansial",
+    "featureCalendarCopy": "Pro · Acara finansial",
     "featureReports": "Laporan",
-    "featureReportsCopy": "Tren lan ramalan",
+    "featureReportsCopy": "Pro · Tren lan ramalan",
     "featureGoals": "gol",
     "featureGoalsCopy": "Rencana lan kemajuan",
     "clarityKicker": "Aplikasi kasebut",
     "clarityTitle": "Deleng ing KOVA.",
-    "clarityCopy": "Layar KOVA nyata kanthi data demo fiksi. Jelajahi keuangan saben dina, anggaran lan alat lokal. Galeri utama nuduhake antarmuka Polandia.",
+    "clarityCopy": "Antarmuka aplikasi nganggo basa Inggris · data demo fiksi. Fitur katon nalika nggunakake KOVA lan nambah data sing dibutuhake. Iki uga kanggo Pro: langganan ora nampilake analisis gumantung data sadurunge ana riwayat relevan sing cukup. Free / Pro.",
     "clarityAccounts": "Akun, transaksi lan kategori",
     "clarityReports": "Laporan lan ramalan",
     "clarityWork": "Kerja & Penghasilan",
@@ -54,10 +54,10 @@
     "screenFeatures": "Tema cahya",
     "screenFeaturesCopy": "Data sing padha, tampilan sing beda",
     "screenWork": "Cathetan lokal",
-    "screenWorkCopy": "Disimpen ing piranti · 21 Okt 2026",
+    "screenWorkCopy": "Antarmuka aplikasi nganggo basa Inggris · 2026-10-29",
     "securityKicker": "Privasi",
     "securityTitle": "Privasi minangka prioritas utama.",
-    "securityCopy": "Cathetan finansial KOVA tetep ana ing telpon sampeyan. Kita ngupaya supaya aplikasi iki aman sabisane. Tuku lan pulihake Premium opsional nggunakake Google Play kanthi kapisah; analytics situs web iki mbutuhake idin sampeyan.",
+    "securityCopy": "Cathetan keuangan tetep ana ing piranti iki. Ora perlu akun awan KOVA, registrasi utawa sinkronisasi keuangan awan. Tuku dicenthang liwat Google Play tanpa server KOVA. Akses bisa tetep kasedhiya ing offline nganti jam 48 sawise mriksa sambungan. Urip maneh utawa owah-owahan jam sing signifikan mbutuhake mriksa liyane. Kadaluwarsa langganan sing tepat ora kasedhiya ing aplikasi iki; ndeleng Google Play.",
     "securityModel": "Maca babagan keamanan",
     "secureLocal": "Enkripsi lokal",
     "secureOwner": "Isolasi data",
@@ -103,16 +103,16 @@
     "faqEstimateA": "Ora. Iki minangka perkiraan adhedhasar data lan konfigurasi sing direkam. Bisa uga beda karo pembayaran nyata lan ora ngganti dokumen majikan utawa saran individu.",
     "faqWebsiteQ": "Apa situs web iki bisa ngakses keuanganku?",
     "faqWebsiteA": "Ora. Situs web ngenalake proyek kasebut lan ora nyambung menyang database finansial ing telpon sampeyan. Analitik situs web opsional gumantung saka idin sampeyan.",
-    "altHome": "KOVA Offline V1: layar ngarep kanthi riwayat finansial fiksi",
-    "altProfile": "KOVA Offline V1: telung akun demo lokal",
-    "altFeatures": "KOVA Gratis V1: tema cahya ing emulator",
-    "altWork": "KOVA Offline V1: cathetan tes sing disimpen ing emulator",
+    "altHome": "KOVA: Keuangan sampeyan dina iki — data demo fiksi. Antarmuka aplikasi nganggo basa Inggris",
+    "altProfile": "KOVA: Akun — data demo fiksi. Antarmuka aplikasi nganggo basa Inggris",
+    "altFeatures": "KOVA: Keuangan sampeyan dina iki — data demo fiksi. Antarmuka aplikasi nganggo basa Inggris",
+    "altWork": "KOVA: Kerja & Penghasilan · Pro — Antarmuka aplikasi nganggo basa Inggris · Pro · 2026-10-29",
     "previous": "Layar sadurunge",
     "next": "Layar sabanjuré",
     "navigation": "Pandhu arah utama",
     "pageTitle": "KOVA — keuangan ing sak panggonan",
     "faqFreeQ": "Apa KOVA bakal gratis?",
-    "faqFreeA": "ya wis. Rilis pisanan direncanakake kanthi basis gratis lan KOVA Premium opsional. Rekaman saben dina, laporan dhasar, akses menyang cathetan, enkripsi lokal, serep, ekspor lan pambusakan tetep gratis. Premium nyakup laporan maju, ramalan lan analitik penghasilan kerja. Rega bakal diumumake sadurunge diluncurake; durung ana dodolan umum.",
+    "faqFreeA": "KOVA Premium. Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Data sing disimpen tetep bisa diakses. Tumindak anyar ing modul iki mbutuhake Premium. Serep lan ekspor tetep gratis. Uji coba mung diwiwiti sawise sampeyan ngonfirmasi tuku tawaran sing layak ing Google Play. 30 dina gratis, banjur rega sing ditampilake Google Play sadurunge tuku (Ditagih saben wulan / Ditagih setaun sepisan). Dianyari kanthi otomatis kajaba dibatalake sadurunge uji coba rampung. Google Play nemtokake kelayakan.",
     "tourNote": "Layar aplikasi nyata · data demo fiksi · dudu rekaman video",
     "tourChapters": "Pilih layar tur",
     "factAndroid": "Android 7.0+",
@@ -121,7 +121,7 @@
     "faqBackupQ": "Kepiye carane nglindhungi data utawa ngganti telpon?",
     "faqBackupA": "Gawe ekspor manual sing dilindhungi sandi lan simpen kanthi aman ing njaba telpon. Impor mbutuhake konfirmasi lan ngganti data sing didhukung saka profil sing dipilih. Iku salinan sebagean, dudu gambar app lengkap: gambar cathetan ditempelake klebu, nanging lampiran external lan foto panrimo kudu salinan kapisah. Penerbit ora bisa mulihake data saka awan utawa mbalekake sandhi serep.",
     "faqOcrQ": "Apa pindai resi bisa digunakake ing offline?",
-    "faqOcrA": "OCR nggunakake model sing digabung karo app. Njupuk foto utawa pilih salah siji saka galeri liwat pemilih Android. Pangenalan bisa uga salah - priksa jumlah, mata uang, lan tanggal sadurunge nyimpen. Nolak akses kamera ora ngalangi pilihan file.",
+    "faqOcrA": "OCR nggunakake model sing digabung karo app. Njupuk foto utawa pilih salah siji saka galeri liwat pemilih Android. Pangenalan bisa uga salah - priksa jumlah, mata uang, lan tanggal sadurunge nyimpen. Nolak akses kamera ora ngalangi pilihan file. Pro: Data sing disimpen tetep bisa diakses. Tumindak anyar ing modul iki mbutuhake Premium. Serep lan ekspor tetep gratis.",
     "faqDeviceQ": "Kanggo piranti lan pamirsa sing KOVA?",
     "faqDeviceA": "KOVA lagi disiapake kanggo Android telpon nganggo Android 7.0 utawa mengko. Antarmuka KOVA ndhukung 27 basa; kompatibilitas lan review basa lagi ditindakake. Ditujukake kanggo umur 13+, miturut syarat toko lan lokal. Ora ana rilis iOS utawa jam tangan sing ditawakake.",
     "aboutKicker": "Apa KOVA?",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "Ngerti apa sing isih ana ing anggaran sampeyan",
     "aboutGoalsCopy": "Setel watesan kategori lan priksa kemajuan nalika sampeyan nglampahi. Rencana tuku sabanjure kanthi tampilan sing luwih jelas babagan apa sing isih ana.",
     "aboutIncomeTitle": "Rencana babagan ngganti penghasilan",
-    "aboutIncomeCopy": "Rekam jam kerja lan tarif kanggo ngira penghasilan. Gawe jadwal kerja lan anggaran saben wulan dadi siji rencana.",
-    "aboutPrivacy": "Cathetan finansial tetep ing telpon sampeyan. Ora ana sambungan bank utawa akun maya KOVA. Tuku Premium opsional ditangani kanthi kapisah liwat Google Play.",
+    "aboutIncomeCopy": "Pro · Rekam jam kerja lan tarif kanggo ngira penghasilan. Gawe jadwal kerja lan anggaran saben wulan dadi siji rencana.",
+    "aboutPrivacy": "Cathetan keuangan tetep ana ing piranti iki. Ora perlu akun awan KOVA, registrasi utawa sinkronisasi keuangan awan. Mulihake mriksa tumbas karo Google Play. Ora mulihake utawa nyinkronake cathetan finansial. Premium ditrapake ing profil lokal ing instalasi iki. Instalasi maneh lan piranti liyane mbutuhake pamriksa tuku kapisah. Ngganti rencana sampeyan kasedhiya liwat Google Play.",
     "aboutAction": "Waca KOVA ing tumindak",
     "followLaunch": "Tindakake KOVA ing Instagram",
     "downloadApp": "Entuk ing Google Play",
     "launchChannel": "Bukak warta babagan Instagram · @kova_money",
-    "workScreenNote": "Karya & penghasilan · layar demo sadurungé; desain bisa ngganti.",
+    "workScreenNote": "Antarmuka aplikasi nganggo basa Inggris · Pro · 2026-10-29",
     "plansKicker": "Dirancang kanggo release pisanan",
     "plansTitle": "Dasar gratis. Liyane karo Premium.",
-    "plansCopy": "Mulai karo manajemen dhuwit saben dina. Pilih Premium yen sampeyan butuh analisis lokal sing luwih jero. Download umum lan dodolan durung kasedhiya.",
+    "plansCopy": "Iki versi beta. Sawetara bagean app isih ditapis lan bisa uga ana kesalahan. Pro mung kalebu alat sing kapacak ing ngisor iki, dudu fitur mangsa sing durung rampung utawa janji. Priksa watesan sadurunge tuku. Sawetara piranti mbutuhake riwayat finansial sing cukup. Petungan pajak mung kanggo negara lan taun pajak sing didhukung. Premium ora nambah sinkronisasi awan.",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "Ngrekam saben dina lan ngontrol data sampeyan dhewe.",
-    "planFreeOne": "Biaya, anggaran lan laporan dhasar",
-    "planFreeTwo": "Cathetan kerja lan akses menyang data sing disimpen",
-    "planFreeThree": "Enkripsi lokal, serep, ekspor lan pambusakan",
+    "planFreeOne": "Akun, transaksi lan kategori",
+    "planFreeTwo": "Anggaran · gol · Pembayaran bola-bali · Cathetan",
+    "planFreeThree": "Enkripsi, serep & ekspor data",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "Langganan opsional kanggo wawasan lokal sing luwih rinci.",
-    "planPremiumOne": "Laporan lan perbandingan lanjut",
-    "planPremiumTwo": "Prakiraan adhedhasar cathetan sampeyan",
-    "planPremiumThree": "Analisis penghasilan kerja",
-    "plansNote": "Rega lan kasedhiyan peluncuran bakal diumumake sadurunge dirilis. Sawetara analisis mbutuhake riwayat sing cukup. Premium tuku lan akses refresh mbutuhake Google Play lan panyambungan; basa Free tetep kasedhiya.",
+    "planPremiumCopy": "Langganan opsional kanggo piranti lokal canggih. Keuangan saben dina, cathetan lan serep sampeyan tetep gratis. Ora ana akun KOVA sing dibutuhake.",
+    "planPremiumOne": "Karya & Penghasilan · Tanggalan Keuangan",
+    "planPremiumTwo": "Laporan · OCR panrimo lokal · Pusat Pajak",
+    "planPremiumThree": "Vault · Planner urip · Sajarah rega",
+    "plansNote": "KOVA Premium · Uji coba mung diwiwiti sawise sampeyan ngonfirmasi tuku tawaran sing layak ing Google Play. 30 dina gratis, banjur rega sing ditampilake Google Play sadurunge tuku (Ditagih saben wulan / Ditagih setaun sepisan). Dianyari kanthi otomatis kajaba dibatalake sadurunge uji coba rampung. Google Play nemtokake kelayakan.",
     "plansDetails": "Maca draf langganan",
     "closingKicker": "Tetep cedhak karo peluncuran",
     "closingTitle": "Nggawe papan kanggo rencana dhuwit sing luwih jelas.",
     "closingCopy": "Tindakake KOVA Development ing Instagram kanggo pratinjau aplikasi lan warta peluncuran. Rilis umum pisanan isih ana ing persiapan.",
     "closingSecondary": "Sampeyan uga bisa nemokake KOVA ing TikTok.",
-    "forecastNote": "Saben analisis butuh data sing cukup. Priksa syarate sadurunge milih Premium.",
+    "forecastNote": "Fitur katon nalika nggunakake KOVA lan nambah data sing dibutuhake. Iki uga kanggo Pro: langganan ora nampilake analisis gumantung data sadurunge ana riwayat relevan sing cukup.",
     "faqDataQ": "Pira data sing dibutuhake saben analisis?",
     "faqDataA": "<p>Sampeyan bisa nyathet pangeluaran lan anggaran wiwit awal. Laporan dhasar butuh 5 transaksi ing paling ora 3 dina sing beda.</p><ul><li>Perkiraan pangeluaran sing owah-owahan: paling ora 7 dina pengamatan lan 2 pangeluaran sajrone 3 sasi pungkasan. Iki syarat kanggo siji bagean petungan, dudu kabeh Premium.</li><li>Laporan jangkep: paling ora riwayat 60 dina, 75 transaksi, 20 dina sing ana transaksine lan paling ora 1 anggaran utawa tujuan. Kabeh syarat kudu kawujud.</li><li>Prakiraan: paling ora riwayat 90 dina, 100 transaksi ing 3 sasi sing beda lan penghasilan rutin utawa pembayaran bola-bali (dicathet utawa dideteksi). Kabeh syarat kudu kawujud.</li></ul><p>Tuku Premium ora ngganti riwayat sing dibutuhake. Cathetan profil, kalebu data sing diimpor kanthi bener, diitung; tanggal instalasi wae ora cukup. Prakiraan tetep mung perkiraan.</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "Tagihan ambalan duwe tanggal lan riwayat pembayaran dhewe. KOVA ngatur rekaman; iku ora nransfer utawa ngumpulake dhuwit."
     },
     {
-      "title": "Laporan",
+      "title": "Laporan · Pro",
       "caption": "Ringkesan entri sing direkam",
       "copy": "Bagan lan ringkesan diwilang dening KOVA saka transaksi lokal. Data kasebut fiksi, nanging layar lan petungan teka saka aplikasi sing mlaku."
     },
     {
-      "title": "Tanggalan finansial",
+      "title": "Tanggalan finansial · Pro",
       "caption": "Acara lan tanggal amarga ing siji tampilan",
       "copy": "Transaksi sing direkam lan tanggal tagihan ing sasi. Pilih dina kanggo ndeleng acara tanpa nggoleki kabeh sejarah."
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "Apa release pisanan ndadekke",
-          "Biaya, anggaran, jam kerja, gol lan cathetan lokal ing siji app. Basis gratis njaga rekaman saben dina, laporan dhasar, data lan ekspor. Premium nambahake laporan, ramalan lan analitik penghasilan kerja."
+          "Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Fitur katon nalika nggunakake KOVA lan nambah data sing dibutuhake. Iki uga kanggo Pro: langganan ora nampilake analisis gumantung data sadurunge ana riwayat relevan sing cukup."
         ],
         [
           "Ing ngendi kita saiki",
@@ -301,7 +301,7 @@
         ],
         [
           "Premium lokal opsional",
-          "Rampung mriksa laporan, ramalan, analytics penghasilan kerja, tuku lan pulihake. Ora ana awan sing dibayar, integrasi bank utawa layanan AI sing dijanjekake."
+          "Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Sawetara piranti mbutuhake riwayat finansial sing cukup. Petungan pajak mung kanggo negara lan taun pajak sing didhukung. Premium ora nambah sinkronisasi awan."
         ],
         [
           "Siapke Google Play",
@@ -347,7 +347,7 @@
         ],
         [
           "Situs web iki kapisah",
-          "Situs iki ora bisa maca database telpon. Google Analytics ngukur kunjungan lan interaksi situs web mung kanthi idin sampeyan. Nolak tetep situs lengkap kasedhiya. Ngganti pilihan sampeyan ing setelan Cookie; rincian hosting lan panyedhiya isih mbutuhake konfirmasi sadurunge penyebaran umum anyar."
+          "Analitik situs lan kuki analitik dipateni. Situs bisa ngelingi basa, nanging ora bisa ngakses cathetan keuangan ing aplikasi."
         ],
         [
           "Laporan kanthi aman",
@@ -375,6 +375,10 @@
       "intro": "24 Oktober 2026: rencana saiki kanggo release Android pisanan kalebu basis gratis lan Premium opsional. Entri sadurungé ing ngisor iki njlèntrèhaké rencana sajarah.",
       "badge": "Nganyari saiki · 24 Oktober 2026",
       "cards": [
+        [
+          "2026-10-29 · KOVA beta",
+          "Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Fitur katon nalika nggunakake KOVA lan nambah data sing dibutuhake. Iki uga kanggo Pro: langganan ora nampilake analisis gumantung data sadurunge ana riwayat relevan sing cukup. Antarmuka aplikasi nganggo basa Inggris."
+        ],
         [
           "24 Oktober 2026 · model rilis pisanan",
           "Rilis pisanan direncanakake kanthi basis lokal gratis ditambah Premium opsional kanggo laporan maju, ramalan lan analytics penghasilan kerja. Skenario tuku / pulihake Google Play sing dipilih wis diuji; kesiapan dodolan umum isih ditundha. Rega lan tanggal peluncuran ora diumumake."
@@ -513,9 +517,9 @@
     "terms": "Katentuan Pangginaan supados langkung",
     "cookies": "cookie",
     "analyticsTitle": "Privasi ing situs web iki",
-    "analyticsCopy": "Situs iki ora bisa maca database telpon. Google Analytics ngukur kunjungan lan interaksi situs web mung kanthi idin sampeyan. Nolak tetep situs lengkap kasedhiya. Ngganti pilihan sampeyan ing setelan Cookie; rincian hosting lan panyedhiya isih mbutuhake konfirmasi sadurunge penyebaran umum anyar. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "Analitik situs lan kuki analitik dipateni. Situs bisa ngelingi basa, nanging ora bisa ngakses cathetan keuangan ing aplikasi. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "Draf kanggo release KOVA pisanan sing direncanakake: basis gratis lan Premium opsional. Cocog karo dokumen app saiki tanggal 24 Oktober 2026. Tanggal efektif, persetujuan pungkasan lan rincian penjual lan layanan isih ditundha. Iki dudu tawaran langganan aktif.",
+  "review": "KOVA · DRAFT · Nunggu konfirmasi pemilik sadurunge diterbitake. Lingkup Free lan Pro, langganan lan pembatalan Google Play, wates beta lan hakmu.",
   "seo": {
     "titles": {
       "404": "Kaca Ora Ditemokake — KOVA",

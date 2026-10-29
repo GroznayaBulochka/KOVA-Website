@@ -29,7 +29,9 @@ Elenchi di filtri per la ricerca di valuta e lingua sul tuo dispositivo; queste 
 
 ## 3. Finanze locali e acquisti facoltativi
 
-La base Free archivia i record finanziari localmente e non richiede alcun account cloud KOVA. Il proprietario ha approvato il pacchetto di funzionalità Premium: ​​report/confronti locali avanzati, previsioni e analisi del reddito da lavoro. I calcoli necessitano di record pertinenti sufficienti. Acquista, ripristina e accedi all'aggiornamento utilizza Google Play e connettività; un conto Google Play non è un profilo finanziario KOVA. Firebase Autenticazione, accesso Google all'interno di KOVA, sincronizzazione cloud finanziaria, archiviazione/funzioni cloud, pubblicità, analisi/crashlytics, push, configurazione remota, usura, condivisione familiare online, API mercato/banca e livello AI/command rimangono disabilitati.
+Abbonamento facoltativo per strumenti locali avanzati. La finanza quotidiana, i tuoi record e il backup rimangono gratuiti. Nessun account KOVA richiesto. Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. Alcuni strumenti richiedono una cronologia finanziaria sufficiente. I calcoli fiscali coprono solo paesi e anni supportati. Premium non aggiunge sincronizzazione cloud.
+
+KOVA · 2026-10-29 · DRAFT
 
 CANDIDATO ATTUALE — NON APPROVATO PER LE VENDITE PUBBLICHE: il proprietario ha selezionato la verifica client-only, senza un server di verifica KOVA. KOVA comunica con l'app Google Play tramite l'interfaccia di fatturazione di Android. La release rimuove il permesso INTERNET di KOVA; Google Play utilizza la propria rete e l'elaborazione di conti/pagamenti. KOVA osserva la disponibilità della connessione, che di per sé non stabilisce che un acquisto Play memorizzato nella cache sia attuale. Questa non significa che l'intero telefono sia offline.
 

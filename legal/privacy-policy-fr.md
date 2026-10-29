@@ -29,7 +29,9 @@ Listes de filtres de recherche de devises et de langues sur votre appareil ; ce
 
 ## 3. Finances locales et achats optionnels
 
-La base Free stocke les enregistrements financiers localement et ne nécessite aucun compte cloud KOVA. Le propriétaire a approuvé l'ensemble de fonctionnalités Premium : rapports/comparaisons locaux avancés, prévisions et analyses des revenus du travail. Les calculs nécessitent suffisamment d’enregistrements pertinents. L'achat, la restauration et l'actualisation de l'accès utilisent Google Play et la connectivité ; un compte Google Play n'est pas un profil financier KOVA. L'authentification Firebase, la connexion Google dans KOVA, la synchronisation financière dans le cloud, le stockage/fonctions cloud, la publicité, les analyses/crashlytics, le push, la configuration à distance, l'usure, le partage familial en ligne, les API marché/banque et l'IA/couche de commande restent désactivés.
+Abonnement optionnel pour des outils locaux avancés. Finances quotidiennes, vos enregistrements et sauvegardes restent gratuits. Aucun compte KOVA requis. Planificateur de vie · Pro. Historique des prix · Pro. Vault · Pro. Premium inclut travail et revenus, calendrier financier, tous les rapports, scan des reçus et centre fiscal. Le suivi de base, les notes, le chiffrement, la sauvegarde, la restauration et l’export restent gratuits. Certains outils nécessitent un historique financier suffisant. Les calculs fiscaux couvrent uniquement les pays et exercices pris en charge. Premium n’ajoute pas de synchronisation cloud.
+
+KOVA · 2026-10-29 · DRAFT
 
 CANDIDAT ACTUEL — NON APPROUVÉ POUR LES VENTES PUBLIQUES : le propriétaire a sélectionné la vérification client-only, sans serveur de vérification KOVA. KOVA communique avec l'application Google Play via l'interface de facturation de Android. La version supprime l'autorisation INTERNET de KOVA ; Google Play utilise son propre réseau et son propre traitement de compte/paiement. KOVA observe la disponibilité de la connexion, qui n'établit pas elle-même qu'un achat Play mis en cache est en cours. Cela ne veut pas dire que l’ensemble du téléphone est hors ligne.
 

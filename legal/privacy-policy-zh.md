@@ -29,7 +29,9 @@ KOVA 使用您输入或选择的信息在您的设备上提供功能：
 
 ## 3。地方财政和可选购买
 
-Free 库在本地存储财务记录，不需要 KOVA 云帐户。业主批准了 Premium 功能包：高级本地报告/比较、预测和工作收入分析。计算需要足够的相关记录。购买、恢复和访问刷新使用 Google Play 和连接； Google Play 账户不是 KOVA 财务资料。 Firebase 身份验证、KOVA 内的 Google 登录、金融云同步、云存储/功能、广告、分析/Crashlytics、推送、远程配置、穿戴、在线家庭共享、市场/银行 API 和 AI/命令层仍处于禁用状态。
+可选订阅提供高级本地工具。日常财务管理、您的记录和备份仍然免费。无需 KOVA 账号。 Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 部分工具需要足够的财务历史记录。税务计算仅适用于支持的国家和纳税年度。Premium 不提供云同步。
+
+KOVA · 2026-10-29 · DRAFT
 
 当前候选者 — 未批准公开销售：所有者选择了 client-only 验证，但没有 KOVA 验证服务器。 KOVA 通过 Android 的计费接口与 Google Play 应用程序进行通信。该版本删除了KOVA的INTERNET权限； Google Play 使用自己的网络和帐户/付款处理。 KOVA 观察连接可用性，这本身并不能确定缓存的 Play 购买是当前的。这并不是说整个手机都处于离线状态。
 

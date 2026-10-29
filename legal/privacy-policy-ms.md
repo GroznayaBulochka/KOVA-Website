@@ -29,7 +29,9 @@ Senarai penapis carian mata wang dan bahasa pada peranti anda; pertanyaan ini ti
 
 ## 3. Kewangan tempatan dan pembelian pilihan
 
-Pangkalan Free menyimpan rekod kewangan secara tempatan dan tidak memerlukan akaun awan KOVA. Pemilik meluluskan pakej ciri Premium: ​​laporan/perbandingan tempatan lanjutan, ramalan dan analitik pendapatan kerja. Pengiraan memerlukan rekod relevan yang mencukupi. Beli, pulihkan dan akses muat semula menggunakan Google Play dan ketersambungan; akaun Google Play bukan profil kewangan KOVA. Pengesahan Firebase, log masuk Google di dalam KOVA, penyegerakan awan kewangan, Storan/Fungsi Awan, pengiklanan, Analitis/Crashlytics, push, Remote Config, Wear, Perkongsian Keluarga dalam talian, API pasaran/bank dan AI/Lapisan Perintah kekal dilumpuhkan.
+Langganan pilihan untuk alatan tempatan lanjutan. Kewangan setiap hari, rekod dan sandaran anda kekal percuma. Tiada akaun KOVA diperlukan. Perancang Kehidupan · Pro. Sejarah Harga · Pro. Vault · Pro. Premium merangkumi kerja dan pendapatan, kalendar kewangan, semua laporan, imbasan resit dan pusat cukai. Rekod asas, nota, penyulitan, sandaran, pemulihan dan eksport data kekal percuma. Sesetengah alat memerlukan sejarah kewangan yang mencukupi. Pengiraan cukai hanya meliputi negara dan tahun cukai yang disokong. Premium tidak menambah penyegerakan awan.
+
+KOVA · 2026-10-29 · DRAFT
 
 CALON SEMASA — TIDAK DILULUSKAN UNTUK JUALAN AWAM: pemilik memilih pengesahan client-only, tanpa pelayan pengesahan KOVA. KOVA berkomunikasi dengan apl Google Play melalui antara muka pengebilan Android. Keluaran itu mengalih keluar kebenaran INTERNET KOVA; Google Play menggunakan rangkaian dan pemprosesan akaun/pembayarannya sendiri. KOVA memerhati ketersediaan sambungan, yang tidak dengan sendirinya menetapkan bahawa pembelian Play yang dicache adalah terkini. Ini bukan dakwaan bahawa keseluruhan telefon berada di luar talian.
 

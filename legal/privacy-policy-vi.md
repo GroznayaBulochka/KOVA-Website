@@ -29,7 +29,9 @@ Danh sách bộ lọc tìm kiếm tiền tệ và ngôn ngữ trên thiết bị
 
 ## 3. Tài chính địa phương và mua hàng tùy chọn
 
-Cơ sở Free lưu trữ hồ sơ tài chính cục bộ và không yêu cầu tài khoản đám mây KOVA. Chủ sở hữu đã phê duyệt gói tính năng Premium: ​​báo cáo/so sánh địa phương nâng cao, dự báo và phân tích thu nhập công việc. Tính toán cần có đủ hồ sơ liên quan. Mua, khôi phục và truy cập làm mới sử dụng Google Play và kết nối; tài khoản Google Play không phải là hồ sơ tài chính KOVA. Xác thực Firebase, đăng nhập Google bên trong KOVA, đồng bộ hóa đám mây tài chính, Lưu trữ/Chức năng đám mây, quảng cáo, Analytics/Crashlytics, đẩy, Cấu hình từ xa, Wear, Chia sẻ gia đình trực tuyến, API thị trường/ngân hàng và AI/Lớp lệnh vẫn bị tắt.
+Đăng ký tùy chọn cho các công cụ cục bộ nâng cao. Tài chính hàng ngày, hồ sơ và bản sao lưu của bạn vẫn miễn phí. Không cần tài khoản KOVA. Lập kế hoạch cuộc sống · Pro. Lịch sử giá · Pro. Vault · Pro. Premium gồm công việc và thu nhập, lịch tài chính, mọi báo cáo, quét hóa đơn và trung tâm thuế. Ghi chép cơ bản, ghi chú, mã hóa, sao lưu, khôi phục và xuất dữ liệu vẫn miễn phí. Một số công cụ cần đủ lịch sử tài chính. Tính thuế chỉ áp dụng cho quốc gia và năm thuế được hỗ trợ. Premium không thêm đồng bộ đám mây.
+
+KOVA · 2026-10-29 · DRAFT
 
 ỨNG VIÊN HIỆN TẠI — KHÔNG ĐƯỢC PHÊ DUYỆT ĐỂ BÁN CÔNG CỘNG: chủ sở hữu đã chọn xác minh client-only mà không có máy chủ xác minh KOVA. KOVA giao tiếp với ứng dụng Google Play thông qua giao diện thanh toán của Android. Bản phát hành loại bỏ quyền INTERNET của KOVA; Google Play sử dụng mạng riêng và xử lý tài khoản/thanh toán của riêng mình. KOVA quan sát tính khả dụng của kết nối, bản thân nó không chứng minh rằng giao dịch mua Play được lưu trong bộ nhớ đệm là hiện hành. Đây không phải là khẳng định rằng toàn bộ điện thoại đang ngoại tuyến.
 

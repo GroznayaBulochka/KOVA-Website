@@ -29,7 +29,9 @@ Wyszukiwarki walut i języków filtrują listy na urządzeniu; zapytania nie są
 
 ## 3. Lokalne finanse i opcjonalne zakupy
 
-Bezpłatna baza przechowuje finanse lokalnie i nie wymaga konta KOVA. Właściciel zatwierdził pakiet Premium: rozszerzone lokalne raporty/porównania, prognozy i analitykę dochodów z pracy. Obliczenia wymagają odpowiednich danych. Zakup, przywracanie i odświeżanie dostępu korzystają z Google Play oraz połączenia; konto Google Play nie jest lokalnym profilem finansowym KOVA. Firebase Auth, logowanie Google wewnątrz KOVA, synchronizacja finansów, Cloud Storage/Functions, reklamy, Analytics/Crashlytics, push, Remote Config, Wear, internetowe Family, API bankowe/rynkowe i AI/Command Layer pozostają wyłączone.
+Opcjonalna subskrypcja zaawansowanych narzędzi lokalnych. Codzienne finanse, Twoje dane i backup pozostają bezpłatne. Konto KOVA nie jest wymagane. Planer życia · Pro. Historia cen · Pro. Premium obejmuje Work & Income, Kalendarz finansowy, wszystkie raporty, skanowanie paragonów, Centrum podatkowe i Vault. Podstawowa ewidencja finansów, Notatki, szyfrowanie, backup, przywracanie i eksport danych pozostają bezpłatne. Narzędzia Pro są ukryte bez Premium. Po aktywacji analizy pojawiają się dopiero po spełnieniu wymagań dotyczących danych. Narzędzia wprowadzania danych są dostępne od początku. Obliczenia podatkowe obejmują wyłącznie obsługiwane kraje i lata podatkowe. Premium nie dodaje synchronizacji z chmurą.
+
+KOVA · 2026-10-29 · DRAFT
 
 AKTUALNY KANDYDAT — NIEZATWIERDZONY DO PUBLICZNEJ SPRZEDAŻY: właściciel wybrał weryfikację client-only, bez serwera weryfikacji KOVA. Aplikacja komunikuje się z Google Play przez interfejs płatności Androida. Wydanie usuwa uprawnienie INTERNET z procesu KOVA; Google Play używa własnej sieci i przetwarzania kont/płatności. KOVA obserwuje dostępność połączenia, co samo nie dowodzi aktualności zakupu z pamięci Play. Nie twierdzimy, że cały telefon nie korzysta z sieci.
 

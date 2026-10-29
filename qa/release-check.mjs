@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
+import {websiteLegalDraft} from '../scripts/current-website-legal.mjs';
 const root=fileURLToPath(new URL('..',import.meta.url));
 const read=name=>readFile(resolve(root,name),'utf8');
 const config=JSON.parse(await read('release-config.json'));
@@ -41,7 +42,7 @@ for(const page of files.filter(p=>p.endsWith('.html'))){
 const sitemap=await read('dist/sitemap.xml');
 check('Preview sitemap advertises no draft URLs or invented security contact',()=>{assert.ok(!sitemap.includes('<loc>'));assert.ok(!files.includes('.well-known/security.txt'));});
 const app=resolve(root,'../KOVA-App');
-const capture=JSON.parse(await read('qa/artifacts/presentation-2026-10-21/provenance.json'));
+const capture=JSON.parse(await read(config.presentationEvidence));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const provenance=[];
 for(const image of capture.screenshots){
@@ -54,7 +55,8 @@ for(const kind of ['privacy-policy','terms-of-service'])for(const lang of ['pl',
  const name=kind+'-'+lang+'.md';
  const actual=await readFile(resolve(root,'dist/legal',name));
  const source=await readFile(resolve(app,'docs/release/local-freemium-legal',name));
- check(name+': exact app draft bytes',()=>{assert.equal(hash(actual),hash(source));assert.match(actual.toString(),/DRAFT|SZKIC|ЧЕРНОВИК/i);});
+ const expected=Buffer.from(await websiteLegalDraft(kind,lang,source.toString()));
+ check(name+': app-based draft with explicit current package scope',()=>{assert.equal(hash(actual),hash(expected));assert.match(actual.toString(),/DRAFT|SZKIC|ЧЕРНОВИК/i);});
 }
 // Verify the served artifact, including direct requests that bypass all browser UI.
 for(const path of ['/workspace.html','/workspace.js','/workspace-access.js','/.git/config','/qa/public-contract-check.mjs','/scripts/build-site.mjs','/.well-known/security.txt','/assets/screenshots/kova-profile.png','/assets/screenshots/free-v1-intro.png']){
@@ -64,5 +66,5 @@ for(const path of ['/workspace.html','/workspace.js','/workspace-access.js','/.g
 const served=await fetch(origin+'/');
 check('Public preview has security headers',()=>{assert.equal(served.status,200);assert.equal(served.headers.get('x-content-type-options'),'nosniff');assert.ok(served.headers.get('content-security-policy').includes("frame-ancestors 'none'"));});
 const report={recordedAt:new Date().toISOString(),result:'PASS',checks:passed.length,passed,negativeReleaseExitCode:negative.status,provenance,published:false};
-await writeFile(resolve(root,'qa/artifacts/release-2026-10-21/release-check.json'),JSON.stringify(report,null,2));
+await writeFile(resolve(root,'qa/artifacts/content-refresh-2026-10-29/release-check.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({result:'PASS',checks:passed.length,negativeReleaseExitCode:negative.status}));

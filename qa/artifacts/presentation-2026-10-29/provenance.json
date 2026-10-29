@@ -1,0 +1,306 @@
+{
+  "capturedAt": "2026-10-29T07:57:31.1322445Z",
+  "data": "FICTIONAL_SYNTHETIC_ONLY",
+  "captureMethod": "UiDevice.takeScreenshot; unchanged PNG bytes",
+  "runtime": {
+    "resolution": "Physical size: 1080x2400",
+    "avd": "KovaLocalFreemium16k_20261024",
+    "api": 37,
+    "restoredFontScale": "1.0",
+    "theme": "DARK",
+    "pageSize": 16384,
+    "language": "en",
+    "serial": "emulator-5580",
+    "airplaneMode": 1,
+    "defaultNetwork": "none",
+    "captureFontScale": 1,
+    "packageName": "com.kova.budget.offlinequalification",
+    "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
+    "internetPermission": false,
+    "apkSha256": "16b70a7ebed2d184c73c6f829e363b0e2bad21e039fe53690c7dd5a28b8d9aa7",
+    "testApkSha256": "57d7ed86301098a00beabd8befad3e9128f4bda07d8059d63d4338ffa1479331",
+    "profile": "Marta — fictional English presentation owner, independent UUID/SQLCipher database",
+    "normalUiSetup": "Actual MainActivity; ordinary More navigation; no setContent or injected route; English DARK font1.0. Fixture is provisioned in instrumentation, not entered manually.",
+    "premium": "INSTRUMENTATION_ONLY_MOCK_NOT_PLAY",
+    "scope": "Presentation images, not proof of a Play purchase, production signing or full release qualification"
+  },
+  "fixture": {
+    "verification": "PASS",
+    "status": "PASS_INDEPENDENT_ROOM_ORACLE",
+    "fictional": true,
+    "asOf": "2026-10-29",
+    "transactions": 224,
+    "accountBalancesMinorPLN": {
+      "demo-current": 847770,
+      "demo-savings": 1180000,
+      "demo-cash": 27449
+    },
+    "salaries": 6,
+    "budgetLimits": 3,
+    "notes": 3,
+    "workProfiles": 1,
+    "licence": "INSTRUMENTATION_ONLY_MOCK_NOT_PLAY",
+    "testSource": "qa/artifacts/presentation-2026-10-29/WebsiteEnglishPresentation53Test.kt",
+    "testSourceSha256": "932d5c2736e48719777155e3cd6951ad7d60da6dbe54a27aa1a90004d1cdd882",
+    "sourceShippingInputsSha256": "1ec6faeeb0d51afd137510fecddbac7d658e099b16c238586dce24021939b139",
+    "checks": "Independent persisted account balance reconciliation, row count/owner/currency/IDs, six salaries, recurring settlement links, three notes and three category limits; checked before and after real UI navigation",
+    "statisticsClaim": false
+  },
+  "screenshots": [
+    {
+      "id": "home",
+      "asset": "assets/screenshots/offline-demo-home.png",
+      "original": "qa/artifacts/presentation-2026-10-29/home.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/home.xml",
+      "uiSha256": "061d4340def7e1de1c51cc09947cb96ab8bc34de64939461a9aba0eb8bd50c7c",
+      "bytes": 221715,
+      "sha256": "c7e089f26bffbbf5e931f83ffc0ccc3f129b25aba4c951a59245cec3fc83d5fd",
+      "previousSha256": "06790b00d6caa834128199bb964bcdf4603d092dbef715d52f5fec9c0b8b36c6",
+      "edited": false,
+      "tier": "Free_and_Pro_fixture"
+    },
+    {
+      "id": "accounts",
+      "asset": "assets/screenshots/offline-demo-accounts.png",
+      "original": "qa/artifacts/presentation-2026-10-29/accounts.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/accounts.xml",
+      "uiSha256": "89794ac6dae57bf45ced404eff6adf290be5773802ec8d14fd7e7eabc011d667",
+      "bytes": 483240,
+      "sha256": "049253bcae71e7e7460f9caee8b0aad76b8f46309a225b1d3b3e94f0ed418919",
+      "previousSha256": "a2a0eec493f093c3016d629b6c80468718ec37758ce6b353f96178988ecc9c6a",
+      "edited": false,
+      "tier": "Free"
+    },
+    {
+      "id": "transactions",
+      "asset": "assets/screenshots/offline-demo-transactions.png",
+      "original": "qa/artifacts/presentation-2026-10-29/transactions.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/transactions.xml",
+      "uiSha256": "740dcb4db22df08d9eb7fe54afe475ca7de3cc065fd0208a8307126056620c83",
+      "bytes": 289565,
+      "sha256": "e74d1f56175e627fe842878c3b799f3452914774e415aacd7b1dde119b52903f",
+      "previousSha256": "e2c3503f7acea3a1273f1fd4be854d340d96ae3b8587dac97e101fcd85755a1c",
+      "edited": false,
+      "tier": "Free"
+    },
+    {
+      "id": "budgets",
+      "asset": "assets/screenshots/offline-demo-budgets.png",
+      "original": "qa/artifacts/presentation-2026-10-29/budgets.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/budgets.xml",
+      "uiSha256": "fd75f8cdf228a8ee7b7ab187e40b71a4ae88f827de8d7cf06e8a15e2dbddf5f9",
+      "bytes": 540759,
+      "sha256": "ed5c25fb0fa6d677d218abffee7740fadb0e229f6227d55f8129887811aba06c",
+      "previousSha256": "92fea2f21ecf3ca52947970d0679821214031e186c7122e4b4d49c7b454b1db7",
+      "edited": false,
+      "tier": "Free"
+    },
+    {
+      "id": "recurring",
+      "asset": "assets/screenshots/offline-demo-recurring.png",
+      "original": "qa/artifacts/presentation-2026-10-29/recurring.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/recurring.xml",
+      "uiSha256": "3100ea42b269d2abd0ef83728493a58dfc11201df6c4c8cdd652f19c6d57b5ff",
+      "bytes": 466092,
+      "sha256": "c44d3c8e548192d91a27e67e2157f90470406a014ecd975f4ed3c94d3e0ed945",
+      "previousSha256": "d12320b5106253646e16b1a2121cb57474dcef43e92db26b685386f79099b2ed",
+      "edited": false,
+      "tier": "Free"
+    },
+    {
+      "id": "reports",
+      "asset": "assets/screenshots/offline-demo-reports.png",
+      "original": "qa/artifacts/presentation-2026-10-29/reports.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/reports.xml",
+      "uiSha256": "61481ff2ec78b382f6ca4ad832464486a3b826d4397384194767f247875f65e9",
+      "bytes": 603040,
+      "sha256": "748874990fdbcc1b02d85975083115cfbe7bb329980cdb926bfd349b14564ff8",
+      "previousSha256": "cc5a5d9c5540b15d6f996ec0ae051ff8c69c218e1b2b2e14159564fdd573e830",
+      "edited": false,
+      "tier": "Pro"
+    },
+    {
+      "id": "calendar",
+      "asset": "assets/screenshots/offline-demo-calendar.png",
+      "original": "qa/artifacts/presentation-2026-10-29/calendar.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/calendar.xml",
+      "uiSha256": "2eddb37cb2d71152f93f2e1bcc552e87dfa49e2e1a3c29c52d5293453c45ba3b",
+      "bytes": 633248,
+      "sha256": "3af35e86e6a17d0837438e0f16784fb88c96bc18f5d2953ee7d188e80c1f2583",
+      "previousSha256": "233f02bd8bca35636560e31cde1f08a04ae9d089b4d8ff0c434a35f46a8b8e73",
+      "edited": false,
+      "tier": "Pro"
+    },
+    {
+      "id": "notes",
+      "asset": "assets/screenshots/offline-demo-notes.png",
+      "original": "qa/artifacts/presentation-2026-10-29/notes.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/notes.xml",
+      "uiSha256": "07175a3972749b2354c04c9f35f8928738bd7d93fb8c5d44b4d605403f400e67",
+      "bytes": 629823,
+      "sha256": "ae4763fd0a406529e1cb8087bf8e25270faab584fb033de2ed90ac4eb384121c",
+      "previousSha256": "2711a49d50a6fe8bf3a29f67a69ee2d6af0d18e7b991123f575e09bed93ebba2",
+      "edited": false,
+      "tier": "Free"
+    },
+    {
+      "id": "work",
+      "asset": "assets/screenshots/kova-work-income.png",
+      "original": "qa/artifacts/presentation-2026-10-29/work.png",
+      "uiEvidence": "qa/artifacts/presentation-2026-10-29/work.xml",
+      "uiSha256": "4d98cac3c74487f4caf606b1d819b7b0c9c7ac2a86719a3abb15b758783770a1",
+      "bytes": 594873,
+      "sha256": "4f7c6f2181146f9a69adfaa1c9ffcc56efe3564307f865d6d458e8ba63b17ef6",
+      "previousSha256": "0fc7dec06ea7aa535fadf62e313deda2e50f310863dcc32aa1f34bd93ab6a55d",
+      "edited": false,
+      "tier": "Pro"
+    }
+  ],
+  "derivatives": [
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-home-360.webp",
+      "sourceSha256": "c7e089f26bffbbf5e931f83ffc0ccc3f129b25aba4c951a59245cec3fc83d5fd",
+      "sha256": "884ac27c5a1ed72588a454857bb1ff4a24e77632b8307be4785675f5ab4efb09",
+      "width": 360,
+      "bytes": 18812,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-home-720.webp",
+      "sourceSha256": "c7e089f26bffbbf5e931f83ffc0ccc3f129b25aba4c951a59245cec3fc83d5fd",
+      "sha256": "8464cb860f6a0ad8cd042cf61820911a1b7ad0e9ca0bf7170ed80e033b7d7124",
+      "width": 720,
+      "bytes": 41626,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-accounts-360.webp",
+      "sourceSha256": "049253bcae71e7e7460f9caee8b0aad76b8f46309a225b1d3b3e94f0ed418919",
+      "sha256": "324b675d85789f3760d4eb87cae094868cf1852156d48eff32a1ea61a46d7898",
+      "width": 360,
+      "bytes": 24356,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-accounts-720.webp",
+      "sourceSha256": "049253bcae71e7e7460f9caee8b0aad76b8f46309a225b1d3b3e94f0ed418919",
+      "sha256": "22dc36f6a15407ac0264fe9de13535dc3be31be3a0e2783d0537d6d34dc679fd",
+      "width": 720,
+      "bytes": 57252,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-transactions-360.webp",
+      "sourceSha256": "e74d1f56175e627fe842878c3b799f3452914774e415aacd7b1dde119b52903f",
+      "sha256": "cb94d1f8ad8acab799a7093020775dd8171605e4ba9f04c094db57e78cc161b1",
+      "width": 360,
+      "bytes": 21398,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-transactions-720.webp",
+      "sourceSha256": "e74d1f56175e627fe842878c3b799f3452914774e415aacd7b1dde119b52903f",
+      "sha256": "929b8c6744bf25740b7247373388cf67da80510944e42524131d43b8d74d00b4",
+      "width": 720,
+      "bytes": 48756,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-budgets-360.webp",
+      "sourceSha256": "ed5c25fb0fa6d677d218abffee7740fadb0e229f6227d55f8129887811aba06c",
+      "sha256": "bc014bfd0c898262ae6f810fdd3e2680b0ec65a056a7e337576c7244d6d17c4e",
+      "width": 360,
+      "bytes": 32040,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-budgets-720.webp",
+      "sourceSha256": "ed5c25fb0fa6d677d218abffee7740fadb0e229f6227d55f8129887811aba06c",
+      "sha256": "c474a98c99e9c7bb694dd6c856c8bd8d3770fcf39084da468c5929e1f4f1b28a",
+      "width": 720,
+      "bytes": 74474,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-recurring-360.webp",
+      "sourceSha256": "c44d3c8e548192d91a27e67e2157f90470406a014ecd975f4ed3c94d3e0ed945",
+      "sha256": "5aa8170621ad67f9116efc44ef9ae0b97b1021ad0834580d4f25f8189a5f76bd",
+      "width": 360,
+      "bytes": 28274,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-recurring-720.webp",
+      "sourceSha256": "c44d3c8e548192d91a27e67e2157f90470406a014ecd975f4ed3c94d3e0ed945",
+      "sha256": "fb0056d31fccd29a1bd38ecca966870c90dc568bbc73e32a56aadbb2fb9f5a16",
+      "width": 720,
+      "bytes": 65912,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-reports-360.webp",
+      "sourceSha256": "748874990fdbcc1b02d85975083115cfbe7bb329980cdb926bfd349b14564ff8",
+      "sha256": "54932c1662e1213dc40469724b4da8f0b37766149dec52a3e4e65e7dc06ed28e",
+      "width": 360,
+      "bytes": 25724,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-reports-720.webp",
+      "sourceSha256": "748874990fdbcc1b02d85975083115cfbe7bb329980cdb926bfd349b14564ff8",
+      "sha256": "a550f2c79db764981f0f1773982f114bb2af713c295719935f10f2b42f95d238",
+      "width": 720,
+      "bytes": 60592,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-calendar-360.webp",
+      "sourceSha256": "3af35e86e6a17d0837438e0f16784fb88c96bc18f5d2953ee7d188e80c1f2583",
+      "sha256": "409aee82737a02ca818e0e8cab9dd8331ad9fdff771608ebfa8a51852f0168b0",
+      "width": 360,
+      "bytes": 27490,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-calendar-720.webp",
+      "sourceSha256": "3af35e86e6a17d0837438e0f16784fb88c96bc18f5d2953ee7d188e80c1f2583",
+      "sha256": "88aa16ae44fab63a210b3d7fd45f6314fcec4c37b719bee9137e4876821809cc",
+      "width": 720,
+      "bytes": 63442,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-notes-360.webp",
+      "sourceSha256": "ae4763fd0a406529e1cb8087bf8e25270faab584fb033de2ed90ac4eb384121c",
+      "sha256": "543101fef42cf93da70f64696f0e26f583edacfebc7ad4b378d4adb5cfedf046",
+      "width": 360,
+      "bytes": 23418,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/offline-demo-notes-720.webp",
+      "sourceSha256": "ae4763fd0a406529e1cb8087bf8e25270faab584fb033de2ed90ac4eb384121c",
+      "sha256": "8183ed2f8c76701a2bd4e7e1fafa8efdb7ecbce34eb11f88821aaef2d3528458",
+      "width": 720,
+      "bytes": 52474,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/kova-work-income-360.webp",
+      "sourceSha256": "4f7c6f2181146f9a69adfaa1c9ffcc56efe3564307f865d6d458e8ba63b17ef6",
+      "sha256": "c841d16f32218fe0924052f11ce8b414d00873f37b43c3b2d7e21727d4ea2342",
+      "width": 360,
+      "bytes": 24208,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/kova-work-income-720.webp",
+      "sourceSha256": "4f7c6f2181146f9a69adfaa1c9ffcc56efe3564307f865d6d458e8ba63b17ef6",
+      "sha256": "22b43741eb01b50857f3cd17eb8d2da1b179c09598c39246135d0bb5125a6383",
+      "width": 720,
+      "bytes": 57382,
+      "transformation": "Aspect-preserving resize and WebP encoding only; original PNG unchanged"
+    }
+  ],
+  "published": false
+}

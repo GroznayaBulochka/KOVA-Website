@@ -3,6 +3,7 @@ import { readFile, readdir, access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import vm from 'node:vm';
+import {websiteLegalDraft} from '../scripts/current-website-legal.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const read = name => readFile(resolve(root, name), 'utf8');
@@ -55,8 +56,9 @@ if (process.argv[2]) {
     // App sources use mixed CRLF/LF and copies contain one extra trailing blank line.
     // Compare every content character, ignoring only line endings and empty lines at EOF.
     const canonical = text => text.replace(/\r\n/g,'\n').replace(/\n*$/, '\n');
-    assert.ok(canonical(await read(`legal/${name}`)) === canonical(app), `${name}: app document text was changed`);
+    const expected=await websiteLegalDraft(kind,lang,app);
+    assert.ok(canonical(await read(`legal/${name}`)) === canonical(expected), `${name}: unexpected change outside the explicit current package scope`);
     documents++;
   }
-  console.log(JSON.stringify({ appDocumentTextMatches:documents, normalization:'CRLF/LF and trailing empty lines', result:'PASS' }));
+  console.log(JSON.stringify({ appBasedDraftsVerified:documents, allowedPrivacyDelta:'section3 current localized app package; DRAFT', normalization:'CRLF/LF and trailing empty lines', result:'PASS' }));
 }

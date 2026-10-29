@@ -10,7 +10,7 @@
     "navSecurity": "Sicurezza",
     "navLegal": "Documenti",
     "navRoadmap": "Tabella di marcia",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "Spese. Budget.<br><em>Reddito da lavoro.</em>",
     "heroCopy": "Tieni traccia delle spese, pianifica i budget e stima le entrate derivanti dalle tue ore di lavoro. Le tue finanze rimangono sul tuo telefono. In arrivo su Android con base gratuita e KOVA Premium opzionale.",
     "heroPrivacy": "I tuoi dati finanziari restano sul tuo telefono.",
@@ -18,7 +18,7 @@
     "watchVideo": "Vedi l'applicazione",
     "pauseVideo": "Pausa",
     "playVideo": "Gioca",
-    "releaseNote": "Prima del lancio · Il download pubblico non è ancora disponibile.",
+    "releaseNote": "Beta · Prima del lancio · Il download pubblico non è ancora disponibile.",
     "trustPrivacy": "La privacy prima di tutto",
     "trustPrivacyCopy": "Database locale, nessun caricamento automatico",
     "trustReports": "Practical summaries",
@@ -32,16 +32,16 @@
     "featureBudgets": "Budget",
     "featureBudgetsCopy": "Limiti e progresso",
     "featureWork": "Lavoro e reddito",
-    "featureWorkCopy": "Hours and paydays",
+    "featureWorkCopy": "Pro · Hours and paydays",
     "featureCalendar": "Calendario",
-    "featureCalendarCopy": "Financial events",
+    "featureCalendarCopy": "Pro · Financial events",
     "featureReports": "Rapporti",
-    "featureReportsCopy": "Trends and forecasts",
+    "featureReportsCopy": "Pro · Trends and forecasts",
     "featureGoals": "Obiettivi",
     "featureGoalsCopy": "Piani e progressi",
     "clarityKicker": "The app",
     "clarityTitle": "Uno sguardo all'interno di KOVA.",
-    "clarityCopy": "Schermate KOVA reali con dati demo fittizi. Esplora le finanze quotidiane, i budget e gli strumenti locali. La galleria principale mostra l'interfaccia polacca.",
+    "clarityCopy": "Interfaccia dell’app in inglese · dati dimostrativi fittizi. Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente. Free / Pro.",
     "clarityAccounts": "Conti, transazioni e categorie",
     "clarityReports": "Rapporti e previsioni",
     "clarityWork": "Lavoro e reddito",
@@ -54,10 +54,10 @@
     "screenFeatures": "Tema leggero",
     "screenFeaturesCopy": "Stessi dati, aspetto diverso",
     "screenWork": "Local notes",
-    "screenWorkCopy": "Salvato sul dispositivo · 21 ott 2026",
+    "screenWorkCopy": "Interfaccia dell’app in inglese · 2026-10-29",
     "securityKicker": "Privacy",
     "securityTitle": "La privacy è la nostra massima priorità.",
-    "securityCopy": "I dati finanziari di KOVA restano sul tuo telefono. Lavoriamo per rendere l’app il più sicura possibile. L'acquisto e il ripristino opzionali di Premium utilizzano Google Play separatamente; l’analisi di questo sito Web richiede il tuo consenso.",
+    "securityCopy": "I dati finanziari restano su questo dispositivo. Non servono account cloud KOVA, registrazione o sincronizzazione finanziaria cloud. Gli acquisti vengono controllati tramite Google Play senza un server KOVA. L'accesso può rimanere disponibile offline fino a 48 ore dopo un controllo di connessione. Il riavvio o modifiche significative dell'orologio richiedono un altro controllo. La scadenza esatta dell'abbonamento non è disponibile in questa app; vedere Google Play.",
     "securityModel": "Leggi sulla sicurezza",
     "secureLocal": "Crittografia locale",
     "secureOwner": "Isolamento dei dati",
@@ -103,16 +103,16 @@
     "faqEstimateA": "No. Sono stime basate sui dati registrati e sulla configurazione. Possono differire dai pagamenti effettivi e non sostituiscono i documenti del datore di lavoro o la consulenza individuale.",
     "faqWebsiteQ": "Questo sito web può accedere alle mie finanze?",
     "faqWebsiteA": "No. Il sito web presenta il progetto e non si collega al database finanziario del tuo telefono. L'analisi facoltativa del sito web dipende dal tuo consenso.",
-    "altHome": "KOVA Offline V1: schermata iniziale con cronologia finanziaria immaginaria",
-    "altProfile": "KOVA Offline V1: tre account demo locali",
-    "altFeatures": "KOVA V1 gratuito: tema leggero su un emulatore",
-    "altWork": "KOVA Offline V1: una nota di prova salvata su un emulatore",
+    "altHome": "KOVA: Le tue finanze oggi — dati dimostrativi fittizi. Interfaccia dell’app in inglese",
+    "altProfile": "KOVA: Conti — dati dimostrativi fittizi. Interfaccia dell’app in inglese",
+    "altFeatures": "KOVA: Le tue finanze oggi — dati dimostrativi fittizi. Interfaccia dell’app in inglese",
+    "altWork": "KOVA: Lavoro e reddito · Pro — Interfaccia dell’app in inglese · Pro · 2026-10-29",
     "previous": "Schermata precedente",
     "next": "Schermata successiva",
     "navigation": "Navigazione principale",
     "pageTitle": "KOVA: finanze in un unico posto",
     "faqFreeQ": "KOVA sarà gratuito?",
-    "faqFreeA": "Sì. La prima release è prevista con base gratuita e KOVA Premium opzionale. La registrazione quotidiana, i report di base, l'accesso ai tuoi record, la crittografia locale, il backup, l'esportazione e l'eliminazione rimangono gratuiti. Premium copre report avanzati, previsioni e analisi del reddito da lavoro. Il prezzo sarà annunciato prima del lancio; non c'è ancora alcuna vendita pubblica.",
+    "faqFreeA": "KOVA Premium. Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. I dati salvati restano accessibili. Le nuove operazioni in questo modulo richiedono Premium. Backup ed esportazione restano gratuiti. La prova inizia solo dopo la conferma dell’acquisto di un’offerta per cui sei idoneo in Google Play. 30 giorni gratis, poi il prezzo mostrato da Google Play prima dell’acquisto (Fatturato ogni mese / Fatturato una volta all'anno). Rinnovo automatico salvo annullamento prima della fine della prova. La disponibilità è determinata da Google Play.",
     "tourNote": "Schermate reali delle app · dati demo fittizi · non una registrazione video",
     "tourChapters": "Scegli una schermata del tour",
     "factAndroid": "Android 7.0+",
@@ -121,7 +121,7 @@
     "faqBackupQ": "Come posso proteggere i miei dati o cambiare telefono?",
     "faqBackupA": "Crea un'esportazione manuale protetta da password e archiviala in modo sicuro fuori dal telefono. L'importazione richiede conferma e sostituisce i dati supportati del profilo selezionato. Si tratta di una copia parziale, non di un'immagine completa dell'app: sono incluse le immagini delle note incorporate, ma gli allegati esterni e le foto delle ricevute necessitano di copie separate. L'editore non può ripristinare i dati dal cloud o recuperare la password di backup.",
     "faqOcrQ": "La scansione delle ricevute funziona offline?",
-    "faqOcrA": "OCR utilizza un modello in bundle con l'app. Scatta una foto o scegline una dalla tua galleria tramite il selettore Android. Il riconoscimento può essere errato: controlla l'importo, la valuta e la data prima di salvare. Negare l'accesso alla fotocamera non blocca la selezione del file.",
+    "faqOcrA": "OCR utilizza un modello in bundle con l'app. Scatta una foto o scegline una dalla tua galleria tramite il selettore Android. Il riconoscimento può essere errato: controlla l'importo, la valuta e la data prima di salvare. Negare l'accesso alla fotocamera non blocca la selezione del file. Pro: I dati salvati restano accessibili. Le nuove operazioni in questo modulo richiedono Premium. Backup ed esportazione restano gratuiti.",
     "faqDeviceQ": "A quali dispositivi e pubblico è rivolto KOVA?",
     "faqDeviceA": "KOVA è in preparazione per i telefoni Android che eseguono Android 7.0 o versioni successive. L’interfaccia di KOVA supporta 27 lingue; la compatibilità e la revisione della lingua sono in corso. Destinato alle persone dai 13 anni in su, soggetto ai requisiti locali e del negozio. Non viene offerta alcuna versione per iOS o orologi.",
     "aboutKicker": "Cos'è KOVA?",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "Scopri cosa rimane nel tuo budget",
     "aboutGoalsCopy": "Imposta i limiti delle categorie e controlla i progressi man mano che spendi. Pianifica il prossimo acquisto con una visione più chiara di ciò che resta.",
     "aboutIncomeTitle": "Pianifica la modifica del reddito",
-    "aboutIncomeCopy": "Registra le ore di lavoro e le tariffe per stimare i guadagni. Riunisci il tuo programma di lavoro e il budget mensile in un unico piano.",
-    "aboutPrivacy": "I registri finanziari rimangono sul tuo telefono. Nessuna connessione bancaria o conto cloud KOVA. Gli acquisti Premium opzionali vengono gestiti separatamente tramite Google Play.",
+    "aboutIncomeCopy": "Pro · Registra le ore di lavoro e le tariffe per stimare i guadagni. Riunisci il tuo programma di lavoro e il budget mensile in un unico piano.",
+    "aboutPrivacy": "I dati finanziari restano su questo dispositivo. Non servono account cloud KOVA, registrazione o sincronizzazione finanziaria cloud. Ripristina assegni acquistati con Google Play. Non ripristina né sincronizza i record finanziari. Premium si applica ai profili locali su questa installazione. La reinstallazione e un altro dispositivo richiedono un controllo di acquisto separato. La modifica del piano è disponibile tramite Google Play.",
     "aboutAction": "Guarda KOVA in azione",
     "followLaunch": "Segui KOVA su Instagram",
     "downloadApp": "Ottienilo su Google Play",
     "launchChannel": "Lancio novità su Instagram · @kova_money",
-    "workScreenNote": "Lavoro e reddito · schermata demo precedente; il design potrebbe cambiare.",
+    "workScreenNote": "Interfaccia dell’app in inglese · Pro · 2026-10-29",
     "plansKicker": "Previsto per la prima uscita",
     "plansTitle": "Una base libera. Di più con Premium.",
-    "plansCopy": "Inizia con la gestione quotidiana del denaro. Scegli Premium se hai bisogno di un'analisi locale più approfondita. I download e le vendite pubbliche non sono ancora disponibili.",
+    "plansCopy": "Questa è una versione beta. Alcune parti dell'app sono ancora in fase di perfezionamento e potrebbero verificarsi errori. Pro copre solo gli strumenti elencati di seguito, non le funzionalità future incomplete o promesse. Controlla le limitazioni prima di acquistare. Alcuni strumenti richiedono una cronologia finanziaria sufficiente. I calcoli fiscali coprono solo paesi e anni supportati. Premium non aggiunge sincronizzazione cloud.",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "Registrazione e controllo quotidiano dei propri dati.",
-    "planFreeOne": "Spese, budget e report di base",
-    "planFreeTwo": "Registri di lavoro e accesso ai dati salvati",
-    "planFreeThree": "Crittografia locale, backup, esportazione ed eliminazione",
+    "planFreeOne": "Conti, transazioni e categorie",
+    "planFreeTwo": "Budget · Obiettivi · Pagamenti ricorrenti · Note",
+    "planFreeThree": "Crittografia, backup ed esportazione dei dati",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "Un abbonamento opzionale per una visione locale più dettagliata.",
-    "planPremiumOne": "Report avanzati e confronti",
-    "planPremiumTwo": "Previsioni basate sui tuoi record",
-    "planPremiumThree": "Analisi del reddito da lavoro",
-    "plansNote": "Il prezzo e la disponibilità al lancio saranno annunciati prima del rilascio. Alcune analisi necessitano di una storia sufficiente. Gli acquisti Premium e l'aggiornamento dell'accesso richiedono Google Play e connettività; resta disponibile la base Libera.",
+    "planPremiumCopy": "Abbonamento facoltativo per strumenti locali avanzati. La finanza quotidiana, i tuoi record e il backup rimangono gratuiti. Nessun account KOVA richiesto.",
+    "planPremiumOne": "Lavoro e reddito · Calendario finanziario",
+    "planPremiumTwo": "Rapporti · OCR ricevuta locale · Centro fiscale",
+    "planPremiumThree": "Cassaforte · Pianificatore di vita · Storico prezzi",
+    "plansNote": "KOVA Premium · La prova inizia solo dopo la conferma dell’acquisto di un’offerta per cui sei idoneo in Google Play. 30 giorni gratis, poi il prezzo mostrato da Google Play prima dell’acquisto (Fatturato ogni mese / Fatturato una volta all'anno). Rinnovo automatico salvo annullamento prima della fine della prova. La disponibilità è determinata da Google Play.",
     "plansDetails": "Leggi la bozza di abbonamento",
     "closingKicker": "Stai vicino al lancio",
     "closingTitle": "Fate spazio a un piano monetario più chiaro.",
     "closingCopy": "Segui KOVA Development su Instagram per anteprime delle app e novità sul lancio. La prima versione pubblica è ancora in preparazione.",
     "closingSecondary": "Puoi trovare KOVA anche su TikTok.",
-    "forecastNote": "Ogni analisi richiede dati sufficienti. Controlla i requisiti prima di scegliere Premium.",
+    "forecastNote": "Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente.",
     "faqDataQ": "Quanti dati servono per ciascuna analisi?",
     "faqDataA": "<p>Puoi registrare spese e budget fin dall’inizio. I report di base richiedono 5 transazioni in almeno 3 giorni diversi.</p><ul><li>Stima delle spese variabili: almeno 7 giorni di osservazione e 2 spese negli ultimi 3 mesi. È la soglia di un componente del calcolo, non di tutto Premium.</li><li>Report avanzati: almeno 60 giorni di storico, 75 transazioni, 20 giorni con transazioni e almeno 1 budget o obiettivo. Tutte le condizioni devono essere soddisfatte.</li><li>Previsioni: almeno 90 giorni di storico, 100 transazioni in 3 mesi diversi e un reddito regolare o un pagamento ricorrente (registrato o rilevato). Tutte le condizioni devono essere soddisfatte.</li></ul><p>L’acquisto di Premium non sostituisce lo storico necessario. Contano i dati del profilo, anche quelli importati correttamente; la sola data di installazione non basta. Le previsioni restano stime.</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "Le fatture ricorrenti hanno le proprie date di scadenza e la cronologia dei pagamenti. KOVA organizza i record; non trasferisce né raccoglie denaro."
     },
     {
-      "title": "Rapporti",
+      "title": "Rapporti · Pro",
       "caption": "Riepiloghi delle voci registrate",
       "copy": "Grafici e riepiloghi vengono calcolati da KOVA dalle transazioni locali. I dati sono fittizi, ma lo schermo e i calcoli provengono dall'app in esecuzione."
     },
     {
-      "title": "Calendario finanziario",
+      "title": "Calendario finanziario · Pro",
       "caption": "Eventi e scadenze in un'unica visualizzazione",
       "copy": "Transazioni registrate e date di fatturazione nel corso del mese. Seleziona un giorno per vederne gli eventi senza cercare nell'intera cronologia."
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "Cosa porta la prima versione",
-          "Spese, budget, orari di lavoro, obiettivi e registri locali in un'unica app. La base gratuita conserva le registrazioni quotidiane, i report di base, i tuoi dati e le esportazioni. Premium aggiunge report avanzati, previsioni e analisi del reddito da lavoro."
+          "Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente."
         ],
         [
           "Dove siamo adesso",
@@ -301,7 +301,7 @@
         ],
         [
           "Premium locale opzionale",
-          "Completa il controllo di report avanzati, previsioni, analisi del reddito da lavoro, acquisti e ripristini. Non vengono promessi cloud a pagamento, integrazioni bancarie o servizi di intelligenza artificiale."
+          "Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. Alcuni strumenti richiedono una cronologia finanziaria sufficiente. I calcoli fiscali coprono solo paesi e anni supportati. Premium non aggiunge sincronizzazione cloud."
         ],
         [
           "Prepararsi per Google Play",
@@ -347,7 +347,7 @@
         ],
         [
           "Questo sito web è separato",
-          "Questo sito non può leggere il database del tuo telefono. Google Analytics misura le visite e le interazioni del sito web solo con il tuo consenso. Il rifiuto mantiene disponibile l'intero sito. Modifica la tua scelta nelle impostazioni dei cookie; i dettagli dell'hosting e del provider richiedono ancora conferma prima di una nuova distribuzione pubblica."
+          "Le analisi del sito e i cookie analitici sono disattivati. Il sito può ricordare la lingua, ma non accede ai dati finanziari dell’app."
         ],
         [
           "Segnala in tutta sicurezza",
@@ -375,6 +375,10 @@
       "intro": "24 ottobre 2026: il piano attuale per la prima versione di Android include una base gratuita e Premium opzionale. Le voci precedenti di seguito descrivono i piani storici.",
       "badge": "Aggiornamento attuale · 24 ottobre 2026",
       "cards": [
+        [
+          "2026-10-29 · KOVA beta",
+          "Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente. Interfaccia dell’app in inglese."
+        ],
         [
           "24 ottobre 2026 · modello di prima uscita",
           "La prima versione è prevista con una base locale gratuita più Premium opzionale per report avanzati, previsioni e analisi del reddito da lavoro. Sono stati testati scenari di acquisto/ripristino Google Play selezionati; la piena preparazione alle vendite pubbliche è ancora in sospeso. Prezzo e data di lancio non sono annunciati."
@@ -513,9 +517,9 @@
     "terms": "Condizioni d'uso",
     "cookies": "Biscotti",
     "analyticsTitle": "Privacy su questo sito",
-    "analyticsCopy": "Questo sito non può leggere il database del tuo telefono. Google Analytics misura le visite e le interazioni del sito web solo con il tuo consenso. Il rifiuto mantiene disponibile l'intero sito. Modifica la tua scelta nelle impostazioni dei cookie; i dettagli dell'hosting e del provider richiedono ancora conferma prima di una nuova distribuzione pubblica. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "Le analisi del sito e i cookie analitici sono disattivati. Il sito può ricordare la lingua, ma non accede ai dati finanziari dell’app. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "Bozza per la prima versione KOVA pianificata: una base gratuita e Premium opzionale. Corrisponde ai documenti attuali dell'app datati 24 ottobre 2026. La data di entrata in vigore, l'approvazione finale e i rimanenti dettagli sul venditore e sul servizio sono in sospeso. Questa non è un'offerta di abbonamento attiva.",
+  "review": "KOVA · DRAFT · In attesa di conferma del proprietario prima della pubblicazione. Ambito Free e Pro, abbonamenti e annullamento Google Play, limiti beta e diritti.",
   "seo": {
     "titles": {
       "404": "Pagina non trovata: KOVA",

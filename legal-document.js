@@ -12,21 +12,21 @@
   const websiteCopy = {
   "pl": [
     "Prywatność na tej stronie",
-    "Witryna nie czyta bazy telefonu. Google Analytics mierzy odwiedziny i działania na stronie wyłącznie po zgodzie. Odrzucenie zachowuje pełny dostęp. Wybór zmienisz w ustawieniach cookies; szczegóły hostingu i dostawców wymagają potwierdzenia przed nowym publicznym wdrożeniem. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "Analityka strony i analityczne cookies są wyłączone. Witryna może zapamiętać język, ale nie ma dostępu do finansów w aplikacji. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   ],
   "en": [
     "Privacy on this website",
-    "This site cannot read your phone database. Google Analytics measures website visits and interactions only with your consent. Rejecting keeps the full site available. Change your choice in Cookie settings; hosting and provider details still require confirmation before a new public deployment. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "Website analytics and analytics cookies are disabled. The site may remember your language but cannot access financial records in the app. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   ],
   "ru": [
     "Приватность на этом сайте",
-    "Сайт не читает базу данных телефона. Google Analytics измеряет посещения и действия только с вашего согласия. При отказе весь сайт остаётся доступным. Выбор можно изменить в настройках cookies; сведения о хостинге и поставщиках услуг ещё требуют подтверждения перед новым публичным размещением. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "Аналитика сайта и аналитические cookies отключены. Сайт может запомнить язык, но не имеет доступа к финансовым записям приложения. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   ]
 };
   const reviewCopy = {
-  "pl": "Projekt dla planowanego pierwszego wydania KOVA: darmowa baza i opcjonalne Premium. Zgodny z aktualnymi dokumentami aplikacji z 24.10.2026. Data obowiązywania, końcowe zatwierdzenie oraz pozostałe informacje o sprzedawcy i usługach wymagają uzupełnienia. Nie jest to aktywna oferta subskrypcji.",
-  "en": "Draft for the planned first KOVA release: a free base and optional Premium. Matches the current app documents dated 24 October 2026. An effective date, final approval and the remaining seller and service details are pending. This is not an active subscription offer.",
-  "ru": "Черновик запланированного первого выпуска KOVA: бесплатная базовая версия и дополнительный Premium. Соответствует текущим документам приложения от 24 октября 2026 года. Дата вступления в силу, окончательное утверждение, а также остальные сведения о продавце и услугах ожидаются. Это не активное предложение подписки."
+  "pl": "KOVA · DRAFT · Oczekuje na potwierdzenie właściciela przed publikacją. Zakres Free i Pro, subskrypcje Google Play i anulowanie, ograniczenia wersji beta oraz Twoje prawa.",
+  "en": "KOVA · DRAFT · Pending owner confirmation before publication. Free and Pro scope, Google Play subscriptions and cancellation, beta limitations and your rights.",
+  "ru": "KOVA · DRAFT · Ожидается подтверждение владельца перед публикацией. Возможности Free и Pro, подписки Google Play и отмена, ограничения бета-версии и ваши права."
 };
   for (const [lang, [title, text]] of Object.entries(websiteCopy)) { copy[lang].analyticsTitle = title; copy[lang].analyticsCopy = text; }
   for (const [code,data] of Object.entries(window.KOVA_TRANSLATIONS || {})) {

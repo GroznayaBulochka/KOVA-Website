@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_ROOM_ORACLE",
+  "fictional": true,
+  "asOf": "2026-10-29",
+  "transactions": 224,
+  "accountBalancesMinorPLN": {
+    "demo-current": 847770,
+    "demo-savings": 1180000,
+    "demo-cash": 27449
+  },
+  "salaries": 6,
+  "budgetLimits": 3,
+  "notes": 3,
+  "workProfiles": 1,
+  "licence": "INSTRUMENTATION_ONLY_MOCK_NOT_PLAY"
+}

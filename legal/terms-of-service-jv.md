@@ -1,6 +1,6 @@
 # Ketentuan KOVA — FREEMIUM LOKAL V1 — DRAFT
 
-Revisi dokumen: 2026-10-24. Dianyari: 24 Oktober 2026. Penerbit: Vadyslav Konohrai, individu pribadi, Polandia. Dhukungan / keluhan kontak: contact@kovacompass.app.
+Revisi dokumen: 2026-10-27. Dianyari: 27 Oktober 2026. Penerbit: Vadyslav Konohrai, individu pribadi, Polandia. Dhukungan / keluhan kontak: contact@kovacompass.app.
 
 Status: DRAFT — ngenteni persetujuan pungkasan sawise kasunyatan sing diidentifikasi wis rampung. Tanggal persiapan dudu tandha elektronik, bukti publikasi utawa aplikasi retroaktif saka istilah anyar. Tanggal efektif sawise persetujuan lan pambocoran kanggo pangguna: [OWNER_INPUT_REQUIRED].
 
@@ -14,11 +14,15 @@ KOVA minangka versi beta: sawetara bagean isih ditapis lan bisa uga ana kesalaha
 
 Dhukungan siji-wektu opsional (Coffee utawa Boost; kova_donation_coffee / kova_donation_boost) kapisah saka Premium, mbayar liwat Google Play, lan ora gawe anyar kanthi otomatis. Ora menehi akses Pro, lencana, layanan prioritas utawa janji fitur mangsa lan ora dituduhake minangka sumbangan amal. Rega lokal sing nyata kudu kasedhiya saka Play lan dikonfirmasi kanthi jelas sadurunge ngisi daya. A pembayaran ditundha ora rampung support. Pembayaran sing durung rampung dicenthang maneh nalika bali menyang app; kontribusi rampung ora entitlement dibalèkaké. Ora ana pembayaran liya sing dibutuhake kanggo ngrampungake pembayaran pertama sing durung rampung. Hak ukum lan aturan mbalekaken Play sing ditrapake tetep ora diganti. Penjualan dhukungan umum isih mbutuhake produk lan kualifikasi Play-flow nyata.
 
-Istilah DRAFT iki nggambarake KOVA_PHONE_LOCAL_FREEMIUM_V1, com.kova.budget kanggo telpon Android. Rekaman saben dina, akses menyang cathetan, laporan dhasar, enkripsi lokal, serep / pamulihan manual, ekspor data portabel lan pambusakan yaiku Free. Ora ana registrasi KOVA sing dibutuhake. Pemilik nyetujoni Premium kanggo laporan / perbandingan, ramalan lan analytics penghasilan kerja. Petungan mlaku sacara lokal lan mbutuhake data sing cocog. Ora ana iklan, sinkronisasi awan finansial, API bank / pasar, Wear, Sharing Keluarga online utawa AI / Command Layer sing kalebu.
+KOVA_PHONE_LOCAL_FREEMIUM_V1 · com.kova.budget
 
-SALES UMUM DURUNG qualified. Konfigurasi langganan yaiku kova_pro_subscription kanthi rencana dhasar monthly/yearly. Tes lisensi Google Play winates nutupi katalog lan tuku saben wulan; iku ora nduweni kabeh sales, negara utawa acara langganan. Nalika tuku, Google Play nyedhiyakake rega lokal, mata uang lan wektu tagihan. Rencana saben wulan lan tahunan duwe keuntungan sing padha lan gawe anyar kanthi otomatis kanthi biaya liyane ing wiwitan periode sabanjure kajaba nganyari maneh dibatalake. Rega taunan minangka biaya taunan, dudu biaya saben wulan. Ora nyoba utawa diskon pambuko klebu. Konfirmasi eksplisit ing Play dibutuhake; mbukak jendela pembayaran utawa pembayaran sing ditundha ora menehi Premium. Nalika toko ora bisa menehi tawaran sing bener, tuku ora kasedhiya lan basis Free tetep kasedhiya.
+Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Sawetara piranti mbutuhake riwayat finansial sing cukup. Petungan pajak mung kanggo negara lan taun pajak sing didhukung. Premium ora nambah sinkronisasi awan.
 
-Premium ora nggawe cathetan ilang. Ing versi iki, laporan majeng mbutuhake paling 60 dina sajarah, transaksi 75, 20 dina karo transaksi lan budget utawa goal; ramalan mbutuhake dina 90 sajarah, transaksi 100, 3 sasi data lan sinyal-income utawa ambalan-pembayaran. Analitik kerja mbutuhake cathetan kerja sing relevan. Iki minangka syarat kasedhiyan pitungan, dudu jaminan akurasi utawa kinerja investasi. OCR, akses dhasar kanggo cathetan lan serep biasa / ekspor ora mbutuhake Premium.
+kova_pro_subscription · monthly / yearly
+
+Uji coba mung diwiwiti sawise sampeyan ngonfirmasi tuku tawaran sing layak ing Google Play. 30 dina gratis, banjur rega sing ditampilake Google Play sadurunge tuku (Ditagih saben wulan / Ditagih setaun sepisan). Dianyari kanthi otomatis kajaba dibatalake sadurunge uji coba rampung. Google Play nemtokake kelayakan.
+
+Data sing disimpen tetep bisa diakses. Tumindak anyar ing modul iki mbutuhake Premium. Serep lan ekspor tetep gratis.
 
 Batal nganyari maneh utawa ngatur rencana liwat Setelan → Premium → Ngatur langganan, utawa Google Play. Mbusak instal KOVA utawa mbusak data finansial ora mbatalake langganan. Pembatalan ora mbusak wektu mbayar sing isih ana; penundaan lan mundhut saka entitlement bisa matesi operasi majeng anyar. Pengembalian dana ditangani miturut hukum sing ditrapake lan kabijakan Play sing ditrapake; obat statutory ora gumantung ing persetujuan discretionary toko. Konsep iki ora ngeculake utawa nyimpulake panjabutan saka saben mbalekaken.
 

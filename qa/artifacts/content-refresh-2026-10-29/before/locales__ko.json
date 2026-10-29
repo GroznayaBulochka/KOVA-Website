@@ -1,0 +1,556 @@
+{
+  "home": {
+    "skip": "콘텐츠로 건너뛰기",
+    "tagline": "재정을 한곳에서.",
+    "language": "언어",
+    "openMenu": "메뉴 열기",
+    "close": "닫기",
+    "navFeatures": "특징",
+    "navScreens": "스크린",
+    "navSecurity": "보안",
+    "navLegal": "문서",
+    "navRoadmap": "로드맵",
+    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroTitle": "지출과 예산.<br><em>일해서 번 소득.</em>",
+    "heroCopy": "지출을 추적하고, 예산을 계획하고, 근무 시간에 따른 수입을 추정해 보세요. 귀하의 재정은 귀하의 휴대 전화에 남아 있습니다. 무료 베이스와 KOVA Premium 옵션이 포함된 Android가 출시됩니다.",
+    "heroPrivacy": "금융 데이터는 사용자의 휴대폰에 저장됩니다.",
+    "projectStatus": "프로젝트 상태 확인",
+    "watchVideo": "앱 보기",
+    "pauseVideo": "일시중지",
+    "playVideo": "플레이",
+    "releaseNote": "출시 전 · 공개 다운로드는 아직 불가능합니다.",
+    "trustPrivacy": "개인 정보 보호 우선",
+    "trustPrivacyCopy": "로컬 데이터베이스, 자동 업로드 없음",
+    "trustReports": "실용적인 요약",
+    "trustReportsCopy": "기록된 데이터를 기반으로 한 보고서",
+    "trustOffline": "오프라인으로 작동",
+    "trustOfflineCopy": "핵심 재정은 계속 사용 가능",
+    "trustLife": "실제 생활을 위해 제작됨",
+    "trustLifeCopy": "예산, 목표, 업무, 메모",
+    "featureExpenses": "비용",
+    "featureExpensesCopy": "거래 및 카테고리",
+    "featureBudgets": "예산",
+    "featureBudgetsCopy": "한계와 진행",
+    "featureWork": "일과 소득",
+    "featureWorkCopy": "영업시간 및 급여일",
+    "featureCalendar": "달력",
+    "featureCalendarCopy": "금융 이벤트",
+    "featureReports": "보고서",
+    "featureReportsCopy": "동향 및 예측",
+    "featureGoals": "목표",
+    "featureGoalsCopy": "계획 및 진행상황",
+    "clarityKicker": "앱",
+    "clarityTitle": "KOVA 내부를 살펴보세요.",
+    "clarityCopy": "가상의 데모 데이터가 포함된 실제 KOVA 화면. 일상적인 재정, 예산, 지역 도구를 살펴보세요. 메인 갤러리에는 폴란드어 인터페이스가 표시됩니다.",
+    "clarityAccounts": "계정, 거래 및 카테고리",
+    "clarityReports": "보고 및 예측",
+    "clarityWork": "일과 소득",
+    "clarityGoals": "목표와 순자산",
+    "clarityCurrency": "다중 통화 정밀도",
+    "clarityOffline": "핵심 데이터에 대한 오프라인 액세스",
+    "exploreScreens": "화면 탐색",
+    "screenOverview": "어두운 테마",
+    "screenOverviewCopy": "잔액 및 기록된 비용",
+    "screenFeatures": "밝은 테마",
+    "screenFeaturesCopy": "같은 데이터, 다른 모습",
+    "screenWork": "지역 메모",
+    "screenWorkCopy": "기기에 저장됨 · 2026년 10월 21일",
+    "securityKicker": "개인 정보 보호",
+    "securityTitle": "개인 정보 보호는 우리의 최우선 사항입니다.",
+    "securityCopy": "KOVA의 재무 기록은 휴대전화에 보관됩니다. 앱을 최대한 안전하게 만들기 위해 노력합니다. 선택적 Premium 구매 및 복원 사용 Google Play는 별도로; 이 웹사이트의 분석에는 귀하의 동의가 필요합니다.",
+    "securityModel": "보안에 대해 읽어보세요",
+    "secureLocal": "로컬 암호화",
+    "secureOwner": "데이터 격리",
+    "secureOwnerCopy": "레코드가 소유자에게 할당됩니다.",
+    "secureNoBank": "은행 비밀번호 없음",
+    "secureNoBankCopy": "KOVA이(가) 은행에 연결되지 않습니다",
+    "secureOnline": "귀하의 데이터, 귀하의 선택",
+    "secureOnlineCopy": "수동 백업 및 내보내기",
+    "legalKicker": "문서",
+    "legalTitle": "KOVA 정책.",
+    "legalCopy": "앱 개인 정보 보호 및 구독 조건은 최종 승인을 기다리는 초안입니다. 웹사이트에는 별도의 쿠키 및 분석 정보가 있습니다.",
+    "privacyTitle": "개인 정보 보호 정책",
+    "privacyCopy": "지역 재정, Google Play 구매 및 지원.",
+    "termsTitle": "이용약관",
+    "termsCopy": "무료 기본, 선택적 Premium 및 구독 조건.",
+    "cookiesTitle": "쿠키",
+    "cookiesCopy": "브라우저 설정 및 저장.",
+    "privacyShort": "개인 정보 보호",
+    "termsShort": "이용약관",
+    "cookiesShort": "쿠키",
+    "activeDevelopment": "무료 기본 + 옵션 Premium · 출시 전",
+    "cookieSettings": "설정",
+    "navFaq": "FAQ",
+    "navStatus": "프로젝트",
+    "galleryHint": "전체 이미지를 보려면 화면을 탭하세요.",
+    "secureLocalCopy": "장치의 암호화된 데이터베이스",
+    "projectKicker": "첫 번째 릴리스",
+    "projectHeading": "무료 베이스. Premium로 더 많은 정보를 얻으세요.",
+    "projectCopy": "KOVA: Money & Budget는 무료 기본 및 옵션 Premium와 함께 Android에 출시됩니다. 공개 다운로드 및 판매는 아직 제공되지 않습니다.",
+    "availability": "앱 가용성",
+    "roadmapLink": "현재 진행 중인 작업",
+    "updatesLink": "최근 업데이트",
+    "faqKicker": "알아두면 좋은 점",
+    "faqTitle": "몇 가지 간단한 답변입니다.",
+    "faqCopy": "KOVA 사용을 시작하기 전.",
+    "faqDownloadQ": "KOVA을 아직 다운로드할 수 있나요?",
+    "faqDownloadA": "공개 다운로드는 아직 사용할 수 없습니다. 출시 소식을 보려면 Instagram에서 KOVA를 팔로우하세요. 이 페이지는 릴리스가 출시되면 확인된 Google Play 목록으로 연결됩니다. 출시 날짜는 발표되지 않았습니다.",
+    "faqOfflineQ": "인터넷 없이도 앱이 작동하나요?",
+    "faqOfflineA": "재무 기록과 무료 기반은 로컬에서 작동합니다. 선택적 Premium 구매, 복원 및 액세스 새로 고침은 Google Play를 사용하고 연결이 필요합니다. 현재 Premium 액세스에는 최대 48시간 후 또는 전화를 다시 시작한 후 새로운 연결 확인이 필요할 수 있습니다. 이는 귀하의 기록을 삭제하거나 기본적인 사용 및 내보내기를 차단하지 않습니다. 금융 클라우드 동기화나 은행 연결은 제공되지 않습니다.",
+    "faqBankQ": "은행계좌를 연결해야 하나요?",
+    "faqBankA": "아니요. KOVA에서는 은행 비밀번호를 묻지 않습니다. 앱의 계정은 귀하가 기록하는 금융 정보를 정리하는 데 도움이 됩니다.",
+    "faqEstimateQ": "예측과 순 급여 금액이 보장됩니까?",
+    "faqEstimateA": "아니요. 기록된 데이터와 구성을 기반으로 한 추정치입니다. 이는 실제 지급액과 다를 수 있으며 고용주 문서나 개별 조언을 대체하지 않습니다.",
+    "faqWebsiteQ": "이 웹사이트가 내 재정에 접근할 수 있나요?",
+    "faqWebsiteA": "아니요. 웹사이트에서는 프로젝트를 소개하고 휴대폰의 금융 데이터베이스에 연결하지 않습니다. 선택적 웹사이트 분석은 귀하의 동의에 따라 달라집니다.",
+    "altHome": "KOVA 오프라인 V1: 가상 금융 기록이 포함된 홈 화면",
+    "altProfile": "KOVA 오프라인 V1: 로컬 데모 계정 3개",
+    "altFeatures": "KOVA 무료 V1: 에뮬레이터의 밝은 테마",
+    "altWork": "KOVA 오프라인 V1: 에뮬레이터에 저장된 테스트 노트",
+    "previous": "이전 화면",
+    "next": "다음 화면",
+    "navigation": "메인 네비게이션",
+    "pageTitle": "KOVA — 한곳에서 재정 관리",
+    "faqFreeQ": "KOVA은 무료인가요?",
+    "faqFreeA": "그렇습니다. 첫 번째 릴리스는 무료 기반과 선택적인 KOVA Premium로 계획되어 있습니다. 일상 녹음, 기본 보고서, 기록에 대한 액세스, 로컬 암호화, 백업, 내보내기 및 삭제는 여전히 무료입니다. Premium는 고급 보고서, 예측 및 근로 소득 분석을 다룹니다. 가격은 출시 전에 발표될 예정입니다. 아직 공개판매는 없습니다.",
+    "tourNote": "실제 앱 화면 · 가상의 데모 데이터 · 비디오 녹화가 아님",
+    "tourChapters": "둘러보기 화면을 선택하세요",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "무료 베이스",
+    "factAccount": "선택적 Premium",
+    "faqBackupQ": "데이터를 보호하거나 휴대폰을 바꾸려면 어떻게 해야 하나요?",
+    "faqBackupA": "비밀번호로 보호된 수동 내보내기를 생성하고 휴대폰 외부에 안전하게 보관하세요. 가져오기를 수행하려면 확인이 필요하며 선택한 프로필의 지원되는 데이터를 바꿉니다. 전체 앱 이미지가 아닌 부분 복사본입니다. 삽입된 노트 이미지는 포함되어 있지만 외부 첨부 파일과 영수증 사진은 별도의 복사본이 필요합니다. 게시자는 클라우드에서 데이터를 복원하거나 백업 비밀번호를 복구할 수 없습니다.",
+    "faqOcrQ": "영수증 스캔은 오프라인에서 작동하나요?",
+    "faqOcrA": "OCR은 앱과 함께 번들로 제공되는 모델을 사용합니다. 사진을 찍거나 Android 선택기를 통해 갤러리에서 사진을 선택하세요. 인식이 잘못될 수 있습니다. 금액, 통화, 날짜를 확인하신 후 저장하세요. 카메라 액세스를 거부해도 파일 선택이 차단되지는 않습니다.",
+    "faqDeviceQ": "KOVA는 어떤 기기와 대상을 대상으로 하나요?",
+    "faqDeviceA": "KOVA는 Android 7.0 이상을 실행하는 Android 전화기용으로 준비 중입니다. KOVA 인터페이스는 27개 언어를 지원합니다. 호환성 및 언어 검토가 진행 중입니다. 13세 이상을 대상으로 하며 매장 및 지역 요구 사항에 따라 달라질 수 있습니다. iOS 또는 시계 릴리스는 제공되지 않습니다.",
+    "aboutKicker": "KOVA은 무엇인가요?",
+    "aboutTitle": "돈 스트레스가 적습니다. 귀하의 계획을 위한 더 많은 공간이 있습니다.",
+    "aboutCopy": "KOVA는 일상적인 개인 금융을 위한 Android 앱입니다. 비용, 예산, 근무 시간을 함께 관리하면 청구서 뒤에 남은 금액을 확인하고 한 달 앞으로의 계획을 세울 수 있습니다.",
+    "aboutAudience": "학생, 직장인, 자신의 돈에 대해 좀 더 의도적인 결정을 내리려는 모든 사람을 위한 제품입니다.",
+    "aboutForWhom": "KOVA가 제공하는 가치",
+    "aboutSpendingTitle": "돈이 어디로 가는지 확인하세요",
+    "aboutSpendingCopy": "매일의 지출을 기록하고 카테고리별로 찾아보세요. 한 달에 가장 큰 변화를 가져오는 비용이 무엇인지 이해하세요.",
+    "aboutGoalsTitle": "예산에 남은 금액을 파악하세요",
+    "aboutGoalsCopy": "카테고리 한도를 설정하고 지출 진행 상황을 확인하세요. 남은 항목을 보다 명확하게 파악하여 다음 구매를 계획하세요.",
+    "aboutIncomeTitle": "소득 변화에 대한 계획",
+    "aboutIncomeCopy": "근무 시간과 요율을 기록하여 수입을 추정하세요. 업무 일정과 월예산을 하나의 계획으로 통합하세요.",
+    "aboutPrivacy": "재무 기록은 휴대전화에 보관됩니다. 은행 연결이나 KOVA 클라우드 계정이 없습니다. 선택적 Premium 구매는 Google Play를 통해 별도로 처리됩니다.",
+    "aboutAction": "KOVA 작동 모습 보기",
+    "followLaunch": "Instagram에서 KOVA 팔로우",
+    "downloadApp": "Google Play에서 구매하세요",
+    "launchChannel": "Instagram · @kova_money 출시 소식",
+    "workScreenNote": "일과 소득 · 이전 데모 화면; 디자인은 변경될 수 있습니다.",
+    "plansKicker": "첫 출시 예정",
+    "plansTitle": "무료 베이스. Premium로 더 많은 정보를 얻으세요.",
+    "plansCopy": "일상적인 돈 관리부터 시작해 보세요. 더 심층적인 로컬 분석이 필요한 경우 Premium를 선택하세요. 공개 다운로드 및 판매는 아직 제공되지 않습니다.",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "매일 자신의 데이터를 기록하고 제어합니다.",
+    "planFreeOne": "비용, 예산 및 기본 보고서",
+    "planFreeTwo": "업무 기록 및 저장된 데이터에 대한 접근",
+    "planFreeThree": "로컬 암호화, 백업, 내보내기 및 삭제",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "더 자세한 지역 통찰력을 얻으려면 선택적으로 구독하세요.",
+    "planPremiumOne": "고급 보고서 및 비교",
+    "planPremiumTwo": "귀하의 기록을 기반으로 한 예측",
+    "planPremiumThree": "근로 소득 분석",
+    "plansNote": "가격과 출시 가능 여부는 출시 전에 발표될 예정입니다. 일부 분석에는 충분한 기록이 필요합니다. Premium 구매 및 액세스 새로 고침에는 Google Play 및 연결이 필요합니다. 무료 베이스는 계속 사용할 수 있습니다.",
+    "plansDetails": "구독 초안 읽기",
+    "closingKicker": "출시에 가까이 다가가세요",
+    "closingTitle": "보다 명확한 자금 계획을 위한 공간을 확보하십시오.",
+    "closingCopy": "앱 미리보기 및 출시 소식을 보려면 Instagram에서 KOVA Development를 팔로우하세요. 첫 번째 공개 릴리스는 아직 준비 중입니다.",
+    "closingSecondary": "TikTok에서도 KOVA를 찾을 수 있습니다.",
+    "forecastNote": "각 분석에는 충분한 데이터가 필요합니다. Premium을 선택하기 전에 요건을 확인하세요.",
+    "faqDataQ": "각 분석에 얼마나 많은 데이터가 필요한가요?",
+    "faqDataA": "<p>처음부터 지출과 예산을 기록할 수 있습니다. 기본 보고서에는 최소 3개의 서로 다른 날짜에 걸친 거래 5건이 필요합니다.</p><ul><li>변동 지출 추정: 최소 7일의 관찰 기간과 최근 3개월의 지출 2건이 필요합니다. 이는 계산의 한 구성 요소에 대한 기준이며 Premium 전체의 기준이 아닙니다.</li><li>고급 보고서: 최소 60일의 기록, 거래 75건, 거래가 있는 날 20일, 예산 또는 목표 1개 이상이 필요합니다. 모든 조건을 충족해야 합니다.</li><li>예측: 최소 90일의 기록, 서로 다른 3개월에 걸친 거래 100건, 정기 소득 또는 반복 결제(기록되거나 감지된 항목)가 필요합니다. 모든 조건을 충족해야 합니다.</li></ul><p>Premium 구매가 필요한 기록을 대신하지는 않습니다. 올바르게 가져온 데이터를 포함한 프로필 기록이 계산에 반영됩니다. 설치 날짜만으로는 부족합니다. 예측은 추정치입니다.</p>"
+  },
+  "slides": [
+    {
+      "title": "오늘의 재정",
+      "caption": "잔액, 수입 및 최근 지출",
+      "copy": "가상의 사용자인 Marta에 대한 로컬 기록이 표시된 KOVA의 실제 홈 화면입니다. 동일한 금융 이력이 이 투어의 ​​모든 화면에 적용됩니다."
+    },
+    {
+      "title": "계정",
+      "caption": "당좌예금, 저축 및 현금",
+      "copy": "세 개의 로컬 계정이 일상적인 재정을 관리합니다. 잔액에는 구매, 급여 및 자신의 계정 간 이체가 포함됩니다. 은행 연결이 없습니다."
+    },
+    {
+      "title": "거래",
+      "caption": "6개월 간의 일상 기록",
+      "copy": "식료품, 커피, 교통비, 임대료 및 급여. 다양한 금액과 날짜는 동일한 거래 목록이 아닌 현실적인 내역을 생성합니다."
+    },
+    {
+      "title": "예산 및 한도",
+      "caption": "지출 계획 및 현재 사용량",
+      "copy": "음식, 오락 및 교통에 대한 월별 한도는 기록된 지출과 계획을 비교합니다. 금액은 동일한 데모 프로필에서 나옵니다."
+    },
+    {
+      "title": "반복 결제",
+      "caption": "임대, 인터넷, 전화 및 구독",
+      "copy": "반복 청구서에는 고유한 만기일과 지불 내역이 있습니다. KOVA 기록을 정리합니다. 돈을 이체하거나 징수하지 않습니다."
+    },
+    {
+      "title": "보고서",
+      "caption": "기록된 항목 요약",
+      "copy": "차트와 요약은 로컬 트랜잭션에서 KOVA로 계산됩니다. 데이터는 허구이지만 화면과 계산은 실행중인 앱에서 나옵니다."
+    },
+    {
+      "title": "재무 캘린더",
+      "caption": "이벤트와 마감일을 한 번에 확인하세요",
+      "copy": "한 달 동안 기록된 거래 및 청구 날짜입니다. 전체 기록을 검색하지 않고도 특정 날짜를 선택하면 해당 날짜의 이벤트를 볼 수 있습니다."
+    },
+    {
+      "title": "메모",
+      "caption": "계획, 목록 및 일상적인 세부정보",
+      "copy": "비상 자금 계획과 주말 여행 메모가 재정과 함께 로컬에 저장됩니다. 이것은 다른 사람의 비공개 메모가 아닌 데모 콘텐츠입니다."
+    }
+  ],
+  "shell": {
+    "home": "홈",
+    "product": "앱",
+    "project": "프로젝트",
+    "legal": "정보",
+    "features": "특징",
+    "screens": "앱 화면",
+    "faq": "질문과 답변",
+    "status": "프로젝트 현황",
+    "roadmap": "로드맵",
+    "updates": "업데이트",
+    "security": "보안",
+    "contact": "연락처",
+    "deletion": "귀하의 데이터",
+    "privacy": "개인 정보 보호 정책",
+    "terms": "이용약관",
+    "cookies": "쿠키",
+    "settings": "쿠키 설정",
+    "tagline": "매일의 재정. 한 곳에서.",
+    "note": "무료 기본 + 옵션 Premium · 출시 전",
+    "top": "맨 위로 돌아가기",
+    "skip": "콘텐츠로 건너뛰기",
+    "language": "사이트 언어",
+    "menu": "메뉴",
+    "back": "홈",
+    "official": "KOVA Development · 공식 홈페이지"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "이 페이지는 여기에 없습니다.",
+      "intro": "링크가 변경되었을 수 있습니다. 집으로 돌아가거나 프로젝트 정보를 확인하세요.",
+      "cards": [],
+      "actions": [
+        [
+          "홈",
+          "index.html"
+        ],
+        [
+          "프로젝트 현황",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "프로젝트 현황",
+      "title": "일상적인 재정. 출시가 진행 중입니다.",
+      "intro": "KOVA: Money & Budget는 무료 기본 및 옵션 Premium와 함께 Android에 출시됩니다. 공개 다운로드 및 판매는 아직 제공되지 않습니다.",
+      "badge": "준비중 · 무료 + 선택사항 Premium",
+      "cards": [
+        [
+          "첫 번째 릴리스가 가져오는 것",
+          "비용, 예산, 근무 시간, 목표, 현지 기록을 하나의 앱으로 관리하세요. 무료 베이스는 일상적인 녹음, 기본 보고서, 데이터 및 내보내기를 보존합니다. Premium는 고급 보고서, 예측 및 근로 소득 분석을 추가합니다."
+        ],
+        [
+          "우리는 지금 어디에 있는가",
+          "앱을 개선하고 호환성, 접근성, 구독 흐름을 확인하고 있습니다. 선택된 구매 및 복원 테스트가 실행되었지만 전체 공개 릴리스는 아직 준비 중입니다."
+        ],
+        [
+          "귀하의 재정은 현지에 유지됩니다",
+          "KOVA는 금융 기록을 휴대폰에 저장합니다. Google Play는 선택적 구독 구매, 복원 및 액세스 확인을 별도로 처리합니다. 금융 클라우드 동기화나 은행 연결은 제공되지 않습니다."
+        ],
+        [
+          "진행 상황을 따르는 방법",
+          "미리보기 및 출시 소식을 보려면 Instagram에서 @kova_money를 팔로우하세요. 가격과 확정된 스토어 링크는 출시 전 공유될 예정입니다. 출시일은 발표되지 않았습니다."
+        ]
+      ],
+      "note": "KOVA Development는 프로젝트 브랜드입니다. 이 앱은 아직 공개적으로 제공되지 않습니다. 테스트 결과는 공개 판매 승인에 해당하지 않습니다.",
+      "actions": [
+        [
+          "Instagram에서 팔로우하세요",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "출시 로드맵",
+          "roadmap.html"
+        ],
+        [
+          "최근 업데이트",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "로드맵",
+      "title": "성장할 여지가 있는 유용한 첫 번째 릴리스입니다.",
+      "intro": "첫 번째 릴리스는 무료 로컬 기반과 선택적 Premium를 결합합니다. 확정되지 않은 기한 없이 출시 전에 준비하고 있는 내용은 다음과 같습니다.",
+      "badge": "첫 번째 출시 · Android",
+      "cards": [
+        [
+          "일상의 돈 관리",
+          "일반적인 작업이 명확하고 신뢰할 수 있도록 지출, 예산 및 작업 기록을 구체화합니다. 언어, 접근성, 전화 호환성을 확인하세요."
+        ],
+        [
+          "선택적인 로컬 Premium",
+          "고급 보고서, 예측, 근로 소득 분석, 구매 및 복원 확인을 완료하세요. 유료 클라우드, 은행 통합 또는 AI 서비스는 약속되지 않습니다."
+        ],
+        [
+          "Google Play 준비",
+          "나머지 릴리스 확인, 구독 정보 및 문서를 완료합니다. 공개되기 전에 가격과 스토어 등록정보를 확인하세요."
+        ],
+        [
+          "출시 공유",
+          "기존 KOVA 채널에 앱 미리보기 및 진행 상황을 게시하세요. 릴리스가 승인되어 사용 가능해지면 출시 링크를 공식 Google Play 링크로 대체하세요."
+        ]
+      ],
+      "actions": [
+        [
+          "현황",
+          "status.html"
+        ],
+        [
+          "Instagram에서 팔로우하세요",
+          "https://www.instagram.com/kova_money/"
+        ]
+      ]
+    },
+    "security": {
+      "label": "개인 정보 보호 및 보안",
+      "title": "개인 정보 보호는 우리의 최우선 사항입니다.",
+      "intro": "우리는 KOVA를 최대한 안전하게 만들기 위해 노력하고 있습니다. 재무 기록은 휴대전화에 보관됩니다. 선택적 Play 구매와 이 웹사이트에는 아래에 설명된 별도의 데이터 흐름이 있습니다.",
+      "badge": "지역 재정 · 별도 선택 구매",
+      "cards": [
+        [
+          "기기의 금융 데이터",
+          "기본 데이터베이스는 로컬 프로필 격리와 함께 SQLCipher를 사용합니다. 휴대폰과 백업 비밀번호를 보호하세요. 암호화는 모든 장치, 액세스 또는 데이터 손실 위험을 보장하지 않습니다."
+        ],
+        [
+          "Google Play를 통한 선택적 Premium",
+          "현재 후보자는 KOVA 인증 서버 없이 Play 결제 인터페이스를 사용합니다. Play는 구매, 복원, 액세스 새로고침을 위해 자체 네트워크를 사용합니다. KOVA는 카드 세부정보가 아닌 구매 상태와 서명된 구매 세부정보를 받습니다. 귀하의 금융 기록은 Play를 통해 전송되지 않습니다."
+        ],
+        [
+          "로컬 액세스 및 복원",
+          "현재 Premium 액세스에는 최대 48시간 후 또는 전화를 다시 시작한 후 또 다른 연결 플레이 확인이 필요할 수 있습니다. 구매 복원은 금융 데이터 복원과 별개입니다. 무료 베이스, 저장된 기록, 백업/내보내기는 계속 사용할 수 있습니다. 완전한 공개 판매 자격이 보류 중입니다."
+        ],
+        [
+          "백업은 귀하의 선택입니다",
+          "비밀번호로 보호된 수동 내보내기를 생성하고 안전하게 저장하세요. 부분 복사본입니다. 외부 첨부 파일을 별도로 보관하십시오. 클라우드 폴더 또는 공유 작업은 자동 KOVA 금융 동기화 대신 선택한 공급자를 사용합니다."
+        ],
+        [
+          "이 홈페이지는 별도입니다",
+          "이 사이트는 귀하의 전화 데이터베이스를 읽을 수 없습니다. Google Analytics는 귀하의 동의가 있는 경우에만 웹사이트 방문 및 상호 작용을 측정합니다. 거부하면 전체 사이트를 계속 사용할 수 있습니다. 쿠키 설정에서 선택을 변경하세요. 호스팅 및 공급자 세부 정보는 새로운 공개 배포 전에 여전히 확인이 필요합니다."
+        ],
+        [
+          "안전하게 신고하세요",
+          "앱과 Android 버전 및 예시 데이터를 사용한 단계로 contact@kovacompass.app에 문의하세요. 비밀번호, 구매 토큰, 전체 백업 또는 실제 금융 기록을 보내지 마십시오."
+        ]
+      ],
+      "actions": [
+        [
+          "앱 개인 정보 보호 초안",
+          "privacy.html"
+        ],
+        [
+          "귀하의 데이터 및 내보내기",
+          "delete-account.html"
+        ],
+        [
+          "웹사이트 쿠키",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "업데이트",
+      "title": "무료 베이스. 선택적 Premium. 지역 재정.",
+      "intro": "2026년 10월 24일: 첫 번째 Android 릴리스에 대한 현재 계획에는 무료 기본 및 선택적 Premium가 포함됩니다. 아래의 이전 항목은 역사적 계획을 설명합니다.",
+      "badge": "현재 업데이트 · 2026년 10월 24일",
+      "cards": [
+        [
+          "2026년 10월 24일 · 최초 출시 모델",
+          "첫 번째 릴리스에는 무료 로컬 기반과 고급 보고서, 예측 및 근로 소득 분석을 위한 옵션 Premium가 포함되어 계획되어 있습니다. 선택된 Google Play 구매/복원 시나리오가 테스트되었습니다. 완전한 공개 판매 준비는 아직 보류 중입니다. 가격과 출시일은 발표되지 않았습니다."
+        ],
+        [
+          "21.10.2026 · 필수 계정 없음",
+          "Public V1은 등록이나 인터넷 없이 작동하도록 설계되었습니다. 온라인 서비스는 향후를 위해 보존되지만 이번 릴리스에서는 비활성화됩니다."
+        ],
+        [
+          "21.10.2026 · 메모 및 데이터 이동성",
+          "편집기의 Android 7 호환성이 수정되었습니다. 격리된 Android 7.1과 7.0 설치 간의 다시 시작, 포함된 이미지, 내보내기 및 일반 가져오기 후 적용되는 지속성을 확인합니다. 현재 편집기도 16KiB에서 확인되었습니다."
+        ],
+        [
+          "21.10.2026 · 준비 상태 주장이 아닌 결과",
+          "10월 21일 전체 회귀: 6746개 사례 중 6745개 통과, 법률 문서 초안 1개 실패, 실행 오류 0개, 건너뛰기 0개. 이후의 타겟 테스트는 이 개수에 추가되지 않습니다. 일부 UI 자격 및 현재 전화 확인이 남아 있습니다."
+        ],
+        [
+          "21.10.2026 · 문서 및 연락처",
+          "이 사이트는 PL/EN/RU의 최신 오프라인 V1 문서 초안과 확인된 게시자 세부 정보를 사용합니다. 이는 최종 법적 승인이나 매장 출판물이 아닙니다."
+        ]
+      ],
+      "actions": [
+        [
+          "출시 상태",
+          "status.html"
+        ],
+        [
+          "출판사 세부정보",
+          "contact.html"
+        ]
+      ],
+      "note": "2026년 10월 21일자 항목은 이전 오프라인 무료 V1 계획과 제한된 테스트 범위를 유지합니다. 현재 릴리스 제안을 설명하거나 현재 후보를 검증하지 않습니다."
+    },
+    "contact": {
+      "label": "연락처",
+      "title": "KOVA에 대해 이야기해 보겠습니다.",
+      "intro": "앱, 문제 또는 개인정보 보호에 대해 질문이 있으신가요? 아래 연락처로 편지를 보내주세요. 출시 소식을 보려면 기존 KOVA 채널을 팔로우하세요.",
+      "badge": "KOVA Development · 프로젝트 브랜드",
+      "cards": [
+        [
+          "프로젝트 및 게시자",
+          "KOVA: Money & Budget는 KOVA Development 브랜드로 개발되었습니다. 확인된 출판사는 폴란드의 개인인 Vadyslav Konohrai입니다. 브랜드는 별도의 등록된 회사의 선언이 아닙니다."
+        ],
+        [
+          "지원 및 개인정보 보호",
+          "contact@kovacompass.app는 질문, 문제 및 개인 정보 보호 문제에 대한 공개 주소입니다. 링크를 클릭하면 이메일 앱이 열립니다. 서신은 휴대폰에 저장된 금융 데이터와 별개입니다."
+        ],
+        [
+          "문제 설명",
+          "앱 버전, 휴대폰 모델, Android 버전 및 발생한 상황을 포함하세요. 예시 금액을 사용하고 스크린샷에서 개인 정보를 삭제하세요. 전체 데이터베이스나 구매 토큰을 첨부하지 마세요."
+        ],
+        [
+          "출시 및 가용성",
+          "무료 베이스와 선택적 Premium가 포함된 Android 릴리스가 준비 중입니다. 아직 공개 다운로드 및 판매가 불가능합니다. 출시 소식을 보려면 Instagram를 팔로우하세요. 우리는 출시일을 발표하지 않았습니다."
+        ]
+      ],
+      "note": "비밀번호, 암호화 키 또는 실제 금융 기록을 절대 보내지 마세요. 앱 문서는 최종 승인을 기다리는 초안으로 남아 있습니다.",
+      "actions": [
+        [
+          "이메일 쓰기",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Instagram에서 팔로우하세요",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "개인 정보 보호 정보",
+          "privacy.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "귀하의 데이터",
+      "title": "로컬 데이터를 내보내고 삭제합니다.",
+      "intro": "귀하의 금융 프로필은 귀하의 휴대폰에 남아 있습니다. 이는 Google Play 계정 또는 구독과 별개입니다. 로컬 기록, 백업, 내보내기를 제어할 수 있습니다.",
+      "badge": "온라인 계정이나 동기화가 없습니다.",
+      "cards": [
+        [
+          "먼저 필요한 것을 저장하세요",
+          "데이터 설정에서 지원되는 기록의 수동 암호화 내보내기를 사용하고 대상을 선택하세요. 비밀번호를 보관하세요. 이는 모든 설정, 키 및 설치 파일의 복사본이 아닌 부분 내보내기입니다."
+        ],
+        [
+          "로컬 데이터 삭제",
+          "전체 설치에 대한 데이터를 제거하려면 Android 설정 → 앱 → KOVA → 저장소 → 데이터 지우기를 열거나 KOVA을 제거하세요. 라벨은 시스템에 따라 다릅니다. 유효한 백업이 없으면 되돌릴 수 없습니다. 해당 설치의 모든 로컬 프로필에 영향을 미칠 수 있습니다."
+        ],
+        [
+          "앱 외부 파일",
+          "내보낸 사본, 원본 사진, 다른 제공업체가 보유한 파일을 별도로 삭제하세요. 메모에 포함된 이미지가 내보내기에 포함될 수 있습니다. 외부 URI는 참조일 뿐입니다. 게시자는 로컬 데이터베이스에 원격으로 액세스할 수 없습니다."
+        ],
+        [
+          "출판사에 보내는 메시지",
+          "이메일로 공유된 데이터에 대해서는 contact@kovacompass.app에 문의하세요. 금융 백업을 첨부하지 마십시오. 이 페이지는 데이터를 삭제하지 않으며 자동 요청을 보내지도 않습니다."
+        ],
+        [
+          "구독은 별도입니다",
+          "앱 데이터를 삭제하거나 KOVA를 제거해도 Premium 구독은 취소되지 않습니다. Google Play에서 갱신을 관리합니다. 구매를 복원해도 금융 기록은 복원되지 않으며, 백업을 가져와도 Premium가 부여되지 않습니다."
+        ]
+      ],
+      "actions": [
+        [
+          "데이터에 관한 문의",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "전체 개인 정보 보호 정책",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "당신의 선택",
+    "title": "귀하의 조건에 따른 개인 정보 보호",
+    "body": "Google Analytics로 웹사이트 사용을 측정할 수 있나요? 이는 어떤 데모와 정보가 유용한지 배우는 데 도움이 됩니다. Google은 앱에서 금융 데이터가 아닌 방문, 기기, 상호작용 데이터와 쿠키 식별자를 수신합니다.",
+    "note": "분석은 선택사항입니다. 거부하면 동일한 액세스 권한이 부여됩니다. 동의 없이 Google Analytics에 연결하지 않습니다.",
+    "accept": "분석 수락",
+    "reject": "분석 거부",
+    "settings": "선택을 사용자 정의",
+    "save": "선택사항 저장",
+    "essential": "필수 설정",
+    "essentialBody": "언어 및 개인 정보 보호 선택. 항상 활동적입니다.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "방문 및 프레젠테이션 이용 통계입니다. 광고나 광고 개인 최적화가 없습니다.",
+    "privacy": "개인 정보 보호",
+    "cookies": "쿠키 세부정보",
+    "foot": "우리는 당신의 선택을 180일 동안 기억합니다. 바닥글의 '쿠키 설정'을 사용하여 언제든지 변경하세요."
+  },
+  "legal": {
+    "language": "언어",
+    "back": "홈",
+    "source": "KOVA 앱에서 사용하는 콘텐츠",
+    "loading": "문서 로드 중…",
+    "error": "문서를 로드할 수 없습니다.",
+    "privacy": "개인 정보 보호",
+    "terms": "이용약관",
+    "cookies": "쿠키",
+    "analyticsTitle": "이 웹사이트의 개인정보 보호",
+    "analyticsCopy": "이 사이트는 귀하의 전화 데이터베이스를 읽을 수 없습니다. Google Analytics는 귀하의 동의가 있는 경우에만 웹사이트 방문 및 상호 작용을 측정합니다. 거부하면 전체 사이트를 계속 사용할 수 있습니다. 쿠키 설정에서 선택을 변경하세요. 호스팅 및 공급자 세부 정보는 새로운 공개 배포 전에 여전히 확인이 필요합니다. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  },
+  "review": "계획된 첫 번째 KOVA 릴리스 초안: 무료 기본 및 선택적 Premium. 2026년 10월 24일자 현재 앱 문서와 일치합니다. 발효일, 최종 승인, 나머지 판매자 및 서비스 세부정보는 보류 중입니다. 이것은 활성화된 구독 제안이 아닙니다.",
+  "seo": {
+    "titles": {
+      "404": "페이지를 찾을 수 없음 — KOVA",
+      "index": "KOVA: Money & Budget — Android 재정, 무료 + Premium",
+      "status": "Android에 대한 KOVA — 앱 상태 및 가용성",
+      "roadmap": "KOVA — 무료 및 Premium Android 출시 로드맵",
+      "updates": "KOVA — 금융 앱 뉴스 및 개발 업데이트",
+      "security": "KOVA — 지역 금융 데이터, 개인 정보 보호 및 Premium",
+      "contact": "KOVA에 문의 — 앱 지원 및 질문",
+      "delete-account": "KOVA — 로컬 데이터 및 프로필 삭제",
+      "privacy": "KOVA 개인정보 보호정책 — 앱 및 웹사이트",
+      "terms": "KOVA Free 및 Premium 용어 — 초안",
+      "cookies": "KOVA — 분석이 중지되었습니다."
+    },
+    "descriptions": {
+      "404": "이 KOVA 페이지가 존재하지 않습니다. 앱 개요, 업데이트 또는 연락처로 돌아갑니다.",
+      "index": "Android용 KOVA를 사용하여 지출, 예산 및 근로 소득을 계획하세요. 지역 금융 데이터, 무료 기반 및 선택적 Premium. 첫 번째 공개 준비 중입니다.",
+      "status": "Android용 KOVA는 무료 기본 및 선택적 Premium가 포함된 첫 번째 릴리스를 준비하고 있습니다. 범위, 진행 상황 및 출시 채널을 확인하세요. 아직 다운로드할 수 없습니다.",
+      "roadmap": "KOVA의 Android 릴리스 준비를 따르십시오: 무료 로컬 베이스, 선택적 Premium, 최종 확인 및 Google Play. 미확인된 출시일은 없습니다.",
+      "updates": "KOVA 프로젝트 업데이트: 오프라인 Android 재정, 실제 앱 화면, 데이터 내보내기 및 첫 번째 공개 출시를 향한 진행 상황.",
+      "security": "재무 기록은 휴대전화에 보관됩니다. KOVA가 로컬 암호화, 선택적 Google Play 구매 및 동의 기반 웹사이트 분석을 분리하는 방법을 알아보세요.",
+      "contact": "앱 관련 질문, 문제 보고서 및 개인 정보 보호 요청은 KOVA(contact@kovacompass.app)에 문의하세요. 금융 데이터를 보내지 마십시오.",
+      "delete-account": "로컬 KOVA 데이터, 프로필 및 내보내기를 관리하고 삭제합니다. Premium 갱신은 Google Play에서 별도로 관리됩니다. 제거해도 취소되지는 않습니다.",
+      "privacy": "KOVA 개인정보 보호정책 초안: 로컬 앱 데이터, 내보내기, 연락처 및 선택적 웹사이트 분석. 게시하기 전에 승인이 필요합니다.",
+      "terms": "초안 KOVA Free 및 Premium 용어: 로컬 기능, 선택적 구독, Google Play 구매 및 복원, 백업 및 추정 한도.",
+      "cookies": "KOVA: 이전에 동의했더라도 웹사이트는 Google Analytics나 분석 쿠키를 사용하지 않습니다."
+    }
+  },
+  "extra": {
+    "demo": "가상의 데모 데이터",
+    "enlarge": "확대",
+    "contents": "목차",
+    "publicAddress": "공개 EN 주소:",
+    "language": "사이트 언어",
+    "pendingDecision": "게시 전 소유자 확인 대기 중"
+  },
+  "cookies": "<section data-doc-lang=\"ko\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>분석이 중지되었습니다.</h1><p>이전에 동의했더라도 웹사이트는 Google Analytics나 분석 쿠키를 사용하지 않습니다.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>선택한 언어를 기억합니다. 기술적 쿠키는 분석이 비활성화된 상태도 기억할 수 있습니다.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>이전 분석 쿠키는 다음 방문 시 삭제됩니다. 이미 Google에 전송된 데이터는 삭제되지 않습니다.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=ko\" data-shell-label=\"privacy\">개인 정보 보호 정책</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
+}

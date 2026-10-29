@@ -29,7 +29,9 @@ Pesquisas de moeda e idioma filtram listas em seu dispositivo; essas consultas n
 
 ## 3. Finanças locais e compras opcionais
 
-A base Free armazena registros financeiros localmente e não requer conta na nuvem KOVA. O proprietário aprovou o pacote de recursos Premium: ​​relatórios/comparações locais avançadas, previsões e análises de renda de trabalho. Os cálculos precisam de registros relevantes suficientes. Compra, restauração e atualização de acesso usam Google Play e conectividade; uma conta Google Play não é um perfil financeiro KOVA. Autenticação Firebase, login do Google dentro de KOVA, sincronização de nuvem financeira, armazenamento/funções em nuvem, publicidade, análise/Crashlytics, push, configuração remota, Wear, compartilhamento familiar on-line, APIs de mercado/banco e camada de IA/comando permanecem desativados.
+Assinatura opcional para ferramentas locais avançadas. As finanças diárias, seus registros e backup permanecem gratuitos. Nenhuma conta KOVA é necessária. Planejador de vida · Pro. Histórico de preços · Pro. Vault · Pro. Premium inclui trabalho e renda, calendário financeiro, todos os relatórios, leitura de recibos e centro fiscal. Registro básico, notas, criptografia, backup, restauração e exportação continuam gratuitos. Algumas ferramentas precisam de histórico financeiro suficiente. Os cálculos fiscais abrangem apenas países e anos suportados. Premium não inclui sincronização na nuvem.
+
+KOVA · 2026-10-29 · DRAFT
 
 CANDIDATO ATUAL — NÃO APROVADO PARA VENDAS PÚBLICAS: o proprietário selecionou a verificação client-only, sem um servidor de verificação KOVA. KOVA se comunica com o aplicativo Google Play por meio da interface de faturamento do Android. A versão remove a permissão de INTERNET do KOVA; Google Play usa sua própria rede e processamento de contas/pagamentos. KOVA observa a disponibilidade da conexão, o que por si só não estabelece que uma compra do Play armazenada em cache seja atual. Esta não é uma afirmação de que todo o telefone esteja offline.
 

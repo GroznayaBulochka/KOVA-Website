@@ -29,7 +29,9 @@ Dhaptar saringan telusuran mata uang lan basa ing piranti sampeyan; pitakon iki 
 
 ## 3. Keuangan lokal lan tuku opsional
 
-Basis Free nyimpen cathetan keuangan sacara lokal lan ora mbutuhake akun maya KOVA. Pemilik nyetujoni paket fitur Premium: ​​laporan / perbandingan lokal lanjutan, ramalan lan analitik penghasilan kerja. Petungan mbutuhake cathetan sing cocog. Tuku, mulihake lan ngakses refresh nggunakake Google Play lan panyambungan; akun Google Play dudu profil finansial KOVA. Otentikasi Firebase, mlebu Google ing KOVA, sinkronisasi awan finansial, Cloud Storage / Fungsi, iklan, Analytics / Crashlytics, push, Remote Config, Wear, Sharing Family online, API pasar / bank lan AI / Command Layer tetep dipateni.
+Langganan opsional kanggo piranti lokal canggih. Keuangan saben dina, cathetan lan serep sampeyan tetep gratis. Ora ana akun KOVA sing dibutuhake. Planner urip · Pro. Sajarah rega · Pro. Vault · Pro. Premium kalebu pakaryan lan penghasilan, tanggalan finansial, kabeh laporan, pindai struk lan pusat pajak. Cathetan dhasar, cathetan pribadi, enkripsi, serep, pamulihan lan ekspor data tetep gratis. Sawetara piranti mbutuhake riwayat finansial sing cukup. Petungan pajak mung kanggo negara lan taun pajak sing didhukung. Premium ora nambah sinkronisasi awan.
+
+KOVA · 2026-10-29 · DRAFT
 
 CALON SAIKI - Ora disetujoni kanggo SALES PUBLIC: pemilik milih verifikasi client-only, tanpa server verifikasi KOVA. KOVA komunikasi karo aplikasi Google Play liwat antarmuka tagihan Android. Rilis mbusak ijin INTERNET KOVA; Google Play nggunakake jaringan lan akun / pangolahan pembayaran dhewe. KOVA mirsani kasedhiyan sambungan, kang ora dhewe netepake sing cached tuku Play saiki. Iki dudu pratelan manawa kabeh telpon offline.
 

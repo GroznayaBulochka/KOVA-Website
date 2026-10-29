@@ -10,7 +10,7 @@
     "navSecurity": "Usalama",
     "navLegal": "Nyaraka",
     "navRoadmap": "Ramani ya barabara",
-    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroKicker": "KOVA: Money & Budget · Android · Beta",
     "heroTitle": "Matumizi. Bajeti.<br><em>Mapato ya kazi.</em>",
     "heroCopy": "Fuatilia matumizi, panga bajeti na ukadiria mapato kutokana na saa zako za kazi. Fedha zako zibaki kwenye simu yako. Inakuja kwa Android yenye msingi usiolipishwa na KOVA Premium ya hiari.",
     "heroPrivacy": "Data yako ya kifedha hubaki kwenye simu yako.",
@@ -18,7 +18,7 @@
     "watchVideo": "Tazama programu",
     "pauseVideo": "Sitisha",
     "playVideo": "Cheza",
-    "releaseNote": "Kabla ya uzinduzi · upakuaji wa umma bado haupatikani.",
+    "releaseNote": "Beta · Kabla ya uzinduzi · upakuaji wa umma bado haupatikani.",
     "trustPrivacy": "Faragha kwanza",
     "trustPrivacyCopy": "Hifadhidata ya ndani, hakuna upakiaji otomatiki",
     "trustReports": "Muhtasari wa vitendo",
@@ -32,16 +32,16 @@
     "featureBudgets": "Bajeti",
     "featureBudgetsCopy": "Mipaka na maendeleo",
     "featureWork": "Kazi & Mapato",
-    "featureWorkCopy": "Saa na siku za malipo",
+    "featureWorkCopy": "Pro · Saa na siku za malipo",
     "featureCalendar": "Kalenda",
-    "featureCalendarCopy": "Matukio ya kifedha",
+    "featureCalendarCopy": "Pro · Matukio ya kifedha",
     "featureReports": "Ripoti",
-    "featureReportsCopy": "Mitindo na utabiri",
+    "featureReportsCopy": "Pro · Mitindo na utabiri",
     "featureGoals": "Malengo",
     "featureGoalsCopy": "Mipango na maendeleo",
     "clarityKicker": "programu",
     "clarityTitle": "Mtazamo ndani ya KOVA.",
-    "clarityCopy": "Skrini halisi za KOVA zilizo na data ya mfano ya kubuni. Gundua fedha za kila siku, bajeti na zana za ndani. Ghala kuu linaonyesha kiolesura cha Kipolandi.",
+    "clarityCopy": "Kiolesura cha programu kiko kwa Kiingereza · data ya demo ya kubuni. Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha. Free / Pro.",
     "clarityAccounts": "Akaunti, shughuli na kategoria",
     "clarityReports": "Ripoti na utabiri",
     "clarityWork": "Kazi & Mapato",
@@ -54,10 +54,10 @@
     "screenFeatures": "Mandhari nyepesi",
     "screenFeaturesCopy": "Takwimu sawa, sura tofauti",
     "screenWork": "Vidokezo vya ndani",
-    "screenWorkCopy": "Imehifadhiwa kwenye kifaa · 21 Okt 2026",
+    "screenWorkCopy": "Kiolesura cha programu kiko kwa Kiingereza · 2026-10-29",
     "securityKicker": "Faragha",
     "securityTitle": "Faragha ndiyo kipaumbele chetu kikuu.",
-    "securityCopy": "Rekodi za fedha za KOVA hubaki kwenye simu yako. Tunajitahidi kufanya programu iwe salama iwezekanavyo. Hiari Premium kununua na kurejesha matumizi Google Play tofauti; uchanganuzi wa tovuti hii unahitaji kibali chako.",
+    "securityCopy": "Rekodi zako za fedha hubaki kwenye kifaa hiki. Hakuna haja ya akaunti ya wingu ya KOVA, usajili au usawazishaji wa fedha kwenye wingu. Ununuzi huangaliwa kupitia Google Play bila seva ya KOVA. Ufikiaji unaweza kubaki unapatikana nje ya mtandao hadi saa za 48 baada ya ukaguzi uliounganishwa. Washa upya au mabadiliko makubwa ya saa yanahitaji ukaguzi mwingine. Muda kamili wa muda wa usajili haupatikani katika programu hii; tazama Google Play.",
     "securityModel": "Soma kuhusu usalama",
     "secureLocal": "Usimbaji fiche wa ndani",
     "secureOwner": "Kutengwa kwa data",
@@ -103,16 +103,16 @@
     "faqEstimateA": "Hapana. Ni makadirio kulingana na data iliyorekodiwa na usanidi. Zinaweza kutofautiana na malipo halisi na hazibadilishi hati za mwajiri au ushauri wa mtu binafsi.",
     "faqWebsiteQ": "Je, tovuti hii inaweza kufikia fedha zangu?",
     "faqWebsiteA": "Hapana. Tovuti inatanguliza mradi na haiunganishi kwenye hifadhidata ya fedha kwenye simu yako. Uchanganuzi wa hiari wa tovuti unategemea idhini yako.",
-    "altHome": "KOVA V1 ya nje ya mtandao: skrini ya kwanza yenye historia ya kifedha ya kubuniwa",
-    "altProfile": "KOVA Nje ya mtandao V1: akaunti tatu za onyesho la ndani",
-    "altFeatures": "KOVA V1 Bila malipo: mandhari mepesi kwenye kiigaji",
-    "altWork": "KOVA Offline V1: dokezo la majaribio lililohifadhiwa kwenye kiigaji",
+    "altHome": "KOVA: Fedha zako leo — data ya demo ya kubuni. Kiolesura cha programu kiko kwa Kiingereza",
+    "altProfile": "KOVA: Hesabu — data ya demo ya kubuni. Kiolesura cha programu kiko kwa Kiingereza",
+    "altFeatures": "KOVA: Fedha zako leo — data ya demo ya kubuni. Kiolesura cha programu kiko kwa Kiingereza",
+    "altWork": "KOVA: Kazi & Mapato · Pro — Kiolesura cha programu kiko kwa Kiingereza · Pro · 2026-10-29",
     "previous": "Skrini iliyotangulia",
     "next": "Skrini inayofuata",
     "navigation": "Urambazaji mkuu",
     "pageTitle": "KOVA — fedha katika sehemu moja",
     "faqFreeQ": "Je, KOVA itakuwa bure?",
-    "faqFreeA": "Ndiyo. Toleo la kwanza limepangwa kwa msingi usiolipishwa na KOVA Premium ya hiari. Rekodi za kila siku, ripoti za msingi, ufikiaji wa rekodi zako, usimbaji fiche wa ndani, kuhifadhi nakala, kuhamisha na kufuta husalia Bila malipo. Premium inashughulikia ripoti za kina, utabiri na uchanganuzi wa mapato ya kazi. Bei itatangazwa kabla ya uzinduzi; hakuna mauzo ya umma bado.",
+    "faqFreeA": "KOVA Premium. Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Data iliyohifadhiwa hubaki kupatikana. Operesheni mpya katika moduli hii zinahitaji Premium. Nakala rudufu na uhamishaji hubaki bure. Jaribio huanza tu baada ya kuthibitisha ununuzi wa ofa unayostahiki katika Google Play. Siku 30 bure, kisha bei iliyoonyeshwa na Google Play kabla ya kununua (Hutozwa kila mwezi / Hutozwa mara moja kwa mwaka). Husasishwa kiotomatiki isipokuwa ughairi kabla ya jaribio kuisha. Google Play huamua ustahiki.",
     "tourNote": "Skrini za programu halisi · data ya mfano ya kubuni · si rekodi ya video",
     "tourChapters": "Chagua skrini ya ziara",
     "factAndroid": "Android 7.0+",
@@ -121,7 +121,7 @@
     "faqBackupQ": "Je, ninawezaje kulinda data yangu au kubadilisha simu?",
     "faqBackupA": "Unda uhamishaji unaolindwa na nenosiri na uihifadhi kwa usalama nje ya simu yako. Kuagiza kunahitaji uthibitisho na kuchukua nafasi ya data inayotumika ya wasifu uliochaguliwa. Ni nakala kiasi, si picha kamili ya programu: picha zilizopachikwa za dokezo zimejumuishwa, lakini viambatisho vya nje na picha za stakabadhi zinahitaji nakala tofauti. Mchapishaji hawezi kurejesha data kutoka kwa wingu au kurejesha nenosiri lako la kuhifadhi.",
     "faqOcrQ": "Je, kuchanganua risiti hufanya kazi nje ya mtandao?",
-    "faqOcrA": "OCR hutumia muundo uliounganishwa na programu. Piga picha au chagua moja kutoka kwenye ghala yako kupitia kiteua Android. Utambuzi unaweza kuwa mbaya - angalia kiasi, sarafu na tarehe kabla ya kuhifadhi. Kunyima ufikiaji wa kamera hakuzuii uteuzi wa faili.",
+    "faqOcrA": "OCR hutumia muundo uliounganishwa na programu. Piga picha au chagua moja kutoka kwenye ghala yako kupitia kiteua Android. Utambuzi unaweza kuwa mbaya - angalia kiasi, sarafu na tarehe kabla ya kuhifadhi. Kunyima ufikiaji wa kamera hakuzuii uteuzi wa faili. Pro: Data iliyohifadhiwa hubaki kupatikana. Operesheni mpya katika moduli hii zinahitaji Premium. Nakala rudufu na uhamishaji hubaki bure.",
     "faqDeviceQ": "KOVA ni vifaa na hadhira gani?",
     "faqDeviceA": "KOVA inatayarishwa kwa simu za Android zinazotumia Android 7.0 au matoleo mapya zaidi. Kiolesura cha KOVA kinaunga mkono lugha 27; utangamano na uhakiki wa lugha unaendelea. Inakusudiwa watu walio na umri wa miaka 13+, kulingana na mahitaji ya duka na ya ndani. Hakuna iOS au toleo la saa linalotolewa.",
     "aboutKicker": "KOVA ni nini?",
@@ -134,33 +134,33 @@
     "aboutGoalsTitle": "Jua kilichobaki katika bajeti yako",
     "aboutGoalsCopy": "Weka vikomo vya kategoria na uangalie maendeleo kadri unavyotumia. Panga ununuzi unaofuata kwa mtazamo wazi zaidi wa kile kinachosalia.",
     "aboutIncomeTitle": "Panga kubadilisha mapato",
-    "aboutIncomeCopy": "Rekodi saa za kazi na viwango ili kukadiria mapato. Weka ratiba yako ya kazi na bajeti ya kila mwezi katika mpango mmoja.",
-    "aboutPrivacy": "Rekodi za fedha hukaa kwenye simu yako. Hakuna muunganisho wa benki au akaunti ya wingu ya KOVA. Ununuzi wa hiari wa Premium unashughulikiwa kando kupitia Google Play.",
+    "aboutIncomeCopy": "Pro · Rekodi saa za kazi na viwango ili kukadiria mapato. Weka ratiba yako ya kazi na bajeti ya kila mwezi katika mpango mmoja.",
+    "aboutPrivacy": "Rekodi zako za fedha hubaki kwenye kifaa hiki. Hakuna haja ya akaunti ya wingu ya KOVA, usajili au usawazishaji wa fedha kwenye wingu. Rejesha ununuzi wa hundi kwa Google Play. Hairejeshi au kusawazisha rekodi za kifedha. Premium inatumika katika wasifu wa ndani kwenye usakinishaji huu. Kusakinisha upya na kifaa kingine kunahitaji ukaguzi tofauti wa ununuzi. Kubadilisha mpango wako kunapatikana kupitia Google Play.",
     "aboutAction": "Tazama KOVA katika hatua",
     "followLaunch": "Fuata KOVA kwenye Instagram",
     "downloadApp": "Ipate kwenye Google Play",
     "launchChannel": "Zindua habari kwenye Instagram · @kova_money",
-    "workScreenNote": "Kazi na mapato · skrini ya onyesho ya mapema; muundo unaweza kubadilika.",
+    "workScreenNote": "Kiolesura cha programu kiko kwa Kiingereza · Pro · 2026-10-29",
     "plansKicker": "Imepangwa kwa toleo la kwanza",
     "plansTitle": "Msingi wa bure. Zaidi kwa Premium.",
-    "plansCopy": "Anza na usimamizi wa pesa kila siku. Chagua Premium ikiwa unahitaji uchanganuzi wa ndani zaidi. Vipakuliwa na mauzo ya umma bado hayapatikani.",
+    "plansCopy": "Hili ni toleo la beta. Baadhi ya sehemu za programu bado zinaboreshwa na hitilafu zinaweza kutokea. Pro inashughulikia tu zana zilizoorodheshwa hapa chini, sio vipengele ambavyo havijakamilika au vilivyoahidiwa vya siku zijazo. Angalia mapungufu kabla ya kununua. Baadhi ya zana zinahitaji historia ya kutosha ya fedha. Mahesabu ya kodi yanahusu nchi na miaka ya kodi inayotumika pekee. Premium haiongezi usawazishaji wa wingu.",
     "planFreeTitle": "KOVA Free",
     "planFreeCopy": "Kurekodi kila siku na udhibiti wa data yako mwenyewe.",
-    "planFreeOne": "Gharama, bajeti na ripoti za kimsingi",
-    "planFreeTwo": "Rekodi za kazi na ufikiaji wa data iliyohifadhiwa",
-    "planFreeThree": "Usimbaji fiche wa ndani, chelezo, usafirishaji na ufutaji",
+    "planFreeOne": "Akaunti, shughuli na kategoria",
+    "planFreeTwo": "Bajeti · Malengo · Malipo ya mara kwa mara · Vidokezo",
+    "planFreeThree": "Usimbaji, kuhifadhi nakala na usafirishaji wa data",
     "planPremiumTitle": "KOVA Premium",
-    "planPremiumCopy": "Usajili wa hiari kwa maarifa ya ndani zaidi.",
-    "planPremiumOne": "Ripoti za juu na kulinganisha",
-    "planPremiumTwo": "Utabiri kulingana na rekodi zako",
-    "planPremiumThree": "Uchambuzi wa mapato ya kazi",
-    "plansNote": "Bei na upatikanaji wa uzinduzi vitatangazwa kabla ya kutolewa. Baadhi ya uchambuzi unahitaji historia ya kutosha. Premium ununuzi na uonyeshaji upya wa ufikiaji unahitaji Google Play na muunganisho; msingi wa Bure bado unapatikana.",
+    "planPremiumCopy": "Usajili wa hiari wa zana za kina za ndani. Fedha za kila siku, rekodi zako na chelezo husalia bila malipo. Hakuna akaunti ya KOVA inayohitajika.",
+    "planPremiumOne": "Kazi na Mapato · Kalenda ya Fedha",
+    "planPremiumTwo": "Ripoti · OCR ya risiti ya ndani · Kituo cha Ushuru",
+    "planPremiumThree": "Vault · Mpangaji Maisha · Historia ya Bei",
+    "plansNote": "KOVA Premium · Jaribio huanza tu baada ya kuthibitisha ununuzi wa ofa unayostahiki katika Google Play. Siku 30 bure, kisha bei iliyoonyeshwa na Google Play kabla ya kununua (Hutozwa kila mwezi / Hutozwa mara moja kwa mwaka). Husasishwa kiotomatiki isipokuwa ughairi kabla ya jaribio kuisha. Google Play huamua ustahiki.",
     "plansDetails": "Soma rasimu ya usajili",
     "closingKicker": "Kaa karibu na uzinduzi",
     "closingTitle": "Tengeneza nafasi kwa mpango wazi wa pesa.",
     "closingCopy": "Fuata KOVA Development kwenye Instagram kwa muhtasari wa programu na habari za uzinduzi. Toleo la kwanza la umma bado linatayarishwa.",
     "closingSecondary": "Unaweza pia kupata KOVA kwenye TikTok.",
-    "forecastNote": "Kila uchanganuzi unahitaji data ya kutosha. Angalia masharti kabla ya kuchagua Premium.",
+    "forecastNote": "Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha.",
     "faqDataQ": "Kila uchanganuzi unahitaji data kiasi gani?",
     "faqDataA": "<p>Unaweza kurekodi matumizi na bajeti tangu mwanzo. Ripoti za msingi zinahitaji miamala 5 katika angalau siku 3 tofauti.</p><ul><li>Makadirio ya matumizi yanayobadilika: angalau siku 7 za uchunguzi na matumizi 2 katika miezi 3 iliyopita. Hiki ni kiwango cha sehemu moja ya hesabu, si cha Premium yote.</li><li>Ripoti za kina: angalau siku 60 za historia, miamala 75, siku 20 zenye miamala na angalau bajeti au lengo 1. Masharti yote lazima yatimizwe.</li><li>Utabiri: angalau siku 90 za historia, miamala 100 katika miezi 3 tofauti na mapato ya kawaida au malipo yanayojirudia (yaliyorekodiwa au kutambuliwa). Masharti yote lazima yatimizwe.</li></ul><p>Kununua Premium hakuchukui nafasi ya historia inayohitajika. Rekodi za wasifu, pamoja na data iliyoingizwa kwa usahihi, zinahesabiwa; tarehe ya usakinishaji pekee haitoshi. Utabiri unabaki kuwa makadirio.</p>"
   },
@@ -191,12 +191,12 @@
       "copy": "Bili zinazorudiwa zina tarehe zake za kukamilisha na historia ya malipo. KOVA hupanga rekodi; haihamishi wala kukusanya pesa."
     },
     {
-      "title": "Ripoti",
+      "title": "Ripoti · Pro",
       "caption": "Muhtasari wa maingizo yaliyorekodiwa",
       "copy": "Chati na muhtasari huhesabiwa kwa KOVA kutoka kwa shughuli za ndani. Data ni ya kubuni, lakini skrini na mahesabu hutoka kwa programu inayoendesha."
     },
     {
-      "title": "Kalenda ya kifedha",
+      "title": "Kalenda ya kifedha · Pro",
       "caption": "Matukio na tarehe za kukamilisha katika mwonekano mmoja",
       "copy": "Shughuli zilizorekodiwa na tarehe za bili mwezi mzima. Chagua siku ili kuona matukio yake bila kutafuta historia nzima."
     },
@@ -258,7 +258,7 @@
       "cards": [
         [
           "Nini kutolewa kwanza huleta",
-          "Gharama, bajeti, saa za kazi, malengo na rekodi za ndani katika programu moja. Besi isiyolipishwa huhifadhi rekodi za kila siku, ripoti za msingi, data yako na usafirishaji. Premium inaongeza ripoti za kina, utabiri na uchanganuzi wa mapato ya kazi."
+          "Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha."
         ],
         [
           "Tulipo sasa",
@@ -301,7 +301,7 @@
         ],
         [
           "Hiari ya ndani Premium",
-          "Maliza kuangalia ripoti za kina, utabiri, uchanganuzi wa mapato ya kazi, ununuzi na urejeshaji. Hakuna wingu lililolipwa, miunganisho ya benki au huduma za AI zimeahidiwa."
+          "Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Baadhi ya zana zinahitaji historia ya kutosha ya fedha. Mahesabu ya kodi yanahusu nchi na miaka ya kodi inayotumika pekee. Premium haiongezi usawazishaji wa wingu."
         ],
         [
           "Jitayarishe kwa Google Play",
@@ -347,7 +347,7 @@
         ],
         [
           "Tovuti hii ni tofauti",
-          "Tovuti hii haiwezi kusoma hifadhidata ya simu yako. Google Analytics hupima matembeleo ya tovuti na mwingiliano kwa idhini yako pekee. Kukataa huweka tovuti kamili inapatikana. Badilisha chaguo lako katika mipangilio ya Vidakuzi; maelezo ya mwenyeji na mtoa huduma bado yanahitaji uthibitisho kabla ya uwekaji upya wa umma."
+          "Uchanganuzi wa tovuti na vidakuzi vya uchanganuzi vimezimwa. Tovuti inaweza kukumbuka lugha lakini haiwezi kufikia rekodi za fedha za programu."
         ],
         [
           "Ripoti salama",
@@ -375,6 +375,10 @@
       "intro": "Tarehe 24 Oktoba 2026: mpango wa sasa wa toleo la kwanza la Android unajumuisha msingi usiolipishwa na Premium ya hiari. Maingizo ya awali hapa chini yanaelezea mipango ya kihistoria.",
       "badge": "Sasisho la sasa · 24 Oktoba 2026",
       "cards": [
+        [
+          "2026-10-29 · KOVA beta",
+          "Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha. Kiolesura cha programu kiko kwa Kiingereza."
+        ],
         [
           "24 Oktoba 2026 · muundo wa toleo la kwanza",
           "Toleo la kwanza limepangwa kwa msingi usiolipishwa wa ndani pamoja na Premium ya hiari kwa ripoti za kina, utabiri na uchanganuzi wa mapato ya kazi. Google Play zilizochaguliwa / hali za kurejesha zimejaribiwa; utayari kamili wa mauzo ya umma bado unasubiri. Bei na tarehe ya uzinduzi haijatangazwa."
@@ -513,9 +517,9 @@
     "terms": "Masharti ya Matumizi",
     "cookies": "Vidakuzi",
     "analyticsTitle": "Faragha kwenye tovuti hii",
-    "analyticsCopy": "Tovuti hii haiwezi kusoma hifadhidata ya simu yako. Google Analytics hupima matembeleo ya tovuti na mwingiliano kwa idhini yako pekee. Kukataa huweka tovuti kamili inapatikana. Badilisha chaguo lako katika mipangilio ya Vidakuzi; maelezo ya mwenyeji na mtoa huduma bado yanahitaji uthibitisho kabla ya uwekaji upya wa umma. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+    "analyticsCopy": "Uchanganuzi wa tovuti na vidakuzi vya uchanganuzi vimezimwa. Tovuti inaweza kukumbuka lugha lakini haiwezi kufikia rekodi za fedha za programu. Google Analytics 4: G-2LE3GWYDZM (OFF). contact@kovacompass.app."
   },
-  "review": "Rasimu ya toleo la kwanza la KOVA lililopangwa: msingi usiolipishwa na Premium ya hiari. Inalingana na hati za sasa za programu za tarehe 24 Oktoba 2026. Tarehe ya kuanza kutumika, idhini ya mwisho na maelezo yaliyosalia ya muuzaji na huduma yanasubiri. Hili si toleo linaloendelea la usajili.",
+  "review": "KOVA · DRAFT · Inasubiri uthibitisho wa mmiliki kabla ya kuchapishwa. Upeo wa Free na Pro, usajili na kughairi Google Play, mipaka ya beta na haki zako.",
   "seo": {
     "titles": {
       "404": "Ukurasa Haujapatikana — KOVA",

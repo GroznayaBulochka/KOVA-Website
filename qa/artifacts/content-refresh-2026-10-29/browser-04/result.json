@@ -1,0 +1,417 @@
+{
+  "atUtc": "2026-10-29T08:38:58.113Z",
+  "status": "PASS",
+  "cases": 36,
+  "results": [
+    {
+      "page": "index",
+      "lang": "pl",
+      "width": 360,
+      "status": "PASS",
+      "layout": {
+        "scroll": 360,
+        "width": 360,
+        "lang": "pl"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "zh",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "zh"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "yue",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "yue"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "es",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "es"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "en",
+      "width": 1440,
+      "status": "PASS",
+      "layout": {
+        "scroll": 1440,
+        "width": 1440,
+        "lang": "en"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ar",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ar"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "hi",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "hi"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "bn",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "bn"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "pt",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "pt"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ru",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ru"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "uk",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "uk"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ja",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ja"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "pnb",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "pnb"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "jv",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "jv"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ko",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ko"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "de",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "de"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "fr",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "fr"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "te",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "te"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "mr",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "mr"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "tr",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "tr"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ur",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ur"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "vi",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "vi"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ta",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ta"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "it",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "it"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "fa",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "fa"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "sw",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "sw"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "index",
+      "lang": "ms",
+      "width": 390,
+      "status": "PASS",
+      "layout": {
+        "scroll": 390,
+        "width": 390,
+        "lang": "ms"
+      },
+      "gallery": 8,
+      "trial": "Google Play qualified offer disclosure"
+    },
+    {
+      "page": "privacy",
+      "lang": "en",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "terms",
+      "lang": "en",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "contact",
+      "lang": "en",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "privacy",
+      "lang": "pl",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "terms",
+      "lang": "pl",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "contact",
+      "lang": "pl",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "privacy",
+      "lang": "ru",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "terms",
+      "lang": "ru",
+      "width": 360,
+      "status": "PASS"
+    },
+    {
+      "page": "contact",
+      "lang": "ru",
+      "width": 360,
+      "status": "PASS"
+    }
+  ],
+  "externalRequests": [],
+  "uncaughtErrors": [],
+  "localRequests": 951,
+  "published": false,
+  "scope": "Fresh local headless Chrome;27 home locales plus9 legal/contact views, real gallery/lightbox/tour interactions. Not human accessibility, live hosting or release approval."
+}

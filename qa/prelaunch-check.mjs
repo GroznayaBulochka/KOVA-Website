@@ -20,11 +20,12 @@ check('Unverified Play links cannot enable downloads',()=>{
  assert.throws(()=>publicRelease({...config,publicDownloadAvailable:true,storeUrl:'https://play.google.com/store/apps/details?id=com.kova.budget'}));
  assert.equal(publicRelease({...config,publicDownloadAvailable:true,storeListingVerified:true,storeUrl:'https://play.google.com/store/apps/details?id=com.kova.budget'}).available,true);
 });
-const pins=JSON.parse(await read('qa/artifacts/audit-2026-10-24/content-sources.json'));
-assert.equal(pins.legalFiles.length,54);
-for(const pin of pins.legalFiles){const path=pin.destination.replaceAll('\\','/');const data=await readFile(new URL('../'+path,import.meta.url));check(path+': canonical draft unchanged',()=>assert.equal(createHash('sha256').update(data).digest('hex'),pin.sha256));}
+const pins=JSON.parse(await read('qa/artifacts/content-refresh-2026-10-29/app-source-pins.json'));
+const legalPins=pins.artifacts.filter(p=>p.destination?.startsWith('legal/'));
+assert.equal(legalPins.length,54);
+for(const pin of legalPins){const path=pin.destination.replaceAll('\\','/');const data=await readFile(new URL('../'+path,import.meta.url));check(path+': current app-based website draft',()=>assert.equal(createHash('sha256').update(data).digest('hex'),pin.sha256));}
 const render=await prepareRenderer(new URL('../',import.meta.url));
-const output=new URL('artifacts/audit-2026-10-24/production-samples/',import.meta.url);await mkdir(output,{recursive:true});
+const output=new URL('artifacts/content-refresh-2026-10-29/production-samples/',import.meta.url);await mkdir(output,{recursive:true});
 for(const language of languages){
  const html=await read('dist/'+file('index',language));
  check(language+': static Free/Premium and one clear launch action',()=>{
@@ -49,5 +50,5 @@ await writeFile(new URL('README.txt',output),'Verification samples only, not a d
 const release=spawnSync(process.execPath,['scripts/build-site.mjs','--release'],{encoding:'utf8',cwd:fileURLToPath(new URL('..',import.meta.url))});
 check('Publication gate still fails closed',()=>{assert.equal(release.status,2);assert.match(release.stderr,/legalApproved/);assert.match(release.stderr,/publicationApproved/);});
 const report={result:'PASS',checks:checks.length,passed:checks,languages:languages.length,canonicalLegalDrafts:54,releaseBuild:{exitCode:release.status,blockers:release.stderr.trim()},productionSamples:'Verification only; not deployed',published:false};
-await writeFile(new URL('artifacts/audit-2026-10-24/contracts.json',import.meta.url),JSON.stringify(report,null,2));
+await writeFile(new URL('artifacts/content-refresh-2026-10-29/contracts.json',import.meta.url),JSON.stringify(report,null,2));
 console.log(JSON.stringify({result:'PASS',checks:checks.length,canonicalLegalDrafts:54,releaseBuildExit:release.status}));

@@ -29,7 +29,9 @@ Filterlisten für Währungs- und Sprachsuchen auf Ihrem Gerät; Diese Anfragen w
 
 ## 3. Lokale Finanzen und optionale Einkäufe
 
-Die Free-Basis speichert Finanzdaten lokal und erfordert kein KOVA-Cloud-Konto. Der Eigentümer genehmigte das Funktionspaket Premium: ​​erweiterte lokale Berichte/Vergleiche, Prognosen und Arbeitseinkommensanalysen. Berechnungen erfordern ausreichend relevante Aufzeichnungen. Kauf, Wiederherstellung und Zugriffsaktualisierung nutzen Google Play und Konnektivität; Ein Google Play-Konto ist kein KOVA-Finanzprofil. Firebase-Authentifizierung, Google-Anmeldung innerhalb von KOVA, Finanz-Cloud-Synchronisierung, Cloud-Speicher/-Funktionen, Werbung, Analytics/Crashlytics, Push, Remote-Konfiguration, Wear, Online-Familienfreigabe, Markt-/Bank-APIs und KI/Befehlsebene bleiben deaktiviert.
+Optionales Abonnement für erweiterte lokale Tools. Die täglichen Finanzen, Ihre Unterlagen und Backups bleiben kostenlos. Kein KOVA-Konto erforderlich. Lebensplaner · Pro. Preisverlauf · Pro. Vault · Pro. Premium umfasst Arbeit und Einkommen, Finanzkalender, alle Berichte, Belegscan und Steuerzentrum. Grundlegende Buchführung, Notizen, Verschlüsselung, Sicherung, Wiederherstellung und Datenexport bleiben kostenlos. Einige Werkzeuge benötigen ausreichend Finanzhistorie. Steuerberechnungen gelten nur für unterstützte Länder und Steuerjahre. Premium bietet keine Cloud-Synchronisierung.
+
+KOVA · 2026-10-29 · DRAFT
 
 AKTUELLER KANDIDAT – NICHT FÜR DEN ÖFFENTLICHEN VERKAUF GENEHMIGT: Der Eigentümer hat die client-only-Verifizierung ausgewählt, ohne einen KOVA-Verifizierungsserver. KOVA kommuniziert mit der Google Play-App über die Abrechnungsschnittstelle von Android. Die Veröffentlichung entfernt die INTERNET-Berechtigung von KOVA; Google Play nutzt ein eigenes Netzwerk und eine eigene Konto-/Zahlungsabwicklung. KOVA beobachtet die Verbindungsverfügbarkeit, was nicht als Beweis dafür dient, dass ein zwischengespeicherter Play-Kauf aktuell ist. Dies ist keine Behauptung, dass das gesamte Telefon offline ist.
 

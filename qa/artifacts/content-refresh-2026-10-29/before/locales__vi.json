@@ -1,0 +1,556 @@
+{
+  "home": {
+    "skip": "Chuyển đến nội dung",
+    "tagline": "Tài chính ở một nơi.",
+    "language": "Ngôn ngữ",
+    "openMenu": "Mở trình đơn",
+    "close": "Đóng",
+    "navFeatures": "Tính năng",
+    "navScreens": "Màn hình",
+    "navSecurity": "Bảo mật",
+    "navLegal": "Tài liệu",
+    "navRoadmap": "Lộ trình",
+    "heroKicker": "KOVA: Money & Budget · Android",
+    "heroTitle": "Chi tiêu. Ngân sách.<br><em>Thu nhập từ công việc.</em>",
+    "heroCopy": "Theo dõi chi tiêu, lập kế hoạch ngân sách và ước tính thu nhập từ giờ làm việc của bạn. Tài chính của bạn vẫn còn trên điện thoại của bạn. Đến với Android với đế miễn phí và KOVA Premium tùy chọn.",
+    "heroPrivacy": "Dữ liệu tài chính được lưu ngay trên điện thoại của bạn.",
+    "projectStatus": "Kiểm tra trạng thái dự án",
+    "watchVideo": "Xem ứng dụng",
+    "pauseVideo": "Tạm dừng",
+    "playVideo": "Chơi",
+    "releaseNote": "Trước khi ra mắt · chưa có bản tải xuống công khai.",
+    "trustPrivacy": "Quyền riêng tư là trên hết",
+    "trustPrivacyCopy": "Cơ sở dữ liệu cục bộ, không tải lên tự động",
+    "trustReports": "Tóm tắt thực tế",
+    "trustReportsCopy": "Báo cáo dựa trên dữ liệu được ghi lại",
+    "trustOffline": "Hoạt động ngoại tuyến",
+    "trustOfflineCopy": "Tài chính cốt lõi vẫn có sẵn",
+    "trustLife": "Được xây dựng cho cuộc sống thực",
+    "trustLifeCopy": "Ngân sách, mục tiêu, công việc và ghi chú",
+    "featureExpenses": "Chi phí",
+    "featureExpensesCopy": "Giao dịch và danh mục",
+    "featureBudgets": "Ngân sách",
+    "featureBudgetsCopy": "Giới hạn và tiến bộ",
+    "featureWork": "Công việc & Thu nhập",
+    "featureWorkCopy": "Giờ và ngày trả lương",
+    "featureCalendar": "Lịch",
+    "featureCalendarCopy": "Sự kiện tài chính",
+    "featureReports": "Báo cáo",
+    "featureReportsCopy": "Xu hướng và dự báo",
+    "featureGoals": "Bàn thắng",
+    "featureGoalsCopy": "Kế hoạch và tiến độ",
+    "clarityKicker": "ứng dụng",
+    "clarityTitle": "Nhìn vào bên trong KOVA.",
+    "clarityCopy": "Màn hình KOVA thực với dữ liệu demo hư cấu. Khám phá tài chính hàng ngày, ngân sách và các công cụ địa phương. Thư viện chính hiển thị giao diện tiếng Ba Lan.",
+    "clarityAccounts": "Tài khoản, giao dịch và danh mục",
+    "clarityReports": "Báo cáo và dự báo",
+    "clarityWork": "Công việc & Thu nhập",
+    "clarityGoals": "Mục tiêu và giá trị ròng",
+    "clarityCurrency": "Độ chính xác đa tiền tệ",
+    "clarityOffline": "Truy cập ngoại tuyến vào dữ liệu cốt lõi",
+    "exploreScreens": "Khám phá màn hình",
+    "screenOverview": "Chủ đề tối",
+    "screenOverviewCopy": "Số dư và chi phí được ghi nhận",
+    "screenFeatures": "Chủ đề nhẹ nhàng",
+    "screenFeaturesCopy": "Cùng một dữ liệu, một cái nhìn khác",
+    "screenWork": "Ghi chú địa phương",
+    "screenWorkCopy": "Đã lưu trên thiết bị · 21 tháng 10 năm 2026",
+    "securityKicker": "Quyền riêng tư",
+    "securityTitle": "Quyền riêng tư là ưu tiên hàng đầu của chúng tôi.",
+    "securityCopy": "Dữ liệu tài chính trong KOVA được lưu trên điện thoại của bạn. Chúng tôi nỗ lực làm cho ứng dụng an toàn nhất có thể. Tùy chọn mua và khôi phục Premium sử dụng riêng Google Play; phân tích của trang web này cần có sự đồng ý của bạn.",
+    "securityModel": "Đọc về bảo mật",
+    "secureLocal": "Mã hóa cục bộ",
+    "secureOwner": "Cách ly dữ liệu",
+    "secureOwnerCopy": "Hồ sơ được giao cho chủ sở hữu của họ",
+    "secureNoBank": "Không có mật khẩu ngân hàng",
+    "secureNoBankCopy": "KOVA không kết nối với ngân hàng của bạn",
+    "secureOnline": "Dữ liệu của bạn, sự lựa chọn của bạn",
+    "secureOnlineCopy": "Sao lưu và xuất thủ công",
+    "legalKicker": "Tài liệu",
+    "legalTitle": "KOVA chính sách.",
+    "legalCopy": "Các điều khoản đăng ký và quyền riêng tư của ứng dụng là bản dự thảo đang chờ phê duyệt cuối cùng. Trang web có thông tin cookie và phân tích riêng biệt.",
+    "privacyTitle": "Chính sách bảo mật",
+    "privacyCopy": "Tài chính địa phương, mua và hỗ trợ Google Play.",
+    "termsTitle": "Điều khoản sử dụng",
+    "termsCopy": "Cơ sở miễn phí, Premium tùy chọn và điều kiện đăng ký.",
+    "cookiesTitle": "Cookie",
+    "cookiesCopy": "Cài đặt trình duyệt và lưu trữ.",
+    "privacyShort": "Quyền riêng tư",
+    "termsShort": "Điều khoản",
+    "cookiesShort": "Cookie",
+    "activeDevelopment": "Cơ sở miễn phí + Premium tùy chọn · trước khi ra mắt",
+    "cookieSettings": "Cài đặt",
+    "navFaq": "Câu hỏi thường gặp",
+    "navStatus": "dự án",
+    "galleryHint": "Nhấn vào một màn hình để xem hình ảnh đầy đủ.",
+    "secureLocalCopy": "Cơ sở dữ liệu được mã hóa trên thiết bị của bạn",
+    "projectKicker": "Bản phát hành đầu tiên",
+    "projectHeading": "Một cơ sở miễn phí. Thêm với Premium.",
+    "projectCopy": "KOVA: Money & Budget sắp có mặt trên Android với đế miễn phí và Premium tùy chọn. Tải xuống và bán hàng công khai chưa có sẵn.",
+    "availability": "Tính khả dụng của ứng dụng",
+    "roadmapLink": "Những gì chúng tôi đang làm",
+    "updatesLink": "Cập nhật gần đây",
+    "faqKicker": "Thật tốt khi biết",
+    "faqTitle": "Một vài câu trả lời đơn giản.",
+    "faqCopy": "Trước khi bạn bắt đầu sử dụng KOVA.",
+    "faqDownloadQ": "Tôi có thể tải xuống KOVA chưa?",
+    "faqDownloadA": "Tải xuống công khai chưa có sẵn. Theo dõi KOVA trên Instagram để biết tin tức ra mắt. Trang này sẽ liên kết đến danh sách Google Play đã được xác nhận khi có bản phát hành. Không có ngày ra mắt đã được công bố.",
+    "faqOfflineQ": "Ứng dụng có hoạt động mà không có internet không?",
+    "faqOfflineA": "Hồ sơ tài chính và cơ sở miễn phí hoạt động tại địa phương. Tùy chọn mua, khôi phục và truy cập làm mới Premium sử dụng Google Play và cần kết nối. Quyền truy cập Premium hiện tại có thể yêu cầu kiểm tra kết nối mới sau tối đa 48 giờ hoặc khởi động lại điện thoại. Điều này không xóa hồ sơ của bạn hoặc chặn việc sử dụng và xuất cơ bản. Không có đồng bộ hóa đám mây tài chính hoặc kết nối ngân hàng được cung cấp.",
+    "faqBankQ": "Tôi có cần kết nối tài khoản ngân hàng của mình không?",
+    "faqBankA": "Không. KOVA không yêu cầu mật khẩu ngân hàng của bạn. Tài khoản trong ứng dụng giúp sắp xếp thông tin tài chính bạn ghi lại.",
+    "faqEstimateQ": "Các dự báo và số tiền lương ròng có được đảm bảo không?",
+    "faqEstimateA": "Không. Chúng là những ước tính dựa trên dữ liệu và cấu hình được ghi lại. Chúng có thể khác với các khoản thanh toán thực tế và không thay thế các tài liệu của người sử dụng lao động hoặc lời khuyên cá nhân.",
+    "faqWebsiteQ": "Trang web này có thể truy cập tài chính của tôi không?",
+    "faqWebsiteA": "Không. Trang web giới thiệu dự án và không kết nối với cơ sở dữ liệu tài chính trên điện thoại của bạn. Phân tích trang web tùy chọn tùy thuộc vào sự đồng ý của bạn.",
+    "altHome": "KOVA Ngoại tuyến V1: màn hình chính có lịch sử tài chính hư cấu",
+    "altProfile": "KOVA Ngoại tuyến V1: ba tài khoản demo cục bộ",
+    "altFeatures": "KOVA V1 miễn phí: chủ đề nhẹ nhàng trên trình mô phỏng",
+    "altWork": "KOVA Ngoại tuyến V1: ghi chú kiểm tra đã lưu trên trình mô phỏng",
+    "previous": "Màn hình trước",
+    "next": "Màn hình tiếp theo",
+    "navigation": "Điều hướng chính",
+    "pageTitle": "KOVA — tài chính ở một nơi",
+    "faqFreeQ": "KOVA có miễn phí không?",
+    "faqFreeA": "Vâng. Bản phát hành đầu tiên được lên kế hoạch với cơ sở miễn phí và KOVA Premium tùy chọn. Ghi âm hàng ngày, báo cáo cơ bản, quyền truy cập vào hồ sơ của bạn, mã hóa cục bộ, sao lưu, xuất và xóa vẫn Miễn phí. Premium bao gồm các báo cáo, dự báo và phân tích thu nhập công việc nâng cao. Giá sẽ được công bố trước khi ra mắt; vẫn chưa có đợt bán công khai nào.",
+    "tourNote": "Màn hình ứng dụng thực · dữ liệu demo hư cấu · không phải bản ghi video",
+    "tourChapters": "Chọn màn hình tham quan",
+    "factAndroid": "Android 7.0+",
+    "factOffline": "Cơ sở miễn phí",
+    "factAccount": "Tùy chọn Premium",
+    "faqBackupQ": "Làm cách nào để bảo vệ dữ liệu của tôi hoặc thay đổi điện thoại?",
+    "faqBackupA": "Tạo bản xuất thủ công được bảo vệ bằng mật khẩu và lưu trữ an toàn bên ngoài điện thoại của bạn. Quá trình nhập yêu cầu xác nhận và thay thế dữ liệu được hỗ trợ của cấu hình đã chọn. Đây là bản sao một phần, không phải hình ảnh ứng dụng đầy đủ: bao gồm hình ảnh ghi chú được nhúng nhưng các tệp đính kèm bên ngoài và ảnh biên nhận cần có bản sao riêng. Nhà xuất bản không thể khôi phục dữ liệu từ đám mây hoặc khôi phục mật khẩu sao lưu của bạn.",
+    "faqOcrQ": "Quét biên nhận có hoạt động ngoại tuyến không?",
+    "faqOcrA": "OCR sử dụng mô hình đi kèm với ứng dụng. Chụp ảnh hoặc chọn ảnh từ thư viện của bạn thông qua bộ chọn Android. Việc nhận dạng có thể sai — hãy kiểm tra số tiền, loại tiền tệ và ngày tháng trước khi lưu. Việc từ chối quyền truy cập vào máy ảnh không chặn việc lựa chọn tệp.",
+    "faqDeviceQ": "KOVA dành cho thiết bị và đối tượng nào?",
+    "faqDeviceA": "KOVA đang được chuẩn bị cho điện thoại Android chạy Android 7.0 trở lên. Giao diện KOVA hỗ trợ 27 ngôn ngữ; tính tương thích và việc xem xét ngôn ngữ đang diễn ra. Dành cho lứa tuổi 13+, tùy theo yêu cầu của cửa hàng và địa phương. Không có bản phát hành iOS hoặc đồng hồ nào được cung cấp.",
+    "aboutKicker": "KOVA là gì?",
+    "aboutTitle": "Ít căng thẳng về tiền bạc hơn. Nhiều chỗ hơn cho kế hoạch của bạn.",
+    "aboutCopy": "KOVA là một ứng dụng Android dành cho tài chính cá nhân hàng ngày. Giữ chi phí, ngân sách và giờ làm việc cùng nhau để bạn có thể xem những gì còn lại sau khi thanh toán và lập kế hoạch cho tháng tới.",
+    "aboutAudience": "Dành cho sinh viên, người đi làm và bất kỳ ai muốn đưa ra quyết định có chủ ý hơn về tiền của mình.",
+    "aboutForWhom": "KOVA mang lại gì cho bạn",
+    "aboutSpendingTitle": "Xem tiền của bạn đi đâu",
+    "aboutSpendingCopy": "Ghi lại chi tiêu hàng ngày và tìm nó theo danh mục. Hiểu chi phí nào tạo ra sự khác biệt lớn nhất trong tháng của bạn.",
+    "aboutGoalsTitle": "Biết những gì còn lại trong ngân sách của bạn",
+    "aboutGoalsCopy": "Đặt giới hạn danh mục và kiểm tra tiến độ khi bạn chi tiêu. Lập kế hoạch mua hàng tiếp theo với cái nhìn rõ ràng hơn về những gì còn lại.",
+    "aboutIncomeTitle": "Lên kế hoạch thay đổi thu nhập",
+    "aboutIncomeCopy": "Ghi lại số giờ làm việc và tỷ lệ để ước tính thu nhập. Đưa lịch làm việc và ngân sách hàng tháng của bạn vào một kế hoạch.",
+    "aboutPrivacy": "Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Không có kết nối ngân hàng hoặc tài khoản đám mây KOVA. Các giao dịch mua Premium tùy chọn được xử lý riêng thông qua Google Play.",
+    "aboutAction": "Xem KOVA hoạt động",
+    "followLaunch": "Theo dõi KOVA trên Instagram",
+    "downloadApp": "Tải nó trên Google Play",
+    "launchChannel": "Ra mắt tin tức về Instagram · @kova_money",
+    "workScreenNote": "Công việc & thu nhập · màn hình demo trước đó; thiết kế có thể thay đổi.",
+    "plansKicker": "Dự kiến phát hành lần đầu",
+    "plansTitle": "Một cơ sở miễn phí. Thêm với Premium.",
+    "plansCopy": "Bắt đầu với việc quản lý tiền hàng ngày. Chọn Premium nếu bạn cần phân tích cục bộ sâu hơn. Tải xuống và bán hàng công khai chưa có sẵn.",
+    "planFreeTitle": "KOVA Free",
+    "planFreeCopy": "Ghi lại hàng ngày và kiểm soát dữ liệu của riêng bạn.",
+    "planFreeOne": "Chi phí, ngân sách và báo cáo cơ bản",
+    "planFreeTwo": "Hồ sơ công việc và quyền truy cập vào dữ liệu đã lưu",
+    "planFreeThree": "Mã hóa cục bộ, sao lưu, xuất và xóa",
+    "planPremiumTitle": "KOVA Premium",
+    "planPremiumCopy": "Đăng ký tùy chọn để có cái nhìn sâu sắc chi tiết hơn về địa phương.",
+    "planPremiumOne": "Báo cáo và so sánh nâng cao",
+    "planPremiumTwo": "Dự báo dựa trên hồ sơ của bạn",
+    "planPremiumThree": "Phân tích thu nhập công việc",
+    "plansNote": "Giá cả và tính sẵn sàng ra mắt sẽ được công bố trước khi phát hành. Một số phân tích cần có đủ lịch sử. Việc mua và làm mới quyền truy cập Premium yêu cầu Google Play và khả năng kết nối; cơ sở miễn phí vẫn có sẵn.",
+    "plansDetails": "Đọc bản dự thảo đăng ký",
+    "closingKicker": "Ở gần buổi ra mắt",
+    "closingTitle": "Nhường chỗ cho một kế hoạch tiền bạc rõ ràng hơn.",
+    "closingCopy": "Theo dõi KOVA Development trên Instagram để xem trước ứng dụng và tin tức ra mắt. Việc phát hành công khai đầu tiên vẫn đang được chuẩn bị.",
+    "closingSecondary": "Bạn cũng có thể tìm thấy KOVA trên TikTok.",
+    "forecastNote": "Mỗi phân tích cần đủ dữ liệu. Hãy xem yêu cầu trước khi chọn Premium.",
+    "faqDataQ": "Mỗi phân tích cần bao nhiêu dữ liệu?",
+    "faqDataA": "<p>Bạn có thể ghi chi tiêu và ngân sách ngay từ đầu. Báo cáo cơ bản cần 5 giao dịch trong ít nhất 3 ngày khác nhau.</p><ul><li>Ước tính chi tiêu biến đổi: ít nhất 7 ngày quan sát và 2 khoản chi trong 3 tháng gần nhất. Đây là ngưỡng của một thành phần tính toán, không phải toàn bộ Premium.</li><li>Báo cáo nâng cao: ít nhất 60 ngày lịch sử, 75 giao dịch, 20 ngày có giao dịch và ít nhất 1 ngân sách hoặc mục tiêu. Phải đáp ứng tất cả điều kiện.</li><li>Dự báo: ít nhất 90 ngày lịch sử, 100 giao dịch trong 3 tháng khác nhau và thu nhập đều đặn hoặc khoản thanh toán định kỳ (được ghi hoặc phát hiện). Phải đáp ứng tất cả điều kiện.</li></ul><p>Mua Premium không thay thế lịch sử cần thiết. Dữ liệu trong hồ sơ, kể cả dữ liệu được nhập đúng cách, đều được tính; chỉ ngày cài đặt là chưa đủ. Dự báo vẫn là ước tính.</p>"
+  },
+  "slides": [
+    {
+      "title": "Tài chính của bạn hôm nay",
+      "caption": "Số dư, thu nhập và chi tiêu gần đây",
+      "copy": "Màn hình chính thực của KOVA với các hồ sơ địa phương dành cho Marta, một người dùng hư cấu. Lịch sử tài chính giống nhau được áp dụng cho mọi màn hình trong chuyến tham quan này."
+    },
+    {
+      "title": "Tài khoản",
+      "caption": "Tài khoản hiện tại, tiền tiết kiệm và tiền mặt",
+      "copy": "Ba tài khoản địa phương tổ chức tài chính hàng ngày. Số dư bao gồm mua hàng, tiền lương và chuyển khoản giữa các tài khoản của bạn. Không có kết nối ngân hàng."
+    },
+    {
+      "title": "Giao dịch",
+      "caption": "Sáu tháng ghi chép hàng ngày",
+      "copy": "Cửa hàng tạp hóa, cà phê, vận chuyển, tiền thuê nhà và tiền lương. Số tiền và ngày tháng khác nhau tạo ra lịch sử thực tế chứ không phải danh sách các giao dịch giống hệt nhau."
+    },
+    {
+      "title": "Ngân sách và giới hạn",
+      "caption": "Kế hoạch chi tiêu và mức sử dụng hiện tại",
+      "copy": "Giới hạn hàng tháng về thực phẩm, giải trí và di chuyển so sánh kế hoạch với chi tiêu được ghi lại. Số tiền đến từ cùng một hồ sơ demo."
+    },
+    {
+      "title": "Thanh toán định kỳ",
+      "caption": "Thuê, internet, điện thoại và đăng ký",
+      "copy": "Hóa đơn định kỳ có ngày đến hạn và lịch sử thanh toán riêng. KOVA sắp xếp hồ sơ; nó không chuyển hoặc thu tiền."
+    },
+    {
+      "title": "Báo cáo",
+      "caption": "Tóm tắt các mục đã ghi",
+      "copy": "Biểu đồ và tóm tắt được tính bằng KOVA từ các giao dịch địa phương. Dữ liệu là hư cấu nhưng màn hình và tính toán đến từ ứng dụng đang chạy."
+    },
+    {
+      "title": "Lịch tài chính",
+      "caption": "Sự kiện và ngày đến hạn trong một chế độ xem",
+      "copy": "Các giao dịch được ghi lại và ngày thanh toán trong tháng. Chọn một ngày để xem các sự kiện của ngày đó mà không cần tìm kiếm toàn bộ lịch sử."
+    },
+    {
+      "title": "Ghi chú",
+      "caption": "Kế hoạch, danh sách và chi tiết hàng ngày",
+      "copy": "Kế hoạch quỹ khẩn cấp và ghi chú chuyến đi cuối tuần được lưu trữ tại địa phương cùng với tài chính. Đây là nội dung demo, không phải ghi chú riêng tư của người khác."
+    }
+  ],
+  "shell": {
+    "home": "Trang chủ",
+    "product": "ứng dụng",
+    "project": "dự án",
+    "legal": "Thông tin",
+    "features": "Tính năng",
+    "screens": "Màn hình ứng dụng",
+    "faq": "Câu hỏi và câu trả lời",
+    "status": "Tình trạng dự án",
+    "roadmap": "Lộ trình",
+    "updates": "Cập nhật",
+    "security": "Bảo mật",
+    "contact": "Liên hệ",
+    "deletion": "Dữ liệu của bạn",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "cookies": "Cookie",
+    "settings": "Cài đặt cookie",
+    "tagline": "Tài chính hàng ngày. Ở một nơi.",
+    "note": "Cơ sở miễn phí + Premium tùy chọn · trước khi ra mắt",
+    "top": "Quay lại đầu trang",
+    "skip": "Chuyển đến nội dung",
+    "language": "Ngôn ngữ trang web",
+    "menu": "Thực đơn",
+    "back": "Trang chủ",
+    "official": "KOVA Development · trang web chính thức"
+  },
+  "projects": {
+    "404": {
+      "label": "404",
+      "title": "Trang này không có ở đây.",
+      "intro": "Liên kết có thể đã thay đổi. Trở về nhà hoặc kiểm tra thông tin dự án.",
+      "cards": [],
+      "actions": [
+        [
+          "Trang chủ",
+          "index.html"
+        ],
+        [
+          "Tình trạng dự án",
+          "status.html"
+        ]
+      ]
+    },
+    "status": {
+      "label": "Tình trạng dự án",
+      "title": "Tài chính hàng ngày của bạn. Một bản phát hành đang được tiến hành.",
+      "intro": "KOVA: Money & Budget sắp có mặt trên Android với đế miễn phí và Premium tùy chọn. Tải xuống và bán hàng công khai chưa có sẵn.",
+      "badge": "Đang chuẩn bị · Miễn phí + tùy chọn Premium",
+      "cards": [
+        [
+          "Bản phát hành đầu tiên mang lại điều gì",
+          "Chi phí, ngân sách, giờ làm việc, mục tiêu và hồ sơ địa phương trong một ứng dụng. Cơ sở miễn phí lưu giữ bản ghi hàng ngày, báo cáo cơ bản, dữ liệu của bạn và xuất. Premium bổ sung các báo cáo, dự báo và phân tích thu nhập công việc nâng cao."
+        ],
+        [
+          "Bây giờ chúng ta đang ở đâu",
+          "Chúng tôi đang tinh chỉnh ứng dụng và kiểm tra tính tương thích, khả năng truy cập và luồng đăng ký. Các thử nghiệm mua và khôi phục chọn lọc đã chạy nhưng bản phát hành công khai hoàn chỉnh vẫn đang được chuẩn bị."
+        ],
+        [
+          "Tài chính của bạn vẫn ở địa phương",
+          "KOVA lưu trữ hồ sơ tài chính trên điện thoại của bạn. Google Play xử lý riêng các kiểm tra mua, khôi phục và truy cập đăng ký tùy chọn. Không có đồng bộ hóa đám mây tài chính hoặc kết nối ngân hàng được cung cấp."
+        ],
+        [
+          "Cách theo dõi tiến độ",
+          "Theo dõi @kova_money trên Instagram để xem trước và tin tức ra mắt. Giá và liên kết cửa hàng được xác nhận sẽ được chia sẻ trước khi phát hành. Không có ngày ra mắt được công bố."
+        ]
+      ],
+      "note": "KOVA Development là thương hiệu của dự án. Ứng dụng này chưa được cung cấp rộng rãi; kết quả thử nghiệm không được coi là phê duyệt bán hàng công khai.",
+      "actions": [
+        [
+          "Theo dõi Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Lộ trình phát hành",
+          "roadmap.html"
+        ],
+        [
+          "Cập nhật gần đây",
+          "updates.html"
+        ]
+      ]
+    },
+    "roadmap": {
+      "label": "Lộ trình",
+      "title": "Một bản phát hành đầu tiên hữu ích, có chỗ để phát triển.",
+      "intro": "Bản phát hành đầu tiên kết hợp cơ sở cục bộ miễn phí và Premium tùy chọn. Đây là những gì chúng tôi đang chuẩn bị trước khi ra mắt, không có thời hạn chưa được xác nhận.",
+      "badge": "Bản phát hành đầu tiên · Android",
+      "cards": [
+        [
+          "Quản lý tiền hàng ngày",
+          "Tinh chỉnh chi tiêu, ngân sách và hồ sơ công việc để các nhiệm vụ chung trở nên rõ ràng và đáng tin cậy. Kiểm tra ngôn ngữ, khả năng truy cập và khả năng tương thích của điện thoại."
+        ],
+        [
+          "Tùy chọn Premium cục bộ",
+          "Hoàn tất việc kiểm tra các báo cáo nâng cao, dự báo, phân tích thu nhập công việc, mua hàng và khôi phục. Không có đám mây trả phí, tích hợp ngân hàng hoặc dịch vụ AI nào được hứa hẹn."
+        ],
+        [
+          "Chuẩn bị cho Google Play",
+          "Hoàn thành các bước kiểm tra phát hành, thông tin đăng ký và tài liệu còn lại. Xác nhận giá và danh sách cửa hàng trước khi có sẵn rộng rãi."
+        ],
+        [
+          "Chia sẻ buổi ra mắt",
+          "Xuất bản bản xem trước và tiến trình ứng dụng trên các kênh KOVA hiện có. Khi bản phát hành được phê duyệt và có sẵn, hãy thay thế liên kết khởi chạy bằng liên kết Google Play chính thức."
+        ]
+      ],
+      "actions": [
+        [
+          "Tình trạng hiện tại",
+          "status.html"
+        ],
+        [
+          "Theo dõi Instagram",
+          "https://www.instagram.com/kova_money/"
+        ]
+      ]
+    },
+    "security": {
+      "label": "Quyền riêng tư và bảo mật",
+      "title": "Quyền riêng tư là ưu tiên hàng đầu của chúng tôi.",
+      "intro": "Chúng tôi nỗ lực làm cho KOVA an toàn nhất có thể. Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Các giao dịch mua tùy chọn trên Play và trang web này có các luồng dữ liệu riêng biệt, được giải thích bên dưới.",
+      "badge": "Tài chính địa phương · mua sắm tùy chọn riêng biệt",
+      "cards": [
+        [
+          "Dữ liệu tài chính trên thiết bị của bạn",
+          "Cơ sở dữ liệu chính sử dụng SQLCipher với cách ly hồ sơ cục bộ. Bảo vệ điện thoại của bạn và mật khẩu sao lưu. Mã hóa không phải là sự đảm bảo chống lại mọi rủi ro về thiết bị, quyền truy cập hoặc mất dữ liệu."
+        ],
+        [
+          "Tùy chọn Premium đến Google Play",
+          "Ứng viên hiện tại sử dụng giao diện thanh toán Play, không có máy chủ xác minh KOVA. Play sử dụng mạng riêng của mình để mua, khôi phục và truy cập làm mới. KOVA nhận trạng thái mua hàng và thông tin mua hàng đã ký chứ không phải thông tin thẻ. Hồ sơ tài chính của bạn không được gửi qua Play."
+        ],
+        [
+          "Truy cập và khôi phục cục bộ",
+          "Quyền truy cập Premium hiện tại có thể cần một lần kiểm tra Play được kết nối khác sau tối đa 48 giờ hoặc khởi động lại điện thoại. Khôi phục mua hàng tách biệt với khôi phục dữ liệu tài chính. Cơ sở miễn phí, bản ghi đã lưu và sao lưu/xuất vẫn có sẵn; trình độ bán hàng công khai đầy đủ đang chờ xử lý."
+        ],
+        [
+          "Bản sao lưu của bạn là sự lựa chọn của bạn",
+          "Tạo bản xuất thủ công được bảo vệ bằng mật khẩu và lưu trữ nó một cách an toàn. Nó là một bản sao một phần; giữ riêng các tệp đính kèm bên ngoài. Thư mục đám mây hoặc hành động chia sẻ sử dụng nhà cung cấp mà bạn đã chọn thay vì đồng bộ hóa tài chính KOVA tự động."
+        ],
+        [
+          "Trang web này là riêng biệt",
+          "Trang web này không thể đọc cơ sở dữ liệu điện thoại của bạn. Google Analytics chỉ đo lường lượt truy cập và tương tác trang web khi có sự đồng ý của bạn. Việc từ chối sẽ giữ nguyên toàn bộ trang web. Thay đổi lựa chọn của bạn trong cài đặt Cookie; thông tin chi tiết về dịch vụ lưu trữ và nhà cung cấp vẫn cần được xác nhận trước khi triển khai công khai mới."
+        ],
+        [
+          "Báo cáo an toàn",
+          "Liên hệ với contact@kovacompass.app bằng ứng dụng và phiên bản Android cũng như các bước sử dụng dữ liệu mẫu. Không gửi mật khẩu, mua token, sao lưu toàn bộ hoặc hồ sơ tài chính thực."
+        ]
+      ],
+      "actions": [
+        [
+          "Dự thảo quyền riêng tư của ứng dụng",
+          "privacy.html"
+        ],
+        [
+          "Dữ liệu của bạn và xuất",
+          "delete-account.html"
+        ],
+        [
+          "Cookie trang web",
+          "cookies.html"
+        ]
+      ]
+    },
+    "updates": {
+      "label": "Cập nhật",
+      "title": "Một cơ sở miễn phí. Tùy chọn Premium. Tài chính địa phương.",
+      "intro": "Ngày 24 tháng 10 năm 2026: gói hiện tại cho bản phát hành Android đầu tiên bao gồm cơ sở miễn phí và Premium tùy chọn. Các mục trước đó dưới đây mô tả các kế hoạch lịch sử.",
+      "badge": "Cập nhật hiện tại · 24 tháng 10 năm 2026",
+      "cards": [
+        [
+          "Ngày 24 tháng 10 năm 2026 · mẫu phát hành đầu tiên",
+          "Bản phát hành đầu tiên được lên kế hoạch với cơ sở địa phương miễn phí cộng với Premium tùy chọn cho các báo cáo, dự báo và phân tích thu nhập công việc nâng cao. Các kịch bản mua/khôi phục Google Play đã chọn đã được thử nghiệm; sự sẵn sàng bán hàng công khai đầy đủ vẫn đang chờ xử lý. Giá cả và ngày ra mắt chưa được công bố."
+        ],
+        [
+          "21.10.2026 · Không có tài khoản bắt buộc",
+          "Public V1 được thiết kế để hoạt động mà không cần đăng ký hoặc internet. Các dịch vụ trực tuyến được bảo tồn cho tương lai nhưng bị vô hiệu hóa trong phiên bản này."
+        ],
+        [
+          "21.10.2026 · Ghi chú và khả năng di chuyển dữ liệu",
+          "Khả năng tương thích Android 7 của trình soạn thảo đã được sửa. Kiểm tra tính bền vững sau khi khởi động lại, nhúng hình ảnh, xuất và nhập thông thường giữa các bản cài đặt Android 7.1 và 7.0 bị cô lập. Trình chỉnh sửa hiện tại cũng đã được kiểm tra trên 16 KiB."
+        ],
+        [
+          "21.10.2026 · Kết quả, không phải tuyên bố sẵn sàng",
+          "Hồi quy hoàn toàn vào ngày 21 tháng 10: 6745 ĐẠT trong tổng số 6746 trường hợp, 1 THẤT BẠI đối với dự thảo văn bản pháp luật, 0 lỗi thực thi và 0 lỗi bị bỏ qua. Các bài kiểm tra mục tiêu sau này không được thêm vào số lượng này. Một số trình độ UI và kiểm tra điện thoại hiện tại vẫn còn."
+        ],
+        [
+          "21.10.2026 · Tài liệu và liên hệ",
+          "Trang web sử dụng các bản thảo tài liệu Ngoại tuyến V1 hiện tại bằng PL/EN/RU và các chi tiết về nhà xuất bản đã được xác nhận. Đây không phải là phê duyệt pháp lý cuối cùng hoặc một ấn phẩm của cửa hàng."
+        ]
+      ],
+      "actions": [
+        [
+          "Trạng thái phát hành",
+          "status.html"
+        ],
+        [
+          "Chi tiết nhà xuất bản",
+          "contact.html"
+        ]
+      ],
+      "note": "Các mục nhập ngày 21 tháng 10 năm 2026 giữ nguyên gói V1 ngoại tuyến miễn phí trước đó và phạm vi thử nghiệm giới hạn của gói này. Chúng không mô tả lời đề nghị phát hành hiện tại hoặc đủ điều kiện cho ứng viên hiện tại."
+    },
+    "contact": {
+      "label": "Liên hệ",
+      "title": "Hãy nói về KOVA.",
+      "intro": "Câu hỏi về ứng dụng, vấn đề hoặc quyền riêng tư? Viết thư cho liên hệ dưới đây. Theo dõi các kênh KOVA hiện có để biết tin tức ra mắt.",
+      "badge": "KOVA Development · thương hiệu dự án",
+      "cards": [
+        [
+          "Dự án và nhà xuất bản",
+          "KOVA: Money & Budget được phát triển dưới thương hiệu KOVA Development. Nhà xuất bản được xác nhận là Vadyslav Konohrai, một cá nhân ở Ba Lan. Thương hiệu không phải là lời tuyên bố của một công ty đã đăng ký riêng biệt."
+        ],
+        [
+          "Hỗ trợ và quyền riêng tư",
+          "contact@kovacompass.app là địa chỉ công khai cho các câu hỏi, vấn đề và vấn đề riêng tư. Liên kết sẽ mở ứng dụng email của bạn. Thư từ tách biệt với dữ liệu tài chính được lưu trữ trên điện thoại của bạn."
+        ],
+        [
+          "Mô tả một vấn đề",
+          "Bao gồm phiên bản ứng dụng, kiểu điện thoại, phiên bản Android và những gì đã xảy ra. Sử dụng số lượng ví dụ và xóa thông tin cá nhân khỏi ảnh chụp màn hình. Không đính kèm cơ sở dữ liệu đầy đủ hoặc mua mã thông báo."
+        ],
+        [
+          "Phát hành và sẵn có",
+          "Bản phát hành Android với đế miễn phí và Premium tùy chọn đang được chuẩn bị. Tải xuống và bán hàng công khai chưa có sẵn. Theo dõi Instagram để biết tin tức ra mắt; chúng tôi chưa công bố ngày phát hành."
+        ]
+      ],
+      "note": "Không bao giờ gửi mật khẩu, khóa mã hóa hoặc hồ sơ tài chính thực. Các tài liệu ứng dụng vẫn là bản nháp đang chờ phê duyệt cuối cùng.",
+      "actions": [
+        [
+          "Viết email",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Theo dõi Instagram",
+          "https://www.instagram.com/kova_money/"
+        ],
+        [
+          "Thông tin riêng tư",
+          "privacy.html"
+        ]
+      ]
+    },
+    "delete-account": {
+      "label": "Dữ liệu của bạn",
+      "title": "Xuất và xóa dữ liệu cục bộ.",
+      "intro": "Hồ sơ tài chính của bạn vẫn còn trên điện thoại của bạn; nó tách biệt với tài khoản hoặc đăng ký Google Play. Bạn kiểm soát các bản ghi cục bộ, sao lưu và xuất.",
+      "badge": "Không có tài khoản trực tuyến hoặc đồng bộ hóa",
+      "cards": [
+        [
+          "Lưu những gì bạn cần trước tiên",
+          "Trong cài đặt dữ liệu, hãy sử dụng tính năng xuất bản ghi được hỗ trợ được mã hóa thủ công và chọn đích đến. Giữ mật khẩu. Đây là bản xuất một phần, không phải bản sao của mọi cài đặt, khóa và tệp cài đặt."
+        ],
+        [
+          "Xóa dữ liệu cục bộ",
+          "Để xóa dữ liệu cho toàn bộ quá trình cài đặt, hãy mở Android cài đặt → Ứng dụng → KOVA → Bộ nhớ → Xóa dữ liệu hoặc gỡ cài đặt KOVA. Nhãn khác nhau tùy theo hệ thống. Nếu không có bản sao lưu hợp lệ thì điều này không thể đảo ngược được; nó có thể ảnh hưởng đến mọi cấu hình cục bộ trong quá trình cài đặt đó."
+        ],
+        [
+          "Các tập tin bên ngoài ứng dụng",
+          "Xóa riêng các bản sao đã xuất, ảnh gốc và tệp do các nhà cung cấp khác lưu giữ. Hình ảnh được nhúng trong ghi chú có thể được đưa vào khi xuất; URI bên ngoài chỉ là một tham chiếu. Nhà xuất bản không thể truy cập từ xa vào cơ sở dữ liệu cục bộ của bạn."
+        ],
+        [
+          "Lời nhắn gửi nhà xuất bản",
+          "Đối với dữ liệu được chia sẻ qua email, hãy liên hệ contact@kovacompass.app. Không đính kèm các bản sao lưu tài chính. Trang này không xóa dữ liệu cũng như không gửi yêu cầu tự động."
+        ],
+        [
+          "Một thuê bao là riêng biệt",
+          "Xóa dữ liệu ứng dụng hoặc gỡ cài đặt KOVA không hủy đăng ký Premium. Quản lý gia hạn trong Google Play. Khôi phục giao dịch mua không khôi phục hồ sơ tài chính và việc nhập bản sao lưu không cấp Premium."
+        ]
+      ],
+      "actions": [
+        [
+          "Liên hệ về dữ liệu",
+          "mailto:contact@kovacompass.app"
+        ],
+        [
+          "Chính sách bảo mật đầy đủ",
+          "privacy.html"
+        ]
+      ]
+    }
+  },
+  "consent": {
+    "kicker": "SỰ LỰA CHỌN CỦA BẠN",
+    "title": "Quyền riêng tư theo điều khoản của bạn",
+    "body": "Chúng tôi có thể đo lường việc sử dụng trang web bằng Google Analytics không? Nó giúp chúng tôi tìm hiểu những cuộc biểu tình và thông tin nào hữu ích. Google nhận được dữ liệu về lượt truy cập, thiết bị và tương tác cũng như số nhận dạng cookie — không phải dữ liệu tài chính từ ứng dụng.",
+    "note": "Phân tích là tùy chọn. Việc từ chối mang lại cho bạn quyền truy cập tương tự. Chúng tôi không kết nối với Google Analytics mà không có sự đồng ý.",
+    "accept": "Chấp nhận phân tích",
+    "reject": "Từ chối phân tích",
+    "settings": "Tùy chỉnh lựa chọn",
+    "save": "Lưu lựa chọn",
+    "essential": "Cài đặt cần thiết",
+    "essentialBody": "Ngôn ngữ và sự lựa chọn riêng tư của bạn. Luôn hoạt động.",
+    "analytics": "Google Analytics",
+    "analyticsBody": "Thống kê sử dụng lượt truy cập và trình bày. Không có quảng cáo hoặc cá nhân hóa quảng cáo.",
+    "privacy": "Quyền riêng tư",
+    "cookies": "Chi tiết cookie",
+    "foot": "Chúng tôi ghi nhớ sự lựa chọn của bạn trong 180 ngày. Thay đổi nó bất cứ lúc nào bằng cách sử dụng “Cài đặt cookie” ở chân trang."
+  },
+  "legal": {
+    "language": "Ngôn ngữ",
+    "back": "Trang chủ",
+    "source": "Nội dung được ứng dụng KOVA sử dụng",
+    "loading": "Đang tải tài liệu…",
+    "error": "Không thể tải tài liệu.",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "cookies": "Cookie",
+    "analyticsTitle": "Quyền riêng tư trên trang web này",
+    "analyticsCopy": "Trang web này không thể đọc cơ sở dữ liệu điện thoại của bạn. Google Analytics chỉ đo lường lượt truy cập và tương tác trang web khi có sự đồng ý của bạn. Việc từ chối sẽ giữ nguyên toàn bộ trang web. Thay đổi lựa chọn của bạn trong cài đặt Cookie; thông tin chi tiết về dịch vụ lưu trữ và nhà cung cấp vẫn cần được xác nhận trước khi triển khai công khai mới. Google Analytics 4: G-2LE3GWYDZM. contact@kovacompass.app."
+  },
+  "review": "Bản nháp cho bản phát hành KOVA đầu tiên theo kế hoạch: cơ sở miễn phí và Premium tùy chọn. Khớp với các tài liệu ứng dụng hiện tại ngày 24 tháng 10 năm 2026. Ngày có hiệu lực, phê duyệt cuối cùng cũng như thông tin chi tiết về người bán và dịch vụ còn lại đang chờ xử lý. Đây không phải là ưu đãi đăng ký đang hoạt động.",
+  "seo": {
+    "titles": {
+      "404": "Không tìm thấy trang — KOVA",
+      "index": "KOVA: Money & Budget — Android tài chính, Miễn phí + Premium",
+      "status": "KOVA dành cho Android — Trạng thái và tính khả dụng của ứng dụng",
+      "roadmap": "KOVA — Lộ trình phát hành miễn phí và Premium Android",
+      "updates": "KOVA — Cập nhật tin tức và phát triển ứng dụng tài chính",
+      "security": "KOVA — Dữ liệu tài chính địa phương, quyền riêng tư & Premium",
+      "contact": "Liên hệ KOVA — Hỗ trợ ứng dụng & Câu hỏi",
+      "delete-account": "KOVA — Xóa dữ liệu và hồ sơ cục bộ",
+      "privacy": "KOVA Chính sách quyền riêng tư — Ứng dụng và trang web",
+      "terms": "Điều khoản KOVA Free & Premium — Bản nháp",
+      "cookies": "KOVA — Tính năng phân tích đã tắt."
+    },
+    "descriptions": {
+      "404": "Trang KOVA này không tồn tại. Quay lại phần tổng quan, cập nhật hoặc liên hệ của ứng dụng.",
+      "index": "Lập kế hoạch chi tiêu, ngân sách và thu nhập công việc với KOVA cho Android. Dữ liệu tài chính địa phương, cơ sở miễn phí và Premium tùy chọn. Bản phát hành công khai đầu tiên đang được chuẩn bị.",
+      "status": "KOVA dành cho Android đang chuẩn bị bản phát hành đầu tiên với đế miễn phí và Premium tùy chọn. Xem phạm vi, tiến độ và các kênh khởi chạy. Tải xuống chưa có sẵn.",
+      "roadmap": "Thực hiện theo quá trình chuẩn bị phát hành Android của KOVA: cơ sở cục bộ miễn phí, Premium tùy chọn, kiểm tra lần cuối và Google Play. Không có ngày ra mắt chưa được xác nhận.",
+      "updates": "Cập nhật dự án KOVA: tài chính Android ngoại tuyến, màn hình ứng dụng xác thực, xuất dữ liệu và tiến tới bản phát hành công khai đầu tiên.",
+      "security": "Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Tìm hiểu cách KOVA phân tách mã hóa cục bộ, giao dịch mua Google Play tùy chọn và phân tích trang web dựa trên sự đồng ý.",
+      "contact": "Liên hệ KOVA theo số contact@kovacompass.app nếu có câu hỏi về ứng dụng, báo cáo sự cố và yêu cầu về quyền riêng tư. Vui lòng không gửi dữ liệu tài chính.",
+      "delete-account": "Quản lý và xóa dữ liệu, hồ sơ và xuất KOVA cục bộ. Việc gia hạn Premium được quản lý riêng trong Google Play; gỡ cài đặt không hủy nó.",
+      "privacy": "Chính sách bảo mật dự thảo KOVA: dữ liệu ứng dụng cục bộ, xuất, liên hệ và phân tích trang web tùy chọn. Cần có sự phê duyệt trước khi xuất bản.",
+      "terms": "Các điều khoản dự thảo của KOVA Free và Premium: tính năng cục bộ, đăng ký tùy chọn, mua và khôi phục Google Play, sao lưu và giới hạn ước tính.",
+      "cookies": "KOVA: Trang web không chạy Google Analytics hoặc cookie phân tích, ngay cả khi bạn đã đồng ý trước đó."
+    }
+  },
+  "extra": {
+    "demo": "dữ liệu demo hư cấu",
+    "enlarge": "Phóng to",
+    "contents": "Nội dung",
+    "publicAddress": "Địa chỉ EN công khai:",
+    "language": "Ngôn ngữ trang web",
+    "pendingDecision": "Đang chờ xác nhận của chủ sở hữu trước khi xuất bản"
+  },
+  "cookies": "<section data-doc-lang=\"vi\" data-document-title=\"Cookies — KOVA\" hidden><div class=\"document-hero\"><p class=\"workspace-kicker\">Cookies</p><h1>Tính năng phân tích đã tắt.</h1><p>Trang web không chạy Google Analytics hoặc cookie phân tích, ngay cả khi bạn đã đồng ý trước đó.</p><div class=\"document-meta\"><span class=\"document-chip\">2026-10-26</span></div></div><div class=\"document-grid-main\"><article class=\"document-card\"><h2>Cookies</h2><p>Chúng tôi ghi nhớ ngôn ngữ bạn chọn. Cookie kỹ thuật cũng có thể ghi nhớ rằng tính năng phân tích đã tắt.</p><p><code>kova_site_language</code>, <code>localStorage</code>, <code>kova_cookie_consent_v2</code></p></article><article class=\"document-card\"><h2>Google Analytics</h2><p>Cookie phân tích cũ được xóa vào lần truy cập tiếp theo. Việc này không xóa dữ liệu đã gửi cho Google.</p><p><code>_ga</code>, <code>_ga_2LE3GWYDZM</code>, <code>kova_analytics_*</code></p></article><article class=\"document-card wide\"><h2>KOVA</h2><p><a href=\"privacy.html?lang=vi\" data-shell-label=\"privacy\">Chính sách bảo mật</a></p><p><a href=\"mailto:contact@kovacompass.app\">contact@kovacompass.app</a></p></article></div></section>"
+}

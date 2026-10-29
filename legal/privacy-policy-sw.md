@@ -29,7 +29,9 @@ Orodha za vichujio vya utafutaji wa sarafu na lugha kwenye kifaa chako; hoja hiz
 
 ## 3. Fedha za ndani na ununuzi wa hiari
 
-Msingi wa Free huhifadhi rekodi za kifedha ndani ya nchi na hauhitaji akaunti ya wingu ya KOVA. Mmiliki aliidhinisha kifurushi cha kipengele cha Premium: ​​ripoti za kina za ndani/ulinganisho, utabiri na uchanganuzi wa mapato ya kazi. Mahesabu yanahitaji rekodi zinazofaa za kutosha. Nunua, urejeshe na upate kuburudisha tumia Google Play na muunganisho; akaunti ya Google Play si wasifu wa kifedha wa KOVA. Uthibitishaji wa Firebase, kuingia kwa Google ndani ya KOVA, usawazishaji wa wingu wa fedha, Hifadhi ya Wingu/Kazi, utangazaji, Analytics/Crashlytics, push, Remote Config, Wear, Kushiriki kwa Familia mtandaoni, API za soko/benki na AI/Command Layer bado zimelemazwa.
+Usajili wa hiari wa zana za kina za ndani. Fedha za kila siku, rekodi zako na chelezo husalia bila malipo. Hakuna akaunti ya KOVA inayohitajika. Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Baadhi ya zana zinahitaji historia ya kutosha ya fedha. Mahesabu ya kodi yanahusu nchi na miaka ya kodi inayotumika pekee. Premium haiongezi usawazishaji wa wingu.
+
+KOVA · 2026-10-29 · DRAFT
 
 MGOMBEA WA SASA — HAJAIDHIWA KWA MAUZO KWA UMMA: mmiliki alichagua uthibitishaji wa client-only, bila seva ya uthibitishaji ya KOVA. KOVA inawasiliana na programu ya Google Play kupitia kiolesura cha malipo cha Android. Toleo linaondoa ruhusa ya INTERNET ya KOVA; Google Play hutumia mtandao wake na usindikaji wa akaunti/malipo. KOVA inaona upatikanaji wa muunganisho, ambao hauthibitishi kuwa ununuzi wa Play ulioakibishwa ni wa sasa. Hili si dai kwamba simu nzima iko nje ya mtandao.
 

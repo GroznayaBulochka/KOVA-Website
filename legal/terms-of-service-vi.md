@@ -1,6 +1,6 @@
 # Điều khoản KOVA — LOCAL FREEMIUM V1 — DRAFT
 
-Sửa đổi tài liệu: 2026-10-24. Đã cập nhật: 24 Tháng 10 2026. Nhà xuất bản: Vadyslav Konohrai, cá nhân, Ba Lan. Liên hệ hỗ trợ/khiếu nại: contact@kovacompass.app.
+Sửa đổi tài liệu: 2026-10-27. Đã cập nhật: 27 Tháng 10 2026. Nhà xuất bản: Vadyslav Konohrai, cá nhân, Ba Lan. Liên hệ hỗ trợ/khiếu nại: contact@kovacompass.app.
 
 Trạng thái: DRAFT — đang chờ phê duyệt lần cuối sau khi hoàn thành các dữ kiện được xác định. Ngày soạn thảo không phải là chữ ký điện tử, bằng chứng về việc xuất bản hoặc áp dụng hồi tố các điều khoản mới. Ngày có hiệu lực sau khi được phê duyệt và tiết lộ cho người dùng: [OWNER_INPUT_REQUIRED].
 
@@ -14,11 +14,15 @@ KOVA là phiên bản beta: một số phần vẫn đang được tinh chỉnh 
 
 Hỗ trợ một lần tùy chọn (Coffee hoặc Boost; kova_donation_coffee / kova_donation_boost) tách biệt với Premium, thanh toán qua Google Play và không tự động gia hạn. Nó không cấp quyền truy cập, huy hiệu, dịch vụ ưu tiên hoặc lời hứa về các tính năng trong tương lai cho Pro và không được thể hiện dưới dạng quyên góp từ thiện. Giá địa phương thực tế phải có sẵn trên Play và được xác nhận rõ ràng trước khi tính phí. Một khoản thanh toán đang chờ xử lý không phải là hỗ trợ hoàn thành. Các khoản thanh toán chưa hoàn thành sẽ được kiểm tra lại khi quay lại ứng dụng; một khoản đóng góp đã hoàn thành không phải là một quyền lợi có thể phục hồi được. Không cần thanh toán lần thứ hai để giải quyết khoản thanh toán đầu tiên chưa hoàn thành. Các quyền theo luật định và các quy tắc hoàn tiền hiện hành của Play vẫn không thay đổi. Bán hàng hỗ trợ công cộng vẫn yêu cầu sản phẩm và trình độ chuyên môn thực tế của Play-flow.
 
-Các thuật ngữ DRAFT này mô tả KOVA_PHONE_LOCAL_FREEMIUM_V1, com.kova.budget dành cho điện thoại Android. Ghi âm hàng ngày, truy cập vào hồ sơ của bạn, báo cáo cơ bản, mã hóa cục bộ, sao lưu/khôi phục thủ công, xuất và xóa dữ liệu di động là Free. Không cần đăng ký KOVA. Chủ sở hữu đã phê duyệt Premium cho các báo cáo/so sánh, dự báo và phân tích thu nhập công việc nâng cao. Tính toán chạy cục bộ và yêu cầu đủ dữ liệu liên quan. Không bao gồm quảng cáo, đồng bộ hóa đám mây tài chính, API ngân hàng/thị trường, Wear, Chia sẻ gia đình trực tuyến hoặc Lớp AI/Lệnh.
+KOVA_PHONE_LOCAL_FREEMIUM_V1 · com.kova.budget
 
-BÁN HÀNG CÔNG CỘNG CHƯA ĐẠT ĐIỀU KIỆN. Cấu hình đăng ký là kova_pro_subscription với các gói cơ bản monthly/yearly. Thử nghiệm giấy phép Google Play có giới hạn bao gồm danh mục và giao dịch mua hàng tháng; nó không đủ điều kiện cho tất cả các sự kiện bán hàng, quốc gia hoặc đăng ký. Khi mua, Google Play cung cấp giá, loại tiền tệ và thời hạn thanh toán thực tế tại địa phương. Các gói hàng tháng và hàng năm có cùng lợi ích và tự động gia hạn với một khoản phí khác vào đầu kỳ tiếp theo trừ khi gia hạn bị hủy. Giá hàng năm là phí hàng năm, không phải phí hàng tháng. Không bao gồm giảm giá dùng thử hoặc giới thiệu. Cần có xác nhận rõ ràng trong Play; việc khởi chạy cửa sổ thanh toán hoặc thanh toán đang chờ xử lý sẽ không cấp Premium. Khi cửa hàng không thể cung cấp ưu đãi hợp lệ, việc mua hàng sẽ không khả dụng và đế Free vẫn có sẵn.
+Lập kế hoạch cuộc sống · Pro. Lịch sử giá · Pro. Vault · Pro. Premium gồm công việc và thu nhập, lịch tài chính, mọi báo cáo, quét hóa đơn và trung tâm thuế. Ghi chép cơ bản, ghi chú, mã hóa, sao lưu, khôi phục và xuất dữ liệu vẫn miễn phí. Một số công cụ cần đủ lịch sử tài chính. Tính thuế chỉ áp dụng cho quốc gia và năm thuế được hỗ trợ. Premium không thêm đồng bộ đám mây.
 
-Premium không tạo bản ghi bị thiếu. Trong phiên bản này, các báo cáo nâng cao yêu cầu ít nhất 60 ngày lịch sử, giao dịch 75, 20 ngày có giao dịch và ngân sách hoặc mục tiêu; dự báo yêu cầu số ngày lịch sử 90, số giao dịch 100, số tháng dữ liệu 3 và tín hiệu thu nhập thường xuyên hoặc thanh toán định kỳ. Phân tích công việc yêu cầu hồ sơ công việc có liên quan. Đây là những điều kiện sẵn có để tính toán, không phải là sự đảm bảo về độ chính xác hoặc hiệu quả đầu tư. OCR, quyền truy cập cơ bản vào hồ sơ và sao lưu/xuất thông thường không yêu cầu Premium.
+kova_pro_subscription · monthly / yearly
+
+Thời gian dùng thử chỉ bắt đầu sau khi bạn xác nhận mua ưu đãi đủ điều kiện trong Google Play. Miễn phí 30 ngày, sau đó giá Google Play hiển thị trước khi mua (Thanh toán hàng tháng / Thanh toán mỗi năm một lần). Tự động gia hạn nếu không hủy trước khi hết dùng thử. Google Play xác định điều kiện áp dụng.
+
+Dữ liệu đã lưu vẫn truy cập được. Thao tác mới trong mô-đun này cần Premium. Sao lưu và xuất dữ liệu vẫn miễn phí.
 
 Hủy gia hạn hoặc quản lý gói thông qua Cài đặt → Premium → Quản lý đăng ký hoặc Google Play. Việc gỡ cài đặt KOVA hoặc xóa dữ liệu tài chính sẽ không hủy đăng ký. Việc hủy bỏ không loại bỏ thời hạn thanh toán còn lại; đình chỉ và mất quyền có thể hạn chế các hoạt động nâng cao mới. Việc hoàn tiền được xử lý theo luật hiện hành và các chính sách hiện hành của Play; biện pháp khắc phục theo luật định không phụ thuộc vào sự chấp thuận tùy ý của cửa hàng. Dự thảo này không từ bỏ chúng hoặc suy ra việc thu hồi mọi khoản hoàn trả.
 

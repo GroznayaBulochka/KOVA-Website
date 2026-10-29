@@ -1,0 +1,27 @@
+{
+  "status": "PASS_CURRENT_SOURCE54_WEBSITE_STATIC_BUILD_AND32_CHECK_GROUPS",
+  "startedAt": "2026-10-29T08:37:50.635Z",
+  "finishedAt": "2026-10-29T08:38:07.650Z",
+  "stages": [
+    {
+      "script": "scripts/assemble-locales.mjs",
+      "exitCode": 0
+    },
+    {
+      "script": "scripts/build-site.mjs",
+      "exitCode": 0
+    },
+    {
+      "script": "qa/run-checks.mjs",
+      "exitCode": 0
+    }
+  ],
+  "buildVersion": "71d1eae9a6dcb8497c90",
+  "publicFiles": 431,
+  "englishAppScreens": 9,
+  "localizedWebsiteLanguages": 27,
+  "legalDrafts": 54,
+  "publication": false,
+  "sourceEvidence": "qa/artifacts/presentation-2026-10-29-source54/provenance.json",
+  "scope": "Current website build/static contracts. Browser results and Android screenshot assertions are separate; not app release or legal approval."
+}

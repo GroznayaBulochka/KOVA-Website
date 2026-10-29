@@ -1,6 +1,6 @@
 # KOVA Koşulları — YEREL FREEMIUM V1 — DRAFT
 
-Belge revizyonu: 2026-10-24. Güncellendi: 24 Ekim 2026. Yayıncı: Vadyslav Konohrai, özel şahıs, Polonya. Destek/şikayetler için iletişim adresi: contact@kovacompass.app.
+Belge revizyonu: 2026-10-27. Güncellendi: 27 Ekim 2026. Yayıncı: Vadyslav Konohrai, özel şahıs, Polonya. Destek/şikayetler için iletişim adresi: contact@kovacompass.app.
 
 Durum: DRAFT — belirlenen gerçekler tamamlandıktan sonra nihai onay bekleniyor. Hazırlanma tarihi bir elektronik imza, yayınlanma kanıtı veya yeni şartların geriye dönük uygulanması değildir. Onay ve kullanıcılara açıklanmayı takip eden geçerlilik tarihi: [OWNER_INPUT_REQUIRED].
 
@@ -14,11 +14,15 @@ KOVA bir beta sürümdür: bazı parçalar hâlâ geliştirilmektedir ve hatalar
 
 İsteğe bağlı tek seferlik destek (Coffee veya Boost; kova_donation_coffee / kova_donation_boost), Premium'den ayrıdır, ödemesi Google Play aracılığıyla yapılır ve otomatik olarak yenilenmez. Hiçbir Pro erişimi, rozeti, öncelikli hizmet veya gelecekteki özelliklerle ilgili söz vermez ve hayır amaçlı bir bağış olarak temsil edilmez. Gerçek yerelleştirilmiş fiyat Play'de bulunmalı ve ücret alınmadan önce açıkça onaylanmalıdır. Bekleyen bir ödeme tamamlanmamış destektir. Tamamlanmayan ödemeler uygulamaya döndüğünüzde tekrar kontrol edilir; Tamamlanmış bir katkı, geri ödenebilir bir hak değildir. Tamamlanmamış bir ilk ödemeyi çözmek için ikinci bir ödeme yapılmasına gerek yoktur. Yasal haklar ve geçerli Play geri ödeme kuralları değişmeden kalır. Kamu desteği satışları hâlâ ürün ve gerçek Oyun akışı yeterliliğini gerektiriyor.
 
-Bu DRAFT terimleri, Android telefonlar için KOVA_PHONE_LOCAL_FREEMIUM_V1, com.kova.budget'yi tanımlar. Günlük kayıt, kayıtlarınıza erişim, temel raporlar, yerel şifreleme, manuel yedekleme/geri yükleme, taşınabilir veri aktarımı ve silme Free'dir. KOVA kaydı gerekli değildir. Sahibi, gelişmiş raporlar/karşılaştırmalar, tahminler ve iş-gelir analitiği için Premium'yi onayladı. Hesaplamalar yerel olarak yapılır ve yeterli miktarda ilgili veri gerektirir. Hiçbir reklam, finansal bulut senkronizasyonu, banka/piyasa API'leri, Wear, çevrimiçi Aile Paylaşımı veya AI/Komut Katmanı dahil değildir.
+KOVA_PHONE_LOCAL_FREEMIUM_V1 · com.kova.budget
 
-KAMU SATIŞLARI HENÜZ KALİFİYE DEĞİLDİR. Abonelik yapılandırması, monthly/yearly temel planlarına sahip kova_pro_subscription'dir. Sınırlı bir Google Play lisans testi, kataloğu ve aylık satın alma işlemini kapsıyordu; tüm satışları, ülkeleri veya abonelik etkinliklerini kapsamaz. Satın alma sırasında Google Play, gerçek yerelleştirilmiş fiyatı, para birimini ve fatura dönemini sağlar. Aylık ve yıllık planlar aynı avantajlara sahiptir ve yenileme iptal edilmediği sürece bir sonraki dönemin başında başka bir ücretlendirmeyle otomatik olarak yenilenir. Yıllık fiyat aylık ücret değil, yıllık ücrettir. Deneme veya tanıtım indirimi dahil değildir. Play'de açık onay gereklidir; ödeme penceresini başlatmak veya bekleyen bir ödeme Premium'yi sağlamaz. Mağaza geçerli bir teklif sunamadığında satın alma işlemi yapılamaz ve Free tabanı kullanılabilir durumda kalır.
+Yaşam Planlayıcı · Pro. Fiyat Geçmişi · Pro. Vault · Pro. Premium; iş ve gelir, finans takvimi, tüm raporlar, fiş tarama ve vergi merkezini içerir. Temel kayıtlar, notlar, şifreleme, yedekleme, geri yükleme ve veri dışa aktarımı ücretsizdir. Bazı araçlar yeterli finansal geçmiş gerektirir. Vergi hesapları yalnızca desteklenen ülke ve vergi yıllarını kapsar. Premium bulut eşitlemesi sağlamaz.
 
-Premium eksik kayıtlar oluşturmaz. Bu sürümde, gelişmiş raporlar en az 60 günlük geçmiş, 75 işlemleri, işlemlerle birlikte 20 günleri ve bir bütçe veya hedef gerektirir; tahminler, 90 günlük geçmişi, 100 işlemlerini, 3 aylık verileri ve düzenli gelir veya yinelenen ödeme sinyalini gerektirir. İş analitiği ilgili iş kayıtlarını gerektirir. Bunlar hesaplamanın kullanılabilirlik koşullarıdır; doğruluk veya yatırım performansı garantisi değildir. OCR, kayıtlara temel erişim ve sıradan yedekleme/dışa aktarma, Premium gerektirmez.
+kova_pro_subscription · monthly / yearly
+
+Deneme yalnızca Google Play’de uygun olduğunuz teklifin satın alımını onayladıktan sonra başlar. 30 gün ücretsiz, ardından satın almadan önce Google Play’de gösterilen fiyat (Her ay faturalandırılır / Yılda bir kez faturalandırılır). Deneme bitmeden iptal edilmezse otomatik yenilenir. Uygunluğu Google Play belirler.
+
+Kayıtlı veriler erişilebilir kalır. Bu modülde yeni işlemler Premium gerektirir. Yedekleme ve dışa aktarma ücretsizdir.
 
 Ayarlar → Premium → Aboneliği yönet veya Google Play aracılığıyla yenilemeyi iptal edin veya bir planı yönetin. KOVA'nin kaldırılması veya mali verilerin silinmesi aboneliği iptal etmez. İptal, kalan ödenmiş süreyi tek başına ortadan kaldırmaz; askıya almalar ve yetki kaybı, yeni gelişmiş operasyonları kısıtlayabilir. Geri ödemeler geçerli yasalara ve geçerli Play politikalarına uygun olarak gerçekleştirilir; yasal çözümler mağazanın takdirine bağlı onayına bağlı değildir. Bu taslak bunlardan feragat anlamına gelmez veya her geri ödemenin iptal edildiği anlamına gelmez.
 

@@ -1,0 +1,10 @@
+{
+  "atUtc": "2026-10-29T08:37:49.163Z",
+  "status": "PASS_CODE_NATIVE_HTML_RENDER",
+  "width": 1200,
+  "height": 630,
+  "sourceAppScreenshot": "qa/artifacts/presentation-2026-10-29-source54/provenance.json",
+  "sourceAppPixelsNotRetouched": true,
+  "outputSha256": "2f08260689af4b9e8267aad205bfdeaa73cbfff65f3451af98f669837458b4ed",
+  "published": false
+}

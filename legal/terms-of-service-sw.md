@@ -1,6 +1,6 @@
 # Masharti # KOVA — LOCAL FREEMIUM V1 — DRAFT
 
-Marekebisho ya hati: 2026-10-24. Ilisasishwa: 24 Oktoba 2026. Mchapishaji: Vadyslav Konohrai, mtu binafsi, Poland. Mawasiliano ya usaidizi/malalamiko: contact@kovacompass.app.
+Marekebisho ya hati: 2026-10-27. Ilisasishwa: 27 Oktoba 2026. Mchapishaji: Vadyslav Konohrai, mtu binafsi, Poland. Mawasiliano ya usaidizi/malalamiko: contact@kovacompass.app.
 
 Hali: DRAFT — inangoja idhini ya mwisho mara mambo yaliyotambuliwa yatakapokamilika. Tarehe ya maandalizi si sahihi ya kielektroniki, ushahidi wa uchapishaji au utumiaji wa masharti mapya. Tarehe ya kutekelezwa kufuatia idhini na ufichuzi kwa watumiaji: [OWNER_INPUT_REQUIRED].
 
@@ -14,11 +14,15 @@ KOVA ni toleo la beta: baadhi ya sehemu bado zinaboreshwa na hitilafu zinaweza k
 
 Usaidizi wa hiari wa mara moja (Coffee au Boost; kova_donation_coffee / kova_donation_boost) ni tofauti na Premium, unaolipwa kupitia Google Play, na haujisasishi kiotomatiki. Haitoi ufikiaji wa Pro, beji, huduma ya kipaumbele au ahadi ya vipengele vya siku zijazo na haiwakilishwi kama mchango wa hisani. Bei halisi iliyojanibishwa lazima ipatikane kutoka Google Play na ithibitishwe wazi kabla ya kutoza. Usaidizi unaosubiri haujakamilika. Malipo ambayo hayajakamilika yanakaguliwa tena wakati wa kurudi kwa programu; mchango uliokamilika sio haki inayoweza kurejeshwa. Hakuna malipo ya pili yanayohitajika ili kutatua malipo ya kwanza ambayo hayajakamilika. Haki za kisheria na sheria zinazotumika za kurejesha pesa kwenye Google Play bado hazijabadilika. Uuzaji wa usaidizi wa umma bado unahitaji bidhaa na sifa halisi za mtiririko wa Play.
 
-Istilahi hizi za DRAFT zinafafanua KOVA_PHONE_LOCAL_FREEMIUM_V1, com.kova.budget kwa simu za Android. Kurekodi kila siku, ufikiaji wa rekodi zako, ripoti za msingi, usimbaji fiche wa ndani, kuhifadhi nakala/kurejesha mwenyewe, usafirishaji wa data unaobebeka na ufutaji ni Free. Hakuna usajili wa KOVA unaohitajika. Mmiliki aliidhinisha Premium kwa ripoti za kina/ulinganisho, utabiri na uchanganuzi wa mapato ya kazi. Hesabu huendeshwa ndani ya nchi na zinahitaji data muhimu ya kutosha. Hakuna matangazo, usawazishaji wa wingu wa kifedha, API za benki/soko, Wear, Kushiriki kwa Familia mtandaoni au AI/Tabaka la Amri zimejumuishwa.
+KOVA_PHONE_LOCAL_FREEMIUM_V1 · com.kova.budget
 
-MAUZO KWA UMMA BADO HAYAJAFANIKIWA. Usanidi wa usajili ni kova_pro_subscription na mipango ya msingi ya monthly/yearly. Mtihani mdogo wa leseni ya Google Play ulishughulikia katalogi na ununuzi wa kila mwezi; haistahiki mauzo yote, nchi au matukio ya usajili. Wakati wa ununuzi, Google Play hutoa bei halisi iliyojanibishwa, sarafu na kipindi cha bili. Mipango ya kila mwezi na ya kila mwaka ina manufaa sawa na husasishwa kiotomatiki kwa malipo mengine mwanzoni mwa kipindi kijacho isipokuwa usasishaji umeghairiwa. Bei ya kila mwaka ni malipo ya kila mwaka, sio malipo ya kila mwezi. Hakuna jaribio au punguzo la utangulizi lililojumuishwa. Uthibitishaji dhahiri katika Google Play unahitajika; kuzindua dirisha la malipo au malipo yanayosubiri haitoi Premium. Wakati duka haliwezi kutoa ofa halali, ununuzi haupatikani na msingi wa Free unaendelea kupatikana.
+Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Baadhi ya zana zinahitaji historia ya kutosha ya fedha. Mahesabu ya kodi yanahusu nchi na miaka ya kodi inayotumika pekee. Premium haiongezi usawazishaji wa wingu.
 
-Premium haiundi rekodi zinazokosekana. Katika toleo hili, ripoti za kina zinahitaji angalau siku za historia za 60, miamala ya 75, siku za 20 zenye miamala na bajeti au lengo; utabiri unahitaji siku za historia za 90, miamala ya 100, miezi ya 3 ya data na ishara ya mapato ya kawaida au malipo ya mara kwa mara. Uchanganuzi wa kazi unahitaji rekodi za kazi husika. Haya ni masharti ya kukokotoa upatikanaji, si hakikisho la usahihi au utendaji wa uwekezaji. OCR, ufikiaji msingi wa rekodi na chelezo/usafirishaji wa kawaida hauhitaji Premium.
+kova_pro_subscription · monthly / yearly
+
+Jaribio huanza tu baada ya kuthibitisha ununuzi wa ofa unayostahiki katika Google Play. Siku 30 bure, kisha bei iliyoonyeshwa na Google Play kabla ya kununua (Hutozwa kila mwezi / Hutozwa mara moja kwa mwaka). Husasishwa kiotomatiki isipokuwa ughairi kabla ya jaribio kuisha. Google Play huamua ustahiki.
+
+Data iliyohifadhiwa hubaki kupatikana. Operesheni mpya katika moduli hii zinahitaji Premium. Nakala rudufu na uhamishaji hubaki bure.
 
 Ghairi kusasisha au kudhibiti mpango kupitia Mipangilio → Premium → Dhibiti usajili, au Google Play. Kuondoa KOVA au kufuta data ya fedha hakughairi usajili. Kughairi yenyewe hakuondoi kipindi kilichobaki cha kulipwa; kusimamishwa na kupoteza haki kunaweza kuzuia shughuli mpya za juu. Urejeshaji fedha hushughulikiwa chini ya sheria inayotumika na sera zinazotumika za Google Play; suluhu za kisheria hazitegemei idhini ya hiari ya duka. Rasimu hii haiwaachii au kughairi ubatilishaji wa kila urejeshaji wa pesa.
 

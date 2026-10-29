@@ -1,6 +1,6 @@
 # Syarat KOVA — FREEMIUM TEMPATAN V1 — DRAFT
 
-Semakan dokumen: 2026-10-24. Dikemas kini: 24 Oktober 2026. Penerbit: Vadyslav Konohrai, individu persendirian, Poland. Hubungi sokongan/aduan: contact@kovacompass.app.
+Semakan dokumen: 2026-10-27. Dikemas kini: 27 Oktober 2026. Penerbit: Vadyslav Konohrai, individu persendirian, Poland. Hubungi sokongan/aduan: contact@kovacompass.app.
 
 Status: DRAFT — menunggu kelulusan akhir sebaik sahaja fakta yang dikenal pasti selesai. Tarikh penyediaan bukan tandatangan elektronik, bukti penerbitan atau penggunaan retroaktif bagi terma baharu. Tarikh kuat kuasa berikutan kelulusan dan pendedahan kepada pengguna: [OWNER_INPUT_REQUIRED].
 
@@ -14,11 +14,15 @@ KOVA ialah versi beta: beberapa bahagian masih diperhalusi dan ralat mungkin ber
 
 Sokongan satu kali pilihan (Coffee atau Boost; kova_donation_coffee / kova_donation_boost) adalah berasingan daripada Premium, dibayar melalui Google Play, dan tidak diperbaharui secara automatik. Ia tidak memberikan Pro akses, lencana, perkhidmatan keutamaan atau janji ciri masa depan dan tidak diwakili sebagai derma amal. Harga setempat sebenar mesti tersedia daripada Play dan disahkan secara jelas sebelum dicaj. Pembayaran yang belum selesai adalah sokongan yang belum selesai. Pembayaran yang belum selesai disemak semula apabila kembali ke apl; sumbangan yang telah lengkap bukanlah hak yang boleh dipulihkan. Tiada bayaran kedua diperlukan untuk menyelesaikan pembayaran pertama yang belum selesai. Hak berkanun dan peraturan bayaran balik Play yang berkenaan kekal tidak berubah. Jualan sokongan awam masih memerlukan produk dan kelayakan Play-flow sebenar.
 
-Istilah DRAFT ini menerangkan KOVA_PHONE_LOCAL_FREEMIUM_V1, com.kova.budget untuk telefon Android. Rakaman harian, akses kepada rekod anda, laporan asas, penyulitan tempatan, sandaran/pemulihan manual, eksport dan pemadaman data mudah alih adalah Free. Tiada pendaftaran KOVA diperlukan. Pemilik meluluskan Premium untuk laporan/perbandingan lanjutan, ramalan dan analisis pendapatan kerja. Pengiraan dijalankan secara tempatan dan memerlukan data berkaitan yang mencukupi. Tiada iklan, penyegerakan awan kewangan, API bank/pasaran, Wear, Perkongsian Keluarga dalam talian atau AI/Lapisan Perintah disertakan.
+KOVA_PHONE_LOCAL_FREEMIUM_V1 · com.kova.budget
 
-JUALAN AWAM BELUM LAYAK. Konfigurasi langganan ialah kova_pro_subscription dengan pelan asas monthly/yearly. Ujian lesen Google Play terhad meliputi katalog dan pembelian bulanan; ia tidak melayakkan semua jualan, negara atau acara langganan. Semasa pembelian, Google Play menyediakan harga setempat, mata wang dan tempoh pengebilan sebenar. Pelan bulanan dan tahunan mempunyai faedah yang sama dan diperbaharui secara automatik dengan caj lain pada permulaan tempoh seterusnya melainkan pembaharuan dibatalkan. Harga tahunan adalah caj tahunan, bukan caj bulanan. Tiada diskaun percubaan atau pengenalan disertakan. Pengesahan eksplisit dalam Play diperlukan; melancarkan tetingkap pembayaran atau pembayaran yang belum selesai tidak memberikan Premium. Apabila kedai tidak dapat memberikan tawaran yang sah, pembelian tidak tersedia dan pangkalan Free kekal tersedia.
+Perancang Kehidupan · Pro. Sejarah Harga · Pro. Vault · Pro. Premium merangkumi kerja dan pendapatan, kalendar kewangan, semua laporan, imbasan resit dan pusat cukai. Rekod asas, nota, penyulitan, sandaran, pemulihan dan eksport data kekal percuma. Sesetengah alat memerlukan sejarah kewangan yang mencukupi. Pengiraan cukai hanya meliputi negara dan tahun cukai yang disokong. Premium tidak menambah penyegerakan awan.
 
-Premium tidak mencipta rekod yang hilang. Dalam versi ini, laporan lanjutan memerlukan sekurang-kurangnya 60 hari sejarah, transaksi 75, 20 hari dengan transaksi dan belanjawan atau matlamat; ramalan memerlukan 90 hari sejarah, transaksi 100, 3 bulan data dan isyarat pendapatan tetap atau pembayaran berulang. Analitik kerja memerlukan rekod kerja yang berkaitan. Ini adalah syarat ketersediaan pengiraan, bukan jaminan ketepatan atau prestasi pelaburan. OCR, akses asas kepada rekod dan sandaran/eksport biasa tidak memerlukan Premium.
+kova_pro_subscription · monthly / yearly
+
+Percubaan hanya bermula selepas anda mengesahkan pembelian tawaran yang layak dalam Google Play. 30 hari percuma, kemudian harga yang dipaparkan oleh Google Play sebelum pembelian (Dibilkan setiap bulan / Dibilkan sekali setahun). Diperbaharui secara automatik kecuali dibatalkan sebelum percubaan tamat. Kelayakan ditentukan oleh Google Play.
+
+Data tersimpan kekal boleh diakses. Operasi baharu dalam modul ini memerlukan Premium. Sandaran dan eksport kekal percuma.
 
 Batalkan pembaharuan atau urus pelan melalui Tetapan → Premium → Urus langganan, atau Google Play. Menyahpasang KOVA atau memadamkan data kewangan tidak membatalkan langganan. Pembatalan itu sendiri tidak mengeluarkan baki tempoh berbayar; penggantungan dan kehilangan kelayakan boleh menyekat operasi lanjutan baharu. Bayaran balik dikendalikan di bawah undang-undang yang terpakai dan dasar Play yang terpakai; remedi berkanun tidak bergantung pada kelulusan budi bicara kedai. Draf ini tidak mengetepikan mereka atau membuat kesimpulan pembatalan daripada setiap bayaran balik.
 

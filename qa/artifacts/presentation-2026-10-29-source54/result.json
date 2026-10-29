@@ -1,0 +1,31 @@
+{
+  "startedAtUtc": "2026-10-29T08:26:46.6753136Z",
+  "status": "PASS_ACTUAL_ENGLISH_UI_SYNTHETIC_ROOM_ORACLE_MOCK_PREMIUM",
+  "testSourceSha256": "7236ffde4653659c04ca32c8a50131b39fe5ec53e2a59b03c85bf824f9fdd0a7",
+  "testApkSha256": "28cb58008151361d26ccc40e2fb5ce5f3e85d71d60a286f7aa8eb3866c3c99c9",
+  "runtime": {
+    "serial": "emulator-5580",
+    "airplaneMode": 1,
+    "language": "en",
+    "pageSize": 16384,
+    "avd": "KovaLocalFreemium16k_20261024",
+    "captureFontScale": 1.0,
+    "defaultNetwork": "none",
+    "restoredFontScale": "1.0",
+    "theme": "DARK",
+    "api": 37,
+    "resolution": "Physical size: 1080x2400"
+  },
+  "ownerBinding": "New UUID local Hilt owner; no installed guest profile data replaced",
+  "premium": "INSTRUMENTATION_ONLY_MOCK_NOT_PLAY",
+  "targetApkSha256": "5760ad5cb9b5b8da0b903fdc4b7b1cdae8b06bc6b2222fc2502f5530fc1e0ef7",
+  "finishedAtUtc": "2026-10-29T08:31:28.9971505Z",
+  "physicalPhoneCommands": 0,
+  "source54ShippingSha256": "d8c3d6e53e4d8fa67414de90d1643bdaf63f692a6d85905eb7af4bedf7fc3036",
+  "shippingChanged": false,
+  "publication": false,
+  "scope": "Actual MainActivity and normal More navigation; real SQLCipher/Room fixture and independent balance/occurrence assertions; screenshot pixels unchanged; NOT public minified/Play/license/release qualification",
+  "failure": null,
+  "payments": 0,
+  "syntheticOnly": true
+}

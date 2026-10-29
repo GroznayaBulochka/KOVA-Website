@@ -1,5 +1,6 @@
 // Render an HTML/CSS brand card with an unchanged real demo screenshot.
 // No generated/fabricated app UI, no network, no image-generation service.
+throw new Error('Historical offline-only artwork generator retained for evidence; use qa/social-card.mjs for the current Freemium English capture.');
 import {spawn} from 'node:child_process';
 import {mkdtemp,readFile,writeFile,mkdir} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
