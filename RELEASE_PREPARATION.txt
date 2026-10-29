@@ -1,5 +1,5 @@
 KOVA: Money & Budget — current website preparation
-Updated: 24 October 2026. Contract: KOVA_PHONE_LOCAL_FREEMIUM_V1.
+Updated: 29 October 2026. Contract: KOVA_PHONE_LOCAL_FREEMIUM_V1.
 
 Publication/cache follow-up: see PUBLICATION_CHECK.txt. Builds now version all
 browser assets and expose a checksum manifest; the Pages workflow verifies the
@@ -10,20 +10,28 @@ KOVA Development is the project brand, not a claim of a registered company.
 Confirmed publisher: Vadyslav Konohrai, Poland. Public contact: contact@kovacompass.app.
 Source: ../KOVA-App/docs/release/OWNER_CONFIRMED_LEGAL_FACTS.json.
 Free local base plus optional KOVA Premium in the planned first Android release.
-Owner-approved Premium: advanced reports/comparisons, forecasts, work-income analytics.
-Price is supplied by Play when qualified; no fixed public price, trial or discount invented.
+Owner-approved Pro: Work & Income, Financial Calendar, all Reports/eligible forecasts,
+local receipt OCR, supported Tax Center, Vault, Life Planner and Price History.
+Free includes useful everyday records, local encryption and portable backup/export.
+Visibility also depends on usable local data; future modules are not sold as ready.
+Price is supplied by Play when qualified. The owner reports active trial-30-days offers:
+eligible users get30 days, then the selected paid plan auto-renews unless cancelled.
+No fixed price, discount, eligibility guarantee or completed real trial test is invented.
 No public download or sales yet. No store URL is invented.
 Current client-only Play verification is implemented and partly tested; full public
 sales/device/legal qualification remains open. Play communicates through its own app
 and network; KOVA financial records stay local. Premium access checks are separate
-from financial data and from consent-based website analytics.
+from financial data. Website analytics remains owner-paused; no live Google tag loads.
 
 SOURCE OF TRUTH
 ../KOVA-App/docs/release/KOVA_LOCAL_FREEMIUM_V1_READINESS.json
 ../KOVA-App/docs/release/local-freemium-legal/{privacy-policy,terms-of-service}-*.md
-54 canonical draft documents in 27 languages. Do not replace them with the older
-offline-only drafts. Hashes: qa/artifacts/audit-2026-10-24/content-sources.json.
-Visible unresolved fields use a readable pending status; source drafts remain exact.
+54 derived website drafts in27 languages. scripts/current-website-legal.mjs changes
+only privacy section3's stale package paragraph to the current localized app strings;
+the remaining privacy text and all terms match the canonical app drafts. This does
+not silently change bundled APK legal documents or approve them. Do not restore the
+old offline-only drafts. Current pins: qa/artifacts/content-refresh-2026-10-29/.
+Visible unresolved fields use a readable pending status; transformations are tested.
 No effective date or legal approval has been invented. No home address is requested,
 restored or published. The owner's home-address withdrawal is preserved.
 
@@ -67,9 +75,16 @@ selected locale JSON, rather than the entire translations.js bundle. English fal
 keeps controls working if a locale request fails; manual preference is not overwritten.
 Manual locale changes load once, retain the page and ignore obsolete async responses.
 360/720px WebP derivatives use the authentic PNGs; originals remain enlargement targets.
-The work-module scenario uses the earlier existing kova-work-income.png and is labelled
-as an earlier demo. It is not represented as a fresh candidate capture.
-The eight main gallery captures retain their original 21 October provenance.
+All nine app pictures, including Work, now come from real English Source54 Android
+screens, captured29 October with synthetic SQLCipher/Room data and MOCK Premium on
+API37/PAGE_SIZE16384. No fake UI or retouching. Work honestly shows a configured salary
+with no earned shift recorded. Provenance and native XML:
+qa/artifacts/presentation-2026-10-29-source54/provenance.json.
+The prior21/29 October Source53 evidence is retained, not relabelled as Source54.
+Current build71d1eae9a6dcb8497c90:32 static groups,36 browser cases and328 release
+checks PASS,0 external browser requests. These counts have separate scopes and are
+not added to Android JUnit totals. See content-refresh-2026-10-29/source54-static.json,
+browser-04/result.json and release-check.json. No public deployment occurred.
 
 REMAINING DECISIONS AND LIMITS
 Final legal text/effective date and lawful seller information for paid distribution;
@@ -80,7 +95,8 @@ Contact delivery/reply is complete according to the owner; no repeated mailbox t
 is demanded here. Local code checks do not independently verify the mailbox or account.
 Machine-assisted translations still require native-language/legal review.
 App signing, physical-device and Play release qualification belong to the app release,
-not this website task. No app install, payment, cloud operation, push or deployment ran.
+not website approval. Only owned synthetic emulator installations were updated for
+screenshots; no physical phone, payment, cloud operation, push or deployment ran.
 
 HISTORY
 The earlier Offline Free V1 plan and preparation are retained as dated evidence in

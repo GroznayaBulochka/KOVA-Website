@@ -1,0 +1,32 @@
+KOVA — jaśniejsze wprowadzenie i opisy funkcji
+29.10.2026
+
+Zakres zgodny z trzema zrzutami właściciela:
+- informacja przy kłódce podkreśla dbanie o prywatność, pozostawanie danych
+  finansowych na telefonie i zapobieganie przekazywaniu ich osobom trzecim;
+- opis główny wyjaśnia przeznaczenie aplikacji i łączy wydatki, budżet,
+  cele oraz godziny pracy i szacowany dochód;
+- sześć nazw funkcji zachowano; każda otrzymała konkretny opis działania;
+- zachowano oznaczenia Pro dla pracy, kalendarza i raportów;
+- wprowadzenie do galerii nie określa języka interfejsu na zrzutach.
+Nie zmieniano samych obrazów, dokumentów aplikacji ani ustawień analityki.
+
+243 teksty (9 pól x 27 języków), kopia zmian w copy.json.
+Zaktualizowano landing.js, 24 pakiety locales, angielski schemat lokalizacji,
+translations.js i polskie treści statyczne/metadata index.html.
+Układ funkcji: 3 kolumny na komputerze, 2 na tablecie, czytelne wiersze
+z ikoną i opisem na wąskich telefonach. Teksty nie są obcinane.
+
+Weryfikacja:
+npm run build: PASS, preview 1b9ab86c0ece09bd4ca6, 431 plików.
+npm test: PASS, 32 polecenia; m.in. 27 języków, 9192 sprawdzone teksty,
+SEO 898 kontroli, istniejące wymagania produktu i wyłączona analityka.
+git diff --check: PASS.
+Rzeczywisty podgląd w przeglądarce: PL 360/390/768/1440 px,
+DE/AR/TA 390 px. Brak poziomego przepełnienia; opisy mieszczą się w kartach.
+Dowód: browser-layout.json, PNG pokazujące podgląd.
+To testy przeglądarki desktopowej ze zmienioną szerokością, nie fizycznego telefonu.
+
+Zmiany lokalne. Nie wykonano commita, push ani publicznego wdrożenia.
+Pełna publikacja pozostaje zależna od wcześniejszych nierozstrzygniętych wymagań.
+Istniejących zmian właściciela w RELEASE_PREPARATION.txt nie modyfikowano.

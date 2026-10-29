@@ -1,0 +1,324 @@
+{
+  "checkedAt": "2026-10-29T14:41:50.363Z",
+  "scope": "Real browser, selected desktop/tablet/mobile widths and long/RTL language samples; no physical-phone test",
+  "cases": [
+    {
+      "width": 360,
+      "height": 800,
+      "lang": "pl",
+      "cards": [
+        {
+          "description": "Zapisuj wydatki, przypisuj je do kategorii i sprawdzaj, na co idą Twoje pieniądze.",
+          "height": 141.671875,
+          "textFits": true,
+          "title": "Wydatki",
+          "width": 305
+        },
+        {
+          "description": "Ustal limity wydatków i na bieżąco sprawdzaj, ile możesz jeszcze wydać.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "Budżety",
+          "width": 305
+        },
+        {
+          "description": "Pro · Zliczaj godziny pracy, szacuj dochód i uwzględniaj go w swoim budżecie.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Praca i dochód",
+          "width": 305
+        },
+        {
+          "description": "Pro · Zbierz terminy rachunków, wpływów i innych zdarzeń finansowych w jednym kalendarzu.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Kalendarz",
+          "width": 305
+        },
+        {
+          "description": "Pro · Porównuj przychody i wydatki, poznawaj trendy i sprawdzaj prognozy oparte na Twoich zapisach.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Raporty",
+          "width": 305
+        },
+        {
+          "description": "Wyznacz cel oszczędzania, określ potrzebną kwotę i śledź postęp w jego realizacji.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Cele",
+          "width": 305
+        }
+      ],
+      "direction": "ltr",
+      "documentWidth": 345,
+      "language": "pl",
+      "viewport": 360
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "lang": "pl",
+      "cards": [
+        {
+          "description": "Zapisuj wydatki, przypisuj je do kategorii i sprawdzaj, na co idą Twoje pieniądze.",
+          "height": 178.578125,
+          "textFits": true,
+          "title": "Wydatki",
+          "width": 344.5
+        },
+        {
+          "description": "Ustal limity wydatków i na bieżąco sprawdzaj, ile możesz jeszcze wydać.",
+          "height": 178.578125,
+          "textFits": true,
+          "title": "Budżety",
+          "width": 344.5
+        },
+        {
+          "description": "Pro · Zliczaj godziny pracy, szacuj dochód i uwzględniaj go w swoim budżecie.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Praca i dochód",
+          "width": 344.5
+        },
+        {
+          "description": "Pro · Zbierz terminy rachunków, wpływów i innych zdarzeń finansowych w jednym kalendarzu.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Kalendarz",
+          "width": 344.5
+        },
+        {
+          "description": "Pro · Porównuj przychody i wydatki, poznawaj trendy i sprawdzaj prognozy oparte na Twoich zapisach.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Raporty",
+          "width": 344.5
+        },
+        {
+          "description": "Wyznacz cel oszczędzania, określ potrzebną kwotę i śledź postęp w jego realizacji.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Cele",
+          "width": 344.5
+        }
+      ],
+      "direction": "ltr",
+      "documentWidth": 753,
+      "language": "pl",
+      "viewport": 768
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "lang": "pl",
+      "cards": [
+        {
+          "description": "Zapisuj wydatki, przypisuj je do kategorii i sprawdzaj, na co idą Twoje pieniądze.",
+          "height": 178.578125,
+          "textFits": true,
+          "title": "Wydatki",
+          "width": 413.328125
+        },
+        {
+          "description": "Ustal limity wydatków i na bieżąco sprawdzaj, ile możesz jeszcze wydać.",
+          "height": 178.578125,
+          "textFits": true,
+          "title": "Budżety",
+          "width": 413.328125
+        },
+        {
+          "description": "Pro · Zliczaj godziny pracy, szacuj dochód i uwzględniaj go w swoim budżecie.",
+          "height": 178.578125,
+          "textFits": true,
+          "title": "Praca i dochód",
+          "width": 413.34375
+        },
+        {
+          "description": "Pro · Zbierz terminy rachunków, wpływów i innych zdarzeń finansowych w jednym kalendarzu.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Kalendarz",
+          "width": 413.328125
+        },
+        {
+          "description": "Pro · Porównuj przychody i wydatki, poznawaj trendy i sprawdzaj prognozy oparte na Twoich zapisach.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Raporty",
+          "width": 413.328125
+        },
+        {
+          "description": "Wyznacz cel oszczędzania, określ potrzebną kwotę i śledź postęp w jego realizacji.",
+          "height": 202.671875,
+          "textFits": true,
+          "title": "Cele",
+          "width": 413.34375
+        }
+      ],
+      "direction": "ltr",
+      "documentWidth": 1425,
+      "language": "pl",
+      "viewport": 1440
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "lang": "de",
+      "cards": [
+        {
+          "description": "Erfasse Ausgaben, ordne sie Kategorien zu und sieh, wohin dein Geld fließt.",
+          "height": 118.578125,
+          "textFits": true,
+          "title": "Ausgaben",
+          "width": 335
+        },
+        {
+          "description": "Lege Ausgabenlimits fest und behalte im Blick, wie viel du noch ausgeben kannst.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "Budgets",
+          "width": 335
+        },
+        {
+          "description": "Pro · Erfasse Arbeitsstunden, schätze dein Einkommen und berücksichtige es in deinem Budget.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Arbeit & Einkommen",
+          "width": 335
+        },
+        {
+          "description": "Pro · Sammle Rechnungstermine, Zahlungseingänge und andere Finanzereignisse in einem Kalender.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Kalender",
+          "width": 335
+        },
+        {
+          "description": "Pro · Vergleiche Einnahmen und Ausgaben, erkenne Trends und sieh Prognosen auf Basis deiner Einträge.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "Berichte",
+          "width": 335
+        },
+        {
+          "description": "Wähle ein Sparziel, lege den benötigten Betrag fest und verfolge deinen Fortschritt.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "Ziele",
+          "width": 335
+        }
+      ],
+      "direction": "ltr",
+      "documentWidth": 375,
+      "language": "de",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "lang": "ar",
+      "cards": [
+        {
+          "description": "سجّل المصروفات وصنّفها واعرف أين تذهب أموالك.",
+          "height": 118.578125,
+          "textFits": true,
+          "title": "النفقات",
+          "width": 335
+        },
+        {
+          "description": "حدّد حدود الإنفاق وتابع المبلغ الذي لا يزال بإمكانك إنفاقه.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "الميزانيات",
+          "width": 335
+        },
+        {
+          "description": "Pro · سجّل ساعات العمل وقدّر الدخل وأدرجه ضمن ميزانيتك.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "العمل والدخل",
+          "width": 335
+        },
+        {
+          "description": "Pro · اجمع مواعيد الفواتير والمبالغ الواردة والأحداث المالية الأخرى في تقويم واحد.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "التقويم",
+          "width": 335
+        },
+        {
+          "description": "Pro · قارن الدخل بالمصروفات وتعرّف على الاتجاهات واطّلع على توقعات مبنية على سجلاتك.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "التقارير",
+          "width": 335
+        },
+        {
+          "description": "اختر هدفًا للادخار وحدّد المبلغ المطلوب وتابع تقدّمك نحوه.",
+          "height": 119.578125,
+          "textFits": true,
+          "title": "الأهداف",
+          "width": 335
+        }
+      ],
+      "direction": "rtl",
+      "documentWidth": 375,
+      "language": "ar",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "lang": "ta",
+      "cards": [
+        {
+          "description": "செலவுகளைப் பதிவு செய்து வகைப்படுத்துங்கள்; உங்கள் பணம் எங்கே செல்கிறது என்று பாருங்கள்.",
+          "height": 141.671875,
+          "textFits": true,
+          "title": "செலவுகள்",
+          "width": 335
+        },
+        {
+          "description": "செலவு வரம்புகளை அமைத்து இன்னும் எவ்வளவு செலவிடலாம் என்று கண்காணியுங்கள்.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "பட்ஜெட்டுகள்",
+          "width": 335
+        },
+        {
+          "description": "Pro · வேலை நேரத்தைப் பதிவு செய்து வருமானத்தை மதிப்பிட்டு உங்கள் வரவுசெலவுத் திட்டத்தில் சேருங்கள்.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "வேலை & வருமானம்",
+          "width": 335
+        },
+        {
+          "description": "Pro · பில் தேதிகள், வரவிருக்கும் பணம் மற்றும் பிற நிதி நிகழ்வுகளை ஒரே நாட்காட்டியில் வையுங்கள்.",
+          "height": 142.671875,
+          "textFits": true,
+          "title": "நாட்காட்டி",
+          "width": 335
+        },
+        {
+          "description": "Pro · வருமானத்தையும் செலவையும் ஒப்பிட்டு போக்குகளையும் பதிவுகளின் அடிப்படையிலான கணிப்புகளையும் பாருங்கள்.",
+          "height": 165.765625,
+          "textFits": true,
+          "title": "அறிக்கைகள்",
+          "width": 335
+        },
+        {
+          "description": "சேமிப்பு இலக்கைத் தேர்ந்தெடுத்து தேவையான தொகையை நிர்ணயித்து முன்னேற்றத்தைக் கண்காணியுங்கள்.",
+          "height": 165.765625,
+          "textFits": true,
+          "title": "இலக்குகள்",
+          "width": 335
+        }
+      ],
+      "direction": "ltr",
+      "documentWidth": 375,
+      "language": "ta",
+      "viewport": 390
+    }
+  ]
+}

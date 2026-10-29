@@ -84,3 +84,29 @@ html[dir="rtl"] .intro-bottom .button .icon { transform:rotate(180deg); }
 
 /* Data requirements remain readable as a short list in every language. */
 .faq-data-answer ul{margin:0 28px 24px 0;padding-inline-start:22px;color:var(--muted);font-size:15px;line-height:1.8}.faq-data-answer li+li{margin-top:12px}.analysis-data-link{display:inline-block;margin-top:20px}#analysis-data{scroll-margin-top:100px}
+
+/* Give the feature explanations enough room to read, including on phones. */
+.feature-strip{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:24px 0}
+.feature-strip article{align-items:flex-start;justify-content:flex-start;padding:24px 28px;text-align:start;border:0}
+.feature-strip article+article{border-left:0;border-inline-start:1px solid var(--line)}
+.feature-strip article:nth-child(3n+1){border-inline-start:0}
+.feature-strip article:nth-child(n+4){border-top:1px solid var(--line)}
+.feature-strip article>span{width:40px;height:40px}
+.feature-strip b{font-size:16px;margin-top:14px;line-height:1.4}
+.feature-strip small{max-width:34ch;margin-top:8px;font-size:14px;line-height:1.65;overflow-wrap:anywhere}
+@media(max-width:800px){
+ .feature-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .feature-strip article{padding:24px 20px}
+ .feature-strip article:nth-child(n){border-inline-start:0;border-top:0}
+ .feature-strip article:nth-child(even){border-inline-start:1px solid var(--line)}
+ .feature-strip article:nth-child(n+3){border-top:1px solid var(--line)}
+}
+@media(max-width:520px){
+ .feature-strip{grid-template-columns:1fr;padding:12px 0}
+ .feature-strip article{display:grid;grid-template-columns:40px minmax(0,1fr);column-gap:16px;padding:22px 0}
+ .feature-strip article:nth-child(n){border-inline-start:0;border-top:0}
+ .feature-strip article:nth-child(n+2){border-top:1px solid var(--line)}
+ .feature-strip article>span{grid-column:1;grid-row:1 / span 2}
+ .feature-strip b{grid-column:2;grid-row:1;margin:0}
+ .feature-strip small{grid-column:2;grid-row:2;max-width:none;margin-top:6px}
+}
