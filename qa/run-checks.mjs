@@ -12,6 +12,7 @@ const commands=[
  ['qa/offline-content-check.mjs'],
  ['qa/presentation-check.mjs'],
  ['qa/prelaunch-check.mjs'],
+ ['qa/publication-policy-check.mjs'],
  ['qa/asset-versioning-check.mjs'],
  ['qa/analytics-contract.mjs'],
  ['qa/analytics-paused-check.mjs'],

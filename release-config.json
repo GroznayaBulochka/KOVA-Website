@@ -27,7 +27,10 @@
   "legalApproved": false,
   "cloudAccountAvailable": false,
   "externalAccountDeletionChannelRequired": false,
-  "publicationApproved": false,
+  "publicationProfile": "PRELAUNCH_WEBSITE",
+  "publicationApproved": true,
+  "publicationApprovalScope": "INFORMATIONAL_PRELAUNCH_WEBSITE_ONLY",
+  "publicationApprovalEvidence": "DIRECT_OWNER_REQUEST_2026-10-30_PUBLISH_ON_NEXT_PUSH",
   "analyticsReceiver": null,
   "websiteAnalytics": {
     "enabled": false,

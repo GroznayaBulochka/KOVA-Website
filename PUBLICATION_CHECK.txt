@@ -1,4 +1,14 @@
 KOVA — zgodność publikacji i pamięć podręczna
+AKTUALIZACJA 30.10.2026 — AUTOMATYCZNA PUBLIKACJA PO PUSH DO MAIN
+Właściciel zlecił publikację przy następnym pushu. pages.yml uruchamia pełne
+sprawdzenie, generuje produkcyjne dist/ i publikuje je przez GitHub Pages.
+publicationApproved=true dotyczy wyłącznie informacyjnej strony przedpremierowej.
+Profil PRELAUNCH_WEBSITE wymaga wyłączonej analityki, sprzedaży i pobierania
+oraz zachowania jawnego statusu projektów dokumentów. Kwalifikacja wydawcy,
+wdrożenie procedury korespondencji i akceptacja dokumentów pozostają false.
+Profil PRODUCT_LAUNCH nadal wymaga ich ukończenia. Nie oznaczono ich jako spełnione.
+Sprawdzanie domeny po wdrożeniu nadal porównuje ją z manifestem przesłanego dist/.
+
 AKTUALIZACJA 26.10.2026 — ANALITYKA WSTRZYMANA
 Na prośbę właściciela wyłączono GA4 na publicznej domenie przez CSP Cloudflare
 i wygaszanie cookies. Jest to zmiana działającego hostingu, bez nowego wydania

@@ -3,7 +3,7 @@ import { readFile, readdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
-import { spawnSync } from 'node:child_process';
+import {publicationBlockers} from '../scripts/publication-policy.mjs';
 import {websiteLegalDraft} from '../scripts/current-website-legal.mjs';
 const root=fileURLToPath(new URL('..',import.meta.url));
 const read=name=>readFile(resolve(root,name),'utf8');
@@ -11,11 +11,12 @@ const config=JSON.parse(await read('release-config.json'));
 const origin=process.env.KOVA_PUBLIC_ORIGIN || 'http://127.0.0.1:4174';
 const passed=[];
 const check=(name,fn)=>{fn();passed.push(name);};
-check('Publication and download remain unapproved',()=>{
-  assert.equal(config.publicationApproved,false);assert.equal(config.publicDownloadAvailable,false);assert.equal(config.legalState,'DRAFT_OWNER_INPUT_REQUIRED');
+check('Website publication approved; downloads and legal drafts remain prelaunch',()=>{
+  assert.equal(config.publicationApproved,true);assert.equal(config.publicationProfile,'PRELAUNCH_WEBSITE');assert.equal(config.publicDownloadAvailable,false);assert.equal(config.legalApproved,false);assert.equal(config.legalState,'DRAFT_OWNER_INPUT_REQUIRED');
 });
-const negative=spawnSync(process.execPath,['scripts/build-site.mjs','--release'],{cwd:root,encoding:'utf8'});
-check('Release command fails closed with exact owner blockers',()=>{assert.equal(negative.status,2);for(const key of ['operatorLegalQualified','legalApproved','supportContactOperationallyVerified','publicationApproved'])assert.ok(negative.stderr.includes(key));assert.equal(config.websiteAnalytics.enabled,false);assert.ok(!negative.stderr.includes('websiteAnalytics.accountConfigurationVerified'));assert.ok(!negative.stderr.includes('canonicalOrigin'));assert.ok(!negative.stderr.includes('hostingVerified'));});
+const productBlockers=publicationBlockers({...config,publicationProfile:'PRODUCT_LAUNCH'});
+const negative={status:productBlockers.length?2:0};
+check('Product launch remains gated separately from the approved website',()=>{assert.deepEqual(publicationBlockers(config),[]);assert.equal(negative.status,2);for(const key of ['operatorLegalQualified','legalApproved','supportContactOperationallyVerified'])assert.ok(productBlockers.includes(key));assert.equal(config.websiteAnalytics.enabled,false);});
 const hosting=JSON.parse(await read(config.hostingVerificationEvidence));
 const hostingHttp=JSON.parse(await read(hosting.httpEvidence));
 await readFile(resolve(root,hosting.pagesSourceEvidence));
@@ -26,7 +27,7 @@ check('Hosting configuration evidence is distinct from publication approval',()=
  assert.equal(hosting.queryStringInCacheKey,true);assert.equal(hosting.htmlAndReleaseMetadataBypassEdgeCache,true);assert.equal(hosting.securityHeadersApplied,true);
  assert.equal(hostingHttp.result,'PASS');assert.equal(hostingHttp.failures.length,0);assert.equal(hostingHttp.checks.length,9);
  assert.equal(hosting.publicArtifactVerified,false);assert.equal(hosting.postDeploymentManifestVerificationRequired,true);
- assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html?lang=en');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html?lang=en');assert.equal(config.publicationApproved,false);
+ assert.equal(config.publicPolicyUrl,config.canonicalOrigin+'/privacy.html?lang=en');assert.equal(config.publicTermsUrl,config.canonicalOrigin+'/terms.html?lang=en');assert.equal(config.publicationApproved,true);
 });
 check('Approved identity is distinct from legal qualification',()=>{assert.equal(config.contract,'KOVA_PHONE_LOCAL_FREEMIUM_V1');assert.equal(config.publisher,'Vadyslav Konohrai');assert.equal(config.supportEmail,'contact@kovacompass.app');assert.equal(config.operatorApproved,true);assert.equal(config.operatorLegalQualified,false);assert.equal(config.cloudAccountAvailable,false);});
 const files=[];

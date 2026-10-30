@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {publicationBlockers} from '../scripts/publication-policy.mjs';
 const root=new URL('../',import.meta.url);
 const read=n=>readFile(new URL(n,root),'utf8');
 const config=JSON.parse(await read('release-config.json'));
@@ -17,8 +18,7 @@ for(const page of ['index','status','roadmap','updates','security','contact','de
 }
 const workspace=await read('workspace.html');
 check('Private Workspace has no analytics manager',()=>assert.ok(!/site-consent|googletagmanager|google-analytics/.test(workspace)));
-const build=await read('scripts/build-site.mjs');
-check('Account review remains required if analytics is enabled',()=>{assert.ok(build.includes("config.websiteAnalytics?.enabled !== false"));assert.ok(build.includes("missing.push('websiteAnalytics.accountConfigurationVerified')"));});
+check('Account review remains required if analytics is enabled',()=>assert.ok(publicationBlockers({...config,websiteAnalytics:{...config.websiteAnalytics,enabled:true}}).includes('websiteAnalytics.accountConfigurationVerified')));
 const headers=await read('dist/_headers');
 check('CSP keeps eval/inline scripts/advertising servers blocked',()=>{
  const scripts=headers.match(/script-src ([^;]+)/)[1];assert.ok(!/unsafe-inline|unsafe-eval|\*/.test(scripts));

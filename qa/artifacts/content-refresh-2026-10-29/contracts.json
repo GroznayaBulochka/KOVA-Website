@@ -144,13 +144,17 @@
     "status/en: production sample generated",
     "privacy/en: production sample generated",
     "404/pl: production sample generated",
-    "Publication gate still fails closed"
+    "Owner-approved prelaunch site can publish; product launch remains gated"
   ],
   "languages": 27,
   "canonicalLegalDrafts": 54,
   "releaseBuild": {
-    "exitCode": 2,
-    "blockers": "BLOCKED: operatorLegalQualified, supportContactOperationallyVerified, legalApproved, publicationApproved"
+    "websiteBlockers": [],
+    "productBlockers": [
+      "operatorLegalQualified",
+      "supportContactOperationallyVerified",
+      "legalApproved"
+    ]
   },
   "productionSamples": "Verification only; not deployed",
   "published": false

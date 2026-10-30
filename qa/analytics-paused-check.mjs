@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import vm from 'node:vm';
+import {publicationBlockers} from '../scripts/publication-policy.mjs';
 const read=n=>readFile(new URL('../'+n,import.meta.url),'utf8');
 const source=await read('site-consent.js');
 const config=JSON.parse(await read('release-config.json'));
@@ -9,14 +10,11 @@ assert.equal(config.websiteAnalytics.consentMode,'DISABLED_BY_OWNER');
 assert.equal(config.analyticsReceiver,null);
 // Exercise the actual build gate: a disabled service need not be qualified,
 // but re-enabling it cannot silently inherit the waiver.
-const builder=await read('scripts/build-site.mjs');
-const gate=builder.slice(builder.indexOf("if (process.argv.includes('--release'))"),builder.indexOf('const isRelease='));
 for(const enabled of [false,true,undefined]){
- let error='',exit;
- const candidate={...config,websiteAnalytics:{...config.websiteAnalytics,enabled}};
+ const candidate={...config,publicationProfile:'PRODUCT_LAUNCH',websiteAnalytics:{...config.websiteAnalytics,enabled}};
  for(const key of ['operatorApproved','operatorLegalQualified','supportContactApproved','supportContactOperationallyVerified','domainApprovedByOwner','hostingVerified','legalApproved','publicationApproved'])candidate[key]=true;
- vm.runInNewContext(gate,{config:candidate,URL,console:{error:m=>{error=m;}},process:{argv:['--release'],exit:code=>{exit=code;}}});
- if(enabled===false){assert.equal(exit,undefined);assert.equal(error,'');}else{assert.equal(exit,2);assert.match(error,/websiteAnalytics.accountConfigurationVerified/);}
+ const missing=publicationBlockers(candidate);
+ if(enabled===false)assert.deepEqual(missing,[]);else assert.ok(missing.includes('websiteAnalytics.accountConfigurationVerified'));
 }
 const checks=[];
 for(const host of ['kovacompass.app','www.kovacompass.app','127.0.0.1'])for(const saved of ['', 'analytics','essential','invalid'])for(const blocked of [false,true]){

@@ -1,4 +1,6 @@
 KOVA — dlaczego push nie zaktualizował domeny
+HISTORIA: diagnoza przed kolejnym zleceniem właściciela. Po zleceniu automatycznej
+publikacji zmieniono warunki wydania strony. Bieżący stan: AUTOPUBLISH.txt.
 30.10.2026
 
 Push potwierdzony na GitHub:

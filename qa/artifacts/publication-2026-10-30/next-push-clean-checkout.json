@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "checkedAt": "2026-10-30T08:36:21.764Z",
+  "tree": "80006a8cb455c283c3f4067f88bbc9422c164731",
+  "fixture": "C:\\Users\\vlad2\\AppData\\Local\\Temp\\kova-pages-next-push-Ya36hR\\checkout",
+  "stages": [
+    {
+      "command": [
+        "node",
+        "scripts/assemble-locales.mjs"
+      ],
+      "exitCode": 0,
+      "summary": "Assembled 24 locale packs",
+      "errors": ""
+    },
+    {
+      "command": [
+        "node",
+        "scripts/build-site.mjs"
+      ],
+      "exitCode": 0,
+      "summary": "{\"result\":\"PASS\",\"mode\":\"preview\",\"version\":\"0a833ac3b73777b2e1d8\",\"publicFiles\":431,\"output\":\"C:\\\\Users\\\\vlad2\\\\AppData\\\\Local\\\\Temp\\\\kova-pages-next-push-Ya36hR\\\\checkout\\\\dist\",\"published\":false}",
+      "errors": ""
+    },
+    {
+      "command": [
+        "node",
+        "qa/run-checks.mjs"
+      ],
+      "exitCode": 0,
+      "summary": "{\"checks\":33,\"failed\":0,\"result\":\"PASS\"}",
+      "errors": ""
+    },
+    {
+      "command": [
+        "node",
+        "scripts/build-site.mjs",
+        "--release"
+      ],
+      "exitCode": 0,
+      "summary": "{\"result\":\"PASS\",\"mode\":\"release\",\"version\":\"c6864e923c0cf7ce4e23\",\"publicFiles\":431,\"output\":\"C:\\\\Users\\\\vlad2\\\\AppData\\\\Local\\\\Temp\\\\kova-pages-next-push-Ya36hR\\\\checkout\\\\dist\",\"published\":false}",
+      "errors": ""
+    }
+  ],
+  "mode": "release",
+  "buildVersion": "c6864e923c0cf7ce4e23",
+  "publicFiles": 431,
+  "originalGitIndexUnchanged": true,
+  "legalAndProductApprovalsStillPending": true,
+  "scope": "Fresh Git archive of the prospective commit; no sibling app checkout; LF-normalized tracked text and byte-preserved XML; Windows Node execution, not an actual hosted Linux runner. No push/deployment."
+}

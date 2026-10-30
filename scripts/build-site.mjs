@@ -6,15 +6,12 @@ import { createHash } from 'node:crypto';
 import {pages,languages,file,prepareRenderer,sitemap,robots} from './seo.mjs';
 import {publicRelease} from './release-data.mjs';
 import {buildVersion,versionReferences,sha256} from './asset-versioning.mjs';
+import {publicationBlockers} from './publication-policy.mjs';
 const root = fileURLToPath(new URL('..',import.meta.url));
 const config = JSON.parse(await readFile(resolve(root,'release-config.json'),'utf8'));
 await writeFile(resolve(root,'release-public.js'),'// Generated from release-config.json.\nwindow.KOVA_RELEASE = '+JSON.stringify(publicRelease(config))+';\n');
 if (process.argv.includes('--release')) {
-  const missing = ['operatorApproved','operatorLegalQualified','supportContactApproved','supportContactOperationallyVerified','domainApprovedByOwner','hostingVerified','legalApproved','publicationApproved'].filter(key=>config[key]!==true);
-  if (config.websiteAnalytics?.enabled !== false && config.websiteAnalytics?.accountConfigurationVerified !== true) missing.push('websiteAnalytics.accountConfigurationVerified');
-  let validOrigin=false;
-  try { const u=new URL(config.canonicalOrigin); validOrigin=u.protocol==='https:' && u.origin===config.canonicalOrigin && !u.username && !u.password; } catch {}
-  if (!validOrigin) missing.push('canonicalOrigin');
+  const missing = publicationBlockers(config);
   if (missing.length) { console.error('BLOCKED: '+missing.join(', ')); process.exit(2); }
 }
 const isRelease=process.argv.includes('--release');
@@ -35,7 +32,7 @@ const out=resolve(root,'dist');
 const generated=['robots.txt','_headers','sitemap.xml','build-manifest.json',...pages.flatMap(p=>languages.filter(l=>l!=='pl').map(l=>file(p,l)))];
 const permitted=new Set([...files,...generated]);
 const assets=new Set(files.filter(name=>!name.endsWith('.html')&&name!=='CNAME'));
-const inputs=await Promise.all([...files,'release-config.json','scripts/seo.mjs','scripts/build-site.mjs','scripts/asset-versioning.mjs','scripts/release-data.mjs'].map(async name=>[name,await readFile(resolve(root,name))]));
+const inputs=await Promise.all([...files,'release-config.json','scripts/seo.mjs','scripts/build-site.mjs','scripts/publication-policy.mjs','scripts/asset-versioning.mjs','scripts/release-data.mjs'].map(async name=>[name,await readFile(resolve(root,name))]));
 const version=buildVersion([...inputs,['mode',isRelease?'release':'preview']]);
 async function list(dir,prefix='') {
   let entries; try { entries=await readdir(dir,{withFileTypes:true}); } catch(e) { if(e.code==='ENOENT')return []; throw e; }

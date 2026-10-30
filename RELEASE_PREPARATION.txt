@@ -1,4 +1,16 @@
 KOVA: Money & Budget — current website preparation
+AUTOMATIC WEBSITE PUBLICATION — 30 OCTOBER 2026
+The owner explicitly requested publication on the next push. Every push to main
+now runs .github/workflows/pages.yml: preview build/tests, production build,
+upload generated dist/, deploy to Pages and verify the domain against its manifest.
+PRELAUNCH_WEBSITE permits only the informational site: no download URL or sales,
+analytics disabled, and the legal documents visibly remain drafts. Website approval
+does not mark legal qualification, correspondence procedures or app sales complete.
+PRODUCT_LAUNCH still requires those additional confirmations. Commit the complete
+pending changes, including .gitattributes and the nine original XML evidence files,
+so Linux checks receive the same byte-pinned evidence as the local Windows tests.
+No push or deployment was performed while preparing this change.
+
 Updated: 29 October 2026. Contract: KOVA_PHONE_LOCAL_FREEMIUM_V1.
 
 Publication/cache follow-up: see PUBLICATION_CHECK.txt. Builds now version all

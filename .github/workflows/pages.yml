@@ -1,5 +1,8 @@
-name: Publish approved public website
+name: Publish public website
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 permissions:
   contents: read
@@ -8,6 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -20,7 +24,7 @@ jobs:
       - name: Build and check preview first
         run: npm run build && npm test
       - name: Build approved production artifact
-        # Fails closed until the existing owner/legal/hosting gates are evidenced.
+        # Owner-approved prelaunch site; product launch has separate stricter gates.
         run: npm run build:public
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

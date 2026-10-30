@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {spawnSync} from 'node:child_process';
+import {publicationBlockers} from '../scripts/publication-policy.mjs';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {publicRelease} from '../scripts/release-data.mjs';
@@ -47,8 +47,9 @@ for(const [page,language] of [['index','pl'],['index','en'],['status','en'],['pr
 }
 await writeFile(new URL('robots.txt',output),robots(config.canonicalOrigin,true));await writeFile(new URL('sitemap.xml',output),sitemap(config.canonicalOrigin));
 await writeFile(new URL('README.txt',output),'Verification samples only, not a deployable release. No approval flags were changed. Deploy only dist/ produced by the gated build:public command.\n');
-const release=spawnSync(process.execPath,['scripts/build-site.mjs','--release'],{encoding:'utf8',cwd:fileURLToPath(new URL('..',import.meta.url))});
-check('Publication gate still fails closed',()=>{assert.equal(release.status,2);assert.match(release.stderr,/legalApproved/);assert.match(release.stderr,/publicationApproved/);});
-const report={result:'PASS',checks:checks.length,passed:checks,languages:languages.length,canonicalLegalDrafts:54,releaseBuild:{exitCode:release.status,blockers:release.stderr.trim()},productionSamples:'Verification only; not deployed',published:false};
+const websiteBlockers=publicationBlockers(config);
+const productBlockers=publicationBlockers({...config,publicationProfile:'PRODUCT_LAUNCH'});
+check('Owner-approved prelaunch site can publish; product launch remains gated',()=>{assert.deepEqual(websiteBlockers,[]);assert.ok(productBlockers.includes('legalApproved'));assert.ok(productBlockers.includes('operatorLegalQualified'));assert.ok(productBlockers.includes('supportContactOperationallyVerified'));});
+const report={result:'PASS',checks:checks.length,passed:checks,languages:languages.length,canonicalLegalDrafts:54,releaseBuild:{websiteBlockers,productBlockers},productionSamples:'Verification only; not deployed',published:false};
 await writeFile(new URL('artifacts/content-refresh-2026-10-29/contracts.json',import.meta.url),JSON.stringify(report,null,2));
-console.log(JSON.stringify({result:'PASS',checks:checks.length,canonicalLegalDrafts:54,releaseBuildExit:release.status}));
+console.log(JSON.stringify({result:'PASS',checks:checks.length,canonicalLegalDrafts:54,websiteReady:websiteBlockers.length===0,productLaunchBlocked:productBlockers.length>0}));

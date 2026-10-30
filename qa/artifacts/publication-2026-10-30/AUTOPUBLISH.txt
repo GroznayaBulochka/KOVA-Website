@@ -1,0 +1,49 @@
+KOVA — automatyczna publikacja po następnym pushu
+30.10.2026
+
+Zgoda: bezpośrednie zlecenie właściciela, aby następny push publikował stronę.
+.github/workflows/pages.yml reaguje na push do main oraz workflow_dispatch.
+Job build jest ograniczony do refs/heads/main. Kolejność:
+1. npm run build && npm test — sprawdzenie podglądu;
+2. npm run build:public — pełny produkcyjny dist/;
+3. upload-pages-artifact i deploy-pages;
+4. porównanie publicznej domeny z manifestem przesłanego artefaktu.
+Repozytorium źródłowe i podgląd noindex nie są publikowane.
+
+ZGODA NA STRONĘ, NIE POTWIERDZENIE ZAKOŃCZENIA APLIKACJI
+publicationApproved=true oraz publicationProfile=PRELAUNCH_WEBSITE dotyczą
+wyłącznie obecnej strony informacyjnej przed premierą. Profil wymaga braku
+publicznego pobierania, URL sklepu i sprzedaży, wyłączonej analityki oraz zachowania
+statusu DRAFT_OWNER_INPUT_REQUIRED. Pozostałe nierozstrzygnięte kwalifikacje
+wydawcy, procedury kontaktu i akceptacji dokumentów pozostają false.
+Profil PRODUCT_LAUNCH nadal ich wymaga. Nie zaakceptowano żadnej umowy Google.
+
+POPRAWKA TESTU PO PUSHU
+.gitattributes zachowuje dokładne bajty 9 źródłowych XML, zgodnie z istniejącymi
+SHA-256 dowodów. Kontroli nie wyłączono ani nie podmieniono sum na przypadkowe.
+Podczas przygotowania automatycznej publikacji właściciel zapisał tę poprawkę
+w commicie a815fce (1.0.3.9.1). Zmiany workflow i warunków publikacji są nadal
+lokalne i wymagają następnego commita/pusha.
+
+WERYFIKACJA
+Lokalny build preview i npm test: PASS, 33 grupy.
+Test publikacji obejmuje 13 przypadków dopuszczenia/blokady obu profili.
+Osobny tymczasowy indeks Git i git archive odtworzyły stan przyszłego commita
+bez zmiany właściwego indeksu/stagingu użytkownika. Kopia nie miała katalogu
+KOVA-App. Build preview, 33 grupy testów i build --release przeszły poprawnie.
+Artefakt release: c6864e923c0cf7ce4e23, 431 plików; canonical, hreflang, og:image,
+nowy tekst prywatności i brak preview noindex na stronie głównej potwierdzone.
+Dowód: next-push-clean-checkout.json. To lokalna próba z bajtami Git jak w CI,
+uruchomiona przez Windows Node, a nie zakończone uruchomienie hostowanego Linuxa.
+git diff --check: PASS.
+
+30.10 potwierdzono w zalogowanym panelu GitHub:
+- Pages Source = GitHub Actions;
+- domena kovacompass.app, DNS check successful, Enforce HTTPS włączone;
+- github-pages: main dozwolone, Required reviewers i Wait timer wyłączone.
+Żadnej z tych opcji nie trzeba było zmieniać. Dowód: github-pages-settings.json
+oraz dwa PNG. Ostatnie wdrożenie widoczne w panelu nadal pochodziło z 24.10.
+
+Agent nie wykonał commita, push ani wdrożenia. Kolejny commit wszystkich przygotowanych
+zmian i push do main uruchomi nowy proces. Sukces faktycznego wdrożenia i kontrolę
+domeny potwierdzi dopiero wynik tego uruchomienia GitHub Actions.

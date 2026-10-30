@@ -10,6 +10,6 @@ for(const script of ['scripts/assemble-locales.mjs','scripts/build-site.mjs','qa
  stages.push({script,exitCode:r.status});if(r.status!==0)throw Error('Current verification failed: '+script);
 }
 const config=JSON.parse(await readFile(resolve(root,'release-config.json'),'utf8')),manifest=JSON.parse(await readFile(resolve(root,'dist/build-manifest.json'),'utf8'));
-if(config.presentationSource!==54||config.publicationApproved||config.websiteAnalytics.enabled)throw Error('Current capture and owner boundaries required');
+if(config.presentationSource!==54||config.legalApproved||config.publicDownloadAvailable||config.premium.salesAvailable||config.websiteAnalytics.enabled)throw Error('Current capture and prelaunch product boundaries required');
 const result={status:'PASS_CURRENT_SOURCE54_WEBSITE_STATIC_BUILD_AND32_CHECK_GROUPS',startedAt,finishedAt:new Date().toISOString(),stages,buildVersion:manifest.version,publicFiles:manifest.files.length+1,englishAppScreens:9,localizedWebsiteLanguages:27,legalDrafts:54,publication:false,sourceEvidence:config.presentationEvidence,scope:'Current website build/static contracts. Browser results and Android screenshot assertions are separate; not app release or legal approval.'};
 await writeFile(resolve(out,label+'.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));

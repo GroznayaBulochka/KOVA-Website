@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-30T08:40:16.414Z",
+  "repository": "GroznayaBulochka/KOVA-Website",
+  "source": "GitHub Actions",
+  "customDomain": "kovacompass.app",
+  "dnsCheck": "successful",
+  "enforceHttps": true,
+  "environment": "github-pages",
+  "requiredReviewers": false,
+  "waitTimer": false,
+  "allowedBranch": "main",
+  "configurationChanged": false,
+  "scope": "Observed in authenticated GitHub settings; no deployment was triggered"
+}
