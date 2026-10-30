@@ -1,2 +1,5 @@
 # Canonical legal drafts retain exact source bytes, including their original EOF.
 legal/*.md -text whitespace=-blank-at-eof
+# UI captures are byte-pinned evidence. Git must preserve their original CRLF
+# bytes so the same provenance checks work on Windows and Linux CI.
+qa/artifacts/presentation-2026-10-29-source54/*.xml -text whitespace=cr-at-eol

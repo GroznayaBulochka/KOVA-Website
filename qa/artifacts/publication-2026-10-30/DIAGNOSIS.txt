@@ -1,0 +1,35 @@
+KOVA — dlaczego push nie zaktualizował domeny
+30.10.2026
+
+Push potwierdzony na GitHub:
+main / 1fe64062cc5cc05ba8dd48e7ce69b1af1022f554 / 1.0.3.9.
+https://github.com/GroznayaBulochka/KOVA-Website/actions/runs/40895330893
+Run: Check website preview, event push, failure. To testy, nie publikacja.
+.github/workflows/pages.yml na main ma wyłącznie workflow_dispatch.
+Push sam nie uruchamia Publish approved public website.
+
+Jedyny błąd w sprawdzonym runie: qa/presentation-check.mjs:37, SHA-256 XML.
+Przykład home.xml: oczekiwano d8d1c862d42f67a9a784bbe19d6fd1a9019529b3eeed79a66c20e77c3a297fb7;
+CI otrzymało 0420e163cee49903e2d412abdf97d4474b6886fff8f88aa3254bb017a9ce9305.
+Lokalny oryginał CRLF zgadza się z dowodem. HEAD zawiera znormalizowane LF.
+Sprawdzono wszystkie 9 plików: jedyna różnica to zamiana CRLF na LF.
+
+Lokalna poprawka:
+.gitattributes: qa/artifacts/presentation-2026-10-29-source54/*.xml -text whitespace=cr-at-eol
+Do następnego commita należy dołączyć tę regułę i 9 wykazanych plików XML,
+aby Git zachował faktyczne bajty oryginalnych dowodów zamiast zmieniać je na LF.
+Testy weryfikacji nie zostały osłabione; sum SHA-256 nie zmieniono.
+Weryfikacja: 9 oryginalnych SHA-256 i Git clean filters przy core.autocrlf=false /
+core.eol=lf PASS; qa/presentation-check.mjs PASS; git diff --check PASS.
+Poprawki nie commitowano ani nie pushowano; brak potwierdzenia nowego runu CI.
+
+Osobno uruchomiony lokalnie build publiczny nadal zgłasza dokładnie:
+BLOCKED: operatorLegalQualified, supportContactOperationallyVerified,
+legalApproved, publicationApproved.
+Samo naprawienie testu lub ręczne uruchomienie workflow nie zamknie tych punktów.
+Nie zmieniono flag akceptacji ani wyłączonej analityki.
+
+Nie uruchomiono publicznego wdrożenia. Bezpośredni odczyt domeny w tym środowisku
+nie powiódł się (rozwiązywanie DNS); nie wyciągamy z tego wniosku o awarii domeny
+u odwiedzających ani o aktualnej zawartości cache. Diagnoza uruchomień pochodzi
+z rzeczywistych danych i logów GitHub, a nie z wyglądu strony w przeglądarce.
