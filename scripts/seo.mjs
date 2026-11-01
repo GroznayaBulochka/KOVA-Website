@@ -98,9 +98,9 @@ const descriptions={
     "Новости проекта KOVA: финансы офлайн на Android, реальные экраны, экспорт данных и подготовка первого публичного выпуска."
   ],
   "security": [
-    "Dane finansowe zostają na telefonie. Zobacz, jak KOVA rozdziela lokalne szyfrowanie, opcjonalne zakupy Google Play i analitykę strony zależną od zgody.",
-    "Financial records stay on your phone. Learn how KOVA separates local encryption, optional Google Play purchases and consent-based website analytics.",
-    "Финансовые отчеты остаются на вашем телефоне. Узнайте, как KOVA разделяет локальное шифрование, дополнительные покупки Google Play и аналитику веб-сайтов на основе согласия."
+    "Dane finansowe zostają na telefonie. Poznaj lokalną ochronę danych w KOVA. Analityka strony i cookies analityczne są wyłączone.",
+    "Financial data stays on your phone. Learn about local data protection in KOVA. Website analytics and analytics cookies are disabled.",
+    "Финансовые данные остаются на телефоне. Узнайте о локальной защите данных в KOVA. Аналитика сайта и аналитические cookies отключены."
   ],
   "contact": [
     "Kontakt z wydawcą KOVA: contact@kovacompass.app. Pytania o aplikację, zgłaszanie problemów i sprawy prywatności. Nie przesyłaj danych finansowych.",
@@ -113,9 +113,9 @@ const descriptions={
     "Управляйте и удаляйте локальные данные, профили и экспорт KOVA. Продление Premium управляется отдельно в Google Play; удаление не отменяет его."
   ],
   "privacy": [
-    "Projekt polityki prywatności KOVA: dane lokalne aplikacji, eksport, kontakt i opcjonalna analityka strony. Dokument wymaga zatwierdzenia przed publikacją.",
-    "Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.",
-    "Проект политики KOVA: локальные данные, экспорт, обращения и необязательная аналитика сайта. Требует утверждения до публикации."
+    "Projekt polityki prywatności KOVA: lokalne dane aplikacji, eksport i kontakt. Analityka strony jest wyłączona. Dokument jest w trakcie weryfikacji.",
+    "Draft KOVA privacy policy: local app data, exports and contact. Website analytics is disabled. The document is under review.",
+    "Проект политики конфиденциальности KOVA: локальные данные, экспорт и обращения. Аналитика сайта отключена. Документ проходит проверку."
   ],
   "terms": [
     "Projekt zasad KOVA Free i Premium: funkcje lokalne, opcjonalna subskrypcja, zakup i przywracanie Google Play, kopie i ograniczenia szacunków.",

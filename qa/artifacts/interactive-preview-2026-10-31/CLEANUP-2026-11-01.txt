@@ -1,0 +1,18 @@
+KOVA storage cleanup authorized by user, 2026-11-01.
+
+Deleted four regenerable emulator Quick Boot RAM cache files (ram.img):
+- KOVA-App/.artifacts/release-readiness-20261015/avd/KOVA_Release_Smoke_20261015.avd/snapshots/default_boot/ram.img
+- KOVA-App/.artifacts/phone-free-v1-avd/KOVA_PhoneFreeV1_20261015.avd/snapshots/default_boot/ram.img
+- KOVA-App/.artifacts/advisor-pilot-avd/KOVA_Advisor_Pilot_20261015.avd/snapshots/default_boot/ram.img
+- KOVA-App/.artifacts/current-local-16k-20261024.avd/snapshots/default_boot/ram.img
+
+Each file: 4,295,032,832 bytes. Paths were inspected within the KOVA tree;
+no emulator processes were running and none of these files were tracked.
+An initial recursive directory deletion was rejected by automatic review.
+The narrower explicit four-file deletion above succeeded.
+
+Free space immediately before deletion: 5,484,384,256 bytes.
+Free space immediately after deletion: 22,664,441,856 bytes (~21.1 GiB).
+Observed space recovered: ~16 GiB. No source, release APK, report,
+screenshot, emulator userdata disk or application data was deleted.
+Emulators will require cold boot instead of resuming these RAM caches.

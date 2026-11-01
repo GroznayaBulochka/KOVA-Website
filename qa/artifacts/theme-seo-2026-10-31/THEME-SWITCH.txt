@@ -1,0 +1,14 @@
+KOVA — ręczny przełącznik motywu, 2026-10-31
+
+Uzupełnienie wcześniejszego automatycznego motywu na bezpośrednią prośbę właściciela.
+
+W nagłówku wszystkich stron jest menu Motyw z opcjami Automatyczny / Jasny / Ciemny. Opisy są dostępne w 27 językach. Domyślny wybór Automatyczny śledzi ustawienia przeglądarki. Tylko świadomy wybór Jasny/Ciemny zapisuje lokalną preferencję kova_site_theme w localStorage. Powrót do Automatyczny usuwa ten wpis. Nie dodano cookies ani analityki.
+
+site-theme.js stosuje ręczną preferencję przed pierwszym malowaniem strony. Ustawienie jest wspólne dla podstron i synchronizowane między kartami. Błędny wpis lub niedostępny magazyn nie blokuje strony. Bez JS nadal działa automatyczny motyw CSS.
+
+Walidacja: 35 grup testów PASS; 16 testów regresji wyboru początkowego, blokady magazynu, zmian przeglądarki i synchronizacji kart. Kontrola SEO wszystkich 297 stron obejmuje również obecność skryptu przed arkuszami stylów. Produkcyjny build PASS: 433 pliki, wersja 309093c7d32201976c52.
+
+Testy w przeglądarce: ręczny jasny przy ciemnej przeglądarce, zapamiętanie po odświeżeniu i przejściu na dokument, powrót do automatycznego, reakcja na jasne ustawienie bez przeładowania, ręczny ciemny przy jasnej przeglądarce, Escape oraz utrzymanie trybu auto po odświeżeniu. Test ustawień przeglądarki korzystał z dziedziczenia color-scheme w lokalnej ramce, bez zastępowania produkcyjnego CSS.
+Sprawdzone nagłówki: PL 360/768/1440 px, UK/DE 390 px, AR/TA 360 px. Jeden przełącznik na stronę, przetłumaczone etykiety, brak poziomego przepełnienia. Szczegóły: theme-preference-browser.json. Zrzut finalnego buildu: theme-switch.png.
+
+Brak commitu, pushu i publikacji w tym zadaniu. Gotowe do istniejącego automatycznego wdrożenia przy następnym pushu do main.

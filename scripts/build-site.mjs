@@ -18,11 +18,13 @@ const isRelease=process.argv.includes('--release');
 const renderSeo=await prepareRenderer(new URL('../',import.meta.url));
 const files=[
   ...pages.map(p=>p+'.html'),
-  'landing.css','site-ui.css','styles.css','workspace.css',
-  'language-config.js','language-options.js','translations.js','landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js','runtime-bootstrap.js','release-public.js','site-release.js',
+  'phone-preview.css','landing.css','site-ui.css','theme.css','styles.css','workspace.css',
+  'phone-preview-data.js','phone-preview.js','site-theme.js','language-config.js','language-options.js','translations.js','landing.js','site-shell.js','site-consent.js','site-seo.js','language-picker.js','project-content.js','project-pages.js','legal-document.js','document-language.js','runtime-bootstrap.js','release-public.js','site-release.js',
   'site.webmanifest','CNAME','assets/logo.svg','assets/icons.svg','assets/hero-visual.webp','assets/social/kova.png',
   ...['home','accounts','transactions','budgets','recurring','reports','calendar','notes'].map(id=>`assets/screenshots/offline-demo-${id}.png`),
   'assets/screenshots/kova-work-income.png',
+  ...['income-goal','savings-goal','settings','income-detail','savings-detail'].map(id=>`assets/screenshots/preview-${id}.png`),
+  ...['income-goal','savings-goal','settings','income-detail','savings-detail'].flatMap(id=>[360,720].map(width=>`assets/screenshots/thumbs/preview-${id}-${width}.webp`)),
   ...['offline-demo-home','offline-demo-accounts','offline-demo-transactions','offline-demo-budgets','offline-demo-recurring','offline-demo-reports','offline-demo-calendar','offline-demo-notes','kova-work-income'].flatMap(id=>[360,720].map(width=>`assets/screenshots/thumbs/${id}-${width}.webp`)),
   ...languages.filter(l=>!['pl','en','ru'].includes(l)).map(l=>`locales/${l}.json`),
   ...['privacy-policy','terms-of-service'].flatMap(k=>languages.map(l=>`legal/${k}-${l}.md`))
@@ -60,6 +62,10 @@ for(const name of files) {
       const scripts=[];
       let optimized=rendered.replace(/<script\b[^>]*src="([^"]+)"[^>]*\bdefer[^>]*><\/script>/g,(tag,src)=>{if(src!=='translations.js')scripts.push(src);return '';});
       optimized=optimized.replace('</body>',`<script type="application/json" id="kova-runtime-scripts">${JSON.stringify(scripts)}</script><script src="runtime-bootstrap.js" defer></script>\n</body>`);
+      // Keep the intentionally public support address readable without JS and
+      // prevent Cloudflare's email rewriting from changing the pinned artifact.
+      // https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/
+      optimized=optimized.replace(/(<body\b[^>]*>)/,'$1<!--email_off-->').replace('</body>','<!--/email_off--></body>');
       optimized=optimized.replace('</head>',`<meta name="kova-build" content="${version}">\n</head>`);
       optimized=versionReferences(optimized,assets,version);
       await writeFile(resolve(out,target),optimized);

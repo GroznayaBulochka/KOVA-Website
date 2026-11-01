@@ -47,6 +47,7 @@
   const initialLanguage=document.documentElement.lang in labels?document.documentElement.lang:'pl';
   previousHeader.outerHTML=renderHeader(initialLanguage,page,language.outerHTML);
   const header=document.querySelector('.public-header');
+  window.KOVA_THEME?.mount(header);
   header.querySelector('select').replaceWith(language);
   const nav=header.querySelector('.public-nav'),toggle=header.querySelector('.public-menu');
   const closeMenu=(focus=false)=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');if(focus)toggle.focus();};

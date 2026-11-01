@@ -82,7 +82,7 @@
     "cookieSettings": "설정",
     "navFaq": "FAQ",
     "navStatus": "프로젝트",
-    "galleryHint": "전체 이미지를 보려면 화면을 탭하세요.",
+    "galleryHint": "휴대폰 안의 버튼을 눌러 보세요. “더보기”를 열면 다른 화면을 볼 수 있습니다.",
     "secureLocalCopy": "장치의 암호화된 데이터베이스",
     "projectKicker": "첫 번째 릴리스",
     "projectHeading": "무료 베이스. Premium로 더 많은 정보를 얻으세요.",
@@ -540,10 +540,10 @@
       "status": "Android용 KOVA는 무료 기본 및 선택적 Premium가 포함된 첫 번째 릴리스를 준비하고 있습니다. 범위, 진행 상황 및 출시 채널을 확인하세요. 아직 다운로드할 수 없습니다.",
       "roadmap": "KOVA의 Android 릴리스 준비를 따르십시오: 무료 로컬 베이스, 선택적 Premium, 최종 확인 및 Google Play. 미확인된 출시일은 없습니다.",
       "updates": "KOVA 프로젝트 업데이트: 오프라인 Android 재정, 실제 앱 화면, 데이터 내보내기 및 첫 번째 공개 출시를 향한 진행 상황.",
-      "security": "재무 기록은 휴대전화에 보관됩니다. KOVA가 로컬 암호화, 선택적 Google Play 구매 및 동의 기반 웹사이트 분석을 분리하는 방법을 알아보세요.",
+      "security": "금융 데이터는 휴대폰에 보관됩니다. KOVA의 로컬 데이터 보호에 대해 알아보세요. 웹사이트 분석과 분석용 쿠키는 비활성화되어 있습니다.",
       "contact": "앱 관련 질문, 문제 보고서 및 개인 정보 보호 요청은 KOVA(contact@kovacompass.app)에 문의하세요. 금융 데이터를 보내지 마십시오.",
       "delete-account": "로컬 KOVA 데이터, 프로필 및 내보내기를 관리하고 삭제합니다. Premium 갱신은 Google Play에서 별도로 관리됩니다. 제거해도 취소되지는 않습니다.",
-      "privacy": "KOVA 개인정보 보호정책 초안: 로컬 앱 데이터, 내보내기, 연락처 및 선택적 웹사이트 분석. 게시하기 전에 승인이 필요합니다.",
+      "privacy": "KOVA 개인정보 처리방침 초안: 앱의 로컬 데이터, 내보내기 및 문의. 웹사이트 분석은 비활성화되어 있습니다. 문서는 검토 중입니다.",
       "terms": "초안 KOVA Free 및 Premium 용어: 로컬 기능, 선택적 구독, Google Play 구매 및 복원, 백업 및 추정 한도.",
       "cookies": "KOVA: 이전에 동의했더라도 웹사이트는 Google Analytics나 분석 쿠키를 사용하지 않습니다."
     }

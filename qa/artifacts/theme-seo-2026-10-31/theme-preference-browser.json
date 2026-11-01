@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-10-31T21:01:56.015Z",
+  "preferenceTests": [
+    {
+      "test": "Manual light survives reload with browser dark",
+      "background": "rgb(247, 245, 239)",
+      "summary": "Motyw: Jasny",
+      "theme": "light"
+    },
+    {
+      "test": "Manual preference follows navigation",
+      "background": "rgb(247, 245, 239)",
+      "overflow": false,
+      "theme": "light"
+    },
+    {
+      "test": "Return to automatic follows browser dark",
+      "background": "rgb(16, 22, 17)",
+      "summary": "Motyw: Automatyczny",
+      "theme": null
+    },
+    {
+      "test": "Automatic follows browser change without reload",
+      "background": "rgb(247, 245, 239)",
+      "theme": null
+    },
+    {
+      "test": "Manual dark overrides browser light",
+      "background": "rgb(16, 22, 17)",
+      "theme": "dark"
+    },
+    {
+      "test": "Escape closes the chooser",
+      "closed": true
+    },
+    {
+      "test": "Automatic choice remains after reload",
+      "background": "rgb(16, 22, 17)",
+      "summary": "Motyw: Automatyczny",
+      "theme": null
+    }
+  ],
+  "layoutChecks": [
+    {
+      "lang": "pl",
+      "width": 360,
+      "controls": 1,
+      "label": "Motyw: Automatyczny",
+      "options": [
+        "Automatyczny",
+        "Jasny",
+        "Ciemny"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "uk",
+      "width": 390,
+      "controls": 1,
+      "label": "Тема: Автоматично",
+      "options": [
+        "Автоматично",
+        "Світла",
+        "Темна"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "controls": 1,
+      "label": "المظهر: تلقائي",
+      "options": [
+        "تلقائي",
+        "فاتح",
+        "داكن"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "de",
+      "width": 390,
+      "controls": 1,
+      "label": "Design: Automatisch",
+      "options": [
+        "Automatisch",
+        "Hell",
+        "Dunkel"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "ta",
+      "width": 360,
+      "controls": 1,
+      "label": "தோற்றம்: தானியங்கி",
+      "options": [
+        "தானியங்கி",
+        "வெளிர்",
+        "அடர்"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "pl",
+      "width": 768,
+      "controls": 1,
+      "label": "Motyw: Automatyczny",
+      "options": [
+        "Automatyczny",
+        "Jasny",
+        "Ciemny"
+      ],
+      "overflow": false
+    },
+    {
+      "lang": "pl",
+      "width": 1440,
+      "controls": 1,
+      "label": "Motyw: Automatyczny",
+      "options": [
+        "Automatyczny",
+        "Jasny",
+        "Ciemny"
+      ],
+      "overflow": false
+    }
+  ]
+}

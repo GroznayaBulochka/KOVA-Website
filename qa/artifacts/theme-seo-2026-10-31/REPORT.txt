@@ -1,0 +1,25 @@
+KOVA — motywy i audyt SEO, 2026-10-31
+
+ZMIANY
+Automatyczny jasny i ciemny motyw dla wszystkich 11 publicznych typów stron i 27 języków. Wspólny theme.css, prefers-color-scheme, kolor interfejsu przeglądarki dobrany przez media. Zmiana preferencji działa bez przeładowania i nie zapisuje cookies ani localStorage. Oryginalne zrzuty aplikacji pozostają niezmienione.
+Poprawiono opisy SEO bezpieczeństwa i polityki prywatności w 27 językach: analityka strony jest wyłączona, dokument prywatności jest projektem. Tytuły, canonical, hreflang, Open Graph, Twitter i JSON-LD pozostają generowane dla konkretnego języka.
+
+WYNIKI
+npm run build + npm test: PASS, 33 grupy, w tym 898 kontroli SEO i 736 kontroli wersjonowania/publikacji.
+npm run build:public: PASS, 432 plików, wersja 8f7bf529ed18e27baafa.
+Audyt rzeczywistego buildu produkcyjnego: PASS, 297 stron, 189 adresów w sitemap, 27 języków.
+Audyt HTTP publicznej domeny: PASS, 297 stron, 189 adresów w sitemap, zero wykrytych blokad indeksowania stron publicznych. Zarejestrowano 2026-10-31T19:32:52.745Z. Publiczna wersja w czasie audytu: b38e54d959242f0a6e0c.
+Dokumenty privacy/terms/cookies oraz 404 mają celowe noindex; raw legal sources również chronione HTTP noindex. Nie usuwano tych ograniczeń.
+Testy Browser Use: 81 przypadków. Wszystkie 27 stron głównych w obu motywach, 11 typów stron PL, szerokości 360/390/768/1440. Brak poziomego przepełnienia i wykrytych błędów kontrastu na jednolitych tłach. Fotografie i gradienty oceniono wizualnie. Preferencje silnika przeglądarki testowano przez color-scheme ramki; rzeczywista CSS produkcyjna, bez zamiany reguł. Nie jest to test fizycznego telefonu ani pełny audyt WCAG. light-dark-comparison.png pokazuje finalny build.
+
+OSTATNIE WDROŻENIE
+Run https://github.com/GroznayaBulochka/KOVA-Website/actions/runs/41028900881 zakończył etap publikacji poprawnie; nie przeszedł późniejszej weryfikacji. Log zawierał 160 różnic bajtów i 2 odpowiedzi 503. Obecny audyt potwierdził Cloudflare email-decode na 162 stronach; publiczny manifest i mapa witryny są dostępne.
+Dodano udokumentowane znaczniki email_off w wygenerowanym body, aby publiczny adres wsparcia był dostępny bez przerabiania HTML. Weryfikator ponawia wyłącznie przejściowe odpowiedzi 429/5xx do trzech prób. Nadal wymaga zgodności hashów; brak lub stare pliki i utrzymujące się błędy powodują FAIL. Regresje przechodzą. Skuteczność tej poprawki na Cloudflare zostanie potwierdzona przez workflow po następnym pushu.
+Nie zmieniano ustawień konta Cloudflare/GitHub, nie włączano GA4. Nie wykonano commitu, push ani publikacji w tym zadaniu.
+
+ZAKRES SEO
+Sprawdzono dostępność HTTP, robots.txt, sitemap, canonical, komplet wzajemnych hreflang, x-default, title, description, Open Graph/Twitter, JSON-LD, statyczną treść bez JS, noindex i odpowiedź 404 na nieistniejący adres. Wyniki nie potwierdzają faktycznego indeksowania ani pozycji w Google — do tego potrzebny jest Google Search Console. Nie jest to recenzja językowa native speakerów wszystkich tłumaczeń.
+
+ŹRÓDŁA TECHNICZNE
+https://developers.google.com/search/docs/specialty/international/localized-versions
+https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/

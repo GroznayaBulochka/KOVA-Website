@@ -82,7 +82,7 @@
     "cookieSettings": "設定",
     "navFaq": "常見問題",
     "navStatus": "項目",
-    "galleryHint": "㩒一下螢幕就可以睇到全圖。",
+    "galleryHint": "撳手機入面嘅按鈕，打開「更多」睇其他畫面。",
     "secureLocalCopy": "你部裝置上面嘅加密資料庫",
     "projectKicker": "第一個發佈",
     "projectHeading": "一個免費嘅基地。更多關於 Premium 。",
@@ -540,10 +540,10 @@
       "status": "針對 Android 嘅 KOVA 正準備緊一個免費底座同可選嘅 Premium 嘅第一版。睇下範圍、進度同推出渠道。下載仲未有得用。",
       "roadmap": "跟住準備 KOVA 嘅 Android 發佈：一個免費嘅本地基地、可選嘅 Premium 、最後檢查同埋 Google Play 。冇未確認嘅推出日期。",
       "updates": "KOVA 項目更新：離線 Android 財務、真實嘅應用程式畫面、資料匯出同埋第一次公開發佈嘅進度。",
-      "security": "財務記錄會保留喺你部手機上面。瞭解 KOVA 點樣將本地加密、可選嘅 Google Play 購買同埋基於同意嘅網站分析分開。",
+      "security": "財務資料留喺你部手機。了解 KOVA 點樣喺本機保護資料。網站分析同分析 Cookie 已停用。",
       "contact": "如果有應用程式問題、問題報告同私隱要求，請喺 contact@kovacompass.app 聯絡 KOVA 。唔該唔好傳送財務資料。",
       "delete-account": "管理同刪除本地 KOVA 數據、個人檔案同匯出。 Premium 續約係喺 Google Play 單獨管理；卸載唔會取消佢。",
-      "privacy": "草擬 KOVA 私隱權政策：本地應用程式資料、匯出、聯絡人同埋可選嘅網站分析。出版前需要核准。",
+      "privacy": "KOVA 私隱政策草案：應用程式本機資料、匯出同聯絡。網站分析已停用，文件正接受審核。",
       "terms": "KOVA Free 同 Premium 條款草案：本地功能、可選訂閱、 Google Play 購買同還原、備份同估算嘅限制。",
       "cookies": "KOVA: 網站唔會啟動 Google Analytics 或分析 Cookie，就算你之前同意咗都一樣。"
     }

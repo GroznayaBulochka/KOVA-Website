@@ -82,7 +82,7 @@
     "cookieSettings": "Paramètres",
     "navFaq": "FAQ",
     "navStatus": "Projet",
-    "galleryHint": "Appuyez sur un écran pour voir l'image complète.",
+    "galleryHint": "Appuyez sur les boutons du téléphone. Ouvrez «Plus» pour découvrir les autres écrans.",
     "secureLocalCopy": "Base de données cryptée sur votre appareil",
     "projectKicker": "La première version",
     "projectHeading": "Une base libre. Plus avec Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA pour Android prépare une première version avec une base gratuite et Premium en option. Consultez la portée, la progression et les canaux de lancement. Les téléchargements ne sont pas encore disponibles.",
       "roadmap": "Suivez la préparation de la version Android de KOVA : une base locale gratuite, Premium en option, les vérifications finales et Google Play. Aucune date de lancement non confirmée.",
       "updates": "KOVA mises à jour du projet : finances Android hors ligne, écrans d'application authentiques, exportation de données et progression vers la première version publique.",
-      "security": "Les dossiers financiers restent sur votre téléphone. Découvrez comment KOVA sépare le cryptage local, les achats Google Play facultatifs et l'analyse de site Web basée sur le consentement.",
+      "security": "Vos données financières restent sur votre téléphone. Découvrez la protection locale dans KOVA. Les analyses du site et leurs cookies sont désactivés.",
       "contact": "Contactez KOVA à contact@kovacompass.app pour toute question sur l'application, les rapports de problèmes et les demandes de confidentialité. Veuillez ne pas envoyer de données financières.",
       "delete-account": "Gérez et supprimez les données, profils et exportations locales KOVA. Le renouvellement Premium est géré séparément dans Google Play ; la désinstallation ne l'annule pas.",
-      "privacy": "Projet de politique de confidentialité KOVA : données de l'application locale, exportations, contacts et analyses facultatives du site Web. L’approbation est requise avant la publication.",
+      "privacy": "Projet de politique de confidentialité KOVA : données locales, exportation et contact. Les analyses du site sont désactivées. Document en cours de révision.",
       "terms": "Projets de conditions KOVA Free et Premium : fonctionnalités locales, abonnement optionnel, achat et restauration de Google Play, sauvegardes et limites des estimations.",
       "cookies": "KOVA: Le site ne lance ni Google Analytics ni cookies de mesure, même après un consentement antérieur."
     }

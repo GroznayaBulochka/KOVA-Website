@@ -82,7 +82,7 @@
     "cookieSettings": "设置",
     "navFaq": "常见问题解答",
     "navStatus": "项目",
-    "galleryHint": "点击屏幕即可查看完整图像。",
+    "galleryHint": "点击手机内的按钮。打开“更多”探索其他页面。",
     "secureLocalCopy": "您设备上的加密数据库",
     "projectKicker": "第一次发布",
     "projectHeading": "一个免费基地。 Premium 的更多内容。",
@@ -540,10 +540,10 @@
       "status": "KOVA for Android 正在准备带有免费基础和可选 Premium 的第一个版本。查看范围、进度和启动渠道。尚不提供下载。",
       "roadmap": "遵循 KOVA 的 Android 版本的准备工作：免费的本地基础、可选的 Premium、最终检查和 Google Play。没有未确认的发布日期。",
       "updates": "KOVA 项目更新：离线Android 财务、真实的应用屏幕、数据导出和首次公开发布的进展。",
-      "security": "财务记录保留在您的手机上。了解 KOVA 如何分离本地加密、可选的 Google Play 购买和基于同意的网站分析。",
+      "security": "财务数据保留在您的手机上。了解 KOVA 如何在本地保护数据。网站分析和分析 Cookie 已停用。",
       "contact": "有关应用程序问题、问题报告和隐私请求，请通过 contact@kovacompass.app 联系 KOVA。请不要发送财务数据。",
       "delete-account": "管理和删除本地 KOVA 数据、配置文件和导出。 Premium续费在Google Play中单独管理；卸载并不会取消它。",
-      "privacy": "KOVA 隐私政策草案：本地应用数据、导出、联系方式和可选网站分析。出版前需获得批准。",
+      "privacy": "KOVA 隐私政策草案：应用本地数据、导出和联系。网站分析已停用，文档正在审核中。",
       "terms": "KOVA Free 和 Premium 条款草案：本地功能、可选订阅、Google Play 购买和恢复、备份和估计限制。",
       "cookies": "KOVA: 网站不会运行 Google Analytics 或分析 Cookie，即使您之前已同意。"
     }

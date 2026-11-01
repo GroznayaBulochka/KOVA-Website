@@ -82,7 +82,7 @@
     "cookieSettings": "Mipangilio",
     "navFaq": "Maswali Yanayoulizwa Mara kwa Mara",
     "navStatus": "Mradi",
-    "galleryHint": "Gusa skrini ili kuona picha kamili.",
+    "galleryHint": "Gusa vitufe ndani ya simu. Fungua “Zaidi” ili kuona skrini nyingine.",
     "secureLocalCopy": "Hifadhidata iliyosimbwa kwa njia fiche kwenye kifaa chako",
     "projectKicker": "Toleo la kwanza",
     "projectHeading": "Msingi wa bure. Zaidi kwa Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA ya Android inatayarisha toleo la kwanza lenye msingi usiolipishwa na Premium ya hiari. Angalia upeo, maendeleo na uzinduzi wa vituo. Vipakuliwa bado havipatikani.",
       "roadmap": "Fuata utayarishaji wa toleo la KOVA la Android: msingi wa ndani usiolipishwa, Premium ya hiari, ukaguzi wa mwisho na Google Play. Hakuna tarehe ya uzinduzi ambayo haijathibitishwa.",
       "updates": "KOVA masasisho ya mradi: nje ya mtandao Android fedha, skrini halisi za programu, uhamishaji wa data na maendeleo kuelekea toleo la kwanza la umma.",
-      "security": "Rekodi za fedha hukaa kwenye simu yako. Jifunze jinsi KOVA hutenganisha usimbaji fiche wa ndani, ununuzi wa hiari wa Google Play na uchanganuzi wa tovuti unaotegemea idhini.",
+      "security": "Data za fedha zinabaki kwenye simu yako. Jifunze kuhusu ulinzi wa data za ndani katika KOVA. Uchanganuzi wa tovuti na vidakuzi vyake vimezimwa.",
       "contact": "Wasiliana na KOVA kwa contact@kovacompass.app kwa maswali ya programu, ripoti za toleo na maombi ya faragha. Tafadhali usitume data ya kifedha.",
       "delete-account": "Dhibiti na ufute data ya ndani ya KOVA, wasifu na mauzo ya nje. Upyaji wa Premium unasimamiwa tofauti katika Google Play; kuiondoa hakughairi.",
-      "privacy": "Rasimu ya KOVA sera ya faragha: data ya programu ya ndani, usafirishaji, mawasiliano na uchanganuzi wa hiari wa tovuti. Idhini inahitajika kabla ya kuchapishwa.",
+      "privacy": "Rasimu ya sera ya faragha ya KOVA: data za ndani, uhamishaji wa data na mawasiliano. Uchanganuzi wa tovuti umezimwa. Hati inakaguliwa.",
       "terms": "Rasimu ya masharti ya KOVA Free na Premium: vipengele vya ndani, usajili wa hiari, ununuzi na urejeshaji wa Google Play, hifadhi rudufu na mipaka ya makadirio.",
       "cookies": "KOVA: Tovuti haiendeshi Google Analytics wala vidakuzi vya uchanganuzi, hata kama ulitoa idhini hapo awali."
     }

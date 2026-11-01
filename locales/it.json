@@ -82,7 +82,7 @@
     "cookieSettings": "Impostazioni",
     "navFaq": "Domande frequenti",
     "navStatus": "Progetto",
-    "galleryHint": "Tocca una schermata per vedere l'immagine completa.",
+    "galleryHint": "Tocca i pulsanti nel telefono. Apri «Altro» per esplorare le altre schermate.",
     "secureLocalCopy": "Database crittografato sul tuo dispositivo",
     "projectKicker": "La prima uscita",
     "projectHeading": "Una base libera. Di più con Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA per Android sta preparando una prima versione con una base gratuita e Premium opzionale. Visualizza l'ambito, i progressi e i canali di lancio. I download non sono ancora disponibili.",
       "roadmap": "Segui la preparazione della versione Android di KOVA: una base locale gratuita, Premium opzionale, controlli finali e Google Play. Nessuna data di lancio non confermata.",
       "updates": "Aggiornamenti del progetto KOVA: finanze Android offline, schermate autentiche delle app, esportazione dei dati e progressi verso la prima versione pubblica.",
-      "security": "I registri finanziari rimangono sul tuo telefono. Scopri come KOVA separa la crittografia locale, gli acquisti Google Play opzionali e l'analisi dei siti web basata sul consenso.",
+      "security": "I dati finanziari restano sul tuo telefono. Scopri la protezione locale dei dati in KOVA. Le analisi del sito e i cookie analitici sono disattivati.",
       "contact": "Contatta KOVA all'indirizzo contact@kovacompass.app per domande sull'app, segnalazioni di problemi e richieste sulla privacy. Si prega di non inviare dati finanziari.",
       "delete-account": "Gestisci ed elimina dati, profili ed esportazioni locali KOVA. Il rinnovo Premium è gestito separatamente in Google Play; la disinstallazione non lo annulla.",
-      "privacy": "Bozza dell'informativa sulla privacy KOVA: dati delle app locali, esportazioni, contatti e analisi facoltative del sito web. Prima della pubblicazione è necessaria l'approvazione.",
+      "privacy": "Bozza dell’informativa sulla privacy KOVA: dati locali, esportazione e contatti. Le analisi del sito sono disattivate. Il documento è in revisione.",
       "terms": "Bozza dei termini KOVA Free e Premium: funzionalità locali, abbonamento opzionale, acquisto e ripristino Google Play, backup e limiti dei preventivi.",
       "cookies": "KOVA: Il sito non avvia Google Analytics né cookie analitici, anche se hai dato il consenso in precedenza."
     }

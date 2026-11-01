@@ -4,16 +4,23 @@ import {pathToFileURL} from 'node:url';
 import {resolve} from 'node:path';
 import {sha256} from './asset-versioning.mjs';
 
-export async function verifyDeployment(origin,expected,{request=fetch}={}) {
+export async function verifyDeployment(origin,expected,{request=fetch,pause=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}) {
  const base=new URL(origin);
  if(!['http:','https:'].includes(base.protocol)||base.username||base.password||base.pathname!=='/'||base.search||base.hash)throw Error('Use a plain HTTP(S) origin');
  const report={origin:base.origin,expectedVersion:expected.version,mode:expected.mode,checkedAt:new Date().toISOString(),checks:[],failures:[],warnings:[]};
  async function inspect(path,pin,versioned=false){
   const url=new URL(path,base);if(versioned)url.searchParams.set('v',expected.version);
   try{
-   const response=await request(url,{headers:{'Cache-Control':'no-cache','User-Agent':'KOVA-deployment-check/1.0'},signal:AbortSignal.timeout(20000)});
+   let response,attempt;
+   // A transient CDN 503 must not turn a completed deployment into a failure.
+   // Persistent errors and any content mismatch still fail the strict hash check.
+   for(attempt=1;attempt<=3;attempt++){
+    response=await request(url,{headers:{'Cache-Control':'no-cache','User-Agent':'KOVA-deployment-check/1.0'},signal:AbortSignal.timeout(20000)});
+    if(![429,500,502,503,504].includes(response.status)||attempt===3)break;
+    await response.arrayBuffer();await pause(attempt*1000);
+   }
    const bytes=Buffer.from(await response.arrayBuffer());
-   const row={path,url:String(url),status:response.status,sha256:sha256(bytes),cacheControl:response.headers.get('cache-control'),etag:response.headers.get('etag'),age:response.headers.get('age')};
+   const row={path,url:String(url),status:response.status,attempts:attempt,sha256:sha256(bytes),cacheControl:response.headers.get('cache-control'),etag:response.headers.get('etag'),age:response.headers.get('age')};
    report.checks.push(row);
    const validStatus=response.ok||(path.startsWith('404')&&response.status===404);
    if(!validStatus||row.sha256!==pin.sha256)report.failures.push({path,status:row.status,reason:validStatus?'Content differs from the prepared artifact':'HTTP error'});

@@ -82,7 +82,7 @@
     "cookieSettings": "tetapan",
     "navFaq": "Soalan Lazim",
     "navStatus": "Projek",
-    "galleryHint": "Ketik skrin untuk melihat imej penuh.",
+    "galleryHint": "Ketik butang dalam telefon. Buka “Lagi” untuk meneroka skrin lain.",
     "secureLocalCopy": "Pangkalan data yang disulitkan pada peranti anda",
     "projectKicker": "Keluaran pertama",
     "projectHeading": "Pangkalan percuma. Lagi dengan Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA untuk Android sedang menyediakan keluaran pertama dengan asas percuma dan Premium pilihan. Lihat skop, kemajuan dan saluran pelancaran. Muat turun belum tersedia lagi.",
       "roadmap": "Ikuti penyediaan keluaran Android KOVA: pangkalan tempatan percuma, Premium pilihan, semakan akhir dan Google Play. Tiada tarikh pelancaran yang belum disahkan.",
       "updates": "KOVA kemas kini projek: luar talian Android kewangan, skrin apl tulen, eksport data dan kemajuan ke arah keluaran awam yang pertama.",
-      "security": "Rekod kewangan kekal pada telefon anda. Ketahui cara KOVA memisahkan penyulitan tempatan, pembelian Google Play pilihan dan analitis tapak web berasaskan persetujuan.",
+      "security": "Data kewangan kekal pada telefon anda. Ketahui perlindungan data setempat dalam KOVA. Analitik laman dan kuki analitik dinyahaktifkan.",
       "contact": "Hubungi KOVA di contact@kovacompass.app untuk pertanyaan apl, laporan isu dan permintaan privasi. Tolong jangan hantar data kewangan.",
       "delete-account": "Urus dan padamkan data, profil dan eksport KOVA setempat. Pembaharuan Premium diuruskan secara berasingan dalam Google Play; menyahpasang tidak membatalkannya.",
-      "privacy": "Draf dasar privasi KOVA: data apl tempatan, eksport, hubungan dan analitis tapak web pilihan. Kelulusan diperlukan sebelum diterbitkan.",
+      "privacy": "Draf dasar privasi KOVA: data aplikasi setempat, eksport dan hubungan. Analitik laman dinyahaktifkan. Dokumen sedang disemak.",
       "terms": "Draf terma KOVA Free dan Premium: ciri tempatan, langganan pilihan, pembelian dan pemulihan Google Play, sandaran dan had anggaran.",
       "cookies": "KOVA: Laman web tidak menjalankan Google Analytics atau kuki analitik, walaupun anda pernah memberikan persetujuan."
     }

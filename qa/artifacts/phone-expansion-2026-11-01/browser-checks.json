@@ -1,0 +1,837 @@
+{
+  "routes": [
+    {
+      "caption": "Śledź postęp realizacji celów przychodów.",
+      "id": "income-goal",
+      "imageLoaded": true,
+      "title": "Cel przychodu"
+    },
+    {
+      "caption": "Śledź postęp realizacji celów przychodów.",
+      "id": "income-detail",
+      "imageLoaded": true,
+      "title": "Cel przychodu — Szczegóły"
+    },
+    {
+      "caption": "Śledź postęp realizacji celów przychodów.",
+      "id": "income-goal",
+      "imageLoaded": true,
+      "title": "Cel przychodu"
+    },
+    {
+      "caption": "Ten cel oszczędnościowy śledzi zaksięgowane przychody kategorii. Nie przedstawia salda osobnego konta oszczędnościowego.",
+      "id": "savings-goal",
+      "imageLoaded": true,
+      "title": "Cel oszczędności"
+    },
+    {
+      "caption": "Ten cel oszczędnościowy śledzi zaksięgowane przychody kategorii. Nie przedstawia salda osobnego konta oszczędnościowego.",
+      "id": "savings-detail",
+      "imageLoaded": true,
+      "title": "Cel oszczędności — Szczegóły"
+    },
+    {
+      "caption": "Ten cel oszczędnościowy śledzi zaksięgowane przychody kategorii. Nie przedstawia salda osobnego konta oszczędnościowego.",
+      "id": "savings-goal",
+      "imageLoaded": true,
+      "title": "Cel oszczędności"
+    },
+    {
+      "caption": "Plan wydatków i bieżące wykorzystanie",
+      "id": "budgets",
+      "imageLoaded": true,
+      "title": "Budżety i limity"
+    },
+    {
+      "route": "settings → notes",
+      "pass": true
+    }
+  ],
+  "menu": [
+    {
+      "id": "home",
+      "label": "Finanse na dziś"
+    },
+    {
+      "id": "accounts",
+      "label": "Konta"
+    },
+    {
+      "id": "transactions",
+      "label": "Transakcje"
+    },
+    {
+      "id": "budgets",
+      "label": "Budżety i limity"
+    },
+    {
+      "id": "recurring",
+      "label": "Stałe opłaty"
+    },
+    {
+      "id": "reports",
+      "label": "Raporty · Pro"
+    },
+    {
+      "id": "calendar",
+      "label": "Kalendarz finansowy · Pro"
+    },
+    {
+      "id": "notes",
+      "label": "Notatki"
+    },
+    {
+      "id": "work",
+      "label": "Praca i dochód"
+    },
+    {
+      "id": "income-goal",
+      "label": "Cel przychodu"
+    },
+    {
+      "id": "savings-goal",
+      "label": "Cel oszczędności"
+    },
+    {
+      "id": "settings",
+      "label": "Ustawienia"
+    }
+  ],
+  "images": [
+    {
+      "id": "home",
+      "loaded": true,
+      "title": "Finanse na dziś"
+    },
+    {
+      "id": "accounts",
+      "loaded": true,
+      "title": "Konta"
+    },
+    {
+      "id": "transactions",
+      "loaded": true,
+      "title": "Transakcje"
+    },
+    {
+      "id": "budgets",
+      "loaded": true,
+      "title": "Budżety i limity"
+    },
+    {
+      "id": "recurring",
+      "loaded": true,
+      "title": "Stałe opłaty"
+    },
+    {
+      "id": "reports",
+      "loaded": true,
+      "title": "Raporty · Pro"
+    },
+    {
+      "id": "calendar",
+      "loaded": true,
+      "title": "Kalendarz finansowy · Pro"
+    },
+    {
+      "id": "notes",
+      "loaded": true,
+      "title": "Notatki"
+    },
+    {
+      "id": "work",
+      "loaded": true,
+      "title": "Praca i dochód"
+    },
+    {
+      "id": "income-goal",
+      "loaded": true,
+      "title": "Cel przychodu"
+    },
+    {
+      "id": "savings-goal",
+      "loaded": true,
+      "title": "Cel oszczędności"
+    },
+    {
+      "id": "settings",
+      "loaded": true,
+      "title": "Ustawienia"
+    }
+  ],
+  "locales": [
+    {
+      "dir": "ltr",
+      "language": "pl",
+      "menuLabels": [
+        "Finanse na dziś",
+        "Konta",
+        "Transakcje",
+        "Budżety i limity",
+        "Stałe opłaty",
+        "Raporty · Pro",
+        "Kalendarz finansowy · Pro",
+        "Notatki",
+        "Praca i dochód",
+        "Cel przychodu",
+        "Cel oszczędności",
+        "Ustawienia"
+      ],
+      "detail": {
+        "caption": "Ten cel oszczędnościowy śledzi zaksięgowane przychody kategorii. Nie przedstawia salda osobnego konta oszczędnościowego.",
+        "loaded": true,
+        "title": "Cel oszczędności — Szczegóły"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "zh",
+      "menuLabels": [
+        "您今天的财务状况",
+        "账户",
+        "交易",
+        "预算和限制",
+        "定期付款",
+        "报告 · Pro",
+        "财经日历 · Pro",
+        "笔记",
+        "工作与收入",
+        "收入目标",
+        "储蓄目标",
+        "设置"
+      ],
+      "detail": {
+        "caption": "此储蓄目标跟踪类别中的已入账收入，并非独立储蓄账户余额。",
+        "loaded": true,
+        "title": "储蓄目标 — 详情"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "yue",
+      "menuLabels": [
+        "你今日嘅財務狀況",
+        "帳戶",
+        "交易",
+        "預算同限制",
+        "定期付款",
+        "報告 · Pro",
+        "財務日曆 · Pro",
+        "筆記",
+        "工作同收入",
+        "收入目標",
+        "儲蓄目標",
+        "設定"
+      ],
+      "detail": {
+        "caption": "呢個儲蓄目標會追蹤佢嘅類別入面嘅預訂收入。佢唔代表一個獨立嘅儲蓄戶口餘額。",
+        "loaded": true,
+        "title": "儲蓄目標 — 詳情"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "es",
+      "menuLabels": [
+        "Tus finanzas hoy",
+        "Cuentas",
+        "Transacciones",
+        "Presupuestos y límites",
+        "Pagos recurrentes",
+        "Informes · Pro",
+        "Calendario financiero · Pro",
+        "Notas",
+        "Trabajo e ingresos",
+        "Meta de ingresos",
+        "Meta de ahorro",
+        "Ajustes"
+      ],
+      "detail": {
+        "caption": "Esta meta registra ingresos contabilizados en su categoría. No es el saldo de una cuenta de ahorro independiente.",
+        "loaded": true,
+        "title": "Meta de ahorro — Detalles"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "en",
+      "menuLabels": [
+        "Your finances today",
+        "Accounts",
+        "Transactions",
+        "Budgets and limits",
+        "Recurring payments",
+        "Reports · Pro",
+        "Financial calendar · Pro",
+        "Notes",
+        "Work & Income",
+        "Income goal",
+        "Savings goal",
+        "Settings"
+      ],
+      "detail": {
+        "caption": "This savings goal tracks booked income in its category. It does not represent a separate savings account balance.",
+        "loaded": true,
+        "title": "Savings goal — Details"
+      }
+    },
+    {
+      "dir": "rtl",
+      "language": "ar",
+      "menuLabels": [
+        "اموالك اليوم",
+        "الحسابات",
+        "المعاملات",
+        "الميزانيات والحدود",
+        "المدفوعات المتكررة",
+        "التقارير · Pro",
+        "التقويم المالي · Pro",
+        "ملحوظات",
+        "العمل والدخل",
+        "هدف الدخل",
+        "هدف الادخار",
+        "الإعدادات"
+      ],
+      "detail": {
+        "caption": "يتتبع هدف التوفير هذا الدخل المحجوز في فئته. ولا يمثل رصيد حساب توفير منفصل.",
+        "loaded": true,
+        "title": "هدف الادخار — التفاصيل"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "hi",
+      "menuLabels": [
+        "आज आपका वित्त",
+        "लेखा",
+        "लेन-देन",
+        "बजट और सीमाएँ",
+        "आवर्ती भुगतान",
+        "रिपोर्ट · Pro",
+        "वित्तीय कैलेंडर · Pro",
+        "टिप्पणियाँ",
+        "कार्य एवं आय",
+        "आय लक्ष्य",
+        "बचत लक्ष्य",
+        "सेटिंग्स"
+      ],
+      "detail": {
+        "caption": "यह बचत लक्ष्य अपनी श्रेणी में बुक की गई आय को ट्रैक करता है। यह एक अलग बचत खाते की शेष राशि का प्रतिनिधित्व नहीं करता है।",
+        "loaded": true,
+        "title": "बचत लक्ष्य — विवरण"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "bn",
+      "menuLabels": [
+        "আজ আপনার আর্থিক",
+        "হিসাব",
+        "লেনদেন",
+        "বাজেট এবং সীমা",
+        "পুনরাবৃত্ত পেমেন্ট",
+        "রিপোর্ট · Pro",
+        "আর্থিক ক্যালেন্ডার · Pro",
+        "নোট",
+        "কাজ এবং আয়",
+        "আয় লক্ষ্য",
+        "সঞ্চয় লক্ষ্য",
+        "সেটিংস"
+      ],
+      "detail": {
+        "caption": "এই সঞ্চয় লক্ষ্য ট্র্যাক তার বিভাগে আয় বুক করা. এটি একটি পৃথক সেভিংস অ্যাকাউন্ট ব্যালেন্স প্রতিনিধিত্ব করে না।",
+        "loaded": true,
+        "title": "সঞ্চয় লক্ষ্য — বিস্তারিত"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "pt",
+      "menuLabels": [
+        "Suas finanças hoje",
+        "Contas",
+        "Transações",
+        "Orçamentos e limites",
+        "Pagamentos recorrentes",
+        "Relatórios · Pro",
+        "Calendário financeiro · Pro",
+        "Notas",
+        "Trabalho e Renda",
+        "Meta de receita",
+        "Meta de economia",
+        "Configurações"
+      ],
+      "detail": {
+        "caption": "Essa meta de poupança acompanha a receita contabilizada em sua categoria. Não representa um saldo de conta poupança separado.",
+        "loaded": true,
+        "title": "Meta de economia — Detalhes"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "ru",
+      "menuLabels": [
+        "Финансы сегодня",
+        "Счета",
+        "Транзакции",
+        "Бюджеты и лимиты",
+        "Регулярные платежи",
+        "Отчёты · Pro",
+        "Финансовый календарь · Pro",
+        "Заметки",
+        "Работа и доход",
+        "Цель дохода",
+        "Цель сбережений",
+        "Настройки"
+      ],
+      "detail": {
+        "caption": "Эта цель учитывает проведённые доходы категории, а не баланс отдельного накопительного счёта.",
+        "loaded": true,
+        "title": "Цель сбережений — Подробнее"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "uk",
+      "menuLabels": [
+        "Ваші фінанси сьогодні",
+        "Облікові записи",
+        "транзакції",
+        "Бюджети та ліміти",
+        "Регулярні платежі",
+        "Звіти · Pro",
+        "Фінансовий календар · Pro",
+        "Примітки",
+        "Робота та дохід",
+        "Мета доходу",
+        "Мета економії",
+        "Налаштування"
+      ],
+      "detail": {
+        "caption": "Ця ціль заощаджень відстежує облікований дохід у своїй категорії. Він не є окремим балансом ощадного рахунку.",
+        "loaded": true,
+        "title": "Мета економії — Докладніше"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "ja",
+      "menuLabels": [
+        "今日のあなたの財政",
+        "アカウント",
+        "取引",
+        "予算と制限",
+        "定期的な支払い",
+        "レポート · Pro",
+        "財務カレンダー · Pro",
+        "注意事項",
+        "仕事と収入",
+        "収入目標",
+        "貯蓄目標",
+        "設定"
+      ],
+      "detail": {
+        "caption": "この貯蓄目標は、そのカテゴリで計上された収入を追跡します。これは、個別の普通預金口座の残高を表すものではありません。",
+        "loaded": true,
+        "title": "貯蓄目標 — 詳細"
+      }
+    },
+    {
+      "dir": "rtl",
+      "language": "pnb",
+      "menuLabels": [
+        "اج تہاڈے مالی معاملات",
+        "اکاؤنٹس",
+        "لین دین",
+        "بجٹ تے حداں",
+        "بار بار آن آلیاں ادائیگیاں",
+        "رپورٹاں · Pro",
+        "مالی کیلنڈر · Pro",
+        "نوٹ",
+        "کم تے آمدنی",
+        "آمدنی دا مقصد",
+        "بچت دا مقصد",
+        "ترتیبات"
+      ],
+      "detail": {
+        "caption": "ایہ بچت دا مقصد اپنڑی زمرے چ بک کیتی گئی آمدنی نو ٹریک کردا اے۔ ایہ اک وکھرے بچت اکاؤنٹ دے بیلنس دی نمائندگی نئیں کردا۔",
+        "loaded": true,
+        "title": "بچت دا مقصد — تفصیل"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "jv",
+      "menuLabels": [
+        "Keuangan sampeyan dina iki",
+        "Akun",
+        "Transaksi",
+        "Anggaran lan watesan",
+        "Pembayaran bola-bali",
+        "Laporan · Pro",
+        "Tanggalan finansial · Pro",
+        "Cathetan",
+        "Kerja & Penghasilan",
+        "gol income",
+        "Tujuan tabungan",
+        "Setelan"
+      ],
+      "detail": {
+        "caption": "goal tabungan iki nglacak income dipesen ing kategori sawijining. Iku ora makili imbangan akun tabungan kapisah.",
+        "loaded": true,
+        "title": "Tujuan tabungan — Rincian"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "ko",
+      "menuLabels": [
+        "오늘의 재정",
+        "계정",
+        "거래",
+        "예산 및 한도",
+        "반복 결제",
+        "보고서 · Pro",
+        "재무 캘린더 · Pro",
+        "메모",
+        "일과 소득",
+        "소득목표",
+        "저축 목표",
+        "설정"
+      ],
+      "detail": {
+        "caption": "이 저축 목표는 해당 카테고리에서 예약된 수입을 추적합니다. 별도의 저축계좌 잔액을 나타내지 않습니다.",
+        "loaded": true,
+        "title": "저축 목표 — 자세히"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "de",
+      "menuLabels": [
+        "Ihre Finanzen heute",
+        "Konten",
+        "Transaktionen",
+        "Budgets und Grenzen",
+        "Wiederkehrende Zahlungen",
+        "Berichte · Pro",
+        "Finanzkalender · Pro",
+        "Notizen",
+        "Arbeit & Einkommen",
+        "Einkommensziel",
+        "Sparziel",
+        "Einstellungen"
+      ],
+      "detail": {
+        "caption": "Dieses Sparziel erfasst die gebuchten Einnahmen in seiner Kategorie. Es handelt sich nicht um einen separaten Sparkontostand.",
+        "loaded": true,
+        "title": "Sparziel — Details"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "fr",
+      "menuLabels": [
+        "Vos finances aujourd'hui",
+        "Comptes",
+        "Opérations",
+        "Budgets et limites",
+        "Paiements récurrents",
+        "Rapports · Pro",
+        "Calendrier financier · Pro",
+        "Remarques",
+        "Travail et revenu",
+        "Objectif de revenu",
+        "Objectif d'économies",
+        "Paramètres"
+      ],
+      "detail": {
+        "caption": "Cet objectif d'épargne suit les revenus comptabilisés dans sa catégorie. Il ne représente pas un solde de compte d’épargne distinct.",
+        "loaded": true,
+        "title": "Objectif d'économies — Détails"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "te",
+      "menuLabels": [
+        "ఈ రోజు మీ ఆర్థిక స్థితి",
+        "ఖాతాలు",
+        "లావాదేవీలు",
+        "బడ్జెట్లు మరియు పరిమితులు",
+        "పునరావృత చెల్లింపులు",
+        "నివేదికలు · Pro",
+        "ఆర్థిక క్యాలెండర్ · Pro",
+        "గమనికలు",
+        "పని & ఆదాయం",
+        "ఆదాయ లక్ష్యం",
+        "పొదుపు లక్ష్యం",
+        "సెట్టింగ్‌లు"
+      ],
+      "detail": {
+        "caption": "ఈ పొదుపు లక్ష్యం దాని వర్గంలో బుక్ చేసిన ఆదాయాన్ని ట్రాక్ చేస్తుంది. ఇది ప్రత్యేక పొదుపు ఖాతా బ్యాలెన్స్‌ను సూచించదు.",
+        "loaded": true,
+        "title": "పొదుపు లక్ష్యం — వివరాలు"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "mr",
+      "menuLabels": [
+        "आज तुमची आर्थिक स्थिती",
+        "खाती",
+        "व्यवहार",
+        "बजेट आणि मर्यादा",
+        "आवर्ती देयके",
+        "अहवाल · Pro",
+        "आर्थिक कॅलेंडर · Pro",
+        "नोट्स",
+        "काम आणि उत्पन्न",
+        "उत्पन्नाचे ध्येय",
+        "बचत ध्येय",
+        "सेटिंग्ज"
+      ],
+      "detail": {
+        "caption": "हे बचत लक्ष्य त्याच्या श्रेणीमध्ये बुक केलेल्या उत्पन्नाचा मागोवा घेते. ते वेगळ्या बचत खात्यातील शिल्लक दर्शवत नाही.",
+        "loaded": true,
+        "title": "बचत ध्येय — तपशील"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "tr",
+      "menuLabels": [
+        "Bugünkü mali durumunuz",
+        "Hesaplar",
+        "İşlemler",
+        "Bütçeler ve sınırlar",
+        "Yinelenen ödemeler",
+        "Raporlar · Pro",
+        "Mali takvim · Pro",
+        "Notlar",
+        "İş ve Gelir",
+        "Gelir hedefi",
+        "Tasarruf hedefi",
+        "Ayarlar"
+      ],
+      "detail": {
+        "caption": "Bu tasarruf hedefi, kendi kategorisinde kaydedilen geliri izler. Ayrı bir tasarruf hesabı bakiyesini temsil etmez.",
+        "loaded": true,
+        "title": "Tasarruf hedefi — Ayrıntılar"
+      }
+    },
+    {
+      "dir": "rtl",
+      "language": "ur",
+      "menuLabels": [
+        "آج آپ کے مالیات",
+        "اکاؤنٹس",
+        "لین دین",
+        "بجٹ اور حدود",
+        "بار بار چلنے والی ادائیگیاں",
+        "رپورٹس · Pro",
+        "مالیاتی کیلنڈر · Pro",
+        "نوٹس",
+        "کام اور آمدنی",
+        "آمدنی کا ہدف",
+        "بچت کا ہدف",
+        "ترتیبات"
+      ],
+      "detail": {
+        "caption": "یہ بچت کا مقصد اپنے زمرے میں بک کی گئی آمدنی کو ٹریک کرتا ہے۔ یہ علیحدہ بچت اکاؤنٹ بیلنس کی نمائندگی نہیں کرتا ہے۔",
+        "loaded": true,
+        "title": "بچت کا ہدف — تفصیلات"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "vi",
+      "menuLabels": [
+        "Tài chính của bạn hôm nay",
+        "Tài khoản",
+        "Giao dịch",
+        "Ngân sách và giới hạn",
+        "Thanh toán định kỳ",
+        "Báo cáo · Pro",
+        "Lịch tài chính · Pro",
+        "Ghi chú",
+        "Công việc & Thu nhập",
+        "Mục tiêu thu nhập",
+        "Mục tiêu tiết kiệm",
+        "Cài đặt"
+      ],
+      "detail": {
+        "caption": "Mục tiêu tiết kiệm này theo dõi thu nhập đã đặt trong danh mục của nó. Nó không đại diện cho số dư tài khoản tiết kiệm riêng biệt.",
+        "loaded": true,
+        "title": "Mục tiêu tiết kiệm — Chi tiết"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "ta",
+      "menuLabels": [
+        "இன்று உங்கள் நிதி",
+        "கணக்குகள்",
+        "பரிவர்த்தனைகள்",
+        "பட்ஜெட் மற்றும் வரம்புகள்",
+        "தொடர்ச்சியான கொடுப்பனவுகள்",
+        "அறிக்கைகள் · Pro",
+        "நிதி காலண்டர் · Pro",
+        "குறிப்புகள்",
+        "வேலை & வருமானம்",
+        "வருமான இலக்கு",
+        "சேமிப்பு இலக்கு",
+        "அமைப்புகள்"
+      ],
+      "detail": {
+        "caption": "இந்த சேமிப்பு இலக்கு அதன் பிரிவில் பதிவு செய்யப்பட்ட வருமானத்தைக் கண்காணிக்கிறது. இது ஒரு தனி சேமிப்புக் கணக்கு இருப்பைக் குறிக்காது.",
+        "loaded": true,
+        "title": "சேமிப்பு இலக்கு — விவரங்கள்"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "it",
+      "menuLabels": [
+        "Le tue finanze oggi",
+        "Conti",
+        "Transazioni",
+        "Budget e limiti",
+        "Pagamenti ricorrenti",
+        "Rapporti · Pro",
+        "Calendario finanziario · Pro",
+        "Note",
+        "Lavoro e reddito",
+        "Obiettivo di reddito",
+        "Obiettivo di risparmio",
+        "Impostazioni"
+      ],
+      "detail": {
+        "caption": "Questo obiettivo di risparmio tiene traccia del reddito prenotato nella sua categoria. Non rappresenta un saldo del conto di risparmio separato.",
+        "loaded": true,
+        "title": "Obiettivo di risparmio — Dettagli"
+      }
+    },
+    {
+      "dir": "rtl",
+      "language": "fa",
+      "menuLabels": [
+        "امور مالی امروز شما",
+        "حساب ها",
+        "معاملات",
+        "بودجه ها و محدودیت ها",
+        "پرداخت های مکرر",
+        "گزارش ها · Pro",
+        "تقویم مالی · Pro",
+        "یادداشت ها",
+        "کار و درآمد",
+        "هدف درآمدی",
+        "هدف پس انداز",
+        "تنظیمات"
+      ],
+      "detail": {
+        "caption": "این هدف پس‌انداز، درآمد رزرو شده را در دسته خود دنبال می‌کند. این موجودی حساب پس انداز جداگانه ای را نشان نمی دهد.",
+        "loaded": true,
+        "title": "هدف پس انداز — جزئیات"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "sw",
+      "menuLabels": [
+        "Fedha zako leo",
+        "Hesabu",
+        "Shughuli",
+        "Bajeti na mipaka",
+        "Malipo ya mara kwa mara",
+        "Ripoti · Pro",
+        "Kalenda ya kifedha · Pro",
+        "Vidokezo",
+        "Kazi & Mapato",
+        "Lengo la mapato",
+        "Lengo la kuweka akiba",
+        "Mipangilio"
+      ],
+      "detail": {
+        "caption": "Lengo hili la kuweka akiba hufuatilia mapato yaliyowekwa katika kategoria yake. Haiwakilishi salio tofauti la akaunti ya akiba.",
+        "loaded": true,
+        "title": "Lengo la kuweka akiba — Maelezo"
+      }
+    },
+    {
+      "dir": "ltr",
+      "language": "ms",
+      "menuLabels": [
+        "Kewangan anda hari ini",
+        "Akaun",
+        "Transaksi",
+        "Belanjawan dan had",
+        "Bayaran berulang",
+        "Laporan · Pro",
+        "Kalendar kewangan · Pro",
+        "Nota",
+        "Kerja & Pendapatan",
+        "Matlamat pendapatan",
+        "Matlamat simpanan",
+        "Tetapan"
+      ],
+      "detail": {
+        "caption": "Matlamat simpanan ini menjejaki pendapatan yang ditempah dalam kategorinya. Ia tidak mewakili baki akaun simpanan yang berasingan.",
+        "loaded": true,
+        "title": "Matlamat simpanan — Butiran"
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "height": 800,
+      "hotspotsInside": true,
+      "pageOverflow": false,
+      "phone": {
+        "height": 624.4375,
+        "left": 32,
+        "right": 313,
+        "width": 281
+      },
+      "width": 360
+    },
+    {
+      "height": 844,
+      "hotspotsInside": true,
+      "pageOverflow": false,
+      "phone": {
+        "height": 668.4375,
+        "left": 37.09375,
+        "right": 337.890625,
+        "width": 300.796875
+      },
+      "width": 390
+    },
+    {
+      "height": 1024,
+      "hotspotsInside": true,
+      "pageOverflow": false,
+      "phone": {
+        "height": 634.4375,
+        "left": 398.5,
+        "right": 684,
+        "width": 285.5
+      },
+      "width": 768
+    },
+    {
+      "height": 900,
+      "hotspotsInside": true,
+      "pageOverflow": false,
+      "phone": {
+        "height": 720,
+        "left": 855,
+        "right": 1179,
+        "width": 324
+      },
+      "width": 1440
+    }
+  ],
+  "consoleErrors": [],
+  "notes": "Locale navigation tests rechecked yue and ms after an initial navigation/layout timing timeout; both passed. No browser network audit or physical phone test."
+}

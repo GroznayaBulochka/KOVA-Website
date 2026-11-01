@@ -19,6 +19,11 @@ for(const page of pages)for(const lang of languages){
  pins.push({path:'dist/'+name,sha256:createHash('sha256').update(html).digest('hex')});
  check(name+': static localized HTML, metadata, reciprocal alternatives',()=>{
   assert.ok(html.includes(`<html lang="${lang}" data-static-language="${lang}"`));
+  assert.match(html,/<link rel="stylesheet" href="theme\.css\?v=[^"]+">/);
+  assert.match(html,/<script src="site-theme\.js\?v=[^"]+"><\/script>/);
+  assert.ok(html.indexOf('src="site-theme.js')<html.indexOf('rel="stylesheet"'),'Remembered theme applies before styles/first paint');
+  assert.ok(html.includes('<meta name="color-scheme" content="light dark">'));
+  for(const scheme of ['light','dark'])assert.match(html,new RegExp(`<meta name="theme-color" content="#[a-f0-9]+" media="\\(prefers-color-scheme: ${scheme}\\)">`));
   const title=find(html,/<title>([^<]+)<\/title>/);const description=find(html,/<meta name="description" content="([^"]+)"/);
   assert.ok(title.length>4&&title.length<=200);assert.ok(description.length>10&&description.length<=500);
   assert.ok(!titles.has(lang+title));titles.add(lang+title);assert.ok(!descriptions.has(lang+description));descriptions.add(lang+description);

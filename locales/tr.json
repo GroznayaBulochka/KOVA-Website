@@ -82,7 +82,7 @@
     "cookieSettings": "Ayarlar",
     "navFaq": "SSS",
     "navStatus": "Proje",
-    "galleryHint": "Resmin tamamını görmek için bir ekrana dokunun.",
+    "galleryHint": "Telefondaki düğmelere dokunun. Diğer ekranları keşfetmek için “Daha fazla”yı açın.",
     "secureLocalCopy": "Cihazınızdaki şifreli veritabanı",
     "projectKicker": "İlk sürüm",
     "projectHeading": "Ücretsiz bir üs. Premium ile daha fazlası.",
@@ -540,10 +540,10 @@
       "status": "Android için KOVA, ücretsiz bir taban ve isteğe bağlı Premium ile ilk sürümü hazırlıyor. Kapsamı, ilerlemeyi ve lansman kanallarını görün. İndirmeler henüz kullanılamıyor.",
       "roadmap": "KOVA'nin Android sürümünün hazırlıklarını takip edin: ücretsiz bir yerel taban, isteğe bağlı Premium, son kontroller ve Google Play. Onaylanmamış lansman tarihi yok.",
       "updates": "KOVA proje güncellemeleri: çevrimdışı Android finans, orijinal uygulama ekranları, veri aktarımı ve ilk genel sürüme doğru ilerleme.",
-      "security": "Mali kayıtlar telefonunuzda kalır. KOVA'nin yerel şifrelemeyi, isteğe bağlı Google Play satın alımlarını ve izin tabanlı web sitesi analizlerini nasıl ayırdığını öğrenin.",
+      "security": "Finansal veriler telefonunuzda kalır. KOVA’daki yerel veri korumasını keşfedin. Site analitiği ve analiz çerezleri devre dışıdır.",
       "contact": "Uygulama soruları, sorun raporları ve gizlilik talepleri için contact@kovacompass.app adresinden KOVA ile iletişime geçin. Lütfen finansal veri göndermeyin.",
       "delete-account": "Yerel KOVA verilerini, profillerini ve dışa aktarımlarını yönetin ve silin. Premium yenilemesi Google Play'de ayrı olarak yönetilir; kaldırma işlemi onu iptal etmez.",
-      "privacy": "Taslak KOVA gizlilik politikası: yerel uygulama verileri, dışa aktarmalar, iletişim ve isteğe bağlı web sitesi analizleri. Yayınlanmadan önce onay gereklidir.",
+      "privacy": "KOVA gizlilik politikası taslağı: yerel uygulama verileri, dışa aktarma ve iletişim. Site analitiği devre dışıdır. Belge inceleme aşamasındadır.",
       "terms": "Taslak KOVA Free ve Premium terimleri: yerel özellikler, isteğe bağlı abonelik, Google Play satın alma ve geri yükleme, yedeklemeler ve tahminlerin sınırları.",
       "cookies": "KOVA: Daha önce izin vermiş olsanız bile site Google Analytics veya analiz çerezlerini çalıştırmaz."
     }

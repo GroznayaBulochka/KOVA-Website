@@ -1,0 +1,272 @@
+{
+  "routes": [
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "home"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "accounts"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "transactions"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "budgets"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "recurring"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "reports"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "calendar"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "notes"
+    },
+    {
+      "buttonsOutsidePhone": 0,
+      "imageLoaded": true,
+      "screen": "work"
+    }
+  ],
+  "locales": [
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "pl",
+      "missing": false,
+      "title": "Więcej"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "en",
+      "missing": false,
+      "title": "More"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "ru",
+      "missing": false,
+      "title": "Ещё"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "uk",
+      "missing": false,
+      "title": "Більше"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "zh",
+      "missing": false,
+      "title": "更多"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "yue",
+      "missing": false,
+      "title": "更多"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "es",
+      "missing": false,
+      "title": "Más"
+    },
+    {
+      "cards": 9,
+      "direction": "rtl",
+      "lang": "ar",
+      "missing": false,
+      "title": "المزيد"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "hi",
+      "missing": false,
+      "title": "अधिक"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "bn",
+      "missing": false,
+      "title": "আরও"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "pt",
+      "missing": false,
+      "title": "Mais"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "ja",
+      "missing": false,
+      "title": "詳細"
+    },
+    {
+      "cards": 9,
+      "direction": "rtl",
+      "lang": "pnb",
+      "missing": false,
+      "title": "ہور"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "jv",
+      "missing": false,
+      "title": "Liyane"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "ko",
+      "missing": false,
+      "title": "더보기"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "de",
+      "missing": false,
+      "title": "Mehr"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "fr",
+      "missing": false,
+      "title": "Plus"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "te",
+      "missing": false,
+      "title": "మరిన్ని"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "mr",
+      "missing": false,
+      "title": "अधिक"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "tr",
+      "missing": false,
+      "title": "Daha Fazla"
+    },
+    {
+      "cards": 9,
+      "direction": "rtl",
+      "lang": "ur",
+      "missing": false,
+      "title": "مزید"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "vi",
+      "missing": false,
+      "title": "Thêm"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "ta",
+      "missing": false,
+      "title": "மேலும்"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "it",
+      "missing": false,
+      "title": "Altro"
+    },
+    {
+      "cards": 9,
+      "direction": "rtl",
+      "lang": "fa",
+      "missing": false,
+      "title": "بیشتر"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "ms",
+      "missing": false,
+      "title": "Lagi"
+    },
+    {
+      "cards": 9,
+      "direction": "ltr",
+      "lang": "sw",
+      "missing": false,
+      "title": "Zaidi"
+    }
+  ],
+  "layouts": [
+    {
+      "cardsInside": true,
+      "menuScroll": true,
+      "overflow": false,
+      "phoneWidth": 305,
+      "width": 360
+    },
+    {
+      "cardsInside": true,
+      "menuScroll": true,
+      "overflow": false,
+      "phoneWidth": 335,
+      "width": 390
+    },
+    {
+      "cardsInside": true,
+      "menuScroll": true,
+      "overflow": false,
+      "phoneWidth": 302,
+      "width": 768
+    },
+    {
+      "cardsInside": true,
+      "menuScroll": true,
+      "overflow": false,
+      "phoneWidth": 340,
+      "width": 1440
+    }
+  ],
+  "languageSwitchPreservesMore": true,
+  "errors": []
+}

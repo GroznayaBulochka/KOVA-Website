@@ -1,0 +1,624 @@
+{
+  "testedAt": "2026-10-31T21:17:18.241Z",
+  "navigation": [
+    {
+      "active": "Konta",
+      "focused": "accounts",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-accounts-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "accounts",
+      "title": "Konta"
+    },
+    {
+      "active": "Transakcje",
+      "focused": "transactions",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-transactions-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "transactions",
+      "title": "Transakcje"
+    },
+    {
+      "active": "Budżety i limity",
+      "focused": "budgets",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-budgets-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "budgets",
+      "title": "Budżety i limity"
+    },
+    {
+      "active": "Stałe opłaty",
+      "focused": "recurring",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-recurring-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "recurring",
+      "title": "Stałe opłaty"
+    },
+    {
+      "active": "Raporty · Pro",
+      "focused": "reports",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-reports-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "reports",
+      "title": "Raporty · Pro"
+    },
+    {
+      "active": "Kalendarz finansowy · Pro",
+      "focused": "calendar",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-calendar-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "calendar",
+      "title": "Kalendarz finansowy · Pro"
+    },
+    {
+      "active": "Notatki",
+      "focused": "notes",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-notes-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "notes",
+      "title": "Notatki"
+    },
+    {
+      "active": "Praca i dochód",
+      "focused": "work",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/kova-work-income-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "work",
+      "title": "Praca i dochód"
+    },
+    {
+      "active": "Finanse na dziś",
+      "focused": "home",
+      "image": "http://127.0.0.1:4174/assets/screenshots/thumbs/offline-demo-home-720.webp?v=0593fc8b777cf4604124",
+      "ready": true,
+      "screen": "home",
+      "title": "Finanse na dziś"
+    }
+  ],
+  "locales": [
+    {
+      "buttons": [
+        "Finanse na dziś",
+        "Konta",
+        "Transakcje",
+        "Budżety i limity",
+        "Stałe opłaty",
+        "Raporty · Pro",
+        "Kalendarz finansowy · Pro",
+        "Notatki",
+        "Praca i dochód"
+      ],
+      "direction": "ltr",
+      "hint": "Klikaj nawigację w telefonie lub wybierz ekran z listy.",
+      "lang": "pl",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Your finances today",
+        "Accounts",
+        "Transactions",
+        "Budgets and limits",
+        "Recurring payments",
+        "Reports · Pro",
+        "Financial calendar · Pro",
+        "Notes",
+        "Work & Income"
+      ],
+      "direction": "ltr",
+      "hint": "Use the navigation inside the phone or choose a screen from the list.",
+      "lang": "en",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Финансы сегодня",
+        "Счета",
+        "Транзакции",
+        "Бюджеты и лимиты",
+        "Регулярные платежи",
+        "Отчёты · Pro",
+        "Финансовый календарь · Pro",
+        "Заметки",
+        "Работа и доход"
+      ],
+      "direction": "ltr",
+      "hint": "Нажимайте на навигацию в телефоне или выберите экран из списка.",
+      "lang": "ru",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Ваші фінанси сьогодні",
+        "Облікові записи",
+        "транзакції",
+        "Бюджети та ліміти",
+        "Регулярні платежі",
+        "Звіти · Pro",
+        "Фінансовий календар · Pro",
+        "Примітки",
+        "Робота та дохід"
+      ],
+      "direction": "ltr",
+      "hint": "Натискайте навігацію в телефоні або виберіть екран зі списку.",
+      "lang": "uk",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Ihre Finanzen heute",
+        "Konten",
+        "Transaktionen",
+        "Budgets und Grenzen",
+        "Wiederkehrende Zahlungen",
+        "Berichte · Pro",
+        "Finanzkalender · Pro",
+        "Notizen",
+        "Arbeit & Einkommen"
+      ],
+      "direction": "ltr",
+      "hint": "Nutze die Navigation im Telefon oder wähle einen Bildschirm aus der Liste.",
+      "lang": "de",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Tus finanzas hoy",
+        "Cuentas",
+        "Transacciones",
+        "Presupuestos y límites",
+        "Pagos recurrentes",
+        "Informes · Pro",
+        "Calendario financiero · Pro",
+        "Notas",
+        "Trabajo e ingresos"
+      ],
+      "direction": "ltr",
+      "hint": "Usa la navegación del teléfono o elige una pantalla de la lista.",
+      "lang": "es",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Vos finances aujourd'hui",
+        "Comptes",
+        "Opérations",
+        "Budgets et limites",
+        "Paiements récurrents",
+        "Rapports · Pro",
+        "Calendrier financier · Pro",
+        "Remarques",
+        "Travail et revenu"
+      ],
+      "direction": "ltr",
+      "hint": "Utilisez la navigation du téléphone ou choisissez un écran dans la liste.",
+      "lang": "fr",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Le tue finanze oggi",
+        "Conti",
+        "Transazioni",
+        "Budget e limiti",
+        "Pagamenti ricorrenti",
+        "Rapporti · Pro",
+        "Calendario finanziario · Pro",
+        "Note",
+        "Lavoro e reddito"
+      ],
+      "direction": "ltr",
+      "hint": "Usa la navigazione nel telefono o scegli una schermata dall’elenco.",
+      "lang": "it",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Suas finanças hoje",
+        "Contas",
+        "Transações",
+        "Orçamentos e limites",
+        "Pagamentos recorrentes",
+        "Relatórios · Pro",
+        "Calendário financeiro · Pro",
+        "Notas",
+        "Trabalho e Renda"
+      ],
+      "direction": "ltr",
+      "hint": "Use a navegação no telemóvel ou escolha um ecrã da lista.",
+      "lang": "pt",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Bugünkü mali durumunuz",
+        "Hesaplar",
+        "İşlemler",
+        "Bütçeler ve sınırlar",
+        "Yinelenen ödemeler",
+        "Raporlar · Pro",
+        "Mali takvim · Pro",
+        "Notlar",
+        "İş ve Gelir"
+      ],
+      "direction": "ltr",
+      "hint": "Telefondaki gezinme düğmelerini kullanın veya listeden bir ekran seçin.",
+      "lang": "tr",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "اموالك اليوم",
+        "الحسابات",
+        "المعاملات",
+        "الميزانيات والحدود",
+        "المدفوعات المتكررة",
+        "التقارير · Pro",
+        "التقويم المالي · Pro",
+        "ملحوظات",
+        "العمل والدخل"
+      ],
+      "direction": "rtl",
+      "hint": "استخدم أزرار التنقل داخل الهاتف أو اختر شاشة من القائمة.",
+      "lang": "ar",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "امور مالی امروز شما",
+        "حساب ها",
+        "معاملات",
+        "بودجه ها و محدودیت ها",
+        "پرداخت های مکرر",
+        "گزارش ها · Pro",
+        "تقویم مالی · Pro",
+        "یادداشت ها",
+        "کار و درآمد"
+      ],
+      "direction": "rtl",
+      "hint": "از دکمه‌های پیمایش در تلفن استفاده کنید یا صفحه‌ای را از فهرست انتخاب کنید.",
+      "lang": "fa",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "آج آپ کے مالیات",
+        "اکاؤنٹس",
+        "لین دین",
+        "بجٹ اور حدود",
+        "بار بار چلنے والی ادائیگیاں",
+        "رپورٹس · Pro",
+        "مالیاتی کیلنڈر · Pro",
+        "نوٹس",
+        "کام اور آمدنی"
+      ],
+      "direction": "rtl",
+      "hint": "فون کے اندر نیویگیشن استعمال کریں یا فہرست سے کوئی اسکرین منتخب کریں۔",
+      "lang": "ur",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "اج تہاڈے مالی معاملات",
+        "اکاؤنٹس",
+        "لین دین",
+        "بجٹ تے حداں",
+        "بار بار آن آلیاں ادائیگیاں",
+        "رپورٹاں · Pro",
+        "مالی کیلنڈر · Pro",
+        "نوٹ",
+        "کم تے آمدنی"
+      ],
+      "direction": "rtl",
+      "hint": "فون اندر نیویگیشن ورتو یا فہرست وچوں کوئی سکرین چُنو۔",
+      "lang": "pnb",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "आज आपका वित्त",
+        "लेखा",
+        "लेन-देन",
+        "बजट और सीमाएँ",
+        "आवर्ती भुगतान",
+        "रिपोर्ट · Pro",
+        "वित्तीय कैलेंडर · Pro",
+        "टिप्पणियाँ",
+        "कार्य एवं आय"
+      ],
+      "direction": "ltr",
+      "hint": "फ़ोन में नेविगेशन का उपयोग करें या सूची से कोई स्क्रीन चुनें।",
+      "lang": "hi",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "আজ আপনার আর্থিক",
+        "হিসাব",
+        "লেনদেন",
+        "বাজেট এবং সীমা",
+        "পুনরাবৃত্ত পেমেন্ট",
+        "রিপোর্ট · Pro",
+        "আর্থিক ক্যালেন্ডার · Pro",
+        "নোট",
+        "কাজ এবং আয়"
+      ],
+      "direction": "ltr",
+      "hint": "ফোনের নেভিগেশন ব্যবহার করুন বা তালিকা থেকে একটি স্ক্রিন বেছে নিন।",
+      "lang": "bn",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "இன்று உங்கள் நிதி",
+        "கணக்குகள்",
+        "பரிவர்த்தனைகள்",
+        "பட்ஜெட் மற்றும் வரம்புகள்",
+        "தொடர்ச்சியான கொடுப்பனவுகள்",
+        "அறிக்கைகள் · Pro",
+        "நிதி காலண்டர் · Pro",
+        "குறிப்புகள்",
+        "வேலை & வருமானம்"
+      ],
+      "direction": "ltr",
+      "hint": "தொலைபேசியின் வழிசெலுத்தலைப் பயன்படுத்தவும் அல்லது பட்டியலிலிருந்து ஒரு திரையைத் தேர்ந்தெடுக்கவும்.",
+      "lang": "ta",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "ఈ రోజు మీ ఆర్థిక స్థితి",
+        "ఖాతాలు",
+        "లావాదేవీలు",
+        "బడ్జెట్లు మరియు పరిమితులు",
+        "పునరావృత చెల్లింపులు",
+        "నివేదికలు · Pro",
+        "ఆర్థిక క్యాలెండర్ · Pro",
+        "గమనికలు",
+        "పని & ఆదాయం"
+      ],
+      "direction": "ltr",
+      "hint": "ఫోన్‌లోని నావిగేషన్‌ను ఉపయోగించండి లేదా జాబితా నుండి ఒక స్క్రీన్‌ను ఎంచుకోండి.",
+      "lang": "te",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "आज तुमची आर्थिक स्थिती",
+        "खाती",
+        "व्यवहार",
+        "बजेट आणि मर्यादा",
+        "आवर्ती देयके",
+        "अहवाल · Pro",
+        "आर्थिक कॅलेंडर · Pro",
+        "नोट्स",
+        "काम आणि उत्पन्न"
+      ],
+      "direction": "ltr",
+      "hint": "फोनमधील नेव्हिगेशन वापरा किंवा यादीतून एखादी स्क्रीन निवडा.",
+      "lang": "mr",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "您今天的财务状况",
+        "账户",
+        "交易",
+        "预算和限制",
+        "定期付款",
+        "报告 · Pro",
+        "财经日历 · Pro",
+        "笔记",
+        "工作与收入"
+      ],
+      "direction": "ltr",
+      "hint": "点击手机内的导航按钮，或从列表中选择页面。",
+      "lang": "zh",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "你今日嘅財務狀況",
+        "帳戶",
+        "交易",
+        "預算同限制",
+        "定期付款",
+        "報告 · Pro",
+        "財務日曆 · Pro",
+        "筆記",
+        "工作同收入"
+      ],
+      "direction": "ltr",
+      "hint": "撳手機入面嘅導航掣，或者喺清單揀一個畫面。",
+      "lang": "yue",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "今日のあなたの財政",
+        "アカウント",
+        "取引",
+        "予算と制限",
+        "定期的な支払い",
+        "レポート · Pro",
+        "財務カレンダー · Pro",
+        "注意事項",
+        "仕事と収入"
+      ],
+      "direction": "ltr",
+      "hint": "スマートフォン内のナビゲーションを使うか、一覧から画面を選んでください。",
+      "lang": "ja",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "오늘의 재정",
+        "계정",
+        "거래",
+        "예산 및 한도",
+        "반복 결제",
+        "보고서 · Pro",
+        "재무 캘린더 · Pro",
+        "메모",
+        "일과 소득"
+      ],
+      "direction": "ltr",
+      "hint": "휴대폰 안의 탐색 버튼을 누르거나 목록에서 화면을 선택하세요.",
+      "lang": "ko",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Tài chính của bạn hôm nay",
+        "Tài khoản",
+        "Giao dịch",
+        "Ngân sách và giới hạn",
+        "Thanh toán định kỳ",
+        "Báo cáo · Pro",
+        "Lịch tài chính · Pro",
+        "Ghi chú",
+        "Công việc & Thu nhập"
+      ],
+      "direction": "ltr",
+      "hint": "Dùng nút điều hướng trong điện thoại hoặc chọn một màn hình từ danh sách.",
+      "lang": "vi",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Keuangan sampeyan dina iki",
+        "Akun",
+        "Transaksi",
+        "Anggaran lan watesan",
+        "Pembayaran bola-bali",
+        "Laporan · Pro",
+        "Tanggalan finansial · Pro",
+        "Cathetan",
+        "Kerja & Penghasilan"
+      ],
+      "direction": "ltr",
+      "hint": "Gunakake navigasi ing telpon utawa pilih layar saka dhaptar.",
+      "lang": "jv",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Kewangan anda hari ini",
+        "Akaun",
+        "Transaksi",
+        "Belanjawan dan had",
+        "Bayaran berulang",
+        "Laporan · Pro",
+        "Kalendar kewangan · Pro",
+        "Nota",
+        "Kerja & Pendapatan"
+      ],
+      "direction": "ltr",
+      "hint": "Gunakan navigasi dalam telefon atau pilih skrin daripada senarai.",
+      "lang": "ms",
+      "placeholder": false,
+      "ready": true
+    },
+    {
+      "buttons": [
+        "Fedha zako leo",
+        "Hesabu",
+        "Shughuli",
+        "Bajeti na mipaka",
+        "Malipo ya mara kwa mara",
+        "Ripoti · Pro",
+        "Kalenda ya kifedha · Pro",
+        "Vidokezo",
+        "Kazi & Mapato"
+      ],
+      "direction": "ltr",
+      "hint": "Tumia vitufe vya urambazaji kwenye simu au chagua skrini kutoka kwenye orodha.",
+      "lang": "sw",
+      "placeholder": false,
+      "ready": true
+    }
+  ],
+  "layouts": [
+    {
+      "buttonNames": true,
+      "catalogScrollable": true,
+      "documentWidth": 345,
+      "phoneHeight": 626.875,
+      "phoneWidth": 289.796875,
+      "previewWidth": 305,
+      "width": 345
+    },
+    {
+      "buttonNames": true,
+      "catalogScrollable": true,
+      "documentWidth": 375,
+      "phoneHeight": 626.875,
+      "phoneWidth": 289.796875,
+      "previewWidth": 335,
+      "width": 375
+    },
+    {
+      "buttonNames": true,
+      "catalogScrollable": false,
+      "documentWidth": 753,
+      "phoneHeight": 621.984375,
+      "phoneWidth": 289.796875,
+      "previewWidth": 689,
+      "width": 753
+    },
+    {
+      "buttonNames": true,
+      "catalogScrollable": false,
+      "documentWidth": 1425,
+      "phoneHeight": 621.984375,
+      "phoneWidth": 289.796875,
+      "previewWidth": 1240,
+      "width": 1425
+    }
+  ],
+  "themes": [
+    {
+      "background": "rgb(255, 253, 247)",
+      "mode": "light",
+      "title": "rgb(32, 39, 31)"
+    },
+    {
+      "background": "rgb(26, 35, 28)",
+      "mode": "dark",
+      "title": "rgb(237, 240, 229)"
+    },
+    {
+      "background": "rgb(26, 35, 28)",
+      "mode": null,
+      "title": "rgb(237, 240, 229)"
+    }
+  ],
+  "keyboardAndBack": "PASS",
+  "mobileHotspots": "PASS",
+  "localeChangePreservesScreen": "PASS",
+  "heroOpensPhoneInsteadOfDialog": "PASS"
+}

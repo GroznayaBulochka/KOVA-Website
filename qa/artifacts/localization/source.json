@@ -82,7 +82,7 @@
     "cookieSettings": "Settings",
     "navFaq": "FAQ",
     "navStatus": "Project",
-    "galleryHint": "Tap a screen to see the full image.",
+    "galleryHint": "Tap the buttons inside the phone. Open “More” to explore other screens.",
     "secureLocalCopy": "Encrypted database on your device",
     "projectKicker": "The first release",
     "projectHeading": "A free base. More with Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA for Android is preparing a first release with a free base and optional Premium. See the scope, progress and launch channels. Downloads are not available yet.",
       "roadmap": "Follow preparation of KOVA’s Android release: a free local base, optional Premium, final checks and Google Play. No unconfirmed launch date.",
       "updates": "KOVA project updates: offline Android finances, authentic app screens, data export and progress toward the first public release.",
-      "security": "Financial records stay on your phone. Learn how KOVA separates local encryption, optional Google Play purchases and consent-based website analytics.",
+      "security": "Financial data stays on your phone. Learn about local data protection in KOVA. Website analytics and analytics cookies are disabled.",
       "contact": "Contact KOVA at contact@kovacompass.app for app questions, issue reports and privacy requests. Please do not send financial data.",
       "delete-account": "Manage and delete local KOVA data, profiles and exports. Premium renewal is managed separately in Google Play; uninstalling does not cancel it.",
-      "privacy": "Draft KOVA privacy policy: local app data, exports, contact and optional website analytics. Approval is required before publication.",
+      "privacy": "Draft KOVA privacy policy: local app data, exports and contact. Website analytics is disabled. The document is under review.",
       "terms": "Draft KOVA Free and Premium terms: local features, optional subscription, Google Play purchase and restore, backups and the limits of estimates.",
       "cookies": "KOVA: The website does not run Google Analytics or analytics cookies, even if you previously consented."
     }

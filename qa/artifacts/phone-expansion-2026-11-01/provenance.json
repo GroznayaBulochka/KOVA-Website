@@ -1,0 +1,177 @@
+{
+  "capturedAt": "2026-11-01",
+  "data": "FICTIONAL_TEST_PROFILE_ONLY",
+  "captureMethod": "Native Android Emulator toolbar camera operated through CUA; unchanged PNG files",
+  "runtime": {
+    "avd": "KovaLocalFreemium16k_20261024",
+    "serial": "emulator-5580",
+    "packageName": "com.kova.budget.offlinequalification",
+    "versionName": "1.0.8",
+    "versionCode": 10,
+    "apkSha256": "cfbf641b707c02dbae7b3dc03db2e6966a12d5d43b34b7b181842c2471a7c1a9",
+    "api": 37,
+    "pageSize": 16384,
+    "language": "en",
+    "theme": "DARK",
+    "profile": "Existing synthetic SAF49 test profile; no private profile published",
+    "purchaseMade": false
+  },
+  "fixture": {
+    "method": "Ordinary app UI on isolated test emulator",
+    "incomeGoal": {
+      "category": "Salary",
+      "targetPLN": 6200,
+      "period": "Monthly",
+      "month": "2026-11",
+      "receivedPLN": 0
+    },
+    "savingsGoal": {
+      "category": "Bonus",
+      "targetPLN": 1000,
+      "period": "Monthly",
+      "month": "2026-11",
+      "savedPLN": 0
+    },
+    "notes": "Enabled Budgets and Goals in test profile feature settings. These savings goals track booked category income, not a separate savings account. No money was transferred; no bank connection or real financial transaction."
+  },
+  "screenshots": [
+    {
+      "id": "income-goal",
+      "asset": "assets/screenshots/preview-income-goal.png",
+      "original": "qa/artifacts/phone-expansion-2026-11-01/income-goal.png",
+      "nativeFile": "Screenshot_1793522215.png",
+      "bytes": 792195,
+      "sha256": "fd01f685a19a4bb43c86664b91b3e79427c5a6b273bc2c83af67a4efbb5d9f2f",
+      "width": 1080,
+      "height": 2400,
+      "edited": false
+    },
+    {
+      "id": "savings-goal",
+      "asset": "assets/screenshots/preview-savings-goal.png",
+      "original": "qa/artifacts/phone-expansion-2026-11-01/savings-goal.png",
+      "nativeFile": "Screenshot_1793522378.png",
+      "bytes": 837962,
+      "sha256": "8ea36a24ce0548cacd934b016057dc47e714698df531984805d75a3efdaeba77",
+      "width": 1080,
+      "height": 2400,
+      "edited": false
+    },
+    {
+      "id": "settings",
+      "asset": "assets/screenshots/preview-settings.png",
+      "original": "qa/artifacts/phone-expansion-2026-11-01/settings.png",
+      "nativeFile": "Screenshot_1793522665.png",
+      "bytes": 206959,
+      "sha256": "ecc3459bac444c1222ebeff605d9bac88e12594e556f1daee7d87b9d30d55ef4",
+      "width": 1080,
+      "height": 2400,
+      "edited": false
+    },
+    {
+      "id": "income-detail",
+      "asset": "assets/screenshots/preview-income-detail.png",
+      "original": "qa/artifacts/phone-expansion-2026-11-01/income-detail.png",
+      "nativeFile": "Screenshot_1793522279.png",
+      "bytes": 682453,
+      "sha256": "f3b0ca16e25310cc3189cf1104a900ec5c5bb3336b09ace8ce9a29c680e8e048",
+      "width": 1080,
+      "height": 2400,
+      "edited": false
+    },
+    {
+      "id": "savings-detail",
+      "asset": "assets/screenshots/preview-savings-detail.png",
+      "original": "qa/artifacts/phone-expansion-2026-11-01/savings-detail.png",
+      "nativeFile": "Screenshot_1793522433.png",
+      "bytes": 709479,
+      "sha256": "af2d0022da08b56a99f28e86327d6ed2d4832bc3860afa2220885cf675898de5",
+      "width": 1080,
+      "height": 2400,
+      "edited": false
+    }
+  ],
+  "derivatives": [
+    {
+      "asset": "assets/screenshots/thumbs/preview-income-goal-360.webp",
+      "sourceSha256": "fd01f685a19a4bb43c86664b91b3e79427c5a6b273bc2c83af67a4efbb5d9f2f",
+      "sha256": "ab2e779e166b79b821282b1dd03e648ce937495d0bc82662747fa2abdd2d73c5",
+      "width": 360,
+      "bytes": 29140,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-income-goal-720.webp",
+      "sourceSha256": "fd01f685a19a4bb43c86664b91b3e79427c5a6b273bc2c83af67a4efbb5d9f2f",
+      "sha256": "5332a28d1edd8f9df34cc5365aa51645d8772c10ed62df03028cb24ae6e3c144",
+      "width": 720,
+      "bytes": 67750,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-savings-goal-360.webp",
+      "sourceSha256": "8ea36a24ce0548cacd934b016057dc47e714698df531984805d75a3efdaeba77",
+      "sha256": "0996aa1d2f99f83c7eb3602a3fb8152c1418189aa46e47a92ef6dedf788822e4",
+      "width": 360,
+      "bytes": 30314,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-savings-goal-720.webp",
+      "sourceSha256": "8ea36a24ce0548cacd934b016057dc47e714698df531984805d75a3efdaeba77",
+      "sha256": "fecffc670c3107a02becb6f36145fc45c40f2cdadd2b38777225fa7009ee52ea",
+      "width": 720,
+      "bytes": 70360,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-settings-360.webp",
+      "sourceSha256": "ecc3459bac444c1222ebeff605d9bac88e12594e556f1daee7d87b9d30d55ef4",
+      "sha256": "fee69c9a07a7c623b5d8a92e5b1a54a2fba5cf15d57c07be69c69fb0e521f755",
+      "width": 360,
+      "bytes": 13862,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-settings-720.webp",
+      "sourceSha256": "ecc3459bac444c1222ebeff605d9bac88e12594e556f1daee7d87b9d30d55ef4",
+      "sha256": "1dab27cc92ea427a3a40f359ed56f9e9508a4db19aae9a2e4b1b7ff841369639",
+      "width": 720,
+      "bytes": 32382,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-income-detail-360.webp",
+      "sourceSha256": "f3b0ca16e25310cc3189cf1104a900ec5c5bb3336b09ace8ce9a29c680e8e048",
+      "sha256": "8d9277bd3b9d8d2ed0aa83f5e3b9d89fe26c9cebbfbc3ce0433c7aa9174ee6c5",
+      "width": 360,
+      "bytes": 26448,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-income-detail-720.webp",
+      "sourceSha256": "f3b0ca16e25310cc3189cf1104a900ec5c5bb3336b09ace8ce9a29c680e8e048",
+      "sha256": "05de220ae535e12eb5e670613f351ccd6bc137ebab8a7d9fe1a5aa9727fe937c",
+      "width": 720,
+      "bytes": 61292,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-savings-detail-360.webp",
+      "sourceSha256": "af2d0022da08b56a99f28e86327d6ed2d4832bc3860afa2220885cf675898de5",
+      "sha256": "5abd2556347daedd385e51c7a94290165e8a6094ded811ab749251ad0b3f4aa5",
+      "width": 360,
+      "bytes": 27564,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    },
+    {
+      "asset": "assets/screenshots/thumbs/preview-savings-detail-720.webp",
+      "sourceSha256": "af2d0022da08b56a99f28e86327d6ed2d4832bc3860afa2220885cf675898de5",
+      "sha256": "06df0264e5cff4f63575ed7819e427b990031580a26d4ad67d8787fca03cf1a7",
+      "width": 720,
+      "bytes": 64164,
+      "transformation": "Aspect-preserving resize and WebP encoding only"
+    }
+  ],
+  "published": false
+}

@@ -82,7 +82,7 @@
     "cookieSettings": "Cài đặt",
     "navFaq": "Câu hỏi thường gặp",
     "navStatus": "dự án",
-    "galleryHint": "Nhấn vào một màn hình để xem hình ảnh đầy đủ.",
+    "galleryHint": "Chạm vào các nút trong điện thoại. Mở “Thêm” để khám phá các màn hình khác.",
     "secureLocalCopy": "Cơ sở dữ liệu được mã hóa trên thiết bị của bạn",
     "projectKicker": "Bản phát hành đầu tiên",
     "projectHeading": "Một cơ sở miễn phí. Thêm với Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA dành cho Android đang chuẩn bị bản phát hành đầu tiên với đế miễn phí và Premium tùy chọn. Xem phạm vi, tiến độ và các kênh khởi chạy. Tải xuống chưa có sẵn.",
       "roadmap": "Thực hiện theo quá trình chuẩn bị phát hành Android của KOVA: cơ sở cục bộ miễn phí, Premium tùy chọn, kiểm tra lần cuối và Google Play. Không có ngày ra mắt chưa được xác nhận.",
       "updates": "Cập nhật dự án KOVA: tài chính Android ngoại tuyến, màn hình ứng dụng xác thực, xuất dữ liệu và tiến tới bản phát hành công khai đầu tiên.",
-      "security": "Hồ sơ tài chính vẫn còn trên điện thoại của bạn. Tìm hiểu cách KOVA phân tách mã hóa cục bộ, giao dịch mua Google Play tùy chọn và phân tích trang web dựa trên sự đồng ý.",
+      "security": "Dữ liệu tài chính ở lại trên điện thoại của bạn. Tìm hiểu cách KOVA bảo vệ dữ liệu cục bộ. Phân tích website và cookie phân tích đã tắt.",
       "contact": "Liên hệ KOVA theo số contact@kovacompass.app nếu có câu hỏi về ứng dụng, báo cáo sự cố và yêu cầu về quyền riêng tư. Vui lòng không gửi dữ liệu tài chính.",
       "delete-account": "Quản lý và xóa dữ liệu, hồ sơ và xuất KOVA cục bộ. Việc gia hạn Premium được quản lý riêng trong Google Play; gỡ cài đặt không hủy nó.",
-      "privacy": "Chính sách bảo mật dự thảo KOVA: dữ liệu ứng dụng cục bộ, xuất, liên hệ và phân tích trang web tùy chọn. Cần có sự phê duyệt trước khi xuất bản.",
+      "privacy": "Dự thảo chính sách quyền riêng tư KOVA: dữ liệu cục bộ, xuất dữ liệu và liên hệ. Phân tích website đã tắt. Tài liệu đang được xem xét.",
       "terms": "Các điều khoản dự thảo của KOVA Free và Premium: tính năng cục bộ, đăng ký tùy chọn, mua và khôi phục Google Play, sao lưu và giới hạn ước tính.",
       "cookies": "KOVA: Trang web không chạy Google Analytics hoặc cookie phân tích, ngay cả khi bạn đã đồng ý trước đó."
     }

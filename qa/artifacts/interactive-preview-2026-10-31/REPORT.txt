@@ -1,0 +1,45 @@
+KOVA interactive phone preview — 2026-10-31
+
+Implemented in the existing “Zajrzyj do KOVA” section.
+Nine genuine captured screens with synthetic data: home, accounts,
+transactions, budgets, recurring payments, reports, calendar, notes, work.
+Original Android screenshots and their verified WebP derivatives are unchanged.
+The provenance remains presentation-2026-10-29-source54/provenance.json.
+Older personal-profile / excluded-feature screenshots were not included.
+
+Navigation: localized external screen list, in-phone screen chooser, Home,
+Notes, Back, account balance, calendar date, transaction totals and report
+summary hotspots. Arrow keys change screens; Escape closes the chooser.
+The hero “Zobacz aplikację” button opens the phone preview.
+This is screen navigation only; no financial forms, camera, transactions,
+private account access or actual app calculations run in the website.
+The original static gallery and tour remain as loading/script fallbacks.
+
+Localization: existing localized slide captions and feature descriptions.
+Updated the navigation hint in all 27 languages. Changing the language
+preserves the current screen. RTL labels work; captured Android pixels
+retain their original orientation and language.
+
+Verification:
+- npm test: 36 groups PASS.
+- Final syntax, versioned asset integrity (739 checks), SEO preview checks
+  (898 checks) and production artifact indexing audit PASS.
+- Production artifact: 297 pages / 27 languages, 189 indexable URLs.
+- Public build: becda40f6fd7ab0ecabd, 435 files.
+- Browser: all nine screens loaded; all 27 locales had nine named buttons,
+  valid images and no undefined/null placeholders.
+- Browser: chooser, back/history, keyboard, Home/Notes hotspots, hero CTA,
+  and language switch while viewing Work PASS.
+- Layout: requested widths 360, 390, 768, 1440 px; no document overflow.
+  Horizontal scrolling on the mobile screen list is intentional.
+- Light, dark and automatic website themes verified.
+- Mobile navigation scrolls the selected screen below the sticky header.
+- No browser console errors in the final navigation check.
+
+Evidence: browser-checks.json, interactive-phone.png, mobile-notes.png.
+mobile-work.png is an intermediate screenshot before the final scroll fix.
+The preview-only SEO test intentionally expects noindex and cannot be run
+against dist from --release; it was rerun successfully on the preview build.
+Production indexability was checked separately on the final release artifact.
+
+Local changes only. No commit, push or live deployment performed in this work.

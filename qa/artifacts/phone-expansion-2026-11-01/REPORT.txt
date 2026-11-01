@@ -1,0 +1,25 @@
+KOVA phone preview expansion — 2026-11-01
+
+Completed
+- Removed four regenerable Android Emulator Quick Boot ram.img caches after confirming no emulator was running. Recovered 17,180,057,600 bytes (16 GiB). Source, releases, emulator userdata and prior QA evidence were retained. See ../interactive-preview-2026-10-31/CLEANUP-2026-11-01.txt.
+- Cold-booted the existing local 16 KB qualification emulator, captured the app through its native screenshot toolbar, then closed the emulator. No Quick Boot snapshot was saved.
+- Added five authentic screens: income goal, income goal details, savings goal, savings goal details, and settings. Existing nine captures are unchanged. There are now 14 captured views plus the HTML More menu.
+- Created Salary 6,200 PLN and Bonus 1,000 PLN sample goals through the app UI in the existing synthetic SAF49 test profile. No real financial data, purchases or bank connections were used.
+- Kept original screenshot pixels. Added responsive WebP derivatives at 360 and 720 px. Exact hashes, package identity and capture provenance are in provenance.json.
+- Added three main entries to More (12 entries total). Goal details open from the corresponding goal cards. Goal tabs, native bottom navigation and history-based back navigation stay inside the phone.
+- Localized new labels and captions for all 27 website languages using the app's own string resources. Screenshot pixels remain the genuine English app interface. The savings caption explicitly explains that its progress tracks categorized booked income, not a separate savings account balance.
+
+Verification
+- npm test: PASS, 38 checks/groups, zero failures (preview build).
+- qa/phone-preview-check.mjs: PASS, 15 unique views, 5 authentic new captures, 10 derivatives, 27 languages, source hashes and route boundaries.
+- Browser: all 12 main views and both nested details loaded. Tested budget/income/savings tab navigation, goal cards, back/Escape, and Settings -> Notes.
+- Browser: new menu and savings details verified in all 27 locales, including RTL for ar, pnb, ur and fa. yue and ms were rechecked after initial navigation/layout timing timeouts and passed. Evidence: browser-checks.json.
+- Responsive checks at 360x800, 390x844, 768x1024 and 1440x900: no horizontal page overflow; all active hotspots inside the phone. Temporary viewport override reset.
+- Browser console: no captured errors. Visual proof: phone-mobile-390.png and phone-desktop.png.
+- npm run build:public: PASS, release fdd7d3cce7d6f63f2abb, 451 public files.
+- qa/indexing-audit.mjs --local: PASS, 297 pages, 189 indexable URLs, 27 languages, zero failures.
+- qa/phone-preview-check.mjs against the release artifact: PASS.
+- Free disk after capture/build: 13,772,476,416 bytes. Emulator process closed. Free space varies with Windows pagefile and other processes.
+
+Scope
+Local changes and generated release artifact only; no commit, push or deployment performed. This is screen navigation, not a working financial application. No physical phone or new browser-network audit was performed. Existing analytics pause and legal-release approval state were preserved.

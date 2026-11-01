@@ -85,7 +85,7 @@
     "cookieSettings": "Ustawienia",
     "navFaq": "FAQ",
     "navStatus": "Projekt",
-    "galleryHint": "Dotknij ekranu, aby zobaczyć go w całości.",
+    "galleryHint": "Klikaj przyciski w telefonie. Otwórz „Więcej”, żeby odkryć kolejne ekrany.",
     "secureLocalCopy": "Szyfrowana baza na urządzeniu",
     "projectKicker": "Pierwsze wydanie",
     "projectHeading": "Darmowa baza. Więcej z Premium.",
@@ -250,7 +250,7 @@
     "cookieSettings": "Settings",
     "navFaq": "FAQ",
     "navStatus": "Project",
-    "galleryHint": "Tap a screen to see the full image.",
+    "galleryHint": "Tap the buttons inside the phone. Open “More” to explore other screens.",
     "secureLocalCopy": "Encrypted database on your device",
     "projectKicker": "The first release",
     "projectHeading": "A free base. More with Premium.",
@@ -415,7 +415,7 @@
     "cookieSettings": "Настройки",
     "navFaq": "Вопросы",
     "navStatus": "Проект",
-    "galleryHint": "Нажмите на экран, чтобы открыть его целиком.",
+    "galleryHint": "Нажимайте кнопки в телефоне. Откройте «Ещё», чтобы увидеть другие экраны.",
     "secureLocalCopy": "Зашифрованная база на устройстве",
     "projectKicker": "Первый выпуск",
     "projectHeading": "Бесплатная база. Больше с Premium.",
@@ -662,6 +662,7 @@
   const supported = window.KOVA_LANGUAGES?.codes || Object.keys(dictionaries);
   let language = window.KOVA_LANGUAGES.initial();
   const copy = () => dictionaries[language];
+  window.KOVA_PREVIEW_CONTENT = () => ({language,copy:copy(),slides:videoSlides,demo:window.KOVA_TRANSLATIONS?.[language]?.extra.demo || {pl:"fikcyjne dane demonstracyjne",en:"fictional demo data",ru:"вымышленные данные"}[language],error:window.KOVA_TRANSLATIONS?.[language]?.legal.error || {pl:"Nie udało się wczytać ekranu. Spróbuj ponownie.",en:"The screen could not be loaded. Please try again.",ru:"Не удалось загрузить экран. Повторите попытку."}[language]});
   const isLocalOwner = location.protocol === 'file:' || ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
 
   function applyLanguage() {
@@ -692,6 +693,7 @@
     document.querySelectorAll('[data-legal-link]').forEach(link => { link.href = `${link.dataset.legalLink}?lang=${language}`; });
     const url = new URL(location.href); url.searchParams.set('lang', language); history.replaceState(null, '', url);
     renderVideoSlide();
+    window.KOVA_PHONE_PREVIEW?.refresh();
   }
 
   document.querySelectorAll('[data-local-workspace]').forEach(node => { node.hidden = !isLocalOwner; });
@@ -772,7 +774,7 @@
     }, 7000);
   }
   function changeVideo(direction) { videoIndex = (videoIndex + direction + videoSlides.length) % videoSlides.length; videoPlaying = false; renderVideoSlide(); scheduleVideo(); }
-  document.querySelectorAll('[data-video-open]').forEach(button => button.addEventListener('click', () => { videoIndex = 0; videoPlaying = false; videoDialog.showModal(); renderVideoSlide(); scheduleVideo(); }));
+  document.querySelectorAll('[data-video-open]').forEach(button => button.addEventListener('click', async () => { if(window.KOVA_PHONE_PREVIEW && await window.KOVA_PHONE_PREVIEW.open())return; videoIndex = 0; videoPlaying = false; videoDialog.showModal(); renderVideoSlide(); scheduleVideo(); }));
   document.querySelector('[data-video-close]').addEventListener('click', () => { clearInterval(videoTimer); videoDialog.close(); });
   document.querySelector('[data-video-prev]').addEventListener('click', () => changeVideo(-1));
   document.querySelector('[data-video-next]').addEventListener('click', () => changeVideo(1));

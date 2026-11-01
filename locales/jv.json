@@ -82,7 +82,7 @@
     "cookieSettings": "Setelan",
     "navFaq": "FAQ",
     "navStatus": "Proyek",
-    "galleryHint": "Tutul layar kanggo ndeleng gambar lengkap.",
+    "galleryHint": "Tutul tombol ing telpon. Bukak “Liyane” kanggo ndeleng layar liyane.",
     "secureLocalCopy": "Database sing dienkripsi ing piranti sampeyan",
     "projectKicker": "Rilis pisanan",
     "projectHeading": "Dasar gratis. Liyane karo Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA kanggo Android nyiapake rilis pisanan kanthi basis gratis lan Premium opsional. Deleng ruang lingkup, kemajuan lan saluran peluncuran. Download durung kasedhiya.",
       "roadmap": "Tindakake persiapan KOVA release Android: basis lokal gratis, Premium opsional, mriksa pungkasan lan Google Play. Ora ana tanggal peluncuran sing durung dikonfirmasi.",
       "updates": "KOVA nganyari proyek: offline Android keuangan, layar aplikasi asli, ekspor data lan kemajuan menyang rilis umum pisanan.",
-      "security": "Cathetan finansial tetep ing telpon sampeyan. Sinau carane KOVA misahake enkripsi lokal, tuku Google Play opsional lan analytics situs web adhedhasar idin.",
+      "security": "Data keuangan tetep ana ing telpon sampeyan. Sinau babagan pangayoman data lokal ing KOVA. Analitik situs lan cookie analitik dipateni.",
       "contact": "Hubungi KOVA ing contact@kovacompass.app kanggo pitakonan app, laporan masalah lan panjalukan privasi. Aja ngirim data finansial.",
       "delete-account": "Ngatur lan mbusak data, profil lan ekspor KOVA lokal. Pembaruan Premium dikelola kanthi kapisah ing Google Play; uninstalling ora mbatalake.",
-      "privacy": "Draf KOVA kabijakan privasi: data aplikasi lokal, ekspor, kontak lan analisis situs web opsional. Persetujuan dibutuhake sadurunge diterbitake.",
+      "privacy": "Draf kabijakan privasi KOVA: data lokal aplikasi, ekspor lan kontak. Analitik situs dipateni. Dokumen isih ditinjau.",
       "terms": "Konsep istilah KOVA Free lan Premium: fitur lokal, langganan opsional, tuku lan mulihake Google Play, serep lan watesan perkiraan.",
       "cookies": "KOVA: Situs ora nglakokake Google Analytics utawa cookie analitik, senajan sampeyan wis menehi idin sadurunge."
     }

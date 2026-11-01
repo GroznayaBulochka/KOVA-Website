@@ -82,7 +82,7 @@
     "cookieSettings": "Configurações",
     "navFaq": "Perguntas frequentes",
     "navStatus": "Projeto",
-    "galleryHint": "Toque em uma tela para ver a imagem completa.",
+    "galleryHint": "Toque nos botões do telemóvel. Abra «Mais» para explorar outros ecrãs.",
     "secureLocalCopy": "Banco de dados criptografado no seu dispositivo",
     "projectKicker": "O primeiro lançamento",
     "projectHeading": "Uma base gratuita. Mais com Premium.",
@@ -540,10 +540,10 @@
       "status": "KOVA para Android está preparando um primeiro lançamento com base gratuita e Premium opcional. Veja o escopo, o progresso e os canais de lançamento. Os downloads ainda não estão disponíveis.",
       "roadmap": "Siga a preparação do lançamento Android do KOVA: uma base local gratuita, Premium opcional, verificações finais e Google Play. Nenhuma data de lançamento não confirmada.",
       "updates": "KOVA atualizações do projeto: finanças Android off-line, telas de aplicativos autênticas, exportação de dados e progresso em direção ao primeiro lançamento público.",
-      "security": "Os registros financeiros permanecem no seu telefone. Saiba como KOVA separa criptografia local, compras opcionais de Google Play e análises de sites baseadas em consentimento.",
+      "security": "Os dados financeiros ficam no seu telemóvel. Conheça a proteção local de dados na KOVA. A análise do site e os cookies analíticos estão desativados.",
       "contact": "Entre em contato com KOVA em contact@kovacompass.app para perguntas sobre aplicativos, relatórios de problemas e solicitações de privacidade. Por favor, não envie dados financeiros.",
       "delete-account": "Gerencie e exclua dados, perfis e exportações locais do KOVA. A renovação de Premium é gerenciada separadamente em Google Play; a desinstalação não a cancela.",
-      "privacy": "Rascunho da política de privacidade KOVA: dados de aplicativos locais, exportações, contatos e análises opcionais de sites. A aprovação é necessária antes da publicação.",
+      "privacy": "Rascunho da política de privacidade da KOVA: dados locais, exportação e contacto. A análise do site está desativada. Documento em revisão.",
       "terms": "Rascunho dos termos KOVA Free e Premium: recursos locais, assinatura opcional, compra e restauração de Google Play, backups e limites de estimativas.",
       "cookies": "KOVA: O site não executa Google Analytics nem cookies analíticos, mesmo com consentimento anterior."
     }

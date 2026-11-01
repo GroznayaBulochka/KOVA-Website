@@ -1,0 +1,45 @@
+KOVA phone navigation follow-up — 2026-10-31
+
+Replaces the external nine-screen selector described in REPORT.txt.
+All primary navigation now lives inside the phone. More is a scrollable
+HTML navigation screen, with cards for the nine existing genuine app
+captures and an in-phone bottom bar. Back restores the previous screen,
+including More and its scroll position. Home, Notes and the existing
+capture hotspots remain clickable. Keyboard arrows and Escape work.
+There are ten navigable views: nine captures plus the More menu.
+Only selected screens are interactive; forms, financial operations,
+camera and other small controls do not execute app actions.
+
+The menu and instructions are localized in all 27 website languages.
+The source of the new More labels is the application's localized
+resources. A language change preserves the selected view.
+The original PNG assets and their pixel provenance are unchanged.
+
+Verification:
+- npm run build: PASS, preview c843648ee86af85ad44e, 436 files.
+- npm test: PASS, 37 checks/groups, zero failures.
+- npm run build:public: PASS, b4f142618e1ca1481913, 436 files.
+- Production indexing audit: PASS, 297 pages, 189 indexable, 27 languages.
+- Browser navigation to all nine captures, back to More: PASS.
+- All 27 menu translations: nine named cards, no empty/undefined labels,
+  correct RTL direction where applicable.
+- 360, 390, 768, 1440 px: no document overflow; menu scrolls inside phone.
+- Polish/English switch preserves More: PASS.
+- Final browser error log: empty.
+- git diff --check: PASS (only existing line-ending notices).
+
+Evidence: phone-inside-checks.json, phone-inside-desktop.png,
+phone-inside-mobile.png. The mobile screenshot shows the lower part of
+the internally scrolled menu after returning from Work.
+
+New Android captures were attempted but NOT obtained. The older demo
+AVD had startup problems; the current test AVD froze with host rendering,
+and the software-rendering restart failed its disk-space check. C: had
+about 0.14 GB free at the end. No app data was cleared, no personal
+screenshots were published, no onboarding agreements were accepted.
+An unresponsive emulator process created for this task was stopped.
+Lossless NTFS compression of the old demo disk completed but recovered
+only about 20 MB. Emulator stdout/stderr retain the concrete launch error.
+Additional fresh app screenshots remain blocked by the local environment.
+
+Changes are local. No commit, push or public deployment was performed.
