@@ -102,7 +102,7 @@ try {
  await evaluate(`document.addEventListener('click',e=>{if(e.target.closest('a[href^="https:"]'))e.preventDefault();},true)`);
  await click('[data-primary-cta][data-cta-location="hero"]');
  await click('.footer-social a[href*="tiktok.com"]');
- record('One primary event and one social event per launch click; fixed channel categories only',await evaluate(`window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='primary_cta').length===1&&window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='social_click').length===2&&window.__gaCalls.some(a=>a[1]==='primary_cta'&&a[2].placement==='hero'&&a[2].action==='follow_launch')&&!JSON.stringify(window.__gaCalls).includes('instagram.com')`));
+ record('One application action; only the separate social link counts as social; fixed channel categories only',await evaluate(`window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='primary_cta').length===1&&window.__gaCalls.filter(a=>a[0]==='event'&&a[1]==='social_click').length===1&&window.__gaCalls.some(a=>a[1]==='primary_cta'&&a[2].placement==='hero'&&a[2].action==='closed_test')&&!JSON.stringify(window.__gaCalls).includes('instagram.com')`));
  await evaluate(`window.KOVA_RELEASE.available=true;window.KOVA_RELEASE.storeUrl='https://play.google.com/store/apps/details?id=com.kova.budget';document.documentElement.setAttribute('lang',document.documentElement.lang)`);
  await until(`document.querySelector('[data-primary-cta]').dataset.ctaAction==='google_play'`);
  await click('[data-primary-cta][data-cta-location="hero"]');

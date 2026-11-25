@@ -18,7 +18,7 @@
     "watchVideo": "Lihat aplikasinya",
     "pauseVideo": "jeda",
     "playVideo": "Main",
-    "releaseNote": "Beta · Sebelum pelancaran · muat turun awam belum tersedia lagi.",
+    "releaseNote": "Permohonan untuk ujian tertutup KOVA kini dibuka.",
     "trustPrivacy": "Privasi dahulu",
     "trustPrivacyCopy": "Pangkalan data tempatan, tiada muat naik automatik",
     "trustReports": "Ringkasan praktikal",
@@ -94,7 +94,7 @@
     "faqTitle": "Beberapa jawapan mudah.",
     "faqCopy": "Sebelum anda mula menggunakan KOVA.",
     "faqDownloadQ": "Bolehkah saya memuat turun KOVA lagi?",
-    "faqDownloadA": "Muat turun awam belum tersedia lagi. Ikuti KOVA pada Instagram untuk berita pelancaran. Halaman ini akan memaut ke penyenaraian Google Play yang disahkan apabila keluaran tersedia. Tiada tarikh pelancaran diumumkan.",
+    "faqDownloadA": "Permohonan untuk ujian tertutup KOVA kini dibuka. Tulis daripada alamat e-mel Google Play anda atau sertakannya dalam mesej. Jangan hantar kata laluan atau maklumat kewangan. Jika anda diterima, anda akan mendapat jemputan berasingan. Aplikasi belum tersedia untuk umum.",
     "faqOfflineQ": "Adakah aplikasi berfungsi tanpa internet?",
     "faqOfflineA": "Rekod kewangan dan asas Percuma berfungsi secara tempatan. Pembelian, pemulihan dan akses semula Premium pilihan menggunakan Google Play dan memerlukan sambungan. Akses Premium semasa mungkin memerlukan pemeriksaan bersambung baharu selepas sehingga 48 jam atau telefon dimulakan semula. Ini tidak memadamkan rekod anda atau menyekat penggunaan dan eksport asas. Tiada penyegerakan awan kewangan atau sambungan bank ditawarkan.",
     "faqBankQ": "Adakah saya perlu menyambungkan akaun bank saya?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Catatkan waktu kerja dan kadar untuk menganggarkan pendapatan. Bawa jadual kerja dan belanjawan bulanan anda ke dalam satu pelan.",
     "aboutPrivacy": "Rekod kewangan kekal pada peranti ini. Akaun awan KOVA, pendaftaran atau penyegerakan kewangan awan tidak diperlukan. Simpan semula cek pembelian dengan Google Play. Ia tidak memulihkan atau menyegerakkan rekod kewangan. Premium terpakai di seluruh profil tempatan pada pemasangan ini. Pemasangan semula dan peranti lain memerlukan semakan pembelian yang berasingan. Menukar pelan anda tersedia melalui Google Play.",
     "aboutAction": "Lihat KOVA dalam tindakan",
-    "followLaunch": "Ikuti KOVA di Instagram",
+    "followLaunch": "Mohon menyertai ujian",
     "downloadApp": "Dapatkannya di Google Play",
-    "launchChannel": "Pelancaran berita tentang Instagram · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Antara muka aplikasi dalam bahasa Inggeris · Pro · 2026-10-29",
     "plansKicker": "Dirancang untuk keluaran pertama",
     "plansTitle": "Pangkalan percuma. Lagi dengan Premium.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Bilik Kebal · Perancang Kehidupan · Sejarah Harga",
     "plansNote": "KOVA Premium · Percubaan hanya bermula selepas anda mengesahkan pembelian tawaran yang layak dalam Google Play. 30 hari percuma, kemudian harga yang dipaparkan oleh Google Play sebelum pembelian (Dibilkan setiap bulan / Dibilkan sekali setahun). Diperbaharui secara automatik kecuali dibatalkan sebelum percubaan tamat. Kelayakan ditentukan oleh Google Play.",
     "plansDetails": "Baca draf langganan",
-    "closingKicker": "Kekal dekat dengan pelancaran",
-    "closingTitle": "Berikan ruang untuk pelan wang yang lebih jelas.",
-    "closingCopy": "Ikuti KOVA Development pada Instagram untuk pratonton apl dan berita pelancaran. Siaran awam pertama masih dalam persiapan.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "Permohonan untuk ujian tertutup KOVA kini dibuka",
+    "closingCopy": "Tulis daripada alamat e-mel Google Play anda atau sertakannya dalam mesej. Jangan hantar kata laluan atau maklumat kewangan. Jika anda diterima, anda akan mendapat jemputan berasingan. Aplikasi belum tersedia untuk umum.",
     "closingSecondary": "Anda juga boleh mendapatkan KOVA di TikTok.",
     "forecastNote": "Ciri muncul apabila anda menggunakan KOVA dan menambah data yang diperlukan. Ini juga terpakai kepada Pro: langganan tidak memaparkan analisis berasaskan data sebelum sejarah berkaitan mencukupi.",
     "faqDataQ": "Berapa banyak data diperlukan untuk setiap analisis?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Status projek",
       "title": "Kewangan harian anda. Keluaran sedang dijalankan.",
-      "intro": "KOVA: Money & Budget akan datang ke Android dengan asas percuma dan Premium pilihan. Muat turun dan jualan awam belum tersedia lagi.",
-      "badge": "Sebagai persediaan · Percuma + pilihan Premium",
+      "intro": "Permohonan untuk ujian tertutup KOVA kini dibuka. Jika anda diterima, anda akan mendapat jemputan berasingan. Aplikasi belum tersedia untuk umum.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Apa yang dibawa keluaran pertama",
@@ -269,12 +269,16 @@
           "KOVA menyimpan rekod kewangan pada telefon anda. Google Play mengendalikan pembelian langganan pilihan, memulihkan dan mengakses semakan secara berasingan. Tiada penyegerakan awan kewangan atau sambungan bank ditawarkan."
         ],
         [
-          "Bagaimana untuk mengikuti kemajuan",
-          "Ikuti @kova_money pada Instagram untuk pratonton dan pelancaran berita. Harga dan pautan kedai yang disahkan akan dikongsi sebelum dikeluarkan. Tiada tarikh pelancaran diumumkan."
+          "Permohonan untuk ujian tertutup KOVA kini dibuka",
+          "Tulis daripada alamat e-mel Google Play anda atau sertakannya dalam mesej. Jangan hantar kata laluan atau maklumat kewangan."
         ]
       ],
       "note": "KOVA Development ialah jenama projek. Aplikasi ini belum tersedia secara umum lagi; keputusan ujian tidak sama dengan kelulusan jualan awam.",
       "actions": [
+        [
+          "Mohon menyertai ujian",
+          "index.html#closed-test"
+        ],
         [
           "Ikuti pada Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Kemas kini",
       "title": "Pangkalan percuma. Pilihan Premium. Kewangan tempatan.",
-      "intro": "24 Oktober 2026: pelan semasa untuk keluaran Android pertama termasuk pangkalan percuma dan Premium pilihan. Entri awal di bawah menerangkan rancangan sejarah.",
-      "badge": "Kemas kini semasa · 24 Oktober 2026",
+      "intro": "Tindakan pantas dan pemilih tarikh kalendar bulanan kembali pada paparan ringkasan. Ketik kategori perbelanjaan untuk melihat transaksinya.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Permohonan untuk ujian tertutup KOVA kini dibuka. Jika anda diterima, anda akan mendapat jemputan berasingan. Aplikasi belum tersedia untuk umum."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Perancang Kehidupan · Pro. Sejarah Harga · Pro. Vault · Pro. Premium merangkumi kerja dan pendapatan, kalendar kewangan, semua laporan, imbasan resit dan pusat cukai. Rekod asas, nota, penyulitan, sandaran, pemulihan dan eksport data kekal percuma. Ciri muncul apabila anda menggunakan KOVA dan menambah data yang diperlukan. Ini juga terpakai kepada Pro: langganan tidak memaparkan analisis berasaskan data sebelum sejarah berkaitan mencukupi. Antara muka aplikasi dalam bahasa Inggeris."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Mohon menyertai ujian",
+          "index.html#closed-test"
+        ],
         [
           "Status keluaran",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Jangan sekali-kali menghantar kata laluan, kunci penyulitan atau rekod kewangan sebenar. Dokumen apl kekal draf menunggu kelulusan akhir.",
       "actions": [
+        [
+          "Mohon menyertai ujian",
+          "index.html#closed-test"
+        ],
         [
           "Tulis e-mel",
           "mailto:contact@kovacompass.app"

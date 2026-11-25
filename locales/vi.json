@@ -18,7 +18,7 @@
     "watchVideo": "Xem ứng dụng",
     "pauseVideo": "Tạm dừng",
     "playVideo": "Chơi",
-    "releaseNote": "Beta · Trước khi ra mắt · chưa có bản tải xuống công khai.",
+    "releaseNote": "KOVA mở đăng ký thử nghiệm kín.",
     "trustPrivacy": "Quyền riêng tư là trên hết",
     "trustPrivacyCopy": "Cơ sở dữ liệu cục bộ, không tải lên tự động",
     "trustReports": "Tóm tắt thực tế",
@@ -94,7 +94,7 @@
     "faqTitle": "Một vài câu trả lời đơn giản.",
     "faqCopy": "Trước khi bạn bắt đầu sử dụng KOVA.",
     "faqDownloadQ": "Tôi có thể tải xuống KOVA chưa?",
-    "faqDownloadA": "Tải xuống công khai chưa có sẵn. Theo dõi KOVA trên Instagram để biết tin tức ra mắt. Trang này sẽ liên kết đến danh sách Google Play đã được xác nhận khi có bản phát hành. Không có ngày ra mắt đã được công bố.",
+    "faqDownloadA": "KOVA mở đăng ký thử nghiệm kín. Hãy gửi từ địa chỉ email dùng cho Google Play hoặc ghi địa chỉ đó trong thư. Không gửi mật khẩu hay thông tin tài chính. Nếu được thêm vào đợt thử nghiệm, bạn sẽ nhận được lời mời riêng. Ứng dụng chưa phát hành công khai.",
     "faqOfflineQ": "Ứng dụng có hoạt động mà không có internet không?",
     "faqOfflineA": "Hồ sơ tài chính và cơ sở miễn phí hoạt động tại địa phương. Tùy chọn mua, khôi phục và truy cập làm mới Premium sử dụng Google Play và cần kết nối. Quyền truy cập Premium hiện tại có thể yêu cầu kiểm tra kết nối mới sau tối đa 48 giờ hoặc khởi động lại điện thoại. Điều này không xóa hồ sơ của bạn hoặc chặn việc sử dụng và xuất cơ bản. Không có đồng bộ hóa đám mây tài chính hoặc kết nối ngân hàng được cung cấp.",
     "faqBankQ": "Tôi có cần kết nối tài khoản ngân hàng của mình không?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Ghi lại số giờ làm việc và tỷ lệ để ước tính thu nhập. Đưa lịch làm việc và ngân sách hàng tháng của bạn vào một kế hoạch.",
     "aboutPrivacy": "Dữ liệu tài chính nằm trên thiết bị này. Không cần tài khoản đám mây KOVA, đăng ký hay đồng bộ tài chính lên đám mây. Khôi phục séc mua hàng bằng Google Play. Nó không khôi phục hoặc đồng bộ hóa hồ sơ tài chính. Premium áp dụng trên các cấu hình cục bộ trong quá trình cài đặt này. Việc cài đặt lại và thiết bị khác yêu cầu kiểm tra mua hàng riêng. Thay đổi gói của bạn có sẵn thông qua Google Play.",
     "aboutAction": "Xem KOVA hoạt động",
-    "followLaunch": "Theo dõi KOVA trên Instagram",
+    "followLaunch": "Đăng ký thử nghiệm",
     "downloadApp": "Tải nó trên Google Play",
-    "launchChannel": "Ra mắt tin tức về Instagram · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Giao diện ứng dụng bằng tiếng Anh · Pro · 2026-10-29",
     "plansKicker": "Dự kiến phát hành lần đầu",
     "plansTitle": "Một cơ sở miễn phí. Thêm với Premium.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Kho tiền · Lập kế hoạch cuộc sống · Lịch sử giá",
     "plansNote": "KOVA Premium · Thời gian dùng thử chỉ bắt đầu sau khi bạn xác nhận mua ưu đãi đủ điều kiện trong Google Play. Miễn phí 30 ngày, sau đó giá Google Play hiển thị trước khi mua (Thanh toán hàng tháng / Thanh toán mỗi năm một lần). Tự động gia hạn nếu không hủy trước khi hết dùng thử. Google Play xác định điều kiện áp dụng.",
     "plansDetails": "Đọc bản dự thảo đăng ký",
-    "closingKicker": "Ở gần buổi ra mắt",
-    "closingTitle": "Nhường chỗ cho một kế hoạch tiền bạc rõ ràng hơn.",
-    "closingCopy": "Theo dõi KOVA Development trên Instagram để xem trước ứng dụng và tin tức ra mắt. Việc phát hành công khai đầu tiên vẫn đang được chuẩn bị.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "KOVA mở đăng ký thử nghiệm kín",
+    "closingCopy": "Hãy gửi từ địa chỉ email dùng cho Google Play hoặc ghi địa chỉ đó trong thư. Không gửi mật khẩu hay thông tin tài chính. Nếu được thêm vào đợt thử nghiệm, bạn sẽ nhận được lời mời riêng. Ứng dụng chưa phát hành công khai.",
     "closingSecondary": "Bạn cũng có thể tìm thấy KOVA trên TikTok.",
     "forecastNote": "Tính năng xuất hiện khi bạn dùng KOVA và thêm dữ liệu cần thiết. Pro cũng vậy: đăng ký không hiển thị phân tích phụ thuộc dữ liệu khi chưa đủ lịch sử phù hợp.",
     "faqDataQ": "Mỗi phân tích cần bao nhiêu dữ liệu?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Tình trạng dự án",
       "title": "Tài chính hàng ngày của bạn. Một bản phát hành đang được tiến hành.",
-      "intro": "KOVA: Money & Budget sắp có mặt trên Android với đế miễn phí và Premium tùy chọn. Tải xuống và bán hàng công khai chưa có sẵn.",
-      "badge": "Đang chuẩn bị · Miễn phí + tùy chọn Premium",
+      "intro": "KOVA mở đăng ký thử nghiệm kín. Nếu được thêm vào đợt thử nghiệm, bạn sẽ nhận được lời mời riêng. Ứng dụng chưa phát hành công khai.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Bản phát hành đầu tiên mang lại điều gì",
@@ -269,12 +269,16 @@
           "KOVA lưu trữ hồ sơ tài chính trên điện thoại của bạn. Google Play xử lý riêng các kiểm tra mua, khôi phục và truy cập đăng ký tùy chọn. Không có đồng bộ hóa đám mây tài chính hoặc kết nối ngân hàng được cung cấp."
         ],
         [
-          "Cách theo dõi tiến độ",
-          "Theo dõi @kova_money trên Instagram để xem trước và tin tức ra mắt. Giá và liên kết cửa hàng được xác nhận sẽ được chia sẻ trước khi phát hành. Không có ngày ra mắt được công bố."
+          "KOVA mở đăng ký thử nghiệm kín",
+          "Hãy gửi từ địa chỉ email dùng cho Google Play hoặc ghi địa chỉ đó trong thư. Không gửi mật khẩu hay thông tin tài chính."
         ]
       ],
       "note": "KOVA Development là thương hiệu của dự án. Ứng dụng này chưa được cung cấp rộng rãi; kết quả thử nghiệm không được coi là phê duyệt bán hàng công khai.",
       "actions": [
+        [
+          "Đăng ký thử nghiệm",
+          "index.html#closed-test"
+        ],
         [
           "Theo dõi Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Cập nhật",
       "title": "Một cơ sở miễn phí. Tùy chọn Premium. Tài chính địa phương.",
-      "intro": "Ngày 24 tháng 10 năm 2026: gói hiện tại cho bản phát hành Android đầu tiên bao gồm cơ sở miễn phí và Premium tùy chọn. Các mục trước đó dưới đây mô tả các kế hoạch lịch sử.",
-      "badge": "Cập nhật hiện tại · 24 tháng 10 năm 2026",
+      "intro": "Thao tác nhanh và bộ chọn ngày dạng lịch tháng đã trở lại màn hình tổng quan. Chạm vào một danh mục chi để xem các giao dịch tương ứng.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "KOVA mở đăng ký thử nghiệm kín. Nếu được thêm vào đợt thử nghiệm, bạn sẽ nhận được lời mời riêng. Ứng dụng chưa phát hành công khai."
+        ],
         [
           "2026-10-29 · KOVA phiên bản thử nghiệm",
           "Lập kế hoạch cuộc sống · Pro. Lịch sử giá · Pro. Vault · Pro. Premium gồm công việc và thu nhập, lịch tài chính, mọi báo cáo, quét hóa đơn và trung tâm thuế. Ghi chép cơ bản, ghi chú, mã hóa, sao lưu, khôi phục và xuất dữ liệu vẫn miễn phí. Tính năng xuất hiện khi bạn dùng KOVA và thêm dữ liệu cần thiết. Pro cũng vậy: đăng ký không hiển thị phân tích phụ thuộc dữ liệu khi chưa đủ lịch sử phù hợp. Giao diện ứng dụng bằng tiếng Anh."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Đăng ký thử nghiệm",
+          "index.html#closed-test"
+        ],
         [
           "Trạng thái phát hành",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Không bao giờ gửi mật khẩu, khóa mã hóa hoặc hồ sơ tài chính thực. Các tài liệu ứng dụng vẫn là bản nháp đang chờ phê duyệt cuối cùng.",
       "actions": [
+        [
+          "Đăng ký thử nghiệm",
+          "index.html#closed-test"
+        ],
         [
           "Viết email",
           "mailto:contact@kovacompass.app"

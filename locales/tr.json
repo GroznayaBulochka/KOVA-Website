@@ -18,7 +18,7 @@
     "watchVideo": "Uygulamayı görün",
     "pauseVideo": "Duraklat",
     "playVideo": "Oyna",
-    "releaseNote": "Beta · Lansmandan önce · herkese açık indirme henüz mevcut değil.",
+    "releaseNote": "KOVA kapalı testi için başvurular açıldı.",
     "trustPrivacy": "Önce gizlilik",
     "trustPrivacyCopy": "Yerel veritabanı, otomatik yükleme yok",
     "trustReports": "Pratik özetler",
@@ -94,7 +94,7 @@
     "faqTitle": "Birkaç basit cevap.",
     "faqCopy": "KOVA kullanmaya başlamadan önce.",
     "faqDownloadQ": "Henüz KOVA dosyasını indirebilir miyim?",
-    "faqDownloadA": "Herkese açık indirmeler henüz mevcut değil. Lansman haberleri için KOVA'yi Instagram'de takip edin. Bu sayfa, sürüm mevcut olduğunda onaylanmış Google Play listesine bağlantı verecektir. Herhangi bir lansman tarihi açıklanmadı.",
+    "faqDownloadA": "KOVA kapalı testi için başvurular açıldı. Google Play e-posta adresinizden yazın veya bu adresi mesajınıza ekleyin. Şifre ya da mali bilgi göndermeyin. Teste eklenirseniz ayrıca davet alırsınız. Uygulama henüz herkese açık değil.",
     "faqOfflineQ": "Uygulama internet olmadan çalışıyor mu?",
     "faqOfflineA": "Mali kayıtlar ve Serbest taban yerel olarak çalışır. İsteğe bağlı Premium satın alma, geri yükleme ve yenilemeye erişme, Google Play kullanın ve bağlantıya ihtiyaç duyar. Mevcut Premium erişimi, 48 saate kadar yeni bir bağlantı kontrolü veya telefonun yeniden başlatılmasını gerektirebilir. Bu, kayıtlarınızı silmez veya temel kullanımı ve dışa aktarmayı engellemez. Hiçbir finansal bulut senkronizasyonu veya banka bağlantısı sunulmaz.",
     "faqBankQ": "Banka hesabımı bağlamam gerekiyor mu?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Kazançları tahmin etmek için çalışma saatlerini ve oranlarını kaydedin. Çalışma programınızı ve aylık bütçenizi tek bir planda birleştirin.",
     "aboutPrivacy": "Finans kayıtlarınız bu cihazda kalır. KOVA bulut hesabı, kayıt veya finansal bulut eşitlemesi gerekmez. Geri yükleme, satın alma işlemlerini Google Play ile kontrol eder. Mali kayıtları geri yüklemez veya senkronize etmez. Premium, bu kurulumdaki yerel profiller genelinde geçerlidir. Yeniden kurulum ve başka bir cihaz ayrı bir satın alma kontrolü gerektirir. Planınızı değiştirmek Google Play aracılığıyla yapılabilir.",
     "aboutAction": "KOVA'i çalışırken görün",
-    "followLaunch": "Instagram’da KOVA’yı takip edin",
+    "followLaunch": "Teste başvur",
     "downloadApp": "Google Play'den edinin",
-    "launchChannel": "Instagram · @kova_money ile ilgili lansman haberleri",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Uygulama arayüzü İngilizcedir · Pro · 2026-10-29",
     "plansKicker": "İlk sürüm için planlandı",
     "plansTitle": "Ücretsiz bir üs. Premium ile daha fazlası.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Kasa · Yaşam Planlayıcı · Fiyat Geçmişi",
     "plansNote": "KOVA Premium · Deneme yalnızca Google Play’de uygun olduğunuz teklifin satın alımını onayladıktan sonra başlar. 30 gün ücretsiz, ardından satın almadan önce Google Play’de gösterilen fiyat (Her ay faturalandırılır / Yılda bir kez faturalandırılır). Deneme bitmeden iptal edilmezse otomatik yenilenir. Uygunluğu Google Play belirler.",
     "plansDetails": "Abonelik taslağını okuyun",
-    "closingKicker": "Lansmana yakın kalın",
-    "closingTitle": "Daha net bir para planına yer açın.",
-    "closingCopy": "Uygulama önizlemeleri ve lansman haberleri için KOVA Development'yi Instagram'de takip edin. İlk halka açık yayın hâlâ hazırlık aşamasındadır.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "KOVA kapalı testi için başvurular açıldı",
+    "closingCopy": "Google Play e-posta adresinizden yazın veya bu adresi mesajınıza ekleyin. Şifre ya da mali bilgi göndermeyin. Teste eklenirseniz ayrıca davet alırsınız. Uygulama henüz herkese açık değil.",
     "closingSecondary": "Ayrıca KOVA'yi TikTok'de de bulabilirsiniz.",
     "forecastNote": "Özellikler KOVA kullanıldıkça ve gerekli veriler eklendikçe görünür. Bu Pro için de geçerlidir: abonelik, yeterli ilgili geçmiş olmadan veriye bağlı analizleri göstermez.",
     "faqDataQ": "Her analiz ne kadar veri gerektirir?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Proje durumu",
       "title": "Günlük mali durumunuz. Bir yayın devam ediyor.",
-      "intro": "KOVA: Money & Budget, ücretsiz bir taban ve isteğe bağlı Premium ile Android'ye geliyor. Herkese açık indirmeler ve satışlar henüz mevcut değildir.",
-      "badge": "Hazırlık aşamasında · Ücretsiz + isteğe bağlı Premium",
+      "intro": "KOVA kapalı testi için başvurular açıldı. Teste eklenirseniz ayrıca davet alırsınız. Uygulama henüz herkese açık değil.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "İlk sürümün getirdikleri",
@@ -269,12 +269,16 @@
           "KOVA, mali kayıtları telefonunuzda saklar. Google Play, isteğe bağlı abonelik satın alma, geri yükleme ve erişim kontrollerini ayrı ayrı yönetir. Hiçbir finansal bulut senkronizasyonu veya banka bağlantısı sunulmaz."
         ],
         [
-          "İlerleme nasıl takip edilir",
-          "Önizlemeler ve lansman haberleri için @kova_money'yi Instagram'de takip edin. Fiyat ve onaylanmış mağaza bağlantısı yayınlanmadan önce paylaşılacaktır. Lansman tarihi açıklanmadı."
+          "KOVA kapalı testi için başvurular açıldı",
+          "Google Play e-posta adresinizden yazın veya bu adresi mesajınıza ekleyin. Şifre ya da mali bilgi göndermeyin."
         ]
       ],
       "note": "KOVA Development proje markasıdır. Uygulama henüz halka açık değil; Test sonuçları kamu satış onayı anlamına gelmez.",
       "actions": [
+        [
+          "Teste başvur",
+          "index.html#closed-test"
+        ],
         [
           "Instagram'yi takip edin",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Güncellemeler",
       "title": "Ücretsiz bir üs. İsteğe bağlı Premium. Yerel finans.",
-      "intro": "24 Ekim 2026: İlk Android sürümüne yönelik mevcut plan, ücretsiz bir taban ve isteğe bağlı Premium içerir. Aşağıdaki önceki girişler tarihsel planları açıklamaktadır.",
-      "badge": "Güncel güncelleme · 24 Ekim 2026",
+      "intro": "Hızlı işlemler ve aylık tarih seçici özet ekranına geri döndü. İşlemleri görmek için bir harcama kategorisine dokunun.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "KOVA kapalı testi için başvurular açıldı. Teste eklenirseniz ayrıca davet alırsınız. Uygulama henüz herkese açık değil."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Yaşam Planlayıcı · Pro. Fiyat Geçmişi · Pro. Vault · Pro. Premium; iş ve gelir, finans takvimi, tüm raporlar, fiş tarama ve vergi merkezini içerir. Temel kayıtlar, notlar, şifreleme, yedekleme, geri yükleme ve veri dışa aktarımı ücretsizdir. Özellikler KOVA kullanıldıkça ve gerekli veriler eklendikçe görünür. Bu Pro için de geçerlidir: abonelik, yeterli ilgili geçmiş olmadan veriye bağlı analizleri göstermez. Uygulama arayüzü İngilizcedir."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Teste başvur",
+          "index.html#closed-test"
+        ],
         [
           "Sürüm durumu",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Asla şifreleri, şifreleme anahtarlarını veya gerçek mali kayıtları göndermeyin. Uygulama belgeleri nihai onayı bekleyen taslak olarak kalır.",
       "actions": [
+        [
+          "Teste başvur",
+          "index.html#closed-test"
+        ],
         [
           "Bir e-posta yaz",
           "mailto:contact@kovacompass.app"

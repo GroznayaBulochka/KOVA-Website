@@ -18,7 +18,7 @@
     "watchVideo": "睇下個應用程式",
     "pauseVideo": "暫停",
     "playVideo": "玩",
-    "releaseNote": "Beta · 喺推出之前 · 仲未有公開下載。",
+    "releaseNote": "KOVA 封閉測試開始招募.",
     "trustPrivacy": "私隱第一",
     "trustPrivacyCopy": "本地資料庫，冇自動上載",
     "trustReports": "實用嘅摘要",
@@ -94,7 +94,7 @@
     "faqTitle": "幾個簡單嘅答案。",
     "faqCopy": "喺你開始用 KOVA 之前。",
     "faqDownloadQ": "我可唔可以下載 KOVA 未？",
-    "faqDownloadA": "公開下載仲未有。喺 Instagram 上關注 KOVA ，瞭解推出消息。呢個頁面會喺發佈發佈嗰陣連結去確認咗嘅 Google Play 列表。仲未公佈推出日期。",
+    "faqDownloadA": "KOVA 封閉測試開始招募. 請用你喺 Google Play 用開嘅電郵地址寄信，或者喺信入面寫低嗰個地址。唔好傳送密碼或財務資料。 如果獲選，你會另外收到邀請。應用程式仲未公開推出。",
     "faqOfflineQ": "呢個應用程式係咪可以喺冇互聯網嘅情況下運作？",
     "faqOfflineA": "財務記錄同埋自由基地喺本地運作。可選 Premium 購買，還原和存取刷新使用 Google Play 並需要連接。目前嘅 Premium 存取可能需要喺長達48小時或者重新啟動手機之後重新進行連線檢查。噉樣唔會刪除你嘅記錄，亦唔會阻止基本使用同匯出。冇提供金融雲端同步或者銀行連線。",
     "faqBankQ": "我需唔需要連接我嘅銀行戶口？",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · 記錄工作時間同工資嚟估計收入。將你嘅工作時間表同每月預算納入一個計劃。",
     "aboutPrivacy": "你嘅財務記錄會留喺呢部裝置。唔需要 KOVA 雲端帳戶、註冊或者財務雲端同步。 用 Google Play 還原支票購物。佢唔會還原或者同步財務記錄。 Premium 喺呢個安裝上面適用於跨本地設定檔。重新安裝同另一部裝置需要另外進行購買檢查。你可以透過 Google Play 更改你嘅計劃。",
     "aboutAction": "請參閱 KOVA 嘅行動",
-    "followLaunch": "喺 Instagram 追蹤 KOVA",
+    "followLaunch": "報名參加測試",
     "downloadApp": "喺 Google Play 上面攞到",
-    "launchChannel": "喺 Instagram · @kova_money 上發佈消息",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "應用程式介面為英文 · Pro · 2026-10-29",
     "plansKicker": "計劃咗第一個發佈",
     "plansTitle": "一個免費嘅基地。更多關於 Premium 。",
@@ -156,9 +156,9 @@
     "planPremiumThree": "金庫 · 人生規劃師 · 價格記錄",
     "plansNote": "KOVA Premium · 試用只會喺你確認購買 Google Play 提供畀你嘅合資格優惠後開始。 免費30日，之後 購買前 Google Play 顯示嘅價格（每月收費 / 每年收費一次）。如冇喺試用完結前取消，將自動續訂。可用資格由 Google Play 決定。",
     "plansDetails": "睇吓訂閱草稿",
-    "closingKicker": "留喺發佈會附近",
-    "closingTitle": "為更清晰嘅錢財計劃留出空間。",
-    "closingCopy": "喺 Instagram 上面追蹤 KOVA Development ，睇下應用程式預覽同發佈消息。第一次公開發佈仲係準備緊。",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "KOVA 封閉測試開始招募",
+    "closingCopy": "請用你喺 Google Play 用開嘅電郵地址寄信，或者喺信入面寫低嗰個地址。唔好傳送密碼或財務資料。 如果獲選，你會另外收到邀請。應用程式仲未公開推出。",
     "closingSecondary": "你亦可以喺 TikTok 搵到 KOVA 。",
     "forecastNote": "功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。",
     "faqDataQ": "各種分析需要幾多數據？",
@@ -253,8 +253,8 @@
     "status": {
       "label": "項目狀態",
       "title": "你嘅日常財務。發佈中嘅版本。",
-      "intro": "KOVA: Money & Budget 即將推出 Android ，提供免費底座和可選 Premium 。仲未有公開下載同銷售。",
-      "badge": "準備中 · 免費 + 可選 Premium",
+      "intro": "KOVA 封閉測試開始招募. 如果獲選，你會另外收到邀請。應用程式仲未公開推出。",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "第一個發佈會帶嚟啲咩",
@@ -269,12 +269,16 @@
           "KOVA 將財務記錄儲存喺你嘅手機上面。 Google Play 分別處理可選嘅訂閱購買、還原同存取檢查。冇提供金融雲端同步或者銀行連線。"
         ],
         [
-          "點樣跟住進度",
-          "喺 Instagram 上關注 @kova_money ，睇預覽同推出消息。價錢同確認嘅店舖連結會喺發佈之前分享。冇公佈推出日期。"
+          "KOVA 封閉測試開始招募",
+          "請用你喺 Google Play 用開嘅電郵地址寄信，或者喺信入面寫低嗰個地址。唔好傳送密碼或財務資料。"
         ]
       ],
       "note": "KOVA Development 為項目品牌。呢個應用程式仲未公開；測試結果唔等於公開銷售批准。",
       "actions": [
+        [
+          "報名參加測試",
+          "index.html#closed-test"
+        ],
         [
           "跟住 Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "更新",
       "title": "一個免費嘅基地。可選 Premium 。地方財政。",
-      "intro": "2026年10月24日：目前第一個 Android 發佈嘅計劃包括免費底座同可選嘅 Premium 。下面嘅早期條目描述咗歷史計劃。",
-      "badge": "目前更新 · 2026年10月24日",
+      "intro": "總覽頁加返快捷操作同月曆日期選擇。撳開開支類別就可以睇嗰個類別嘅交易。",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "KOVA 封閉測試開始招募. 如果獲選，你會另外收到邀請。應用程式仲未公開推出。"
+        ],
         [
           "2026-10-29 · KOVA 測試版",
           "人生規劃師 · Pro. 價格記錄 · Pro. Vault · Pro. Premium 包括工作與收入、財務日曆、所有報告、收據掃描同稅務中心。基本記帳、筆記、加密、備份、還原同資料匯出仍然免費。 功能會隨住使用 KOVA 同加入所需資料而出現。Pro 都一樣：未有足夠相關歷史資料之前，訂閱唔會顯示依賴資料嘅分析。 應用程式介面為英文."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "報名參加測試",
+          "index.html#closed-test"
+        ],
         [
           "發佈狀態",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "千祈唔好傳送密碼、加密密鑰或者真實嘅財務記錄。應用程式文件仍然係草稿，等待最終核准。",
       "actions": [
+        [
+          "報名參加測試",
+          "index.html#closed-test"
+        ],
         [
           "寫個電郵",
           "mailto:contact@kovacompass.app"

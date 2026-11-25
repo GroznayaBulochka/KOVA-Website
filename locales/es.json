@@ -18,7 +18,7 @@
     "watchVideo": "Ver la aplicación",
     "pauseVideo": "Pausa",
     "playVideo": "Jugar",
-    "releaseNote": "Beta · Antes del lanzamiento · la descarga pública aún no está disponible.",
+    "releaseNote": "Inscripciones abiertas para la prueba cerrada de KOVA.",
     "trustPrivacy": "Privacidad primero",
     "trustPrivacyCopy": "Base de datos local, sin cargas automáticas",
     "trustReports": "Resúmenes prácticos",
@@ -94,7 +94,7 @@
     "faqTitle": "Algunas respuestas simples.",
     "faqCopy": "Antes de empezar a utilizar KOVA.",
     "faqDownloadQ": "¿Puedo descargar KOVA todavía?",
-    "faqDownloadA": "Las descargas públicas aún no están disponibles. Siga a KOVA en Instagram para conocer las novedades del lanzamiento. Esta página enlazará con el listado confirmado de Google Play cuando el lanzamiento esté disponible. No se ha anunciado ninguna fecha de lanzamiento.",
+    "faqDownloadA": "Inscripciones abiertas para la prueba cerrada de KOVA. Escríbenos desde el correo que usas en Google Play o inclúyelo en el mensaje. No envíes contraseñas ni datos financieros. Si entras en la prueba, recibirás una invitación aparte. La aplicación aún no está disponible públicamente.",
     "faqOfflineQ": "¿La aplicación funciona sin internet?",
     "faqOfflineA": "Los registros financieros y la base gratuita funcionan localmente. La compra, restauración y actualización de acceso opcionales Premium utilizan Google Play y necesitan conectividad. El acceso actual a Premium puede requerir una nueva verificación de conexión después de hasta 48 horas o un reinicio del teléfono. Esto no elimina sus registros ni bloquea el uso básico ni la exportación. No se ofrece sincronización financiera en la nube ni conexión bancaria.",
     "faqBankQ": "¿Necesito conectar mi cuenta bancaria?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Registre las horas de trabajo y las tarifas para estimar los ingresos. Reúna su horario de trabajo y su presupuesto mensual en un solo plan.",
     "aboutPrivacy": "Tus datos financieros permanecen en este dispositivo. No necesitas una cuenta KOVA en la nube, registro ni sincronización financiera en la nube. La restauración comprueba las compras en Google Play. No restaura ni sincroniza datos financieros. Premium cubre los perfiles locales de esta instalación. Una reinstalación u otro dispositivo requiere comprobar la compra de nuevo. Puedes cambiar el plan en Google Play.",
     "aboutAction": "Vea KOVA en acción",
-    "followLaunch": "Sigue a KOVA en Instagram",
+    "followLaunch": "Solicitar acceso",
     "downloadApp": "Consíguelo en Google Play",
-    "launchChannel": "Novedades de lanzamiento en Instagram · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Interfaz de la aplicación en inglés · Pro · 2026-10-29",
     "plansKicker": "Planeado para el primer lanzamiento.",
     "plansTitle": "Una base libre. Más con Premium.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Caja fuerte · Life Planner · Precios",
     "plansNote": "KOVA Premium · La prueba solo comienza tras confirmar la compra de una oferta disponible para ti en Google Play. 30 días gratis, después el precio mostrado por Google Play antes de comprar (Cobro cada mes / Cobro una vez al año). Renovación automática salvo cancelación antes del fin de la prueba. Google Play determina la disponibilidad.",
     "plansDetails": "Leer el borrador de suscripción",
-    "closingKicker": "Manténgase cerca del lanzamiento",
-    "closingTitle": "Haga espacio para un plan monetario más claro.",
-    "closingCopy": "Siga a KOVA Development en Instagram para obtener vistas previas de aplicaciones y noticias de lanzamiento. El primer lanzamiento público aún está en preparación.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "Inscripciones abiertas para la prueba cerrada de KOVA",
+    "closingCopy": "Escríbenos desde el correo que usas en Google Play o inclúyelo en el mensaje. No envíes contraseñas ni datos financieros. Si entras en la prueba, recibirás una invitación aparte. La aplicación aún no está disponible públicamente.",
     "closingSecondary": "También puede encontrar KOVA en TikTok.",
     "forecastNote": "Las funciones aparecen al usar KOVA y añadir los datos que necesitan. También se aplica a Pro: la suscripción no muestra análisis basados en datos hasta que exista suficiente historial relevante.",
     "faqDataQ": "¿Cuántos datos necesita cada análisis?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Estado del proyecto",
       "title": "Tus finanzas cotidianas. Un lanzamiento en progreso.",
-      "intro": "KOVA: Money & Budget llega a Android con una base gratuita y Premium opcional. Las descargas públicas y las ventas aún no están disponibles.",
-      "badge": "En preparación · Gratis + opcional Premium",
+      "intro": "Inscripciones abiertas para la prueba cerrada de KOVA. Si entras en la prueba, recibirás una invitación aparte. La aplicación aún no está disponible públicamente.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Lo que trae el primer lanzamiento",
@@ -269,12 +269,16 @@
           "KOVA almacena registros financieros en su teléfono. Google Play maneja las comprobaciones de acceso, restauración y compra de suscripción opcional por separado. No se ofrece sincronización financiera en la nube ni conexión bancaria."
         ],
         [
-          "Cómo seguir el progreso",
-          "Siga a @kova_money en Instagram para obtener avances y noticias de lanzamiento. El precio y el enlace de la tienda confirmado se compartirán antes del lanzamiento. No se anuncia ninguna fecha de lanzamiento."
+          "Inscripciones abiertas para la prueba cerrada de KOVA",
+          "Escríbenos desde el correo que usas en Google Play o inclúyelo en el mensaje. No envíes contraseñas ni datos financieros."
         ]
       ],
       "note": "KOVA Development es la marca del proyecto. La aplicación aún no está disponible públicamente; Los resultados de las pruebas no equivalen a la aprobación de ventas públicas.",
       "actions": [
+        [
+          "Solicitar acceso",
+          "index.html#closed-test"
+        ],
         [
           "Seguir en Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Actualizaciones",
       "title": "Una base libre. Opcional Premium. Finanzas locales.",
-      "intro": "24 de octubre de 2026: el plan actual para la primera versión Android incluye una base gratuita y un Premium opcional. Las entradas anteriores a continuación describen planes históricos.",
-      "badge": "Actualización actual · 24 de octubre de 2026",
+      "intro": "Vuelven las acciones rápidas y el selector de fechas mensual al resumen. Toca una categoría de gastos para ver sus transacciones.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Inscripciones abiertas para la prueba cerrada de KOVA. Si entras en la prueba, recibirás una invitación aparte. La aplicación aún no está disponible públicamente."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Vida · Pro. Precios · Pro. Vault · Pro. Premium incluye trabajo e ingresos, calendario financiero, todos los informes, escaneo de recibos y centro fiscal. El registro básico, las notas, el cifrado, las copias, la restauración y la exportación siguen siendo gratuitos. Las funciones aparecen al usar KOVA y añadir los datos que necesitan. También se aplica a Pro: la suscripción no muestra análisis basados en datos hasta que exista suficiente historial relevante. Interfaz de la aplicación en inglés."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Solicitar acceso",
+          "index.html#closed-test"
+        ],
         [
           "Estado de lanzamiento",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Nunca envíe contraseñas, claves de cifrado o registros financieros reales. Los documentos de la aplicación siguen siendo borradores en espera de aprobación final.",
       "actions": [
+        [
+          "Solicitar acceso",
+          "index.html#closed-test"
+        ],
         [
           "Escribe un correo electrónico",
           "mailto:contact@kovacompass.app"

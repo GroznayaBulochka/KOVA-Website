@@ -54,8 +54,8 @@ window.KOVA_PROJECT_PAGES = {
     "pl": {
       "label": "Stan projektu",
       "title": "Codzienne finanse. Wydanie w przygotowaniu.",
-      "intro": "KOVA: Money & Budget powstaje na Androida z darmową bazą i opcjonalnym Premium. Publiczne pobieranie i sprzedaż nie są jeszcze dostępne.",
-      "badge": "W przygotowaniu · Free + opcjonalne Premium",
+      "intro": "Otwieramy zapisy do zamkniętego testu KOVA. Po dodaniu do testu otrzymasz osobne zaproszenie. Aplikacja nie jest jeszcze dostępna publicznie.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Co przyniesie pierwsze wydanie",
@@ -70,12 +70,16 @@ window.KOVA_PROJECT_PAGES = {
           "KOVA przechowuje dane finansowe na telefonie. Opcjonalny zakup subskrypcji, przywracanie i sprawdzanie dostępu obsługuje oddzielnie Google Play. Nie oferujemy synchronizacji finansów w chmurze ani połączenia z bankiem."
         ],
         [
-          "Jak śledzić postępy",
-          "Obserwuj @kova_money na Instagramie, żeby oglądać aplikację i śledzić wieści o premierze. Cenę i potwierdzony link do sklepu podamy przed wydaniem. Nie ogłosiliśmy daty premiery."
+          "Otwieramy zapisy do zamkniętego testu KOVA",
+          "Napisz z adresu, którego używasz w Google Play, albo podaj go w treści. Nie wysyłaj haseł ani danych finansowych."
         ]
       ],
       "note": "KOVA Development jest marką projektu. Aplikacja nie jest jeszcze publicznie dostępna; wyniki testów nie oznaczają zatwierdzenia publicznej sprzedaży.",
       "actions": [
+        [
+          "Zgłoś się do testu",
+          "index.html#closed-test"
+        ],
         [
           "Obserwuj na Instagramie",
           "https://www.instagram.com/kova_money/"
@@ -93,8 +97,8 @@ window.KOVA_PROJECT_PAGES = {
     "en": {
       "label": "Project status",
       "title": "Your everyday finances. A release in progress.",
-      "intro": "KOVA: Money & Budget is coming to Android with a free base and optional Premium. Public downloads and sales are not available yet.",
-      "badge": "In preparation · Free + optional Premium",
+      "intro": "Applications are open for the KOVA closed test. If you are added to the test, you will receive a separate invitation. The app is not publicly available yet.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "What the first release brings",
@@ -109,12 +113,16 @@ window.KOVA_PROJECT_PAGES = {
           "KOVA stores financial records on your phone. Google Play handles optional subscription purchase, restore and access checks separately. No financial cloud sync or bank connection is offered."
         ],
         [
-          "How to follow progress",
-          "Follow @kova_money on Instagram for previews and launch news. Price and the confirmed store link will be shared before release. No launch date is announced."
+          "Applications are open for the KOVA closed test",
+          "Email us from your Google Play account address, or include it in your message. Do not send passwords or financial details."
         ]
       ],
       "note": "KOVA Development is the project brand. The app is not publicly available yet; test results do not amount to public-sales approval.",
       "actions": [
+        [
+          "Apply for the test",
+          "index.html#closed-test"
+        ],
         [
           "Follow on Instagram",
           "https://www.instagram.com/kova_money/"
@@ -132,8 +140,8 @@ window.KOVA_PROJECT_PAGES = {
     "ru": {
       "label": "Статус проекта",
       "title": "Повседневные финансы. Готовимся к выпуску.",
-      "intro": "KOVA: Money & Budget готовится к выпуску на Android с бесплатными основными функциями и необязательным Premium. Публичное скачивание и продажи пока недоступны.",
-      "badge": "В подготовке · Free + необязательный Premium",
+      "intro": "Открыт набор в закрытый тест KOVA. Если вас добавят в тест, вы получите отдельное приглашение. Приложение пока недоступно для публичного скачивания.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Что будет в первом выпуске",
@@ -148,12 +156,16 @@ window.KOVA_PROJECT_PAGES = {
           "KOVA хранит финансовые данные на устройстве. Покупку, восстановление и проверку доступа Premium отдельно обрабатывает Google Play. Синхронизации финансов с облаком и подключения к банкам нет."
         ],
         [
-          "Как следить за развитием",
-          "Подпишитесь на @kova_money в Instagram, чтобы знакомиться с приложением и следить за новостями. Цену и подтверждённую ссылку на магазин объявим до выпуска. Дата пока не объявлена."
+          "Открыт набор в закрытый тест KOVA",
+          "Напишите с адреса вашего аккаунта Google Play или укажите его в письме. Не отправляйте пароли или финансовые данные."
         ]
       ],
       "note": "KOVA Development — бренд проекта. Приложение пока не доступно публично; результаты отдельных тестов не означают готовности к публичным продажам.",
       "actions": [
+        [
+          "Подать заявку",
+          "index.html#closed-test"
+        ],
         [
           "KOVA в Instagram",
           "https://www.instagram.com/kova_money/"
@@ -417,9 +429,13 @@ window.KOVA_PROJECT_PAGES = {
     "pl": {
       "label": "Aktualności",
       "title": "Darmowa baza. Opcjonalne Premium. Lokalne finanse.",
-      "intro": "24 października 2026: aktualny plan pierwszego wydania na Androida obejmuje darmową bazę i opcjonalne Premium. Wcześniejsze wpisy poniżej opisują historyczne plany.",
-      "badge": "Aktualizacja · 24 października 2026",
+      "intro": "Na ekranie głównym wróciły szybkie akcje i miesięczny widok wyboru dat. Z podsumowania wydatków możesz przejść prosto do transakcji wybranej kategorii.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Otwieramy zapisy do zamkniętego testu KOVA. Po dodaniu do testu otrzymasz osobne zaproszenie. Aplikacja nie jest jeszcze dostępna publicznie."
+        ],
         [
           "2026-10-29 · KOVA — wersja beta",
           "Planer życia · Pro. Historia cen · Pro. Premium obejmuje Work & Income, Kalendarz finansowy, wszystkie raporty, skanowanie paragonów, Centrum podatkowe i Vault. Podstawowa ewidencja finansów, Notatki, szyfrowanie, backup, przywracanie i eksport danych pozostają bezpłatne. Funkcje pojawiają się wraz z używaniem KOVA i dodawaniem potrzebnych danych. Dotyczy to również Pro: subskrypcja nie pokaże analiz wymagających danych, dopóki nie będzie wystarczającej odpowiedniej historii. Interfejs aplikacji po angielsku."
@@ -447,6 +463,10 @@ window.KOVA_PROJECT_PAGES = {
       ],
       "actions": [
         [
+          "Zgłoś się do testu",
+          "index.html#closed-test"
+        ],
+        [
           "Status wydania",
           "status.html"
         ],
@@ -460,9 +480,13 @@ window.KOVA_PROJECT_PAGES = {
     "en": {
       "label": "Updates",
       "title": "A free base. Optional Premium. Local finances.",
-      "intro": "24 October 2026: the current plan for the first Android release includes a free base and optional Premium. Earlier entries below describe historical plans.",
-      "badge": "Current update · 24 October 2026",
+      "intro": "Quick actions and the month-grid date picker are back on Overview. Tap a spending category to see its transactions.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Applications are open for the KOVA closed test. If you are added to the test, you will receive a separate invitation. The app is not publicly available yet."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Life Planner · Pro. Price History · Pro. Premium includes Work & Income, Financial Calendar, all reports, receipt scanning, Tax Center and Vault. Basic money tracking, Notes, encryption, backup, restore and data export remain free. Features appear as you use KOVA and add the data they need. This also applies to Pro: a subscription does not reveal data-dependent analyses before enough relevant data is available. App interface in English."
@@ -490,6 +514,10 @@ window.KOVA_PROJECT_PAGES = {
       ],
       "actions": [
         [
+          "Apply for the test",
+          "index.html#closed-test"
+        ],
+        [
           "Release status",
           "status.html"
         ],
@@ -503,9 +531,13 @@ window.KOVA_PROJECT_PAGES = {
     "ru": {
       "label": "Обновления",
       "title": "Бесплатная база. Необязательный Premium. Местные финансы.",
-      "intro": "24 октября 2026 г.: текущий план первого выпуска Android включает бесплатную базовую версию и дополнительный Premium. Более ранние записи ниже описывают исторические планы.",
-      "badge": "Текущее обновление · 24 октября 2026 г.",
+      "intro": "На главном экране вернулись быстрые действия и выбор дат в сетке месяца. Нажмите на категорию расходов, чтобы увидеть её операции.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Открыт набор в закрытый тест KOVA. Если вас добавят в тест, вы получите отдельное приглашение. Приложение пока недоступно для публичного скачивания."
+        ],
         [
           "2026-10-29 · KOVA — бета-версия",
           "Планер жизни · Pro. История цен · Pro. Premium включает работу и доходы, финансовый календарь, все отчёты, сканирование чеков, налоговый центр и Vault. Базовый учёт финансов, заметки, шифрование, резервное копирование, восстановление и экспорт данных остаются бесплатными. Функции появляются по мере использования KOVA и добавления нужных данных. Это относится и к Pro: подписка не покажет анализ, зависящий от данных, пока не накопится достаточно подходящей истории. Интерфейс приложения на английском."
@@ -532,6 +564,10 @@ window.KOVA_PROJECT_PAGES = {
         ]
       ],
       "actions": [
+        [
+          "Подать заявку",
+          "index.html#closed-test"
+        ],
         [
           "Статус выпуска",
           "status.html"
@@ -570,6 +606,10 @@ window.KOVA_PROJECT_PAGES = {
       ],
       "note": "Nie wysyłaj haseł, kluczy szyfrowania ani rzeczywistych danych finansowych. Dokumenty aplikacji pozostają projektami oczekującymi na końcowe zatwierdzenie.",
       "actions": [
+        [
+          "Zgłoś się do testu",
+          "index.html#closed-test"
+        ],
         [
           "Napisz e-mail",
           "mailto:contact@kovacompass.app"
@@ -610,6 +650,10 @@ window.KOVA_PROJECT_PAGES = {
       "note": "Never send passwords, encryption keys or real financial records. The app documents remain drafts awaiting final approval.",
       "actions": [
         [
+          "Apply for the test",
+          "index.html#closed-test"
+        ],
+        [
           "Write an email",
           "mailto:contact@kovacompass.app"
         ],
@@ -648,6 +692,10 @@ window.KOVA_PROJECT_PAGES = {
       ],
       "note": "Не отправляйте пароли, ключи шифрования или реальные финансовые данные. Документы приложения остаются проектами и ожидают окончательного утверждения.",
       "actions": [
+        [
+          "Подать заявку",
+          "index.html#closed-test"
+        ],
         [
           "Напишите электронное письмо",
           "mailto:contact@kovacompass.app"

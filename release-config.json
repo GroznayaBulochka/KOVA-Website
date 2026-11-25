@@ -1,9 +1,13 @@
 {
   "contract": "KOVA_PHONE_LOCAL_FREEMIUM_V1",
-  "verifiedOn": "2026-10-29",
+  "verifiedOn": "2026-11-25",
   "appStage": "BETA_PRE_RELEASE",
-  "appVersionName": "1.0.8",
-  "appVersionCode": 10,
+  "appVersionName": "1.0.9.0.0.1",
+  "appVersionCode": 13,
+  "closedTest": {
+    "applicationsOpened": "2026-11-25",
+    "emailSubject": "KOVA Android beta"
+  },
   "publicDownloadAvailable": false,
   "storeUrl": null,
   "canonicalOrigin": "https://kovacompass.app",

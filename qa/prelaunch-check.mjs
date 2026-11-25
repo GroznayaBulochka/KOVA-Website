@@ -28,6 +28,14 @@ const render=await prepareRenderer(new URL('../',import.meta.url));
 const output=new URL('artifacts/content-refresh-2026-10-29/production-samples/',import.meta.url);await mkdir(output,{recursive:true});
 for(const language of languages){
  const html=await read('dist/'+file('index',language));
+ check(language+': closed-test application is private and usable without JavaScript',()=>{
+  const primary=[...html.matchAll(/<a\b([^>]*\bdata-primary-cta(?:\s|>)[^>]*)>/g)].map(m=>m[1]);
+  assert.equal(primary.length,2);
+  assert.ok(primary.some(a=>a.includes('href="#closed-test"')&&a.includes('data-cta-location="hero"')));
+  assert.ok(primary.some(a=>a.includes('href="'+publicRelease(config).applicationUrl+'"')&&a.includes('data-cta-location="closing"')));
+  assert.ok(html.includes('id="closed-test"')&&html.includes('contact@kovacompass.app · KOVA Android beta'));
+  assert.ok(!primary.some(a=>a.includes('target="_blank"')||a.includes('play.google.com')));
+ });
  check(language+': static Free/Premium and one clear launch action',()=>{
   assert.ok(html.includes('data-primary-cta'));assert.ok(html.includes('KOVA Premium'));
   assert.ok(!html.includes('<script src="translations.js"'));assert.ok(html.includes('runtime-bootstrap.js'));

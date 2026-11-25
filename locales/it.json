@@ -18,7 +18,7 @@
     "watchVideo": "Vedi l'applicazione",
     "pauseVideo": "Pausa",
     "playVideo": "Gioca",
-    "releaseNote": "Beta · Prima del lancio · Il download pubblico non è ancora disponibile.",
+    "releaseNote": "Sono aperte le candidature al test chiuso di KOVA.",
     "trustPrivacy": "La privacy prima di tutto",
     "trustPrivacyCopy": "Database locale, nessun caricamento automatico",
     "trustReports": "Practical summaries",
@@ -94,7 +94,7 @@
     "faqTitle": "Alcune semplici risposte.",
     "faqCopy": "Prima di iniziare a utilizzare KOVA.",
     "faqDownloadQ": "Posso già scaricare KOVA?",
-    "faqDownloadA": "I download pubblici non sono ancora disponibili. Segui KOVA su Instagram per le notizie sul lancio. Questa pagina si collegherà all'elenco Google Play confermato quando la versione sarà disponibile. Nessuna data di lancio è stata annunciata.",
+    "faqDownloadA": "Sono aperte le candidature al test chiuso di KOVA. Scrivici dall’indirizzo che usi su Google Play oppure indicalo nel messaggio. Non inviare password o dati finanziari. Se verrai aggiunto al test, riceverai un invito separato. L’app non è ancora disponibile al pubblico.",
     "faqOfflineQ": "L'app funziona senza internet?",
     "faqOfflineA": "I registri finanziari e la base libera funzionano a livello locale. L'acquisto, il ripristino e l'aggiornamento dell'accesso Premium opzionali utilizzano Google Play e necessitano di connettività. L'attuale accesso Premium potrebbe richiedere un nuovo controllo della connessione dopo un massimo di 48 ore o il riavvio del telefono. Ciò non elimina i tuoi record né blocca l'utilizzo e l'esportazione di base. Non viene offerta alcuna sincronizzazione cloud finanziaria o connessione bancaria.",
     "faqBankQ": "Devo collegare il mio conto bancario?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Registra le ore di lavoro e le tariffe per stimare i guadagni. Riunisci il tuo programma di lavoro e il budget mensile in un unico piano.",
     "aboutPrivacy": "I dati finanziari restano su questo dispositivo. Non servono account cloud KOVA, registrazione o sincronizzazione finanziaria cloud. Ripristina assegni acquistati con Google Play. Non ripristina né sincronizza i record finanziari. Premium si applica ai profili locali su questa installazione. La reinstallazione e un altro dispositivo richiedono un controllo di acquisto separato. La modifica del piano è disponibile tramite Google Play.",
     "aboutAction": "Guarda KOVA in azione",
-    "followLaunch": "Segui KOVA su Instagram",
+    "followLaunch": "Candidati al test",
     "downloadApp": "Ottienilo su Google Play",
-    "launchChannel": "Lancio novità su Instagram · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Interfaccia dell’app in inglese · Pro · 2026-10-29",
     "plansKicker": "Previsto per la prima uscita",
     "plansTitle": "Una base libera. Di più con Premium.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Cassaforte · Pianificatore di vita · Storico prezzi",
     "plansNote": "KOVA Premium · La prova inizia solo dopo la conferma dell’acquisto di un’offerta per cui sei idoneo in Google Play. 30 giorni gratis, poi il prezzo mostrato da Google Play prima dell’acquisto (Fatturato ogni mese / Fatturato una volta all'anno). Rinnovo automatico salvo annullamento prima della fine della prova. La disponibilità è determinata da Google Play.",
     "plansDetails": "Leggi la bozza di abbonamento",
-    "closingKicker": "Stai vicino al lancio",
-    "closingTitle": "Fate spazio a un piano monetario più chiaro.",
-    "closingCopy": "Segui KOVA Development su Instagram per anteprime delle app e novità sul lancio. La prima versione pubblica è ancora in preparazione.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "Sono aperte le candidature al test chiuso di KOVA",
+    "closingCopy": "Scrivici dall’indirizzo che usi su Google Play oppure indicalo nel messaggio. Non inviare password o dati finanziari. Se verrai aggiunto al test, riceverai un invito separato. L’app non è ancora disponibile al pubblico.",
     "closingSecondary": "Puoi trovare KOVA anche su TikTok.",
     "forecastNote": "Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente.",
     "faqDataQ": "Quanti dati servono per ciascuna analisi?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Stato del progetto",
       "title": "Le tue finanze quotidiane. Una versione in corso.",
-      "intro": "KOVA: Money & Budget arriverà su Android con una base gratuita e Premium opzionale. I download e le vendite pubbliche non sono ancora disponibili.",
-      "badge": "In preparazione · Gratuito + opzionale Premium",
+      "intro": "Sono aperte le candidature al test chiuso di KOVA. Se verrai aggiunto al test, riceverai un invito separato. L’app non è ancora disponibile al pubblico.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Cosa porta la prima versione",
@@ -269,12 +269,16 @@
           "KOVA memorizza i record finanziari sul tuo telefono. Google Play gestisce separatamente l'acquisto di abbonamenti opzionali, il ripristino e i controlli di accesso. Non viene offerta alcuna sincronizzazione cloud finanziaria o connessione bancaria."
         ],
         [
-          "Come seguire i progressi",
-          "Segui @kova_money su Instagram per anteprime e novità sul lancio. Il prezzo e il collegamento al negozio confermato verranno condivisi prima del rilascio. Nessuna data di lancio è annunciata."
+          "Sono aperte le candidature al test chiuso di KOVA",
+          "Scrivici dall’indirizzo che usi su Google Play oppure indicalo nel messaggio. Non inviare password o dati finanziari."
         ]
       ],
       "note": "KOVA Development è il marchio del progetto. L'app non è ancora disponibile al pubblico; i risultati dei test non equivalgono all'approvazione delle vendite pubbliche.",
       "actions": [
+        [
+          "Candidati al test",
+          "index.html#closed-test"
+        ],
         [
           "Segui su Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Aggiornamenti",
       "title": "Una base libera. Opzionale Premium. Finanze locali.",
-      "intro": "24 ottobre 2026: il piano attuale per la prima versione di Android include una base gratuita e Premium opzionale. Le voci precedenti di seguito descrivono i piani storici.",
-      "badge": "Aggiornamento attuale · 24 ottobre 2026",
+      "intro": "Nella panoramica tornano le azioni rapide e la scelta delle date sulla griglia mensile. Tocca una categoria di spesa per vederne i movimenti.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Sono aperte le candidature al test chiuso di KOVA. Se verrai aggiunto al test, riceverai un invito separato. L’app non è ancora disponibile al pubblico."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Pianificatore di vita · Pro. Storico prezzi · Pro. Vault · Pro. Premium include lavoro e reddito, calendario finanziario, tutti i report, scansione ricevute e centro fiscale. Contabilità di base, note, crittografia, backup, ripristino ed esportazione restano gratuiti. Le funzioni appaiono usando KOVA e aggiungendo i dati necessari. Vale anche per Pro: un abbonamento non mostra analisi basate sui dati finché non esiste uno storico pertinente sufficiente. Interfaccia dell’app in inglese."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Candidati al test",
+          "index.html#closed-test"
+        ],
         [
           "Stato del rilascio",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Non inviare mai password, chiavi di crittografia o documenti finanziari reali. I documenti dell'app rimangono bozze in attesa di approvazione definitiva.",
       "actions": [
+        [
+          "Candidati al test",
+          "index.html#closed-test"
+        ],
         [
           "Scrivi un'e-mail",
           "mailto:contact@kovacompass.app"

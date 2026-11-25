@@ -18,7 +18,7 @@
     "watchVideo": "Tazama programu",
     "pauseVideo": "Sitisha",
     "playVideo": "Cheza",
-    "releaseNote": "Beta · Kabla ya uzinduzi · upakuaji wa umma bado haupatikani.",
+    "releaseNote": "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa.",
     "trustPrivacy": "Faragha kwanza",
     "trustPrivacyCopy": "Hifadhidata ya ndani, hakuna upakiaji otomatiki",
     "trustReports": "Muhtasari wa vitendo",
@@ -94,7 +94,7 @@
     "faqTitle": "Majibu machache rahisi.",
     "faqCopy": "Kabla ya kuanza kutumia KOVA.",
     "faqDownloadQ": "Je, ninaweza kupakua KOVA bado?",
-    "faqDownloadA": "Vipakuliwa vya umma bado havipatikani. Fuata KOVA kwenye Instagram kwa habari za uzinduzi. Ukurasa huu utaunganishwa kwenye tangazo la Google Play lililothibitishwa toleo litakapopatikana. Hakuna tarehe ya uzinduzi iliyotangazwa.",
+    "faqDownloadA": "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa. Tuandikie kutoka anwani ya barua pepe unayotumia kwenye Google Play au itaje kwenye ujumbe. Usitume nenosiri au taarifa za kifedha. Ukiongezwa kwenye jaribio utapokea mwaliko tofauti. Programu bado haipatikani kwa umma.",
     "faqOfflineQ": "Je, programu inafanya kazi bila mtandao?",
     "faqOfflineA": "Rekodi za fedha na Msingi wa Bure hufanya kazi ndani ya nchi. Premium ya hiari ya kununua, kurejesha na kufikia onyesha upya tumia Google Play na unahitaji muunganisho. Ufikiaji wa sasa wa Premium unaweza kuhitaji ukaguzi mpya uliounganishwa baada ya hadi saa 48 au kuwasha tena simu. Hii haifuti rekodi zako au kuzuia matumizi ya kimsingi na usafirishaji. Hakuna usawazishaji wa wingu wa kifedha au muunganisho wa benki unaotolewa.",
     "faqBankQ": "Je, ninahitaji kuunganisha akaunti yangu ya benki?",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · Rekodi saa za kazi na viwango ili kukadiria mapato. Weka ratiba yako ya kazi na bajeti ya kila mwezi katika mpango mmoja.",
     "aboutPrivacy": "Rekodi zako za fedha hubaki kwenye kifaa hiki. Hakuna haja ya akaunti ya wingu ya KOVA, usajili au usawazishaji wa fedha kwenye wingu. Rejesha ununuzi wa hundi kwa Google Play. Hairejeshi au kusawazisha rekodi za kifedha. Premium inatumika katika wasifu wa ndani kwenye usakinishaji huu. Kusakinisha upya na kifaa kingine kunahitaji ukaguzi tofauti wa ununuzi. Kubadilisha mpango wako kunapatikana kupitia Google Play.",
     "aboutAction": "Tazama KOVA katika hatua",
-    "followLaunch": "Fuata KOVA kwenye Instagram",
+    "followLaunch": "Omba kujiunga na jaribio",
     "downloadApp": "Ipate kwenye Google Play",
-    "launchChannel": "Zindua habari kwenye Instagram · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "Kiolesura cha programu kiko kwa Kiingereza · Pro · 2026-10-29",
     "plansKicker": "Imepangwa kwa toleo la kwanza",
     "plansTitle": "Msingi wa bure. Zaidi kwa Premium.",
@@ -156,9 +156,9 @@
     "planPremiumThree": "Vault · Mpangaji Maisha · Historia ya Bei",
     "plansNote": "KOVA Premium · Jaribio huanza tu baada ya kuthibitisha ununuzi wa ofa unayostahiki katika Google Play. Siku 30 bure, kisha bei iliyoonyeshwa na Google Play kabla ya kununua (Hutozwa kila mwezi / Hutozwa mara moja kwa mwaka). Husasishwa kiotomatiki isipokuwa ughairi kabla ya jaribio kuisha. Google Play huamua ustahiki.",
     "plansDetails": "Soma rasimu ya usajili",
-    "closingKicker": "Kaa karibu na uzinduzi",
-    "closingTitle": "Tengeneza nafasi kwa mpango wazi wa pesa.",
-    "closingCopy": "Fuata KOVA Development kwenye Instagram kwa muhtasari wa programu na habari za uzinduzi. Toleo la kwanza la umma bado linatayarishwa.",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa",
+    "closingCopy": "Tuandikie kutoka anwani ya barua pepe unayotumia kwenye Google Play au itaje kwenye ujumbe. Usitume nenosiri au taarifa za kifedha. Ukiongezwa kwenye jaribio utapokea mwaliko tofauti. Programu bado haipatikani kwa umma.",
     "closingSecondary": "Unaweza pia kupata KOVA kwenye TikTok.",
     "forecastNote": "Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha.",
     "faqDataQ": "Kila uchanganuzi unahitaji data kiasi gani?",
@@ -253,8 +253,8 @@
     "status": {
       "label": "Hali ya mradi",
       "title": "Fedha zako za kila siku. Toleo linaendelea.",
-      "intro": "KOVA: Money & Budget inakuja kwa Android ikiwa na msingi usiolipishwa na Premium ya hiari. Vipakuliwa na mauzo ya umma bado hayapatikani.",
-      "badge": "Inatayarishwa · Bila malipo + kwa hiari Premium",
+      "intro": "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa. Ukiongezwa kwenye jaribio utapokea mwaliko tofauti. Programu bado haipatikani kwa umma.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "Nini kutolewa kwanza huleta",
@@ -269,12 +269,16 @@
           "KOVA huhifadhi rekodi za fedha kwenye simu yako. Google Play hushughulikia ununuzi wa hiari wa usajili, kurejesha na kufikia ukaguzi kando. Hakuna usawazishaji wa wingu wa kifedha au muunganisho wa benki unaotolewa."
         ],
         [
-          "Jinsi ya kufuata maendeleo",
-          "Fuata @kova_money kwenye Instagram kwa muhtasari na habari za uzinduzi. Bei na kiungo cha duka kilichothibitishwa kitashirikiwa kabla ya kutolewa. Hakuna tarehe ya uzinduzi iliyotangazwa."
+          "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa",
+          "Tuandikie kutoka anwani ya barua pepe unayotumia kwenye Google Play au itaje kwenye ujumbe. Usitume nenosiri au taarifa za kifedha."
         ]
       ],
       "note": "KOVA Development ndio chapa ya mradi. Programu bado haipatikani kwa umma; matokeo ya majaribio hayalingani na idhini ya mauzo ya umma.",
       "actions": [
+        [
+          "Omba kujiunga na jaribio",
+          "index.html#closed-test"
+        ],
         [
           "Fuata kwa Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "Sasisho",
       "title": "Msingi wa bure. Chaguo Premium. Fedha za ndani.",
-      "intro": "Tarehe 24 Oktoba 2026: mpango wa sasa wa toleo la kwanza la Android unajumuisha msingi usiolipishwa na Premium ya hiari. Maingizo ya awali hapa chini yanaelezea mipango ya kihistoria.",
-      "badge": "Sasisho la sasa · 24 Oktoba 2026",
+      "intro": "Vitendo vya haraka na kalenda ya mwezi ya kuchagua tarehe vimerudi kwenye muhtasari. Gusa aina ya matumizi ili kuona miamala yake.",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "Maombi ya jaribio la KOVA kwa mwaliko yamefunguliwa. Ukiongezwa kwenye jaribio utapokea mwaliko tofauti. Programu bado haipatikani kwa umma."
+        ],
         [
           "2026-10-29 · KOVA beta",
           "Mpangaji Maisha · Pro. Historia ya Bei · Pro. Vault · Pro. Premium inajumuisha kazi na mapato, kalenda ya fedha, ripoti zote, kuchanganua risiti na kituo cha kodi. Uwekaji kumbukumbu wa msingi, madokezo, usimbaji fiche, nakala rudufu, urejeshaji na uhamishaji wa data hubaki bure. Vipengele huonekana unapotumia KOVA na kuongeza data inayohitajika. Hii inahusu Pro pia: usajili hauonyeshi uchanganuzi unaotegemea data kabla ya kuwa na historia husika ya kutosha. Kiolesura cha programu kiko kwa Kiingereza."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "Omba kujiunga na jaribio",
+          "index.html#closed-test"
+        ],
         [
           "Hali ya kutolewa",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "Usitume kamwe manenosiri, funguo za usimbaji fiche au rekodi halisi za fedha. Hati za programu zinasalia kuwa rasimu zinazosubiri idhini ya mwisho.",
       "actions": [
+        [
+          "Omba kujiunga na jaribio",
+          "index.html#closed-test"
+        ],
         [
           "Andika barua pepe",
           "mailto:contact@kovacompass.app"

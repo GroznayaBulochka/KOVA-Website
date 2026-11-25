@@ -66,7 +66,7 @@
     const safe={};
     if(['hero','closing'].includes(context.placement))safe.placement=context.placement;
     if(['instagram','tiktok'].includes(context.channel))safe.channel=context.channel;
-    if(['follow_launch','google_play'].includes(context.action))safe.action=context.action;
+    if(['closed_test','google_play'].includes(context.action))safe.action=context.action;
     window.gtag('event', name, {send_to:ID, page_location:pageLocation(), page_title:page, language:lang(),...safe});
     return true;
   }
@@ -212,10 +212,10 @@
     const primary=el?.closest('[data-primary-cta]');
     const social=el?.closest('a[href]');
     if(primary){
-      const action=primary.dataset.ctaAction || 'follow_launch';
+      const action=primary.dataset.ctaAction || 'closed_test';
       track('primary_cta',{placement:primary.dataset.ctaLocation,action});
       if(action==='google_play')track('google_play_click');
-      else track('social_click',{channel:'instagram'});
+      else if(primary.dataset.ctaLocation==='closing')track('contact_click');
     }
     else if(social && /^https:\/\/www\.(?:instagram\.com\/kova_money\/|tiktok\.com\/@kova_money)$/.test(social.href)) track('social_click',{channel:social.href.includes('instagram.com')?'instagram':'tiktok'});
     else if (el?.closest('[data-video-open]')) track('presentation_open');

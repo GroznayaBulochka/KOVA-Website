@@ -18,7 +18,7 @@
     "watchVideo": "查看应用程序",
     "pauseVideo": "暂停",
     "playVideo": "玩",
-    "releaseNote": "Beta · 发布前 · 尚不提供公开下载。",
+    "releaseNote": "KOVA 封闭测试现已开放报名.",
     "trustPrivacy": "隐私第一",
     "trustPrivacyCopy": "本地数据库，不自动上传",
     "trustReports": "实用总结",
@@ -94,7 +94,7 @@
     "faqTitle": "几个简单的答案。",
     "faqCopy": "在开始使用 KOVA 之前。",
     "faqDownloadQ": "我可以下载 KOVA 吗？",
-    "faqDownloadA": "尚不提供公共下载。关注Instagram上的KOVA以获取发布消息。当版本可用时，此页面将链接到已确认的 Google Play 列表。尚未宣布推出日期。",
+    "faqDownloadA": "KOVA 封闭测试现已开放报名. 请用 Google Play 账号的邮箱来信，或在邮件中注明该地址。请勿发送密码或财务信息。 入选后会另行收到邀请。应用尚未公开发布。",
     "faqOfflineQ": "该应用程序可以在没有互联网的情况下运行吗？",
     "faqOfflineA": "财务记录和免费基地在本地工作。可选 Premium 购买、恢复和访问刷新使用 Google Play 并需要连接。当前的 Premium 访问可能需要在最多 48 小时后进行新的连接检查或重新启动手机。这不会删除您的记录或阻止基本使用和导出。不提供金融云同步或银行连接。",
     "faqBankQ": "我需要连接我的银行账户吗？",
@@ -137,9 +137,9 @@
     "aboutIncomeCopy": "Pro · 记录工作时间和费率以估算收入。将您的工作日程和每月预算纳入一个计划。",
     "aboutPrivacy": "财务记录保留在此设备上。无需 KOVA 云账户、注册或财务云同步。 恢复购买会通过 Google Play 验证购买，但不会恢复或同步财务记录。Premium 适用于本次安装中的本地个人资料。重新安装或使用其他设备时需要单独验证购买。您可以在 Google Play 中更改订阅方案。",
     "aboutAction": "查看 KOVA 的实际应用",
-    "followLaunch": "在 Instagram 关注 KOVA",
+    "followLaunch": "申请参加测试",
     "downloadApp": "在 Google Play 上获取",
-    "launchChannel": "Instagram上线消息 · @kova_money",
+    "launchChannel": "contact@kovacompass.app · KOVA Android beta",
     "workScreenNote": "应用界面为英语 · Pro · 2026-10-29",
     "plansKicker": "计划首次发布",
     "plansTitle": "一个免费基地。 Premium 的更多内容。",
@@ -156,9 +156,9 @@
     "planPremiumThree": "保险库 · 人生规划 · 价格历史",
     "plansNote": "KOVA Premium · 试用期仅在您确认购买 Google Play 中可用的合资格优惠后开始。 免费30天，之后 购买前 Google Play 显示的价格（每月扣费 / 每年扣费一次）。若未在试用结束前取消，将自动续订。是否可用由 Google Play 决定。",
     "plansDetails": "阅读订阅草稿",
-    "closingKicker": "密切关注发布会",
-    "closingTitle": "为更清晰的财务计划腾出空间。",
-    "closingCopy": "在 Instagram 上关注 KOVA Development 以获取应用预览和发布新闻。首次公开发布仍在准备中。",
+    "closingKicker": "KOVA · Android",
+    "closingTitle": "KOVA 封闭测试现已开放报名",
+    "closingCopy": "请用 Google Play 账号的邮箱来信，或在邮件中注明该地址。请勿发送密码或财务信息。 入选后会另行收到邀请。应用尚未公开发布。",
     "closingSecondary": "您还可以在TikTok上找到KOVA。",
     "forecastNote": "功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。",
     "faqDataQ": "不同分析需要多少数据？",
@@ -253,8 +253,8 @@
     "status": {
       "label": "项目状况",
       "title": "您的日常财务状况。正在发布。",
-      "intro": "KOVA: Money & Budget 即将推出 Android，带有免费底座和可选的 Premium。尚未提供公开下载和销售。",
-      "badge": "准备中·免费+可选Premium",
+      "intro": "KOVA 封闭测试现已开放报名. 入选后会另行收到邀请。应用尚未公开发布。",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
         [
           "第一个版本带来了什么",
@@ -269,12 +269,16 @@
           "KOVA 在您的手机上存储财务记录。 Google Play 单独处理可选订阅购买、恢复和访问检查。不提供金融云同步或银行连接。"
         ],
         [
-          "如何跟踪进展",
-          "在 Instagram 上关注 @kova_money 以获取预览和发布新闻。价格和已确认的商店链接将在发布前分享。尚未公布推出日期。"
+          "KOVA 封闭测试现已开放报名",
+          "请用 Google Play 账号的邮箱来信，或在邮件中注明该地址。请勿发送密码或财务信息。"
         ]
       ],
       "note": "KOVA Development为项目品牌。该应用程序尚未公开发布；测试结果并不等于公开销售的批准。",
       "actions": [
+        [
+          "申请参加测试",
+          "index.html#closed-test"
+        ],
         [
           "关注Instagram",
           "https://www.instagram.com/kova_money/"
@@ -372,9 +376,13 @@
     "updates": {
       "label": "更新",
       "title": "一个免费基地。可选Premium。地方财政。",
-      "intro": "2026 年 10 月 24 日：第一个 Android 版本的当前计划包括免费基础版和可选的 Premium。下面的早期条目描述了历史计划。",
-      "badge": "当前更新 · 2026 年 10 月 24 日",
+      "intro": "概览页恢复了快捷操作和月历日期选择器。点按支出类别即可查看该类别的交易。",
+      "badge": "2026-11-25 · Android 1.0.9.0.0.1 (13)",
       "cards": [
+        [
+          "2026-11-25 · Android 1.0.9.0.0.1 (13)",
+          "KOVA 封闭测试现已开放报名. 入选后会另行收到邀请。应用尚未公开发布。"
+        ],
         [
           "2026-10-29 · KOVA 测试版",
           "Life Planner · Pro. Price History · Pro. Vault · Pro. Premium 包含工作与收入、财务日历、全部报告、收据扫描和税务中心。基础记账、笔记、加密、备份、恢复和数据导出仍然免费。 功能会随着使用 KOVA 并添加所需数据而出现。Pro 也一样：在相关历史数据充足之前，订阅不会显示依赖数据的分析。 应用界面为英语."
@@ -401,6 +409,10 @@
         ]
       ],
       "actions": [
+        [
+          "申请参加测试",
+          "index.html#closed-test"
+        ],
         [
           "发布状态",
           "status.html"
@@ -437,6 +449,10 @@
       ],
       "note": "切勿发送密码、加密密钥或真实的财务记录。该应用程序文件仍处于草稿状态，等待最终批准。",
       "actions": [
+        [
+          "申请参加测试",
+          "index.html#closed-test"
+        ],
         [
           "写一封电子邮件",
           "mailto:contact@kovacompass.app"

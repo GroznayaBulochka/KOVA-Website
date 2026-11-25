@@ -15,7 +15,7 @@ try{
   await b.send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:width<700});
   await b.navigate(`http://127.0.0.1:4174/index${lang==='pl'?'':'-'+lang}.html?lang=${lang}`,ready(lang));await delay(150);
   const initial=await b.evaluate(`(()=>{const c=document.querySelector('[data-primary-cta]'),r=c.getBoundingClientRect();return {layout:document.documentElement.scrollWidth===document.documentElement.clientWidth,ctaVisible:r.top>=0&&r.bottom<=innerHeight,cta:c.href,action:c.dataset.ctaAction,model:document.querySelector('#plans').innerText,privacy:document.querySelector('.hero-privacy').innerText,reduced:getComputedStyle(document.documentElement).scrollBehavior==='auto',broken:[...document.images].filter(i=>i.complete&&i.getAttribute('src')&&!i.naturalWidth).length}})()`);
-  record(name+': no page overflow',initial.layout);record(name+': launch CTA visible and correct',initial.ctaVisible&&initial.cta==='https://www.instagram.com/kova_money/'&&initial.action==='follow_launch');
+  record(name+': no page overflow',initial.layout);record(name+': closed-test CTA visible and correct',initial.ctaVisible&&new URL(initial.cta).hash==='#closed-test'&&initial.action==='closed_test');
   record(name+': Free/Premium and privacy rendered',initial.model.includes('Premium')&&initial.privacy.length>5);record(name+': reduced motion and intact images',initial.reduced&&initial.broken===0);
   record(name+': no all-language bundle or unrelated locale',requests.slice(before).every(url=>!new URL(url).pathname.endsWith('/translations.js')&&(!url.includes('/locales/')||new URL(url).pathname.endsWith('/'+lang+'.json'))));
   await b.screenshot(resolve(out,`home-${name}.png`));
