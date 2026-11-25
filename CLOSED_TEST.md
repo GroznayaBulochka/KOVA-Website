@@ -1,7 +1,8 @@
 # Nabór do zamkniętego testu Androida
 
 Publiczny adres zapisów: https://kovacompass.app/#closed-test. Strona otwiera pocztę
-użytkownika; nic nie jest wysyłane, zanim sam nie wyśle wiadomości. Adres i temat
+użytkownika lub, po wybraniu „Napisz w Gmailu”, edytor Gmaila w przeglądarce.
+Nic nie jest wysyłane, zanim sam nie wyśle wiadomości. Adres i temat
 są widoczne również bez aplikacji pocztowej i bez JavaScriptu.
 
 1. Na skrzynce odbierającej pocztę z contact@kovacompass.app wyszukaj temat

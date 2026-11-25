@@ -31,7 +31,8 @@ for(const language of languages){
  check(language+': closed-test application is private and usable without JavaScript',()=>{
   const primary=[...html.matchAll(/<a\b([^>]*\bdata-primary-cta(?:\s|>)[^>]*)>/g)].map(m=>m[1]);
   assert.equal(primary.length,2);
-  assert.ok(primary.some(a=>a.includes('href="#closed-test"')&&a.includes('data-cta-location="hero"')));
+  assert.ok(primary.some(a=>a.includes('href="'+publicRelease(config).applicationUrl+'"')&&a.includes('data-cta-location="hero"')));
+  assert.equal((html.match(/data-webmail-compose/g)||[]).length,2);
   assert.ok(primary.some(a=>a.includes('href="'+publicRelease(config).applicationUrl+'"')&&a.includes('data-cta-location="closing"')));
   assert.ok(html.includes('id="closed-test"')&&html.includes('contact@kovacompass.app · KOVA Android beta'));
   assert.ok(!primary.some(a=>a.includes('target="_blank"')||a.includes('play.google.com')));

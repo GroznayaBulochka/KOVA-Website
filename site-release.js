@@ -7,7 +7,7 @@
   const lang=document.documentElement.lang;
   const copy=window.KOVA_TRANSLATIONS?.[lang]?.home||base[lang]||base.en;
   for(const link of document.querySelectorAll('[data-primary-cta]')){
-   link.href=config.available?config.storeUrl:(link.dataset.ctaLocation==='hero'?'#closed-test':config.applicationUrl);
+   link.href=config.available?config.storeUrl:config.applicationUrl;
    link.dataset.ctaAction=config.available?'google_play':'closed_test';
    if(config.available)link.querySelector('[data-primary-cta-label]').textContent=copy.downloadApp;
   }

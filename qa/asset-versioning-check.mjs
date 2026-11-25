@@ -43,6 +43,15 @@ const request=async url=>{
 };
 let report=await verifyDeployment('https://example.test',sample,{request});
 check('Complete deployment passes',()=>assert.equal(report.result,'PASS'));
+const originalIndex=fixture.get('index.html');
+const edgeIndex=originalIndex.toString().replace('<!--email_off-->','').replace('<!--/email_off-->','');
+fixture.set('index.html',Buffer.from(edgeIndex));
+report=await verifyDeployment('https://example.test',sample,{request});
+check('Consumed email-protection comments preserve the exact original hash',()=>assert.equal(report.result,'PASS'));
+fixture.set('index.html',Buffer.from(edgeIndex.replace('mailto:contact@','mailto:other@')));
+report=await verifyDeployment('https://example.test',sample,{request});
+check('Even one changed mail recipient on the live site fails verification',()=>assert.equal(report.result,'FAIL'));
+fixture.set('index.html',originalIndex);
 stale='landing.css';report=await verifyDeployment('https://example.test',sample,{request});
 check('Mixed cached CSS fails despite a current manifest',()=>{assert.equal(report.result,'FAIL');assert.ok(report.failures.some(f=>f.path===stale));});
 stale=null;missing='index-en.html';report=await verifyDeployment('https://example.test',sample,{request});

@@ -70,6 +70,7 @@ body:has(dialog[open]){overflow:hidden}
 html[dir="rtl"] .intro-bottom .button .icon { transform:rotate(180deg); }
 /* Concrete use cases, product model and a clear launch path. */
 .hero-status-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:5px;color:#d7dfce;font-size:13px;text-decoration:underline;text-underline-offset:4px}.hero-status-link .icon{width:16px;height:16px}
+.mail-alternative{margin:.25rem 0}.mail-alternative a{display:inline-flex;align-items:center;min-height:44px;color:inherit;font-size:1rem;font-weight:600;text-decoration:underline;text-underline-offset:.22em}
 .hero .button:focus-visible,.launch-panel .button:focus-visible{outline:3px solid #fff;outline-offset:5px}
 .intro-cards article{display:flex;flex-direction:column}.intro-cards article>p{flex:1}
 .scenario-screen{display:block;align-self:center;width:100%;min-height:44px;margin:24px 0 0;padding:12px;border:1px solid #ffffff24;border-radius:16px;background:#080e09;transition:border-color .2s,background .2s}

@@ -16,6 +16,10 @@ export async function verifyDeployment(origin,expected,{request=fetch,pause=ms=>
    // Persistent errors and any content mismatch still fail the strict hash check.
    for(attempt=1;attempt<=3;attempt++){
     response=await request(url,{headers:{'Cache-Control':'no-cache','User-Agent':'KOVA-deployment-check/1.0'},signal:AbortSignal.timeout(20000)});
+    // The deploy API can finish before the new manifest reaches this edge.
+    if(path==='build-manifest.json'&&response.ok&&attempt<3&&sha256(Buffer.from(await response.clone().arrayBuffer()))!==pin.sha256){
+     await response.arrayBuffer();await pause(attempt*10000);continue;
+    }
     if(![429,500,502,503,504].includes(response.status)||attempt===3)break;
     await response.arrayBuffer();await pause(attempt*1000);
    }
@@ -23,7 +27,17 @@ export async function verifyDeployment(origin,expected,{request=fetch,pause=ms=>
    const row={path,url:String(url),status:response.status,attempts:attempt,sha256:sha256(bytes),cacheControl:response.headers.get('cache-control'),etag:response.headers.get('etag'),age:response.headers.get('age')};
    report.checks.push(row);
    const validStatus=response.ok||(path.startsWith('404')&&response.status===404);
-   if(!validStatus||row.sha256!==pin.sha256)report.failures.push({path,status:row.status,reason:validStatus?'Content differs from the prepared artifact':'HTTP error'});
+   // Cloudflare consumes the two email_off directives around <body>. Rebuild
+   // only those exact bytes and require the original artifact hash, including
+   // all link targets, email addresses and script content.
+   if(row.sha256!==pin.sha256&&(path==='/'||path.endsWith('.html'))){
+    const html=bytes.toString('utf8');
+    if(!html.includes('<!--email_off-->')&&!html.includes('<!--/email_off-->')){
+     const marked=html.replace(/(<body\b[^>]*>)/,'$1<!--email_off-->').replace('</body>','<!--/email_off--></body>');
+     if(marked!==html&&sha256(Buffer.from(marked))===pin.sha256)row.emailDirectivesConsumed=true;
+    }
+   }
+   if(!validStatus||(row.sha256!==pin.sha256&&!row.emailDirectivesConsumed))report.failures.push({path,status:row.status,reason:validStatus?'Content differs from the prepared artifact':'HTTP error'});
    if(path==='/'||path.endsWith('.html')){
     const maxAge=/max-age=(\d+)/i.exec(row.cacheControl||'');
     if(!/no-(?:store|cache)/i.test(row.cacheControl||'')&&(!maxAge||Number(maxAge[1])>0))report.warnings.push({path,reason:'HTML may stay cached; configure revalidation on the actual host/CDN',cacheControl:row.cacheControl});
